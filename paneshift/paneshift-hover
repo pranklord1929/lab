@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# Builds and launches the macOS-only, click-through drag indicator on demand.
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+SOURCE="$ROOT/macos/PaneShiftDropHover.swift"
+CACHE_DIR="${XDG_CACHE_HOME:-$HOME/Library/Caches}/PaneShift"
+BINARY="$CACHE_DIR/paneshift-drop-hover"
+
+[ "$(uname)" = Darwin ] || exit 0
+[ -f "$SOURCE" ] || { printf 'PaneShift hover source missing: %s\n' "$SOURCE" >&2; exit 1; }
+mkdir -p "$CACHE_DIR"
+
+if [ ! -x "$BINARY" ] || [ "$SOURCE" -nt "$BINARY" ]; then
+  temporary="$CACHE_DIR/.paneshift-drop-hover.$$"
+  swiftc "$SOURCE" -framework Cocoa -o "$temporary"
+  chmod 755 "$temporary"
+  mv "$temporary" "$BINARY"
+fi
+
+exec "$BINARY" "$@"

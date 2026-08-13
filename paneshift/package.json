@@ -1,0 +1,10 @@
+{
+  "name": "paneshift",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "app": "./paneshift-app --session ${ROOM_SESSION:-bb}",
+    "app:check": "./paneshift-app --session ${ROOM_SESSION:-bb} --check",
+    "test": "bash tests/agent_room.test.sh"
+  }
+}

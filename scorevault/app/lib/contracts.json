@@ -1,0 +1,15 @@
+{
+  "chainId": 31337,
+  "mockUSDC": "0x2F745f0c5521E7405a7dEB2DB18c2C262720e7fa",
+  "scoreEngine": "0x11c7D5E0214d1F7d8143aD97f3F38cff905f4b49",
+  "leagueFactory": "0xF56387bEd73A0c437a4239da3AD547B1E4afdc5c",
+  "leagues": [
+    {
+      "id": 0,
+      "vault": "0xfCb96FB658A5dD528Fe773E4990FDcAf8F3d54Df",
+      "predictions": "0x0088DdfaaDBb00A10c500936a6727684ae2085df",
+      "oracle": "0xeD5a3118561c8325e3DC5d81dADD49c53B9b8b4C",
+      "distributor": "0x49c8b7b75341562fdC31b90194d78670E721f3d7"
+    }
+  ]
+}

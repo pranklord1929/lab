@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Public PaneShift entry point. The engine keeps its historical filename for compatibility.
+set -euo pipefail
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+exec "$ROOT/agent-room.sh" "$@"

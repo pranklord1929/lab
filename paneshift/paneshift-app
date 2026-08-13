@@ -1,0 +1,71 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+SESSION="${ROOM_SESSION:-}"
+EXTRA_ARGS=()
+WATCH=0
+
+while [ "$#" -gt 0 ]; do
+  case "$1" in
+    --session) SESSION="${2:?missing session}"; shift 2 ;;
+    --config) shift 2 ;;
+    --check) EXTRA_ARGS+=(--check); shift ;;
+    --watch) WATCH=1; shift ;;
+    *) shift ;;
+  esac
+done
+
+# No explicit session and none in the environment: attach to whichever live tmux
+# session owns an `agents` window, so the launcher finds the room whatever it is
+# called. Falls back to the engine default name.
+if [ -z "$SESSION" ]; then
+  SESSION="$(tmux list-windows -a -F '#{session_name}:#{window_name}' 2>/dev/null | awk -F: '$2 == "agents" { print $1; exit }')"
+  [ -n "$SESSION" ] || SESSION="agent-room"
+fi
+
+source_signature() {
+  find "$ROOT/Sources" "$ROOT/macos" "$ROOT/Package.swift" -type f \( -name '*.swift' -o -name 'Package.swift' \) -print0 |
+    xargs -0 stat -f '%m %N' |
+    shasum
+}
+
+run_app() {
+  "$ROOT/.build/debug/PaneShiftApp" --session "$SESSION" &
+  APP_PID=$!
+}
+
+if [ "$WATCH" = 1 ]; then
+  APP_PID=''
+  cleanup() {
+    [ -z "${APP_PID:-}" ] || kill "$APP_PID" 2>/dev/null || true
+  }
+  trap cleanup EXIT
+  trap 'exit 0' INT TERM
+
+  last_signature=''
+  while true; do
+    current_signature="$(source_signature)"
+    if [ "$current_signature" != "$last_signature" ]; then
+      last_signature="$current_signature"
+      # Build BEFORE stopping the running app: a failed build must neither close
+      # the window nor kill this watcher (set -e would exit on a bare failure).
+      if swift build --package-path "$ROOT"; then
+        [ -z "${APP_PID:-}" ] || kill "$APP_PID" 2>/dev/null || true
+        wait "${APP_PID:-}" 2>/dev/null || true
+        run_app
+      else
+        printf 'paneshift-app: build failed — keeping the running app, waiting for the next change\n' >&2
+      fi
+    elif [ -n "${APP_PID:-}" ] && ! kill -0 "$APP_PID" 2>/dev/null; then
+      run_app
+    fi
+    sleep 1
+  done
+fi
+
+if [ "${#EXTRA_ARGS[@]}" -gt 0 ]; then
+  exec swift run --package-path "$ROOT" PaneShiftApp --session "$SESSION" "${EXTRA_ARGS[@]}"
+else
+  exec swift run --package-path "$ROOT" PaneShiftApp --session "$SESSION"
+fi

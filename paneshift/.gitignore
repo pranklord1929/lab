@@ -1,0 +1,5 @@
+.DS_Store
+.build/
+.agent-context/runtime/
+shots/
+__pycache__/

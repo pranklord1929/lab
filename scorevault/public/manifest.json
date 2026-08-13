@@ -1,0 +1,14 @@
+{
+  "name": "ScoreVault",
+  "short_name": "ScoreVault",
+  "description": "The World Cup 2026 prediction game for you and your crew.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050505",
+  "theme_color": "#050505",
+  "orientation": "portrait",
+  "icons": [
+    { "src": "/icon", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/apple-icon", "sizes": "180x180", "type": "image/png" }
+  ]
+}
