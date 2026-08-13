@@ -1,7 +1,9 @@
 # notice
 
-Snapshots. Not releases.
+Snapshots of three company-shaped experiments.
 
-Fork at your own risk. Assume broken defaults, missing env, and incomplete mental models frozen mid-thought.
+Not production releases. Not vapor either — each tree maps to a real product thesis and a rough business model.
 
-Upstream originals are separate repos under different ownership. This tree is a portfolio-shaped dump for reading, not a monorepo you should depend on.
+Fork knowing the code is early. Argue with the ideas; that’s the useful part.
+
+Upstream originals live in separate repos.
