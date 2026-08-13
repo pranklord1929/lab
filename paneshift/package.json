@@ -2,6 +2,7 @@
   "name": "paneshift",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "app": "./paneshift-app --session ${ROOM_SESSION:-bb}",
     "app:check": "./paneshift-app --session ${ROOM_SESSION:-bb} --check",

@@ -19,11 +19,13 @@ If it runs, cool. If it doesn’t, default.
 
 | path | idea | rough model | state |
 |------|------|-------------|--------|
-| [`paneshift/`](./paneshift) | local tooling around agents — panes, rooms, how you actually run the loop on a machine | power tools for people who live in terminals; useful first, hype never | furthest · still rough |
+| [`paneshift/`](./paneshift) | local tooling around agents — panes, rooms, how you actually run the loop on a machine | power tools for people who live in terminals; useful first, hype never | furthest · still rough · **[MIT](./paneshift/LICENSE)** |
 | [`scorevault/`](./scorevault) | on-chain scores / vaults / commitments | stakes + coordination instead of “another sports app” | prototype · thesis in the contracts |
 | [`seo-autopilot/`](./seo-autopilot) | research → draft → publish (SEO/GEO) without babysitting every post | model labor × distribution; volume with a spine | early CLI · loop sketched |
 
 Copies. Full history lives upstream. Read for intent, not SLAs.
+
+**Licensing:** only [PaneShift](./paneshift) is explicitly open source ([MIT](./paneshift/LICENSE)). Other folders may use different terms — see [NOTICE.md](./NOTICE.md). This lab root is not MIT-licensed as a whole.
 
 ---
 

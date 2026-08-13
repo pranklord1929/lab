@@ -271,3 +271,20 @@ Commandes disponibles :
 ./paneshift --config /chemin/du/projet/agent-room.conf doctor
 ./agent-memory.sh --config /chemin/du/projet/agent-room.conf health
 ```
+
+## License
+
+[PaneShift is open source software released under the MIT License.](./LICENSE)
+
+Copyright (c) 2026 pranklord.
+
+This license applies only to the contents of this `paneshift/` directory.
+Other experiments in the parent [lab](../) repository may use different terms.
+
+## Contributing
+
+Issues, bug reports, documentation improvements, design feedback, and pull
+requests are welcome.
+
+Please keep changes focused on PaneShift. Open an issue first for large design
+shifts. Preserve existing third-party notices if you vendor anything new.
