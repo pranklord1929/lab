@@ -5,10 +5,22 @@ ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SESSION="${ROOM_SESSION:-}"
 EXTRA_ARGS=()
 WATCH=0
+SSH_HOST="${PANESHIFT_SSH_HOST:-}"
+SERVER_CONFIG="${PANESHIFT_SERVER_CONFIG:-$HOME/.config/paneshift/server.conf}"
+AUTO_UPDATE="${PANESHIFT_AUTO_UPDATE:-1}"
+# Explicit target: "local" runs entirely on this Mac and never reads the OVH
+# server config; "ovh" reads it and drives the remote instance. Default is
+# local so the desktop never wakes (and bills) an OVH server by accident.
+MODE="${PANESHIFT_MODE:-local}"
 
 while [ "$#" -gt 0 ]; do
   case "$1" in
     --session) SESSION="${2:?missing session}"; shift 2 ;;
+    --ssh) SSH_HOST="${2:?missing SSH host}"; shift 2 ;;
+    --server-config) SERVER_CONFIG="${2:?missing server config}"; shift 2 ;;
+    --no-update) AUTO_UPDATE=0; shift ;;
+    --local) MODE=local; shift ;;
+    --ovh) MODE=ovh; shift ;;
     --config) shift 2 ;;
     --check) EXTRA_ARGS+=(--check); shift ;;
     --watch) WATCH=1; shift ;;
@@ -16,11 +28,45 @@ while [ "$#" -gt 0 ]; do
   esac
 done
 
+if [ "$MODE" = ovh ]; then
+  if [ -f "$SERVER_CONFIG" ]; then
+    # shellcheck source=/dev/null
+    source "$SERVER_CONFIG"
+    SSH_HOST="${SSH_HOST:-${PANESHIFT_SSH_HOST:-}}"
+    SESSION="${SESSION:-${PANESHIFT_ROOM_SESSION:-}}"
+  fi
+  if [ -z "$SSH_HOST" ]; then
+    printf 'paneshift-app: mode OVH demandé mais aucun PANESHIFT_SSH_HOST défini (server config: %s).\nCopie %s/server.example.conf vers ce chemin, ou lance ./paneshift-local.\n' \
+      "$SERVER_CONFIG" "$ROOT" >&2
+    exit 2
+  fi
+else
+  # Mode local : on ignore totalement le server config OVH et on force tmux
+  # sur cette machine, même si un --ssh ou un PANESHIFT_SSH_HOST traîne.
+  SSH_HOST=''
+fi
+
+# Desktop launches update only by fast-forward and only on a pristine checkout.
+# Local work is never overwritten or stashed.
+if [ "$AUTO_UPDATE" = 1 ] && git -C "$ROOT" diff --quiet && git -C "$ROOT" diff --cached --quiet &&
+   [ -z "$(git -C "$ROOT" status --porcelain --untracked-files=normal)" ]; then
+  git -C "$ROOT" fetch -q origin main 2>/dev/null || true
+  git -C "$ROOT" merge --ff-only -q origin/main 2>/dev/null || true
+fi
+
+if [ -n "$SSH_HOST" ]; then
+  "$ROOT/paneshift-server" --config "$SERVER_CONFIG" start-room
+fi
+
 # No explicit session and none in the environment: attach to whichever live tmux
 # session owns an `agents` window, so the launcher finds the room whatever it is
 # called. Falls back to the engine default name.
 if [ -z "$SESSION" ]; then
-  SESSION="$(tmux list-windows -a -F '#{session_name}:#{window_name}' 2>/dev/null | awk -F: '$2 == "agents" { print $1; exit }')"
+  if [ -n "$SSH_HOST" ]; then
+    SESSION="${PANESHIFT_ROOM_SESSION:-bb}"
+  else
+    SESSION="$(tmux list-windows -a -F '#{session_name}:#{window_name}' 2>/dev/null | awk -F: '$2 == "agents" { print $1; exit }')"
+  fi
   [ -n "$SESSION" ] || SESSION="agent-room"
 fi
 
@@ -31,7 +77,9 @@ source_signature() {
 }
 
 run_app() {
-  "$ROOT/.build/debug/PaneShiftApp" --session "$SESSION" &
+  args=(--session "$SESSION" --server-config "$SERVER_CONFIG" --server-controller "$ROOT/paneshift-server")
+  [ -z "$SSH_HOST" ] || args+=(--ssh "$SSH_HOST")
+  "$ROOT/.build/debug/PaneShiftApp" "${args[@]}" &
   APP_PID=$!
 }
 
@@ -65,7 +113,11 @@ if [ "$WATCH" = 1 ]; then
 fi
 
 if [ "${#EXTRA_ARGS[@]}" -gt 0 ]; then
-  exec swift run --package-path "$ROOT" PaneShiftApp --session "$SESSION" "${EXTRA_ARGS[@]}"
+  args=(--session "$SESSION" --server-config "$SERVER_CONFIG" --server-controller "$ROOT/paneshift-server")
+  [ -z "$SSH_HOST" ] || args+=(--ssh "$SSH_HOST")
+  exec swift run --package-path "$ROOT" PaneShiftApp "${args[@]}" "${EXTRA_ARGS[@]}"
 else
-  exec swift run --package-path "$ROOT" PaneShiftApp --session "$SESSION"
+  args=(--session "$SESSION" --server-config "$SERVER_CONFIG" --server-controller "$ROOT/paneshift-server")
+  [ -z "$SSH_HOST" ] || args+=(--ssh "$SSH_HOST")
+  exec swift run --package-path "$ROOT" PaneShiftApp "${args[@]}"
 fi

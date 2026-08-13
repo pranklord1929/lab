@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# PaneShift — VERSION OVH.
+# Lit ~/.config/paneshift/server.conf, réveille l'instance OVHcloud si besoin,
+# monte la room à distance puis ouvre le GUI branché en SSH sur le serveur.
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+exec "$ROOT/paneshift-app" --ovh "$@"

@@ -120,10 +120,11 @@ final class DropHover {
     private var eventTap: CFMachPort?
     private var eventSource: CFRunLoopSource?
     private var lastHotkey = Date.distantPast
-    private let remoteHost: String
+    /// nil = room locale : aucun envoi réseau, on insère le chemin local.
+    private let remoteHost: String?
     private let remoteDir: String
 
-    init(session: String, remoteHost: String, remoteDir: String) {
+    init(session: String, remoteHost: String?, remoteDir: String) {
         self.session = session
         self.remoteHost = remoteHost
         self.remoteDir = remoteDir
@@ -239,7 +240,10 @@ final class DropHover {
             return (fields[0] == "1", index, String(fields[2]))
         }
         guard let current = panes.first(where: { $0.active }) else { return }
-        let targetIndex = ((current.index - 1 + delta + 4) % 4) + 1
+        // Le cycle doit couvrir tous les agents de la room, pas quatre : avec six
+        // agents les rôles 5 et 6 étaient inatteignables au clavier.
+        let count = max(panes.count, 1)
+        let targetIndex = ((current.index - 1 + delta + count) % count) + 1
         guard let target = panes.first(where: { $0.index == targetIndex }) else { return }
         _ = tmux(["select-window", "-t", "\(session):agents"])
         _ = tmux(["select-pane", "-t", target.pane])
@@ -368,7 +372,12 @@ final class DropHover {
     }
 
     private func uploadAndInsert(url: URL, paneId: String) {
-        let host = remoteHost
+        // Room locale : le fichier est déjà sur la machine qui exécute tmux.
+        // Aucun transfert réseau ne doit avoir lieu — on insère le chemin local.
+        guard let host = remoteHost else {
+            _ = tmux(["send-keys", "-t", paneId, "-l", "regarde la capture \(url.path) "])
+            return
+        }
         let dir = remoteDir
         DispatchQueue.global(qos: .userInitiated).async {
             let formatter = DateFormatter()
@@ -401,7 +410,10 @@ guard let session = optionValue("--session", in: arguments) else {
 // --ssh : machine où tourne la session tmux (les commandes tmux passent par SSH).
 tmuxSSHHost = optionValue("--ssh", in: arguments)
 // --remote : machine où l'on dépose les images (par défaut, la même que --ssh).
-let remoteHost = optionValue("--remote", in: arguments) ?? tmuxSSHHost ?? "ubuntu@152.228.144.109"
+// Sans --ssh ni --remote la room est locale : aucun hôte par défaut, donc aucun
+// envoi réseau possible. L'ancienne valeur codée en dur expédiait les captures
+// d'une room locale vers un serveur OVH.
+let remoteHost = optionValue("--remote", in: arguments) ?? tmuxSSHHost
 let remoteDir = optionValue("--remote-dir", in: arguments) ?? "/home/ubuntu/work/PANESHIFT/shots"
 NSApplication.shared.setActivationPolicy(.accessory)
 let hover = DropHover(session: session, remoteHost: remoteHost, remoteDir: remoteDir)

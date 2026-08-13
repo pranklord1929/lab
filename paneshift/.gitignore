@@ -3,3 +3,6 @@
 .agent-context/runtime/
 shots/
 __pycache__/
+.agent-context/
+agent-room.local.conf
+*.local.conf

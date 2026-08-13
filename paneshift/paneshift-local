@@ -1,0 +1,57 @@
+#!/usr/bin/env bash
+# PaneShift — VERSION LOCALE.
+# Monte la Control Room entièrement sur ce Mac (tmux local, aucun serveur OVH,
+# aucune clé API) puis ouvre le GUI. Idéal pour travailler l'interface.
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+CONFIG="${PANESHIFT_LOCAL_CONFIG:-$ROOT/agent-room.local.conf}"
+# La version locale s'ancre par défaut sur la moitié droite de l'écran, pour
+# suivre les changements en direct. Mettre PANESHIFT_DOCK_RIGHT=0 pour désactiver.
+export PANESHIFT_DOCK_RIGHT="${PANESHIFT_DOCK_RIGHT:-1}"
+
+# Récupère un éventuel --config explicite ; laisse tout le reste au GUI.
+PASSTHRU=()
+while [ "$#" -gt 0 ]; do
+  case "$1" in
+    --config) CONFIG="${2:?missing config}"; shift 2 ;;
+    *) PASSTHRU+=("$1"); shift ;;
+  esac
+done
+
+[ -f "$CONFIG" ] || {
+  printf 'paneshift-local: configuration locale introuvable: %s\n' "$CONFIG" >&2
+  exit 1
+}
+
+# Nom de session lu dans la config (défaut sûr si absent).
+SESSION="$(bash -c 'set -euo pipefail; CONFIG_DIR="$(cd "$(dirname "$1")" && pwd)"; # shellcheck source=/dev/null
+  source "$1"; printf "%s" "${ROOM_SESSION:-paneshift-local}"' _ "$CONFIG")"
+
+# Crée la room localement si elle n'existe pas encore (sans l'attacher).
+if ! tmux has-session -t "$SESSION" 2>/dev/null; then
+  "$ROOT/paneshift" --config "$CONFIG" --session "$SESSION" --no-attach
+fi
+
+# OpenClaw bridge: keep a status mirror for Telegram (Napoleon) unless disabled.
+# PANESHIFT_BRIDGE=0 to skip. Default: on.
+if [ "${PANESHIFT_BRIDGE:-1}" != "0" ] && [ -x "$ROOT/bin/paneshift-bridge-heartbeat" ]; then
+  BRIDGE_OUT="${PANESHIFT_BRIDGE_OUT:-$HOME/agent-os/personal-ops/memory}"
+  mkdir -p "$BRIDGE_OUT"
+  PID_FILE="$BRIDGE_OUT/paneshift-bridge-heartbeat.pid"
+  if [ -f "$PID_FILE" ] && kill -0 "$(cat "$PID_FILE" 2>/dev/null)" 2>/dev/null; then
+    : # already watching
+  else
+    # One-shot immediately so Telegram has fresh state as the GUI opens.
+    "$ROOT/bin/paneshift-bridge-heartbeat" --config "$CONFIG" --out-dir "$BRIDGE_OUT" >/dev/null 2>&1 || true
+    nohup "$ROOT/bin/paneshift-bridge-heartbeat" --config "$CONFIG" --out-dir "$BRIDGE_OUT" \
+      --watch "${PANESHIFT_BRIDGE_INTERVAL:-30}" \
+      >/dev/null 2>&1 &
+    printf 'paneshift-local: OpenClaw bridge heartbeat started (pid %s)\n' "$!" >&2
+  fi
+fi
+
+if [ "${#PASSTHRU[@]}" -gt 0 ]; then
+  exec "$ROOT/paneshift-app" --local --session "$SESSION" "${PASSTHRU[@]}"
+fi
+exec "$ROOT/paneshift-app" --local --session "$SESSION"

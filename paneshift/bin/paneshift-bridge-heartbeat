@@ -1,0 +1,75 @@
+#!/usr/bin/env bash
+# Write PaneShift room status for OpenClaw (Napoleon / Telegram).
+# Safe: read-only status dump. No agent control.
+#
+# Usage:
+#   paneshift-bridge-heartbeat
+#   paneshift-bridge-heartbeat --config /path/to/agent-room.conf
+#   paneshift-bridge-heartbeat --watch 30
+#
+# Writes under OUT_DIR (default ~/agent-os/personal-ops/memory):
+#   paneshift-status.json / .md
+#   paneshift-status.prev.json  (previous snapshot for transitions)
+#   paneshift-events.md         (recent dead/busy/up/down lines)
+
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+CONFIG="${PANESHIFT_CONFIG:-$ROOT/agent-room.local.conf}"
+OUT_DIR="${PANESHIFT_BRIDGE_OUT:-$HOME/agent-os/personal-ops/memory}"
+WATCH=0
+INTERVAL=30
+
+while [ "$#" -gt 0 ]; do
+  case "$1" in
+    --config) CONFIG="${2:?}"; shift 2 ;;
+    --out-dir) OUT_DIR="${2:?}"; shift 2 ;;
+    --watch)
+      WATCH=1
+      shift
+      if [ "$#" -gt 0 ] && [[ "$1" =~ ^[0-9]+$ ]]; then INTERVAL="$1"; shift; fi
+      ;;
+    -h|--help)
+      sed -n '2,16p' "$0" | sed 's/^# \{0,1\}//'
+      exit 0
+      ;;
+    *) echo "unknown arg: $1" >&2; exit 2 ;;
+  esac
+done
+
+[ -f "$CONFIG" ] || { echo "config not found: $CONFIG" >&2; exit 1; }
+mkdir -p "$OUT_DIR"
+
+JSON="$OUT_DIR/paneshift-status.json"
+PREV="$OUT_DIR/paneshift-status.prev.json"
+MD="$OUT_DIR/paneshift-status.md"
+EVENTS="$OUT_DIR/paneshift-events.md"
+
+write_once() {
+  local json stamp
+  stamp="$(date -u '+%Y-%m-%dT%H:%M:%SZ')"
+
+  if [ -f "$JSON" ]; then
+    cp -f "$JSON" "$PREV" 2>/dev/null || true
+  fi
+
+  if ! json="$("$ROOT/paneshift" --config "$CONFIG" status --json 2>/dev/null)"; then
+    json=""
+  fi
+  if [ -z "$json" ]; then
+    json=$(python3 -c 'import json,datetime; print(json.dumps({"schema":1,"product":"paneshift","session_live":False,"agents":[],"error":"status-failed","generated_at":datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")}))')
+  fi
+  printf '%s\n' "$json" > "$JSON"
+
+  python3 "$ROOT/bin/paneshift-status-to-md.py" "$JSON" "$MD" "$PREV" "$EVENTS"
+  printf '[%s] status → %s\n' "$stamp" "$MD"
+}
+
+if [ "$WATCH" -eq 1 ]; then
+  # PID file so paneshift-local can avoid double watchers
+  printf '%s\n' "$$" > "$OUT_DIR/paneshift-bridge-heartbeat.pid"
+  trap 'rm -f "$OUT_DIR/paneshift-bridge-heartbeat.pid"' EXIT
+  while true; do write_once || true; sleep "$INTERVAL"; done
+else
+  write_once
+fi

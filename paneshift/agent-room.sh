@@ -32,9 +32,11 @@ ROOM_THEME="${ROOM_THEME:-light}"
 ROOM_SIDEBAR_WIDTH="${ROOM_SIDEBAR_WIDTH:-34}"
 ROOM_STATE_DIR="${ROOM_STATE_DIR:-$ROOM_ROOT/.agent-context/runtime}"
 ROOM_MEMORY_SCRIPT="${ROOM_MEMORY_SCRIPT:-$SCRIPT_DIR/agent-memory.sh}"
+ROOM_AGENT_COUNT="${ROOM_AGENT_COUNT:-4}"
 ROOM_MEMORY_HEARTBEAT_SECONDS="${ROOM_MEMORY_HEARTBEAT_SECONDS:-900}"
 ROOM_ALLOW_SHARED_WORKSPACES="${ROOM_ALLOW_SHARED_WORKSPACES:-0}"
 ROOM_DROP_HOVER="${ROOM_DROP_HOVER:-1}"
+ROOM_SUBSCRIPTION_ONLY="${ROOM_SUBSCRIPTION_ONLY:-1}"
 OVH_USAGE_REFRESH_SECONDS="${OVH_USAGE_REFRESH_SECONDS:-3600}"
 ROOM_BG="${ROOM_BG:-#7A251E}"
 ROOM_FG="${ROOM_FG:-#D7C9A7}"
@@ -52,6 +54,23 @@ agent_value() {
   eval "printf '%s' \"\${AGENT_${index}_${field}:-}\""
 }
 
+agent_indices() {
+  seq 1 "$ROOM_AGENT_COUNT"
+}
+
+valid_agent_index() {
+  case "${1:-}" in ''|*[!0-9]*) return 1 ;; esac
+  [ "$1" -ge 1 ] && [ "$1" -le "$ROOM_AGENT_COUNT" ]
+}
+
+provider_names() {
+  printf '%s\n' anthropic openai grok local
+}
+
+agent_symbol() {
+  case "$1" in 1) printf '①' ;; 2) printf '②' ;; 3) printf '③' ;; 4) printf '④' ;; 5) printf '⑤' ;; 6) printf '⑥' ;; *) printf '%s' "$1" ;; esac
+}
+
 memory_run() {
   [ -x "$ROOM_MEMORY_SCRIPT" ] || return 0
   "$ROOM_MEMORY_SCRIPT" --config "$CONFIG" --session "$ROOM_SESSION" "$@"
@@ -59,27 +78,33 @@ memory_run() {
 
 memory_bootstrap() {
   local output
-  output="$(memory_run bootstrap "$1" 2>/dev/null || true)"
+  output="$(memory_run bootstrap "$1")" || return 1
+  [ -n "$output" ] || return 1
   printf '%s' "$output"
 }
 
 memory_snapshot() {
-  memory_run snapshot "$1" "${2:-manual}" >/dev/null 2>&1 || true
+  memory_run snapshot "$1" "${2:-manual}" >/dev/null
+}
+
+memory_checkpoint() {
+  memory_run checkpoint "$1" "${2:-milestone}" >/dev/null
 }
 
 memory_refresh() {
   local reason="${1:-manual}" minimum_age="${2:-0}"
-  memory_run snapshot-room "$reason" "$minimum_age" >/dev/null 2>&1 || true
+  memory_run snapshot-room "$reason" "$minimum_age" >/dev/null
 }
 
 memory_health() {
-  memory_run health 2>/dev/null || printf '0|4|0|0|0|never|0'
+  memory_run health 2>/dev/null || printf '0|%s|0|0|0|never|0' "$ROOM_AGENT_COUNT"
 }
 
 normalise_provider() {
   case "$1" in
     anthropic|claude) printf '%s' 'anthropic' ;;
     openai|codex) printf '%s' 'openai' ;;
+    grok|xai) printf '%s' 'grok' ;;
     local) printf '%s' 'local' ;;
     *) return 1 ;;
   esac
@@ -89,6 +114,7 @@ provider_label() {
   case "$1" in
     anthropic) printf 'ANTHROPIC' ;;
     openai) printf 'OPENAI' ;;
+    grok) printf 'GROK' ;;
     local) printf 'LOCAL' ;;
     *) printf '%s' "$1" | tr '[:lower:]' '[:upper:]' ;;
   esac
@@ -98,6 +124,7 @@ provider_runtime() {
   case "$1" in
     anthropic) printf 'Claude Code' ;;
     openai) printf 'Codex' ;;
+    grok) printf 'Grok Build' ;;
     local) printf 'Local CLI' ;;
     *) printf 'Unknown runtime' ;;
   esac
@@ -115,6 +142,7 @@ provider_command() {
       command="$(agent_value "$index" OPENAI_COMMAND)"
       [ -n "$command" ] || command="$(agent_value "$index" CODEX_COMMAND)"
       ;;
+    grok) command="$(agent_value "$index" GROK_COMMAND)" ;;
     local) command="$(agent_value "$index" LOCAL_COMMAND)" ;;
   esac
   [ -n "$command" ] || die "$(provider_label "$provider") is not configured for $(agent_value "$index" NAME)"
@@ -129,6 +157,13 @@ launch_command() {
   # flag outranks user settings, so the user's global `tui` stays untouched.
   if [ "$provider" = anthropic ]; then
     command="$command --settings '{\"tui\":\"default\"}'"
+  elif [ "$provider" = openai ]; then
+    command="$command --no-alt-screen"
+  elif [ "$provider" = grok ]; then
+    command="$command --no-alt-screen"
+  fi
+  if [ "$ROOM_SUBSCRIPTION_ONLY" = 1 ]; then
+    command="env -u OPENAI_API_KEY -u ANTHROPIC_API_KEY -u ANTHROPIC_AUTH_TOKEN -u XAI_API_KEY -u GROK_API_KEY -u CLAUDE_CODE_USE_BEDROCK -u CLAUDE_CODE_USE_VERTEX -u CLAUDE_CODE_USE_FOUNDRY $command"
   fi
   if [ "$model" = default ]; then
     printf '%s' "$command"
@@ -150,6 +185,7 @@ provider_is_available() {
       command="$(agent_value "$index" OPENAI_COMMAND)"
       [ -n "$command" ] || command="$(agent_value "$index" CODEX_COMMAND)"
       ;;
+    grok) command="$(agent_value "$index" GROK_COMMAND)" ;;
     local) command="$(agent_value "$index" LOCAL_COMMAND)" ;;
   esac
   [ -n "$command" ]
@@ -159,6 +195,65 @@ provider_state_file() {
   local room_key
   room_key="$(printf '%s' "$ROOM_SESSION" | tr -cs '[:alnum:]_.-' '_')"
   printf '%s/%s.providers' "$ROOM_STATE_DIR" "$room_key"
+}
+
+# A paused role is deliberately stopped — not broken. Keeping that distinct
+# matters: `doctor` must not resurrect it, and the UI must not cry "process
+# exited" over a decision the operator made on purpose.
+paused_state_file() {
+  local room_key
+  room_key="$(printf '%s' "$ROOM_SESSION" | tr -cs '[:alnum:]_.-' '_')"
+  printf '%s/%s.paused' "$ROOM_STATE_DIR" "$room_key"
+}
+
+agent_is_paused() {
+  local index="$1" file
+  file="$(paused_state_file)"
+  [ -f "$file" ] || return 1
+  grep -qx "$index" "$file" 2>/dev/null
+}
+
+set_paused_flag() {
+  local index="$1" want="$2" file temp
+  file="$(paused_state_file)"
+  mkdir -p "$ROOM_STATE_DIR"
+  [ -f "$file" ] || : > "$file"
+  temp="$(mktemp "$ROOM_STATE_DIR/.paused.XXXXXX")"
+  grep -vx "$index" "$file" 2>/dev/null > "$temp" || true
+  [ "$want" = 1 ] && printf '%s\n' "$index" >> "$temp"
+  chmod 600 "$temp"
+  mv "$temp" "$file"
+}
+
+pause_agent() {
+  local requested="$1" index pane name
+  require_session
+  index="$(resolve_index "$requested")" || die "unknown agent: $requested"
+  name="$(agent_value "$index" NAME)"
+  pane="$(pane_for_index "$index")"
+  [ -n "$pane" ] || die "pane $index not found"
+  memory_checkpoint "$index" 'pause' >/dev/null 2>&1 || true
+  set_paused_flag "$index" 1
+  tmux set-option -p -t "$pane" @agent_paused 1 2>/dev/null || true
+  # Replace the CLI with a plain shell showing why it is idle, so the pane reads
+  # as intentional rather than crashed.
+  tmux respawn-pane -k -t "$pane" -c "$(agent_value "$index" DIR)" \
+    "printf '\\033[2J\\033[H\\n  %s is PAUSED.\\n\\n  Resume it with:\\n    %s --config %s --session %s resume %s\\n\\n' \
+     '$name' '$SCRIPT_PATH' '$CONFIG' '$ROOM_SESSION' '$index'; exec \$SHELL -l"
+  printf '%s paused.\n' "$name"
+}
+
+resume_agent() {
+  local requested="$1" index pane name
+  require_session
+  index="$(resolve_index "$requested")" || die "unknown agent: $requested"
+  name="$(agent_value "$index" NAME)"
+  pane="$(pane_for_index "$index")"
+  [ -n "$pane" ] || die "pane $index not found"
+  set_paused_flag "$index" 0
+  tmux set-option -p -t "$pane" @agent_paused 0 2>/dev/null || true
+  launch_agent "$index" "$pane" "$(selected_provider "$index")"
+  printf '%s resumed.\n' "$name"
 }
 
 model_state_file() {
@@ -200,8 +295,8 @@ remember_model() {
   file="$(model_state_file)"
   mkdir -p "$ROOM_STATE_DIR"
   temp="$(mktemp "$ROOM_STATE_DIR/.model-routing.XXXXXX")"
-  for current in 1 2 3 4; do
-    for current_provider in anthropic openai local; do
+  for current in $(agent_indices); do
+    for current_provider in $(provider_names); do
       if [ "$current" = "$index" ] && [ "$current_provider" = "$provider" ]; then
         printf '%s\t%s\t%s\n' "$current" "$current_provider" "$requested" >> "$temp"
       else
@@ -240,7 +335,7 @@ remember_provider() {
   file="$(provider_state_file)"
   mkdir -p "$ROOM_STATE_DIR"
   temp="$(mktemp "$ROOM_STATE_DIR/.provider-routing.XXXXXX")"
-  for current in 1 2 3 4; do
+  for current in $(agent_indices); do
     if [ "$current" = "$index" ]; then
       printf '%s\t%s\n' "$current" "$requested" >> "$temp"
     else
@@ -253,9 +348,9 @@ remember_provider() {
 
 validate_workspace_isolation() {
   local first second first_dir second_dir shared=0 pairs=''
-  for first in 1 2 3 4; do
+  for first in $(agent_indices); do
     first_dir="$(agent_value "$first" DIR)"
-    for second in 1 2 3 4; do
+    for second in $(agent_indices); do
       [ "$second" -gt "$first" ] || continue
       second_dir="$(agent_value "$second" DIR)"
       if [ "$first_dir" = "$second_dir" ]; then
@@ -270,9 +365,9 @@ validate_workspace_isolation() {
 
 report_shared_workspaces() {
   local first second first_dir second_dir found=0
-  for first in 1 2 3 4; do
+  for first in $(agent_indices); do
     first_dir="$(agent_value "$first" DIR)"
-    for second in 1 2 3 4; do
+    for second in $(agent_indices); do
       [ "$second" -gt "$first" ] || continue
       second_dir="$(agent_value "$second" DIR)"
       if [ "$first_dir" = "$second_dir" ]; then
@@ -287,8 +382,10 @@ report_shared_workspaces() {
 
 validate_config() {
   local index field value
+  case "$ROOM_AGENT_COUNT" in ''|*[!0-9]*) die 'ROOM_AGENT_COUNT must be an integer' ;; esac
+  [ "$ROOM_AGENT_COUNT" -ge 1 ] && [ "$ROOM_AGENT_COUNT" -le 9 ] || die 'ROOM_AGENT_COUNT must be between 1 and 9'
   [ -d "$ROOM_ROOT" ] || die "project directory not found: $ROOM_ROOT"
-  for index in 1 2 3 4; do
+  for index in $(agent_indices); do
     for field in SLOT NAME ROLE DIR PROVIDER COLOR; do
       value="$(agent_value "$index" "$field")"
       [ -n "$value" ] || die "AGENT_${index}_${field} manque dans $(basename "$CONFIG")"
@@ -310,14 +407,16 @@ require_session() {
 
 pane_for_index() {
   local index="$1"
+  # Under `set -o pipefail`, a missing tmux session would fail this pipeline and
+  # abort the caller (status --json, doctor helpers). Always succeed with empty.
   tmux list-panes -t "$ROOM_SESSION:agents" -F '#{@agent_index}|#{pane_id}' 2>/dev/null |
-    awk -F '|' -v wanted="$index" '$1 == wanted { print $2; exit }'
+    awk -F '|' -v wanted="$index" '$1 == wanted { print $2; exit }' || true
 }
 
 pane_for_slot() {
   local slot="$1"
   tmux list-panes -t "$ROOM_SESSION:agents" -F '#{@agent_slot}|#{pane_id}' 2>/dev/null |
-    awk -F '|' -v wanted="$slot" '$1 == wanted { print $2; exit }'
+    awk -F '|' -v wanted="$slot" '$1 == wanted { print $2; exit }' || true
 }
 
 sidebar_pane() {
@@ -327,8 +426,8 @@ sidebar_pane() {
 
 resolve_index() {
   local requested="${1:-}" index slot name
-  case "$requested" in 1|2|3|4) printf '%s\n' "$requested"; return ;; esac
-  for index in 1 2 3 4; do
+  if valid_agent_index "$requested"; then printf '%s\n' "$requested"; return; fi
+  for index in $(agent_indices); do
     slot="$(agent_value "$index" SLOT)"
     name="$(agent_value "$index" NAME)"
     if [ "$requested" = "$slot" ] || [ "$requested" = "$name" ]; then
@@ -350,7 +449,16 @@ clipboard_backend() {
 }
 
 paste_into_pane() {
-  local pane="$1"
+  local pane="$1" index
+  # Never dump clipboard into a bare shell — that is how prompts become shell
+  # commands after a CLI exits (see AUDIT-BUGS CODEX-2).
+  if ! agent_process_is_live "$pane"; then
+    index="$(tmux show-option -p -v -t "$pane" @agent_index 2>/dev/null || true)"
+    if [ -n "$index" ] && agent_is_paused "$index"; then
+      die "agent $index is paused — resume it before pasting"
+    fi
+    die "agent CLI is not running in this pane (shell only) — run: paneshift doctor"
+  fi
   case "$(clipboard_backend)" in
     macos) pbpaste | tmux load-buffer - ;;
     wayland) wl-paste --no-newline | tmux load-buffer - ;;
@@ -426,14 +534,26 @@ bind_clickable_controls() {
   tmux bind-key -T root MouseDragEnd1Border run-shell "$sync_drag"
   tmux set-hook -t "$ROOM_SESSION" client-resized "run-shell '$sidebar_resize'"
   tmux set-hook -t "$ROOM_SESSION" client-detached "run-shell -b '$memory_detach'"
-  for index in 1 2 3 4; do
+  # Status-bar cells: one per agent, then the two room-wide buttons. These used
+  # to be pinned to Control4/Control5, which collided with agents 5 and 6 as soon
+  # as the room grew past four. The buttons now sit after the last agent.
+  local count slot
+  count=0
+  for index in $(agent_indices); do
     pane_button="\"#{@agent_room_script}\" --config \"#{@agent_room_config}\" --session \"#{session_name}\" pane-menu \"$index\""
-    tmux bind-key -T root "MouseDown1Control$((index - 1))" run-shell "$pane_button" 2>/dev/null || true
+    tmux bind-key -T root "MouseDown1Control$count" run-shell "$pane_button" 2>/dev/null || true
+    count=$((count + 1))
   done
-  tmux bind-key -T root MouseDown1Control4 run-shell "$providers_click" 2>/dev/null || true
-  tmux bind-key -T root MouseDown1Control5 run-shell "$reset_click" 2>/dev/null || true
-  tmux unbind-key -T root MouseDown1Control6 2>/dev/null || true
-  tmux unbind-key -T root MouseDown1Control7 2>/dev/null || true
+  tmux bind-key -T root "MouseDown1Control$count" run-shell "$providers_click" 2>/dev/null || true
+  tmux bind-key -T root "MouseDown1Control$((count + 1))" run-shell "$reset_click" 2>/dev/null || true
+  # Clear any stale cell above ours. An arithmetic loop, not `seq`: BSD seq
+  # counts *down* when the start exceeds the end, so `seq 8 7` would have
+  # unbound the reset button that was just assigned.
+  slot=$((count + 2))
+  while [ "$slot" -le 9 ]; do
+    tmux unbind-key -T root "MouseDown1Control$slot" 2>/dev/null || true
+    slot=$((slot + 1))
+  done
 }
 
 apply_theme() {
@@ -494,6 +614,7 @@ detect_provider() {
   case "$command" in
     claude*) printf '%s' 'anthropic' ;;
     codex*) printf '%s' 'openai' ;;
+    grok*) printf '%s' 'grok' ;;
     *)
       current="$(normalise_provider "$current" 2>/dev/null || true)"
       [ -n "$current" ] && printf '%s' "$current" || selected_provider "$index"
@@ -512,7 +633,7 @@ decorate_pane() {
   provider_name="$(provider_label "$provider")"
   model="$(selected_model "$index" "$provider")"
   memory_file="$ROOM_STATE_DIR/memory/$slot/BOOTSTRAP.md"
-  case "$index" in 1) symbol='①' ;; 2) symbol='②' ;; 3) symbol='③' ;; 4) symbol='④' ;; esac
+  case "$index" in 1) symbol='①' ;; 2) symbol='②' ;; 3) symbol='③' ;; 4) symbol='④' ;; 5) symbol='⑤' ;; 6) symbol='⑥' ;; *) symbol="$index" ;; esac
   tmux set-option -p -t "$pane" @agent_index "$index"
   tmux set-option -p -t "$pane" @agent_slot "$slot"
   tmux set-option -p -t "$pane" @agent_name "$name"
@@ -537,7 +658,7 @@ decorate_pane() {
 
 decorate_existing_session() {
   local index slot pane
-  for index in 1 2 3 4; do
+  for index in $(agent_indices); do
     slot="$(agent_value "$index" SLOT)"
     pane="$(pane_for_slot "$slot")"
     [ -n "$pane" ] || pane="$(tmux list-panes -t "$ROOM_SESSION:agents" -F '#{pane_id}' | sed -n "${index}p")"
@@ -551,9 +672,9 @@ launch_agent() {
   [ -n "$provider" ] || provider="$(selected_provider "$index")"
   model="$(selected_model "$index" "$provider")"
   command="$(launch_command "$index" "$provider" "$model")"
-  memory_file="$(memory_bootstrap "$index")"
+  memory_file="$(memory_bootstrap "$index")" || die "could not build memory bootstrap for $slot"
   [ "$ROOM_THEME" != 'light' ] || printf -v theme_env 'COLORFGBG=%q TERM_PROGRAM_BACKGROUND=%q ' '0;15' 'light'
-  printf -v launch 'AGENT_SLOT=%q AGENT_MEMORY_FILE=%q AGENT_ROOM_CONFIG=%q PANESHIFT_HOME=%q ROOM_SESSION=%q %s%s' "$slot" "$memory_file" "$CONFIG" "$SCRIPT_DIR" "$ROOM_SESSION" "$theme_env" "$command"
+  printf -v launch 'PATH=%q:$PATH AGENT_SLOT=%q AGENT_MEMORY_FILE=%q AGENT_ROOM_CONFIG=%q PANESHIFT_HOME=%q ROOM_SESSION=%q %s%s' "$ROOM_ROOT" "$slot" "$memory_file" "$CONFIG" "$SCRIPT_DIR" "$ROOM_SESSION" "$theme_env" "$command"
   tmux send-keys -t "$pane" -l "$launch"
   tmux send-keys -t "$pane" Enter
 }
@@ -562,9 +683,13 @@ switch_agent() {
   local requested="$1" provider="$2" requested_model="${3:-}" index pane slot directory model command launch memory_file theme_env=''
   require_session
   index="$(resolve_index "$requested")" || die "unknown agent: $requested"
-  provider="$(normalise_provider "$provider")" || die 'choose Anthropic, OpenAI, or Local'
+  provider="$(normalise_provider "$provider")" || die 'choose Anthropic, OpenAI, Grok, or Local'
   pane="$(pane_for_index "$index")"
-  [ -n "$pane" ] || die "pane $index not found"
+  # A missing pane used to hard-fail; restore it so a previous layout glitch
+  # cannot permanently remove a role from the room (audit: agent 4 vanished).
+  if [ -z "$pane" ]; then
+    pane="$(recreate_missing_agent_pane "$index")" || die "pane $index not found and could not be recreated"
+  fi
   if pane_is_busy "$pane"; then
     die "$(agent_value "$index" NAME) is still working; finish the task before starting a new provider session"
   fi
@@ -573,22 +698,49 @@ switch_agent() {
   model="${requested_model:-$(selected_model "$index" "$provider")}"
   model_is_valid "$model" || die 'invalid model name'
   command="$(launch_command "$index" "$provider" "$model")"
-  memory_snapshot "$index" 'provider-switch'
-  memory_file="$(memory_bootstrap "$index")"
+  memory_checkpoint "$index" 'provider-switch' || die "memory checkpoint failed; update the role handoff before switching provider"
+  memory_file="$(memory_bootstrap "$index")" || die "memory bootstrap failed; provider switch cancelled to protect the current context"
   [ "$ROOM_THEME" != 'light' ] || printf -v theme_env 'COLORFGBG=%q TERM_PROGRAM_BACKGROUND=%q ' '0;15' 'light'
-  printf -v launch 'AGENT_SLOT=%q AGENT_MEMORY_FILE=%q AGENT_ROOM_CONFIG=%q PANESHIFT_HOME=%q ROOM_SESSION=%q %s%s' "$slot" "$memory_file" "$CONFIG" "$SCRIPT_DIR" "$ROOM_SESSION" "$theme_env" "$command"
+  printf -v launch 'PATH=%q:$PATH AGENT_SLOT=%q AGENT_MEMORY_FILE=%q AGENT_ROOM_CONFIG=%q PANESHIFT_HOME=%q ROOM_SESSION=%q %s%s' "$ROOM_ROOT" "$slot" "$memory_file" "$CONFIG" "$SCRIPT_DIR" "$ROOM_SESSION" "$theme_env" "$command"
   remember_provider "$index" "$provider"
   remember_model "$index" "$provider" "$model"
   tmux respawn-pane -k -t "$pane" -c "$directory" "$launch"
+  # Confirm the pane still exists after respawn. A corrupted layout once dropped
+  # agent 4 entirely during an audit switch; fail loudly instead of silent loss.
+  sleep 0.15
+  if ! tmux list-panes -t "$ROOM_SESSION:agents" -F '#{pane_id}' 2>/dev/null | grep -qx "$pane"; then
+    die "provider switch removed pane $index — room layout is corrupted; recreate the session"
+  fi
   decorate_pane "$index" "$pane" "$provider"
   printf '%s now uses %s.\n' "$(agent_value "$index" NAME)" "$(provider_label "$provider")"
+}
+
+# Split a new pane for a role that disappeared from the agents window. Layout
+# will not be the original 3×2 until the next reset-layout / recreate, but the
+# role becomes usable again instead of staying permanently missing.
+recreate_missing_agent_pane() {
+  local index="$1" anchor pane directory
+  require_session
+  directory="$(agent_value "$index" DIR)"
+  [ -d "$directory" ] || return 1
+  anchor="$(pane_for_index 1)"
+  [ -n "$anchor" ] || anchor="$(tmux list-panes -t "$ROOM_SESSION:agents" -F '#{pane_id}' | head -1)"
+  [ -n "$anchor" ] || return 1
+  pane="$(tmux split-window -v -P -F '#{pane_id}' -t "$anchor" -c "$directory")"
+  [ -n "$pane" ] || return 1
+  decorate_pane "$index" "$pane" "$(selected_provider "$index")"
+  # A bare split leaves the room as an orphan slice hanging off agent 1 instead
+  # of the configured mosaic. Restore the saved layout so a repaired role looks
+  # and behaves like the others.
+  reset_layout >/dev/null 2>&1 || true
+  printf '%s' "$pane"
 }
 
 confirm_switch() {
   local requested="$1" provider="$2" index pane name command
   require_session
   index="$(resolve_index "$requested")" || die "unknown agent: $requested"
-  provider="$(normalise_provider "$provider")" || die 'choose Anthropic, OpenAI, or Local'
+  provider="$(normalise_provider "$provider")" || die 'choose Anthropic, OpenAI, Grok, or Local'
   pane="$(pane_for_index "$index")"
   [ -n "$pane" ] || die "pane $index not found"
   name="$(agent_value "$index" NAME)"
@@ -604,7 +756,7 @@ confirm_switch() {
 }
 
 provider_picker() {
-  local requested="$1" index pane name provider model anthropic_command openai_command local_command model_command anthropic_mark openai_mark local_mark
+  local requested="$1" index pane name provider model anthropic_command openai_command grok_command local_command model_command anthropic_mark openai_mark grok_mark local_mark
   local -a menu_items
   require_session
   index="$(resolve_index "$requested")" || die "unknown agent: $requested"
@@ -615,14 +767,19 @@ provider_picker() {
   model="$(selected_model "$index" "$provider")"
   anthropic_command="\"$SCRIPT_PATH\" --config \"$CONFIG\" --session \"$ROOM_SESSION\" switch-confirm \"$index\" anthropic"
   openai_command="\"$SCRIPT_PATH\" --config \"$CONFIG\" --session \"$ROOM_SESSION\" switch-confirm \"$index\" openai"
+  grok_command="\"$SCRIPT_PATH\" --config \"$CONFIG\" --session \"$ROOM_SESSION\" switch-confirm \"$index\" grok"
   [ "$provider" = anthropic ] && anthropic_mark='●' || anthropic_mark='○'
   [ "$provider" = openai ] && openai_mark='●' || openai_mark='○'
+  [ "$provider" = grok ] && grok_mark='●' || grok_mark='○'
   menu_items=()
   if provider_is_available "$index" anthropic; then
     menu_items+=( "$anthropic_mark ANTHROPIC · Claude Code" a "run-shell '$anthropic_command'" )
   fi
   if provider_is_available "$index" openai; then
     menu_items+=( "$openai_mark OPENAI · Codex" o "run-shell '$openai_command'" )
+  fi
+  if provider_is_available "$index" grok; then
+    menu_items+=( "$grok_mark GROK · Grok Build" g "run-shell '$grok_command'" )
   fi
   if provider_is_available "$index" local; then
     local_command="\"$SCRIPT_PATH\" --config \"$CONFIG\" --session \"$ROOM_SESSION\" switch-confirm \"$index\" local"
@@ -688,7 +845,7 @@ model_picker() {
 }
 
 pane_menu() {
-  local requested="$1" index pane name provider anthropic_command openai_command local_command local_switch reset_command paste_command
+  local requested="$1" index pane name provider anthropic_command openai_command grok_command local_command local_switch reset_command paste_command
   local -a menu_items
   require_session
   if [ "${requested#%}" != "$requested" ]; then
@@ -703,12 +860,14 @@ pane_menu() {
   provider="$(detect_provider "$index" "$pane")"
   anthropic_command="\"$SCRIPT_PATH\" --config \"$CONFIG\" --session \"$ROOM_SESSION\" switch-confirm \"$index\" anthropic"
   openai_command="\"$SCRIPT_PATH\" --config \"$CONFIG\" --session \"$ROOM_SESSION\" switch-confirm \"$index\" openai"
+  grok_command="\"$SCRIPT_PATH\" --config \"$CONFIG\" --session \"$ROOM_SESSION\" switch-confirm \"$index\" grok"
   reset_command="\"$SCRIPT_PATH\" --config \"$CONFIG\" --session \"$ROOM_SESSION\" reset-layout"
   paste_command="\"$SCRIPT_PATH\" --config \"$CONFIG\" --session \"$ROOM_SESSION\" paste \"$pane\""
   local_command="$(agent_value "$index" LOCAL_COMMAND)"
   menu_items=()
   if provider_is_available "$index" anthropic; then menu_items+=( 'Use Anthropic · Claude Code…' c "run-shell '$anthropic_command'" ); fi
   if provider_is_available "$index" openai; then menu_items+=( 'Use OpenAI · Codex…' x "run-shell '$openai_command'" ); fi
+  if provider_is_available "$index" grok; then menu_items+=( 'Use Grok · Grok Build…' g "run-shell '$grok_command'" ); fi
   if [ -n "$local_command" ]; then
     local_switch="\"$SCRIPT_PATH\" --config \"$CONFIG\" --session \"$ROOM_SESSION\" switch-confirm \"$index\" local"
     menu_items+=( 'Use a local provider…' l "run-shell '$local_switch'" )
@@ -726,27 +885,19 @@ pane_menu() {
 }
 
 room_menu() {
-  local c1 c2 c3 c4 providers memory reset
+  local index command providers memory reset
+  local -a menu_items
   require_session
-  c1="\"$SCRIPT_PATH\" --config \"$CONFIG\" --session \"$ROOM_SESSION\" focus 1"
-  c2="\"$SCRIPT_PATH\" --config \"$CONFIG\" --session \"$ROOM_SESSION\" focus 2"
-  c3="\"$SCRIPT_PATH\" --config \"$CONFIG\" --session \"$ROOM_SESSION\" focus 3"
-  c4="\"$SCRIPT_PATH\" --config \"$CONFIG\" --session \"$ROOM_SESSION\" focus 4"
   providers="\"$SCRIPT_PATH\" --config \"$CONFIG\" --session \"$ROOM_SESSION\" providers-menu"
   memory="\"$SCRIPT_PATH\" --config \"$CONFIG\" --session \"$ROOM_SESSION\" memory-refresh manual 0"
   reset="\"$SCRIPT_PATH\" --config \"$CONFIG\" --session \"$ROOM_SESSION\" reset-layout"
-  tmux display-menu -T " $ROOM_TITLE " -x 0 -y S \
-    "① $(agent_value 1 NAME) · $(provider_label "$(detect_provider 1 "$(pane_for_index 1)")")" 1 "run-shell '$c1'" \
-    "② $(agent_value 2 NAME) · $(provider_label "$(detect_provider 2 "$(pane_for_index 2)")")" 2 "run-shell '$c2'" \
-    "③ $(agent_value 3 NAME) · $(provider_label "$(detect_provider 3 "$(pane_for_index 3)")")" 3 "run-shell '$c3'" \
-    "④ $(agent_value 4 NAME) · $(provider_label "$(detect_provider 4 "$(pane_for_index 4)")")" 4 "run-shell '$c4'" \
-    '' \
-    'Choose provider' p "run-shell '$providers'" \
-    'Sync project memory' m "run-shell '$memory'" \
-    'Reset layout' r "run-shell '$reset'" \
-    '' \
-    'Tip: right-click an agent' '' '' \
-    'Close menu' q ''
+  menu_items=()
+  for index in $(agent_indices); do
+    command="\"$SCRIPT_PATH\" --config \"$CONFIG\" --session \"$ROOM_SESSION\" focus \"$index\""
+    menu_items+=("$(agent_symbol "$index") $(agent_value "$index" NAME) · $(provider_label "$(detect_provider "$index" "$(pane_for_index "$index")")")" "$index" "run-shell '$command'")
+  done
+  menu_items+=( '' 'Choose provider' p "run-shell '$providers'" 'Sync project memory' m "run-shell '$memory'" 'Reset layout' r "run-shell '$reset'" '' 'Tip: right-click an agent' '' '' 'Close menu' q '' )
+  tmux display-menu -T " $ROOM_TITLE " -x 0 -y S "${menu_items[@]}"
 }
 
 session_elapsed() {
@@ -800,7 +951,9 @@ session_metrics() {
   local file now longest count streak today epoch day
   file="$(session_history_file)"
   now="$(date +%s)"
-  [ -f "$file" ] || { printf '%s|%s|%s' "$(session_elapsed)" '—' '0'; return; }
+  # Four fields always: the sidebar splits on '|' and a short record left the
+  # streak empty, rendering as "0 sessions · d streak".
+  [ -f "$file" ] || { printf '%s|%s|%s|%s' "$(session_elapsed)" '—' '0' '0'; return; }
   IFS='|' read -r longest count <<EOF
 $(awk -F '\t' -v now="$now" 'NR > 1 { duration = $3 - $2; if (duration > max) max = duration; count++ } END { print max+0 "|" count+0 }' "$file")
 EOF
@@ -913,9 +1066,21 @@ gpu_usage() {
 
 ram_usage() {
   local total available
-  read -r total available <<EOF
+  # macOS has no `free`; the room's primary target is a Mac, so read the same
+  # numbers from vm_stat/sysctl there and keep the Linux path for the OVH host.
+  if [ "$(uname)" = Darwin ]; then
+    total="$(sysctl -n hw.memsize 2>/dev/null || printf '')"
+    available="$(vm_stat 2>/dev/null | awk '
+      /page size of/ { for (i = 1; i <= NF; i++) if ($i ~ /^[0-9]+$/) size = $i }
+      /^Pages free:/ { gsub(/\./, "", $3); free = $3 }
+      /^Pages inactive:/ { gsub(/\./, "", $3); inactive = $3 }
+      /^Pages speculative:/ { gsub(/\./, "", $3); speculative = $3 }
+      END { if (size > 0) printf "%.0f", (free + inactive + speculative) * size }')"
+  else
+    read -r total available <<EOF
 $(free -b 2>/dev/null | awk '/^Mem:/ { print $2, $7; exit }')
 EOF
+  fi
   if [[ "${total:-}" =~ ^[0-9]+$ ]] && [[ "${available:-}" =~ ^[0-9]+$ ]] && [ "$total" -gt 0 ]; then
     awk -v total="$total" -v available="$available" 'BEGIN { printf "%.0f%%", 100 * (total - available) / total }'
   else
@@ -982,28 +1147,57 @@ pane_descendants() {
   done
 }
 
+# Percent-encodes a path the way the Grok CLI names its session directories.
+percent_encode_path() {
+  LC_ALL=C awk -v value="$1" 'BEGIN {
+    for (i = 0; i < 256; i++) code[sprintf("%c", i)] = i
+    n = length(value)
+    for (i = 1; i <= n; i++) {
+      c = substr(value, i, 1)
+      if (c ~ /[A-Za-z0-9._~-]/) printf "%s", c
+      else printf "%%%02X", code[c]
+    }
+  }'
+}
+
+# Every CLI keys its session storage on the agent's working directory, which is
+# unique per worktree. Resolving by directory removes the previous dependency on
+# `lsof` and `rg` being installed, which failed silently and reported 0 tokens.
 open_token_log() {
-  local pane="$1" provider="$2" pid log index slot project_dir mangled root
-  command -v lsof >/dev/null 2>&1 || return 0
-  for pid in $(pane_descendants "$pane"); do
-    log="$(lsof -p "$pid" -Fn 2>/dev/null | sed -n 's/^n//p' | grep -E '/\.codex/sessions/.+\.jsonl$' | head -1 || true)"
-    [ -n "$log" ] && { printf '%s' "$log"; return; }
-  done
-  [ "$provider" = anthropic ] || return 0
+  local pane="$1" provider="$2" index project_dir root session
   index="$(tmux show-option -p -v -t "$pane" @agent_index 2>/dev/null || true)"
-  slot="$(agent_value "$index" SLOT)"
   project_dir="$(agent_value "$index" DIR)"
-  [ -n "$slot" ] && [ -n "$project_dir" ] || return 0
-  mangled="$(printf '%s' "$project_dir" | sed 's#/#-#g')"
-  root="$HOME/.claude/projects/$mangled"
+  [ -n "$project_dir" ] || return 0
+
+  case "$provider" in
+    anthropic)
+      root="$HOME/.claude/projects/$(printf '%s' "$project_dir" | LC_ALL=C tr -c 'A-Za-z0-9-' '-')"
+      ;;
+    openai)
+      # Codex files sessions by date, not by directory; match on the `cwd`
+      # recorded in each rollout's session_meta header.
+      find "$HOME/.codex/sessions" -type f -name '*.jsonl' -print0 2>/dev/null |
+        xargs -0 ls -t 2>/dev/null | head -40 |
+        while IFS= read -r log; do
+          [ "$(head -1 "$log" 2>/dev/null | jq -r '.payload.cwd // empty' 2>/dev/null)" = "$project_dir" ] || continue
+          printf '%s\n' "$log"
+          break
+        done
+      return
+      ;;
+    grok)
+      root="$HOME/.grok/sessions/$(percent_encode_path "$project_dir")"
+      session="$(find "$root" -mindepth 2 -maxdepth 2 -name 'updates.jsonl' -print0 2>/dev/null |
+        xargs -0 ls -t 2>/dev/null | head -1)"
+      [ -n "$session" ] && printf '%s' "$session"
+      return
+      ;;
+    *) return 0 ;;
+  esac
+
   [ -d "$root" ] || return 0
-  # Claude closes its JSONL between turns. Its own command output records the
-  # stable slot, which lets us recover the current role without reading chat text.
   find "$root" -type f -name '*.jsonl' -print0 2>/dev/null |
-    while IFS= read -r -d '' log; do
-      rg -Fq "AGENT_SLOT=$slot" "$log" 2>/dev/null || continue
-      printf '%s\t%s\n' "$(stat -f '%m' "$log" 2>/dev/null || stat -c '%Y' "$log" 2>/dev/null || printf 0)" "$log"
-    done | sort -rn | head -1 | cut -f2-
+    xargs -0 ls -t 2>/dev/null | head -1
 }
 
 token_total_for_log() {
@@ -1015,6 +1209,10 @@ token_total_for_log() {
       ;;
     anthropic)
       jq -sr '[.[] | select(.type == "assistant" and .message.usage and .uuid) | {id: .uuid, usage: .message.usage}] | unique_by(.id) | map((.usage.input_tokens // 0) + (.usage.cache_creation_input_tokens // 0) + (.usage.cache_read_input_tokens // 0) + (.usage.output_tokens // 0)) | add // 0' "$log" 2>/dev/null
+      ;;
+    grok)
+      # Grok reports per-turn usage; the running session total is their sum.
+      jq -sr '[.[] | .params.update.usage.totalTokens // empty] | add // 0' "$log" 2>/dev/null
       ;;
   esac
 }
@@ -1071,11 +1269,11 @@ record_token_delta() {
 
 refresh_token_telemetry() {
   local index pane provider
-  for index in 1 2 3 4; do
+  for index in $(agent_indices); do
     pane="$(pane_for_index "$index")"
     [ -n "$pane" ] || continue
     provider="$(detect_provider "$index" "$pane")"
-    case "$provider" in anthropic|openai) record_token_delta "$index" "$provider" ;; esac
+    case "$provider" in anthropic|openai|grok) record_token_delta "$index" "$provider" ;; esac
   done
 }
 
@@ -1106,20 +1304,31 @@ session_momentum() {
   fi
 }
 
+# Busy means "the agent is generating", not "the screen changed". Comparing two
+# captures 300 ms apart used to call every idle TUI busy — a blinking cursor, a
+# clock or a token counter was enough — which silently refused legitimate
+# provider switches, model changes and shelve requests. Only the explicit
+# interrupt affordances that all three CLIs print while working are trusted.
 pane_is_busy() {
-  local pane="$1" command before after
-  if tmux capture-pane -p -t "$pane" 2>/dev/null |
-    grep -Eqi 'esc to interrupt|working[[:space:].(]|cogitat|crunch|thinking|generating|compacting|running (tool|command)'; then
-    return 0
-  fi
-  command="$(tmux display-message -p -t "$pane" '#{pane_current_command}' 2>/dev/null || true)"
-  case "$command" in
-    ''|bash|zsh|sh|fish|tmux) return 1 ;;
-  esac
-  before="$(tmux capture-pane -p -t "$pane" 2>/dev/null || true)"
-  sleep 0.3
-  after="$(tmux capture-pane -p -t "$pane" 2>/dev/null || true)"
-  [ "$before" != "$after" ]
+  local pane="$1"
+  tmux capture-pane -p -t "$pane" 2>/dev/null |
+    grep -Eqi 'esc to interrupt|ctrl\+c to stop|esc to cancel|working[[:space:].(]|cogitat|crunch|thinking|generating|compacting|running (tool|command)'
+}
+
+prepare_shelve() {
+  local index pane busy=''
+  require_session
+  for index in $(agent_indices); do
+    pane="$(pane_for_index "$index")"
+    [ -n "$pane" ] || continue
+    if pane_is_busy "$pane"; then
+      busy="$busy ${index}:$(agent_value "$index" NAME)"
+    fi
+  done
+  [ -z "$busy" ] || die "server remains online: active agent(s):${busy}"
+  memory_run snapshot-room pre-shelve >/dev/null
+  sync
+  printf 'ready\n'
 }
 
 # Machine-readable version of the calendar for the native renderer: one line per
@@ -1134,14 +1343,19 @@ activity_grid_levels() {
 sidebar_data() {
   require_session
   local index pane provider model color line elapsed longest count streak
-  for index in 1 2 3 4; do
+  for index in $(agent_indices); do
     pane="$(pane_for_index "$index")"
     provider="$(detect_provider "$index" "$pane")"
     model="$(selected_model "$index" "$provider")"
     color="$(agent_value "$index" COLOR | sed 's/colour//')"
-    printf 'AGENT\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n' \
+    printf 'AGENT\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n' \
       "$index" "$(agent_value "$index" NAME)" "$provider" "$model" "$color" \
-      "$(agent_value "$index" ANTHROPIC_MODELS)" "$(agent_value "$index" OPENAI_MODELS)"
+      "$(agent_value "$index" ANTHROPIC_MODELS)" "$(agent_value "$index" OPENAI_MODELS)" \
+      "$(agent_value "$index" GROK_MODELS)" \
+      "$(provider_is_available "$index" anthropic && printf 1 || printf 0)" \
+      "$(provider_is_available "$index" openai && printf 1 || printf 0)" \
+      "$(provider_is_available "$index" grok && printf 1 || printf 0)" \
+      "$(provider_is_available "$index" local && printf 1 || printf 0)"
   done
   IFS='|' read -r elapsed longest count streak <<EOF
 $(session_metrics)
@@ -1153,8 +1367,39 @@ EOF
   while IFS= read -r line; do printf 'GRID\t%s\n' "$line"; done < <(activity_grid_levels)
 }
 
+# True when the pane still runs an agent rather than an abandoned shell.
+#
+# `pane_current_command` alone is not enough: a provider can legitimately be
+# launched through a shell wrapper, which reports as `bash`. So a shell in the
+# foreground only counts as dead when it has no child process at all — which is
+# exactly what a pane looks like after its CLI exits (observed on CODEX-2 when
+# Codex quit on a usage limit).
+agent_process_is_live() {
+  local pane="$1" command pid
+  command="$(tmux display-message -p -t "$pane" '#{pane_current_command}' 2>/dev/null || true)"
+  case "$command" in
+    ''|zsh|-zsh|bash|-bash|sh|-sh|fish|-fish|login) ;;
+    *) return 0 ;;
+  esac
+  pid="$(tmux display-message -p -t "$pane" '#{pane_pid}' 2>/dev/null || true)"
+  [ -n "$pid" ] || return 0
+  [ -n "$(pgrep -P "$pid" 2>/dev/null || true)" ]
+}
+
+# Modification time in epoch seconds, GNU stat then BSD/macOS stat.
+script_mtime() {
+  stat -c '%Y' "$1" 2>/dev/null || stat -f '%m' "$1" 2>/dev/null || printf '0'
+}
+
 sidebar_view() {
   local index pane provider model live total handoffs claims conflicts sync_age runs now last_heartbeat=0 last_session_update=0 last_token_refresh=0 health elapsed longest session_count streak cpu gpu ram tokens ovh grid_line calendar_row day_label
+  # This loop is long-lived: it keeps running the copy of the script that was on
+  # disk when the room was created. Every later fix to the telemetry, the grid or
+  # the health line stayed invisible until someone reinstalled the sidebar by
+  # hand — Grok token accounting looked broken for a whole session for exactly
+  # this reason. Re-exec when the script changes so a fix takes effect.
+  local script_stamp
+  script_stamp="$(script_mtime "$SCRIPT_PATH")"
   trap 'printf "\033[?25h"' EXIT INT TERM
   printf '\033[?25l'
   # Clear only once. Subsequent frames overwrite in place, avoiding the visual
@@ -1173,12 +1418,16 @@ sidebar_view() {
     if [ $((now - last_token_refresh)) -ge 30 ]; then
       refresh_token_telemetry
       last_token_refresh="$now"
+      if [ "$(script_mtime "$SCRIPT_PATH")" != "$script_stamp" ]; then
+        printf '\033[?25h\033[2J\033[H'
+        exec "$SCRIPT_PATH" --config "$CONFIG" --session "$ROOM_SESSION" sidebar
+      fi
     fi
     printf '\033[H'
     printf '\033[1;30;48;5;223m  PANESHIFT · CONTROL ROOM     \033[0m\033[K\n'
     printf '\033[K\n'
     printf '\033[1m  ROUTING · click to change\033[0m\033[K\n'
-    for index in 1 2 3 4; do
+    for index in $(agent_indices); do
       pane="$(pane_for_index "$index")"
       provider="$(provider_label "$(detect_provider "$index" "$pane")")"
       model="$(selected_model "$index" "$(detect_provider "$index" "$pane")")"
@@ -1245,7 +1494,18 @@ ensure_drop_hover() {
     [ -n "$pid" ] && kill -0 "$pid" 2>/dev/null && return 0
   fi
   log_file="$ROOM_STATE_DIR/paneshift-drop-hover.log"
-  nohup "$SCRIPT_DIR/paneshift-hover" --session "$ROOM_SESSION" >>"$log_file" 2>&1 &
+  # Ce helper ne tourne que sur macOS, donc uniquement pour une room dont tmux est
+  # local : sans --remote explicite, une image déposée reste sur cette machine et
+  # seul son chemin local est inséré. Renseigner ROOM_DROP_HOVER_REMOTE (et
+  # éventuellement ROOM_DROP_HOVER_REMOTE_DIR) pour piloter une room distante.
+  local -a hover_args
+  hover_args=(--session "$ROOM_SESSION")
+  if [ -n "${ROOM_DROP_HOVER_REMOTE:-}" ]; then
+    hover_args+=(--remote "$ROOM_DROP_HOVER_REMOTE")
+    [ -z "${ROOM_DROP_HOVER_REMOTE_DIR:-}" ] ||
+      hover_args+=(--remote-dir "$ROOM_DROP_HOVER_REMOTE_DIR")
+  fi
+  nohup "$SCRIPT_DIR/paneshift-hover" "${hover_args[@]}" >>"$log_file" 2>&1 &
   printf '%s\n' "$!" > "$pid_file"
 }
 
@@ -1284,9 +1544,26 @@ resize_sidebar() {
 }
 
 balance_sidebar_grid() {
-  local sidebar p1 p2 p3 grid_width grid_height left_width top_height layout
+  local sidebar p1 p2 p3 grid_width grid_height left_width column_width top_height layout
   require_session
   sidebar="$(sidebar_pane)"
+  if [ "$ROOM_AGENT_COUNT" -eq 6 ]; then
+    p1="$(pane_for_index 1)"
+    p2="$(pane_for_index 2)"
+    p3="$(pane_for_index 3)"
+    [ -n "$sidebar" ] && [ -n "$p1" ] && [ -n "$p2" ] && [ -n "$p3" ] || return 0
+    grid_width="$(tmux display-message -p -t "$sidebar" '#{pane_left}')"
+    column_width=$(((grid_width - 2) / 3))
+    tmux resize-pane -t "$p1" -x "$column_width"
+    tmux resize-pane -t "$p2" -x "$column_width"
+    layout="$(tmux display-message -p -t "$ROOM_SESSION:agents" '#{window_layout}')"
+    tmux set-option -t "$ROOM_SESSION" @agent_default_layout "$layout"
+    return 0
+  fi
+  if [ "$ROOM_AGENT_COUNT" -ne 4 ]; then
+    [ -z "$sidebar" ] || tmux set-option -t "$ROOM_SESSION" @agent_default_layout "$(tmux display-message -p -t "$ROOM_SESSION:agents" '#{window_layout}')"
+    return 0
+  fi
   p1="$(pane_for_index 1)"
   p2="$(pane_for_index 2)"
   p3="$(pane_for_index 3)"
@@ -1304,36 +1581,34 @@ balance_sidebar_grid() {
 }
 
 sidebar_click() {
-  local pane="$1" mouse_y="$2" pane_top local_y
+  local pane="$1" mouse_y="$2" pane_top local_y index sync_y reset_y
   require_session
   [ "$(tmux show-option -p -v -t "$pane" @agent_sidebar 2>/dev/null || true)" = 1 ] || return 0
   pane_top="$(tmux display-message -p -t "$pane" '#{pane_top}')"
   local_y=$((mouse_y - pane_top))
-  case "$local_y" in
-    3|4) provider_picker 1 ;;
-    5|6) provider_picker 2 ;;
-    7|8) provider_picker 3 ;;
-    9|10) provider_picker 4 ;;
-    26) memory_refresh manual 0; tmux display-message 'Project memory synced' ;;
-    28) reset_layout ;;
-    *) return 0 ;;
-  esac
+  if [ "$local_y" -ge 3 ] && [ "$local_y" -lt $((3 + ROOM_AGENT_COUNT * 2)) ]; then
+    index=$(((local_y - 3) / 2 + 1))
+    provider_picker "$index"
+    return
+  fi
+  sync_y=$((18 + ROOM_AGENT_COUNT * 2))
+  reset_y=$((20 + ROOM_AGENT_COUNT * 2))
+  if [ "$local_y" -eq "$sync_y" ]; then memory_refresh manual 0; tmux display-message 'Project memory synced'
+  elif [ "$local_y" -eq "$reset_y" ]; then reset_layout
+  fi
 }
 
 providers_menu() {
-  local p1 p2 p3 p4
+  local index command
+  local -a menu_items
   require_session
-  p1="\"$SCRIPT_PATH\" --config \"$CONFIG\" --session \"$ROOM_SESSION\" provider-picker 1"
-  p2="\"$SCRIPT_PATH\" --config \"$CONFIG\" --session \"$ROOM_SESSION\" provider-picker 2"
-  p3="\"$SCRIPT_PATH\" --config \"$CONFIG\" --session \"$ROOM_SESSION\" provider-picker 3"
-  p4="\"$SCRIPT_PATH\" --config \"$CONFIG\" --session \"$ROOM_SESSION\" provider-picker 4"
-  tmux display-menu -T ' CHOOSE ROLE TO ROUTE ' -x C -y C \
-    "① $(agent_value 1 NAME) · #{@agent_1_provider}" 1 "run-shell '$p1'" \
-    "② $(agent_value 2 NAME) · #{@agent_2_provider}" 2 "run-shell '$p2'" \
-    "③ $(agent_value 3 NAME) · #{@agent_3_provider}" 3 "run-shell '$p3'" \
-    "④ $(agent_value 4 NAME) · #{@agent_4_provider}" 4 "run-shell '$p4'" \
-    '' \
-    'Cancel' q ''
+  menu_items=()
+  for index in $(agent_indices); do
+    command="\"$SCRIPT_PATH\" --config \"$CONFIG\" --session \"$ROOM_SESSION\" provider-picker \"$index\""
+    menu_items+=("$(agent_symbol "$index") $(agent_value "$index" NAME) · #{@agent_${index}_provider}" "$index" "run-shell '$command'")
+  done
+  menu_items+=( '' 'Cancel' q '' )
+  tmux display-menu -T ' CHOOSE ROLE TO ROUTE ' -x C -y C "${menu_items[@]}"
 }
 
 reset_layout() {
@@ -1374,31 +1649,44 @@ sync_grid() {
 }
 
 create_session() {
-  local p1 p2 p3 p4
+  local first_pane pane index p1 p2 p3 p4 p5 p6
   validate_config
   require_tmux
 
   p1="$(tmux new-session -d -P -F '#{pane_id}' -s "$ROOM_SESSION" -n agents -c "$(agent_value 1 DIR)")"
-  p2="$(tmux split-window -h -P -F '#{pane_id}' -t "$p1" -c "$(agent_value 2 DIR)")"
-  p3="$(tmux split-window -v -P -F '#{pane_id}' -t "$p1" -c "$(agent_value 3 DIR)")"
-  p4="$(tmux split-window -v -P -F '#{pane_id}' -t "$p2" -c "$(agent_value 4 DIR)")"
-  tmux select-layout -t "$ROOM_SESSION:agents" tiled
-
-  decorate_pane 1 "$p1" "$(selected_provider 1)"
-  decorate_pane 2 "$p2" "$(selected_provider 2)"
-  decorate_pane 3 "$p3" "$(selected_provider 3)"
-  decorate_pane 4 "$p4" "$(selected_provider 4)"
+  first_pane="$p1"
+  if [ "$ROOM_AGENT_COUNT" -eq 6 ]; then
+    p2="$(tmux split-window -h -P -F '#{pane_id}' -t "$p1" -c "$(agent_value 2 DIR)")"
+    p3="$(tmux split-window -h -P -F '#{pane_id}' -t "$p2" -c "$(agent_value 3 DIR)")"
+    tmux select-layout -t "$ROOM_SESSION:agents" even-horizontal >/dev/null
+    p4="$(tmux split-window -v -P -F '#{pane_id}' -t "$p1" -c "$(agent_value 4 DIR)")"
+    p5="$(tmux split-window -v -P -F '#{pane_id}' -t "$p2" -c "$(agent_value 5 DIR)")"
+    p6="$(tmux split-window -v -P -F '#{pane_id}' -t "$p3" -c "$(agent_value 6 DIR)")"
+  else
+    index=2
+    while [ "$index" -le "$ROOM_AGENT_COUNT" ]; do
+      tmux split-window -P -F '#{pane_id}' -t "$ROOM_SESSION:agents" -c "$(agent_value "$index" DIR)" >/dev/null
+      tmux select-layout -t "$ROOM_SESSION:agents" tiled >/dev/null
+      index=$((index + 1))
+    done
+  fi
+  tmux set-option -t "$ROOM_SESSION" @agent_count "$ROOM_AGENT_COUNT"
+  for index in $(agent_indices); do
+    if [ "$ROOM_AGENT_COUNT" -eq 6 ]; then eval "pane=\$p$index"
+    else pane="$(tmux list-panes -t "$ROOM_SESSION:agents" -F '#{pane_id}' | sed -n "${index}p")"; fi
+    decorate_pane "$index" "$pane" "$(selected_provider "$index")"
+  done
   ensure_sidebar
   apply_theme
   ensure_drop_hover
 
-  launch_agent 1 "$p1" "$(selected_provider 1)"
-  launch_agent 2 "$p2" "$(selected_provider 2)"
-  launch_agent 3 "$p3" "$(selected_provider 3)"
-  launch_agent 4 "$p4" "$(selected_provider 4)"
+  for index in $(agent_indices); do
+    pane="$(pane_for_index "$index")"
+    launch_agent "$index" "$pane" "$(selected_provider "$index")"
+  done
 
   tmux select-window -t "$ROOM_SESSION:agents"
-  tmux select-pane -t "$p1"
+  tmux select-pane -t "$first_pane"
 }
 
 start_room() {
@@ -1406,6 +1694,7 @@ start_room() {
   validate_config
   require_tmux
   if tmux has-session -t "$ROOM_SESSION" 2>/dev/null; then
+    tmux set-option -t "$ROOM_SESSION" @agent_count "$ROOM_AGENT_COUNT"
     decorate_existing_session
     ensure_sidebar
     apply_theme
@@ -1433,13 +1722,23 @@ handoff_field() {
   ' "$file"
 }
 
+# Human health label for a pane: live | busy | dead | paused | missing
+agent_health_label() {
+  local index="$1" pane="$2"
+  [ -n "$pane" ] || { printf 'missing'; return; }
+  if agent_is_paused "$index"; then printf 'paused'; return; fi
+  if pane_is_busy "$pane"; then printf 'busy'; return; fi
+  if agent_process_is_live "$pane"; then printf 'live'; return; fi
+  printf 'dead'
+}
+
 status_room() {
-  local index pane command active dead slot name role provider state task marker
+  local index pane command active dead slot name role provider state task marker health
   require_session
   printf '\n  %s\n' "$ROOM_TITLE"
-  printf '  %-28s %-10s %-12s %s\n' 'TERMINAL' 'PROCESS' 'STATE' 'TASK'
-  printf '  %s\n' '────────────────────────────────────────────────────────────────────────────────'
-  for index in 1 2 3 4; do
+  printf '  %-28s %-10s %-8s %-12s %s\n' 'TERMINAL' 'PROCESS' 'HEALTH' 'STATE' 'TASK'
+  printf '  %s\n' '────────────────────────────────────────────────────────────────────────────────────────'
+  for index in $(agent_indices); do
     pane="$(pane_for_index "$index")"
     slot="$(agent_value "$index" SLOT)"
     name="$(agent_value "$index" NAME)"
@@ -1449,29 +1748,106 @@ status_room() {
       IFS='|' read -r command active dead <<EOF
 $(tmux display-message -p -t "$pane" '#{pane_current_command}|#{pane_active}|#{pane_dead}')
 EOF
+      health="$(agent_health_label "$index" "$pane")"
       state="$(handoff_field "$slot" 'Statut')"
       task="$(handoff_field "$slot" 'Tâche')"
       [ -n "$state" ] || state="$([ "$dead" = 1 ] && printf 'stopped' || printf 'active')"
       [ -n "$task" ] || task='—'
       [ "$active" = 1 ] && marker='●' || marker='○'
-      printf '  %s %-26s %-10s %-12s %.52s\n' "$marker" "$name · $(provider_label "$provider")" "$command" "$state" "$task"
+      printf '  %s %-26s %-10s %-8s %-12s %.48s\n' "$marker" "$name · $(provider_label "$provider")" "$command" "$health" "$state" "$task"
     else
-      printf '  ! %-26s %-10s %-12s %s\n' "$name · $role" '—' 'missing' 'pane not found'
+      printf '  ! %-26s %-10s %-8s %-12s %s\n' "$name · $role" '—' 'missing' '—' 'pane not found'
     fi
   done
-  printf '\n  Theme: %s · menu: Ctrl+/ · paste: Ctrl+V\n\n' "$ROOM_THEME"
+  printf '\n  Theme: %s · menu: Ctrl+/ · paste: Ctrl+V · doctor if HEALTH=dead\n\n' "$ROOM_THEME"
+}
+
+# Machine-readable room status for OpenClaw / Telegram / external tools.
+# Usage: paneshift status --json   (or  paneshift status-json)
+status_json() {
+  local index pane command slot name role provider state task health model
+  local session_ok=0 tmp
+  if tmux has-session -t "$ROOM_SESSION" 2>/dev/null; then session_ok=1; fi
+  tmp="$(mktemp "${TMPDIR:-/tmp}/paneshift-status.XXXXXX")"
+  {
+    printf '%s\t%s\n' session "$ROOM_SESSION"
+    printf '%s\t%s\n' title "$ROOM_TITLE"
+    printf '%s\t%s\n' config "$CONFIG"
+    printf '%s\t%s\n' session_live "$session_ok"
+    printf '%s\t%s\n' generated_at "$(date -u '+%Y-%m-%dT%H:%M:%SZ')"
+    for index in $(agent_indices); do
+      pane="$(pane_for_index "$index")"
+      slot="$(agent_value "$index" SLOT)"
+      name="$(agent_value "$index" NAME)"      role="$(agent_value "$index" ROLE)"
+      if [ -n "$pane" ]; then
+        provider="$(detect_provider "$index" "$pane")"
+        command="$(tmux display-message -p -t "$pane" '#{pane_current_command}' 2>/dev/null || true)"
+        health="$(agent_health_label "$index" "$pane")"
+        model="$(selected_model "$index" "$provider" 2>/dev/null || true)"
+      else
+        provider="$(agent_value "$index" PROVIDER)"
+        command=''
+        health='missing'
+        model=''
+        pane=''
+      fi
+      state="$(handoff_field "$slot" 'Statut')"
+      task="$(handoff_field "$slot" 'Tâche')"
+      # agent fields: index slot name role provider model process health handoff task pane
+      printf 'agent\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n' \
+        "$index" "$slot" "$name" "$role" "$provider" "${model:-}" "${command:-}" \
+        "$health" "${state:-}" "${task:-}" "${pane:-}"
+    done
+  } > "$tmp"
+  python3 - "$tmp" <<'PY'
+import json, sys
+path = sys.argv[1]
+meta = {}
+agents = []
+with open(path, encoding="utf-8") as f:
+    for line in f:
+        line = line.rstrip("\n")
+        if not line:
+            continue
+        parts = line.split("\t")
+        key = parts[0]
+        if key == "agent":
+            # index slot name role provider model process health handoff task pane
+            _, index, slot, name, role, provider, model, process, health, handoff, task, pane = (parts + [""] * 12)[:12]
+            agents.append({
+                "index": int(index),
+                "slot": slot,
+                "name": name,
+                "role": role,
+                "provider": provider or None,
+                "model": model or None,
+                "process": process or None,
+                "health": health,
+                "handoff_status": handoff or None,
+                "task": task or None,
+                "pane": pane or None,
+            })
+        else:
+            meta[key] = parts[1] if len(parts) > 1 else ""
+meta["schema"] = 1
+meta["product"] = "paneshift"
+meta["session_live"] = meta.get("session_live") == "1"
+meta["agents"] = agents
+print(json.dumps(meta, ensure_ascii=False, separators=(",", ":")))
+PY
+  rm -f "$tmp"
 }
 
 switch_menu() {
   local index provider_key provider confirm
   clear
   status_room
-  printf '  Terminal to switch [1-4]: '
+  printf '  Terminal to switch [1-%s]: ' "$ROOM_AGENT_COUNT"
   IFS= read -r -n 1 index
-  printf '\n  Provider [c] Anthropic · [x] OpenAI: '
+  printf '\n  Provider [c] Anthropic · [x] OpenAI · [g] Grok: '
   IFS= read -r -n 1 provider_key
   printf '\n'
-  case "$provider_key" in c|C) provider='anthropic' ;; x|X) provider='openai' ;; *) return ;; esac
+  case "$provider_key" in c|C) provider='anthropic' ;; x|X) provider='openai' ;; g|G) provider='grok' ;; *) return ;; esac
   printf '  Start a fresh %s session for %s? This closes the current chat. [y/N] ' "$(provider_label "$provider")" "$(agent_value "$index" NAME)"
   IFS= read -r -n 1 confirm
   printf '\n'
@@ -1499,10 +1875,10 @@ focus_adjacent_room() {
   local direction="${1:-next}" current_index target_index pane
   require_session
   current_index="$(tmux display-message -p -t "$ROOM_SESSION:agents" '#{@agent_index}')"
-  case "$current_index" in 1|2|3|4) ;; *) current_index=1 ;; esac
+  valid_agent_index "$current_index" || current_index=1
   case "$direction" in
-    next|right) target_index=$((current_index % 4 + 1)) ;;
-    previous|prev|left) target_index=$(((current_index + 2) % 4 + 1)) ;;
+    next|right) target_index=$((current_index % ROOM_AGENT_COUNT + 1)) ;;
+    previous|prev|left) target_index=$(((current_index + ROOM_AGENT_COUNT - 2) % ROOM_AGENT_COUNT + 1)) ;;
     *) die "unknown pane direction: $direction" ;;
   esac
   pane="$(pane_for_index "$target_index")"
@@ -1520,17 +1896,20 @@ zoom_room() {
 }
 
 menu_room() {
-  local key
+  local key index
   while :; do
     clear
     status_room
-    printf '  [1] %s  [2] %s\n' "$(agent_value 1 NAME)" "$(agent_value 2 NAME)"
-    printf '  [3] %s  [4] %s\n' "$(agent_value 3 NAME)" "$(agent_value 4 NAME)"
+    for index in $(agent_indices); do
+      printf '  [%s] %-18s' "$index" "$(agent_value "$index" NAME)"
+      [ $((index % 2)) -eq 0 ] && printf '\n'
+    done
+    [ $((ROOM_AGENT_COUNT % 2)) -eq 0 ] || printf '\n'
     printf '  [s] Change provider  [q] Close\n\n  Choice: '
     IFS= read -r -n 1 key
     printf '\n'
     case "$key" in
-      1|2|3|4) focus_room "$key"; return ;;
+      [1-9]) if valid_agent_index "$key"; then focus_room "$key"; return; fi ;;
       s|S) switch_menu; return ;;
       q|Q) return ;;
     esac
@@ -1538,15 +1917,45 @@ menu_room() {
 }
 
 doctor_room() {
-  local index pane errors=0
+  local index pane errors=0 repaired=0
   validate_config
   require_session
-  for index in 1 2 3 4; do
+  local command
+  for index in $(agent_indices); do
     pane="$(pane_for_index "$index")"
-    if [ -n "$pane" ]; then
-      printf 'OK  agent %s → pane %s\n' "$index" "$pane"
+    if [ -z "$pane" ]; then
+      printf 'ERR agent %s → pane missing — attempting repair\n' "$index"
+      if pane="$(recreate_missing_agent_pane "$index")" && [ -n "$pane" ]; then
+        launch_agent "$index" "$pane" "$(selected_provider "$index")"
+        printf 'FIX agent %s → recreated as %s and relaunched\n' "$index" "$pane"
+        repaired=$((repaired + 1))
+      else
+        errors=$((errors + 1))
+      fi
+      continue
+    fi
+    if agent_is_paused "$index"; then
+      printf 'OK  agent %s → pane %s (paused on purpose)\n' "$index" "$pane"
+      continue
+    fi
+    # A live pane is not a live agent. A CLI that exits leaves the pane on a
+    # bare shell, where every prompt is executed as a shell command instead of
+    # reaching an agent.
+    command="$(tmux display-message -p -t "$pane" '#{pane_current_command}' 2>/dev/null || true)"
+    if agent_process_is_live "$pane"; then
+      printf 'OK  agent %s → pane %s (%s)\n' "$index" "$pane" "${command:-unknown}"
+      continue
+    fi
+    printf 'ERR agent %s → pane %s alive but CLI exited (now %s) — relaunching\n' \
+      "$index" "$pane" "${command:-unknown}"
+    launch_agent "$index" "$pane" "$(selected_provider "$index")"
+    sleep 0.6
+    if agent_process_is_live "$pane"; then
+      printf 'FIX agent %s → %s restarted (%s)\n' "$index" "$pane" \
+        "$(tmux display-message -p -t "$pane" '#{pane_current_command}' 2>/dev/null || true)"
+      repaired=$((repaired + 1))
     else
-      printf 'ERR agent %s → pane missing\n' "$index"
+      printf 'ERR agent %s → relaunch did not stick; check the provider quota or its login state\n' "$index"
       errors=$((errors + 1))
     fi
   done
@@ -1557,29 +1966,32 @@ doctor_room() {
     printf 'ERR memory engine missing: %s\n' "$ROOM_MEMORY_SCRIPT"
     errors=$((errors + 1))
   fi
+  [ "$repaired" -eq 0 ] || printf 'INFO repaired %s missing pane(s)\n' "$repaired"
   [ "$errors" -eq 0 ] || die "$errors problem(s) found"
 }
 
 show_help() {
   cat <<EOF
-PaneShift — tmux 2x2 grid with a control sidebar
+PaneShift — tmux agent grid with a control sidebar
 
   $(basename "$0")                         create or join the Control Room
   $(basename "$0") --config FILE          use another team configuration
-  $(basename "$0") status                 show all four agents
+  $(basename "$0") status                 show all configured agents
+  $(basename "$0") status --json          machine-readable status (OpenClaw / Telegram)
   $(basename "$0") menu                   open the interactive menu
-  $(basename "$0") focus <1..4|slot>      focus an agent
+  $(basename "$0") focus <index|slot>     focus an agent
   $(basename "$0") next-pane              focus the next terminal
   $(basename "$0") previous-pane          focus the previous terminal
-  $(basename "$0") zoom <1..4|slot>       focus and zoom an agent
-  $(basename "$0") switch <slot> <provider> start a fresh Anthropic, OpenAI, or Local session
+  $(basename "$0") zoom <index|slot>      focus and zoom an agent
+  $(basename "$0") switch <slot> <provider> start a fresh Anthropic, OpenAI, Grok, or Local session
   $(basename "$0") model-picker <slot>       choose a configured model for one provider
-  $(basename "$0") reset-layout           restore the equal 2x2 grid
+  $(basename "$0") reset-layout           restore the equal tiled grid
   $(basename "$0") paste [pane]           paste using the system clipboard
   $(basename "$0") memory-refresh         snapshot and rebuild all live memory
+  $(basename "$0") prepare-shelve         refuse busy agents, snapshot all roles, sync disk
   $(basename "$0") sidebar-install        add the sidebar to an existing session
   $(basename "$0") theme                  reapply the configured live theme
-  $(basename "$0") doctor                 verify all four panes
+  $(basename "$0") doctor                 verify all configured panes
 
 Active configuration: $CONFIG
 EOF
@@ -1588,13 +2000,20 @@ EOF
 ACTION="${1:-start}"
 case "$ACTION" in
   start|attach) start_room ;;
-  status) status_room ;;
+  status)
+    if [ "${2:-}" = '--json' ] || [ "${2:-}" = '-j' ] || [ "${2:-}" = 'json' ]; then
+      status_json
+    else
+      status_room
+    fi
+    ;;
+  status-json) status_json ;;
   menu) menu_room ;;
   focus) focus_room "${2:-}" ;;
   next-pane) focus_adjacent_room next ;;
   previous-pane) focus_adjacent_room previous ;;
   zoom) zoom_room "${2:-}" ;;
-  switch) switch_agent "${2:-}" "${3:-}" ;;
+  switch) switch_agent "${2:-}" "${3:-}" "${4:-}" ;;
   switch-confirm) confirm_switch "${2:-}" "${3:-}" ;;
   provider-picker) provider_picker "${2:-}" ;;
   model-picker) model_picker "${2:-}" ;;
@@ -1611,10 +2030,13 @@ case "$ACTION" in
   sidebar-resize) resize_sidebar ;;
   paste) paste_room "${2:-}" ;;
   memory-refresh) memory_refresh "${2:-manual}" "${3:-0}" ;;
+  prepare-shelve) prepare_shelve ;;
   reset-layout) reset_layout ;;
   sync-grid) sync_grid "${2:-0}" ;;
   theme) decorate_existing_session; apply_theme ;;
   doctor) doctor_room ;;
+  pause) pause_agent "${2:-}" ;;
+  resume) resume_agent "${2:-}" ;;
   help|-h|--help) show_help ;;
   *) die "unknown command: $ACTION" ;;
 esac

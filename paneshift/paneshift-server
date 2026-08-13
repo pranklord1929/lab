@@ -1,0 +1,91 @@
+#!/usr/bin/env bash
+# Desktop-side lifecycle controller for a remote, hourly OVHcloud instance.
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+CONFIG="${PANESHIFT_SERVER_CONFIG:-$HOME/.config/paneshift/server.conf}"
+
+while [ "$#" -gt 0 ]; do
+  case "$1" in
+    --config) CONFIG="${2:?missing server config}"; shift 2 ;;
+    *) break ;;
+  esac
+done
+
+[ -f "$CONFIG" ] || { printf 'server config missing: %s\nCopy %s/server.example.conf there first.\n' "$CONFIG" "$ROOT" >&2; exit 2; }
+# shellcheck source=/dev/null
+source "$CONFIG"
+
+: "${PANESHIFT_SSH_HOST:?missing PANESHIFT_SSH_HOST}"
+: "${PANESHIFT_REMOTE_DIR:?missing PANESHIFT_REMOTE_DIR}"
+: "${PANESHIFT_REMOTE_CONFIG:?missing PANESHIFT_REMOTE_CONFIG}"
+: "${OVH_CLOUD_PROJECT:?missing OVH_CLOUD_PROJECT}"
+: "${OVH_INSTANCE_ID:?missing OVH_INSTANCE_ID}"
+PANESHIFT_ROOM_SESSION="${PANESHIFT_ROOM_SESSION:-bb}"
+PANESHIFT_WAKE_TIMEOUT_SECONDS="${PANESHIFT_WAKE_TIMEOUT_SECONDS:-600}"
+
+ssh_args=(-o BatchMode=yes -o ConnectTimeout=4 -o ControlMaster=auto -o "ControlPath=$HOME/.ssh/cm-paneshift-%C" -o ControlPersist=60)
+
+remote() {
+  ssh "${ssh_args[@]}" "$PANESHIFT_SSH_HOST" "$@"
+}
+
+online() {
+  remote true >/dev/null 2>&1
+}
+
+require_ovhcloud() {
+  command -v ovhcloud >/dev/null 2>&1 || {
+    printf 'ovhcloud CLI missing. Install and authenticate the official OVHcloud CLI first.\n' >&2
+    exit 3
+  }
+}
+
+ovh_instance() {
+  ovhcloud cloud instance "$1" "$OVH_INSTANCE_ID" --cloud-project "$OVH_CLOUD_PROJECT"
+}
+
+wake() {
+  if online; then
+    printf 'online\n'
+    return
+  fi
+  require_ovhcloud
+  printf 'PaneShift: waking OVH server…\n' >&2
+  ovh_instance unshelve
+  local started now
+  started="$(date +%s)"
+  while ! online; do
+    now="$(date +%s)"
+    [ $((now - started)) -lt "$PANESHIFT_WAKE_TIMEOUT_SECONDS" ] || {
+      printf 'OVH server did not become reachable within %ss.\n' "$PANESHIFT_WAKE_TIMEOUT_SECONDS" >&2
+      exit 4
+    }
+    sleep 5
+  done
+  printf 'online\n'
+}
+
+start_room() {
+  wake >/dev/null
+  remote "$PANESHIFT_REMOTE_DIR/paneshift" --config "$PANESHIFT_REMOTE_CONFIG" --session "$PANESHIFT_ROOM_SESSION" --no-attach
+}
+
+shelve() {
+  online || { printf 'already offline\n'; return; }
+  require_ovhcloud
+  # Refuse the operation while output is still evolving, then persist every
+  # role before OpenStack deallocates the VM.
+  remote "$PANESHIFT_REMOTE_DIR/agent-room.sh" --config "$PANESHIFT_REMOTE_CONFIG" --session "$PANESHIFT_ROOM_SESSION" prepare-shelve
+  printf 'PaneShift: shelving OVH server…\n' >&2
+  ovh_instance shelve
+  printf 'shelving\n'
+}
+
+case "${1:-status}" in
+  status) if online; then printf 'online\n'; else printf 'offline\n'; fi ;;
+  wake) wake ;;
+  start-room) start_room ;;
+  shelve) shelve ;;
+  *) printf 'Usage: %s [--config FILE] status|wake|start-room|shelve\n' "$0" >&2; exit 2 ;;
+esac
