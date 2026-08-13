@@ -5,7 +5,7 @@ $ status: experimental
 $ polish: optional
 ```
 
-Three product ideas I started building. Not finished companies. Not weekend trash either.
+Four product ideas I started building. Not finished companies. Not weekend trash either.
 
 The code is early, agent-heavy, half-broken in places. The **ideas** are the interesting part — each one has a real loop, a who-pays / what-you-get shape, even if the implementation is still mid-thought.
 
@@ -22,6 +22,7 @@ If it runs, cool. If it doesn’t, default.
 | [`paneshift/`](./paneshift) | local tooling around agents — panes, rooms, how you actually run the loop on a machine | power tools for people who live in terminals; useful first, hype never | furthest · still rough · **[MIT](./paneshift/LICENSE)** |
 | [`scorevault/`](./scorevault) | on-chain scores / vaults / commitments | stakes + coordination instead of “another sports app” | prototype · thesis in the contracts |
 | [`seo-autopilot/`](./seo-autopilot) | research → draft → publish (SEO/GEO) without babysitting every post | model labor × distribution; volume with a spine | early CLI · loop sketched |
+| [`la-cage/`](./la-cage) | restaurant ops cockpit — agents on invoices, stock, payroll | the cage is the habitacle; he plugs agents, you frame the resto | early dashboard · import loop live |
 
 Copies. Full history lives upstream. Read for intent, not SLAs.
 

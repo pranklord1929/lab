@@ -1,0 +1,125 @@
+@import "tailwindcss";
+
+/* La Cage — light, airy (Wannalead / Morpho) + or discret signature */
+:root {
+  --bg: #f7f6f2;
+  --bg-elevated: #ffffff;
+  --surface: #ffffff;
+  --surface-sunken: #f0efe9;
+  --ink: #0d0d0d;
+  --ink-soft: #2a2a2a;
+  --body: #3d3a36;
+  --muted: #6b6660;
+  --hint: #8a8580;
+  --line: #e6e3dc;
+  --line-strong: #d8d4cb;
+  --accent: #1919ff;
+  --accent-soft: #eef0ff;
+  --gold: #c9a227;
+  --gold-soft: #f5efd8;
+  --ok: #1a7f4b;
+  --ok-bg: #e8f6ee;
+  --warn: #a65f00;
+  --warn-bg: #fff4e5;
+  --bad: #c0362b;
+  --bad-bg: #fcedec;
+  --info: #1a5fb4;
+  --info-bg: #e8f1fb;
+  --r: 12px;
+  --r-sm: 8px;
+  --shadow: 0 0 0 1px rgba(13, 13, 13, 0.04), 0 8px 24px -12px rgba(13, 13, 13, 0.08);
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-bg-elevated: var(--bg-elevated);
+  --color-surface: var(--surface);
+  --color-surface-sunken: var(--surface-sunken);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-body: var(--body);
+  --color-muted: var(--muted);
+  --color-hint: var(--hint);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-gold: var(--gold);
+  --color-gold-soft: var(--gold-soft);
+  --color-ok: var(--ok);
+  --color-ok-bg: var(--ok-bg);
+  --color-warn: var(--warn);
+  --color-warn-bg: var(--warn-bg);
+  --color-bad: var(--bad);
+  --color-bad-bg: var(--bad-bg);
+  --color-info: var(--info);
+  --color-info-bg: var(--info-bg);
+  --font-sans: var(--font-geist);
+  --font-mono: var(--font-geist-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-geist), ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+@keyframes orb-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes orb-breathe {
+  0%,
+  100% {
+    opacity: 0.5;
+    transform: scale(0.94);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fade-up {
+  animation: fade-up 0.4s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.scroll-thin::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+.scroll-thin::-webkit-scrollbar-thumb {
+  background: var(--line-strong);
+  border-radius: 99px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fade-up {
+    animation: none;
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "la-cage",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3456",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "samples": "node scripts/make-sample-xlsx.mjs",
+    "db:sql": "echo 'Open supabase/migrations/001_init.sql in Supabase SQL Editor'"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.112.3",
+    "next": "16.3.0",
+    "pdf-parse": "^2.4.5",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/pdf-parse": "^1.1.5",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.0",
+    "supabase": "^2.113.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
