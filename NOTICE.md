@@ -1,14 +1,7 @@
 # notice
 
-Ce dépôt contient des **copies** d’essais de code.
+Snapshots. Not releases.
 
-Ce ne sont pas des releases.  
-Ce ne sont pas des produits.  
-C’est un lab.
+Fork at your own risk. Assume broken defaults, missing env, and incomplete mental models frozen mid-thought.
 
-Sources d’origine (comptes / repos séparés) :
-- paneshift  
-- scorevault  
-- seo-autopilot  
-
-Si tu forks : attends-toi à casser des trucs.
+Upstream originals are separate repos under different ownership. This tree is a portfolio-shaped dump for reading, not a monorepo you should depend on.

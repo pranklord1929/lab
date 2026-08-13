@@ -1,41 +1,47 @@
 # lab
 
 ```
-experiments · not products
+$ status: experimental
+$ ship_quality: deliberately incomplete
 ```
 
-Idées codées vite. Rien ici n’est un produit fini.  
-La plupart des trucs sont **buggés**, incomplets, ou abandonnés en cours de route — c’est voulu : c’est un lab, pas une vitrine marketing.
+Scratch space. Not a product catalog.
 
-Si un projet t’intéresse, regarde-le comme une **esquisse**.  
-Si tu veux bosser avec quelqu’un qui itère, shippe des essais, et assume le brouillon : on peut en parler.
+Most of what’s here came out of long agent loops, half-finished systems thinking, and the usual delusion that *this* abstraction will finally stick. It didn’t. That’s fine. The point of a lab is to leave residue you can still read later — intent, failure modes, weird ideas that almost cohered.
 
----
-
-## Projets
-
-| | | état |
-|--|--|--|
-| **[paneshift](./paneshift)** | tooling local / agent room | le plus poussé — **encore probablement buggé** |
-| **[scorevault](./scorevault)** | on-chain scores / vaults | prototype · vibe coding |
-| **[seo-autopilot](./seo-autopilot)** | CLI SEO / GEO | essai · non abouti |
-
-Copies. Les originaux vivent ailleurs. Ici = snapshot pour lire et juger l’intention.
+**Nothing here is production.**  
+If it runs, treat it as a coincidence. If it doesn’t, that’s the default.  
+[paneshift](./paneshift) is the least embarrassing; it will still bite you.
 
 ---
 
-## Comment lire ça
+## tree
 
-- pas de roadmap marketing  
-- pas de “production ready”  
-- du signal sur **comment je construis**, pas sur ce que je vends  
+| path | what it was trying to be | reality |
+|------|--------------------------|---------|
+| [`paneshift/`](./paneshift) | local agent / pane tooling | furthest along · still hostile |
+| [`scorevault/`](./scorevault) | on-chain score / vault sketch | prototype residue |
+| [`seo-autopilot/`](./seo-autopilot) | SEO/GEO publish loop | abandoned mid-flight |
 
-Cypher > polish. Essais > démos parfaites.
+These are **copies**. Upstream history lives elsewhere. Don’t expect clean git archaeology.
 
 ---
 
-## Contact
+## how to read this
 
-GitHub · [pranklord1929](https://github.com/pranklord1929)
+You’re not looking at polished demos. You’re looking at **traces** — how someone thinks when they’re building under uncertainty with models in the loop.
 
-*(colle ton @ X ici si tu veux que ce soit le point d’entrée)*
+I care more about the shape of the attempt than the screenshot.  
+If that resonates, we can talk. If you need a finished SaaS, this isn’t the repo.
+
+```
+cipher > theater
+systems > slides
+iterate > announce
+```
+
+---
+
+## contact
+
+[pranklord1929](https://github.com/pranklord1929)
