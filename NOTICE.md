@@ -1,9 +1,9 @@
 # notice
 
-Snapshots of three company-shaped experiments.
+Snapshots of three product ideas under construction.
 
-Not production releases. Not vapor either — each tree maps to a real product thesis and a rough business model.
+Not production releases. Not empty demos either — each folder maps to a real loop and a rough business shape.
 
-Fork knowing the code is early. Argue with the ideas; that’s the useful part.
+Code is early. Fork knowing that. Argue with the ideas if you want.
 
 Upstream originals live in separate repos.

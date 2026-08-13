@@ -1,49 +1,49 @@
 # lab
 
 ```
-$ mode: experimental companies-in-progress
-$ status: unfinished · still real ideas
+$ status: experimental
+$ polish: optional
 ```
 
-Three venture-shaped bets. Not polished products — but not toys either.
+Three product ideas I started building. Not finished companies. Not weekend trash either.
 
-Each folder is a **business idea** I started building in the open: a wedge, a loop, a model of who pays and why. The code is early, messy, agent-heavy. The *theses* are clearer than the implementations. That’s the point of a lab: ship enough surface that someone can stress-test the idea, not wait for a fake launch day.
+The code is early, agent-heavy, half-broken in places. The **ideas** are the interesting part — each one has a real loop, a who-pays / what-you-get shape, even if the implementation is still mid-thought.
 
-If something breaks, it’s unfinished.  
-If something’s interesting, it’s because the **business model** is.
+**Nothing here is production.**  
+If it runs, cool. If it doesn’t, default.  
+[paneshift](./paneshift) is the furthest along; it’ll still bite you.
 
 ---
 
-## the three bets
+## tree
 
-| path | company-shaped idea | model (rough) | build state |
-|------|---------------------|---------------|-------------|
-| [`paneshift/`](./paneshift) | **local agent infrastructure** — panes, rooms, tooling around how you actually run agents on a machine | power tools for people who live in terminals / agent loops; distribution via utility, not ads | furthest along · rough edges · still the flagship |
-| [`scorevault/`](./scorevault) | **on-chain prediction / score vaults** — leagues, commitments, payouts | crypto-native coordination + stakes; protocol fees / vault mechanics over “another sports app” | prototype · thesis visible in contracts + app shell |
-| [`seo-autopilot/`](./seo-autopilot) | **autonomous SEO/GEO publishing** — research → draft → ship to GitHub | leverage model labor against content distribution; time arbitrage for sites that need volume with a spine | early CLI · loop sketched, not industrialized |
+| path | idea | rough model | state |
+|------|------|-------------|--------|
+| [`paneshift/`](./paneshift) | local tooling around agents — panes, rooms, how you actually run the loop on a machine | power tools for people who live in terminals; useful first, hype never | furthest · still rough |
+| [`scorevault/`](./scorevault) | on-chain scores / vaults / commitments | stakes + coordination instead of “another sports app” | prototype · thesis in the contracts |
+| [`seo-autopilot/`](./seo-autopilot) | research → draft → publish (SEO/GEO) without babysitting every post | model labor × distribution; volume with a spine | early CLI · loop sketched |
 
-Copies. Upstream history lives elsewhere. Read for intent and model, not production SLAs.
+Copies. Full history lives upstream. Read for intent, not SLAs.
 
 ---
 
 ## how to read this
 
-You’re looking at **three incomplete companies**, not three abandoned weekend hacks.
-
-- unfinished ≠ unserious  
-- vibe-coded ≠ no model  
-- I iterate in public so the shape of the bet is visible before the polish  
+Traces of how I build when I’m figuring something out with models in the loop — not a pitch deck, not a demo day.
 
 ```
 cipher > theater
-thesis > vanity metrics
+systems > slides
 ship the wedge > announce the empire
 ```
 
-If one of these models is something you’d build against, invest time in, or argue with — talk to me. That’s what this profile is for.
+unfinished ≠ unserious  
+
+If something here is a problem you’d actually want to build on, talk to me.
 
 ---
 
 ## contact
 
-[pranklord1929](https://github.com/pranklord1929)
+GitHub · [pranklord1929](https://github.com/pranklord1929)  
+X · [@pranklord666](https://x.com/pranklord666)
