@@ -1,0 +1,150 @@
+{
+  "catalogName": "Masala y Maíz",
+  "slug": "masala-y-maiz",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Masala y Maíz",
+  "location": {
+    "address": "Marsella 72, Juárez (current listings). Older press also mentions San Miguel Chapultepec.",
+    "neighborhood": "Juárez",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06600",
+    "coordinates": {
+      "latitude": 19.432995,
+      "longitude": -99.1490523
+    }
+  },
+  "contact": {
+    "phone": "+52 55 6227 9468",
+    "website": "https://www.masalaymaiz.com/",
+    "instagram": "masalaymaiz",
+    "email": "reservas@masalaymaiz.com"
+  },
+  "hours": [
+    "mar cerrado",
+    "lun, mié–dom 12:00–18:00"
+  ],
+  "food": {
+    "cuisine": "mexican-indian",
+    "chef": "Norma Listman + Saqib Keval",
+    "priceLevel": 3,
+    "notes": "Pay-what-you-can on some services (IG). Michelin-starred in recent coverage."
+  },
+  "reservation": {
+    "platform": "tock",
+    "url": "https://www.exploretock.com/masalaymaiz",
+    "notes": "Official site recommends TOCK; WA +52 55 6227 9468"
+  },
+  "distinctions": {
+    "michelin": "Una Estrella : una cocina de gran nivel",
+    "michelinStars": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://es.wikipedia.org/wiki/Masala_y_Maíz",
+    "observedAt": "2026-08-17",
+    "itemCount": 14,
+    "items": [
+      {
+        "name": "Samosas",
+        "price": 285,
+        "currency": "MXN"
+      },
+      {
+        "name": "Ceviche con uchuvas",
+        "price": 395,
+        "currency": "MXN"
+      },
+      {
+        "name": "Camarones pa pelar",
+        "price": 445,
+        "currency": "MXN"
+      },
+      {
+        "name": "Chilpachole",
+        "price": 485,
+        "currency": "MXN"
+      },
+      {
+        "name": "Esquites estilo Makai Paka"
+      },
+      {
+        "name": "Chilpachole con tamal y cangrejo blando"
+      },
+      {
+        "name": "Camarones jumbo a la parrilla con masala"
+      },
+      {
+        "name": "Gorditas con chorizo de cordero, raita de za'atar"
+      },
+      {
+        "name": "Uttapam de masa de arroz fermentada, garbanzos y chutney"
+      },
+      {
+        "name": "Pollo crujiente, ensalada de hinojo, jícama y mango verde"
+      },
+      {
+        "name": "Tamal de chocolate, naranja, mousse de aguacate",
+        "category": "postres"
+      },
+      {
+        "name": "Pastel de mora e hibisco",
+        "category": "postres"
+      },
+      {
+        "name": "Panna cotta de té de limón",
+        "category": "postres"
+      },
+      {
+        "name": "Merengue de cardamomo con higos, pera y nueces",
+        "category": "postres"
+      }
+    ],
+    "notes": "Official site is manifesto + Tock. No published carta."
+  },
+  "sources": [
+    {
+      "source": "official",
+      "url": "https://www.masalaymaiz.com/",
+      "fields": [
+        "email",
+        "instagram"
+      ]
+    },
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/masalaymaiz/",
+      "fields": [
+        "hours",
+        "phone"
+      ]
+    },
+    {
+      "source": "tripadvisor",
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g150800-d15527315-Reviews-Masala_y_Maiz-Mexico_City_Central_Mexico_and_Gulf_Coast.html",
+      "fields": [
+        "address"
+      ]
+    }
+  ],
+  "gaps": [
+    "coordinates",
+    "confirm if they fully left San Miguel Chapultepec"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "michelinReview": "Las paredes de hormigón y la cocina abierta anticipan el carácter de este céntrico restaurante de Ciudad de México. Es en este espacio ecléctico y con personalidad donde los chefs Norma Listman y Saqib Keval elaboran una cocina que fusiona con absoluta naturalidad influencias africanas, indias y mexicanas. El resultado son unos platos que dejan huella: valgan como ejemplo las samosas rellenas de suadero o las de papa con pepitas, regadas con salsas de vivos matices. Los magníficos camarones de Veracruz se asan a fuego vivo y se acompañan de mantequilla fundida infusionada con vainilla, mientras que el chilpachole típico de la cocina veracruzana se pone al día con un tamal colado y una jaiba. Entre los postres, el denso y untuoso tamal de chocolate con supremas de naranja, mousse de aguacate y polvos de pistacho y rosa es el mejor de los cierres.",
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/masala-y-maiz",
+      "id": "1210966"
+    }
+  ]
+}

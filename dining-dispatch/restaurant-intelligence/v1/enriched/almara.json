@@ -1,0 +1,371 @@
+{
+  "catalogName": "Almara",
+  "slug": "almara",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Almara",
+  "location": {
+    "address": "Hamburgo 195, Juárez — Hotel Galería Plaza Reforma",
+    "neighborhood": "Juárez",
+    "borough": "Cuauhtémoc",
+    "postalCode": null,
+    "coordinates": {
+      "latitude": 19.4249074,
+      "longitude": -99.1679171
+    }
+  },
+  "contact": {
+    "phone": "+52 55 3213 2492",
+    "website": "https://almara.rest/",
+    "instagram": "almara.rest",
+    "email": "almara@brisas.com.mx",
+    "websiteIsInstagram": false
+  },
+  "hours": [
+    "lun–vie 07:00–23:00",
+    "sáb 13:00–23:00",
+    "dom 14:00–22:00"
+  ],
+  "food": {
+    "cuisine": "mexican-mediterranean",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "opentable / whatsapp",
+    "url": "https://www.opentable.com.mx/r/restaurante-almara-reservations-ciudad-de-mexico?restref=171583&lang=es-MX&ot_source=Restaurant%20website",
+    "phone": "+52 55 3213 2492",
+    "notes": "Official site lists landline +52 55 5230 1766 and WA +52 55 3213 2492."
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "local://sqlite-menu-items",
+    "observedAt": "2026-08-17",
+    "itemCount": 40,
+    "items": [
+      {
+        "name": "Raw Sauce, Red Onion and Pickles",
+        "description": null,
+        "price": 380.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": ", Pesto, Capers and Chili Powder",
+        "description": null,
+        "price": 295.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "Huitlacoche Mushroom and Poblano Chili Pepper",
+        "description": null,
+        "price": 230.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "g Vanilla Crème Brûlée",
+        "description": null,
+        "price": 210.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "Olive Oil and slices Guajillo Chili",
+        "description": null,
+        "price": 210.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "Quinoa, Fine Mustard and Avocado",
+        "description": null,
+        "price": 295.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "Tomatoes *Platillo Picante / Spicy Dish",
+        "description": null,
+        "price": 390.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "g With Glazed Vegetables and Bacon",
+        "description": null,
+        "price": 330.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "Parmesan Cheese Slices and Sauce",
+        "description": null,
+        "price": 350.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "Lettuces, Arugula and Fennel Salad",
+        "description": null,
+        "price": 260.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "g Truffle Oil and Parsley",
+        "description": null,
+        "price": 220.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "Fennel Orange Confit and Bernese Sauce",
+        "description": null,
+        "price": 609.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "Potato, Glazed Portobello and Bordelaise Sauce",
+        "description": null,
+        "price": 520.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "with Serrano Ham and Arugula leaves",
+        "description": null,
+        "price": 395.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "g Caponata-Style Vegetables, Tapenade and Pesto",
+        "description": null,
+        "price": 557.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "Cheese, Raspberries and Roquefort Vinaigrette Dressing",
+        "description": null,
+        "price": 250.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "Squid ink Sauce and Cherry Tomatoes",
+        "description": null,
+        "price": 530.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "g Accompanied with Mexican Style Risotto",
+        "description": null,
+        "price": 330.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "Half Portion",
+        "description": null,
+        "price": 130.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "Fruits, Berries Compote and Chicken Sauce",
+        "description": null,
+        "price": 431.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "Garlic Butter, Parsley and Almonds",
+        "description": null,
+        "price": 280.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "with Cream Dill Sauce and Wasabi",
+        "description": null,
+        "price": 295.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "Feta Cheese and Kalamata Olives",
+        "description": null,
+        "price": 395.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "Alfred with Grilled Chicken Breast Slices",
+        "description": null,
+        "price": 315.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "Sauce, Soy Sauce and Sesame Seed",
+        "description": null,
+        "price": 220.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "Porter House",
+        "description": null,
+        "price": 890.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "Habanero Chili, Cucumber and Avocado",
+        "description": null,
+        "price": 295.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "Classic Onion Soup Au Gratin",
+        "description": null,
+        "price": 210.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "Praline Ganache and Vanilla Ice Cream",
+        "description": null,
+        "price": 210.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "Wine, Potato Aligot and Glazed Celery",
+        "description": null,
+        "price": 595.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "Pop Sorbet Any Flavour",
+        "description": null,
+        "price": 185.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "cheese Foam, Chipotle Chili and Avocado",
+        "description": null,
+        "price": 210.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "Mix, Compote Bacon and French Fries",
+        "description": null,
+        "price": 588.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "Spring Onion Sauce, Artichoke and Asparagus",
+        "description": null,
+        "price": 578.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "with Truffle Oil and Parmesan Cheese",
+        "description": null,
+        "price": 315.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "Pomodoro , Mushrooms and baby Carrots",
+        "description": null,
+        "price": 590.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "Rib Eye",
+        "description": null,
+        "price": 750.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "with Saffron, Parmesan Cheese and Pancetta",
+        "description": null,
+        "price": 315.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "and Dried Fruits with Chicken Sauce",
+        "description": null,
+        "price": 315.0,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "and See Bass Served with Guacamole",
+        "description": null,
+        "price": 295.0,
+        "currency": "MXN",
+        "category": null
+      }
+    ],
+    "notes": "Prior extraction corpus"
+  },
+  "sources": [
+    {
+      "source": "official",
+      "url": "https://almara.rest/",
+      "fields": [
+        "hours",
+        "website",
+        "email",
+        "phone"
+      ]
+    },
+    {
+      "source": "opentable",
+      "url": "https://www.opentable.com/r/restaurante-almara-ciudad-de-mexico",
+      "fields": [
+        "hours",
+        "phone"
+      ]
+    },
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/almara.rest/",
+      "fields": [
+        "address",
+        "phone"
+      ]
+    }
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": [
+    {
+      "source": "resy",
+      "url": "https://resy.com/cities/mexico-city-mexico/venues/almara-restaurante",
+      "slug": "almara-restaurante"
+    }
+  ]
+}

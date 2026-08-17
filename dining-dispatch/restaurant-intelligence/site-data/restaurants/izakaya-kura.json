@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "a1fe2e7f-0b20-4c87-ac3c-a02b49442e8d",
+  "slug": "izakaya-kura",
+  "name": "Izakaya Kura",
+  "location": {
+    "neighborhood": "ROMA NORTE",
+    "borough": "Cuauhtémoc",
+    "address": "C.Colima 378-Loc A, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4175707,
+      "longitude": -99.1697523
+    }
+  },
+  "contact": {
+    "phone": "55 5511 8665",
+    "website": "https://izakayakura.mx/",
+    "instagram": "https://instagram.com/squarespace",
+    "googleMapsUrl": "https://maps.google.com/?cid=7998256076279609613&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "japanese",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": "Laid-back spot serving Japanese dishes such as sushi, ramen & oden, plus seafood, Wagyu beef & beer.",
+    "hours": [
+      "domingo: 11:30 a.m. – 12:00 a.m.",
+      "lunes: 11:30 a.m. – 12:00 a.m.",
+      "martes: 11:30 a.m. – 12:00 a.m.",
+      "miércoles: 11:30 a.m. – 12:00 a.m.",
+      "jueves: 11:30 a.m. – 12:00 a.m.",
+      "viernes: 11:30 a.m. – 12:00 a.m.",
+      "sábado: 11:30 a.m. – 12:00 a.m."
+    ],
+    "rating": 4.5,
+    "reviewCount": 6460
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "missing",
+    "observedAt": null,
+    "observationAgeDaysAtExport": null,
+    "documentCount": 0,
+    "itemCount": 0,
+    "documents": [],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://izakayakura.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:00.175+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=7998256076279609613&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:18.035+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://www.instagram.com/squarespace",
+      "confidence": null,
+      "checkedAt": "2026-07-09T18:48:06.9+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T13:58:53.494374+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 89,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "menu",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_menu_document",
+      "missing_structured_menu_items"
+    ]
+  }
+}

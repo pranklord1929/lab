@@ -1,0 +1,594 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "7237a25f-082b-41a0-b63a-f3ba478625a5",
+  "slug": "creperie-de-la-paix",
+  "name": "Creperie de la Paix",
+  "location": {
+    "neighborhood": "CONDESA",
+    "borough": "Cuauhtémoc",
+    "address": "Av Michoacán 103, Colonia Condesa, Cuauhtémoc, 06140 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4116371,
+      "longitude": -99.1766591
+    }
+  },
+  "contact": {
+    "phone": "55 5286 0421",
+    "website": "http://creperiedelapaix.com.mx/",
+    "instagram": "https://www.instagram.com/creperiadelapaix/",
+    "googleMapsUrl": "https://maps.google.com/?cid=18173741977434119587&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "french",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": "Cozy Parisian-style cafe with a leafy terrace, serving crêpes, coffee & Mexican dishes.",
+    "hours": [
+      "domingo: 9:00 a.m. – 10:45 p.m.",
+      "lunes: 2:00–10:45 p.m.",
+      "martes: 9:00 a.m. – 10:45 p.m.",
+      "miércoles: 9:00 a.m. – 10:45 p.m.",
+      "jueves: 9:00 a.m. – 10:45 p.m.",
+      "viernes: 9:00 a.m. – 11:00 p.m.",
+      "sábado: 9:00 a.m. – 11:00 p.m."
+    ],
+    "rating": 4.4,
+    "reviewCount": 2876
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 3,
+    "itemCount": 29,
+    "documents": [
+      {
+        "id": "61e3c46c-1769-4e67-a745-a72921e01c13",
+        "sourceUrl": "https://ubereats.com/mx/mexico-city/food-delivery/creperie-de-la-paix-condesa/nMQENfLqS8us4iB9uAXTHA",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "9a0a85b6-db19-4d81-ab1c-8c13090bdb00",
+        "sourceUrl": "https://creperiedelapaix.com.mx/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "ccb7e9d5-f756-46e2-a929-3a793e5e5fe4",
+        "sourceUrl": "https://creperiedelapaix.com.mx/_files/ugd/c7654e_4ad4050fb5e74c3fa4f33adf1287629e.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.95,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": [
+      {
+        "id": "3de26e50-ab90-41ed-a87f-d109e4fce683",
+        "documentId": null,
+        "name": "Blue Paris",
+        "description": null,
+        "price": 180,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "97fd05db-346a-44d5-ad35-074c41de2e11",
+        "documentId": null,
+        "name": "Brownie",
+        "description": null,
+        "price": 180,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "ad32735b-ccc1-42b7-ab09-5b7447498c14",
+        "documentId": null,
+        "name": "Chocolate Blanco",
+        "description": null,
+        "price": 200,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "e3171a6b-fca8-4070-aa75-f6baf5fe2cc8",
+        "documentId": null,
+        "name": "Crema de Lavanda",
+        "description": null,
+        "price": 180,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "4a2cf272-804a-40b9-ac2d-ea8bce54f452",
+        "documentId": null,
+        "name": "Creme brulée",
+        "description": null,
+        "price": 180,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "c352c2bf-7001-48e6-a50b-e7523a5a124a",
+        "documentId": null,
+        "name": "Creme brulée",
+        "description": null,
+        "price": 230,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "8f5e2b4a-2807-45e2-a859-df72aadb9e99",
+        "documentId": null,
+        "name": "Crepa conejito",
+        "description": null,
+        "price": 200,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "1f05fb87-c1e7-4c9e-aeeb-bf94f45a106b",
+        "documentId": null,
+        "name": "Crepa de la pasión",
+        "description": null,
+        "price": 180,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "9875ebec-9943-401e-ad85-b598be644bb6",
+        "documentId": null,
+        "name": "Crepe Suzette",
+        "description": null,
+        "price": 200,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "6d8a107e-220b-4446-af43-3d368faf7f00",
+        "documentId": null,
+        "name": "Dulce de Leche",
+        "description": null,
+        "price": 180,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "ed0f6a53-da35-4a11-a5e0-57d1db594889",
+        "documentId": null,
+        "name": "Fondant de Chocolate",
+        "description": null,
+        "price": 200,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "8713c1f4-4008-4eed-ab5e-c330c6cc132c",
+        "documentId": null,
+        "name": "Fondue Degas",
+        "description": null,
+        "price": 280,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "c5dcaaaf-c8ab-448a-a072-884d731506e5",
+        "documentId": null,
+        "name": "Fresa",
+        "description": null,
+        "price": 15,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "35555fc2-0d3c-4c5d-a070-d5654540f27e",
+        "documentId": null,
+        "name": "Fresas con Crema Montada",
+        "description": null,
+        "price": 200,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "40672ba6-455f-412c-ac7a-f8ba8a49ce1c",
+        "documentId": null,
+        "name": "Grand Marnier con fresas jubilée",
+        "description": null,
+        "price": 240,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "10e94806-a0a6-491e-af79-9c291298d445",
+        "documentId": null,
+        "name": "Helado de vainilla",
+        "description": null,
+        "price": 28,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "3cbce690-2b6f-4b76-a0d2-05acbc8df1e2",
+        "documentId": null,
+        "name": "Higos al balsámico",
+        "description": null,
+        "price": 200,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "7bc1232c-d725-470f-a899-60d754e50219",
+        "documentId": null,
+        "name": "Kiwi",
+        "description": null,
+        "price": 15,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "9d392bd3-d1e3-4431-a932-430381d6c96f",
+        "documentId": null,
+        "name": "La Billy Holliday Nutella Babe Crepe",
+        "description": null,
+        "price": 130,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "9da086ee-11d5-47d1-a674-7957def1c6de",
+        "documentId": null,
+        "name": "La Crepe Anita O day au rompope",
+        "description": null,
+        "price": 130,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "f058cc9c-bcf9-4842-a391-7e78db794ee2",
+        "documentId": null,
+        "name": "La Crepe Bublée chocolate con mermelada de naranja",
+        "description": null,
+        "price": 130,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "b9dc7bc3-df00-429c-aefa-5bc337ea9ab3",
+        "documentId": null,
+        "name": "La Crepe Coltrane con pay de limón",
+        "description": null,
+        "price": 130,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "d5634266-71dc-42a8-ab9c-a6786b451512",
+        "documentId": null,
+        "name": "La Crepe Duchesse Ellington de cajeta",
+        "description": null,
+        "price": 130,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "74dc0377-91a3-4bb9-af63-2b5a9a7bfb24",
+        "documentId": null,
+        "name": "Louis Armstrong",
+        "description": null,
+        "price": 180,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "6b451e40-2b0f-45ad-ace6-14fe042620ff",
+        "documentId": null,
+        "name": "Manzana Estilo Strudel",
+        "description": null,
+        "price": 190,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "ee24219b-f6f8-40cb-a7dd-d3b346946d19",
+        "documentId": null,
+        "name": "Nutella Special",
+        "description": null,
+        "price": 180,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "eeb7c4fe-0f9f-40ce-a72a-c885c6d971a3",
+        "documentId": null,
+        "name": "Pan de Elote",
+        "description": null,
+        "price": 140,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "605e85fd-6476-46b4-a7fb-ae7a3b135784",
+        "documentId": null,
+        "name": "Plátano",
+        "description": null,
+        "price": 15,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "eb5c819d-5bee-415e-a415-e6a3c47f80a2",
+        "documentId": null,
+        "name": "Tres Chocolates",
+        "description": null,
+        "price": 180,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://creperiedelapaix.com.mx/_files/ugd/c7654e_4ad4050fb5e74c3fa4f33adf1287629e.pdf",
+      "confidence": 0.95,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://ubereats.com/mx/mexico-city/food-delivery/creperie-de-la-paix-condesa/nMQENfLqS8us4iB9uAXTHA",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://creperiedelapaix.com.mx/menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.creperiedelapaix.com.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:04.042+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=18173741977434119587&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:19.107+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/creperiedelapaix",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/creperiedelapaixcondesa/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://www.instagram.com/creperiadelapaix/",
+      "confidence": null,
+      "checkedAt": "2026-06-28T21:18:38.493+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "google_places",
+      "official_menus",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T20:05:20.22199+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:00:57.929319+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": true,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 170,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review"
+    ]
+  }
+}

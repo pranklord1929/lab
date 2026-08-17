@@ -1,0 +1,367 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "48a84e08-f0b1-4bd9-8a30-b257f7e2cc00",
+  "slug": "cluny",
+  "name": "Cluny",
+  "location": {
+    "neighborhood": "SAN ÁNGEL",
+    "borough": "Álvaro Obregón",
+    "address": "Av. de la Paz 57, San Ángel, Álvaro Obregón, 01000 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3464706,
+      "longitude": -99.1893955
+    }
+  },
+  "contact": {
+    "phone": "55 3626 4614",
+    "website": "https://cluny.com.mx/",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=3286204672596863604&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "french",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 3
+  },
+  "experience": {
+    "sourceSummary": "Tartare, beef bourguignon & French wines, plus sweet & savory crêpes, at an art nouveau-style venue.",
+    "hours": [
+      "domingo: 9:00 a.m. – 11:00 p.m.",
+      "lunes: 12:30 p.m. – 12:00 a.m.",
+      "martes: 12:30 p.m. – 12:00 a.m.",
+      "miércoles: 12:30 p.m. – 12:00 a.m.",
+      "jueves: 12:30 p.m. – 12:00 a.m.",
+      "viernes: 12:30 p.m. – 12:00 a.m.",
+      "sábado: 9:00 a.m. – 12:00 a.m."
+    ],
+    "rating": 4.6,
+    "reviewCount": 5498
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-09T18:55:00.562+00:00",
+    "observationAgeDaysAtExport": 38,
+    "documentCount": 2,
+    "itemCount": 15,
+    "documents": [
+      {
+        "id": "e6eb7a4a-88b1-4c38-abaf-603cf8b8ebc4",
+        "sourceUrl": "https://cluny.com.mx/prix-fixe/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.5,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:00.562+00:00"
+      },
+      {
+        "id": "2604060f-fcd5-44df-b725-de0e13ca8ae2",
+        "sourceUrl": "https://cluny.com.mx/home/nuestros-menus/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.5,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:00.101+00:00"
+      }
+    ],
+    "items": [
+      {
+        "id": "32c7a9db-9006-4e8b-bf4d-84e136a22c68",
+        "documentId": "e6eb7a4a-88b1-4c38-abaf-603cf8b8ebc4",
+        "name": "Azteca",
+        "description": "Pechuga de pollo, elote, rajas, crema y queso. (240 gr)",
+        "price": null,
+        "currency": "MXN",
+        "category": "Crepas",
+        "sourceUrl": "https://cluny.com.mx/prix-fixe/",
+        "observedAt": "2026-07-09T18:55:00.562+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "6f06e5f9-5c4a-4dc6-a4b3-974bc59b7764",
+        "documentId": "e6eb7a4a-88b1-4c38-abaf-603cf8b8ebc4",
+        "name": "Bechamel",
+        "description": "Pechuga de pollo en salsa blanca. (240 gr)",
+        "price": null,
+        "currency": "MXN",
+        "category": "Crepas",
+        "sourceUrl": "https://cluny.com.mx/prix-fixe/",
+        "observedAt": "2026-07-09T18:55:00.562+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "b88ad845-3330-4ff4-858a-74cfe6f87a6d",
+        "documentId": "e6eb7a4a-88b1-4c38-abaf-603cf8b8ebc4",
+        "name": "Bolognesa",
+        "description": "Tradicional salsa de carne italiana. (180 gr)",
+        "price": null,
+        "currency": "MXN",
+        "category": "Crepas",
+        "sourceUrl": "https://cluny.com.mx/prix-fixe/",
+        "observedAt": "2026-07-09T18:55:00.562+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "127d431c-539a-42f1-ade0-8ed92caa223d",
+        "documentId": "e6eb7a4a-88b1-4c38-abaf-603cf8b8ebc4",
+        "name": "Crepa Bombay",
+        "description": "Pollo al curry con las esencias auténticas de la India. Acompañado de una raita de pepinos en yoghurt y chutney de la casa, de mango o durazno(240 gr)",
+        "price": null,
+        "currency": "MXN",
+        "category": "Crepas",
+        "sourceUrl": "https://cluny.com.mx/prix-fixe/",
+        "observedAt": "2026-07-09T18:55:00.562+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "391a313e-1fd8-4b26-8dab-06b2323a31c9",
+        "documentId": "e6eb7a4a-88b1-4c38-abaf-603cf8b8ebc4",
+        "name": "Monsieur",
+        "description": "Jamón y queso gouda importado. (220 gr)",
+        "price": null,
+        "currency": "MXN",
+        "category": "Crepas",
+        "sourceUrl": "https://cluny.com.mx/prix-fixe/",
+        "observedAt": "2026-07-09T18:55:00.562+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "35d2728f-b331-48b9-9973-33044d5b4e81",
+        "documentId": "e6eb7a4a-88b1-4c38-abaf-603cf8b8ebc4",
+        "name": "Mont-Blanc",
+        "description": "Champiñones frescos en salsa de ajo y perejil con queso Gruyére (250 gr)",
+        "price": null,
+        "currency": "MXN",
+        "category": "Crepas",
+        "sourceUrl": "https://cluny.com.mx/prix-fixe/",
+        "observedAt": "2026-07-09T18:55:00.562+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "c4a3347c-3c10-4e88-8fc1-94b9415a1c62",
+        "documentId": "e6eb7a4a-88b1-4c38-abaf-603cf8b8ebc4",
+        "name": "Popeye",
+        "description": "Espinacas, crema y jamón. (280 gr)",
+        "price": null,
+        "currency": "MXN",
+        "category": "Crepas",
+        "sourceUrl": "https://cluny.com.mx/prix-fixe/",
+        "observedAt": "2026-07-09T18:55:00.562+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "45bf7606-adc0-4aa8-9337-db4b79a1ddea",
+        "documentId": "e6eb7a4a-88b1-4c38-abaf-603cf8b8ebc4",
+        "name": "Quatre-fromages",
+        "description": "Delicada combinación de quesos Roquefort, Provolone ahumado, Brie y Gruyére. (190 gr)",
+        "price": null,
+        "currency": "MXN",
+        "category": "Crepas",
+        "sourceUrl": "https://cluny.com.mx/prix-fixe/",
+        "observedAt": "2026-07-09T18:55:00.562+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "d55b7837-5401-4a2f-8b64-1747d03d93db",
+        "documentId": "e6eb7a4a-88b1-4c38-abaf-603cf8b8ebc4",
+        "name": "Salade Rustique",
+        "description": "Espinaca, champiñones, jícama, tocino y ajonjolí con aderezo de nuez y orégano (200gr)",
+        "price": null,
+        "currency": "MXN",
+        "category": "Para empezar",
+        "sourceUrl": "https://cluny.com.mx/prix-fixe/",
+        "observedAt": "2026-07-09T18:55:00.562+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "42303905-1384-4ddd-a018-bcef211860d2",
+        "documentId": "e6eb7a4a-88b1-4c38-abaf-603cf8b8ebc4",
+        "name": "Sopa de Cebolla",
+        "description": "La celebridad de la casa desde 1974. (400 ml)",
+        "price": null,
+        "currency": "MXN",
+        "category": "Para empezar",
+        "sourceUrl": "https://cluny.com.mx/prix-fixe/",
+        "observedAt": "2026-07-09T18:55:00.562+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "ad265636-ad67-4421-879b-82878bc6de05",
+        "documentId": "e6eb7a4a-88b1-4c38-abaf-603cf8b8ebc4",
+        "name": "Café americano (200ml) o Té Nacional (500 ml)",
+        "description": null,
+        "price": null,
+        "currency": "MXN",
+        "category": "Para terminar",
+        "sourceUrl": "https://cluny.com.mx/prix-fixe/",
+        "observedAt": "2026-07-09T18:55:00.562+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "9d3bf7f5-8512-404d-b84c-fc062d92a62d",
+        "documentId": "e6eb7a4a-88b1-4c38-abaf-603cf8b8ebc4",
+        "name": "Helado de la casa",
+        "description": "A elegir entre: Vainilla, Capuchino, Frambuesa, Fresa. Mandarina y Mamey (de temporada).(105 gr)",
+        "price": null,
+        "currency": "MXN",
+        "category": "Para terminar",
+        "sourceUrl": "https://cluny.com.mx/prix-fixe/",
+        "observedAt": "2026-07-09T18:55:00.562+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "5c08caa7-9908-4da4-99d7-3174c5cd0faa",
+        "documentId": "e6eb7a4a-88b1-4c38-abaf-603cf8b8ebc4",
+        "name": "Mousse de Chocolate",
+        "description": "De Chocolate Belga amargo (180 gr)",
+        "price": null,
+        "currency": "MXN",
+        "category": "Para terminar",
+        "sourceUrl": "https://cluny.com.mx/prix-fixe/",
+        "observedAt": "2026-07-09T18:55:00.562+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "538b9094-cf8b-4122-8fcd-ad3f39b6d6b6",
+        "documentId": "e6eb7a4a-88b1-4c38-abaf-603cf8b8ebc4",
+        "name": "Prix Fixe con Naranjada o Limonada",
+        "description": "(400 ml)",
+        "price": 495,
+        "currency": "MXN",
+        "category": "Su bebida",
+        "sourceUrl": "https://cluny.com.mx/prix-fixe/",
+        "observedAt": "2026-07-09T18:55:00.562+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "1e93d377-df30-4469-917a-b336976f3de0",
+        "documentId": "e6eb7a4a-88b1-4c38-abaf-603cf8b8ebc4",
+        "name": "Prix Fixe con Una Copa de Vino",
+        "description": "(187.5 ml) - Vinho Verde marca Casal García ó Vino Tinto Cabernet Sauvignon marca Viña Maipo",
+        "price": 590,
+        "currency": "MXN",
+        "category": "Su bebida",
+        "sourceUrl": "https://cluny.com.mx/prix-fixe/",
+        "observedAt": "2026-07-09T18:55:00.562+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://cluny.com.mx/home/nuestros-menus/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://cluny.com.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:48:58.671+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=3286204672596863604&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:16.286+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 4,
+    "sourceNames": [
+      "foursquare",
+      "google_places",
+      "official_website",
+      "resy"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.802169+00:00",
+    "canonicalUpdatedAt": "2026-06-29T13:58:02.640602+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": true,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 9,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram"
+    ]
+  }
+}

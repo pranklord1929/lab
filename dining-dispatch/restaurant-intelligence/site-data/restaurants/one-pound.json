@@ -1,0 +1,186 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "7a135f02-27a8-47fb-a473-b64a4a43ee26",
+  "slug": "one-pound",
+  "name": "One Pound",
+  "location": {
+    "neighborhood": "LOMAS DE CHAPULTEPEC VI SECCIÓN",
+    "borough": "Miguel Hidalgo",
+    "address": "Rooftop, Monte Everest 720, Lomas de Chapultepec, Miguel Hidalgo, 11000 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4186071,
+      "longitude": -99.2153831
+    }
+  },
+  "contact": {
+    "phone": "55 5520 0005",
+    "website": "http://www.onepound.mx/",
+    "instagram": "https://instagram.com/onepoundmex/",
+    "googleMapsUrl": "https://maps.google.com/?cid=4310865245602178021&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 1:00–6:00 p.m.",
+      "lunes: 1:00–6:00 p.m.",
+      "martes: 1:00–11:00 p.m.",
+      "miércoles: 1:00–11:00 p.m.",
+      "jueves: 1:00–11:00 p.m.",
+      "viernes: 1:00–11:00 p.m.",
+      "sábado: 1:00–11:00 p.m."
+    ],
+    "rating": 4.7,
+    "reviewCount": 141
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-09T18:56:11.457+00:00",
+    "observationAgeDaysAtExport": 38,
+    "documentCount": 2,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "ab3ab540-79b4-400c-9102-b354b57ebc10",
+        "sourceUrl": "https://onepound.mx/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.5,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:56:11.457+00:00"
+      },
+      {
+        "id": "209718d6-6520-41aa-a75b-487012b708f7",
+        "sourceUrl": "https://onepound.mx/wp-content/uploads/2026/02/MENU-EXTERIOR-OP-MAYO-202open4.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 1,
+        "extractionMethod": "pdf_parse",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-09T18:56:11.121+00:00"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://onepound.mx/wp-content/uploads/2026/02/MENU-EXTERIOR-OP-MAYO-202open4.pdf",
+      "confidence": 0.95,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://onepound.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:31.503+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=4310865245602178021&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:31.264+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/OnePound.Terraza",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/onepoundmex/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.165171+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:21:43.186019+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 344,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "menu",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_cuisine",
+      "missing_price_level",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

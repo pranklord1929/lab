@@ -1,0 +1,31 @@
+{
+  "slug": "feral",
+  "name": "Feral",
+  "url": "https://www.opentable.com/r/feral-ciudad-de-mexico",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Almeja Reina",
+      "price": 100,
+      "currency": "MXN",
+      "category": "entradas",
+      "description": "Aderezo de chiltepín, camarón seco, cebolla morada y pepino"
+    },
+    {
+      "name": "Tostada de atún",
+      "price": 150,
+      "currency": "MXN",
+      "category": "entradas",
+      "description": "Alioli de chiltepín, alcaparras, yuzu"
+    },
+    {
+      "name": "Tacos de entraña",
+      "price": null,
+      "currency": "MXN",
+      "category": "especiales",
+      "description": "Cebollitas toreadas, salsa verde de aguacate — IG oficial @feral_rest"
+    }
+  ],
+  "notes": "OpenTable published items + official IG caption listing seasonal tacos de entraña."
+}

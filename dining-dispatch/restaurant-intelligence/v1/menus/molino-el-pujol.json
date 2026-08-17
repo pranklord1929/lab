@@ -1,0 +1,115 @@
+{
+  "slug": "molino-el-pujol",
+  "name": "Molino El Pujol",
+  "url": "https://www.ubereats.com/mx/store/molino-el-pujol/Uhc8DDiGTlKHBmetJnyIkQ",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Concha con costra de maíz",
+      "price": 75,
+      "currency": "MXN",
+      "category": "panadería"
+    },
+    {
+      "name": "Tamal de frijol",
+      "price": 154,
+      "currency": "MXN",
+      "category": "tamales"
+    },
+    {
+      "name": "Tamal de cerdo",
+      "price": 154,
+      "currency": "MXN",
+      "category": "tamales"
+    },
+    {
+      "name": "Tamal de calabaza",
+      "price": null,
+      "currency": "MXN",
+      "category": "tamales",
+      "description": "Named by Michelin inspector: masa al vapor, calabaza, ensalada con semillas caramelizadas"
+    },
+    {
+      "name": "Esquites",
+      "price": 95,
+      "currency": "MXN",
+      "category": "antojitos"
+    },
+    {
+      "name": "Taco de huitlacoche",
+      "price": 85,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Quesadilla",
+      "price": 75,
+      "currency": "MXN",
+      "category": "antojitos"
+    },
+    {
+      "name": "Chilaquiles de mole",
+      "price": 154,
+      "currency": "MXN",
+      "category": "especialidades",
+      "description": "Totopos, mole coloradito, crema, queso, cebolla y cilantro"
+    },
+    {
+      "name": "Chilaquiles verdes con huevos",
+      "price": 214,
+      "currency": "MXN",
+      "category": "especialidades"
+    },
+    {
+      "name": "Enfrijoladas",
+      "price": null,
+      "currency": "MXN",
+      "category": "especialidades",
+      "description": "Named on Michelin + official Pujol group page"
+    },
+    {
+      "name": "Huarache de sirloin de wagyu cross",
+      "price": 390,
+      "currency": "MXN",
+      "category": "antojitos"
+    },
+    {
+      "name": "Tortillas de maíz rojo",
+      "price": 69,
+      "currency": "MXN",
+      "category": "para llevar"
+    },
+    {
+      "name": "Masa negra Shub Nigas",
+      "price": 89,
+      "currency": "MXN",
+      "category": "para llevar"
+    },
+    {
+      "name": "Masa amarilla zapoteco valles",
+      "price": 79,
+      "currency": "MXN",
+      "category": "para llevar"
+    },
+    {
+      "name": "Frijoles de olla",
+      "price": 75,
+      "currency": "MXN",
+      "category": "acompañamientos"
+    },
+    {
+      "name": "Café de olla frío",
+      "price": 110,
+      "currency": "MXN",
+      "category": "bebidas"
+    },
+    {
+      "name": "Churro",
+      "price": 75,
+      "currency": "MXN",
+      "category": "postres"
+    }
+  ],
+  "notes": "Uber Eats store matching Benjamín Hill 146 + Michelin inspector (tamales, tacos, chilaquiles, enfrijoladas, tamal de calabaza) + pujol.com.mx/molino-el-pujol."
+}

@@ -1,0 +1,86 @@
+{
+  "catalogName": "EFE SIETE",
+  "slug": "efe-siete",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Efe Siete",
+  "location": {
+    "address": "Pedregal 24, Lomas-Virreyes / Lomas de Chapultepec",
+    "neighborhood": "Lomas de Chapultepec",
+    "borough": "Miguel Hidalgo",
+    "postalCode": "11040",
+    "coordinates": {
+      "latitude": 19.4249018,
+      "longitude": -99.2033082
+    }
+  },
+  "contact": {
+    "phone": null,
+    "website": "https://www.efesiete.mx/",
+    "instagram": "efesiete.steakhouse",
+    "email": null
+  },
+  "hours": [
+    "steakhouse Virreyes — hours not on official site at harvest; FB: viernes BBQ"
+  ],
+  "food": {
+    "cuisine": "steakhouse / seafood",
+    "priceLevel": 4
+  },
+  "reservation": {
+    "platform": "website",
+    "url": "https://www.efesiete.mx/"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.estilodf.tv/efe-siete-el-steakhouse-en-virreyes-que-eleva-la-carne-al-fuego-a-una-experiencia-ritual/",
+    "observedAt": "2026-08-17",
+    "itemCount": 6,
+    "items": [
+      {
+        "name": "Pulpo colosal al grill"
+      },
+      {
+        "name": "Pargo entero al grill"
+      },
+      {
+        "name": "Atún al grill"
+      },
+      {
+        "name": "Ensalada de betabel asado"
+      },
+      {
+        "name": "Tostadas de atún"
+      },
+      {
+        "name": "Hanger steak"
+      }
+    ],
+    "notes": "efesiete.mx / www.efesiete.mx do not resolve."
+  },
+  "sources": [
+    {
+      "source": "tripadvisor",
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g150800-d33405273-Reviews-Efe_Siete-Mexico_City_Central_Mexico_and_Gulf_Coast.html",
+      "fields": [
+        "address"
+      ]
+    },
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/efesiete.steakhouse/",
+      "fields": [
+        "instagram"
+      ]
+    }
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": []
+}

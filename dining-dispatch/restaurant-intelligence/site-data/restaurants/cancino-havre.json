@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "2e44e873-2db8-4d16-9559-6ce3bee5e845",
+  "slug": "cancino-havre",
+  "name": "Cancino Havre",
+  "location": {
+    "neighborhood": "JUÁREZ",
+    "borough": "Cuauhtémoc",
+    "address": "Havre 64, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.425624,
+      "longitude": -99.1606487
+    }
+  },
+  "contact": {
+    "phone": "55 5207 4398",
+    "website": "https://archipielagomx.com/cancino/",
+    "instagram": "https://instagram.com/loscancinos/",
+    "googleMapsUrl": "https://maps.google.com/?cid=3843346752362134203&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "pizza",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": "Elevated pizzas & cocktails in a rustic-chic, subterranean space with a leafy terrace.",
+    "hours": [
+      "domingo: 1:00–11:00 p.m.",
+      "lunes: 1:00–11:00 p.m.",
+      "martes: 1:00–11:00 p.m.",
+      "miércoles: 1:00–11:00 p.m.",
+      "jueves: 1:00 p.m. – 12:00 a.m.",
+      "viernes: 1:00 p.m. – 12:00 a.m.",
+      "sábado: 1:00 p.m. – 12:00 a.m."
+    ],
+    "rating": 4.6,
+    "reviewCount": 3780
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "missing",
+    "observedAt": null,
+    "observationAgeDaysAtExport": null,
+    "documentCount": 0,
+    "itemCount": 0,
+    "documents": [],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://archipielagomx.com/cancino/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:34.386+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=3843346752362134203&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:35.648+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/Archipielagomx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/loscancinos/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:11:09.799604+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 127,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "menu",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_menu_document",
+      "missing_structured_menu_items"
+    ]
+  }
+}

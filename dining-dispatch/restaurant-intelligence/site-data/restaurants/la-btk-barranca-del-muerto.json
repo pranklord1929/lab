@@ -1,0 +1,387 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "f6d480fc-7c27-4965-b562-44de923202df",
+  "slug": "la-btk-barranca-del-muerto",
+  "name": "La BTK Barranca del Muerto",
+  "location": {
+    "neighborhood": "FLORIDA",
+    "borough": "Álvaro Obregón",
+    "address": "Av. Insurgentes Sur 1660, Florida, Álvaro Obregón, 01030 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3616881,
+      "longitude": -99.1827856
+    }
+  },
+  "contact": {
+    "phone": "55 7822 9196",
+    "website": "http://www.labtk.com.mx/",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=17229706919036960181&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "fast_food",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 12:00–10:00 p.m.",
+      "lunes: 12:00–10:00 p.m.",
+      "martes: 12:00–10:00 p.m.",
+      "miércoles: 12:00–10:00 p.m.",
+      "jueves: 12:00–10:00 p.m.",
+      "viernes: 12:00 p.m. – 12:00 a.m.",
+      "sábado: 12:00 p.m. – 12:00 a.m."
+    ],
+    "rating": 4.2,
+    "reviewCount": 4745
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "local_extraction_candidate",
+    "observedAt": "2026-07-15T20:57:54.621Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 11,
+    "itemCount": 6,
+    "documents": [
+      {
+        "id": "44158afb-633a-49ae-ad88-339e74372b05",
+        "sourceUrl": "https://labtk.com.mx/wp-content/uploads/2022/03/MENU%CC%81-BEBIDAS-CON-ALCOHOL-SIN-PRECIOS-PA%CC%81GINA-WEB.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.98,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:57:54.621Z"
+      },
+      {
+        "id": "463688d9-ae06-439a-ba12-78934dd131dd",
+        "sourceUrl": "https://labtk.com.mx/wp-content/uploads/2022/02/MENU%CC%81-ALIMENTOS-PA%CC%81GINA-WEB-sin-precios.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.98,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:57:54.621Z"
+      },
+      {
+        "id": "8a64aa84-117b-471b-9b7d-c62afa1533aa",
+        "sourceUrl": "https://labtk.com.mx/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:57:54.621Z"
+      },
+      {
+        "id": "a322d488-c50e-4a59-a24a-90ed9c083ac4",
+        "sourceUrl": "https://labtk.com.mx/wp-content/plugins/pdf-viewer-for-elementor/assets/pdfjs/web/viewer.html?file=https://labtk.com.mx/wp-content/uploads/2022/02/MENU%CC%81-ALIMENTOS-PA%CC%81GINA-WEB-sin-precios.pdf&amp;embedded=true",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:57:54.621Z"
+      },
+      {
+        "id": "a424c8f9-bffa-444e-a6f0-205d1fd6517c",
+        "sourceUrl": "https://labtk.com.mx/wp-content/plugins/pdf-viewer-for-elementor/assets/pdfjs/web/viewer.html?file=https://labtk.com.mx/wp-content/uploads/2022/11/ESPECIALIDADES_compressed.pdf",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:57:54.621Z"
+      },
+      {
+        "id": "dab8b724-74b5-4709-a9fb-f2a40afa8728",
+        "sourceUrl": "https://labtk.com.mx/wp-content/plugins/pdf-viewer-for-elementor/assets/pdfjs/web/viewer.html?file=https://labtk.com.mx/wp-content/uploads/2022/03/MENU%CC%81-BEBIDAS-CON-ALCOHOL-SIN-PRECIOS-PA%CC%81GINA-WEB.pdf&amp;embedded=true",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:57:54.621Z"
+      },
+      {
+        "id": "fa289e61-86c3-428b-8ca5-d712b898cbc6",
+        "sourceUrl": "https://labtk.com.mx/wp-content/uploads/2022/11/ESPECIALIDADES_compressed.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.98,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:57:54.621Z"
+      },
+      {
+        "id": "5cb72bcd-52ae-43c9-9574-341b5c20dd5a",
+        "sourceUrl": "https://labtk.com.mx/wp-sitemap-posts-menus-1.xml",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "candidate_filter:sitemap",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "6f2f1c3e-66dc-4649-afae-7c18fb348204",
+        "sourceUrl": "https://labtk.com.mx/wp-content/plugins/pdf-viewer-for-elementor/assets/pdfjs/web/viewer.html?file=https://labtk.com.mx/wp-content/uploads/2022/02/Reglas-promociones-BTK.pdf",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:promotion",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "2c1d85f2-0640-4c0c-a3a0-e05f1bcb25ee",
+        "sourceUrl": "https://labtk.com.mx/aviso.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.95,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "4985472f-f1bf-4a2e-a9ba-bf35f047d2c2",
+        "sourceUrl": "https://labtk.com.mx/menu/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": [
+      {
+        "id": "cb0ec719c3ba7fe62893967d766ea97b",
+        "documentId": null,
+        "name": "BT- Kaguamon",
+        "description": null,
+        "price": 198,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "605ceb3fd42a9b156e3e670159aa62ba",
+        "documentId": null,
+        "name": "HORNO, HAMBURGUESAS Y MÁS!",
+        "description": null,
+        "price": 198,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "35d5233322f30c5c9b6b85791a395bf8",
+        "documentId": null,
+        "name": "PINeS BTK",
+        "description": null,
+        "price": 750,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "4020eb24f39b6aaa0653b9bb7a034f2b",
+        "documentId": null,
+        "name": "PRECIO REGULAR",
+        "description": null,
+        "price": 450,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "ea4792900902c7d939feaa70979954a6",
+        "documentId": null,
+        "name": "Precio lanzamiento BT-Kaguamon",
+        "description": null,
+        "price": 129,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "ef810b7c6fa7516815656786de94de28",
+        "documentId": null,
+        "name": "Precio regular",
+        "description": null,
+        "price": 170,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://labtk.com.mx/wp-content/uploads/2022/02/MENU%CC%81-ALIMENTOS-PA%CC%81GINA-WEB-sin-precios.pdf",
+      "confidence": 0.98,
+      "checkedAt": "2026-07-15T20:57:42.418Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://labtk.com.mx/wp-content/uploads/2022/11/ESPECIALIDADES_compressed.pdf",
+      "confidence": 0.98,
+      "checkedAt": "2026-07-15T20:57:42.418Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://labtk.com.mx/wp-content/uploads/2022/03/MENU%CC%81-BEBIDAS-CON-ALCOHOL-SIN-PRECIOS-PA%CC%81GINA-WEB.pdf",
+      "confidence": 0.98,
+      "checkedAt": "2026-07-15T20:57:42.418Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://labtk.com.mx/aviso.pdf",
+      "confidence": 0.95,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://labtk.com.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:49:37.687Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://labtk.com.mx/wp-content/plugins/pdf-viewer-for-elementor/assets/pdfjs/web/viewer.html?file=https://labtk.com.mx/wp-content/uploads/2022/02/MENU%CC%81-ALIMENTOS-PA%CC%81GINA-WEB-sin-precios.pdf&amp;embedded=true",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:49:37.687Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://labtk.com.mx/wp-content/plugins/pdf-viewer-for-elementor/assets/pdfjs/web/viewer.html?file=https://labtk.com.mx/wp-content/uploads/2022/11/ESPECIALIDADES_compressed.pdf",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:49:37.687Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://labtk.com.mx/wp-content/plugins/pdf-viewer-for-elementor/assets/pdfjs/web/viewer.html?file=https://labtk.com.mx/wp-content/uploads/2022/03/MENU%CC%81-BEBIDAS-CON-ALCOHOL-SIN-PRECIOS-PA%CC%81GINA-WEB.pdf&amp;embedded=true",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:49:37.687Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://labtk.com.mx/menu/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=17229706919036960181&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:41.362+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "google_places",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.165171+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:13:14.167664+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 389,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_source_summary"
+    ]
+  }
+}

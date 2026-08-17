@@ -1,0 +1,423 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "d4cda679-d422-4bef-9292-bd7b0b17d7ba",
+  "slug": "ofelia-botanero",
+  "name": "Ofelia Botanero",
+  "location": {
+    "neighborhood": "POLANCO II SECCIÓN",
+    "borough": "Miguel Hidalgo",
+    "address": "Séneca 349, Polanco, Polanco II Secc, Miguel Hidalgo, 11550 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4322824,
+      "longitude": -99.2029679
+    }
+  },
+  "contact": {
+    "phone": "55 6811 6084",
+    "website": "https://ofeliabotanero.shop/",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=15547330939776191810&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 1:00–8:00 p.m.",
+      "lunes: 1:00 p.m. – 1:00 a.m.",
+      "martes: 1:00 p.m. – 1:00 a.m.",
+      "miércoles: 1:00 p.m. – 1:00 a.m.",
+      "jueves: 1:00 p.m. – 2:00 a.m.",
+      "viernes: 1:00 p.m. – 2:00 a.m.",
+      "sábado: 1:00 p.m. – 2:00 a.m."
+    ],
+    "rating": 4.4,
+    "reviewCount": 1005
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 4,
+    "itemCount": 16,
+    "documents": [
+      {
+        "id": "3003aab3-0d9d-4823-ae21-45f616d81b9b",
+        "sourceUrl": "https://ofelia-botanero.grubbio.com/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "6cb14bc1-3257-4784-a281-a1b7b04bbf10",
+        "sourceUrl": "https://grubbio.com/all-locations.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "80c52f44-0840-4c48-a4cb-078862576b2d",
+        "sourceUrl": "https://grubbio.com/mexico/cafe-menus-in-mexico-city-t546",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "8707e503-f280-4a72-a2ef-1b74fdff7395",
+        "sourceUrl": "https://ofelia-botanero.grubbio.com",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": [
+      {
+        "id": "f40f8dd0-f96d-439d-a4c0-2bf6444e0b8e",
+        "documentId": null,
+        "name": "Bakery",
+        "description": null,
+        "price": 10,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "41e1200a-7815-438e-a381-dc136b924acb",
+        "documentId": null,
+        "name": "Cecina De Los 4 Vientos",
+        "description": null,
+        "price": 210,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "2f6e0467-a6bd-49a5-af61-5a41c7039885",
+        "documentId": null,
+        "name": "Cheesecake",
+        "description": null,
+        "price": 135,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "b03ef7db-4692-42c1-af22-e85caeeee49c",
+        "documentId": null,
+        "name": "Cuban restaurant",
+        "description": null,
+        "price": 10,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "727cd376-4db3-47c2-a591-5951a15fcee7",
+        "documentId": null,
+        "name": "El Volcán De Alcachofa",
+        "description": null,
+        "price": 250,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "a2224225-d620-4c82-a819-fe91d2fde504",
+        "documentId": null,
+        "name": "Ensalada De Hortalizas",
+        "description": null,
+        "price": 135,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "28da4bed-9766-4064-a04d-484192dd1b33",
+        "documentId": null,
+        "name": "Ensalada Mixta",
+        "description": null,
+        "price": 145,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "55476bfc-13a6-4720-a05e-0df31c8996f9",
+        "documentId": null,
+        "name": "Fogatas Authentic Mexican Food",
+        "description": null,
+        "price": 10,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "de36afa7-8ec4-498f-a6c6-4bba024bdea8",
+        "documentId": null,
+        "name": "Las Flautas De Short Rib",
+        "description": null,
+        "price": 260,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "e1347962-e935-49eb-aa73-f5ddb43b9657",
+        "documentId": null,
+        "name": "Mexican restaurant",
+        "description": null,
+        "price": 10,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "4b6d6eb3-7a81-4778-a2e7-105bcbf94dd9",
+        "documentId": null,
+        "name": "Palomitas De Coliflor Tierna",
+        "description": null,
+        "price": 125,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "be766d4d-c98e-4d6d-af97-6315be2999f0",
+        "documentId": null,
+        "name": "Plancha Del Jefe",
+        "description": null,
+        "price": 430,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "4febab62-d2bd-4262-a8cf-eeadb27e5b90",
+        "documentId": null,
+        "name": "Salmón Al Cerdo",
+        "description": null,
+        "price": 310,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "0859172c-347e-4952-acd8-3edebc21fad5",
+        "documentId": null,
+        "name": "Seafood restaurant",
+        "description": null,
+        "price": 10,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "d96eaeaa-6e9c-4fba-a26a-691f696a18de",
+        "documentId": null,
+        "name": "Tacos De Lengua",
+        "description": null,
+        "price": 198,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "7ed75524-acb5-4a99-ae3f-33dba3106692",
+        "documentId": null,
+        "name": "Tacos Sudados De Prime",
+        "description": null,
+        "price": 190,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://grubbio.com/mexico/cafe-menus-in-mexico-city-t546",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://ofelia-botanero.grubbio.com",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://grubbio.com/all-locations.html",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://ofelia-botanero.grubbio.com/menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://ofelia-botanero.grubbio.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:39.765+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=15547330939776191810&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:32.911+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 4,
+    "sourceNames": [
+      "google_places",
+      "official_menus",
+      "official_website",
+      "resy"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "resy",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T20:20:18.817259+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:08:53.615806+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 6,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_cuisine",
+      "missing_price_level",
+      "missing_source_summary"
+    ]
+  }
+}

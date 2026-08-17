@@ -1,0 +1,541 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "978806e1-4f2b-46fc-bdee-26a0ab71387b",
+  "slug": "cochinita-country",
+  "name": "Cochinita Country",
+  "location": {
+    "neighborhood": "VÉRTIZ NARVARTE",
+    "borough": "Benito Juárez",
+    "address": "Angel Urraza 1503, Letran Valle, Benito Juárez, 03650 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3807447,
+      "longitude": -99.157507
+    }
+  },
+  "contact": {
+    "phone": "55 5403 8472",
+    "website": "http://cochinitacountry.com/",
+    "instagram": "https://instagram.com/cochinitacountry/",
+    "googleMapsUrl": "https://maps.google.com/?cid=1916489769639071288&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "mexican",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 12:30–8:30 p.m.",
+      "lunes: 10:30 a.m. – 7:00 p.m.",
+      "martes: 10:30 a.m. – 7:00 p.m.",
+      "miércoles: 10:30 a.m. – 7:00 p.m.",
+      "jueves: 10:30 a.m. – 10:00 p.m.",
+      "viernes: 10:30 a.m. – 12:00 a.m.",
+      "sábado: 11:00 a.m. – 10:00 p.m."
+    ],
+    "rating": 4.5,
+    "reviewCount": 2324
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-09T18:55:10.797+00:00",
+    "observationAgeDaysAtExport": 38,
+    "documentCount": 1,
+    "itemCount": 28,
+    "documents": [
+      {
+        "id": "89ee4f56-41a0-4504-b2b4-e1a3411d9a66",
+        "sourceUrl": "https://www.cochinitacountry.com/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.75,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:10.797+00:00"
+      }
+    ],
+    "items": [
+      {
+        "id": "7f4273da-115b-4128-ae2f-4417d388b479",
+        "documentId": null,
+        "name": "Cajeta Pan de Elote con Cajeta 170 gms",
+        "description": null,
+        "price": 78,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "2f56bf88-0b3c-4149-ab19-b02e46c55970",
+        "documentId": null,
+        "name": "De Pollo En Escabeche Consumo en Restaurante (",
+        "description": null,
+        "price": 753,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "08ef15ed-021d-4e67-ae10-6175b9640e3f",
+        "documentId": null,
+        "name": "De Puerco En Escabeche Consumo en Restaurante (",
+        "description": null,
+        "price": 753,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "6f780ec5-9e45-41e1-a073-f4c1500dafed",
+        "documentId": null,
+        "name": "De Relleno Negro 3 Tacos de relleno negro",
+        "description": null,
+        "price": 233,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "ea0f4ffe-e6fb-4deb-af09-cd2b95ff7c91",
+        "documentId": null,
+        "name": "Dulces Típicos Yucatecos Sunchos Yucatecos Bombón Tradicional Yucateco",
+        "description": null,
+        "price": 34,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "f174c397-b94b-4561-ad1f-ca6ad5672493",
+        "documentId": null,
+        "name": "En Escabeche 3 Tacos de puerco en escabeche",
+        "description": null,
+        "price": 233,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "45df0c45-1c32-4723-a53b-e03a61fdc6c0",
+        "documentId": null,
+        "name": "Escabeche 3 Tacos de de pollo en Escabeche",
+        "description": null,
+        "price": 233,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "f02f60a6-4890-4442-aec6-80fae9d9c800",
+        "documentId": null,
+        "name": "Escabeche 3 Tacos mini de pollo en Escabeche",
+        "description": null,
+        "price": 150,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "22f8ea04-66c5-4d79-a418-965a80093235",
+        "documentId": null,
+        "name": "Fideos Negros Fideos preparados con caldo de frijol",
+        "description": null,
+        "price": 117,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "8e0af9b4-8631-4735-aa26-6d953129b176",
+        "documentId": null,
+        "name": "Fresa & Coco 946 ml",
+        "description": null,
+        "price": 148,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "e63a5b97-39f5-465e-ab00-84a111f4dcf5",
+        "documentId": null,
+        "name": "Horchata & Coco 946 ml",
+        "description": null,
+        "price": 148,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "57d6a019-91ef-4932-a301-d3c253320763",
+        "documentId": null,
+        "name": "Incluye salsas",
+        "description": null,
+        "price": 973,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "33d4fc11-c024-441c-a210-c488214a664a",
+        "documentId": null,
+        "name": "Kilo De Cochinita Pibil Consumo en Restaurante (",
+        "description": null,
+        "price": 753,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "eb1a0259-451a-4f06-a24d-e62d8686bf7a",
+        "documentId": null,
+        "name": "Kilo De Relleno Negro Consumo en Restaurante (",
+        "description": null,
+        "price": 753,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "d9ee526d-6051-45cb-a981-3ddb4eaee837",
+        "documentId": null,
+        "name": "Mango & Manzana",
+        "description": null,
+        "price": 148,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "e80e6135-98fe-4a5b-aa6f-c1119940d360",
+        "documentId": null,
+        "name": "Media Jarra De Agua De Horchata 800 ml",
+        "description": null,
+        "price": 117,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "0924ece4-a55d-4207-a714-8103c905a93d",
+        "documentId": null,
+        "name": "Media Jarra De Agua De Jamaica 800 ml",
+        "description": null,
+        "price": 117,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "1e4d0c98-177e-47f5-aef6-edf4374dbb1b",
+        "documentId": null,
+        "name": "Media Jarra De Agua De Mango 800 ml",
+        "description": null,
+        "price": 141,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "56c6f4ca-a6cc-42c0-a46e-1bfa5e07cd35",
+        "documentId": null,
+        "name": "Media Jarra De Agua De Maracuya 800 ml",
+        "description": null,
+        "price": 141,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "b2f4056d-7516-494a-a12b-0e892a5f3cec",
+        "documentId": null,
+        "name": "Media Jarra De Agua De Tamarindo 800 ml",
+        "description": null,
+        "price": 117,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "91dbdc72-5e5d-417c-a23b-0823aeecd340",
+        "documentId": null,
+        "name": "Melcocha Yucateca Natural Melcocha Yucateca Natural. 1 Pza",
+        "description": null,
+        "price": 34,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "124f09e4-c1e2-49bb-ad8f-72a301ddaa83",
+        "documentId": null,
+        "name": "Negros Mini Fideos preparados con caldo de frijol",
+        "description": null,
+        "price": 89,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "92bd46c6-5a52-42ce-aad5-52272be3165c",
+        "documentId": null,
+        "name": "Queso y Chile Jalapeño. 190 g. 1 pieza",
+        "description": null,
+        "price": 75,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "b9d11ce0-8ba8-4c06-a600-f306877eedd6",
+        "documentId": null,
+        "name": "Regresó después de varias décadas, auténtica Cerveza Yucateca",
+        "description": null,
+        "price": 187,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "5eaa98ea-ce31-4c3e-ac5f-249adf50daba",
+        "documentId": null,
+        "name": "Relleno Negro 3 Tacos mini de relleno negro",
+        "description": null,
+        "price": 150,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "2ce0a0ee-cd12-481f-a0c0-340a5ea071c0",
+        "documentId": null,
+        "name": "Rojos De Limón, Manzanilla, Yerbabuena ó Frutos Rojos",
+        "description": null,
+        "price": 39,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "5a324d3d-ff02-403f-ae5a-ecad9a678a48",
+        "documentId": null,
+        "name": "Tacos de de pollo en Escabeche. 240 g",
+        "description": null,
+        "price": 233,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "d5931fdd-d443-456d-aa72-9bd43cf8b044",
+        "documentId": null,
+        "name": "Yucatecos con Queso y Chile Jalapeño. 190 g",
+        "description": null,
+        "price": 75,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://cochinitacountry.com/menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.cochinitacountry.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:52:04.615+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=1916489769639071288&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:58.005+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/cochinitacountry",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/cochinitacountry/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 4,
+    "sourceNames": [
+      "chilango",
+      "google_places",
+      "official_menus",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T20:05:20.22199+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:19:53.053297+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": true,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 50,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_source_summary"
+    ]
+  }
+}

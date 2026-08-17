@@ -1,0 +1,18 @@
+{
+  "slug": "martinez",
+  "name": "Martínez",
+  "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/martinez",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Pollo a la parrilla",
+      "category": "fuertes"
+    },
+    {
+      "name": "Tarta de chocolate con helado de vainilla",
+      "category": "postres"
+    }
+  ],
+  "notes": "Guía Michelin 2026 inspector (CDMX)."
+}

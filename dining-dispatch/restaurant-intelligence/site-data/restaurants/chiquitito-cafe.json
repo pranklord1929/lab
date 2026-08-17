@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "63f02885-c294-408e-8a78-c58998cd3f5b",
+  "slug": "chiquitito-cafe",
+  "name": "Chiquitito Café",
+  "location": {
+    "neighborhood": "CONDESA VMC",
+    "borough": "Cuauhtémoc",
+    "address": "Agustín Melgar 43, Colonia Condesa, Cuauhtémoc, 06140 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4190977,
+      "longitude": -99.1765849
+    }
+  },
+  "contact": {
+    "phone": "55 9130 8389",
+    "website": "https://www.chiquititocafe.com/",
+    "instagram": "http://instagram.com/chiquititocafe",
+    "googleMapsUrl": "https://maps.google.com/?cid=1228256115501378860&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "cafeteria",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 8:00 a.m. – 4:00 p.m.",
+      "lunes: 7:30 a.m. – 6:30 p.m.",
+      "martes: 7:30 a.m. – 6:30 p.m.",
+      "miércoles: 7:30 a.m. – 6:30 p.m.",
+      "jueves: 7:30 a.m. – 6:30 p.m.",
+      "viernes: 7:30 a.m. – 6:30 p.m.",
+      "sábado: 7:30 a.m. – 3:30 p.m."
+    ],
+    "rating": 4.4,
+    "reviewCount": 42
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "missing",
+    "observedAt": null,
+    "observationAgeDaysAtExport": null,
+    "documentCount": 0,
+    "itemCount": 0,
+    "documents": [],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://chiquititocafe.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-13T15:22:51.591+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=1228256115501378860&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:18.398+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://www.instagram.com/chiquititocafe",
+      "confidence": null,
+      "checkedAt": "2026-07-09T18:47:56.941+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 1,
+    "sourceNames": [
+      "google_places"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-06-29T13:59:23.850808+00:00",
+    "canonicalUpdatedAt": "2026-06-29T13:59:23.969109+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 6,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_price_level",
+      "missing_source_summary",
+      "missing_menu_document",
+      "missing_structured_menu_items",
+      "low_source_count"
+    ]
+  }
+}

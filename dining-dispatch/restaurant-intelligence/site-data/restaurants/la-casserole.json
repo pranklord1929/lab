@@ -1,0 +1,463 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "1f9cad3a-3d0d-4d20-ace9-95e01f17b331",
+  "slug": "la-casserole",
+  "name": "La Casserole",
+  "location": {
+    "neighborhood": "FLORIDA",
+    "borough": "Álvaro Obregón",
+    "address": "Av. Insurgentes Sur 1880, Florida, Álvaro Obregón, 01030 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3546508,
+      "longitude": -99.1849963
+    }
+  },
+  "contact": {
+    "phone": "55 5661 5152",
+    "website": "https://www.opentable.com.mx/r/la-casserole-mexico-city",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=581906652685887450&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "french",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 3
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 8:00 a.m. – 7:00 p.m.",
+      "lunes: 8:00 a.m. – 7:00 p.m.",
+      "martes: 8:00 a.m. – 11:00 p.m.",
+      "miércoles: 8:00 a.m. – 11:00 p.m.",
+      "jueves: 8:00 a.m. – 11:00 p.m.",
+      "viernes: 8:00 a.m. – 11:00 p.m.",
+      "sábado: 8:00 a.m. – 11:00 p.m."
+    ],
+    "rating": 4.5,
+    "reviewCount": 1277
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-15T20:57:42.418Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 32,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "0046f1c4-578d-4f3d-8191-89b4e66f611d",
+        "sourceUrl": "https://www.opentable.com.mx/s/dinerschoice?metroid=475&amp;topic=NotableWineList",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:opentable_related_content",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "0443018c-cec1-4206-98aa-659619717f92",
+        "sourceUrl": "https://www.opentable.com.mx/s/dinerschoice?metroid=457&regionids=1417&topic=Brunch",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "candidate_filter:opentable_related_content",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "0ebab6d9-a8d1-493d-afd7-463372ed0014",
+        "sourceUrl": "https://www.opentable.com.mx/s/dinerschoice?metroid=442&amp;topic=Brunch",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:opentable_related_content",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "13f29e2c-7b05-4016-9511-efd1a30ff9ba",
+        "sourceUrl": "https://www.opentable.com.mx/s/dinerschoice?metroid=328&regionids=1447&topic=Brunch",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "candidate_filter:opentable_related_content",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "1c2be015-fcb1-42f1-a040-b28b7d1987c9",
+        "sourceUrl": "https://www.opentable.com.mx/s/dinerschoice?metroid=328&topic=Brunch",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:opentable_related_content",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "1d7424ad-1871-4390-a9dc-559bcb0cc8f7",
+        "sourceUrl": "https://www.opentable.com.mx/s/dinerschoice?metroid=3779&topic=Brunch",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "candidate_filter:opentable_related_content",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "1d8b5a89-9efd-4aa3-b473-ee796de34a69",
+        "sourceUrl": "https://www.opentable.com.mx/s/dinerschoice?metroid=307&topic=Brunch",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:opentable_related_content",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "225e6c45-7628-4f96-9087-8898a554e64d",
+        "sourceUrl": "https://www.opentable.com.mx/s/dinerschoice?metroid=3779&regionids=1321&topic=Brunch",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "candidate_filter:opentable_related_content",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "2a9bf240-9252-4fa2-8862-43be003a2e01",
+        "sourceUrl": "https://www.opentable.com.mx/s/dinerschoice?metroid=442&amp;topic=NotableWineList",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:opentable_related_content",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "311e7b6c-17a2-44d6-82a7-0c628b6dff1a",
+        "sourceUrl": "https://www.opentable.com.mx/s/dinerschoice?metroid=57&regionids=110&topic=Brunch",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "candidate_filter:opentable_related_content",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "4635d885-a57a-483a-92d7-6c75b89e593c",
+        "sourceUrl": "https://www.opentable.com.mx/s/dinerschoice?metroid=475&amp;topic=Brunch",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:opentable_related_content",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "48479890-361f-419b-8ab3-1115f1217cc8",
+        "sourceUrl": "https://www.opentable.com.mx/s/dinerschoice?metroid=310&amp;topic=NotableWineList",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:opentable_related_content",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "486f7571-c205-402f-8fe6-028f99dbf307",
+        "sourceUrl": "https://www.opentable.com.mx/s/dinerschoice?metroid=355&regionids=341&topic=Brunch",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "candidate_filter:opentable_related_content",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "5b639c79-9df8-42b9-ae13-8c7048f5d8cc",
+        "sourceUrl": "https://www.opentable.com.mx/s/dinerschoice?metroid=57&topic=Brunch",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:opentable_related_content",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "66401843-24ec-47c4-99ee-982eef8fab61",
+        "sourceUrl": "https://www.opentable.com.mx/s/dinerschoice?metroid=355&topic=Brunch",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:opentable_related_content",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "727840ab-4e11-4195-988d-e631ea7e9796",
+        "sourceUrl": "https://www.opentable.com.mx/s/dinerschoice?metroid=310&regionids=1171&topic=Brunch",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "candidate_filter:opentable_related_content",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "74a23f59-dc54-4c24-b619-c0a79feb74eb",
+        "sourceUrl": "https://www.opentable.com.mx/s/dinerschoice?metroid=346&topic=Brunch",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:opentable_related_content",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "756c429f-f143-41b2-a727-84796bc19391",
+        "sourceUrl": "https://www.opentable.com.mx/static/cfe/15/images/ot-red-logo-DCOUAIYQ.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "8288dc54-9f89-4274-a1f8-44c746e93c53",
+        "sourceUrl": "https://www.opentable.com.mx/s/dinerschoice?metroid=310&amp;topic=Brunch",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:opentable_related_content",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "84315bb9-c690-4850-9dee-f6e792e997c1",
+        "sourceUrl": "https://www.opentable.com.mx/s/dinerschoice?metroid=457&amp;topic=NotableWineList",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:opentable_related_content",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "8957aca3-b69a-4ca6-93b5-0be4e1bd5fa1",
+        "sourceUrl": "https://www.opentable.com.mx/s/dinerschoice?metroid=307&regionids=378&topic=Brunch",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "candidate_filter:opentable_related_content",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "927bfaab-843a-4bd3-be6e-3e2c2bbfe582",
+        "sourceUrl": "https://www.opentable.com.mx/s/dinerschoice?metroid=457&amp;topic=Brunch",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:opentable_related_content",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "99669653-46cf-40de-9347-f423d8babe48",
+        "sourceUrl": "https://www.opentable.com.mx/s/dinerschoice?metroid=3777&regionids=2782&topic=Brunch",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "candidate_filter:opentable_related_content",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "a9302141-dfdf-4920-bc7b-5d8f087dd3a2",
+        "sourceUrl": "https://www.opentable.com.mx/s/dinerschoice?metroid=346&regionids=368&topic=Brunch",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "candidate_filter:opentable_related_content",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "b8ddd8f1-3245-4241-9d66-9ab718268bc8",
+        "sourceUrl": "https://www.opentable.com.mx/s/dinerschoice?metroid=310&topic=Brunch",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:opentable_related_content",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "c47f9ce8-67ef-45b3-ad83-a33bef702d27",
+        "sourceUrl": "https://www.opentable.com.mx/s/dinerschoice?metroid=457&topic=Brunch",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:opentable_related_content",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "cafb27df-f4c1-48e9-a695-f72835e1ed0c",
+        "sourceUrl": "https://www.opentable.com.mx/s/dinerschoice?metroid=442&topic=Brunch",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:opentable_related_content",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "cfc5a281-0e63-49ef-8788-21798a82d6a2",
+        "sourceUrl": "https://www.opentable.com.mx/s/dinerschoice?metroid=475&topic=Brunch",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:opentable_related_content",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "d9ce0098-c047-4845-b9fe-e1b87bcb7c83",
+        "sourceUrl": "https://www.opentable.com.mx/s/dinerschoice?metroid=349&regionids=414&topic=Brunch",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "candidate_filter:opentable_related_content",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "da58442d-c854-43ac-8d9c-cffacf150252",
+        "sourceUrl": "https://www.opentable.com.mx/s/dinerschoice?metroid=3777&topic=Brunch",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:opentable_related_content",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "dc759ae8-7b75-4111-b47f-8053641d9cab",
+        "sourceUrl": "https://www.opentable.com.mx/s/dinerschoice?metroid=307&regionids=2854&topic=Brunch",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "candidate_filter:opentable_related_content",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "f35bf32e-4480-4fdd-b973-b17499082a19",
+        "sourceUrl": "https://www.opentable.com.mx/s/dinerschoice?metroid=349&topic=Brunch",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:opentable_related_content",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.opentable.com.mx/r/la-casserole-mexico-city",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:13.612+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=581906652685887450&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:25.932+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 1,
+    "sourceNames": [
+      "google_places"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-06-29T14:20:59.609811+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:20:59.975867+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 267,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram,menu",
+    "actionPriority": 6,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_source_summary",
+      "missing_structured_menu_items",
+      "low_source_count"
+    ]
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "1267f40f-2c1d-4795-878a-1361f3d093b0",
+  "slug": "los-cocuyos",
+  "name": "Los Cocuyos",
+  "location": {
+    "neighborhood": "CENTRO",
+    "borough": "Cuauhtémoc",
+    "address": "Simón Bolívar 59, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06000 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4305523,
+      "longitude": -99.1387451
+    }
+  },
+  "contact": {
+    "phone": "55 5518 4231",
+    "website": null,
+    "instagram": "https://instagram.com/tacoscocuyos/",
+    "googleMapsUrl": "https://maps.google.com/?cid=14051425661561475567&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "taco",
+    "michelinCuisine": "Mexicana",
+    "openTableCuisine": null,
+    "priceLevel": 1
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: Abierto las 24 horas",
+      "lunes: Abierto las 24 horas",
+      "martes: Abierto las 24 horas",
+      "miércoles: Abierto las 24 horas",
+      "jueves: Abierto las 24 horas",
+      "viernes: Abierto las 24 horas",
+      "sábado: Abierto las 24 horas"
+    ],
+    "rating": 4.1,
+    "reviewCount": 13732
+  },
+  "distinctions": {
+    "michelin": "Bib Gourmand : nuestras mejores relaciones calidad-precio",
+    "michelinStars": 0,
+    "bibGourmand": true,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "missing",
+    "observedAt": null,
+    "observationAgeDaysAtExport": null,
+    "documentCount": 0,
+    "itemCount": 0,
+    "documents": [],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=14051425661561475567&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:19.365+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/tacoscocuyos/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:13:26.199+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "foursquare",
+      "google_places",
+      "michelin"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "instagram": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "michelin"
+    },
+    "freshestSourceAt": "2026-07-09T19:05:47.858092+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:00:57.034505+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 278,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "website,menu",
+    "actionPriority": 5,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_website",
+      "missing_source_summary",
+      "missing_menu_document",
+      "missing_structured_menu_items"
+    ]
+  }
+}

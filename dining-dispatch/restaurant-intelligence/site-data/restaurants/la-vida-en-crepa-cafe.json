@@ -1,0 +1,1862 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "289c0e81-c996-4188-8f89-57186267be3a",
+  "slug": "la-vida-en-crepa-cafe",
+  "name": "La Vida En Crepa Café",
+  "location": {
+    "neighborhood": "IZTACCÍHUATL",
+    "borough": "Benito Juárez",
+    "address": "Javier Sorondo 274, Iztaccihuatl, Benito Juárez, 03520 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3888527,
+      "longitude": -99.1355484
+    }
+  },
+  "contact": {
+    "phone": "55 7261 2120",
+    "website": "https://lavidaencrepa.ola.click/",
+    "instagram": "https://instagram.com/lavidaencrepa/",
+    "googleMapsUrl": "https://maps.google.com/?cid=1945554193461156730&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "coffee_shop",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": "Sweet & savory crepes, salads & espresso feature at this cozy, French-inspired counter-serve.",
+    "hours": [
+      "domingo: 10:30 a.m. – 8:00 p.m.",
+      "lunes: 7:30 a.m. – 9:30 p.m.",
+      "martes: 7:30 a.m. – 9:30 p.m.",
+      "miércoles: 7:30 a.m. – 9:30 p.m.",
+      "jueves: 7:30 a.m. – 9:30 p.m.",
+      "viernes: 7:30 a.m. – 9:30 p.m.",
+      "sábado: 9:00 a.m. – 9:30 p.m."
+    ],
+    "rating": 4.5,
+    "reviewCount": 3685
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "local_extraction_candidate",
+    "observedAt": "2026-07-15T21:03:07.607Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 49,
+    "itemCount": 67,
+    "documents": [
+      {
+        "id": "00644905-3ce4-4ebd-a018-2cd44b2e76f1",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas-frias/chocolate-frio",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "092ecd9d-391c-4bc9-a891-73bb352864ca",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas-frias/latte-frio",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "1c84b4f5-46cc-432d-9330-904ccb0907c4",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas-frias/taro-frio",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "1e91c1a4-f429-401b-9204-ec3759c53f11",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas-calientes/capuccino",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "3013446f-bbd9-4118-ba1a-29ea08f191cd",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas/sprite",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "31a05d3e-d465-4816-9f11-1dbff8906f6b",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas/copa-de-vino",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "3620a26c-27f4-4e8c-a26d-7dd01258dd3a",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas/jugo-de-naranja",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "36eec303-9b15-4b21-9987-2adb522a4416",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas-calientes/mocca",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "3c55bfa2-8d08-4b46-a73f-04ee7aa746e9",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas/carajillo-ferrero",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "3de725e9-b0ed-4d0c-b9ab-12e538a7c971",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas-frias/te-frio",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "3f265f0c-aebb-4bd0-9202-60617086ad53",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas/agua-natural",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "433700b4-7e27-4e20-aa53-d4c8661c1eba",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas-frias/americano-frio",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "442ce518-e180-409d-a6b9-f1a1294398e9",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas/verano-blanco",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "44b55506-50d0-48b9-a401-8d797acc13ca",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas-frias/te-verde-latte-matcha-frio",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "4a54d7f5-3282-4ea3-84f3-7bc925391a38",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas-calientes/te-verde-latte-matcha",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "4baa1609-475e-4e9b-abdc-8b14f4550f71",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas-calientes/te-chai-latte",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "503e631e-f09c-439a-b287-13d4cfd547bc",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas/botella-de-vino",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "52a7b9ee-5f72-492a-b966-99ad5d5bf35f",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas-calientes/vaso-con-leche-caliente",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "553a81e1-c549-449a-bff3-ed1c87b7716f",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas-calientes/te",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "5b76b08c-bda7-45ea-a58e-7fa0b0989de4",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas/agua-mineral-topo-chico",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "5e88eab0-7c5c-47bf-8130-d848a9290388",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas/carajillo",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "66651732-8fd5-4b5c-8db8-9efd8a963689",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas/cerveza-importada",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "68557996-641d-41cb-8db6-1e4303711f12",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas/cerveza-nacional",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "6c7c9391-b606-4474-8ab4-5a798ef920ed",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas-frias/mocca-frio",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "73b51794-955f-4d2f-97cc-3402a36a7b07",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas/st-germain-saritz",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "79c6a0c1-5481-4ea2-9a25-92ce9df5efeb",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas-frias/americano-cortado-frio",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "854ba73e-0644-4ac9-8888-1be86a2d4ff2",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas-calientes/latte",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "87e3c1f1-44c3-46ef-890e-5b300d4d6072",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas-frias/horchata-expresso",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "8a68aa9d-b17d-4fa8-86bf-6f620df2f24f",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas-calientes/tisanas",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "8afdfd7d-ef96-45c1-9dfe-fe631d3336cd",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas/mimosa",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "8cc48fd9-c5ce-43dd-8a37-75ae411647e9",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas/coca-cola",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "9546c308-1e63-46ae-b41d-cffe0b4ad4a8",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas/calimocho",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "a26eaee2-7165-455e-9301-a5d15899bdaf",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas/sidral-mundet",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "a609c4b6-38d9-4e6f-84fc-5f6f322e01f4",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas/limonada",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "a7593c7a-fe90-4002-93ce-281eea63db35",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas/aperol-spritz",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "a7a89cb3-1bab-4a07-8d0c-656e861ffcee",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas-calientes/americano",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "a90f9ea1-ecbb-4e2a-acc6-2715937ffa55",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas/fanta",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "ab8986e6-9609-4ddb-8f3d-696d1a0f1e86",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas/fresca",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "b8e059ab-6857-4782-85e7-1e7328b5c1a4",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas-frias/vaso-con-leche-fria",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "b933ae45-d8fe-4687-a981-c3d38ccf0c16",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas-calientes/taro",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "bdd903ca-bf64-4428-a155-e49640933a19",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas-calientes/americano-cortado",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "c5b8ddb3-4d31-4e5f-a498-6eaa30321fca",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas-frias/tisanas-frias",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "c80a3880-578b-4ade-b376-89d23b138e83",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas/naranjada",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "cc323506-74e6-47cc-9bbd-79904fd82e6c",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas/delaware-punch",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "d20dd8c9-6d6e-499c-bb01-fb6dbd2c4666",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas-frias/latte-especial-frio",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "df35755b-77ad-4ca0-bbfd-d574d9acdc41",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas/tinto-de-verano",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "e829fe8d-33a3-41a2-815e-c26b29f50ad8",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas-calientes/chocolate",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "f1ad99d9-9b15-42ea-86c9-25e782347c83",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas-frias/te-chai-latte-frio",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "f4b194ab-87e9-4888-9a57-600f228479e8",
+        "sourceUrl": "https://lavidaencrepa.ola.click/bebidas-calientes/latte-especial",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      }
+    ],
+    "items": [
+      {
+        "id": "709fcb34d63c60c20b95637de2688ded",
+        "documentId": null,
+        "name": "Agua Mineral Topo Chico",
+        "description": null,
+        "price": 55,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "9bc20e78fa2a15d6f1778b8b8ab459d4",
+        "documentId": null,
+        "name": "Agua natural",
+        "description": null,
+        "price": 35,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "0f9534186bc9762b70f1669176cbd7dd",
+        "documentId": null,
+        "name": "Amaretto",
+        "description": null,
+        "price": 10,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "4ea692904c2174444818f0406b5cd8d2",
+        "documentId": null,
+        "name": "Americano",
+        "description": null,
+        "price": 39,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "11d0abe26c2c6b2426f0a8115c0a0533",
+        "documentId": null,
+        "name": "Americano Frio",
+        "description": null,
+        "price": 50,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "ae58d2bc2ce4788044ed1e00e74ab6da",
+        "documentId": null,
+        "name": "Americano cortado",
+        "description": null,
+        "price": 42,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "cc3348422ed2e24afab4f4e25e588bef",
+        "documentId": null,
+        "name": "Americano cortado Frio",
+        "description": null,
+        "price": 53,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "aec335abe32a27328567cb8d44a984b5",
+        "documentId": null,
+        "name": "Aperol Spritz",
+        "description": null,
+        "price": 145,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "8223a6003c07bf03b30a48c1ce6e5a18",
+        "documentId": null,
+        "name": "Avellana",
+        "description": null,
+        "price": 10,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "7092e22202db53459ada144f9bff9993",
+        "documentId": null,
+        "name": "Botella de Vino",
+        "description": null,
+        "price": 450,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "77f9652578e0011f4e1b8b27024fa1b6",
+        "documentId": null,
+        "name": "Cajeta",
+        "description": null,
+        "price": 10,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "5a39c8cbbebd37247ed01606350d886a",
+        "documentId": null,
+        "name": "Calimocho",
+        "description": null,
+        "price": 79,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "e7ca9f2b35b607c9f54c149d8dbac99d",
+        "documentId": null,
+        "name": "Capuccino",
+        "description": null,
+        "price": 44,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "3fc46acf6a68dd5b1ed622ab0f5e626f",
+        "documentId": null,
+        "name": "Carajillo",
+        "description": null,
+        "price": 120,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "74a8fe7f81f1824f1a75c1926d26c2a2",
+        "documentId": null,
+        "name": "Carajillo Ferrero",
+        "description": null,
+        "price": 139,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "564034d07967cf2252c998152476396c",
+        "documentId": null,
+        "name": "Caramel",
+        "description": null,
+        "price": 10,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "00c378547cbe8d42bb027d75342f05d4",
+        "documentId": null,
+        "name": "Cerveza Importada",
+        "description": null,
+        "price": 68,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "845d3ec81352224cddd57329dafc6378",
+        "documentId": null,
+        "name": "Cerveza Nacional",
+        "description": null,
+        "price": 58,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "8eca2111f3e71da7ed80dcc1b91e0297",
+        "documentId": null,
+        "name": "Chocolate",
+        "description": null,
+        "price": 59,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "bc6a15544ed5dba1c866fd95f147ffc6",
+        "documentId": null,
+        "name": "Chocolate Frio",
+        "description": null,
+        "price": 68,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "2fa2b2b7236c816ce9f9ae9aef64f94c",
+        "documentId": null,
+        "name": "Coca-Cola",
+        "description": null,
+        "price": 45,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "acebbb473131087769de0b453b1553f7",
+        "documentId": null,
+        "name": "Comentarios",
+        "description": null,
+        "price": 19,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "dac85b06359cae1386158975ef9b9a7b",
+        "documentId": null,
+        "name": "Comentarios",
+        "description": null,
+        "price": 36,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "96147be9912e548e5cca0af687728f67",
+        "documentId": null,
+        "name": "Completado",
+        "description": null,
+        "price": 19,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "dbe3bfa7d68f153f89a4e0153b1d01cb",
+        "documentId": null,
+        "name": "Completado",
+        "description": null,
+        "price": 26,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "b2330f2fb8489c97573dd512027bf4de",
+        "documentId": null,
+        "name": "Completado",
+        "description": null,
+        "price": 35,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "c5b159326f9d163dfb94873153b01631",
+        "documentId": null,
+        "name": "Completado",
+        "description": null,
+        "price": 36,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "37eb77dc5463931703675b3c28719376",
+        "documentId": null,
+        "name": "Completado",
+        "description": null,
+        "price": 46,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "285f9e1a88159e95630acce01d1ddd5c",
+        "documentId": null,
+        "name": "Completado",
+        "description": null,
+        "price": 56,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "d143cde885b4e3232cb1fcfa1d778b03",
+        "documentId": null,
+        "name": "Copa de Vino",
+        "description": null,
+        "price": 84,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "fcfdbbd48f497669b636e8dcad15a433",
+        "documentId": null,
+        "name": "Crema Irlandesa",
+        "description": null,
+        "price": 10,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "364759ec8ca5ed20193483fe4700aa64",
+        "documentId": null,
+        "name": "Crema batida",
+        "description": null,
+        "price": 10,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "6b194685f76d5c016d350aeebb54891b",
+        "documentId": null,
+        "name": "Delaware punch",
+        "description": null,
+        "price": 45,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "9f9e6ef182067ccf099933446b60497a",
+        "documentId": null,
+        "name": "Germain Saritz",
+        "description": null,
+        "price": 185,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "c588851de16dc4f4580c6893415a2439",
+        "documentId": null,
+        "name": "Horchata Expresso",
+        "description": null,
+        "price": 79,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "6382a8e4c5c2a264859e3b53e7116540",
+        "documentId": null,
+        "name": "Jugo de naranja",
+        "description": null,
+        "price": 46,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "836762972dd4d0fd5b1e7d966010ca74",
+        "documentId": null,
+        "name": "Latte",
+        "description": null,
+        "price": 46,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "b47df62fa922af14a07dcfc692533fc9",
+        "documentId": null,
+        "name": "Latte Especial",
+        "description": null,
+        "price": 55,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "68ea7e34ff999d5dabebc33e8384be5c",
+        "documentId": null,
+        "name": "Latte Especial Frio",
+        "description": null,
+        "price": 66,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "d33504eb45ef7e9910f1e72a975b5184",
+        "documentId": null,
+        "name": "Latte Frio",
+        "description": null,
+        "price": 58,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "ca0d2eb528916ea11e0beb44dafde5b5",
+        "documentId": null,
+        "name": "Leche de almendra",
+        "description": null,
+        "price": 10,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "2bd67e07bb0d28deee7ad1838fb6fe30",
+        "documentId": null,
+        "name": "Leche de avena",
+        "description": null,
+        "price": 10,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "8545cffaa2adee5764e03351b5248284",
+        "documentId": null,
+        "name": "Leche de coco",
+        "description": null,
+        "price": 10,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "72c106541c584cd18ee47a5510639fe2",
+        "documentId": null,
+        "name": "Leche de soya",
+        "description": null,
+        "price": 10,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "942dd0e17771d89f5ec465f5f77ac202",
+        "documentId": null,
+        "name": "Leche deslactosada",
+        "description": null,
+        "price": 10,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "9510e7b427db9472394c93b4f237071f",
+        "documentId": null,
+        "name": "Limonada",
+        "description": null,
+        "price": 66,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "4bda2c08e81e54e55358cdc4c8425668",
+        "documentId": null,
+        "name": "Mazapán",
+        "description": null,
+        "price": 10,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "c26b50f011db1fbed1874bad2cc8411c",
+        "documentId": null,
+        "name": "Menta",
+        "description": null,
+        "price": 10,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "4e791954f808930a7b6ab93de1d63c03",
+        "documentId": null,
+        "name": "Mimosa",
+        "description": null,
+        "price": 99,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "ba23d108ce3aca41be0cfeb430b52ede",
+        "documentId": null,
+        "name": "Mocca",
+        "description": null,
+        "price": 61,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "7f36841b5d84241c41a7b9a4d6f1d41a",
+        "documentId": null,
+        "name": "Mocca Frio",
+        "description": null,
+        "price": 72,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "bfc9c38b1ff72e7c430a53f175449843",
+        "documentId": null,
+        "name": "Naranjada",
+        "description": null,
+        "price": 66,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "cee10d7a82a8c33f05a9a572d8212e27",
+        "documentId": null,
+        "name": "Shot extra",
+        "description": null,
+        "price": 10,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "8f067deae9990cd0752f9bbd1fd12b47",
+        "documentId": null,
+        "name": "Sidral Mundet",
+        "description": null,
+        "price": 45,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "3a3b361daa558db51e28f29c5a3c4cc0",
+        "documentId": null,
+        "name": "Taro",
+        "description": null,
+        "price": 59,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "7d53760cf8510ab2dea959cc71749b1f",
+        "documentId": null,
+        "name": "Taro Frio",
+        "description": null,
+        "price": 69,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "e07aefe4984782235cf83bcf8c25fe79",
+        "documentId": null,
+        "name": "Tinto de verano",
+        "description": null,
+        "price": 79,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "4618f1a1a6ebfea53e4d9939c7c17e57",
+        "documentId": null,
+        "name": "Tisanas",
+        "description": null,
+        "price": 65,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "bb031e2a379e689418b1a547cb0fbea3",
+        "documentId": null,
+        "name": "Tisanas Frias",
+        "description": null,
+        "price": 72,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "35ad350ed0cda243e69fd158c9c5fcc8",
+        "documentId": null,
+        "name": "Té Chai Latte",
+        "description": null,
+        "price": 59,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "04988134b65059d7b5b16e12170030b7",
+        "documentId": null,
+        "name": "Té Chai Latte Frio",
+        "description": null,
+        "price": 69,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "1472ceb8da8fc6a38853cadc3f2f0847",
+        "documentId": null,
+        "name": "Té Frio",
+        "description": null,
+        "price": 48,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "e656e23495f52f9e69e05b99c6a2aceb",
+        "documentId": null,
+        "name": "Té Verde Latte (Matcha)",
+        "description": null,
+        "price": 59,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "552002a5b17313f514a1f612dcd7ae70",
+        "documentId": null,
+        "name": "Té Verde Latte (Matcha) Frio",
+        "description": null,
+        "price": 69,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "a78b42d4c7b44610422e1bc7f17c42b9",
+        "documentId": null,
+        "name": "Vainilla",
+        "description": null,
+        "price": 10,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "3e8034e5203d975276cefe89aa32acd7",
+        "documentId": null,
+        "name": "Vaso con leche Fría",
+        "description": null,
+        "price": 28,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "d957560c0cef24d4e977d1712a90899c",
+        "documentId": null,
+        "name": "Verano blanco",
+        "description": null,
+        "price": 79,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas-calientes/americano",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas-calientes/americano-cortado",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas-calientes/te",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas-calientes/capuccino",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas-calientes/latte",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas-calientes/latte-especial",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas-calientes/chocolate",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas-calientes/mocca",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas-calientes/te-verde-latte-matcha",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas-calientes/taro",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas-calientes/te-chai-latte",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas-calientes/vaso-con-leche-caliente",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas-calientes/tisanas",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas-frias/americano-frio",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas-frias/americano-cortado-frio",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas-frias/te-frio",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas-frias/latte-frio",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas-frias/latte-especial-frio",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas-frias/chocolate-frio",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas-frias/mocca-frio",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas-frias/horchata-expresso",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas-frias/te-verde-latte-matcha-frio",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas-frias/taro-frio",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas-frias/te-chai-latte-frio",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas-frias/vaso-con-leche-fria",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas-frias/tisanas-frias",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas/coca-cola",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas/sprite",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas/fanta",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas/fresca",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas/sidral-mundet",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas/delaware-punch",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas/agua-natural",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas/agua-mineral-topo-chico",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas/jugo-de-naranja",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas/limonada",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas/naranjada",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas/cerveza-nacional",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas/cerveza-importada",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas/copa-de-vino",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas/botella-de-vino",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas/tinto-de-verano",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas/calimocho",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas/verano-blanco",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas/carajillo",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas/carajillo-ferrero",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas/mimosa",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas/aperol-spritz",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/bebidas/st-germain-saritz",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://lavidaencrepa.ola.click/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:43.545+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=1945554193461156730&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:43.964+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/lavidaencrepa",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/lavidaencrepa/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:14:23.422259+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 183,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review"
+    ]
+  }
+}

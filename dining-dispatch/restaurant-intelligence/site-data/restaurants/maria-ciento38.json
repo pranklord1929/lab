@@ -1,0 +1,144 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "3a80b9a7-8437-428a-b593-d1bfad758b04",
+  "slug": "maria-ciento38",
+  "name": "María Ciento38",
+  "location": {
+    "neighborhood": "SANTA MARÍA LA RIBERA",
+    "borough": "Cuauhtémoc",
+    "address": "Santa María La Ribera 138, Sta María la Ribera, Cuauhtémoc, 06400 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4480098,
+      "longitude": -99.1572002
+    }
+  },
+  "contact": {
+    "phone": "55 7159 2039",
+    "website": "http://mariaciento38.com/",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=17276873812083350123&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "italian",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": "Laid-back, charming restaurant featuring traditional Sicilian cuisine & a courtyard.",
+    "hours": [
+      "domingo: 9:00 a.m. – 9:00 p.m.",
+      "lunes: 9:00 a.m. – 10:00 p.m.",
+      "martes: 9:00 a.m. – 10:00 p.m.",
+      "miércoles: 9:00 a.m. – 10:00 p.m.",
+      "jueves: 9:00 a.m. – 11:00 p.m.",
+      "viernes: 9:00 a.m. – 11:00 p.m.",
+      "sábado: 9:00 a.m. – 11:00 p.m."
+    ],
+    "rating": 4.2,
+    "reviewCount": 8145
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "missing",
+    "observedAt": null,
+    "observationAgeDaysAtExport": null,
+    "documentCount": 0,
+    "itemCount": 0,
+    "documents": [],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://mariaciento38.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:30.596+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=17276873812083350123&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:30.78+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "google_places",
+      "official_website",
+      "resy"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:21:24.750739+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 320,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram,menu",
+    "actionPriority": 6,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_menu_document",
+      "missing_structured_menu_items"
+    ]
+  }
+}

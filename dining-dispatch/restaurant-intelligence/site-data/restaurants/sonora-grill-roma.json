@@ -1,0 +1,365 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "764fce12-e691-4cca-a273-77ea8aa6e59c",
+  "slug": "sonora-grill-roma",
+  "name": "Sonora Grill - Roma",
+  "location": {
+    "neighborhood": "ROMA NORTE",
+    "borough": "Cuauhtémoc",
+    "address": "Durango 205, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4197803,
+      "longitude": -99.1676304
+    }
+  },
+  "contact": {
+    "phone": "55 5207 4347",
+    "website": "https://sonoragrill.com.mx/",
+    "instagram": "https://www.instagram.com/sonoragrill/",
+    "googleMapsUrl": "https://maps.google.com/?cid=15720265799273732744&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 3
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 1:00–9:00 p.m.",
+      "lunes: 1:00–11:00 p.m.",
+      "martes: 1:00–11:00 p.m.",
+      "miércoles: 1:00–11:00 p.m.",
+      "jueves: 1:00 p.m. – 1:00 a.m.",
+      "viernes: 1:00 p.m. – 1:00 a.m.",
+      "sábado: 1:00 p.m. – 1:00 a.m."
+    ],
+    "rating": 4.6,
+    "reviewCount": 4247
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-06-28T21:19:26.575+00:00",
+    "observationAgeDaysAtExport": 49,
+    "documentCount": 1,
+    "itemCount": 14,
+    "documents": [
+      {
+        "id": "70abb2f1-02d1-4e24-af9a-3eecd356fa6d",
+        "sourceUrl": "https://www.sonoragrill.com.mx/nuestro-menu/entradas.php",
+        "fileType": "html",
+        "language": "es",
+        "confidence": null,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-06-28T21:19:26.575+00:00"
+      }
+    ],
+    "items": [
+      {
+        "id": "3e8efa9d-1e5e-475f-a6aa-af189d435cbe",
+        "documentId": "70abb2f1-02d1-4e24-af9a-3eecd356fa6d",
+        "name": "BETABEL BRASEADO Y FETA",
+        "description": null,
+        "price": 220,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "https://www.sonoragrill.com.mx/nuestro-menu/entradas.php",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "03c2b171-a84f-457f-b0ab-d1b832e26267",
+        "documentId": "70abb2f1-02d1-4e24-af9a-3eecd356fa6d",
+        "name": "CAMARONES ROCA",
+        "description": null,
+        "price": 285,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "https://www.sonoragrill.com.mx/nuestro-menu/entradas.php",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "c3c434aa-5bb0-4529-8f96-e30cbd7a547a",
+        "documentId": "70abb2f1-02d1-4e24-af9a-3eecd356fa6d",
+        "name": "CAZUELA DE CAMARONES AL AJILLO",
+        "description": null,
+        "price": 305,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "https://www.sonoragrill.com.mx/nuestro-menu/entradas.php",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "8e3f9ca5-5bd6-4ff9-a25b-f28fdcdee560",
+        "documentId": "70abb2f1-02d1-4e24-af9a-3eecd356fa6d",
+        "name": "CHICHARRÓN DE PULPO",
+        "description": null,
+        "price": 410,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "https://www.sonoragrill.com.mx/nuestro-menu/entradas.php",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "d24db43a-91ed-4864-8a3a-5f0077d1c55c",
+        "documentId": "70abb2f1-02d1-4e24-af9a-3eecd356fa6d",
+        "name": "COLIFLOR ROSTIZADA",
+        "description": null,
+        "price": 295,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "https://www.sonoragrill.com.mx/nuestro-menu/entradas.php",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "7269500a-08d8-4c12-bd70-5256eb423834",
+        "documentId": "70abb2f1-02d1-4e24-af9a-3eecd356fa6d",
+        "name": "JUGO DE CARNE / CON TUÉTANO",
+        "description": null,
+        "price": 150,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "https://www.sonoragrill.com.mx/nuestro-menu/entradas.php",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "e388a968-5550-4596-906e-a6592dea7e2d",
+        "documentId": "70abb2f1-02d1-4e24-af9a-3eecd356fa6d",
+        "name": "PLATÓN DE FRANCESAS / CON ARRACHERA",
+        "description": null,
+        "price": 175,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "https://www.sonoragrill.com.mx/nuestro-menu/entradas.php",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "6787c47c-4498-4598-9952-294206fe6dfe",
+        "documentId": "70abb2f1-02d1-4e24-af9a-3eecd356fa6d",
+        "name": "SOPA AZTECA",
+        "description": null,
+        "price": 150,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "https://www.sonoragrill.com.mx/nuestro-menu/entradas.php",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "b81f5e25-975c-440f-888d-f5d16cb56161",
+        "documentId": "70abb2f1-02d1-4e24-af9a-3eecd356fa6d",
+        "name": "SOPA DE LENTEJAS",
+        "description": null,
+        "price": 150,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "https://www.sonoragrill.com.mx/nuestro-menu/entradas.php",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "fbd5d704-c06f-4e5c-a445-53a436fecaa4",
+        "documentId": null,
+        "name": "AL FUEGO JUGO DE CARNE / CON TUÉTANO",
+        "description": null,
+        "price": 150,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "5479df32-09c4-4053-a68a-1a189220ed78",
+        "documentId": null,
+        "name": "CAMARONES ROCA 180 g",
+        "description": null,
+        "price": 285,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "2fff5a75-96d0-4910-a001-de57eceb361d",
+        "documentId": null,
+        "name": "ERO RESERVAR RESERVA AQUÍ X",
+        "description": null,
+        "price": 150,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "b4aea50c-418e-4ed2-a677-317851fbc0e2",
+        "documentId": null,
+        "name": "JUGO DE CARNE / CON TUÉTANO 300 ml",
+        "description": null,
+        "price": 150,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "10b79d48-6b5d-4d13-a44a-b5b882f09e63",
+        "documentId": null,
+        "name": "SOPA AZTECA 300 ml",
+        "description": null,
+        "price": 150,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://sonoragrill.com.mx/nuestro-menu/entradas.php",
+      "confidence": null,
+      "checkedAt": "2026-07-09T18:47:21.812+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.sonoragrill.com.mx/nuestro-menu/entradas.php",
+      "confidence": null,
+      "checkedAt": "2026-07-09T18:47:21.518+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://sonoragrill.com.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:48:58.51+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=15720265799273732744&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:16.292+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://www.instagram.com/sonoragrill/",
+      "confidence": null,
+      "checkedAt": "2026-07-09T18:48:16.86+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://www.facebook.com/SonoraGrillMx/",
+      "confidence": null,
+      "checkedAt": "2026-07-09T18:48:16.854+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_menus"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T20:05:20.22199+00:00",
+    "canonicalUpdatedAt": "2026-06-29T13:58:55.743616+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 45,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_cuisine",
+      "missing_source_summary"
+    ]
+  }
+}

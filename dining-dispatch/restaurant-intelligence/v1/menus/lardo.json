@@ -1,0 +1,273 @@
+{
+  "slug": "lardo",
+  "name": "Lardo",
+  "url": "https://www.lardo.com.mx/menu.html",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Aceitunas marinadas y almendras",
+      "price": 58,
+      "currency": "MXN",
+      "category": "para picar"
+    },
+    {
+      "name": "Tostadas de hígado de pollo",
+      "price": 80,
+      "currency": "MXN",
+      "category": "para picar"
+    },
+    {
+      "name": "Tostadas de tomate y anchoas",
+      "price": 55,
+      "currency": "MXN",
+      "category": "para picar"
+    },
+    {
+      "name": "Tostadas de lardo y alcaparras",
+      "price": 90,
+      "currency": "MXN",
+      "category": "para picar"
+    },
+    {
+      "name": "Jamón de Parma",
+      "price": 170,
+      "currency": "MXN",
+      "category": "embutidos"
+    },
+    {
+      "name": "Salami toscano y vegetales encurtidos",
+      "price": 95,
+      "currency": "MXN",
+      "category": "embutidos"
+    },
+    {
+      "name": "Pecorino sardo de oveja",
+      "price": 155,
+      "currency": "MXN",
+      "category": "embutidos"
+    },
+    {
+      "name": "Gorgonzola, pan de pasas y nuez",
+      "price": 180,
+      "currency": "MXN",
+      "category": "embutidos"
+    },
+    {
+      "name": "Burrata y granada",
+      "price": 120,
+      "currency": "MXN",
+      "category": "embutidos"
+    },
+    {
+      "name": "Pizza de hierbas, ricotta y té de limón",
+      "price": 90,
+      "currency": "MXN",
+      "category": "horno"
+    },
+    {
+      "name": "Pizza de nduja, burrata, tomate y mejorana",
+      "price": 130,
+      "currency": "MXN",
+      "category": "horno"
+    },
+    {
+      "name": "Pizza de calabacita, parmesano y hierbabuena",
+      "price": 90,
+      "currency": "MXN",
+      "category": "horno"
+    },
+    {
+      "name": "Pizza de pecorino, cebolla morada y aceituna",
+      "price": 140,
+      "currency": "MXN",
+      "category": "horno"
+    },
+    {
+      "name": "Pasta al horno",
+      "price": 140,
+      "currency": "MXN",
+      "category": "horno"
+    },
+    {
+      "name": "Berenjena parmesana",
+      "price": 110,
+      "currency": "MXN",
+      "category": "horno"
+    },
+    {
+      "name": "Vegetales, alubias y tomates",
+      "price": 95,
+      "currency": "MXN",
+      "category": "horno"
+    },
+    {
+      "name": "Pan de la casa",
+      "price": 15,
+      "currency": "MXN",
+      "category": "horno"
+    },
+    {
+      "name": "Calabacitas",
+      "price": 55,
+      "currency": "MXN",
+      "category": "fritos"
+    },
+    {
+      "name": "Flores de calabaza con ricotta",
+      "price": 75,
+      "currency": "MXN",
+      "category": "fritos"
+    },
+    {
+      "name": "Gnocco",
+      "price": 40,
+      "currency": "MXN",
+      "category": "fritos"
+    },
+    {
+      "name": "Croquetas de jamón, pesto, perejil",
+      "price": 80,
+      "currency": "MXN",
+      "category": "fritos"
+    },
+    {
+      "name": "Camarones con salsa de chile",
+      "price": 95,
+      "currency": "MXN",
+      "category": "fritos"
+    },
+    {
+      "name": "Ensalada verde",
+      "price": 60,
+      "currency": "MXN",
+      "category": "ensaladas"
+    },
+    {
+      "name": "Arúgula, parmesano",
+      "price": 85,
+      "currency": "MXN",
+      "category": "ensaladas"
+    },
+    {
+      "name": "Nopales, aguacate, berros y nuez",
+      "price": 55,
+      "currency": "MXN",
+      "category": "ensaladas"
+    },
+    {
+      "name": "Calamares rellenos de hierbas y tomate",
+      "price": 120,
+      "currency": "MXN",
+      "category": "plancha"
+    },
+    {
+      "name": "Pulpo a las brasas, maíz, verdolaga y nduja",
+      "price": 185,
+      "currency": "MXN",
+      "category": "plancha"
+    },
+    {
+      "name": "Mejillones con estragón",
+      "price": 170,
+      "currency": "MXN",
+      "category": "plancha"
+    },
+    {
+      "name": "Huachinango, ensalada de arúgula y nabo",
+      "price": 195,
+      "currency": "MXN",
+      "category": "plancha"
+    },
+    {
+      "name": "Pollito, chiles, hierbas y espinacas",
+      "price": 170,
+      "currency": "MXN",
+      "category": "plancha"
+    },
+    {
+      "name": "Cerdo a la plancha, hongos y apionabo",
+      "price": 190,
+      "currency": "MXN",
+      "category": "plancha"
+    },
+    {
+      "name": "Tablita de res, arúgula, parmesano y tomates",
+      "price": 220,
+      "currency": "MXN",
+      "category": "plancha"
+    },
+    {
+      "name": "Piadina de strachiella y arúgula",
+      "price": 70,
+      "currency": "MXN",
+      "category": "sandwiches"
+    },
+    {
+      "name": "Berenjena, tomates y queso de cabra",
+      "price": 73,
+      "currency": "MXN",
+      "category": "sandwiches"
+    },
+    {
+      "name": "Jamón y mantequilla",
+      "price": 52,
+      "currency": "MXN",
+      "category": "sandwiches"
+    },
+    {
+      "name": "Roastbeef y gruyère",
+      "price": 90,
+      "currency": "MXN",
+      "category": "sandwiches"
+    },
+    {
+      "name": "Burrata, prosciutto y arúgula",
+      "price": 143,
+      "currency": "MXN",
+      "category": "sandwiches"
+    },
+    {
+      "name": "Granola casera, fruta y yogurt",
+      "price": 55,
+      "currency": "MXN",
+      "category": "cereales"
+    },
+    {
+      "name": "Huevo orgánico estrellado en hoja santa",
+      "price": 68,
+      "currency": "MXN",
+      "category": "huevos"
+    },
+    {
+      "name": "Huevos pochados, pimientos, epazote",
+      "price": 70,
+      "currency": "MXN",
+      "category": "huevos"
+    },
+    {
+      "name": "Croque Monsieur",
+      "price": 100,
+      "currency": "MXN",
+      "category": "huevos"
+    },
+    {
+      "name": "Quiche de tomates y queso de oveja",
+      "price": 60,
+      "currency": "MXN",
+      "category": "huevos"
+    },
+    {
+      "name": "Tarta hojaldrada de cerezas",
+      "price": 125,
+      "currency": "MXN",
+      "category": "postres"
+    },
+    {
+      "name": "Mil hojas de pastel de zanahoria",
+      "price": 105,
+      "currency": "MXN",
+      "category": "postres"
+    }
+  ]
+}

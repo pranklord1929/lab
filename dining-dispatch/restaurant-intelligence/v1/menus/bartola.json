@@ -1,0 +1,31 @@
+{
+  "slug": "bartola",
+  "name": "Bartola",
+  "url": "https://www.eater.com/venue/932486/bartola",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Caesar salad"
+    },
+    {
+      "name": "Rigatoni cacio e pepe"
+    },
+    {
+      "name": "Ravioli with short rib"
+    },
+    {
+      "name": "Chicken parm",
+      "description": "Diabola sauce, pesto, mozzarella — Eater"
+    },
+    {
+      "name": "Chicken Alfredo",
+      "description": "Official IG @bartola.cdmx new dishes"
+    },
+    {
+      "name": "Orzo de hongos",
+      "description": "Official IG @bartola.cdmx"
+    }
+  ],
+  "notes": "Eater CDMX venue page + official Instagram dish announcements."
+}

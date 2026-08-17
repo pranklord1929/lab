@@ -1,0 +1,152 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "53a11170-b84b-4528-acd7-39a33728a878",
+  "slug": "kasina-cafe",
+  "name": "KASINA CAFE",
+  "location": {
+    "neighborhood": "ROMA NORTE",
+    "borough": "Cuauhtémoc",
+    "address": "Guadalajara 13, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4208672,
+      "longitude": -99.1730002
+    }
+  },
+  "contact": {
+    "phone": "55 7163 7101",
+    "website": "https://instagram.com/kasinacafe?igshid=MzRlODBiNWFlZA==",
+    "instagram": "https://instagram.com/kasinacafe/",
+    "googleMapsUrl": "https://maps.google.com/?cid=10055191000375117858&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "korean",
+    "michelinCuisine": null,
+    "openTableCuisine": "Coreana",
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 1:00–7:00 p.m.",
+      "lunes: Cerrado",
+      "martes: 1:00–10:00 p.m.",
+      "miércoles: 1:00–10:00 p.m.",
+      "jueves: 1:00–10:00 p.m.",
+      "viernes: 1:00–10:00 p.m.",
+      "sábado: 1:00–10:00 p.m."
+    ],
+    "rating": 4.6,
+    "reviewCount": 400
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": "https://www.opentable.com.mx/r/kasina-cafe-ciudad-de-mexico",
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "missing",
+    "observedAt": null,
+    "observationAgeDaysAtExport": null,
+    "documentCount": 0,
+    "itemCount": 0,
+    "documents": [],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.instagram.com/kasinacafe?igshid=MzRlODBiNWFlZA%3D%3D",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:39.444+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=10055191000375117858&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:39.667+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/kasinacafe/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:13:26.199+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "opentable"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "opentable",
+      "photos": "google_places",
+      "description": "opentable"
+    },
+    "freshestSourceAt": "2026-06-29T14:12:38.361637+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:12:38.632506+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 173,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "menu",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_price_level",
+      "missing_source_summary",
+      "missing_menu_document",
+      "missing_structured_menu_items"
+    ]
+  }
+}

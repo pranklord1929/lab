@@ -1,0 +1,81 @@
+{
+  "catalogName": "Arrrco",
+  "slug": "arrrco",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Arrrco",
+  "location": {
+    "address": "Lisboa 3, Juárez",
+    "neighborhood": "Juárez",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06600",
+    "coordinates": {
+      "latitude": 19.4303736,
+      "longitude": -99.155781
+    }
+  },
+  "contact": {
+    "phone": "+52 55 2192 1922",
+    "website": "https://www.instagram.com/_arrrco/",
+    "instagram": "_arrrco",
+    "email": null,
+    "websiteIsInstagram": true
+  },
+  "hours": [
+    "19:00–00:00 (IG)"
+  ],
+  "food": {
+    "cuisine": "contemporary latin / art space",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "whatsapp / opentable",
+    "url": "https://www.opentable.com/r/arrco-ciudad-de-mexico"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.opentable.com.mx/r/arrco-ciudad-de-mexico",
+    "observedAt": "2026-08-17",
+    "itemCount": 1,
+    "items": [
+      {
+        "name": "Tostada de atún",
+        "description": "OpenTable reviews: 'la mejor tostada de atún de la ciudad'"
+      }
+    ],
+    "notes": "OpenTable + official IG (_arrrco). No published dish list found."
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/_arrrco/",
+      "fields": [
+        "address",
+        "phone"
+      ]
+    },
+    {
+      "source": "opentable",
+      "url": "https://www.opentable.com/r/arrco-ciudad-de-mexico",
+      "fields": [
+        "address"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://www.opentable.com/r/arrco-ciudad-de-mexico",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": []
+}

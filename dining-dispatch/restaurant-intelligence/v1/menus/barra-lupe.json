@@ -1,0 +1,281 @@
+{
+  "slug": "barra-lupe",
+  "name": "Barra Lupe",
+  "url": "https://barralupe.mx/menu/",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Jugo de Carne Cantinero",
+      "price": 170,
+      "currency": "MXN",
+      "category": "entradas",
+      "description": "200 g. Fondo de res con carne, cebolla, cilantro, limón y chile"
+    },
+    {
+      "name": "Consomé de Birria",
+      "price": 185,
+      "currency": "MXN",
+      "category": "entradas",
+      "description": "100 g proteína + 200 ml caldo. Short rib"
+    },
+    {
+      "name": "Ensalada del Mercado",
+      "price": 205,
+      "currency": "MXN",
+      "category": "entradas",
+      "description": "Nopales, aguacate, jitomate, cebolla, queso ahumado"
+    },
+    {
+      "name": "Caldo de Camarón",
+      "price": 185,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Guacamole",
+      "price": 185,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Fideo seco",
+      "price": 165,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Esquites con Tuétano",
+      "price": 125,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Frijoles Puercos",
+      "price": 135,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Flautas Ahogadas",
+      "price": 165,
+      "currency": "MXN",
+      "category": "entradas",
+      "description": "3 pz. Pollo, papa, queso o frijol"
+    },
+    {
+      "name": "Salpicón Estilo Castacan",
+      "price": 235,
+      "currency": "MXN",
+      "category": "entradas",
+      "description": "Pork belly crujiente"
+    },
+    {
+      "name": "Cóctel Acapulco con Salsa Bruja",
+      "price": 295,
+      "currency": "MXN",
+      "category": "barra fría"
+    },
+    {
+      "name": "Aguachile Negro",
+      "price": 295,
+      "currency": "MXN",
+      "category": "barra fría"
+    },
+    {
+      "name": "Aguachile Rojo",
+      "price": 295,
+      "currency": "MXN",
+      "category": "barra fría"
+    },
+    {
+      "name": "Tacos de Carnitas",
+      "price": 72,
+      "currency": "MXN",
+      "category": "tacos",
+      "description": "Costilla, maciza y/o cuerito. 1 pieza"
+    },
+    {
+      "name": "Tacos de Birria",
+      "price": 85,
+      "currency": "MXN",
+      "category": "tacos",
+      "description": "Short rib, consomé, jardín"
+    },
+    {
+      "name": "Tacos del Carmen",
+      "price": 85,
+      "currency": "MXN",
+      "category": "tacos",
+      "description": "Cecina Yecapixtla, chorizo de la casa, asiento"
+    },
+    {
+      "name": "Tacos Baja",
+      "price": 85,
+      "currency": "MXN",
+      "category": "tacos",
+      "description": "Pesca del día en tempura"
+    },
+    {
+      "name": "Tacos Pirata",
+      "price": 95,
+      "currency": "MXN",
+      "category": "tacos",
+      "description": "Diezmillo, tocino, queso menonita, tortilla de harina"
+    },
+    {
+      "name": "Tacos de lengua",
+      "price": 95,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Volcán de pollo pibil",
+      "price": 135,
+      "currency": "MXN",
+      "category": "volcanes"
+    },
+    {
+      "name": "Volcán de Diezmillo",
+      "price": 145,
+      "currency": "MXN",
+      "category": "volcanes"
+    },
+    {
+      "name": "Volcán de Cochinita",
+      "price": 135,
+      "currency": "MXN",
+      "category": "volcanes"
+    },
+    {
+      "name": "Quesadilla Especial del Día",
+      "price": 95,
+      "currency": "MXN",
+      "category": "el comal"
+    },
+    {
+      "name": "Gordita de Chicharrón Prensado o Setas",
+      "price": 95,
+      "currency": "MXN",
+      "category": "el comal"
+    },
+    {
+      "name": "Pambazos de Chorizo con Papa",
+      "price": 85,
+      "currency": "MXN",
+      "category": "el comal"
+    },
+    {
+      "name": "Itacate",
+      "price": 95,
+      "currency": "MXN",
+      "category": "el comal"
+    },
+    {
+      "name": "Chalupitas",
+      "price": 95,
+      "currency": "MXN",
+      "category": "el comal",
+      "description": "3 pz"
+    },
+    {
+      "name": "Tlacoyo",
+      "price": 95,
+      "currency": "MXN",
+      "category": "el comal"
+    },
+    {
+      "name": "Huarache Campechano",
+      "price": 120,
+      "currency": "MXN",
+      "category": "el comal"
+    },
+    {
+      "name": "Tetela",
+      "price": 95,
+      "currency": "MXN",
+      "category": "el comal"
+    },
+    {
+      "name": "Rib Eye al Carbón 400 g",
+      "price": 695,
+      "currency": "MXN",
+      "category": "plato fuerte"
+    },
+    {
+      "name": "Arrachera al Carbón",
+      "price": 555,
+      "currency": "MXN",
+      "category": "plato fuerte"
+    },
+    {
+      "name": "Cecina de Yecapixtla 350 g",
+      "price": 450,
+      "currency": "MXN",
+      "category": "plato fuerte"
+    },
+    {
+      "name": "Pesca del Día 200 g",
+      "price": 320,
+      "currency": "MXN",
+      "category": "plato fuerte"
+    },
+    {
+      "name": "Medio Pollo Adobado 600 g",
+      "price": 420,
+      "currency": "MXN",
+      "category": "plato fuerte"
+    },
+    {
+      "name": "Tlayuda",
+      "price": 255,
+      "currency": "MXN",
+      "category": "plato fuerte",
+      "description": "Cecina + chorizo"
+    },
+    {
+      "name": "Chamorro Cantinero en Adobo 500 g",
+      "price": 420,
+      "currency": "MXN",
+      "category": "plato fuerte"
+    },
+    {
+      "name": "Camarones Zarandeados 200 g",
+      "price": 380,
+      "currency": "MXN",
+      "category": "plato fuerte"
+    },
+    {
+      "name": "Buñuelo con compota de guayaba",
+      "price": 165,
+      "currency": "MXN",
+      "category": "postres"
+    },
+    {
+      "name": "Flan de la Casa",
+      "price": 160,
+      "currency": "MXN",
+      "category": "postres"
+    },
+    {
+      "name": "Arroz con Leche",
+      "price": 120,
+      "currency": "MXN",
+      "category": "postres"
+    },
+    {
+      "name": "Tarta de Temporada",
+      "price": 165,
+      "currency": "MXN",
+      "category": "postres"
+    },
+    {
+      "name": "Nieve de temporada",
+      "price": 120,
+      "currency": "MXN",
+      "category": "postres",
+      "description": "Limón, mandarina o maracuyá + shot de mezcal"
+    }
+  ],
+  "notes": "Official PDF 12 Aug 2026 on barralupe.mx/menu (BARRA LUPE Menú actualizado)."
+}

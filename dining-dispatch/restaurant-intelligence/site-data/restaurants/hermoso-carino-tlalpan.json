@@ -1,0 +1,144 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "855695b2-ad5d-4018-94c3-a067434517ac",
+  "slug": "hermoso-carino-tlalpan",
+  "name": "Hermoso cariño tlalpan",
+  "location": {
+    "neighborhood": "SAN FERNANDO",
+    "borough": "Tlalpan",
+    "address": "Cjon. del Sabino 9, San Pedro Apostol, Tlalpan, 14070 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.2955263,
+      "longitude": -99.175491
+    }
+  },
+  "contact": {
+    "phone": "55 8926 2471",
+    "website": "https://m.facebook.com/Hermoso-Cari%C3%B1o-Restaurante-104701898488803/?ti=as",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=12686367205191116539&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 9:00 a.m. – 6:00 p.m.",
+      "lunes: 10:00 a.m. – 6:00 p.m.",
+      "martes: 9:00 a.m. – 6:00 p.m.",
+      "miércoles: 9:00 a.m. – 6:00 p.m.",
+      "jueves: 9:00 a.m. – 6:00 p.m.",
+      "viernes: 9:00 a.m. – 6:00 p.m.",
+      "sábado: 9:00 a.m. – 6:00 p.m."
+    ],
+    "rating": 4.1,
+    "reviewCount": 266
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "missing",
+    "observedAt": null,
+    "observationAgeDaysAtExport": null,
+    "documentCount": 0,
+    "itemCount": 0,
+    "documents": [],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://m.facebook.com/100068553109465/?ti=as&_rdr",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:52:07.704+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=12686367205191116539&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:53:01.265+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 1,
+    "sourceNames": [
+      "google_places"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-06-29T14:20:46.818161+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:20:46.945382+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 6,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_cuisine",
+      "missing_price_level",
+      "missing_source_summary",
+      "missing_menu_document",
+      "missing_structured_menu_items",
+      "low_source_count"
+    ]
+  }
+}

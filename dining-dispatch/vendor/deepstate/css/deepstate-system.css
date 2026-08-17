@@ -1,0 +1,845 @@
+/* Deepstate reusable system
+ * Visual language extracted from https://deepstate.sh (2026-08-17)
+ *
+ * Drop this file + ../fonts/ into any project.
+ * Use the primitive classes (ds-*) on new UI.
+ * Original .deepstate-* class names are also mirrored
+ * so you can lift markup from the live site.
+ * Tokens are imported separately so Next can keep @import order valid.
+ */
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../fonts/space-grotesk-400.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../fonts/space-grotesk-500.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../fonts/space-grotesk-600.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("../fonts/space-grotesk-700.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space Mono";
+  src: url("../fonts/space-mono-400.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Space Mono";
+  src: url("../fonts/space-mono-700.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* ------------------------------------------------------------------ */
+/* Reset                                                               */
+/* ------------------------------------------------------------------ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scrollbar-gutter: stable;
+  background: var(--ds-paper);
+  min-width: 320px;
+}
+
+body {
+  color: var(--ds-ink);
+  min-height: 100vh;
+  font-family: var(--ds-sans);
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  line-height: normal;
+  background: var(--ds-paper);
+}
+
+::selection {
+  color: var(--ds-paper);
+  background: var(--ds-ink);
+}
+
+button,
+input,
+textarea,
+select {
+  color: inherit;
+  font: inherit;
+  border-radius: var(--ds-radius);
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--ds-ink);
+  outline-offset: 2px;
+}
+
+a {
+  color: inherit;
+  text-underline-offset: 2px;
+}
+
+/* ------------------------------------------------------------------ */
+/* Motion                                                              */
+/* ------------------------------------------------------------------ */
+
+@keyframes ds-page-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes ds-blink {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+
+@keyframes ds-toast-in {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 8px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+@keyframes page-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes blink {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 8px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+/* ------------------------------------------------------------------ */
+/* Type                                                                */
+/* ------------------------------------------------------------------ */
+
+.ds-sans,
+.ds-ui { font-family: var(--ds-sans); }
+
+.ds-mono,
+.num { font-family: var(--ds-mono); }
+
+.ds-kicker,
+.ds-label {
+  font-family: var(--ds-mono);
+  font-size: var(--ds-fs-label);
+  letter-spacing: var(--ds-track-label);
+  text-transform: uppercase;
+}
+
+.ds-wordmark {
+  letter-spacing: var(--ds-track-wordmark);
+  font-size: var(--ds-fs-wordmark);
+  font-weight: var(--ds-fw-bold);
+  line-height: 1;
+}
+
+.ds-amount {
+  font-family: var(--ds-mono);
+  font-size: var(--ds-fs-amount);
+  font-weight: var(--ds-fw-bold);
+}
+
+/* ------------------------------------------------------------------ */
+/* Brand mark — the boxed X                                            */
+/* ------------------------------------------------------------------ */
+
+.ds-mark,
+.deepstate-mark {
+  border: var(--ds-line);
+  flex: 0 0 var(--ds-mark-size);
+  width: var(--ds-mark-size);
+  height: var(--ds-mark-size);
+  position: relative;
+  display: inline-block;
+}
+
+.ds-mark::before,
+.ds-mark::after,
+.deepstate-mark::before,
+.deepstate-mark::after {
+  content: "";
+  background: var(--ds-ink);
+  width: 20px;
+  height: var(--ds-stroke);
+  position: absolute;
+  top: 15px;
+  left: 6px;
+}
+
+.ds-mark::before,
+.deepstate-mark::before { transform: rotate(45deg); }
+
+.ds-mark::after,
+.deepstate-mark::after { transform: rotate(-45deg); }
+
+.ds-brand,
+.deepstate-brand {
+  background: var(--ds-paper);
+  border: 0;
+  align-items: center;
+  gap: 12px;
+  padding: 0;
+  display: inline-flex;
+}
+
+/* ------------------------------------------------------------------ */
+/* Surfaces                                                            */
+/* ------------------------------------------------------------------ */
+
+.ds-app,
+.deepstate-app {
+  background: var(--ds-paper);
+  flex-direction: column;
+  min-height: 100dvh;
+  animation: ds-page-in var(--ds-dur-page);
+  display: flex;
+}
+
+.ds-panel,
+.deepstate-swap-panel,
+.deepstate-orders,
+.deepstate-depth,
+.deepstate-access-panel,
+.deepstate-picker {
+  background: var(--ds-paper);
+  border: var(--ds-line);
+}
+
+.ds-panel-head,
+.deepstate-pair-header,
+.deepstate-depth-header,
+.deepstate-picker > header {
+  border-bottom: var(--ds-line);
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  display: flex;
+}
+
+.ds-hairline-t { border-top: var(--ds-line); }
+.ds-hairline-b { border-bottom: var(--ds-line); }
+.ds-hairline-x { border-left: var(--ds-line); border-right: var(--ds-line); }
+
+/* ------------------------------------------------------------------ */
+/* Segmented control / nav                                             */
+/* ------------------------------------------------------------------ */
+
+.ds-seg,
+.deepstate-nav,
+.deepstate-mode-tabs,
+.deepstate-limit-presets,
+.deepstate-balance-actions {
+  display: flex;
+  align-items: stretch;
+}
+
+.ds-seg {
+  height: var(--ds-control-h);
+}
+
+.ds-seg > button,
+.deepstate-nav button,
+.deepstate-mode-tabs button,
+.deepstate-limit-presets button,
+.deepstate-balance-actions button {
+  box-sizing: border-box;
+  font-family: var(--ds-sans);
+  letter-spacing: var(--ds-track-nav);
+  text-transform: uppercase;
+  background: var(--ds-paper);
+  color: var(--ds-ink);
+  border: var(--ds-line);
+  border-right: 0;
+  margin: 0;
+  padding: 0 15px;
+  font-size: var(--ds-fs-nav);
+  font-weight: var(--ds-fw-semibold);
+}
+
+.ds-seg > button:last-child,
+.deepstate-nav button:last-child {
+  border-right: var(--ds-line);
+}
+
+.deepstate-mode-tabs button {
+  flex: 1;
+  border: 0;
+  border-right: var(--ds-line);
+  padding: 13px 0;
+  letter-spacing: var(--ds-track-tab);
+}
+
+.deepstate-mode-tabs button:last-child { border-right: 0; }
+
+.deepstate-mode-tabs { border-bottom: var(--ds-line); }
+
+.ds-seg > button:hover,
+.ds-seg > button.is-active,
+.ds-seg > button[aria-current="page"],
+.deepstate-nav button:hover,
+.deepstate-nav button.is-active,
+.deepstate-mode-tabs button.is-active,
+.deepstate-limit-presets button.is-active,
+.deepstate-limit-presets button:hover,
+.deepstate-balance-actions button:hover {
+  color: var(--ds-paper);
+  background: var(--ds-ink);
+}
+
+.deepstate-nav { height: var(--ds-control-h); }
+
+.deepstate-limit-presets {
+  border: var(--ds-line);
+  width: max-content;
+}
+
+.deepstate-limit-presets button {
+  font-family: var(--ds-mono);
+  border: 0;
+  border-right: var(--ds-line);
+  padding: 6px 12px;
+  font-size: 10.5px;
+  font-weight: var(--ds-fw-bold);
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.deepstate-limit-presets button:last-child { border-right: 0; }
+
+/* ------------------------------------------------------------------ */
+/* Buttons                                                             */
+/* ------------------------------------------------------------------ */
+
+.ds-btn,
+.deepstate-order-line button,
+.deepstate-picker > header button {
+  letter-spacing: 0.08em;
+  background: var(--ds-paper);
+  color: var(--ds-ink);
+  border: var(--ds-line);
+  padding: 6px 13px;
+  font-size: 10.5px;
+  font-weight: var(--ds-fw-semibold);
+}
+
+.ds-btn:hover,
+.deepstate-order-line button:hover,
+.deepstate-picker > header button:hover,
+.deepstate-token-pill:hover {
+  color: var(--ds-paper);
+  background: var(--ds-ink);
+}
+
+.ds-cta,
+.deepstate-cta,
+.protocol-cta {
+  color: var(--ds-paper);
+  letter-spacing: var(--ds-track-nav);
+  text-transform: uppercase;
+  background: var(--ds-ink);
+  border: var(--ds-line);
+  width: 100%;
+  margin-top: 8px;
+  padding: 16px;
+  font-size: var(--ds-fs-cta);
+  font-weight: var(--ds-fw-bold);
+}
+
+.ds-cta:hover,
+.deepstate-cta:hover,
+.protocol-cta:hover {
+  color: var(--ds-ink);
+  background: var(--ds-paper);
+}
+
+.ds-ghost {
+  background: var(--ds-paper);
+  border: 0;
+  padding: 0;
+}
+
+/* ------------------------------------------------------------------ */
+/* Fields                                                              */
+/* ------------------------------------------------------------------ */
+
+.ds-field,
+.deepstate-asset-field,
+.deepstate-limit-box {
+  background: var(--ds-paper);
+  border: var(--ds-line);
+  padding: 13px 15px;
+  position: relative;
+}
+
+.ds-field-meta,
+.deepstate-field-meta,
+.deepstate-limit-meta {
+  font-family: var(--ds-mono);
+  letter-spacing: var(--ds-track-label);
+  text-transform: uppercase;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  font-size: var(--ds-fs-label);
+  display: flex;
+}
+
+.ds-field input,
+.deepstate-amount-row input,
+.deepstate-limit-value input {
+  width: 100%;
+  min-width: 0;
+  font-family: var(--ds-mono);
+  background: transparent;
+  border: 0;
+  outline: 0;
+  padding: 0;
+  font-size: var(--ds-fs-amount);
+  font-weight: var(--ds-fw-bold);
+}
+
+.ds-input,
+.deepstate-access-form input[type="password"],
+.deepstate-picker-search {
+  width: 100%;
+  font-family: var(--ds-mono);
+  background: var(--ds-paper);
+  border: var(--ds-line);
+  padding: 14px;
+  font-size: 18px;
+}
+
+.deepstate-picker-search {
+  align-items: center;
+  gap: 9px;
+  margin: 14px 16px;
+  padding: 11px 13px;
+  display: flex;
+  font-size: 12px;
+}
+
+.deepstate-picker-search input {
+  min-width: 0;
+  font-family: var(--ds-mono);
+  letter-spacing: var(--ds-track-meta);
+  background: transparent;
+  border: 0;
+  outline: 0;
+  flex: 1;
+  padding: 0;
+  font-size: 12px;
+}
+
+.ds-amount-row,
+.deepstate-amount-row,
+.deepstate-limit-value {
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+/* ------------------------------------------------------------------ */
+/* Token chip                                                          */
+/* ------------------------------------------------------------------ */
+
+.ds-token-icon,
+.deepstate-token-icon {
+  width: 20px;
+  height: 20px;
+  font-family: var(--ds-sans);
+  background: var(--ds-paper);
+  border: 1.5px solid var(--ds-ink);
+  border-radius: var(--ds-radius-mark);
+  flex: 0 0 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  font-weight: var(--ds-fw-bold);
+  display: inline-flex;
+}
+
+.ds-token-icon.is-sm,
+.deepstate-token-icon.is-sm {
+  flex-basis: 17px;
+  width: 17px;
+  height: 17px;
+  font-size: 8px;
+}
+
+.ds-token-icon.is-lg,
+.deepstate-token-icon.is-lg {
+  flex-basis: 30px;
+  width: 30px;
+  height: 30px;
+  font-size: 14px;
+}
+
+.ds-pill,
+.deepstate-token-pill {
+  font-family: var(--ds-mono);
+  background: var(--ds-paper);
+  border: var(--ds-line);
+  flex: none;
+  align-items: center;
+  gap: 7px;
+  padding: 6px 10px 6px 7px;
+  font-size: 13px;
+  display: inline-flex;
+}
+
+.ds-pill:hover .ds-token-icon,
+.deepstate-token-pill:hover .deepstate-token-icon {
+  background: var(--ds-ink);
+  color: var(--ds-paper);
+}
+
+.ds-change,
+.deepstate-change {
+  border: var(--ds-line);
+  padding: 1px 6px;
+  font-size: 11px;
+  font-weight: var(--ds-fw-bold);
+  font-family: var(--ds-mono);
+}
+
+/* ------------------------------------------------------------------ */
+/* Flip / rate / footer / toast                                        */
+/* ------------------------------------------------------------------ */
+
+.ds-flip,
+.deepstate-flip {
+  background: var(--ds-paper);
+  border: var(--ds-line);
+  justify-content: center;
+  align-items: center;
+  width: var(--ds-flip-size);
+  height: var(--ds-flip-size);
+  font-size: 14px;
+  transition: transform var(--ds-dur-flip) var(--ds-ease-flip);
+  display: flex;
+  box-shadow: 0 0 0 4px var(--ds-paper);
+}
+
+.ds-flip:hover,
+.deepstate-flip:hover {
+  color: var(--ds-paper);
+  background: var(--ds-ink);
+}
+
+.ds-rate,
+.deepstate-rate {
+  font-family: var(--ds-mono);
+  letter-spacing: var(--ds-track-meta);
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 2px 4px;
+  font-size: 11px;
+  display: flex;
+}
+
+.ds-footer,
+.deepstate-site-footer {
+  width: 100%;
+  min-height: 44px;
+  font-family: var(--ds-mono);
+  letter-spacing: var(--ds-track-footer);
+  background: var(--ds-paper);
+  border-top: var(--ds-line);
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6px 16px;
+  padding: 11px max(24px, 50vw - 590px);
+  font-size: 9px;
+  display: flex;
+}
+
+.ds-toast,
+.deepstate-toast {
+  z-index: 1000;
+  color: var(--ds-paper);
+  min-width: 240px;
+  max-width: min(500px, 100vw - 32px);
+  font-family: var(--ds-mono);
+  text-align: center;
+  background: var(--ds-ink);
+  border: var(--ds-line);
+  padding: 12px 16px;
+  font-size: 11px;
+  animation: ds-toast-in var(--ds-dur-toast);
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.ds-live-dot,
+.deepstate-wallet span {
+  background: var(--ds-ink);
+  width: 7px;
+  height: 7px;
+  display: inline-block;
+  animation: ds-blink 1.6s step-end infinite;
+}
+
+/* ------------------------------------------------------------------ */
+/* Status chips (volume / wallet)                                      */
+/* ------------------------------------------------------------------ */
+
+.ds-stat,
+.deepstate-daily-volume,
+.deepstate-wallet {
+  box-sizing: border-box;
+  height: var(--ds-control-h);
+  font-family: var(--ds-mono);
+  background: var(--ds-paper);
+  border: var(--ds-line);
+  display: flex;
+}
+
+.deepstate-daily-volume {
+  min-width: 132px;
+  white-space: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 11px;
+  line-height: 1.15;
+}
+
+.deepstate-daily-volume > span {
+  letter-spacing: var(--ds-track-micro);
+  font-size: var(--ds-fs-micro);
+}
+
+.deepstate-daily-volume > strong {
+  letter-spacing: 0.02em;
+  margin-top: 3px;
+  font-size: 10.5px;
+}
+
+.deepstate-wallet {
+  letter-spacing: var(--ds-track-meta);
+  align-items: center;
+  gap: 8px;
+  padding: 0 13px;
+  font-size: 11.5px;
+}
+
+/* ------------------------------------------------------------------ */
+/* Progress + hatch                                                    */
+/* ------------------------------------------------------------------ */
+
+.ds-bar,
+.deepstate-order-progress > div {
+  border: var(--ds-line);
+  height: 8px;
+}
+
+.ds-bar > span,
+.deepstate-order-progress > div span {
+  background: var(--ds-ink);
+  height: 100%;
+  display: block;
+}
+
+.ds-hatch {
+  background: repeating-linear-gradient(45deg, #000 0 1px, #fff 1px 3px);
+  border: 1px solid var(--ds-ink);
+  width: 12px;
+  height: 8px;
+  display: inline-block;
+}
+
+.ds-hatch.is-ask {
+  background: repeating-linear-gradient(-45deg, #000 0 1px, #fff 1px 3px);
+}
+
+/* ------------------------------------------------------------------ */
+/* Layout helpers matching the live shell                              */
+/* ------------------------------------------------------------------ */
+
+.deepstate-header {
+  box-sizing: content-box;
+  justify-content: center;
+  align-items: center;
+  max-width: var(--ds-max-header);
+  margin: 0 auto;
+  padding: 20px 24px;
+  display: flex;
+}
+
+.deepstate-header-main {
+  align-items: center;
+  gap: 26px;
+  display: flex;
+}
+
+.deepstate-header-controls,
+.deepstate-header-status {
+  align-items: stretch;
+  display: flex;
+}
+
+.deepstate-header-status { height: var(--ds-control-h); }
+
+.deepstate-wordmark { letter-spacing: var(--ds-track-wordmark); font-size: var(--ds-fs-wordmark); font-weight: 700; line-height: 1; }
+
+.deepstate-page-content { flex: 1; min-height: 0; }
+
+.deepstate-trade-page {
+  box-sizing: content-box;
+  max-width: var(--ds-max-page);
+  margin: 0 auto;
+  padding: 0 24px 80px;
+}
+
+.deepstate-trade-dock {
+  width: var(--ds-dock);
+  min-width: 0;
+  max-width: 100%;
+  margin: 26px auto 0;
+}
+
+.deepstate-swap-form { padding: 16px; }
+
+.deepstate-flip-row {
+  z-index: 5;
+  justify-content: center;
+  margin: -11px 0;
+  display: flex;
+  position: relative;
+}
+
+.deepstate-field-footer {
+  min-height: 22px;
+  font-family: var(--ds-mono);
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+  font-size: 11px;
+  display: flex;
+}
+
+.deepstate-pair,
+.deepstate-market-price {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.deepstate-pair > span:last-child {
+  font-family: var(--ds-mono);
+  letter-spacing: var(--ds-track-meta);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.deepstate-pair-icons { align-items: center; display: flex; }
+.deepstate-pair-icons > span + span { margin-left: -7px; }
+
+.deepstate-market-price > span:first-child {
+  font-family: var(--ds-mono);
+  font-size: 15px;
+  font-weight: 700;
+}
+
+@media (max-width: 980px) {
+  .deepstate-header,
+  .deepstate-header-main,
+  .deepstate-header-controls {
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+
+  .deepstate-header-main,
+  .deepstate-header-controls {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .deepstate-nav {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .deepstate-nav button {
+    flex: 1;
+    min-width: 74px;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 640px) {
+  .deepstate-header { padding: 14px 12px; }
+
+  .ds-mark,
+  .deepstate-mark {
+    flex-basis: 30px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .ds-mark::before,
+  .ds-mark::after,
+  .deepstate-mark::before,
+  .deepstate-mark::after {
+    width: 18px;
+    top: 13px;
+    left: 5px;
+  }
+
+  .ds-wordmark,
+  .deepstate-wordmark { font-size: 15px; }
+
+  .deepstate-trade-page { padding: 8px 12px 32px; }
+  .deepstate-trade-dock { width: 100%; }
+
+  .ds-amount,
+  .deepstate-amount-row input,
+  .deepstate-limit-value input { font-size: 21px; }
+}

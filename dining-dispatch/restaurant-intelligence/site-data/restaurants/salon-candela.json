@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "bd3342cc-23b4-42b9-a0a0-d009454020b1",
+  "slug": "salon-candela",
+  "name": "Salón Candela",
+  "location": {
+    "neighborhood": "TABACALERA",
+    "borough": "Cuauhtémoc",
+    "address": "Av. México-Tenochtitlán 10, Tabacalera, Cuauhtémoc, 06030 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.43788,
+      "longitude": -99.1499898
+    }
+  },
+  "contact": {
+    "phone": "55 1848 0022",
+    "website": null,
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=2079144983833057098&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 3:30–10:00 p.m.",
+      "lunes: 4:00–10:00 p.m.",
+      "martes: 4:00–10:00 p.m.",
+      "miércoles: 4:00–10:00 p.m.",
+      "jueves: 4:00–10:00 p.m.",
+      "viernes: 4:30 p.m. – 12:00 a.m.",
+      "sábado: 4:00–11:00 p.m."
+    ],
+    "rating": 4.2,
+    "reviewCount": 1218
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "missing",
+    "observedAt": null,
+    "observationAgeDaysAtExport": null,
+    "documentCount": 0,
+    "itemCount": 0,
+    "documents": [],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=2079144983833057098&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:53:00.75+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 1,
+    "sourceNames": [
+      "google_places"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "opening_hours": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-06-29T14:22:49.94156+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:22:50.078353+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 4,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_website",
+      "missing_instagram",
+      "missing_cuisine",
+      "missing_price_level",
+      "missing_source_summary",
+      "missing_menu_document",
+      "missing_structured_menu_items",
+      "low_source_count"
+    ]
+  }
+}

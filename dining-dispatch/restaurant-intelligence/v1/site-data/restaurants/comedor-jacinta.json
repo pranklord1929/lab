@@ -1,0 +1,175 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "43eacad3-9952-4222-91a9-5e466eb158bc",
+  "slug": "comedor-jacinta",
+  "name": "Comedor Jacinta",
+  "location": {
+    "neighborhood": "POLANCO IV SECCIÓN",
+    "borough": "Miguel Hidalgo",
+    "address": "Virgilio 40, Polanco, Polanco IV Secc, Miguel Hidalgo, 11550 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4299802,
+      "longitude": -99.1961393
+    }
+  },
+  "contact": {
+    "phone": "55 5086 6965",
+    "website": "http://comedorjacinta.com/",
+    "instagram": "https://instagram.com/comedorjacinta/",
+    "googleMapsUrl": "https://maps.google.com/?cid=3046795726391140480&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "mexican",
+    "michelinCuisine": "Mexicana, Tradicional",
+    "openTableCuisine": "Mexicana",
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": "Trendy spot with a terrace serving nostalgic specialties using locally sourced ingredients.",
+    "hours": [
+      "domingo: 9:00 a.m. – 9:00 p.m.",
+      "lunes: 8:00 a.m. – 11:00 p.m.",
+      "martes: 8:00 a.m. – 11:00 p.m.",
+      "miércoles: 8:00 a.m. – 12:00 a.m.",
+      "jueves: 8:00 a.m. – 12:00 a.m.",
+      "viernes: 8:00 a.m. – 12:00 a.m.",
+      "sábado: 9:00 a.m. – 12:00 a.m."
+    ],
+    "rating": 4.2,
+    "reviewCount": 2142
+  },
+  "distinctions": {
+    "michelin": "Bib Gourmand : nuestras mejores relaciones calidad-precio",
+    "michelinStars": 0,
+    "bibGourmand": true,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": "https://www.opentable.com.mx/r/comedor-jacinta-mexico-2",
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-09T18:55:39.227+00:00",
+    "observationAgeDaysAtExport": 38,
+    "documentCount": 1,
+    "itemCount": 1,
+    "documents": [
+      {
+        "id": "e7d467c8-1388-4186-854d-0fd728015088",
+        "sourceUrl": "http://comedorjacinta.com/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.5,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:39.227+00:00"
+      }
+    ],
+    "items": [
+      {
+        "id": "a2da671f-a87d-4d7a-b0cb-62705b7d1033",
+        "documentId": "e7d467c8-1388-4186-854d-0fd728015088",
+        "name": "Huevos orgánicos estrellados",
+        "description": "con arroz o papitas a la francesa",
+        "price": null,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "http://comedorjacinta.com/",
+        "observedAt": "2026-07-09T18:55:39.227+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "http://comedorjacinta.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:42.728+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=3046795726391140480&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:33.573+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/comedorjacinta/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:13:26.199+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 4,
+    "sourceNames": [
+      "foursquare",
+      "google_places",
+      "michelin",
+      "opentable"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-09T19:05:47.858092+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:09:18.258595+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": true,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 126,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "menu",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review"
+    ]
+  }
+}

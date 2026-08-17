@@ -1,0 +1,59 @@
+{
+  "slug": "el-hidalguense",
+  "name": "El Hidalguense",
+  "url": "https://www.tripadvisor.com/Restaurant_Review-g150800-d7289663-Reviews-El_Hidalguense-Mexico_City_Central_Mexico_and_Gulf_Coast.html",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Barbacoa de borrego",
+      "price": null,
+      "currency": "MXN",
+      "category": "barbacoa",
+      "description": "Estilo Hidalgo, horno de maguey. Vie–dom"
+    },
+    {
+      "name": "Consomé de borrego",
+      "price": null,
+      "currency": "MXN",
+      "category": "sopas"
+    },
+    {
+      "name": "Mixiote",
+      "price": null,
+      "currency": "MXN",
+      "category": "guisos"
+    },
+    {
+      "name": "Pancita de barbacoa",
+      "price": null,
+      "currency": "MXN",
+      "category": "guisos"
+    },
+    {
+      "name": "Queso asado",
+      "price": null,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Guacamole con chapulines",
+      "price": null,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Pan de elote",
+      "price": null,
+      "currency": "MXN",
+      "category": "postres"
+    },
+    {
+      "name": "Pulque",
+      "price": null,
+      "currency": "MXN",
+      "category": "bebidas"
+    }
+  ],
+  "notes": "Published weekend carta quoted by TripAdvisor reviews, Bon Appétit (queso asado) and Hungry Travelers. Roma Sur, Campeche 155."
+}

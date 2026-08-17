@@ -1,0 +1,152 @@
+{
+  "catalogName": "Ricos Tacos Toluca",
+  "slug": "ricos-tacos-toluca",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Ricos Tacos Toluca",
+  "location": {
+    "address": "López 103, Centro (near Mercado de San Juan)",
+    "neighborhood": "Centro",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06000",
+    "coordinates": {
+      "latitude": 19.4293577,
+      "longitude": -99.1427626
+    }
+  },
+  "contact": {
+    "phone": "+52 722 474 7771",
+    "website": "https://www.instagram.com/ricostacostoluca_?igsh=MjN5Zm56OXh2ODdm",
+    "instagram": "ricostacostoluca_",
+    "email": null
+  },
+  "hours": [
+    "lun–sáb 12:00–18:00",
+    "domingo cerrado (IG + Chilango + Michelin IG)"
+  ],
+  "food": {
+    "cuisine": "tacos / chorizo artesanal / cecina",
+    "priceLevel": 1
+  },
+  "reservation": {
+    "platform": "walk-in",
+    "url": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://guide.michelin.com/us/en/ciudad-de-mexico/cuauhtemoc_1995126/restaurant/ricos-tacos-toluca",
+    "observedAt": "2026-08-17",
+    "itemCount": 11,
+    "items": [
+      {
+        "name": "Taco de obispo",
+        "price": null,
+        "currency": "MXN",
+        "category": "tacos",
+        "description": "Longaniza gruesa de cerdo, dorada"
+      },
+      {
+        "name": "Taco de chorizo de tamarindo",
+        "price": null,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Taco de chorizo verde",
+        "price": null,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Taco de chorizo rojo",
+        "price": null,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Taco de chorizo de habanero",
+        "price": null,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Taco de longaniza",
+        "price": null,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Taco de cecina",
+        "price": null,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Taco de queso de puerco",
+        "price": null,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Taco de arrachera",
+        "price": null,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Taco de aguja",
+        "price": null,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Campechano",
+        "price": null,
+        "currency": "MXN",
+        "category": "tacos"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/ricostacostoluca_/",
+      "fields": [
+        "instagram"
+      ]
+    },
+    {
+      "source": "press",
+      "url": null,
+      "fields": [
+        "address López 103"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://guide.michelin.com/us/en/ciudad-de-mexico/cuauhtemoc_1995126/restaurant/ricos-tacos-toluca",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "distinctions": {
+    "michelin": "Seleccionado: Buena cocina"
+  },
+  "michelinReview": "Esta taquería se ha mudado tres veces en poco más de dos décadas. Hoy la encontrarás en pleno centro histórico de Ciudad de México, muy cerca del mercado de San Juan. Sólo dispone de unos cuantos bancos rojos, así llega temprano si no quieres comer de pie. El local se especializa en embutidos artesanales estilo Toluca. Podrás acompañarlos de cebollas asadas, papas fritas, cebolla, cilantro y diversas salsas; y probarlos de uno en un uno para apreciar los distintos sabores o combinarlos entre sí: la experiencia será igual de satisfactoria. El obispo, por ejemplo, es una gruesa longaniza de cerdo que se dora ligeramente para darle un delicado toque crujiente, mientras que el chorizo de tamarindo –con un sutil toque dulce y un inigualable sabor– se corta en cuadros y se asa a la parrilla.",
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/ricos-tacos-toluca",
+      "id": "1213231"
+    }
+  ]
+}

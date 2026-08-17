@@ -1,0 +1,211 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "28a61288-2a01-43a4-be93-708af6988655",
+  "slug": "senora-tanaka-masaryk",
+  "name": "Señora Tanaka Masaryk",
+  "location": {
+    "neighborhood": "POLANCO V SECCIÓN",
+    "borough": "Miguel Hidalgo",
+    "address": "Av. Pdte. Masaryk 169, Polanco, Polanco V Secc, Miguel Hidalgo, 11560 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4314974,
+      "longitude": -99.1886659
+    }
+  },
+  "contact": {
+    "phone": "55 2875 1870",
+    "website": "http://www.sratanaka.com/",
+    "instagram": "https://instagram.com/senoratanakamx/",
+    "googleMapsUrl": "https://maps.google.com/?cid=18353861291794192157&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "japanese",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 12:30–11:00 p.m.",
+      "lunes: 12:30 p.m. – 1:00 a.m.",
+      "martes: 12:30 p.m. – 1:00 a.m.",
+      "miércoles: 12:30 p.m. – 1:00 a.m.",
+      "jueves: 12:30 p.m. – 1:00 a.m.",
+      "viernes: 12:30 p.m. – 2:00 a.m.",
+      "sábado: 12:30 p.m. – 2:00 a.m."
+    ],
+    "rating": 4.8,
+    "reviewCount": 4233
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 3,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "1f09ba60-501f-4cb2-a628-e91851540e08",
+        "sourceUrl": "https://sratanaka.com",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "fecf0864-295a-45d7-b467-bf5f461ff90c",
+        "sourceUrl": "https://sratanaka.com/menu-guadalajara/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.75,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:05.156+00:00"
+      },
+      {
+        "id": "b413db5d-8764-47b0-a6c7-08c3094184e4",
+        "sourceUrl": "https://sratanaka.com/menu/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.75,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:04.743+00:00"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://sratanaka.com",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://sratanaka.com/menu/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://sratanaka.com/menu-guadalajara/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://sratanaka.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:37.331+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=18353861291794192157&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:37.677+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/SenoraTanaka",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/senoratanakamx/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "google_places",
+      "official_website",
+      "resy"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "resy",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:22:01.860421+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": true,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 32,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_price_level",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "tacos-charly",
+  "name": "Tacos Charly",
+  "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/tlalpan/restaurante/tacos-charly",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Taco de suadero",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos",
+      "description": "Michelin: confitado y luego hervido, especialidad más solicitada"
+    },
+    {
+      "name": "Taco al pastor",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos",
+      "description": "Trompo dedicado"
+    }
+  ],
+  "notes": "Michelin Bib Gourmand inspector text. Cash only; arrive early."
+}

@@ -1,0 +1,365 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "63926fd9-4a84-4aa5-abaf-6a0b210435cc",
+  "slug": "ultramarinos-de-fran",
+  "name": "Ultramarinos de Fran",
+  "location": {
+    "neighborhood": "POLANCO III SECCIÓN",
+    "borough": "Miguel Hidalgo",
+    "address": "Carlos Dickens 33, Polanco, Polanco III Secc, Miguel Hidalgo, 11540 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4302093,
+      "longitude": -99.201787
+    }
+  },
+  "contact": {
+    "phone": "55 2816 2937",
+    "website": "http://www.ultramarinosdefran.com/",
+    "instagram": "https://instagram.com/ultramarinosdefran/",
+    "googleMapsUrl": "https://maps.google.com/?cid=2535889582732881230&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 1:00–10:30 p.m.",
+      "lunes: Cerrado",
+      "martes: 1:00–11:00 p.m.",
+      "miércoles: 1:00–11:00 p.m.",
+      "jueves: 1:00–11:00 p.m.",
+      "viernes: 1:00–11:00 p.m.",
+      "sábado: 1:00–11:00 p.m."
+    ],
+    "rating": 4.4,
+    "reviewCount": 196
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 12,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "2c9e4284-9c2f-4b41-a54a-f7bf250d3d6c",
+        "sourceUrl": "https://ultramarinosdefran.com/categoria-producto/vinos/vino-rosado/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "37537059-c0be-4902-ad91-6a65087db7d3",
+        "sourceUrl": "https://ultramarinosdefran.com/categoria-producto/vinos/vino-tinto/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "63fca162-add8-4094-959c-598701d3f88a",
+        "sourceUrl": "https://ultramarinosdefran.com/product/vinos/vino-tinto/malleolus/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "676bfd63-2023-4e02-9b62-11ed23b05283",
+        "sourceUrl": "https://ultramarinosdefran.com/product/vinos/vino-tinto/ostatu-crianza/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "6ebc5c3a-88da-4976-a2b8-ae1db81cd333",
+        "sourceUrl": "https://ultramarinosdefran.com/categoria-producto/vinos/vino-blanco/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "915c1dd0-ae58-44df-a5d6-f5b8c8d370ed",
+        "sourceUrl": "https://ultramarinosdefran.com/product/vinos/vino-blanco/pazo-san-mauro/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "9bbc69df-1c9f-41d3-8946-59de8c026252",
+        "sourceUrl": "https://ultramarinosdefran.com/product/vinos/vino-tinto/finca-resalso/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "a80b8147-3bea-410f-ad90-7eba6e6af20c",
+        "sourceUrl": "https://ultramarinosdefran.com/product/vinos/vino-tinto/abadia-retuerta-seleccion-especial/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "abb82224-a468-4beb-9d99-8ed4f2d4ee66",
+        "sourceUrl": "https://ultramarinosdefran.com/product/vinos/vino-tinto/finca-rio-negro/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "b0e07161-db3f-41e8-aaea-e919918decfe",
+        "sourceUrl": "https://ultramarinosdefran.com/etienda/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "b3712cad-df3f-4d7d-a0ea-9222daaaad71",
+        "sourceUrl": "https://ultramarinosdefran.com/categoria-producto/vinos/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "eb965008-9063-455f-9276-da67a81f29db",
+        "sourceUrl": "https://ultramarinosdefran.com/product/vinos/vino-tinto/lan-crianza/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://ultramarinosdefran.com/product/vinos/vino-tinto/finca-resalso/",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://ultramarinosdefran.com/product/vinos/vino-blanco/pazo-san-mauro/",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://ultramarinosdefran.com/product/vinos/vino-tinto/ostatu-crianza/",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://ultramarinosdefran.com/product/vinos/vino-tinto/malleolus/",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://ultramarinosdefran.com/product/vinos/vino-tinto/abadia-retuerta-seleccion-especial/",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://ultramarinosdefran.com/product/vinos/vino-tinto/finca-rio-negro/",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://ultramarinosdefran.com/product/vinos/vino-tinto/lan-crianza/",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://ultramarinosdefran.com/categoria-producto/vinos/vino-blanco/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://ultramarinosdefran.com/categoria-producto/vinos/vino-tinto/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://ultramarinosdefran.com/categoria-producto/vinos/vino-rosado/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://ultramarinosdefran.com/etienda/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://ultramarinosdefran.com/categoria-producto/vinos/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://ultramarinosdefran.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:52:00.955+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=2535889582732881230&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:54.732+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/ultramarinosdefran",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/ultramarinosdefran/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "google_places",
+      "official_website",
+      "resy"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "resy",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.165171+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:22:21.199267+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 6,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_cuisine",
+      "missing_price_level",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

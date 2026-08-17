@@ -1,0 +1,408 @@
+{
+  "collections": [
+    {
+      "slug": "best-restaurants-mexico-city",
+      "title": "Best restaurants in Mexico City",
+      "intent": "city-wide",
+      "description": "Verified tables worth the trip across Mexico City — not a ranking, a working set.",
+      "seo_title": "Best restaurants in Mexico City",
+      "seo_description": "A verified shortlist of Mexico City restaurants with current menus, reservation difficulty, and human context."
+    },
+    {
+      "slug": "best-restaurants-polanco",
+      "title": "Best restaurants in Polanco",
+      "intent": "neighborhood",
+      "description": "Polanco tables with verified hours, menus, and booking reality.",
+      "seo_title": "Best restaurants in Polanco, Mexico City",
+      "seo_description": "Where to eat in Polanco: verified restaurants, tasting menus, and reservation lead times."
+    },
+    {
+      "slug": "best-restaurants-roma-norte",
+      "title": "Best restaurants in Roma Norte",
+      "intent": "neighborhood",
+      "description": "Roma Norte restaurants selected for food quality, occasion fit, and data freshness.",
+      "seo_title": "Best restaurants in Roma Norte, Mexico City",
+      "seo_description": "Verified Roma Norte restaurants for lunch, dinner, and walk-in corn cooking."
+    },
+    {
+      "slug": "best-date-night-restaurants",
+      "title": "Best date night restaurants",
+      "intent": "occasion",
+      "description": "Rooms and menus that hold a conversation and a night.",
+      "seo_title": "Best date night restaurants in Mexico City",
+      "seo_description": "Mexico City restaurants for date night: ambiance, booking difficulty, and what they are not for."
+    },
+    {
+      "slug": "best-mexican-restaurants",
+      "title": "Best Mexican restaurants",
+      "intent": "cuisine",
+      "description": "Mexican cooking with a current menu and a reason to go.",
+      "seo_title": "Best Mexican restaurants in Mexico City",
+      "seo_description": "Verified Mexican restaurants in Mexico City, from tasting menus to nixtamal kitchens."
+    },
+    {
+      "slug": "best-vegetarian-restaurants",
+      "title": "Best vegetarian restaurants",
+      "intent": "diet",
+      "description": "Kitchens that can actually feed a vegetarian without collapsing the menu.",
+      "seo_title": "Best vegetarian restaurants in Mexico City",
+      "seo_description": "Mexico City restaurants with verified vegetarian options and current menus."
+    },
+    {
+      "slug": "best-business-dinner-restaurants",
+      "title": "Best business dinner restaurants",
+      "intent": "occasion",
+      "description": "Tables that work when the meal is also a meeting.",
+      "seo_title": "Best business dinner restaurants in Mexico City",
+      "seo_description": "Where to take a business dinner in Mexico City: noise, booking, and neighborhood."
+    }
+  ],
+  "restaurants": [
+    {
+      "slug": "quintonil",
+      "name": "Quintonil",
+      "description": "Jorge Vallejo and Alejandra Flores's Polanco tasting room: Mexican ingredients, botanical precision, high demand.",
+      "neighborhood": "Polanco",
+      "address": "Av. Isaac Newton 55, Polanco IV Secc, Miguel Hidalgo, 11560 Ciudad de México",
+      "lat": 19.4324,
+      "lng": -99.1963,
+      "cuisine": ["Mexican", "Contemporary Mexican"],
+      "price_range": "$$$$",
+      "experience_type": "Tasting menu",
+      "website": "https://quintonil.com/",
+      "instagram": "https://www.instagram.com/quintonil/",
+      "hours": {
+        "monday": [],
+        "tuesday": [{ "open": "13:00", "close": "14:00" }, { "open": "17:30", "close": "21:30" }],
+        "wednesday": [{ "open": "13:00", "close": "14:00" }, { "open": "17:30", "close": "21:30" }],
+        "thursday": [{ "open": "13:00", "close": "14:00" }, { "open": "17:30", "close": "21:30" }],
+        "friday": [{ "open": "13:00", "close": "14:00" }, { "open": "17:30", "close": "21:30" }],
+        "saturday": [{ "open": "13:00", "close": "14:00" }, { "open": "17:30", "close": "21:30" }],
+        "sunday": []
+      },
+      "reservation": {
+        "platform": "Tock / official site",
+        "url": "https://www.exploretock.com/quintonil",
+        "difficulty": "very_hard",
+        "recommended_lead_days": 60,
+        "tips": "Book only via the restaurant reservation flow. Email is not accepted. Deposit required. Tell them dietary needs at booking — vegan, vegetarian, and pescatarian adaptations exist; they cannot exclude corn, chile, or onion."
+      },
+      "editorial": {
+        "best_for": ["Special occasion", "Ingredient-driven tasting", "Visitors who already booked Pujol"],
+        "avoid_for": ["Walk-ins", "A quiet cheap dinner", "Groups larger than the room allows"],
+        "ambiance": "Two rooms: one darker and contained, one brighter. Service is formal without theater.",
+        "ideal_moment": "Weeknight dinner if you can get it; lunch is the more obtainable slot.",
+        "visitor_type": "Travelers who plan weeks out; locals celebrating."
+      },
+      "tags": ["tasting-menu", "fine-dining", "polanco", "michelin"],
+      "confidence_score": 86,
+      "last_verified": "2026-08-17",
+      "featured": true,
+      "published": true,
+      "collection_slugs": [
+        "best-restaurants-mexico-city",
+        "best-restaurants-polanco",
+        "best-date-night-restaurants",
+        "best-mexican-restaurants",
+        "best-vegetarian-restaurants",
+        "best-business-dinner-restaurants"
+      ],
+      "menus": [
+        {
+          "menu_type": "tasting",
+          "name": "August 2026 tasting menu",
+          "currency": "MXN",
+          "price": 6090,
+          "vegetarian_options": true,
+          "source": "https://quintonil.com/",
+          "last_verified": "2026-08-17",
+          "notes": "Per person, not shared. Pairings listed separately. Prices change without notice.",
+          "items": [
+            { "name": "Wild mushroom chileatole, cacahuazintle corn, ayocote bean", "notable": true },
+            { "name": "Tuna pescadilla, lacto-fermented mushrooms, chintextle de chapulín" },
+            { "name": "Mussel tostada, mole de mar, charred onion, chipotle" },
+            { "name": "Fried escamoles, tomato caldillo, guajillo" },
+            { "name": "Vuelve a la vida with kampachi, oyster, caviar", "notable": true },
+            { "name": "Tepotzotlán lettuces, sikil pak, Cuadro cheese, celeriac bushi", "dietary": ["vegetarian"] },
+            { "name": "Baja steelhead trout, adobo de chicatana, fig-leaf pickled mushrooms" },
+            { "name": "Cactus paddle sorbet", "dietary": ["vegetarian"] },
+            { "name": "Pibil pork tamal, young corn cream" },
+            { "name": "Chichilo negro, rib eye, charred pico de gallo, huitlacoche", "notable": true },
+            { "name": "Melipona honey ice cream, papaya and lavender marmalade", "dietary": ["vegetarian"] },
+            { "name": "Mexican cornbread, rompope de nixtamal, Chichicaxtle vanilla, passion fruit" }
+          ]
+        }
+      ],
+      "verifications": [
+        {
+          "source": "https://quintonil.com/",
+          "information_checked": "menu, price, pairings, dietary policy, address",
+          "date_checked": "2026-08-17",
+          "confidence": 92,
+          "notes": "August 2026 menu posted on the official site. Pairings: Liquid Horizons 3380, Mexican wine 3140, Terroir & Rarities 8450, non-alcoholic 2175 MXN."
+        },
+        {
+          "source": "https://www.exploretock.com/quintonil",
+          "information_checked": "reservation platform, deposit, service windows",
+          "date_checked": "2026-08-17",
+          "confidence": 80,
+          "notes": "Tock lists kitchen-counter and dining-room deposits. Confirm the live booking link on quintonil.com before traveling."
+        }
+      ],
+      "notes": [
+        {
+          "author": "The Dining Dispatch",
+          "date": "2026-08-17",
+          "context": "fixture",
+          "note": "Fixture record for the V0 template. Replace with field notes after the Mexico trip."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is Quintonil worth visiting?",
+          "answer": "Yes if you want a current, high-precision Mexican tasting menu in Polanco and you can secure a reservation. It is not a spontaneous meal.",
+          "sort_order": 0
+        },
+        {
+          "question": "How much does Quintonil cost?",
+          "answer": "The August 2026 tasting menu is 6,090 MXN per person before pairings. Beverage pairings run 2,175–8,450 MXN. Confirm on quintonil.com; prices change.",
+          "sort_order": 1
+        },
+        {
+          "question": "Is Quintonil good for tourists?",
+          "answer": "Yes, if tourists book far ahead through the official reservation flow. Walk-ins are not a plan.",
+          "sort_order": 2
+        },
+        {
+          "question": "Does Quintonil have vegetarian options?",
+          "answer": "The tasting menu can be adapted for vegan, vegetarian, and pescatarian diets if declared at reservation. Corn, chile, and onion cannot be excluded.",
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "slug": "contramar",
+      "name": "Contramar",
+      "description": "Gabriela Cámara's Roma Norte seafood room. Lunch is the point. The pescado a la talla is the reason people return.",
+      "neighborhood": "Roma Norte",
+      "address": "Durango 200, Roma Norte, Cuauhtémoc, 06700 Ciudad de México",
+      "lat": 19.4198,
+      "lng": -99.1664,
+      "cuisine": ["Seafood", "Mexican"],
+      "price_range": "$$",
+      "experience_type": "Lunch",
+      "website": "https://contramar.com.mx/",
+      "instagram": "https://www.instagram.com/contramar/",
+      "hours": {
+        "monday": [{ "open": "12:00", "close": "20:00" }],
+        "tuesday": [{ "open": "12:00", "close": "20:00" }],
+        "wednesday": [{ "open": "12:00", "close": "20:00" }],
+        "thursday": [{ "open": "12:00", "close": "20:00" }],
+        "friday": [{ "open": "12:00", "close": "20:00" }],
+        "saturday": [{ "open": "11:00", "close": "20:00" }],
+        "sunday": [{ "open": "11:00", "close": "20:00" }]
+      },
+      "reservation": {
+        "platform": "OpenTable",
+        "url": "https://www.opentable.com/r/contramar-ciudad-de-mexico",
+        "difficulty": "moderate",
+        "recommended_lead_days": 7,
+        "tips": "Weekend lunch fills first. Weekday 12:00–14:00 is the realistic walk-in window. The room is loud at peak. Closes at 20:00 — this is not a late dinner."
+      },
+      "editorial": {
+        "best_for": ["Long lunch", "Groups", "First-time Mexico City seafood"],
+        "avoid_for": ["A quiet table", "Late dinner", "Tasting-menu hunters"],
+        "ambiance": "Bright, packed, coastal energy inland. Conversation competes with the room.",
+        "ideal_moment": "Saturday 13:00 if booked; Tuesday 12:30 if not.",
+        "visitor_type": "Almost everyone — tourists, locals, business lunch if they accept noise."
+      },
+      "tags": ["lunch", "seafood", "roma-norte", "iconic"],
+      "confidence_score": 84,
+      "last_verified": "2026-08-17",
+      "featured": true,
+      "published": true,
+      "collection_slugs": [
+        "best-restaurants-mexico-city",
+        "best-restaurants-roma-norte",
+        "best-mexican-restaurants",
+        "best-business-dinner-restaurants"
+      ],
+      "menus": [
+        {
+          "menu_type": "a_la_carte",
+          "name": "Seafood a la carte",
+          "currency": "MXN",
+          "price": null,
+          "vegetarian_options": false,
+          "source": "https://contramar.com.mx/",
+          "last_verified": "2026-08-17",
+          "notes": "À la carte. Confirm live prices in the room. Vegetarian is not the point of this kitchen.",
+          "items": [
+            { "name": "Tostada de atún", "notable": true },
+            { "name": "Callo de hacha tostada" },
+            { "name": "Pescado a la talla (red chile / parsley)", "notable": true },
+            { "name": "Pulpo a la gallega" },
+            { "name": "Dessert tray" }
+          ]
+        }
+      ],
+      "verifications": [
+        {
+          "source": "https://www.opentable.com/r/contramar-ciudad-de-mexico",
+          "information_checked": "address, hours, reservation platform, phone",
+          "date_checked": "2026-08-17",
+          "confidence": 88,
+          "notes": "OpenTable lists Durango 200; Mon–Fri 12:00–20:00; Sat–Sun 11:00–20:00; phone 55 5514 3169."
+        },
+        {
+          "source": "https://contramar.com.mx/",
+          "information_checked": "signature preparations",
+          "date_checked": "2026-08-17",
+          "confidence": 75,
+          "notes": "Official site confirms pescado a la talla variants. Full priced menu is not published as a stable page."
+        }
+      ],
+      "notes": [
+        {
+          "author": "The Dining Dispatch",
+          "date": "2026-08-17",
+          "context": "fixture",
+          "note": "Fixture record. Price list needs an on-the-ground pass."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is Contramar worth visiting?",
+          "answer": "Yes for a Mexico City lunch. It is still one of the most reliable seafood rooms in Roma Norte if you accept noise and a wait at peak.",
+          "sort_order": 0
+        },
+        {
+          "question": "How much does Contramar cost?",
+          "answer": "Plan $$ — a serious lunch without tasting-menu pricing. Exact item prices are confirmed at the table; they are not stably published.",
+          "sort_order": 1
+        },
+        {
+          "question": "Is Contramar good for tourists?",
+          "answer": "Yes. Book OpenTable for weekend lunch. It is a tourist magnet and still a local lunch habit.",
+          "sort_order": 2
+        },
+        {
+          "question": "Does Contramar have vegetarian options?",
+          "answer": "This is a fish and seafood restaurant. Vegetarians should pick another table.",
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "slug": "expendio-de-maiz",
+      "name": "Expendio de Maíz",
+      "description": "Jesús Salas Tornés's Roma Norte corn kitchen: no menu, no reservations, cash, communal tables, food until you stop.",
+      "neighborhood": "Roma Norte",
+      "address": "Av. Yucatán 84, Roma Norte, Cuauhtémoc, 06700 Ciudad de México",
+      "lat": 19.41417,
+      "lng": -99.162639,
+      "cuisine": ["Mexican", "Antojitos"],
+      "price_range": "$$",
+      "experience_type": "Walk-in · no menu",
+      "website": null,
+      "instagram": "https://www.instagram.com/expendiodemaiz/",
+      "hours": {
+        "monday": [],
+        "tuesday": [{ "open": "10:00", "close": "16:30" }],
+        "wednesday": [{ "open": "10:00", "close": "16:30" }],
+        "thursday": [{ "open": "10:00", "close": "16:30" }],
+        "friday": [{ "open": "09:00", "close": "19:30" }],
+        "saturday": [{ "open": "09:00", "close": "19:30" }],
+        "sunday": [{ "open": "10:00", "close": "16:30" }]
+      },
+      "reservation": {
+        "platform": "None",
+        "url": null,
+        "difficulty": "walk_in",
+        "recommended_lead_days": 0,
+        "tips": "No reservations. Put your name on the on-site list. Arrive early. Bring cash. State allergies when seated. Weekend waits can run hours."
+      },
+      "editorial": {
+        "best_for": ["Nixtamal cooking", "Flexible lunch", "People who will wait"],
+        "avoid_for": ["Timed reservations", "Card-only travelers", "A private table", "Dinner on a schedule"],
+        "ambiance": "Open kitchen on the street side, four communal tables, no signage theater. The food is the system.",
+        "ideal_moment": "Weekday late morning. Do not sandwich this between two timed bookings.",
+        "visitor_type": "Curious eaters. Not hotel-concierge logistics."
+      },
+      "tags": ["walk-in", "corn", "roma-norte", "cash-only", "vegetarian-friendly"],
+      "confidence_score": 74,
+      "last_verified": "2026-08-17",
+      "featured": true,
+      "published": true,
+      "collection_slugs": [
+        "best-restaurants-mexico-city",
+        "best-restaurants-roma-norte",
+        "best-mexican-restaurants",
+        "best-vegetarian-restaurants"
+      ],
+      "menus": [
+        {
+          "menu_type": "other",
+          "name": "No written menu",
+          "currency": "MXN",
+          "price": null,
+          "vegetarian_options": true,
+          "source": "Michelin Guide listing + on-site format",
+          "last_verified": "2026-08-17",
+          "notes": "Kitchen sends antojitos until you stop. Heirloom corn, tortillas, sopes, huaraches. Cash only.",
+          "items": [
+            { "name": "Nixtamal tortillas to order", "notable": true, "dietary": ["vegetarian"] },
+            { "name": "Sopes / huaraches / tacos as sent", "notable": true },
+            { "name": "Tableside salsas" }
+          ]
+        }
+      ],
+      "verifications": [
+        {
+          "source": "https://guide.michelin.com/en/ciudad-de-mexico/cuauhtemoc_1995126/restaurant/expendio-de-maiz",
+          "information_checked": "address, no-reservation policy, format, cash",
+          "date_checked": "2026-08-17",
+          "confidence": 85,
+          "notes": "Michelin confirms Yucatán 84, communal tables, no menu, no reservations, waitlist."
+        },
+        {
+          "source": "public hours roundup",
+          "information_checked": "hours",
+          "date_checked": "2026-08-17",
+          "confidence": 55,
+          "notes": "Hours conflict across secondary sources. Treat hours as unverified until an on-site check. Monday likely closed."
+        }
+      ],
+      "notes": [
+        {
+          "author": "The Dining Dispatch",
+          "date": "2026-08-17",
+          "context": "fixture",
+          "note": "Hours are the weakest field on this fixture. Verify in person before treating them as trusted."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Is Expendio de Maíz worth visiting?",
+          "answer": "Yes if you will wait and pay cash for corn cooking with no menu. No if you need a reservation, a card, or a private table.",
+          "sort_order": 0
+        },
+        {
+          "question": "How much does Expendio de Maíz cost?",
+          "answer": "$$, paid in cash, no published prix fixe. You eat until you stop, so the check tracks appetite.",
+          "sort_order": 1
+        },
+        {
+          "question": "Is Expendio de Maíz good for tourists?",
+          "answer": "Yes for tourists who can handle a waitlist and Spanish at the counter. It is not a concierge booking.",
+          "sort_order": 2
+        },
+        {
+          "question": "Does Expendio de Maíz have vegetarian options?",
+          "answer": "Yes — declare restrictions when you sit. The kitchen builds plates to order around nixtamal. Confirm meat and lard in the moment.",
+          "sort_order": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "447621af-c57f-4943-9623-7131f0d59a4e",
+  "slug": "matisse-condesa",
+  "name": "Matisse Condesa",
+  "location": {
+    "neighborhood": "HIPÓDROMO",
+    "borough": "Cuauhtémoc",
+    "address": "Ámsterdam 260, Cuauhtémoc, Colonia Condesa, Cuauhtémoc, 06100 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.411661,
+      "longitude": -99.1677479
+    }
+  },
+  "contact": {
+    "phone": "55 5584 3210",
+    "website": "https://matisse.website/",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=12879526280840512189&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "mexican",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 8:00 a.m. – 10:00 p.m.",
+      "lunes: 7:00 a.m. – 11:00 p.m.",
+      "martes: 7:00 a.m. – 11:00 p.m.",
+      "miércoles: 7:00 a.m. – 11:00 p.m.",
+      "jueves: 7:00 a.m. – 11:00 p.m.",
+      "viernes: 7:00 a.m. – 11:00 p.m.",
+      "sábado: 7:00 a.m. – 11:00 p.m."
+    ],
+    "rating": 4.3,
+    "reviewCount": 5265
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-09T18:55:57.861+00:00",
+    "observationAgeDaysAtExport": 38,
+    "documentCount": 1,
+    "itemCount": 11,
+    "documents": [
+      {
+        "id": "972eb659-8e38-4516-bae9-1eaac262a1b9",
+        "sourceUrl": "https://matisse.website/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.75,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:57.861+00:00"
+      }
+    ],
+    "items": [
+      {
+        "id": "478b0181-fd03-408f-a183-4e58f78414d9",
+        "documentId": null,
+        "name": "Con Carne De Res Y Salsa Verde MX",
+        "description": null,
+        "price": 139,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "e1f494a3-b2af-450a-afbd-0e31bc9d8076",
+        "documentId": null,
+        "name": "De Hierbas Finas Y Queso De Cabra MX",
+        "description": null,
+        "price": 133,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "66363976-1f0c-4408-a300-b32cdabba3f3",
+        "documentId": null,
+        "name": "De Pollo Con Tallarines, Pollo Y Verduras MX",
+        "description": null,
+        "price": 69,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "a283e398-df3a-4d26-acf5-123cefeddab6",
+        "documentId": null,
+        "name": "De Zapote Mandarina Energético Vampiro Jugo Antigripal MX",
+        "description": null,
+        "price": 59,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "33181058-3199-4871-abd3-8e2e398b9882",
+        "documentId": null,
+        "name": "Francés Con Salmón Montado En Pan Brioche MX",
+        "description": null,
+        "price": 142,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "9d05b930-544b-4da0-aadb-357b0319affb",
+        "documentId": null,
+        "name": "Huevos Oaxaqueños Con Salsa De Chile Pasilla MX",
+        "description": null,
+        "price": 128,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "ffe412e2-2ca6-4144-aa94-b7c8f1042561",
+        "documentId": null,
+        "name": "Mascarpone Y Ricota Con Salsa De Espinaca MX",
+        "description": null,
+        "price": 195,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "4291db02-70ed-44a0-ab04-f685235fc83c",
+        "documentId": null,
+        "name": "Omelette Relleno De Huitlacoche Con Salsa Poblana MX",
+        "description": null,
+        "price": 142,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "9a7cb3b6-e667-410a-af64-b5828cdc7539",
+        "documentId": null,
+        "name": "Pato Con Mostaza, Miel Y Col Morada MX",
+        "description": null,
+        "price": 239,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "0a14bd10-c5e4-478f-a13e-f37f12a06ed6",
+        "documentId": null,
+        "name": "Ravioles Rellenos De Salmón Con Salsa Rosada MX",
+        "description": null,
+        "price": 225,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "f27aa77d-d963-4970-a783-bafd90a4ea55",
+        "documentId": null,
+        "name": "Salsa De Mango Y Verduras Al Vapor MX",
+        "description": null,
+        "price": 260,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://matisse.website/menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://matisse.website/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:17.562+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=12879526280840512189&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:27.99+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/MatisseRestMex/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "google_places",
+      "official_menus",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T20:05:20.22199+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:06:29.599756+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 274,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_source_summary"
+    ]
+  }
+}

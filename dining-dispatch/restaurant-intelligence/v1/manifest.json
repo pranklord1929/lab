@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "tdd.v1.catalog.2026-08-17",
+  "sourceCsv": "source/mexico-restaurants.csv",
+  "csvCount": 114,
+  "onSite": 29,
+  "inArchiveNoFiche": 40,
+  "ambiguous": 17,
+  "absent": 28,
+  "collections": 17,
+  "indexable": 0,
+  "guardrails": {
+    "siteMayOnlyShowOnSiteStatus": true,
+    "doNotUseSiteData876AsRuntimeCatalog": true,
+    "doNotInventEditorial": true,
+    "allIndexableFalse": true
+  }
+}

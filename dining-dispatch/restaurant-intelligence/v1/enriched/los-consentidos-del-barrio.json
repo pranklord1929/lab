@@ -1,0 +1,123 @@
+{
+  "catalogName": "Los Consentidos del Barrio",
+  "slug": "los-consentidos-del-barrio",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Los Consentidos del Barrio",
+  "location": {
+    "address": "Manzanas 27, Del Valle / Tlacoquemécatl",
+    "neighborhood": "Del Valle",
+    "borough": "Benito Juárez",
+    "postalCode": null,
+    "coordinates": {
+      "latitude": 19.3747083,
+      "longitude": -99.1777389
+    }
+  },
+  "contact": {
+    "phone": "+52 55 1287 5398",
+    "website": "https://www.instagram.com/taqueria.losconsentidos/",
+    "instagram": "taqueria.losconsentidos",
+    "email": null,
+    "websiteIsInstagram": true
+  },
+  "hours": [
+    "friday: [{'opens': 'T13:00:00', 'closed': False, 'closes': 'T00:30:00'}]",
+    "monday: [{'opens': 'T13:00:00', 'closed': False, 'closes': 'T00:30:00'}]",
+    "sunday: [{'opens': 'T13:00:00', 'closed': False, 'closes': 'T23:30:00'}]",
+    "tuesday: [{'opens': 'T13:00:00', 'closed': False, 'closes': 'T00:30:00'}]",
+    "saturday: [{'opens': 'T13:00:00', 'closed': False, 'closes': 'T00:30:00'}]",
+    "thursday: [{'opens': 'T13:00:00', 'closed': False, 'closes': 'T00:30:00'}]",
+    "wednesday: [{'opens': 'T13:00:00', 'closed': False, 'closes': 'T00:30:00'}]"
+  ],
+  "food": {
+    "cuisine": "tacos al carbón / chuleta",
+    "priceLevel": 1
+  },
+  "reservation": {
+    "platform": "walk-in",
+    "url": null
+  },
+  "distinctions": {
+    "michelin": "Bib Gourmand : nuestras mejores relaciones calidad-precio",
+    "bibGourmand": true
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/benito-juarez_1994163/restaurante/los-consentidos-del-barrio",
+    "observedAt": "2026-08-17",
+    "itemCount": 5,
+    "items": [
+      {
+        "name": "Tacos al carbón",
+        "price": null,
+        "currency": "MXN",
+        "category": "tacos",
+        "description": "Carne en rebanadas finas a la parrilla, luego en cuadros"
+      },
+      {
+        "name": "Taco de arrachera",
+        "price": null,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Taco de poblano en rodajas",
+        "price": null,
+        "currency": "MXN",
+        "category": "vegetarianos"
+      },
+      {
+        "name": "Taco de nopales",
+        "price": null,
+        "currency": "MXN",
+        "category": "vegetarianos"
+      },
+      {
+        "name": "Taco de champiñones",
+        "price": null,
+        "currency": "MXN",
+        "category": "vegetarianos"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/taqueria.losconsentidos/",
+      "fields": [
+        "instagram"
+      ]
+    },
+    {
+      "source": "press",
+      "url": null,
+      "fields": [
+        "address Manzanas 27"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/benito-juarez_1994163/restaurante/los-consentidos-del-barrio",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "michelinReview": "Subiendo las escaleras hasta el segundo piso se llega a un gran comedor con mesas de madera y sillas negras. La parrilla de carbón mantiene caliente el comedor, por lo que quizá prefieras sentarte en el amplio patio con mesas y sillas altas. La especialidad de la casa son los tacos al carbón, con carne cortada en finas rebanadas que se pasan por la parrilla antes de ser cortadas en cuadros. Pese a que el centro de atención sean las carnes, también hay tacos vegetarianos. Los de poblano en rodajas, nopales o champiñones son algunos de los mejores. ¿Otra opción obligada? La arrachera, con su corazón perfectamente rosado.",
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/benito-juarez_1994163/restaurante/los-consentidos-del-barrio",
+      "id": "1213213"
+    }
+  ]
+}

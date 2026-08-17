@@ -1,0 +1,108 @@
+{
+  "catalogName": "Abyssmo",
+  "slug": "abyssmo",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Abyssmo",
+  "location": {
+    "address": "Av. Nuevo León 89, Hipódromo / Condesa",
+    "neighborhood": "Condesa",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06100",
+    "coordinates": {
+      "latitude": 19.4121858,
+      "longitude": -99.1723436
+    }
+  },
+  "contact": {
+    "phone": null,
+    "website": "https://www.instagram.com/abyssmo.mx/",
+    "instagram": "abyssmo.mx",
+    "email": null,
+    "websiteIsInstagram": true
+  },
+  "hours": [
+    "mar–mié 14:00–22:00 (IG bio)"
+  ],
+  "food": {
+    "cuisine": "seafood",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/r/abyssmo-ciudad-de-mexico"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.instagram.com/abyssmo.mx/",
+    "observedAt": "2026-08-17",
+    "itemCount": 5,
+    "items": [
+      {
+        "name": "Enmoladas de langosta",
+        "price": null,
+        "currency": "MXN",
+        "category": "fuertes"
+      },
+      {
+        "name": "Arroz meloso",
+        "price": null,
+        "currency": "MXN",
+        "category": "fuertes",
+        "description": "Pesto de la casa, almejas, pulpo y ostión frito — IG oficial Jun 2026"
+      },
+      {
+        "name": "Taco de camarón con pork belly",
+        "price": null,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Camarones con chintextle",
+        "price": null,
+        "currency": "MXN",
+        "category": "fuertes"
+      },
+      {
+        "name": "Ensalada de tomates heirloom y albahaca mamut",
+        "price": null,
+        "currency": "MXN",
+        "category": "ensaladas",
+        "description": "Con mojama y aguacate — IG oficial"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/abyssmo.mx/",
+      "fields": [
+        "address",
+        "hours"
+      ]
+    },
+    {
+      "source": "opentable",
+      "url": "https://www.opentable.com/r/abyssmo-ciudad-de-mexico",
+      "fields": [
+        "address"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://www.instagram.com/abyssmo.mx/",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": []
+}

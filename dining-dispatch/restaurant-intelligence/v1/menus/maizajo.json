@@ -1,0 +1,115 @@
+{
+  "slug": "maizajo",
+  "name": "Maizajo",
+  "url": "https://www.maizajo.com/",
+  "items": [
+    {
+      "name": "Menú degustación 10 tiempos",
+      "price": 2600,
+      "currency": "MXN",
+      "category": "tasting",
+      "description": "Técnicas de maíz y producto de temporada"
+    },
+    {
+      "name": "Tacos de camarón",
+      "price": 240,
+      "currency": "MXN",
+      "description": "Mojo isleño de guajillo, mayo habanero (2 pz)",
+      "category": "antojitos"
+    },
+    {
+      "name": "Vuelve a la vida",
+      "price": 420,
+      "currency": "MXN",
+      "description": "Camarón roca, ostión, caldo de jitomate, eucalipto",
+      "category": "antojitos"
+    },
+    {
+      "name": "Tlayuda de mar",
+      "price": 350,
+      "currency": "MXN",
+      "description": "Queso Oaxaca, frijoles, longaniza de pulpo, pescado curado",
+      "category": "antojitos"
+    },
+    {
+      "name": "Trilogía de antojitos",
+      "price": 220,
+      "currency": "MXN",
+      "description": "Memela mole Xico, gordita, quesadilla de lengua",
+      "category": "antojitos"
+    },
+    {
+      "name": "Tamal de hongos",
+      "price": 250,
+      "currency": "MXN",
+      "description": "Tres maíces, hongos, salsa achiotada (V)",
+      "category": "antojitos"
+    },
+    {
+      "name": "Manea",
+      "price": 350,
+      "currency": "MXN",
+      "description": "Tamal masa quebrada, cangrejo moro, chile amaxito",
+      "category": "antojitos"
+    },
+    {
+      "name": "Panucho",
+      "price": 320,
+      "currency": "MXN",
+      "description": "Mole de quelites, guajolote en escabeche",
+      "category": "antojitos"
+    },
+    {
+      "name": "Pichomole",
+      "price": 360,
+      "currency": "MXN",
+      "description": "Mole colonial, pork belly en recado blanco",
+      "category": "moles"
+    },
+    {
+      "name": "Mole de guayaba",
+      "price": 910,
+      "currency": "MXN",
+      "description": "Chuletón de cerdo 450g, verduras de chinampa",
+      "category": "moles"
+    },
+    {
+      "name": "Pesca en penca en 4 moles",
+      "price": 510,
+      "currency": "MXN",
+      "category": "moles"
+    },
+    {
+      "name": "Segueza con pulpo",
+      "price": 650,
+      "currency": "MXN",
+      "category": "moles"
+    },
+    {
+      "name": "Enmoladas de mole de Xico de barbacoa",
+      "price": 420,
+      "currency": "MXN",
+      "description": "Tacos dorados de barbacoa de pato (3 pz)",
+      "category": "moles"
+    },
+    {
+      "name": "Ensalada de la milpa",
+      "price": 250,
+      "currency": "MXN",
+      "category": "ensaladas"
+    },
+    {
+      "name": "Gaoneras para taquear",
+      "price": 1300,
+      "currency": "MXN",
+      "description": "NY Choice 400g",
+      "category": "carnes"
+    },
+    {
+      "name": "Lengua glaseada al carbón",
+      "price": 690,
+      "currency": "MXN",
+      "category": "carnes"
+    }
+  ]
+}

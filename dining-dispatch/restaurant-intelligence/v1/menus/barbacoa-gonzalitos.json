@@ -1,0 +1,35 @@
+{
+  "slug": "barbacoa-gonzalitos",
+  "name": "Barbacoa Gonzalitos",
+  "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/barbacoa-gonzalitos",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Taco de barbacoa de res",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos",
+      "description": "Tortilla de maíz o harina; versión dorada más crujiente"
+    },
+    {
+      "name": "Taco de chile relleno frito en tempura",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Taco de machaca con huevo",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Taco de picadillo de ribeye",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos"
+    }
+  ],
+  "notes": "Michelin inspector short list (barbacoa, chile relleno tempura, machaca con huevo). El País quotes the hung menu above the grill."
+}

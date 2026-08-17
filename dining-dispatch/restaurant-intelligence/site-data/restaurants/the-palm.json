@@ -1,0 +1,247 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "8bd7158b-5bad-4d21-8d02-d5e38d0ad7fe",
+  "slug": "the-palm",
+  "name": "The Palm",
+  "location": {
+    "neighborhood": "POLANCO IV SECCIÓN",
+    "borough": "Miguel Hidalgo",
+    "address": "Campos Elíseos 218, Polanco, Polanco IV Secc, Miguel Hidalgo, 11560 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4277828,
+      "longitude": -99.1935601
+    }
+  },
+  "contact": {
+    "phone": "55 4161 3497",
+    "website": "http://www.thepalm.com.mx/",
+    "instagram": "https://instagram.com/thepalmmx/",
+    "googleMapsUrl": "https://maps.google.com/?cid=14265173382138918215&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "american",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 4
+  },
+  "experience": {
+    "sourceSummary": "Storied chain serving high-end steakhouse fare, seafood & diverse wines in clubby surrounds.",
+    "hours": [
+      "domingo: 1:00–8:00 p.m.",
+      "lunes: 1:00–11:30 p.m.",
+      "martes: 1:00–11:30 p.m.",
+      "miércoles: 1:00–11:30 p.m.",
+      "jueves: 1:00–11:30 p.m.",
+      "viernes: 1:00–11:30 p.m.",
+      "sábado: 1:00–11:30 p.m."
+    ],
+    "rating": 4.6,
+    "reviewCount": 1352
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 2,
+    "itemCount": 4,
+    "documents": [
+      {
+        "id": "36b48273-15a5-406b-ae40-467221f6f9eb",
+        "sourceUrl": "https://thepalm.com.mx/carta-de-vinos-cdmx/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "9053eeb2-7dae-46c9-a7df-a54b505aa45f",
+        "sourceUrl": "https://thepalm.com.mx/entradas-menu-palm/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": [
+      {
+        "id": "d0c65648-6bef-4d6e-ac82-e57f6598787e",
+        "documentId": null,
+        "name": "Camarones Gigantes a la Parrilla",
+        "description": null,
+        "price": 735,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "1d2f3014-4010-47d6-a019-a0b56aa49fd5",
+        "documentId": null,
+        "name": "Camarones Gigantes a la Parrilla 450 g",
+        "description": null,
+        "price": 735,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "6dbd09b7-43ab-4000-a570-0407e799ce62",
+        "documentId": null,
+        "name": "Sopa de Pollo y Tortilla",
+        "description": null,
+        "price": 238,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "7bb4213e-91c6-4078-acc0-58f27dd05b04",
+        "documentId": null,
+        "name": "Sopa de Pollo y Tortilla 250 ml",
+        "description": null,
+        "price": 238,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://thepalm.com.mx/entradas-menu-palm/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://thepalm.com.mx/carta-de-vinos-cdmx/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://thepalm.com.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:48:58.622+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=14265173382138918215&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:17.032+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/ThePalmMX/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/thepalmmx/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 5,
+    "sourceNames": [
+      "google_places",
+      "mexico_gastronomico",
+      "official_menus",
+      "official_website",
+      "star_wine_list"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T20:05:20.22199+00:00",
+    "canonicalUpdatedAt": "2026-06-29T13:59:07.596855+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": true,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 200,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review"
+    ]
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "3ca08e9c-93f5-4648-a294-b57e69278de1",
+  "slug": "del-bosque-restaurante",
+  "name": "Del Bosque Restaurante",
+  "location": {
+    "neighborhood": "BOSQUE DE CHAPULTEPEC",
+    "borough": "Miguel Hidalgo",
+    "address": "Lago Menor, Del Rosal s/n, Bosque De Chapultepec, Miguel Hidalgo, 11040 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4112924,
+      "longitude": -99.1992686
+    }
+  },
+  "contact": {
+    "phone": "55 5516 4214",
+    "website": "https://delbosquerestaurante.com.mx/",
+    "instagram": "https://instagram.com/delbosquerest/",
+    "googleMapsUrl": "https://maps.google.com/?cid=9743091859421873072&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "mexican",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": "Lunch standards, dessert & breakfast in a glass-front room with views of a tree-lined lake.",
+    "hours": [
+      "domingo: 8:00 a.m. – 6:00 p.m.",
+      "lunes: 8:00 a.m. – 6:00 p.m.",
+      "martes: 8:00 a.m. – 6:00 p.m.",
+      "miércoles: 8:00 a.m. – 6:00 p.m.",
+      "jueves: 8:00 a.m. – 6:00 p.m.",
+      "viernes: 8:00 a.m. – 6:00 p.m.",
+      "sábado: 8:00 a.m. – 6:00 p.m."
+    ],
+    "rating": 4.3,
+    "reviewCount": 4230
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-09T18:56:02.083+00:00",
+    "observationAgeDaysAtExport": 38,
+    "documentCount": 2,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "f4851443-4d63-486d-86b9-5418fed854cd",
+        "sourceUrl": "https://www.delbosquerestaurante.com.mx/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.5,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:56:02.083+00:00"
+      },
+      {
+        "id": "e2290552-7dbe-4f48-be58-70a8a1a22fba",
+        "sourceUrl": "https://www.delbosquerestaurante.com.mx/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 1,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:56:01.956+00:00"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://delbosquerestaurante.com.mx/menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.delbosquerestaurante.com.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:52:02.297+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=9743091859421873072&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:57.748+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/DelBosqueRestauranteOficial",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/delbosquerest/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.165171+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:20:11.503288+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 299,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_structured_menu_items"
+    ]
+  }
+}

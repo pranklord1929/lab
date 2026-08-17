@@ -1,0 +1,40 @@
+{
+  "slug": "vigneron",
+  "name": "Vigneron",
+  "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/vigneron",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Juliana de zanahoria asada con stracciatella",
+      "price": null,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Polenta crujiente con ensalada de jaiba y mayonesa de miso",
+      "price": null,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Pasta",
+      "price": null,
+      "currency": "MXN",
+      "category": "fuertes"
+    },
+    {
+      "name": "Pollo asado",
+      "price": null,
+      "currency": "MXN",
+      "category": "fuertes"
+    },
+    {
+      "name": "Tarta de nueces con ganache de chocolate semiamargo",
+      "price": null,
+      "currency": "MXN",
+      "category": "postres"
+    }
+  ],
+  "notes": "Michelin inspector named dishes from the short carta."
+}

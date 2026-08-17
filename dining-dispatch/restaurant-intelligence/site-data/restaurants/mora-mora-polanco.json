@@ -1,0 +1,606 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "5b303d31-a6e3-4df9-8313-abca89b96923",
+  "slug": "mora-mora-polanco",
+  "name": "Mora Mora Polanco",
+  "location": {
+    "neighborhood": "POLANCO III SECCIÓN",
+    "borough": "Miguel Hidalgo",
+    "address": "Edgar Allan Poe 94, Polanco, Polanco III Secc, Miguel Hidalgo, 11540 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4327659,
+      "longitude": -99.1998325
+    }
+  },
+  "contact": {
+    "phone": "55 9386 3997",
+    "website": "http://moramora.mx/",
+    "instagram": "https://instagram.com/moramora_mx/",
+    "googleMapsUrl": "https://maps.google.com/?cid=10445694598645118595&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 8:30 a.m. – 9:00 p.m.",
+      "lunes: 6:30 a.m. – 9:00 p.m.",
+      "martes: 6:30 a.m. – 9:00 p.m.",
+      "miércoles: 6:30 a.m. – 9:00 p.m.",
+      "jueves: 6:30 a.m. – 10:00 p.m.",
+      "viernes: 6:30 a.m. – 10:00 p.m.",
+      "sábado: 7:30 a.m. – 10:00 p.m."
+    ],
+    "rating": 4.4,
+    "reviewCount": 1222
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 1,
+    "itemCount": 33,
+    "documents": [
+      {
+        "id": "868ee6b6-f4fc-450c-a52a-19c35985214d",
+        "sourceUrl": "https://moramora.mx/collections/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": [
+      {
+        "id": "e8b77ed3-7a58-467b-a8af-1d55cd22eab3",
+        "documentId": null,
+        "name": "Agotado",
+        "description": null,
+        "price": 224,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "0bb32ec7-fa49-46f2-a07d-e7beb67094ab",
+        "documentId": null,
+        "name": "Precio habitual",
+        "description": null,
+        "price": 217,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "0f701d8b-3f88-4311-ad30-59ac733a1d4e",
+        "documentId": null,
+        "name": "Precio habitual",
+        "description": null,
+        "price": 99,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "1c3ccba1-a605-4961-acee-4b9e570c8478",
+        "documentId": null,
+        "name": "Precio habitual",
+        "description": null,
+        "price": 97,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "202272a2-5e66-41c1-a5b2-a8f7c641d83f",
+        "documentId": null,
+        "name": "Precio habitual",
+        "description": null,
+        "price": 197,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "21804364-6bc3-4d98-ae95-362786ed5072",
+        "documentId": null,
+        "name": "Precio habitual",
+        "description": null,
+        "price": 204,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "258f52c4-ef2e-4334-ab64-25b14e47a144",
+        "documentId": null,
+        "name": "Precio habitual",
+        "description": null,
+        "price": 89,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "29c1180b-b9f1-4fd3-a53a-ec0aa48043a5",
+        "documentId": null,
+        "name": "Precio habitual",
+        "description": null,
+        "price": 139,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "31596cc0-b443-404d-a1fd-2b504f3b0c06",
+        "documentId": null,
+        "name": "Precio habitual",
+        "description": null,
+        "price": 59,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "55064e5d-60a0-4454-ace6-b09ef4284910",
+        "documentId": null,
+        "name": "Precio habitual",
+        "description": null,
+        "price": 207,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "57603c01-d4ce-48e9-a058-f3c3f812c2bf",
+        "documentId": null,
+        "name": "Precio habitual",
+        "description": null,
+        "price": 117,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "59ead4ae-a0b7-4903-a3a0-71f95360777e",
+        "documentId": null,
+        "name": "Precio habitual",
+        "description": null,
+        "price": 127,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "5a21f41b-1833-4f50-a512-6100a51ca920",
+        "documentId": null,
+        "name": "Precio habitual",
+        "description": null,
+        "price": 164,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "5d80337e-8472-451a-a5aa-5f0c8cca481f",
+        "documentId": null,
+        "name": "Precio habitual",
+        "description": null,
+        "price": 134,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "69cafd84-3731-4287-ad2a-be458b02435d",
+        "documentId": null,
+        "name": "Precio habitual",
+        "description": null,
+        "price": 79,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "75edb0f2-f1db-45c4-a501-b98d51be32b1",
+        "documentId": null,
+        "name": "Precio habitual",
+        "description": null,
+        "price": 49,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "76043113-94c1-4a14-a60f-5b65de010f0e",
+        "documentId": null,
+        "name": "Precio habitual",
+        "description": null,
+        "price": 119,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "760c2dd2-8a65-4cff-ae07-0ac452185cf4",
+        "documentId": null,
+        "name": "Precio habitual",
+        "description": null,
+        "price": 109,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "870db438-a30c-49e0-a828-bdd384ee6694",
+        "documentId": null,
+        "name": "Precio habitual",
+        "description": null,
+        "price": 54,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "885780b0-f4bd-4877-ae6a-c4f5f0fc1392",
+        "documentId": null,
+        "name": "Precio habitual",
+        "description": null,
+        "price": 337,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "9ee52876-58f0-422c-a137-044ed4b1bcdb",
+        "documentId": null,
+        "name": "Precio habitual",
+        "description": null,
+        "price": 94,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "a0015b96-1316-41ae-aea6-8037072e307d",
+        "documentId": null,
+        "name": "Precio habitual",
+        "description": null,
+        "price": 50,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "aa70a3d9-f99e-4cc6-abf2-d95ff8faa3a0",
+        "documentId": null,
+        "name": "Precio habitual",
+        "description": null,
+        "price": 144,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "add7485d-3f66-417d-a57a-db402dc631ca",
+        "documentId": null,
+        "name": "Precio habitual",
+        "description": null,
+        "price": 114,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "aeed1235-0464-4a12-a988-85ee64abfd16",
+        "documentId": null,
+        "name": "Precio habitual",
+        "description": null,
+        "price": 267,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "b0b9d46b-048d-4efa-a786-098859369e20",
+        "documentId": null,
+        "name": "Precio habitual",
+        "description": null,
+        "price": 189,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "b6a0a708-f16e-4ab6-a8ad-bf6945e08dfd",
+        "documentId": null,
+        "name": "Precio habitual",
+        "description": null,
+        "price": 264,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "b99e21bb-425c-4023-a533-8641601cfe73",
+        "documentId": null,
+        "name": "Precio habitual",
+        "description": null,
+        "price": 75,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "bbd0ad58-2b7b-47e8-a36f-27d2fff63e91",
+        "documentId": null,
+        "name": "Precio habitual",
+        "description": null,
+        "price": 224,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "bfa9b2e8-3a19-421b-ad32-757dac7f662a",
+        "documentId": null,
+        "name": "Precio habitual",
+        "description": null,
+        "price": 309,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "c8307fa7-fabe-40b1-a537-07e784420fcb",
+        "documentId": null,
+        "name": "Precio habitual",
+        "description": null,
+        "price": 129,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "dc253370-d387-458e-a299-0d6bd97ea9f4",
+        "documentId": null,
+        "name": "Precio habitual",
+        "description": null,
+        "price": 159,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "dd600175-3c00-4cd0-ad4a-d0ad5bb4c965",
+        "documentId": null,
+        "name": "Precio habitual",
+        "description": null,
+        "price": 104,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://moramora.mx/collections/menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://moramora.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:17.679+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=10445694598645118595&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:27.994+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/MoraMoraMx",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/moramora_mx/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "google_places",
+      "official_menus",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T20:05:20.22199+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:06:34.810537+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 360,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_cuisine",
+      "missing_source_summary"
+    ]
+  }
+}

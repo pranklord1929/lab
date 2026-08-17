@@ -1,0 +1,159 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "cc01cbe2-dc24-4266-a7f9-23aad807c861",
+  "slug": "tacos-la-chula-juarez",
+  "name": "Tacos La Chula Juárez",
+  "location": {
+    "neighborhood": "JUÁREZ",
+    "borough": "Cuauhtémoc",
+    "address": "Liverpool 102, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.425291,
+      "longitude": -99.1617468
+    }
+  },
+  "contact": {
+    "phone": "55 1185 1812",
+    "website": "https://tacoslachula.com/",
+    "instagram": "https://instagram.com/tacos.lachula/",
+    "googleMapsUrl": "https://maps.google.com/?cid=709247079133402008&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "mexican",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: Abierto las 24 horas",
+      "lunes: Abierto las 24 horas",
+      "martes: Abierto las 24 horas",
+      "miércoles: Abierto las 24 horas",
+      "jueves: Abierto las 24 horas",
+      "viernes: Abierto las 24 horas",
+      "sábado: Abierto las 24 horas"
+    ],
+    "rating": 4.3,
+    "reviewCount": 3926
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "missing",
+    "observedAt": null,
+    "observationAgeDaysAtExport": null,
+    "documentCount": 0,
+    "itemCount": 0,
+    "documents": [],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://lp.resto.marketing/tacoslachula",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:07.047+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=709247079133402008&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:22.461+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/tacoslachulamx",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/tacos.lachula/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "foursquare",
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:01:30.340717+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 310,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "menu",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_source_summary",
+      "missing_menu_document",
+      "missing_structured_menu_items"
+    ]
+  }
+}

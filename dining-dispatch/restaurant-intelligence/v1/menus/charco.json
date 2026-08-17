@@ -1,0 +1,31 @@
+{
+  "slug": "charco",
+  "name": "Charco",
+  "url": "https://www.eater.com/venue/895864/charco",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Farmer’s market crudité, gorgonzola dip, cured egg yolk"
+    },
+    {
+      "name": "Grilled catch of the day, peas, fava beans, seafood beurre monté"
+    },
+    {
+      "name": "Leeks and asparagus, meunière, olives"
+    },
+    {
+      "name": "Spicy kampachi crudo"
+    },
+    {
+      "name": "NY strip steak, beef jus"
+    },
+    {
+      "name": "Cheese empanadas"
+    },
+    {
+      "name": "Tuna tartare"
+    }
+  ],
+  "notes": "Eater + The Infatuation + OpenTable named dishes."
+}

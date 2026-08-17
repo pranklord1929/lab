@@ -1,0 +1,204 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "ecbeb133-f97e-429c-a563-ac3bba1e3da6",
+  "slug": "puntarena-santa-fe",
+  "name": "Puntarena Santa Fe",
+  "location": {
+    "neighborhood": "SANTA FE CUAJIMALPA",
+    "borough": "Cuajimalpa de Morelos",
+    "address": "Vasco de Quiroga Col, Santa Fe, Contadero, Cuajimalpa de Morelos, 05348 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3623719,
+      "longitude": -99.2752028
+    }
+  },
+  "contact": {
+    "phone": "55 2167 8402",
+    "website": "http://www.puntarena.mx/",
+    "instagram": "https://instagram.com/puntarena_mx/",
+    "googleMapsUrl": "https://maps.google.com/?cid=11017919459092444619&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 4
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 1:00–6:00 p.m.",
+      "lunes: 1:00–10:30 p.m.",
+      "martes: 1:00–10:30 p.m.",
+      "miércoles: 1:00–10:30 p.m.",
+      "jueves: 1:00–10:30 p.m.",
+      "viernes: 1:00–10:30 p.m.",
+      "sábado: 1:00–10:30 p.m."
+    ],
+    "rating": 4.5,
+    "reviewCount": 658
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-17T10:10:05.905Z",
+    "observationAgeDaysAtExport": 31,
+    "documentCount": 3,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "67495f8d-2a8e-4fb6-83fa-5b4fde090266",
+        "sourceUrl": "http://puntarena.mx/wp-content/uploads/2024/10/desayuno.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "cb476d60-18a1-400e-b3f2-12ff824ed4cf",
+        "sourceUrl": "https://puntarena.mx/wp-content/uploads/2024/10/desayuno.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "ed3e3eae-f541-4fbc-91cc-e7cd71d067b2",
+        "sourceUrl": "http://puntarena.mx/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.66,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:56:10.883+00:00"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://puntarena.mx/wp-content/uploads/2024/10/desayuno.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://puntarena.mx/wp-content/uploads/2024/10/desayuno.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "http://puntarena.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:18.345+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=11017919459092444619&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:33.515+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/RestaurantePuntarena/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/puntarena_mx/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "foursquare",
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.165171+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:09:06.079879+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 343,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "menu",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_cuisine",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

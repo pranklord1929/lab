@@ -1,0 +1,265 @@
+{
+  "catalogName": "Comal Oculto",
+  "slug": "comal-oculto",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Comal Oculto",
+  "location": {
+    "address": "Gobernador Protasio Tagle 66A, San Miguel Chapultepec (restaurant). Itacate / takeaway: Gómez Pedraza 37.",
+    "neighborhood": "San Miguel Chapultepec",
+    "borough": "Miguel Hidalgo",
+    "postalCode": "11850",
+    "coordinates": {
+      "latitude": 19.4139571,
+      "longitude": -99.1832842
+    }
+  },
+  "contact": {
+    "phone": "+52 55 8988 2557",
+    "website": "https://www.instagram.com/comaloculto/",
+    "instagram": "comaloculto",
+    "email": null,
+    "phoneNote": "Reservándonos returned a number that matches Encanto Fuego y Mar; kept the earlier IG/Maps number.",
+    "websiteIsInstagram": true
+  },
+  "hours": [
+    "sun 09:00–23:00",
+    "tue 09:00–23:00",
+    "wed 09:00–23:00",
+    "thu 09:00–23:00",
+    "fri 09:00–23:00",
+    "sat 09:00–23:00"
+  ],
+  "food": {
+    "cuisine": "mexican antojería / comal",
+    "priceLevel": 2
+  },
+  "reservation": {
+    "platform": "reservandonos",
+    "url": "https://reservandonos.com/lugar/comal-oculto-chapultepec"
+  },
+  "distinctions": {
+    "michelin": "Bib Gourmand : nuestras mejores relaciones calidad-precio",
+    "bibGourmand": true
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "local://sqlite-menu-items",
+    "observedAt": "2026-08-17",
+    "itemCount": 23,
+    "items": [
+      {
+        "name": "Agua Fresca del día",
+        "description": "Fresca, natural y preparada cada mañana con frutas de la temporada.",
+        "price": 65.0,
+        "currency": "MXN",
+        "category": "Bebidas"
+      },
+      {
+        "name": "Enmoladas de Chamorro (2 pzs)",
+        "description": "Tortillas de maíz rellenas de chamorro, bañadas en mole almendrado, con crema, queso y brotes frescos.",
+        "price": 310.0,
+        "currency": "MXN",
+        "category": "Antojitos con Chamorro"
+      },
+      {
+        "name": "Flautas (2 pzs)",
+        "description": "Tortillas freídas rellenas de papa, queso o pollo, cubiertas con crema y queso, servidas en porciones de 2 piezas.",
+        "price": 195.0,
+        "currency": "MXN",
+        "category": "Antojitos Bañados"
+      },
+      {
+        "name": "Orden de Sopes Sencillos (2 pzs)",
+        "description": "Base de maíz hecha al momento, frijol ayocote con hoja de aguacate, crema fresca, cebolla morada, queso cotija y brotes.",
+        "price": 115.0,
+        "currency": "MXN",
+        "category": "Antojitos al Comal"
+      },
+      {
+        "name": "Enmoladas (2 pzs)",
+        "description": "Tortillas de maíz rellenas de papa, queso, huevo o pollo, cubiertas con mole almendrado y servidas con crema y brotes.",
+        "price": 285.0,
+        "currency": "MXN",
+        "category": "Antojitos Bañados"
+      },
+      {
+        "name": "Gordita de Chicharrón",
+        "description": "Gordita de maíz rellena con chicharrón prensado en salsa pasilla, una delicia tradicional mexicana.",
+        "price": 89.0,
+        "currency": "MXN",
+        "category": "Antojitos al Comal"
+      },
+      {
+        "name": "Coca-Cola",
+        "description": "Regular de lata 355ml",
+        "price": 65.0,
+        "currency": "MXN",
+        "category": "Bebidas"
+      },
+      {
+        "name": "Flautas Ahogadas",
+        "description": "Tortillas freídas rellenas de papa, queso o pollo, bañadas en salsa verde, roja o mole, con crema y queso.",
+        "price": 230.0,
+        "currency": "MXN",
+        "category": "Antojitos Bañados"
+      },
+      {
+        "name": "Orden de Tacos de Chamorro (2 pzs)",
+        "description": "Tacos de chamorro confitado con cebolla morada encurtida y brotes de cilantro en tortilla suave.",
+        "price": 220.0,
+        "currency": "MXN",
+        "category": "Antojitos con Chamorro"
+      },
+      {
+        "name": "Flautas con Chamorro (2 pzs)",
+        "description": "Tortillas rellenas de chamorro, bañadas en crema y queso, servidas con brotes frescos.",
+        "price": 210.0,
+        "currency": "MXN",
+        "category": "Antojitos con Chamorro"
+      },
+      {
+        "name": "Enfrijoladas de Chamorro (2 pzs)",
+        "description": "Tortillas de maíz rellenas de chamorro, bañadas en salsas de frijol bayo y negro, con crema, queso y brotes.",
+        "price": 295.0,
+        "currency": "MXN",
+        "category": "Antojitos con Chamorro"
+      },
+      {
+        "name": "Quesadilla",
+        "description": "Tortilla de maíz rellena de guisado, con opción de quesillo, hecha al momento.",
+        "price": 69.0,
+        "currency": "MXN",
+        "category": "Antojitos al Comal"
+      },
+      {
+        "name": "Chocolate Caliente de Agua",
+        "description": "Chocolate artesanal mexicano batido en agua, resaltando las notas intensas y puras del cacao con un toque ligero de dulzor.",
+        "price": 65.0,
+        "currency": "MXN",
+        "category": "Bebidas"
+      },
+      {
+        "name": "Rancheros Comal",
+        "description": "2 Sopes acompañados de 2 huevos estrellados bañados con salsa roja, verde o mole, con aguacate, queso fresco y cilantro criollo.",
+        "price": 215.0,
+        "currency": "MXN",
+        "category": "Antojitos Bañados"
+      },
+      {
+        "name": "Enchiladas (2 pzs)",
+        "description": "Tortillas rellenas de papa, queso, huevo o pollo, bañadas en salsa verde o roja, con crema, queso y brotes.",
+        "price": 270.0,
+        "currency": "MXN",
+        "category": "Antojitos Bañados"
+      },
+      {
+        "name": "Enfrijoladas (2 pzs)",
+        "description": "Tortillas de maíz bañadas en salsas de frijol bayo y negro, rellenas de papa, queso, pollo o huevo, servidas con crema, queso y brotes.",
+        "price": 270.0,
+        "currency": "MXN",
+        "category": "Antojitos Bañados"
+      },
+      {
+        "name": "Flautas Ahogadas con Chamorro (2 pzs)",
+        "description": "Tortillas freídas rellenas de chamorro, bañadas en salsa verde, roja o mole, con crema, queso y brotes.",
+        "price": 260.0,
+        "currency": "MXN",
+        "category": "Antojitos con Chamorro"
+      },
+      {
+        "name": "Enchiladas con Chamorro (2 pzs)",
+        "description": "Tortillas de maíz rellenas de chamorro, bañadas en salsa verde o roja, con crema, queso y brotes.",
+        "price": 295.0,
+        "currency": "MXN",
+        "category": "Antojitos con Chamorro"
+      },
+      {
+        "name": "Chilaquiles",
+        "description": "Totopos de maíz cubiertos en salsa roja o mole, con crema, queso cotija, aguacate, cebolla morada y brotes de cilantro.",
+        "price": 140.0,
+        "currency": "MXN",
+        "category": "Antojitos Bañados"
+      },
+      {
+        "name": "Gordita Especial con Chamorro",
+        "description": "Gordita de maíz con chamorro confitado, rellena de chicharrón prensado en salsa pasilla para un sabor auténtico.",
+        "price": 149.0,
+        "currency": "MXN",
+        "category": "Antojitos con Chamorro"
+      },
+      {
+        "name": "Chilaquiles con Chamorro",
+        "description": "Totopos de maíz con chamorro confitado, bañados en salsa roja o mole, con crema, queso cotija, cebolla y cilantro.",
+        "price": 230.0,
+        "currency": "MXN",
+        "category": "Antojitos con Chamorro"
+      },
+      {
+        "name": "Orden de Sopes con Guisado (2 pzas)",
+        "description": "Sopes de maíz con frijol ayocote, crema, cebolla morada, queso cotija y brotes, acompañados de guisado a elección.",
+        "price": 189.0,
+        "currency": "MXN",
+        "category": "Antojitos al Comal"
+      },
+      {
+        "name": "Cafe de Olla",
+        "description": "Receta clásica de la casa. Café caliente aromático, endulzado con piloncillo.",
+        "price": 65.0,
+        "currency": "MXN",
+        "category": "Bebidas"
+      }
+    ],
+    "notes": "Prior extraction corpus"
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/comaloculto/",
+      "fields": [
+        "address",
+        "hours"
+      ]
+    },
+    {
+      "source": "michelin",
+      "url": "https://guide.michelin.com/us/en/ciudad-de-mexico/miguel-hidalgo_1999281/restaurant/comal-oculto",
+      "fields": [
+        "address"
+      ]
+    }
+  ],
+  "gaps": [
+    "coordinates"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "michelinReview": "Los tonos terracota y rosados marcan la pauta en este local informal con mesas repartidas por el centro de la sala y mesas compartidas que contribuyen a crear una atmósfera cálida y cordial. La carta –servida sin interrupción– propone, como su nombre indica, reconfortantes platos clásicos elaborados mayormente en el comal. La gordita especial, con chicharrón y tiernas carnitas desmenuzadas, es uno de los platos más demandados. ¿La noche se ha alargado más de lo previsto? Pide unos chilaquiles de chamorro con salsa verde y despiértalos con la ardiente salsa de la mesa. Obligadas son también las crujientes flautas de queso fundente o la enmolada, con su vistosa cobertura de mole poblano. Prepárate a hacer cola si vienes para el brunch del fin de semana.",
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/miguel-hidalgo_1999281/restaurante/comal-oculto",
+      "id": "1211164"
+    },
+    {
+      "source": "reservandonos",
+      "phone": "+5575839911"
+    },
+    {
+      "source": "resy",
+      "url": "https://resy.com/cities/mexico-city-mexico/venues/comal-oculto-chapultepec",
+      "slug": "comal-oculto-chapultepec"
+    },
+    {
+      "source": "reservandonos-nuxt",
+      "url": "https://reservandonos.com/lugar/comal-oculto-chapultepec",
+      "hours": true
+    }
+  ]
+}

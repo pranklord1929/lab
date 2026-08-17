@@ -1,0 +1,110 @@
+{
+  "slug": "migrante",
+  "name": "Migrante",
+  "url": "https://migranteroma.com/en/menu/",
+  "items": [
+    {
+      "name": "Roast suadero bun",
+      "price": 315,
+      "currency": "MXN",
+      "description": "Peach & radicchio chutney, smoked pork (3 pcs)",
+      "category": "snacks"
+    },
+    {
+      "name": "Homemade churros",
+      "price": 315,
+      "currency": "MXN",
+      "description": "Roast foie gras, charred mamey, hazelnut & squash (4)",
+      "category": "snacks"
+    },
+    {
+      "name": "Crispy prawn",
+      "price": 575,
+      "currency": "MXN",
+      "description": "Sichuan tempura, yuzu kosho, radish mayo (3)",
+      "category": "snacks"
+    },
+    {
+      "name": "Blue crab salad",
+      "price": 465,
+      "currency": "MXN",
+      "description": "Green apple, grapefruit, peanuts, sesame, lemongrass air",
+      "category": "starters"
+    },
+    {
+      "name": "Raw fish",
+      "price": 455,
+      "currency": "MXN",
+      "description": "Blood orange / coconut emulsion, ginger, red chili",
+      "category": "starters"
+    },
+    {
+      "name": "Cured beef tartare",
+      "price": 355,
+      "currency": "MXN",
+      "description": "Pistachio praline, ibérico crumble, quelites",
+      "category": "starters"
+    },
+    {
+      "name": "Seasonal fresh pasta",
+      "price": 355,
+      "currency": "MXN",
+      "category": "starters"
+    },
+    {
+      "name": "Seasonal vegetable dish",
+      "price": 295,
+      "currency": "MXN",
+      "category": "starters"
+    },
+    {
+      "name": "Sautéed clams",
+      "price": 375,
+      "currency": "MXN",
+      "description": "Amazake and lime emulsion, samphire",
+      "category": "starters"
+    },
+    {
+      "name": "Grilled dry-aged fish",
+      "price": 665,
+      "currency": "MXN",
+      "description": "Pickled mussels, bouillabaisse beurre, kombu oil",
+      "category": "mains"
+    },
+    {
+      "name": "Roast lamb",
+      "price": 585,
+      "currency": "MXN",
+      "description": "Sweet pepper cream, cauliflower, lamb jus",
+      "category": "mains"
+    },
+    {
+      "name": "Glazed Kurobuta pork chop",
+      "price": 1125,
+      "currency": "MXN",
+      "description": "Kombu jus, mushrooms, mole amarillito — suggested for sharing",
+      "category": "mains"
+    },
+    {
+      "name": "Aged duck breast",
+      "price": 585,
+      "currency": "MXN",
+      "description": "Sumac and pu-erh jus, sake carrots, raspberry",
+      "category": "mains"
+    },
+    {
+      "name": "Tornaviaje tasting 6 courses",
+      "price": 2100,
+      "currency": "MXN",
+      "description": "Pairing 3400 / zero pairing 2850",
+      "category": "tasting"
+    },
+    {
+      "name": "Meridiano tasting 9 courses",
+      "price": 3000,
+      "currency": "MXN",
+      "description": "Pairing 4900 / zero pairing 3950",
+      "category": "tasting"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "catalogName": "Barbacoa Gonzalitos",
+  "slug": "barbacoa-gonzalitos",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Barbacoa Gonzalitos",
+  "location": {
+    "address": "Colima 76, Roma Norte",
+    "neighborhood": "Roma Norte",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06700",
+    "coordinates": {
+      "latitude": 19.4206541,
+      "longitude": -99.1564096
+    }
+  },
+  "contact": {
+    "phone": "+52 55 3240 4440",
+    "website": "https://www.instagram.com/barbacoagonzalitos/",
+    "instagram": "barbacoagonzalitos",
+    "email": null,
+    "websiteIsInstagram": true
+  },
+  "hours": [
+    "mar–sáb 10:00–22:00",
+    "dom 10:00–19:00"
+  ],
+  "food": {
+    "cuisine": "norteño / barbacoa tacos",
+    "priceLevel": 1
+  },
+  "reservation": {
+    "platform": "walk-in",
+    "url": null
+  },
+  "distinctions": {
+    "michelin": "Seleccionado: Buena cocina",
+    "michelinStars": 0
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/barbacoa-gonzalitos",
+    "observedAt": "2026-08-17",
+    "itemCount": 4,
+    "items": [
+      {
+        "name": "Taco de barbacoa de res",
+        "price": null,
+        "currency": "MXN",
+        "category": "tacos",
+        "description": "Tortilla de maíz o harina; versión dorada más crujiente"
+      },
+      {
+        "name": "Taco de chile relleno frito en tempura",
+        "price": null,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Taco de machaca con huevo",
+        "price": null,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Taco de picadillo de ribeye",
+        "price": null,
+        "currency": "MXN",
+        "category": "tacos"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/barbacoagonzalitos/",
+      "fields": [
+        "address",
+        "hours"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/barbacoa-gonzalitos",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "michelinReview": "Esta taquería de la Roma Norte está especializada en tacos al estilo norestense. Su breve lista comienza con la estrella de la casa: el de barbacoa de res, que se puede pedir con tortilla de maíz o de harina. Para más jugosidad y sabor, pídelo en versión dorada, con una textura también más crujiente. Pidas lo que pidas, estará delicioso… La oferta incluye uno de chile relleno frito en tempura o el de machaca con huevo. Para disfrutar de los tacos, hechos con maestría en la pequeña cocina, el comensal puede sentarse en alguna de las escasas mesas o en la barra instalada en la banqueta.",
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/barbacoa-gonzalitos",
+      "id": "1211161"
+    }
+  ]
+}

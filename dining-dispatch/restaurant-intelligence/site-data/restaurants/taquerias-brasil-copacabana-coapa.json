@@ -1,0 +1,161 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "dd583c79-13bb-468a-a720-7af51eeacc95",
+  "slug": "taquerias-brasil-copacabana-coapa",
+  "name": "Taquerias Brasil Copacabana (Coapa)",
+  "location": {
+    "neighborhood": "PRADO COAPA TERCERA SECCIÓN",
+    "borough": "Tlalpan",
+    "address": "Calle San Juan de Dios, Coapa, Prados Coapa 3ra Secc, Tlalpan, 14357 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.2954951,
+      "longitude": -99.1324598
+    }
+  },
+  "contact": {
+    "phone": "55 5673 6622",
+    "website": "http://copacabana.com.mx/",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=15356692080429867768&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "taco",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 12:00 p.m. – 12:30 a.m.",
+      "lunes: 12:00 p.m. – 1:30 a.m.",
+      "martes: 12:00 p.m. – 1:30 a.m.",
+      "miércoles: 12:00 p.m. – 1:30 a.m.",
+      "jueves: 12:00 p.m. – 1:30 a.m.",
+      "viernes: 12:00 p.m. – 3:30 a.m.",
+      "sábado: 12:00 p.m. – 3:30 a.m."
+    ],
+    "rating": 4.2,
+    "reviewCount": 8022
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-09T18:56:07.715+00:00",
+    "observationAgeDaysAtExport": 38,
+    "documentCount": 1,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "0e3f4d18-155d-449f-908d-18664908fbc6",
+        "sourceUrl": "http://copacabana.com.mx/menu.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.5,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:56:07.715+00:00"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://copacabana.com.mx/menu.html",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "http://copacabana.com.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:20.542+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=15356692080429867768&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:27.673+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "foursquare",
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.165171+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:06:11.343897+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 321,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

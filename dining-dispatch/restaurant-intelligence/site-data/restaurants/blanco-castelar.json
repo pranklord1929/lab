@@ -1,0 +1,163 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "cca43954-ea47-45ba-91ce-e58a52ba12a6",
+  "slug": "blanco-castelar",
+  "name": "Blanco Castelar",
+  "location": {
+    "neighborhood": "POLANCO III SECCIÓN",
+    "borough": "Miguel Hidalgo",
+    "address": "Av. Emilio Castelar 163, Polanco, Polanco III Secc, Miguel Hidalgo, 11550 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.430306,
+      "longitude": -99.1997027
+    }
+  },
+  "contact": {
+    "phone": "55 4161 3496",
+    "website": "https://www.grupocarolo.com.mx/blancocastelar",
+    "instagram": "https://instagram.com/blanco_castelar/",
+    "googleMapsUrl": "https://maps.google.com/?cid=2213637369448246359&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 1:00–11:00 p.m.",
+      "lunes: 1:00 p.m. – 12:00 a.m.",
+      "martes: 1:00 p.m. – 12:00 a.m.",
+      "miércoles: 1:00 p.m. – 1:00 a.m.",
+      "jueves: 1:00 p.m. – 2:00 a.m.",
+      "viernes: 1:00 p.m. – 2:00 a.m.",
+      "sábado: 1:00 p.m. – 2:00 a.m."
+    ],
+    "rating": 4.7,
+    "reviewCount": 2920
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-15T21:02:19.410Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 1,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "28489b26-87c4-494b-b02f-5dd1b1284ceb",
+        "sourceUrl": "https://www.grupocarolo.com.mx/restaurants-menu-sitemap.xml",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "candidate_filter:sitemap",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T21:02:19.410Z"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.grupocarolo.com.mx/blancocastelar",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:13.383+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=2213637369448246359&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:25.154+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/blanco_castelar/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "google_places",
+      "official_website",
+      "resy"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "resy",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:04:50.000408+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 105,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "menu",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_cuisine",
+      "missing_price_level",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

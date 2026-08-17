@@ -1,0 +1,145 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "92ee7ba6-5246-4a02-9de5-bd7eeaa837be",
+  "slug": "cantina-la-castellana",
+  "name": "Cantina La Castellana",
+  "location": {
+    "neighborhood": "SAN RAFAEL",
+    "borough": "Cuauhtémoc",
+    "address": "Calle Maestro Antonio Caso 58 esquina con Insurgentes Centro, San Rafael, Cuauhtémoc, 06470 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4343231,
+      "longitude": -99.1582503
+    }
+  },
+  "contact": {
+    "phone": "55 5535 4055",
+    "website": "http://www.cantinalacastellana.com/",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=16059560886677561458&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "bar_and_grill",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": "Stylish, buzzing gastrobar with a terrace, serving hangar steaks & cocktails & hosting live bands.",
+    "hours": [
+      "domingo: Cerrado",
+      "lunes: 1:00–10:00 p.m.",
+      "martes: 1:00–10:00 p.m.",
+      "miércoles: 1:00–11:00 p.m.",
+      "jueves: 1:00–11:00 p.m.",
+      "viernes: 1:00–11:00 p.m.",
+      "sábado: 1:00–10:00 p.m."
+    ],
+    "rating": 4.4,
+    "reviewCount": 3917
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "missing",
+    "observedAt": null,
+    "observationAgeDaysAtExport": null,
+    "documentCount": 0,
+    "itemCount": 0,
+    "documents": [],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.cantinalacastellana.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:35.912+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=16059560886677561458&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:37.08+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 4,
+    "sourceNames": [
+      "cdmx_invea_suspendidos",
+      "foursquare",
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.165171+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:11:17.063977+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 7,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_menu_document",
+      "missing_structured_menu_items"
+    ]
+  }
+}

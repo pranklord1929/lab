@@ -1,0 +1,143 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "261375f0-9ca8-4f1f-97f6-ee5d3e02535c",
+  "slug": "kowloon-delight",
+  "name": "Kowloon Delight",
+  "location": {
+    "neighborhood": "NARVARTE PONIENTE",
+    "borough": "Benito Juárez",
+    "address": "Av. Cuauhtémoc 655 A, Narvarte Poniente, Benito Juárez, 03020 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3948622,
+      "longitude": -99.1562319
+    }
+  },
+  "contact": {
+    "phone": "55 5638 0993",
+    "website": "https://www.facebook.com/Kowloon-delight-Narvarte-%E4%B9%9D%E9%BE%8D%E9%A4%90%E5%BB%B3-1414978062065418/",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=10761570169913396380&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "chinese",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": "Casual restaurant dishing up Mexican & Chinese cuisine amid unpretentious surroundings.",
+    "hours": [
+      "domingo: 7:30 a.m. – 11:00 p.m.",
+      "lunes: 7:30 a.m. – 11:00 p.m.",
+      "martes: 7:30 a.m. – 11:00 p.m.",
+      "miércoles: 7:30 a.m. – 11:00 p.m.",
+      "jueves: 7:30 a.m. – 11:00 p.m.",
+      "viernes: 7:30 a.m. – 11:00 p.m.",
+      "sábado: 7:30 a.m. – 11:00 p.m."
+    ],
+    "rating": 4.3,
+    "reviewCount": 3936
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "missing",
+    "observedAt": null,
+    "observationAgeDaysAtExport": null,
+    "documentCount": 0,
+    "itemCount": 0,
+    "documents": [],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.facebook.com/KDNSocialMediaManager",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:39.78+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=10761570169913396380&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:39.775+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 1,
+    "sourceNames": [
+      "google_places"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-06-29T14:12:46.542506+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:12:46.667472+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 308,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram,menu",
+    "actionPriority": 6,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_menu_document",
+      "missing_structured_menu_items",
+      "low_source_count"
+    ]
+  }
+}

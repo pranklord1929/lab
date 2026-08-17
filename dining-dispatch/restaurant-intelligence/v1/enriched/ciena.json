@@ -1,0 +1,136 @@
+{
+  "catalogName": "Ciena",
+  "slug": "ciena",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Ciena",
+  "location": {
+    "address": "Alfonso Reyes 101, Condesa",
+    "neighborhood": "Condesa",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06170",
+    "coordinates": {
+      "latitude": 19.4111017,
+      "longitude": -99.1814184
+    }
+  },
+  "contact": {
+    "phone": "+52 55 3118 1091",
+    "website": "https://ciena.mx/",
+    "instagram": "ciena___",
+    "email": null,
+    "websiteIsInstagram": false
+  },
+  "hours": [
+    "mar–vie 08:00–22:30",
+    "sáb 09:00–23:00",
+    "dom 09:00–17:30"
+  ],
+  "food": {
+    "cuisine": "mediterranean / all-day",
+    "priceLevel": 2
+  },
+  "reservation": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com.mx/widget/reservation/canvas?rid=1203040",
+    "phone": "+52 55 3118 1091"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://mbmarcobeteta.com/lugares/ciena/",
+    "observedAt": "2026-08-17",
+    "itemCount": 9,
+    "items": [
+      {
+        "name": "Toast de hongos con mascarpone",
+        "price": null,
+        "currency": "MXN",
+        "category": "desayuno"
+      },
+      {
+        "name": "Brioche de huevo, tocino y queso cheddar",
+        "price": null,
+        "currency": "MXN",
+        "category": "desayuno"
+      },
+      {
+        "name": "Pan francés",
+        "price": null,
+        "currency": "MXN",
+        "category": "desayuno"
+      },
+      {
+        "name": "Arancini",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Aguachile de camarón",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Tostada de ceviche de robalo con alioli de miso",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Gnocchi en salsa de queso taleggio",
+        "price": null,
+        "currency": "MXN",
+        "category": "pastas"
+      },
+      {
+        "name": "Huachinango al grill con harissa",
+        "price": null,
+        "currency": "MXN",
+        "category": "fuertes"
+      },
+      {
+        "name": "Tarta de chocolate con caramelo y crème fraîche",
+        "price": null,
+        "currency": "MXN",
+        "category": "postres"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/ciena___/",
+      "fields": [
+        "address",
+        "hours"
+      ]
+    },
+    {
+      "source": "opentable",
+      "url": "https://www.opentable.com/r/ciena-ciudad-de-mexico",
+      "fields": [
+        "address"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://mbmarcobeteta.com/lugares/ciena/",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "gaps": [
+    "coordinates"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": []
+}

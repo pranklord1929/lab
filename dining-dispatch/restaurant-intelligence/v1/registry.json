@@ -1,0 +1,1030 @@
+[
+  {
+    "name": "Máximo Bistrot",
+    "status": "on_site",
+    "slug": "maximo",
+    "stage": "In progress",
+    "action": null,
+    "v1State": "ready_fiche"
+  },
+  {
+    "name": "Em",
+    "status": "on_site",
+    "slug": "em",
+    "stage": "In progress",
+    "action": null,
+    "v1State": "ready_fiche"
+  },
+  {
+    "name": "Pujol",
+    "status": "on_site",
+    "slug": "pujol",
+    "stage": "In progress",
+    "action": null,
+    "v1State": "ready_fiche"
+  },
+  {
+    "name": "Meroma",
+    "status": "on_site",
+    "slug": "meroma",
+    "stage": "In progress",
+    "action": null,
+    "v1State": "ready_fiche"
+  },
+  {
+    "name": "Quintonil",
+    "status": "on_site",
+    "slug": "quintonil",
+    "stage": "In progress",
+    "action": null,
+    "v1State": "ready_fiche"
+  },
+  {
+    "name": "Rosetta",
+    "status": "on_site",
+    "slug": "restaurante-rosetta",
+    "stage": "In progress",
+    "action": null,
+    "v1State": "ready_fiche"
+  },
+  {
+    "name": "Contramar",
+    "status": "on_site",
+    "slug": "contramar",
+    "stage": "In progress",
+    "action": null,
+    "v1State": "ready_fiche"
+  },
+  {
+    "name": "Ticuchi",
+    "status": "on_site",
+    "slug": "ticuchi",
+    "stage": "In progress",
+    "action": null,
+    "v1State": "ready_fiche"
+  },
+  {
+    "name": "Ultramarinos Demar",
+    "status": "on_site",
+    "slug": "ultramarinos-demar",
+    "stage": "In progress",
+    "action": null,
+    "v1State": "ready_fiche"
+  },
+  {
+    "name": "Martínez",
+    "status": "on_site",
+    "slug": "martinez",
+    "stage": "In progress",
+    "action": null,
+    "v1State": "ready_fiche"
+  },
+  {
+    "name": "Sartoria",
+    "status": "on_site",
+    "slug": "sartoria",
+    "stage": "In progress",
+    "action": null,
+    "v1State": "ready_fiche"
+  },
+  {
+    "name": "Siembra Comedor",
+    "status": "on_site",
+    "slug": "siembra-comedor",
+    "stage": "In progress",
+    "action": null,
+    "v1State": "ready_fiche"
+  },
+  {
+    "name": "La Opera",
+    "status": "on_site",
+    "slug": "la-opera",
+    "stage": "In progress",
+    "action": null,
+    "v1State": "ready_fiche"
+  },
+  {
+    "name": "Lina",
+    "status": "on_site",
+    "slug": "lina",
+    "stage": "In progress",
+    "action": null,
+    "v1State": "ready_fiche"
+  },
+  {
+    "name": "Hugo",
+    "status": "on_site",
+    "slug": "hugo",
+    "stage": "In progress",
+    "action": null,
+    "v1State": "ready_fiche"
+  },
+  {
+    "name": "Comedor Jacinta",
+    "status": "on_site",
+    "slug": "comedor-jacinta",
+    "stage": "In progress",
+    "action": null,
+    "v1State": "ready_fiche"
+  },
+  {
+    "name": "Los Danzantes Mexico City",
+    "status": "on_site",
+    "slug": "los-danzantes-coyoacan",
+    "stage": "In progress",
+    "action": null,
+    "v1State": "ready_fiche"
+  },
+  {
+    "name": "Lorea",
+    "status": "on_site",
+    "slug": "restaurante-lorea",
+    "stage": "In progress",
+    "action": null,
+    "v1State": "ready_fiche"
+  },
+  {
+    "name": "Bella Aurora",
+    "status": "on_site",
+    "slug": "bella-aurora",
+    "stage": "In progress",
+    "action": null,
+    "v1State": "ready_fiche"
+  },
+  {
+    "name": "Taquería El Jarocho",
+    "status": "on_site",
+    "slug": "taqueria-el-jarocho",
+    "stage": "In progress",
+    "action": null,
+    "v1State": "ready_fiche"
+  },
+  {
+    "name": "Guzina Oaxaca",
+    "status": "on_site",
+    "slug": "guzina-oaxaca",
+    "stage": "In progress",
+    "action": null,
+    "v1State": "ready_fiche"
+  },
+  {
+    "name": "Taqueria Los Cocuyos",
+    "status": "on_site",
+    "slug": "los-cocuyos",
+    "stage": "Not started",
+    "action": null,
+    "v1State": "ready_fiche"
+  },
+  {
+    "name": "Filigrana",
+    "status": "on_site",
+    "slug": "filigrana",
+    "stage": "Not started",
+    "action": null,
+    "v1State": "ready_fiche"
+  },
+  {
+    "name": "Er Rre un Bistró",
+    "status": "on_site",
+    "slug": "er-rre-un-bistro",
+    "stage": "Not started",
+    "action": null,
+    "v1State": "ready_fiche"
+  },
+  {
+    "name": "Malix",
+    "status": "on_site",
+    "slug": "malix",
+    "stage": "Not started",
+    "action": null,
+    "v1State": "ready_fiche"
+  },
+  {
+    "name": "Azul Histórico",
+    "status": "on_site",
+    "slug": "azul-historico-restaurante-cdmx",
+    "stage": "Not started",
+    "action": null,
+    "v1State": "ready_fiche"
+  },
+  {
+    "name": "Fonda Fina",
+    "status": "on_site",
+    "slug": "fonda-fina",
+    "stage": "Not started",
+    "action": null,
+    "v1State": "ready_fiche"
+  },
+  {
+    "name": "Bakéa",
+    "status": "on_site",
+    "slug": "bakea-restaurant",
+    "stage": "Not started",
+    "action": null,
+    "v1State": "ready_fiche"
+  },
+  {
+    "name": "PEREZOSO",
+    "status": "on_site",
+    "slug": "perezoso",
+    "stage": "Not started",
+    "action": null,
+    "v1State": "ready_fiche"
+  },
+  {
+    "name": "Expendio de Maiz",
+    "status": "in_archive_no_fiche",
+    "slug": "expendio-de-maiz",
+    "stage": "In progress",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Present in SQLite (Roma Norte) but not in the 876 web fiches.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Lardo",
+    "status": "in_archive_no_fiche",
+    "slug": "lardo",
+    "stage": "In progress",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Present in SQLite (Condesa) but not in the 876 web fiches.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Maizajo",
+    "status": "in_archive_no_fiche",
+    "slug": "maizajo",
+    "stage": "In progress",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Present in SQLite (Condesa, rating 4.06) but not in the 876 web fiches.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Esquina Común",
+    "status": "in_archive_no_fiche",
+    "slug": "esquina-comun",
+    "stage": "In progress",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Present in SQLite (rating 4.9, 6 sources) but not in the 876 web fiches.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Sud 777",
+    "status": "in_archive_no_fiche",
+    "slug": "sud-777",
+    "stage": "In progress",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Present in SQLite (Jardines del Pedregal, rating 4.3, 6 sources) but not in the 876 web fiches.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Pink Rambo",
+    "status": "in_archive_no_fiche",
+    "slug": "pink-rambo",
+    "stage": "In progress",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Name exists in SQLite (Cuauhtémoc) but no enriched fiche.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Bajel",
+    "status": "in_archive_no_fiche",
+    "slug": "bajel",
+    "stage": "In progress",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Name exists in SQLite (Cuauhtémoc, 3 sources) but no enriched fiche.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Fugaz",
+    "status": "in_archive_no_fiche",
+    "slug": "fugaz",
+    "stage": "In progress",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Name exists in SQLite (Cuauhtémoc) but no enriched fiche.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Sarde",
+    "status": "in_archive_no_fiche",
+    "slug": "sarde",
+    "stage": "In progress",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Two Roma Norte rows in SQLite. Need the correct address before a fiche.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "El Tigre Silencioso",
+    "status": "in_archive_no_fiche",
+    "slug": "el-tigre-silencioso",
+    "stage": "In progress",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Present in SQLite (Roma Norte, rating 4.6) but not in the 876 web fiches.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "La 89",
+    "status": "in_archive_no_fiche",
+    "slug": "la-89",
+    "stage": "In progress",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Name exists in SQLite but no enriched fiche.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Cana",
+    "status": "in_archive_no_fiche",
+    "slug": "cana",
+    "stage": "In progress",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Name exists in SQLite (Cuauhtémoc) but no enriched fiche.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Barbacoa Gonzalitos",
+    "status": "in_archive_no_fiche",
+    "slug": "barbacoa-gonzalitos",
+    "stage": "In progress",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Name exists in SQLite but no enriched fiche.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Botánico",
+    "status": "in_archive_no_fiche",
+    "slug": "botanico",
+    "stage": "In progress",
+    "csvRaw": "https://www.instagram.com/botanicomx/",
+    "action": "scrape_to_build_fiche",
+    "why": "Present in SQLite (Hipódromo, rating 4.7) but not in the 876 web fiches.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Vigneron",
+    "status": "in_archive_no_fiche",
+    "slug": "vigneron",
+    "stage": "In progress",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Present in SQLite (Roma Norte) but no enriched fiche.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Tacos del Valle",
+    "status": "in_archive_no_fiche",
+    "slug": "tacos-del-valle",
+    "stage": "In progress",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Name exists in SQLite but no enriched fiche.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Plonk",
+    "status": "in_archive_no_fiche",
+    "slug": "plonk",
+    "stage": "In progress",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Present in SQLite (rating 4.7, 4 sources) but not in the 876 web fiches.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Ricos Tacos Toluca",
+    "status": "in_archive_no_fiche",
+    "slug": "ricos-tacos-toluca",
+    "stage": "Done",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Name exists in SQLite (Centro / Cuauhtémoc) but no enriched fiche.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Baldio",
+    "status": "in_archive_no_fiche",
+    "slug": "baldio",
+    "stage": "Done",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Present in SQLite (Condesa, rating 4.8, 4 sources) but not in the 876 web fiches.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Comal Oculto",
+    "status": "in_archive_no_fiche",
+    "slug": "comal-oculto",
+    "stage": "In progress",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Present in SQLite (San Miguel Chapultepec) but no enriched fiche.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Cariñito Tacos",
+    "status": "in_archive_no_fiche",
+    "slug": "carinito-tacos",
+    "stage": "In progress",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Name exists in SQLite but no enriched fiche.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Masala y Maíz",
+    "status": "in_archive_no_fiche",
+    "slug": "masala-y-maiz",
+    "stage": "In progress",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Present in SQLite (5 sources) but not in the 876 web fiches.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Pargot",
+    "status": "in_archive_no_fiche",
+    "slug": "pargot",
+    "stage": "Done",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Present in SQLite (Roma Norte, rating 4.8) but not in the 876 web fiches.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Gaba",
+    "status": "in_archive_no_fiche",
+    "slug": "gaba",
+    "stage": "In progress",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Present in SQLite (rating 4.9, 5 sources) but not in the 876 web fiches.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Nicos",
+    "status": "in_archive_no_fiche",
+    "slug": "nicos",
+    "stage": "In progress",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Present in SQLite (Azcapotzalco, 3 sources) but not in the 876 web fiches.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Raíz",
+    "status": "in_archive_no_fiche",
+    "slug": "raiz",
+    "stage": "In progress",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Two Polanco/Miguel Hidalgo rows. Need the correct address before a fiche.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Migrante",
+    "status": "in_archive_no_fiche",
+    "slug": "migrante",
+    "stage": "In progress",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Present in SQLite (rating 4.4) but no enriched fiche.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Carmela y Sal",
+    "status": "in_archive_no_fiche",
+    "slug": "carmela-y-sal",
+    "stage": "Not started",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Present in SQLite (Molino del Rey) but no enriched fiche.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Tacos Los Alexis",
+    "status": "in_archive_no_fiche",
+    "slug": "tacos-los-alexis",
+    "stage": "Not started",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Present in SQLite (Roma Norte / Juárez) but no enriched fiche.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Campobaja",
+    "status": "in_archive_no_fiche",
+    "slug": "campobaja",
+    "stage": "Not started",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Present in SQLite (rating 4.6) but not in the 876 web fiches.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "MeroToro",
+    "status": "in_archive_no_fiche",
+    "slug": "merotoro",
+    "stage": "Not started",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Present in SQLite (Hipódromo, rating 4.9) but not in the 876 web fiches.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "La Barra de Fran",
+    "status": "in_archive_no_fiche",
+    "slug": "la-barra-de-fran",
+    "stage": "Not started",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Present in SQLite (Polanco, rating 4.0) but no enriched fiche.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Galea",
+    "status": "in_archive_no_fiche",
+    "slug": "galea",
+    "stage": "Not started",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Present in SQLite (Roma Norte, rating 5.0) but no enriched fiche.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Caracol de Mar",
+    "status": "in_archive_no_fiche",
+    "slug": "caracol-de-mar",
+    "stage": "Not started",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Present in SQLite (rating 4.7) but no enriched fiche.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Almara",
+    "status": "in_archive_no_fiche",
+    "slug": "almara",
+    "stage": "Not started",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "DENUE row in Roma Norte only. Thin, needs scrape.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Taco Tasting Room",
+    "status": "in_archive_no_fiche",
+    "slug": "taco-tasting-room",
+    "stage": "Not started",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Present in SQLite (rating 4.8, 4 sources) but no enriched fiche.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Gia",
+    "status": "in_archive_no_fiche",
+    "slug": "gia",
+    "stage": "Not started",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Name exists in SQLite (Hipódromo) but no enriched fiche.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "La Once Mil",
+    "status": "in_archive_no_fiche",
+    "slug": "la-once-mil",
+    "stage": "Not started",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Present in SQLite (Lomas de Chapultepec, rating 5.0) but no enriched fiche.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Los Consentidos del Barrio",
+    "status": "in_archive_no_fiche",
+    "slug": "los-consentidos-del-barrio",
+    "stage": "In progress",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Name exists in SQLite (Tlacoquemecatl) but no enriched fiche.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Bartola",
+    "status": "in_archive_no_fiche",
+    "slug": "bartola",
+    "stage": "Not started",
+    "csvRaw": null,
+    "action": "scrape_to_build_fiche",
+    "why": "Closest SQLite row is La Bartola (Polanco). Confirm before a fiche.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Taquería El Califa de León",
+    "status": "ambiguous",
+    "slug": "el-califa-de-leon",
+    "stage": "In progress",
+    "action": "confirm_address_then_scrape",
+    "why": "Site has Taquería El Califa (chain, Juárez), not Califa de León. SQLite has EL CALIFA DEL LEON on Ribera de San Cosme but no fiche.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Molino El Pujol",
+    "status": "ambiguous",
+    "slug": "molino-el-pujol",
+    "stage": "In progress",
+    "action": "confirm_address_then_scrape",
+    "why": "Different place from Pujol. Exists in SQLite (Hipódromo, rating 4.0) but no fiche.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "El Huequito",
+    "status": "ambiguous",
+    "slug": "el-huequito",
+    "stage": "Not started",
+    "action": "confirm_address_then_scrape",
+    "why": "Site only has El Huequito Juan Escutia (Condesa). Famous stall is a different location.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Tacos Charly",
+    "status": "ambiguous",
+    "slug": "tacos-charly",
+    "stage": "In progress",
+    "action": "confirm_address_then_scrape",
+    "why": "Several DENUE clones. Tlalpan row looks closest. Need the correct address.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Taqueria El Paisa",
+    "status": "ambiguous",
+    "slug": "taqueria-el-paisa",
+    "stage": "In progress",
+    "action": "confirm_address_then_scrape",
+    "why": "Several clones across Iztapalapa / Azcapotzalco / GAM. Need the correct address.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Casona Restaurante",
+    "status": "ambiguous",
+    "slug": "casona-restaurante",
+    "stage": "In progress",
+    "action": "confirm_address_then_scrape",
+    "why": "No unique match. Nearby names are different restaurants.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "ESTIATORIO NOSTOS",
+    "status": "ambiguous",
+    "slug": "estiatorio-nostos",
+    "stage": "Not started",
+    "action": "confirm_address_then_scrape",
+    "why": "DENUE row in Lomas plus another Nostos in Pedregal. Need the correct address.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Fonda Margarita",
+    "status": "ambiguous",
+    "slug": "fonda-margarita",
+    "stage": "Not started",
+    "action": "confirm_address_then_scrape",
+    "why": "Several fondas with that name. Famous one needs confirmation.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Mesa B",
+    "status": "ambiguous",
+    "slug": "mesa-b",
+    "stage": "Not started",
+    "action": "confirm_address_then_scrape",
+    "why": "No safe match.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "El Hidalguense",
+    "status": "ambiguous",
+    "slug": "el-hidalguense",
+    "stage": "Not started",
+    "action": "confirm_address_then_scrape",
+    "why": "Several comedores. Famous Roma location not isolated.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "BICHI",
+    "status": "ambiguous",
+    "slug": "bichi",
+    "stage": "Not started",
+    "action": "confirm_address_then_scrape",
+    "why": "Only Ceviche Bichi in SQLite. Probably not the same.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "CANTINA LUPITA",
+    "status": "ambiguous",
+    "slug": "cantina-lupita",
+    "stage": "Not started",
+    "action": "confirm_address_then_scrape",
+    "why": "No unique match.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "TAQUERÍA LA ESTRELLA",
+    "status": "ambiguous",
+    "slug": "taqueria-la-estrella",
+    "stage": "Not started",
+    "action": "confirm_address_then_scrape",
+    "why": "No unique match.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Oly",
+    "status": "ambiguous",
+    "slug": "oly",
+    "stage": "Not started",
+    "action": "confirm_address_then_scrape",
+    "why": "Only Taqueria Oly in Iztapalapa. Unlikely.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Tacos Metero",
+    "status": "ambiguous",
+    "slug": "tacos-metero",
+    "stage": "Not started",
+    "action": "confirm_address_then_scrape",
+    "why": "No match. Possible typo for Tacos Meteoro — still absent.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Charco",
+    "status": "ambiguous",
+    "slug": "charco",
+    "stage": "Not started",
+    "action": "confirm_address_then_scrape",
+    "why": "Rejected El Charco de las Ranas 2. Different restaurant.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Berta",
+    "status": "ambiguous",
+    "slug": "berta",
+    "stage": "Not started",
+    "action": "confirm_address_then_scrape",
+    "why": "Rejected Antojitos Tía Berta. Different restaurant.",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Ciena",
+    "status": "absent",
+    "slug": "ciena",
+    "stage": "In progress",
+    "csvRaw": "https://www.instagram.com/ciena___/",
+    "action": "scrape_from_scratch",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Anónimo",
+    "status": "absent",
+    "slug": "anonimo",
+    "stage": "In progress",
+    "csvRaw": "https://www.instagram.com/anonimo.rest/",
+    "action": "scrape_from_scratch",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Voraz",
+    "status": "absent",
+    "slug": "voraz",
+    "stage": "In progress",
+    "csvRaw": null,
+    "action": "scrape_from_scratch",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "BALCON DEL ZOCALO",
+    "status": "absent",
+    "slug": "balcon-del-zocalo",
+    "stage": "Not started",
+    "csvRaw": null,
+    "action": "scrape_from_scratch",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "QUINQUELA",
+    "status": "absent",
+    "slug": "quinquela",
+    "stage": "Not started",
+    "csvRaw": null,
+    "action": "scrape_from_scratch",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "YAPAN",
+    "status": "absent",
+    "slug": "yapan",
+    "stage": "Not started",
+    "csvRaw": null,
+    "action": "scrape_from_scratch",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Encanto Fuego & Mar",
+    "status": "absent",
+    "slug": "encanto-fuego-y-mar",
+    "stage": "Not started",
+    "csvRaw": null,
+    "action": "scrape_from_scratch",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "PELOTA MESTIZA",
+    "status": "absent",
+    "slug": "pelota-mestiza",
+    "stage": "Not started",
+    "csvRaw": null,
+    "action": "scrape_from_scratch",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "BARRA LUPE",
+    "status": "absent",
+    "slug": "barra-lupe",
+    "stage": "Not started",
+    "csvRaw": null,
+    "action": "scrape_from_scratch",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Espelta",
+    "status": "absent",
+    "slug": "espelta",
+    "stage": "Not started",
+    "csvRaw": null,
+    "action": "scrape_from_scratch",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "SUKAI",
+    "status": "absent",
+    "slug": "sukai",
+    "stage": "Not started",
+    "csvRaw": null,
+    "action": "scrape_from_scratch",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "ALMAMÍA",
+    "status": "absent",
+    "slug": "almamia",
+    "stage": "Not started",
+    "csvRaw": null,
+    "action": "scrape_from_scratch",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Plotz",
+    "status": "absent",
+    "slug": "plotz",
+    "stage": "Not started",
+    "csvRaw": null,
+    "action": "scrape_from_scratch",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "La Bonvi",
+    "status": "absent",
+    "slug": "la-bonvi",
+    "stage": "Not started",
+    "csvRaw": null,
+    "action": "scrape_from_scratch",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "DE PESCADORES",
+    "status": "absent",
+    "slug": "de-pescadores",
+    "stage": "Not started",
+    "csvRaw": null,
+    "action": "scrape_from_scratch",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Abrasarme",
+    "status": "absent",
+    "slug": "abrasarme",
+    "stage": "Not started",
+    "csvRaw": null,
+    "action": "scrape_from_scratch",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "EFE SIETE",
+    "status": "absent",
+    "slug": "efe-siete",
+    "stage": "Not started",
+    "csvRaw": null,
+    "action": "scrape_from_scratch",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Maleza",
+    "status": "absent",
+    "slug": "maleza",
+    "stage": "Not started",
+    "csvRaw": null,
+    "action": "scrape_from_scratch",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Magazzino",
+    "status": "absent",
+    "slug": "magazzino",
+    "stage": "Not started",
+    "csvRaw": null,
+    "action": "scrape_from_scratch",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Chevere",
+    "status": "absent",
+    "slug": "chevere",
+    "stage": "Not started",
+    "csvRaw": "Google search link in CSV",
+    "action": "scrape_from_scratch",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Chuí",
+    "status": "absent",
+    "slug": "chui",
+    "stage": "Not started",
+    "csvRaw": null,
+    "action": "scrape_from_scratch",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Fierro",
+    "status": "absent",
+    "slug": "fierro",
+    "stage": "Not started",
+    "csvRaw": null,
+    "action": "scrape_from_scratch",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Proprio",
+    "status": "absent",
+    "slug": "proprio",
+    "stage": "Not started",
+    "csvRaw": null,
+    "action": "scrape_from_scratch",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Abyssmo",
+    "status": "absent",
+    "slug": "abyssmo",
+    "stage": "Not started",
+    "csvRaw": null,
+    "action": "scrape_from_scratch",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Feral",
+    "status": "absent",
+    "slug": "feral",
+    "stage": "Not started",
+    "csvRaw": null,
+    "action": "scrape_from_scratch",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Archiebald",
+    "status": "absent",
+    "slug": "archiebald",
+    "stage": "Not started",
+    "csvRaw": null,
+    "action": "scrape_from_scratch",
+    "v1State": "enriched_draft"
+  },
+  {
+    "name": "Arrrco",
+    "status": "absent",
+    "slug": "arrrco",
+    "stage": "Not started",
+    "csvRaw": null,
+    "action": "scrape_from_scratch",
+    "v1State": "enriched_draft"
+  }
+]

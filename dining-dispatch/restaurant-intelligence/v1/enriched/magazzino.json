@@ -1,0 +1,118 @@
+{
+  "catalogName": "Magazzino",
+  "slug": "magazzino",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Magazzino",
+  "location": {
+    "address": "Calle Pachuca 51, Condesa, 06140",
+    "neighborhood": "Condesa",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06140",
+    "coordinates": {
+      "latitude": 19.4168495,
+      "longitude": -99.1770949
+    }
+  },
+  "contact": {
+    "phone": "+52 55 7453 0452",
+    "website": "https://www.instagram.com/magazzinomx/",
+    "instagram": "magazzinomx",
+    "email": null,
+    "websiteIsInstagram": true
+  },
+  "hours": [
+    "mié–vie 18:00–00:00",
+    "sáb 13:00–00:00",
+    "dom 13:00–22:00"
+  ],
+  "food": {
+    "cuisine": "gastro lab / wine bar",
+    "priceLevel": 3,
+    "notes": "Day: Gruppo Noi lab. Night: wine bar in a professional kitchen."
+  },
+  "reservation": {
+    "platform": "whatsapp / opentable",
+    "url": "https://www.opentable.com/r/magazzino-ciudad-de-mexico",
+    "phone": "+52 55 7453 0452",
+    "notes": "WA + OT. Source: official IG + Eater + OpenTable."
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.opentable.com/r/magazzino-ciudad-de-mexico",
+    "observedAt": "2026-08-17",
+    "itemCount": 3,
+    "items": [
+      {
+        "name": "Aceitunas",
+        "price": null,
+        "currency": "MXN",
+        "category": "para picar"
+      },
+      {
+        "name": "Parmigiano Reggiano",
+        "price": null,
+        "currency": "MXN",
+        "category": "para picar"
+      },
+      {
+        "name": "Focaccia",
+        "price": null,
+        "currency": "MXN",
+        "category": "para picar"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/magazzinomx/",
+      "fields": [
+        "hours",
+        "phone",
+        "address"
+      ]
+    },
+    {
+      "source": "eater",
+      "url": "https://www.eater.com/venue/932503/magazzino",
+      "fields": [
+        "address",
+        "phone"
+      ]
+    },
+    {
+      "source": "opentable",
+      "url": "https://www.opentable.com/r/magazzino-ciudad-de-mexico",
+      "fields": [
+        "address"
+      ]
+    },
+    {
+      "source": "nominatim",
+      "url": "https://nominatim.openstreetmap.org/search?q=Pachuca+51,+Condesa,+Ciudad+de+M%C3%A9xico&format=json&addressdetails=1",
+      "fields": [
+        "coordinates",
+        "address",
+        "postalCode"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://www.opentable.com/r/magazzino-ciudad-de-mexico",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "gaps": [],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": []
+}

@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "6facfe56-2636-49cd-b5ab-9c043ef03d05",
+  "slug": "isabella-cafe-roma",
+  "name": "Isabella Café Roma",
+  "location": {
+    "neighborhood": "ROMA NORTE",
+    "borough": "Cuauhtémoc",
+    "address": "Durango 330, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4183513,
+      "longitude": -99.1728173
+    }
+  },
+  "contact": {
+    "phone": "55 5211 4596",
+    "website": "https://isabellacafe.mx/",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=15065086952773187206&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "cafe",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": "Coffee, cakes, snacks & cocktails served in a quirky cafe featuring pink, floral decor & a terrace.",
+    "hours": [
+      "domingo: 9:00 a.m. – 6:00 p.m.",
+      "lunes: 9:00 a.m. – 9:30 p.m.",
+      "martes: 9:00 a.m. – 9:30 p.m.",
+      "miércoles: 9:00 a.m. – 9:30 p.m.",
+      "jueves: 9:00 a.m. – 9:30 p.m.",
+      "viernes: 9:00 a.m. – 9:30 p.m.",
+      "sábado: 9:00 a.m. – 9:30 p.m."
+    ],
+    "rating": 4.1,
+    "reviewCount": 4703
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "missing",
+    "observedAt": null,
+    "observationAgeDaysAtExport": null,
+    "documentCount": 0,
+    "itemCount": 0,
+    "documents": [],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=15065086952773187206&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:39.208+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 1,
+    "sourceNames": [
+      "google_places"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "google_places",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-06-29T14:12:14.135728+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:12:14.27901+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 483,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram,menu",
+    "actionPriority": 6,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_menu_document",
+      "missing_structured_menu_items",
+      "low_source_count"
+    ]
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "2eb68ccc-875d-48a6-aa7d-2ea6fe8ddbf8",
+  "slug": "modesto-paniagua",
+  "name": "Modesto Paniagua",
+  "location": {
+    "neighborhood": "CIUDAD DE LOS DEPORTES",
+    "borough": "Benito Juárez",
+    "address": "Holbein 86, Cd. de los Deportes, Benito Juárez, 03710 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3805532,
+      "longitude": -99.1821749
+    }
+  },
+  "contact": {
+    "phone": "55 5563 4043",
+    "website": "https://modesto.com.mx/",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=10344439152599722524&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 9:00 a.m. – 6:00 p.m.",
+      "lunes: 9:00 a.m. – 6:00 p.m.",
+      "martes: 9:00 a.m. – 6:00 p.m.",
+      "miércoles: 9:00 a.m. – 6:00 p.m.",
+      "jueves: 9:00 a.m. – 6:00 p.m.",
+      "viernes: 9:00 a.m. – 6:00 p.m.",
+      "sábado: 9:00 a.m. – 6:00 p.m."
+    ],
+    "rating": 4.4,
+    "reviewCount": 960
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-17T10:08:09.061Z",
+    "observationAgeDaysAtExport": 31,
+    "documentCount": 4,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "d913f565-bd1b-4ae6-98b2-25446da1868a",
+        "sourceUrl": "http://modesto.com.mx/desayunos.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "f70ac8e7-fafb-44d1-b989-c735ecf24b40",
+        "sourceUrl": "http://modesto.com.mx/bebidas.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "7bb10da1-7c97-4825-a8a4-34558f410b3c",
+        "sourceUrl": "https://modesto.com.mx/desayunos.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.34,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:56:17.611+00:00"
+      },
+      {
+        "id": "81bd1875-83bd-4102-86d0-9d394ccbde24",
+        "sourceUrl": "https://modesto.com.mx/bebidas.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.5,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:56:17.205+00:00"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://modesto.com.mx/bebidas.html",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://modesto.com.mx/desayunos.html",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://modesto.com.mx/desayunos.html",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://modesto.com.mx/bebidas.html",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://modesto.com.mx/index.html",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:44.263+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=10344439152599722524&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:34.126+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "google_places",
+      "official_website",
+      "resy"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:21:33.065212+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 395,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram,menu",
+    "actionPriority": 6,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_cuisine",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "chevere",
+  "name": "Chévere",
+  "url": "https://reservandonos.com/lugar/chevere-polanco/",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Pescado zarandeado",
+      "price": null,
+      "currency": "MXN",
+      "category": "fuertes"
+    },
+    {
+      "name": "Ensalada César",
+      "price": null,
+      "currency": "MXN",
+      "category": "ensaladas"
+    },
+    {
+      "name": "Abulón",
+      "price": null,
+      "currency": "MXN",
+      "category": "mariscos"
+    },
+    {
+      "name": "Steak frites",
+      "price": null,
+      "currency": "MXN",
+      "category": "fuertes"
+    },
+    {
+      "name": "Clam chowder en croute",
+      "price": null,
+      "currency": "MXN",
+      "category": "sopas"
+    }
+  ],
+  "notes": "Reservándonos Polanco — recomendaciones directas del chef."
+}

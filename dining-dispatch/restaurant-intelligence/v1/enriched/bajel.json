@@ -1,0 +1,93 @@
+{
+  "catalogName": "Bajel",
+  "slug": "bajel",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Bajel",
+  "location": {
+    "address": "Paseo de la Reforma 297, Sofitel Mexico City Reforma, floor 13",
+    "neighborhood": "Juárez / Reforma",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06500",
+    "coordinates": {
+      "latitude": 19.428535,
+      "longitude": -99.16593
+    }
+  },
+  "contact": {
+    "phone": "+52 55 8660 0500",
+    "website": "https://www.sofitel-mexico-city.com/restaurants/bajel/",
+    "instagram": "sofitelmexicocity",
+    "email": "H9615@sofitel.com"
+  },
+  "hours": [
+    "Monday closed (Accor listing). Other days hotel restaurant hours — confirm with hotel."
+  ],
+  "food": {
+    "cuisine": "contemporary mexican tasting",
+    "priceLevel": 4,
+    "notes": "Hotel restaurant. Michelin-listed."
+  },
+  "reservation": {
+    "platform": "hotel",
+    "url": "https://www.sofitel-mexico-city.com/restaurants/bajel/"
+  },
+  "distinctions": {
+    "michelin": "Seleccionado: Buena cocina",
+    "michelinStars": 0
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/bajel",
+    "observedAt": "2026-08-17",
+    "itemCount": 5,
+    "items": [
+      {
+        "name": "Menú degustación Claridad y profundidad"
+      },
+      {
+        "name": "Menú degustación Pureza y refinamiento (vegetal)"
+      },
+      {
+        "name": "Ensalada César deconstruida"
+      },
+      {
+        "name": "Trucha en salsa de puerro"
+      },
+      {
+        "name": "Mole blanco (plato insignia)"
+      }
+    ],
+    "notes": "Sofitel Bajel page has photos and hotel copy only. No carta."
+  },
+  "sources": [
+    {
+      "source": "official",
+      "url": "https://sofitel.accor.com/en/hotels/9615/R004.restaurant.html",
+      "fields": [
+        "address",
+        "hours monday closed"
+      ]
+    }
+  ],
+  "gaps": [
+    "instagram dedicated",
+    "full hours"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "michelinReview": "Bajel, en el interior del Sofitel, goza de espectaculares vistas gracias a su ubicación privilegiada. La marca es francesa –por lo que quizá te reciban con un \"bonsoir\"–, pero un simple vistazo a la carta demuestra el fuerte arraigo de la cocina a la tierra. En un cuidado espacio con una cocina completamente diáfana que acapara todas las miradas, se ofrecen dos menús degustación: “Claridad y profundidad”, con presencia de la proteína animal, y “Pureza y refinamiento”, cien por cien vegetal. Si optas por el primero, saborearás preparaciones como la ensalada César deconstruida, la trucha en salsa de puerro o el plato insignia de la casa: el mole blanco, acompañado de una tarjeta en la que se detallan los 25 ingredientes que lo componen.",
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/bajel",
+      "id": "1208190"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "sud-777",
+  "name": "Sud 777",
+  "url": "https://www.sud777.com.mx/menú",
+  "status": "tasting_only",
+  "observedAt": "2026-08-17",
+  "notes": "Wix restaurant-menus app on official /menú: 'Application is no longer available'. Events PDF still published: 4-course seasonal menú $2,650 (no dish list).",
+  "items": [
+    {
+      "name": "Menú de temporada de cuatro tiempos",
+      "price": 2650,
+      "currency": "MXN",
+      "category": "tasting",
+      "description": "Por persona; no incluye bebidas. Publicado en brochure de eventos del sitio oficial."
+    }
+  ]
+}

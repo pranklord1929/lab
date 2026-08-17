@@ -1,0 +1,5936 @@
+{
+  "Máximo Bistrot": [
+    {
+      "name": "Bacalao negro al miso blanco",
+      "description": null,
+      "price": 720.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "MENÚ DEGUSTACIÓN",
+      "description": null,
+      "price": 4870.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Cheesecake doble creme",
+      "description": null,
+      "price": 350.0,
+      "currency": "MXN",
+      "category": "Postres",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Ensalada César con queso de puerco de libre pastoreo",
+      "description": null,
+      "price": 380.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "POSTRES",
+      "description": null,
+      "price": 360.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "MENÚ DEL DÍA",
+      "description": null,
+      "price": 340.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Madeleines, Nutella hecha en casa 3 pz",
+      "description": null,
+      "price": 180.0,
+      "currency": "MXN",
+      "category": "Postres",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Ostión de La Baja, 6 pz, ponzu",
+      "description": null,
+      "price": 540.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Rack de cordero asado al romero para 2 personas",
+      "description": null,
+      "price": 2850.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "\"Toast\" de hongo duraznillo, ricotta, burrata, polen de hinojo",
+      "description": null,
+      "price": 475.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Quesabirria de cordero, cebolla encurtida, frijoles",
+      "description": null,
+      "price": 425.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Tarte tatín, helado del día",
+      "description": null,
+      "price": 341.0,
+      "currency": "MXN",
+      "category": "Postres",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Tarta de chocolate, dátil y caramelo, helado de miso caramelizado",
+      "description": null,
+      "price": 429.0,
+      "currency": "MXN",
+      "category": "Postres",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Ceviche de pulpo a la mexicana, tostadas y guacamole",
+      "description": null,
+      "price": 570.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Rack cerdo pelón mexicano asado al horno, mole verde, calabaza rostizada",
+      "description": null,
+      "price": 795.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Sorbete de guanabana, sake y arroz",
+      "description": null,
+      "price": 360.0,
+      "currency": "MXN",
+      "category": "Postres",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Ensalada de jitomate orgánico, vinagreta de balsámico, parmesano",
+      "description": null,
+      "price": 340.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Menú \"Trufa blanca de Alba\" 5 tiempos con maridaje",
+      "description": null,
+      "price": 6350.0,
+      "currency": "MXN",
+      "category": "Menú Degustación",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Pollo orgánico rostizado al tomillo, papa gratinada con queso Comté, jus de pollo",
+      "description": null,
+      "price": 690.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Máximo Cookbook",
+      "description": null,
+      "price": 1350.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Cebolla cocida en suero, gratinada con queso Comté, cruffin",
+      "description": null,
+      "price": 545.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Madeleines, Nutella hecha en casa 6 pz",
+      "description": null,
+      "price": 360.0,
+      "currency": "MXN",
+      "category": "Postres",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Parfait de hígado de pollo orgánico, gelée de oporto, brioche",
+      "description": null,
+      "price": 290.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Helado de queso de cabra Chaurand, philo, guayaba y aceite de oliva",
+      "description": null,
+      "price": 374.0,
+      "currency": "MXN",
+      "category": "Postres",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Menú \"Trufa blanca de Alba\" 5 tiempos",
+      "description": null,
+      "price": 4500.0,
+      "currency": "MXN",
+      "category": "Menú Degustación",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Prosciutto San Daniele, 100 gr",
+      "description": null,
+      "price": 750.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Aguachile de callo de hacha, pitaya, mango y chiltepín",
+      "description": null,
+      "price": 880.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Kampachi laminado, vinagreta de soya y jengibre, ajo tostado",
+      "description": null,
+      "price": 590.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Prosciutto San Daniele con burrata",
+      "description": null,
+      "price": 1200.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Flat Iron Wagyu Cross braseada en cerveza, mole hecho en casa, camote orgánico, cebolla encurtida",
+      "description": null,
+      "price": 920.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Flan de vainilla pompona",
+      "description": null,
+      "price": 450.0,
+      "currency": "MXN",
+      "category": "Postres",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Pappardelle, ragú de rabo de res Wagyu Cross, parmesano",
+      "description": null,
+      "price": 645.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Hongo porcini asados al tomillo glaseados con fondo de hongo y laurel",
+      "description": null,
+      "price": 540.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Rigatoni, porcini asado con tomillo, parmesano, olivo",
+      "description": null,
+      "price": 560.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Ensalada mixta, vinagreta de queso azul, parmesano",
+      "description": null,
+      "price": 320.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Ravioles de requesón, jitomate orgánico, albahaca, queso fresco",
+      "description": null,
+      "price": 540.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Sopa de hongo porcini, aceite de olivo, croûton de parmesano",
+      "description": null,
+      "price": 340.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Tlayuda de cangrejo moro de Campeche, maíz quebrado y mole verde",
+      "description": null,
+      "price": 495.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Lengua de res Wagyu Criss braseada en cerveza, mole hecho en casa, camote orgánica, cebolla encurtida",
+      "description": null,
+      "price": 720.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Betabeles rostizados, vinagreta de manzana y melaza de granada, queso de cabra de Celaya y toronja blanca",
+      "description": null,
+      "price": 465.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Burrata, jitomate orgánico, durazno criollo asado y balsámico",
+      "description": null,
+      "price": 580.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Pan francés, compota de blueberry, helado del día",
+      "description": null,
+      "price": 480.0,
+      "currency": "MXN",
+      "category": "Postres",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Codorniz asada a la brasa, puré de chirivía, jus de oporto y jerez",
+      "description": null,
+      "price": 740.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Menú degustación con maridaje",
+      "description": null,
+      "price": 4870.0,
+      "currency": "MXN",
+      "category": "Menú Degustación",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Cheeseburger de res Wagyu Cross a la brasa",
+      "description": null,
+      "price": 690.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    }
+  ],
+  "Pujol": [
+    {
+      "name": "Mole madre",
+      "price": 3795.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Mole de Xico",
+      "price": 3795.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Gelatina de vainilla de Papantla y miel de abeja melipona",
+      "price": 3795.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Pastel de chocolate de Tapachula",
+      "price": 3795.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Carlota de limón real",
+      "price": 3795.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Panque de elote y helado de cajeta de Celaya",
+      "price": 3795.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Flauta de aguacate y escamoles",
+      "price": 4500.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Colinabo Elotito",
+      "price": 4500.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Mayonesa de café y chile costeño",
+      "price": 4500.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Atún aleta azul y hormigas chicatanas",
+      "price": 4500.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Totopo istmeño",
+      "price": 4500.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Taco de chile de agua relleno de quesillo",
+      "price": 4500.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Chorizo de pescado",
+      "price": 4500.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Taco de kampachi enchilado",
+      "price": 4500.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Salsa verde cruda",
+      "price": 4500.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Taco de jaiba desnuda",
+      "price": 4500.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Pico de gallo",
+      "price": 4500.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Plátano morado",
+      "price": 4500.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Memela de tasajo de wagyu",
+      "price": 4500.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Nopal",
+      "price": 4500.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Queso ranchero",
+      "price": 4500.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Mole con cacahaute y comino",
+      "price": 4500.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Nicuatole de maíz",
+      "price": 4500.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Rosita de cacao",
+      "price": 4500.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Pataxtle",
+      "price": 4500.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Maíz rojo Veladobo",
+      "price": 4500.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Zapoteco Valles",
+      "price": 4500.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Santa Ana Segache",
+      "price": 4500.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Oaxaca",
+      "price": 4500.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Maíz negro Shub-niggu",
+      "price": 4500.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "San Miguel Ejutla",
+      "price": 4500.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Maíz amarillo bolita",
+      "price": 4500.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Agua del Espino",
+      "price": 4500.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Maíz blanco",
+      "price": 4500.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    }
+  ],
+  "Meroma": [
+    {
+      "name": "GINGER BIRRA WILD (OPCIÓN SIN ALCOHOL) (355 ML)",
+      "description": null,
+      "price": 90.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "ML Mezcal, Amaro primo, Guava, Marjoram, Lime Juice",
+      "description": null,
+      "price": 230.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "ZORZAL GRACIANO '20 100% GRACIANO, CORELLA, NAVARRA, ESPAÑA",
+      "description": null,
+      "price": 960.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Oporto 60 ml QUINTA DO NOVA SILVAL VINTAGE",
+      "description": null,
+      "price": 250.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "CAUDALIA ¨UMEA¨ ’22 100% GARNACHA, LERGA, NAVARRA, ESPAÑA",
+      "description": null,
+      "price": 905.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "TEMPURA 60 GR — ZUCCHINI FLOWER IN TEMPURA",
+      "description": null,
+      "price": 125.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "DI SOAVE” ’08 100% GARGANEGA, SOAVE, VENETO, ITALIA",
+      "description": null,
+      "price": 215.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "GR — TOAST OF QUEEN CLAM IN ESCABECHE",
+      "description": null,
+      "price": 180.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "HOUSE MADE SOURDOUGH BREAD WITH DRIED CHILE BUTTER",
+      "description": null,
+      "price": 65.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "SYRAH, GRENACHE, MARSELAN, MOUVEDRE, COSTIÉRES DE NIMES, FRANCIA",
+      "description": null,
+      "price": 995.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "GROS PLANT, PAYS NANTAIS, LOIRE, FRANCIA - dem",
+      "description": null,
+      "price": 960.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Digestivos / Digestif MEROMA ESPRESSO MARTINI 120 ML",
+      "description": null,
+      "price": 200.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "FOCCACIA WITH FRIED CAULIFLOWER, CHILE CRISP AND AVOCADO",
+      "description": null,
+      "price": 150.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "CAGUAMITA CARTA BLANCA 4.0% ALC. VOL (300 ML)",
+      "description": null,
+      "price": 65.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "MARSELAN, SYRAH, AYDIE, VIN DE FRANCE , FRANCIA",
+      "description": null,
+      "price": 255.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Lemon, syrop, Soda, Bitters roasted horse cabbage 150",
+      "description": null,
+      "price": 200.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "THURSO PEAT, SHERRY CASK O NORTHLAND 60 ML",
+      "description": null,
+      "price": 400.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "DE PALS¨’22 SYRAH, GRENACHE, CINSAULT, RIEUX, MINERVOIS, FRANCIA",
+      "description": null,
+      "price": 950.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Vodka, Cucumber, Ginger Beer, Cinnamon Honey and Lemon",
+      "description": null,
+      "price": 220.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "FINO DE GRAN BARQUERO Y SODA 150 ML",
+      "description": null,
+      "price": 200.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "ARTICHOKES WITH LABNEH AND BLACK PEPPER 95 GR",
+      "description": null,
+      "price": 190.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Reduction, Lillet blanc, Tonic Water top 130 ml",
+      "description": null,
+      "price": 230.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Bitters 130 ML",
+      "description": null,
+      "price": 230.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "ZORZAL GARNACHA' 20 100% GARNACHA, CORELLA, NAVARRA, ESPAÑA",
+      "description": null,
+      "price": 960.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "LA CASA 70 gr — HOUSE MARINATED OLIVES",
+      "description": null,
+      "price": 155.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "GR — ZUCCHINI FLOWER IN TEMPURA 60 GR",
+      "description": null,
+      "price": 125.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "AUSLESE ** ´18 100% RIESLING, BERNKASTEL-WEHLEN, MOSEL, ALEMANIA",
+      "description": null,
+      "price": 2840.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "NERÉ ‘’22 100% NERO D´ÁVOLA, NOTO, SILICIA, ITALIA",
+      "description": null,
+      "price": 920.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "NEWS KOLSCH 4.8% ALC VOL IBU 45 (355ML)",
+      "description": null,
+      "price": 130.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "BRAIXAS ‘’21 100% ALBARIÑO, VILANOVA DE AROUSA-PONCEVEDRA, ESPAÑA",
+      "description": null,
+      "price": 250.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Soda, Bitters roasted horse cabbage 150 150 ML",
+      "description": null,
+      "price": 200.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "DI MONTALCINO ’22 100% SANGIOVESE, MONTALCINO, SIENA, ITALIA",
+      "description": null,
+      "price": 2390.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Mezcal, Celery, Ginger, Lemon and Honey 150 ML",
+      "description": null,
+      "price": 225.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "TEMPRANILLO Y MALBEC, SIERRA DE ARTEAGA, COAHUILA, MÉXICO",
+      "description": null,
+      "price": 935.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "NOIR ’23 100% PINOT NOIR, MONTAGNAC, FRANCIA -org",
+      "description": null,
+      "price": 945.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "GARNACHA BLANCA '21 100% GARNACHA, CORELLA, NAVARRA, ESPAÑA",
+      "description": null,
+      "price": 960.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "MALBEC, CABERNET SAUVIGNON, SIERRA DE ARTEAGA, COAHUILA, MEXICO",
+      "description": null,
+      "price": 935.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "VOL. (355ML)",
+      "description": null,
+      "price": 125.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Coconut, 80% Cacao and olive oil (vegan), Mamey",
+      "description": null,
+      "price": 240.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "PETRONI ROJO, FINO DE GRAN BARQUERO Y SODA",
+      "description": null,
+      "price": 200.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "GR Salted Vanilla ice cream, amaretti and espresso",
+      "description": null,
+      "price": 190.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "STRUCH’’ ‘20 100% PINOT NOIR, WESTHOFFEN, ALSACE, FRANCIA",
+      "description": null,
+      "price": 290.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Amaro primo, Guava, Marjoram, Lime Juice 150 ML",
+      "description": null,
+      "price": 230.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "MELON DE BOURGOGNE, MONNIERES, VIN DE FRANCE, FRANCIA",
+      "description": null,
+      "price": 250.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "TREIXADURA, GODELLO, VAL DO AVIA, BEADE, RIBEIRO, ESPAÑA",
+      "description": null,
+      "price": 850.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "WHISKEY FROM THURSO PEAT, SHERRY CASK O NORTHLAND",
+      "description": null,
+      "price": 400.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Ginger Beer, Cinnamon Honey and Lemon 150 ml",
+      "description": null,
+      "price": 220.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "PRIMER BESO” ’20 100% TEMPRANILLO NATURAL, VALLADOLID, ESPAÑA",
+      "description": null,
+      "price": 250.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Passion Fruit, Angostura Bitters, Lemon Juice 150 ML",
+      "description": null,
+      "price": 230.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "BABY FRIED ARTICHOKES WITH LABNEH AND BLACK PEPPER",
+      "description": null,
+      "price": 190.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "NEIP A 6.7% ALC. VOL IBU 60 (355ML)",
+      "description": null,
+      "price": 130.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "CLAIRETTE, VIOGNIER, ROUSSANE, COTE DU RHONE, FRANCIA nat",
+      "description": null,
+      "price": 960.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "INCLUDED Aperitivos y digestivos 60 ml LICOR 43",
+      "description": null,
+      "price": 140.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Sparkling Wine, Passion Fruit, Angostura Bitters, Lemon Juice",
+      "description": null,
+      "price": 230.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Bitters",
+      "description": null,
+      "price": 230.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "BLACK LABEL",
+      "description": null,
+      "price": 180.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "CRÛ de COGNAC",
+      "description": null,
+      "price": 410.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Pear, Proseco & Eucalyptus Syrop, Herbal liqueur Wash",
+      "description": null,
+      "price": 240.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    }
+  ],
+  "Quintonil": [
+    {
+      "name": "Brut, Reims, NV /",
+      "description": null,
+      "price": 19.94,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Helado de miel de abeja melipona, mermelada de papaya y lavanda",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Menú Nuestro México",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Cabernet Sauvignon, 2018-2019 /",
+      "description": null,
+      "price": 14.76,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Quinta do Noval",
+      "description": null,
+      "price": 830.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Premier Grand Cru Classé, Pauillac, 2011 /",
+      "description": null,
+      "price": 65.2,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Fumin, Cornalin, Valle D'Aosta DOC, Italia, 2016 /",
+      "description": null,
+      "price": 860.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Les Pierrières Blanc des Blancs, NV /",
+      "description": null,
+      "price": 26.34,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Château Troplong-Mondot",
+      "description": null,
+      "price": 19.5,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Gran Reserva, Rioja DOCa, 2017 /",
+      "description": null,
+      "price": 10.89,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Sauvignon Blanc, Valle de Guadalupe, México, 2022 /",
+      "description": null,
+      "price": 515.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Ygay Reserva Especial, Rioja DOca , 1986 /",
+      "description": null,
+      "price": 75.34,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Batard Montrachet Grand Cru, 2019 /",
+      "description": null,
+      "price": 54.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Maridaje de Horizontes Líquidos",
+      "description": null,
+      "price": 3380.0,
+      "currency": "MXN",
+      "category": "Maridajes",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Bolgheri DOC, 2015 /",
+      "description": null,
+      "price": 34.3,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Brut, Epernay, 2015 /",
+      "description": null,
+      "price": 17.5,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Solaia, IGT Toscana, 2016 /",
+      "description": null,
+      "price": 34.81,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Tegernseerhof",
+      "description": null,
+      "price": 660.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Cabernet Sauvignon, To Kalon Vineyard, 2017 /",
+      "description": null,
+      "price": 20.2,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Unendlich, Grüner Veltliner, 2018 /",
+      "description": null,
+      "price": 17.35,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Malbec, Paraje Altamira, 2020 /",
+      "description": null,
+      "price": 12.57,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Maridaje Terroir & Rarezas",
+      "description": null,
+      "price": 8450.0,
+      "currency": "MXN",
+      "category": "Maridajes",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Dönnhoff",
+      "description": null,
+      "price": 40.73,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Trucha steelhead (40 g) de Baja California, adobo de chicatana, hongos de temporada en escabeche de higuera",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Menú Nuestro México",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Château-Grillet",
+      "description": null,
+      "price": 24.46,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Premier Grand Cru Classé, Margaux, 2012 /",
+      "description": null,
+      "price": 71.41,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Grand Cru Classé, Saint Emilion, 2016 /",
+      "description": null,
+      "price": 13.04,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Cream VOS 20 years /",
+      "description": null,
+      "price": 845.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Wynns, John Riddoch",
+      "description": null,
+      "price": 19.7,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Vin Jaune, 2017 /",
+      "description": null,
+      "price": 12.5,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "IGT Toscana, 2019, Italia (1500 ml) /",
+      "description": null,
+      "price": 27.49,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Granalla",
+      "description": null,
+      "price": 515.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "St Eden, 2012 /",
+      "description": null,
+      "price": 56.95,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Amontillado, Jerez /",
+      "description": null,
+      "price": 333.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Château Palmer, Vin Blanc de Palmer",
+      "description": null,
+      "price": 22.77,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Barolo Riserva, 2008 /",
+      "description": null,
+      "price": 16.85,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Poderi Aldo Conterno Colonnello",
+      "description": null,
+      "price": 14.49,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Oloroso /",
+      "description": null,
+      "price": 390.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Dits, Ambonnay, Grand Cru, Extra Brut, NV /",
+      "description": null,
+      "price": 133.42,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Patara Marani Vineyard",
+      "description": null,
+      "price": 860.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Saperavi, Kakheti, Georgia, 2021 /",
+      "description": null,
+      "price": 860.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Châteauneuf du Pape, Rodano, 2021 /",
+      "description": null,
+      "price": 10.1,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Corton-Bressandes Grand Cru, 2018 /",
+      "description": null,
+      "price": 20.9,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Saint Vivant, 2018 /",
+      "description": null,
+      "price": 197.72,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Palma Cortada, 2017 /",
+      "description": null,
+      "price": 932.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Penfold´s",
+      "description": null,
+      "price": 16.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Corton Charlemagne Grand Cru, 2022 /",
+      "description": null,
+      "price": 20.17,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Olivier Decelle",
+      "description": null,
+      "price": 11.69,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Grand Cru, Echezaux, 2021 /",
+      "description": null,
+      "price": 28.75,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Brut, Épernay, Vintage, 2013 /",
+      "description": null,
+      "price": 13.41,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Sauvignon Blanc, Adelaide Valley, Australia, 2023 /",
+      "description": null,
+      "price": 990.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "La Bota de Oloroso /",
+      "description": null,
+      "price": 751.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "IGT Toscana, 2018 /",
+      "description": null,
+      "price": 10.98,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Swan Giannikos Winery",
+      "description": null,
+      "price": 1220.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Emrich-Schönleber",
+      "description": null,
+      "price": 13.11,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Spätlese, Scharzhofberger, 2017-2018 /",
+      "description": null,
+      "price": 11.95,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Sullivan Rutherford Estate",
+      "description": null,
+      "price": 17.69,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Eszencia, Tokaji, Hungría, 2000 /",
+      "description": null,
+      "price": 30.8,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Blanc de Blancs, Grand Cru, Brut, NV /",
+      "description": null,
+      "price": 26.6,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Río Negro, Patagonia, Argentina, 2020 (1500 ml) /",
+      "description": null,
+      "price": 16.75,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Nieder-Flörsheim Frauenberg, GG, 2020 /",
+      "description": null,
+      "price": 10.12,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Grand Echezaux, 2019 /",
+      "description": null,
+      "price": 176.02,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Auslese, Scharzhofberger 1997-2011 /",
+      "description": null,
+      "price": 47.04,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Clos de Vougeot Grand Cru, 2014 /",
+      "description": null,
+      "price": 19.28,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Deuxième Crus Classé, Saint-Julien, 2017 /",
+      "description": null,
+      "price": 18.5,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Cabernet Sauvignon, 2013 /",
+      "description": null,
+      "price": 47.28,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Premier Grand Cru Classé, Saint Emilion, 2008 /",
+      "description": null,
+      "price": 52.6,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Nieve de nopal",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Menú Nuestro México",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Troisiéme Cru Classé, Margaux, 2010 /",
+      "description": null,
+      "price": 47.25,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Maillons Blanc de Noirs Extra Brut, NV /",
+      "description": null,
+      "price": 23.52,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Sierra Cantabria",
+      "description": null,
+      "price": 68.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Mystirio, Santorini, Grecia, 2023 /",
+      "description": null,
+      "price": 756.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Menú",
+      "description": "Menú degustación individual",
+      "price": 6090.0,
+      "currency": "MXN",
+      "category": "Menú Nuestro México",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Amontillado /",
+      "description": null,
+      "price": 386.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Domaine Nicolas Rossignol",
+      "description": null,
+      "price": 13.45,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Sangiovese, Cabernet Sauvignon y Merlot, Italia, 2022 /",
+      "description": null,
+      "price": 798.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Deuxième Cru Classé, Margaux, 2014 /",
+      "description": null,
+      "price": 14.88,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Deuxième Cru Classé, Saint-Julien, 2014 /",
+      "description": null,
+      "price": 10.62,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Vega Sicilia",
+      "description": null,
+      "price": 10.47,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Jacques Selosse, Côte de Blancs",
+      "description": null,
+      "price": 133.42,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Cinquième Cru Classè, Paullac AOC, 2008 /",
+      "description": null,
+      "price": 13.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    }
+  ],
+  "Rosetta": [
+    {
+      "name": "Callo margarita y leche de tigre de maíz cacahuazintle",
+      "price": 150.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Tártara de betabel al pastor",
+      "price": 150.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Ensalada de radicchio, duraznos, queso maduro y pistaches",
+      "price": 150.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Endivias frescas, limón encurtido con almendra y pixtle",
+      "price": 150.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Tomatillos, nopales, piloncillo, queso de Ocosingo y chile meco",
+      "price": 150.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Pan de maíz y ceniza con mantequilla de hormigas chicatanas",
+      "price": 150.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Mole blanco y zanahorias fermentadas",
+      "price": 150.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Ensalada de hongo pambazo y alcachofa de Jerusálen",
+      "price": 150.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Tacos de col rizada, pipián de pistaches y romeritos",
+      "price": 150.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Tamal de elote y huitlacoche con crema ahumada",
+      "price": 150.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Chileatole de maíz tierno, epazote y aguacate",
+      "price": 150.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Minestrone de verduras",
+      "price": 150.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Pappardelle, hígados de pollo y salvia",
+      "price": 150.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Pansotti de papa y parmesano con hongo pambazo",
+      "price": 150.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Orecchiette, atún aleta azul y aceitunas Kalamata",
+      "price": 150.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Tagliolini de chile cascabel con escamoles y caldo de camarón",
+      "price": 150.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Gnocchi de papa con huitlacoche, verduras de la milpa y queso fresco",
+      "price": 150.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Tagliatelle con salchicha italiana y chile de árbol",
+      "price": 150.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Risotto, betabel, radicchio y queso de Chiapas",
+      "price": 150.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Tamal de camote, salsa macha y suero de leche",
+      "price": 150.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Alcachofa de Jerusalén, romesco rojo, col de Bruselas y verdolagas",
+      "price": 150.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Robalo en costra de sal, verdolagas y salicornia",
+      "price": 150.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Huachinango, puré de piña y xoconostle",
+      "price": 150.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Lechón al horno, puré de camote y salsa de achiote",
+      "price": 150.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Flat iron, mole Negro y plátano macho",
+      "price": 150.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Peras, flor de saúco y estragón",
+      "price": 150.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Hierbas frescas, helado de romero y aceite de oliva",
+      "price": 150.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Arroz con leche, xoconostle y rosas",
+      "price": 150.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Gelatina de miel Tsitsilché, durazno y helado de mantequilla avellanada",
+      "price": 150.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Hoja santa y cacao criollo blanco",
+      "price": 150.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Pastel de tres leches de mamey y pixtle",
+      "price": 150.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Scallops and leche de tigre with cacahuazintle corn",
+      "price": 390.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Beet tartare al pastor",
+      "price": 390.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "White peach and radicchio salad, aged cheese and pistachios",
+      "price": 390.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Fresh endives, preserved lemon with almonds and pixtle",
+      "price": 390.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Tomatillos, nopales, piloncillo, Ocosingo cheese and chile meco",
+      "price": 390.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Corn and ash bread with chicatana ant butter",
+      "price": 390.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "White mole and fermented carrots",
+      "price": 390.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Pambazo mushrooms and Jerusalem artichoke salad",
+      "price": 390.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Savoy cabbage tacos, pistachio pipián and romeritos",
+      "price": 39.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    }
+  ],
+  "Contramar": [
+    {
+      "name": "Armónico",
+      "description": null,
+      "price": 270.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Gin Frutos Rojos Ginebra Beefeater",
+      "description": null,
+      "price": 360.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Germain",
+      "description": null,
+      "price": 265.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Bombay Sapphire",
+      "description": null,
+      "price": 215.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Hendrick's",
+      "description": null,
+      "price": 345.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "GINEBRA MARTINIS",
+      "description": null,
+      "price": 275.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Sangría & Vodka Vodka Absolut Azul",
+      "description": null,
+      "price": 235.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Etiqueta Verde",
+      "description": null,
+      "price": 485.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Ten",
+      "description": null,
+      "price": 345.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Etiqueta Negra",
+      "description": null,
+      "price": 345.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Etiqueta Roja",
+      "description": null,
+      "price": 240.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "GINEBRA",
+      "description": null,
+      "price": 185.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Poli Marconi",
+      "description": null,
+      "price": 435.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Bloody Mary Vodka Absolut Azul",
+      "description": null,
+      "price": 200.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Aperol Spritz Aperol",
+      "description": null,
+      "price": 265.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Remy Martin V.S.O.P",
+      "description": null,
+      "price": 395.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Cabernet Franc",
+      "description": null,
+      "price": 230.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Chardonnay",
+      "description": null,
+      "price": 230.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Treixadura, Godello, Torrontes, Caiño blanco",
+      "description": null,
+      "price": 320.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Furmint, Yellow Muscat, Zeta",
+      "description": null,
+      "price": 270.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Sauvignon Blanc",
+      "description": null,
+      "price": 260.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Riesling",
+      "description": null,
+      "price": 850.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Moscatel, Palomino",
+      "description": null,
+      "price": 260.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Turbiana",
+      "description": null,
+      "price": 395.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Rías Baixas",
+      "description": null,
+      "price": 320.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Glera, Chardonnay",
+      "description": null,
+      "price": 230.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Caladoc, Malbec",
+      "description": null,
+      "price": 240.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Albariño",
+      "description": null,
+      "price": 290.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Graciano",
+      "description": null,
+      "price": 280.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Bobal",
+      "description": null,
+      "price": 440.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Glera",
+      "description": null,
+      "price": 210.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Pinot Noir",
+      "description": null,
+      "price": 390.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    }
+  ],
+  "Comedor Jacinta": [
+    {
+      "name": "Huevos orgánicos estrellados",
+      "description": "con arroz o papitas a la francesa",
+      "price": null,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    }
+  ],
+  "Los Danzantes Mexico City": [
+    {
+      "name": "Colimita",
+      "price": 125.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Piedra lisa",
+      "price": 125.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Ticus",
+      "price": 125.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Cayaco",
+      "price": 125.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Páramo",
+      "price": 125.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Colima Cero IPA",
+      "price": 125.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Colima Cero Ámbar",
+      "price": 125.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "COLIMITA CERO LAGER",
+      "price": 125.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "GINGER BIRRA",
+      "price": 125.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Michelada",
+      "price": 15.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Cubana",
+      "price": 25.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Clamato",
+      "price": 50.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Agua de la Casa",
+      "price": 45.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Santa María",
+      "price": 45.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Purezza",
+      "price": 55.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Agua de Piedra",
+      "price": 115.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Félix",
+      "price": 115.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Limonada",
+      "price": 55.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Naranjada",
+      "price": 55.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Clamato natural",
+      "price": 75.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Latte",
+      "price": 60.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Moka",
+      "price": 70.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Cappuccino",
+      "price": 60.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Espresso",
+      "price": 50.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Espresso Doble",
+      "price": 60.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Americano",
+      "price": 50.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Chocolate con agua",
+      "price": 60.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Chocolate con leche",
+      "price": 70.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Leche",
+      "price": 45.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Jugo de temporada",
+      "price": 70.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Poleo Danzantes",
+      "price": 65.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Tinto 30 Aniversario Los Danzantes",
+      "price": 225.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Chateau Domecq",
+      "price": 225.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Yumano",
+      "price": 250.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Clandestino Tinto",
+      "price": 225.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Sauvignon, C. Franc, Merlot",
+      "price": 350.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Santo Tomas Barbera",
+      "price": 225.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Chateau Domecq Rosado",
+      "price": 210.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Madera 5",
+      "price": 215.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Monte Xanic Rosé",
+      "price": 225.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Blanco 30 Aniversario Los Danzantes",
+      "price": 210.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Chateau Domecq Blanco",
+      "price": 210.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Clandestino Blanco",
+      "price": 215.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Viña Kristel",
+      "price": 225.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Textura Rosa",
+      "price": 230.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Nicole Espumoso Brut",
+      "price": 300.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Hoja Santa",
+      "price": 250.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Tártara de tasajo",
+      "price": 370.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Guacamole con Chapulines",
+      "price": 250.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Fondue de Huitlacoche",
+      "price": 290.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Betabel rostizado",
+      "price": 245.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Sopa de Tortilla",
+      "price": 160.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Sopa de Milpa",
+      "price": 150.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Caldo de ayocotes",
+      "price": 140.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Ensalada de la chinampa",
+      "price": 275.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Ensalada de Manzana",
+      "price": 245.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Tacos de Chamorro",
+      "price": 380.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Tlayuda de setas",
+      "price": 310.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Huitlacoche y chilmole",
+      "price": 320.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Tacos de Minilla de Pescado",
+      "price": 330.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Filete de Res en Chichilo",
+      "price": 495.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Ravioles de Birria",
+      "price": 450.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Pulpo Chamuscado",
+      "price": 495.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Pesca del día",
+      "price": 475.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Enmoladas de Pato",
+      "price": 470.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Camarones Coco",
+      "price": 455.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Arroz y hongos",
+      "price": 420.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Guajolote en Mole Negro",
+      "price": 425.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Cascada de Chocolate",
+      "price": 230.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Empanada de Membrillo",
+      "price": 215.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Aguacate",
+      "price": 45.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "FRUTA DE TEMPORADA",
+      "price": 110.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "TAZÓN DE CHÍA Y AVENA",
+      "price": 100.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Pan francés",
+      "price": 160.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "PLÁTANO ASADO",
+      "price": 110.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "HUEVOS AL COMAL CON MOLE NEGRO",
+      "price": 160.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "HUEVOS CON PAPA",
+      "price": 160.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "OMELETTE DE SETAS",
+      "price": 160.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Huevos rancheros",
+      "price": 135.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Huevos al gusto",
+      "price": 135.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    }
+  ],
+  "Lorea": [
+    {
+      "name": "Kitchen Table",
+      "description": "La experiencia más dinámica e interactiva en la barra frente a la cocina abierta. Los chefs son los guías a lo largo de la cena y añaden sorpresas al menú.",
+      "price": 3550.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Complementos disponibles",
+      "description": null,
+      "price": 575.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Maridaje sin alcohol",
+      "description": "Complemento de armonización de bebidas sin alcohol.",
+      "price": 885.0,
+      "currency": "MXN",
+      "category": "Complementos",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Maridaje",
+      "description": "Complemento de armonización de bebidas con alcohol.",
+      "price": 1575.0,
+      "currency": "MXN",
+      "category": "Complementos",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Experiencia \"HUMO\" (menú degustación 7 platos)",
+      "description": "Menú degustación de siete platos inspirados en el humo como elemento en la cocina mexicana para activar todos los sentidos.",
+      "price": 3000.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    }
+  ],
+  "Bella Aurora": [
+    {
+      "name": "Sopa de alubias, farro y ayocote",
+      "price": 60.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Linguine de mariscos y chile guajillo",
+      "price": 100.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Tortelloni, crema de limón y ragú de salami",
+      "price": 110.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Tagliatelle, prosciutto y parmesano",
+      "price": 110.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Conchiglie, ragú de atún aleta azul, chile cuaresmeño y aceituna kalamata",
+      "price": 120.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Crujiente de chocolate y avellana",
+      "price": 50.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Focaccia de blueberry, ruibarbo, gorgonzola y junípero",
+      "price": 70.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Pannacotta y mango",
+      "price": 60.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Tarta de cacahuate, mandarina y caramelo",
+      "price": 60.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Ricciareli de pixtle",
+      "price": 40.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Tiramisú",
+      "price": 60.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Galette de ciruela",
+      "price": 50.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Helados: cocoa, vainilla, café, caramelo",
+      "price": 80.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Sorbetes: fresa con coco / guanábana / pepino con limón",
+      "price": 80.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Ensalada de lechugas, alcachofa y parmesano",
+      "price": 60.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Pulpo encurtido, papas, perejil y limón",
+      "price": 140.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Ensalada de arúgula con calamares a la plancha",
+      "price": 80.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Ensalada de farro, pepinos y hierbas",
+      "price": 60.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Ensalada de arúgula y parmesano",
+      "price": 60.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Ensalada César",
+      "price": 60.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Aceituna taggiasca, alcaparrón y almendra",
+      "price": 40.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Bondiola, porchetta y gnocco frito",
+      "price": 60.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Roast beef Wagyu y salsa tonnata",
+      "price": 90.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Arancinis, bondiola y queso taleggio",
+      "price": 30.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Berenjena a la parmesana",
+      "price": 40.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Pimientos y anchoas del Cantábrico",
+      "price": 40.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Panzanella",
+      "price": 50.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Robalito, salsa de nuez, alcaparra y acelga",
+      "price": 120.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Lobina, jitomate cherry y puré de alcachofa",
+      "price": 120.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Camarón jumbo al carbón con nduja",
+      "price": 130.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Pechuga de pollo y caponata estofada",
+      "price": 200.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Pappardelle, calabacita, flor de calabaza y habas",
+      "price": 110.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Ravioles de ricotta, espinaca, mantequilla y salvia",
+      "price": 110.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Gnocchetti, pesto, ejotes y piñones",
+      "price": 110.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Reginette, ragú de cerdo y parmesano",
+      "price": 110.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Spaghetti, langosta, chile cuaresmeño y jitomate cherry",
+      "price": 140.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Prosciutto de Parma y arúgula",
+      "price": 110.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Anchoas, alcaparra, aceituna y jitomate",
+      "price": 110.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Porchetta, queso asiago y romero",
+      "price": 110.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Peperonata",
+      "price": 110.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Berenjena marinada y queso parmesano",
+      "price": 110.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Jitomates, mozzarella y albahaca",
+      "price": 110.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Espinaca y aceite de oliva",
+      "price": 60.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Papa al horno",
+      "price": 200.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Flat iron Wagyu y puré de alcachofa de Jerusalén",
+      "price": 120.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Chuleta de cerdo empanizada, estofado de lentejas y alcachofa",
+      "price": 200.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Chuleton de res Wagyu, puré de papa y vegetales",
+      "price": 850.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Puré de alcachofa de Jerusalén",
+      "price": 110.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Alubias estofadas y aceite de oliva",
+      "price": 130.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Espárragos a la plancha",
+      "price": 120.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    }
+  ],
+  "Taquería El Jarocho": [
+    {
+      "name": "Smirnoff",
+      "description": null,
+      "price": 58.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Botella 1 Litro",
+      "description": null,
+      "price": 880.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Don Pedro",
+      "description": null,
+      "price": 60.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Amaretto di Sarono",
+      "description": null,
+      "price": 68.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Gelatina marmol",
+      "description": null,
+      "price": 42.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Tacos de la Plancha",
+      "description": null,
+      "price": 52.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Clamato",
+      "description": null,
+      "price": 58.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Chuleta",
+      "description": null,
+      "price": 56.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Bacardi Añejo",
+      "description": null,
+      "price": 58.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Matusalem Platino",
+      "description": null,
+      "price": 64.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Botella .750 Litro",
+      "description": null,
+      "price": 275.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Alfonso XIII",
+      "description": null,
+      "price": 55.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Pastor",
+      "description": null,
+      "price": 38.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Sencillo",
+      "description": null,
+      "price": 38.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Blody Mary",
+      "description": null,
+      "price": 58.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Ensaladas",
+      "description": null,
+      "price": 82.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Costilla",
+      "description": null,
+      "price": 52.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Licores",
+      "description": null,
+      "price": 106.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Bacardi Solera",
+      "description": null,
+      "price": 54.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Cazadores Reposado",
+      "description": null,
+      "price": 70.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Café Gourmet Douwe Egberts Americano",
+      "description": null,
+      "price": 45.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Carne tártara",
+      "description": null,
+      "price": 105.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Johnnie Walker Etiqueta Negra",
+      "description": null,
+      "price": 92.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Sopa Azteca",
+      "description": null,
+      "price": 45.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Crepas dulces",
+      "description": null,
+      "price": 42.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Flan napolitano",
+      "description": null,
+      "price": 42.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Agua de Horchata",
+      "description": null,
+      "price": 30.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Malteadas",
+      "description": null,
+      "price": 42.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Anis",
+      "description": null,
+      "price": 54.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Cerveza con clamato",
+      "description": null,
+      "price": 37.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Chivas Regal",
+      "description": null,
+      "price": 94.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Vodka",
+      "description": null,
+      "price": 54.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Para acompañar",
+      "description": null,
+      "price": 34.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Ron",
+      "description": null,
+      "price": 54.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Capuchino",
+      "description": null,
+      "price": 43.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Brisa Jarocha",
+      "description": null,
+      "price": 46.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Longaniza asada",
+      "description": null,
+      "price": 54.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Tacos de Guisado",
+      "description": null,
+      "price": 39.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Cockteleria",
+      "description": null,
+      "price": 55.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Wyborowa",
+      "description": null,
+      "price": 70.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Blanc D Blancs Domecq XA",
+      "description": null,
+      "price": 57.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Huevos al gusto",
+      "description": null,
+      "price": 124.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "José Cuervo Tradicional",
+      "description": null,
+      "price": 78.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Orden de quesadillas",
+      "description": null,
+      "price": 50.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Perro Salado",
+      "description": null,
+      "price": 55.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Jeréz Oporto Ferreira",
+      "description": null,
+      "price": 60.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Trucha salmonada",
+      "description": null,
+      "price": 170.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Beso de Angel",
+      "description": null,
+      "price": 55.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Sprite Zero, Seagram ́s, Sidral light",
+      "description": null,
+      "price": 43.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Molletes naturales",
+      "description": null,
+      "price": 129.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Botana Mexicana",
+      "description": null,
+      "price": 140.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Azteca de Oro",
+      "description": null,
+      "price": 60.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Manitas a la vinagreta",
+      "description": null,
+      "price": 115.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Tradicional",
+      "description": null,
+      "price": 84.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Suadero",
+      "description": null,
+      "price": 38.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Botanas",
+      "description": null,
+      "price": 105.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Vodka Tonic",
+      "description": null,
+      "price": 55.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Sopes",
+      "description": null,
+      "price": 28.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Huevos tirados",
+      "description": null,
+      "price": 98.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Ensalada Cesar con pechuga asada",
+      "description": null,
+      "price": 72.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "El Ranchero",
+      "description": null,
+      "price": 38.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Café de Olla Jarocho",
+      "description": null,
+      "price": 36.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Caldo de camarón",
+      "description": null,
+      "price": 74.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Fajitas de Pollo",
+      "description": null,
+      "price": 155.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Alambres",
+      "description": null,
+      "price": 74.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Charro Negro",
+      "description": null,
+      "price": 55.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Olimpica",
+      "description": null,
+      "price": 65.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Viuda de Romero",
+      "description": null,
+      "price": 68.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Bebidas",
+      "description": null,
+      "price": 30.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Cecina de Yecapixtla",
+      "description": null,
+      "price": 139.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Oso Negro",
+      "description": null,
+      "price": 56.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Jarocho",
+      "description": null,
+      "price": 74.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Herradura Blanco",
+      "description": null,
+      "price": 70.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Kahlúa",
+      "description": null,
+      "price": 60.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Refresco embotellado",
+      "description": null,
+      "price": 32.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Super Campechano",
+      "description": null,
+      "price": 44.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Bisteck",
+      "description": null,
+      "price": 52.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Limonada",
+      "description": null,
+      "price": 42.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Piña Colada",
+      "description": null,
+      "price": 55.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Don Julio Reposado",
+      "description": null,
+      "price": 82.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    }
+  ],
+  "Malix": [
+    {
+      "name": "Hummus de frijol",
+      "price": 165.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Croquetas de Plátano",
+      "price": 170.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Crema de rancho, longaniza de Valladolid",
+      "price": 190.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Ensalada de nopal",
+      "price": 160.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Sierra ahumada",
+      "price": 175.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Paté de Pollo",
+      "price": 170.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Tostada de Vegetales",
+      "price": 155.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Seleccion de quesos de Puebla",
+      "price": 195.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Miel Melipona, mermelada temporada",
+      "price": 175.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Lengua de Res",
+      "price": 350.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Tartar de Cordero",
+      "price": 200.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Hongo mazayel",
+      "price": 190.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Brocolini a la parilla",
+      "price": 185.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Lechuga al Grill",
+      "price": 180.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Zanahorias ahumadas",
+      "price": 165.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Muhammara, salsa XO",
+      "price": 320.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Pato",
+      "price": 270.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Cordero",
+      "price": 220.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Cerdo",
+      "price": 180.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Salchicha de la casa",
+      "price": 300.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Pecho de Cordero",
+      "price": 340.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Flatbread",
+      "price": 280.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Panna Cotta",
+      "price": 150.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Sorbete de Fresa",
+      "price": 160.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Mousse de Chocolate",
+      "price": 230.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Buñuelos",
+      "price": 200.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Panqué",
+      "price": 40.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Galleta",
+      "price": 45.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    }
+  ],
+  "Azul Histórico": [
+    {
+      "name": "Session IPA, 355 ml",
+      "description": null,
+      "price": 210.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Buchanan s Master",
+      "description": null,
+      "price": 318.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Rioja, Espa a",
+      "description": null,
+      "price": 220.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Mango Manguito",
+      "description": null,
+      "price": 230.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Parras",
+      "description": null,
+      "price": 765.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Martini de Manzana",
+      "description": null,
+      "price": 225.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Pays d'Oc, Francia",
+      "description": null,
+      "price": 190.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Xarel lo, Muscat, Macabeo",
+      "description": null,
+      "price": 635.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Absolut Azul",
+      "description": null,
+      "price": 145.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Caf Nespresso",
+      "description": null,
+      "price": 95.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Zacapa",
+      "description": null,
+      "price": 480.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Reposado",
+      "description": null,
+      "price": 168.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Carlos I",
+      "description": null,
+      "price": 265.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Licor 43",
+      "description": null,
+      "price": 156.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Bordeaux, France",
+      "description": null,
+      "price": 235.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Jumilla, Espa a",
+      "description": null,
+      "price": 828.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Smirnoff",
+      "description": null,
+      "price": 126.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "CDMX",
+      "description": null,
+      "price": 164.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Jack Daniel s",
+      "description": null,
+      "price": 140.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Stolichnaya",
+      "description": null,
+      "price": 144.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Limonada Azul",
+      "description": null,
+      "price": 95.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Vaso de Leche",
+      "description": null,
+      "price": 50.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Sopa de tortilla",
+      "description": null,
+      "price": 180.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Riesling, Alemania",
+      "description": null,
+      "price": 250.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Negroni",
+      "description": null,
+      "price": 200.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Grey Goose",
+      "description": null,
+      "price": 168.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Tiramis",
+      "description": null,
+      "price": 225.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Barbera",
+      "description": null,
+      "price": 960.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Chartreuse verde",
+      "description": null,
+      "price": 228.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Campari",
+      "description": null,
+      "price": 145.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Veracruz",
+      "description": null,
+      "price": 95.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Chardonnay, Francia",
+      "description": null,
+      "price": 825.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Legendario mole negro de Oaxaca",
+      "description": null,
+      "price": 504.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Chipotle amor",
+      "description": null,
+      "price": 551.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Lager Jalisco, 355 ml",
+      "description": null,
+      "price": 168.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Espa a, Jumilla",
+      "description": null,
+      "price": 295.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Buchanan's",
+      "description": null,
+      "price": 198.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Espresso",
+      "description": null,
+      "price": 75.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Oaxaca",
+      "description": null,
+      "price": 207.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Courvoisier XO",
+      "description": null,
+      "price": 625.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Primeros Tiempos",
+      "description": null,
+      "price": 265.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Martini Caf",
+      "description": null,
+      "price": 235.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Bacard a ejo",
+      "description": null,
+      "price": 130.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Champagne",
+      "description": null,
+      "price": 610.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Kahl a",
+      "description": null,
+      "price": 114.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Aperol Spritz",
+      "description": null,
+      "price": 210.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Tempranillo, Cabernet Sauvignon",
+      "description": null,
+      "price": 480.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Gran Duque D'Alba",
+      "description": null,
+      "price": 250.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Blanco",
+      "description": null,
+      "price": 155.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "R as Baixas, Galicia, Espa a",
+      "description": null,
+      "price": 570.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Caf Irland s",
+      "description": null,
+      "price": 185.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Matusalem",
+      "description": null,
+      "price": 135.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Bull",
+      "description": null,
+      "price": 162.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Filete de robalo",
+      "description": null,
+      "price": 525.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Amaretto",
+      "description": null,
+      "price": 162.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Parras de la Fuente",
+      "description": null,
+      "price": 990.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Caldo Tlalpe o",
+      "description": null,
+      "price": 135.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Caipirinha",
+      "description": null,
+      "price": 162.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Tortitas de huazontles",
+      "description": null,
+      "price": 205.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Albillo, Rioja, Espa a",
+      "description": null,
+      "price": 560.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Hennessy VSOP",
+      "description": null,
+      "price": 280.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Huevos al gusto",
+      "description": null,
+      "price": 164.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Martell Cordon Bleu",
+      "description": null,
+      "price": 635.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Costillas de cordero",
+      "description": null,
+      "price": 737.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Lepanto",
+      "description": null,
+      "price": 240.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Midori",
+      "description": null,
+      "price": 140.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "The Macallan 12",
+      "description": null,
+      "price": 336.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Pi a Colada",
+      "description": null,
+      "price": 170.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Dolores Hidalgo, Guanajuato, Syrah, M xico",
+      "description": null,
+      "price": 515.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Hennessy XO",
+      "description": null,
+      "price": 880.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Pale Ale, 355 ml",
+      "description": null,
+      "price": 168.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Helado o Nieve",
+      "description": null,
+      "price": 125.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Cocomora",
+      "description": null,
+      "price": 225.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Ultra a ejo",
+      "description": null,
+      "price": 198.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Michelada. \"Cubana\" Clamato",
+      "description": null,
+      "price": 30.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Parras, Coahuila, M xico",
+      "description": null,
+      "price": 500.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Stella Artois",
+      "description": null,
+      "price": 98.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Refrescos",
+      "description": null,
+      "price": 58.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Tempranillo, Espa a",
+      "description": null,
+      "price": 155.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Dolores Hidalgo",
+      "description": null,
+      "price": 850.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    }
+  ],
+  "Fonda Fina": [
+    {
+      "name": "Migada",
+      "price": 99.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Flauta",
+      "price": 49.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Sope",
+      "price": 25.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Quesadilla De Maíz",
+      "price": 34.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Taco De Asado",
+      "price": 25.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Taco De Huevo Verde",
+      "price": 25.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Taco Con Salsa Verde",
+      "price": 25.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Taco De Picadillo",
+      "price": 25.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Taco De Deshebrada",
+      "price": 25.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Taco De Huevo Con Machacado",
+      "price": 25.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Taco De Papa Con Chorizo",
+      "price": 25.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    },
+    {
+      "name": "Taco De Huevo Con Chorizo",
+      "price": 25.0,
+      "currency": "MXN",
+      "layer": "local_extracted"
+    }
+  ],
+  "Bakéa": [
+    {
+      "name": "San Roman, Toro 2018",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Mi Selección España",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Meursault, Louis Jadot, Bourgogne 2019",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Blanco Francia",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Cillar Cosecha Ribera del Duero",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos España",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Camins de Priorat, Álvaro Palacios",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos España",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Goldeneye, Anderson Valley 2019",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Mi Selección U.S.A.",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Prélude Pouilly Fumé, Vallée de Loire 2020",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Blanco Francia",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Casa Madero Gran Reserva Shiraz, Parras Coahuila 2017",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos México",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Malpuesto Rioja",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos España",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Château Castera, Médoc",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos Francia",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Cazas Novas Vinho Verde 2020",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Blanco Portugal",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Chateauneuf du Pape Réserve Valle del Ródano",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos Francia",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Izadi Selección, Rioja Alavesa",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos España",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Pájaro Rojo, Losada, Bierzo",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos España",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Imperial Reserva, CVNE, Rioja",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos España",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Chafandín, Viñas del Jaro, Ribera del Duero",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos España",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Cotes du Rhone, Maison Les Alexandrins, Valle del Ródano",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos Francia",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Vega Sicilia Valbuena 5°, Ribera del Duero 2017",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Mi Selección España",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Macán Clásico, Rioja 2016",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Mi Selección España",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Clos de Badaceli, Cal Grau, Priorat",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos España",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Ornella Molón Pinot Grigio, Friulli 2021",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Blanco Italia",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Joel Gott, Óregon 2019",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos U.S.A.",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Casa Madero, Cosecha Tardía 2021",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Blanco Dulce",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Cillar de Silos Crianza, Ribera del Duero",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos España",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Louis Roederer Brut",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Champagne",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Casa Madero Gran Reserva, Parras Coahuila 2021",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Blanco México",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Pommard, Louis Jadot, Beaune",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos Francia",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Cuatrocientos Crianza, Bodega Inurrieta, Navarra",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos España",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Hugel, Riesling Alsace 2019",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Blanco Francia",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Figuero 4, Ribera del Duero (Magnum 1.500ml.)",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos España",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Duetto, Santo Tomás - Valle de Gpe. 2015",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos México",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Pago de Carraovejas Cosecha",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos España",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Prosecco, Valdo Veneto",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Vino Espumoso",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Chassagne Montrachet, Louis Jadot, Bourgogne 2017",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Blanco Francia",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Machoman, Casa Rojo, Jumilla",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos España",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Bosques de Matasnos, Ribera del Duero",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos España",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Perro Verde, Rueda 2020",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Blanco España",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Saumur Champigny, Château de Villeneuve, Vallée de Loire",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos Francia",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Saumur Blanc, Chateau de Villeneuve, Valle de Loire 2021",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Blanco Francia",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Jardín de Lucía Rías Baixas 2019",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Blanco España",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Sancerre Rosé, Pascal et Nicolas Reverdy, Loire 2021",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Rosados",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Dom Perignon Vintage 2012",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Champagne",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Decoy Duckhorn Vineyards - Napa V. 2019",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos U.S.A.",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Chateau Romassan, Domaine Ott, Bandol 2020",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Rosados",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Carmelo Rodero Crianza, Ribera del Duero",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos España",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Megacero Encinillas 2019",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos México",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Moulin-A-Vent, Château des Jacques, Beaujolais",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos Francia",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Montes - Vendimia Tardía 2019",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Blanco Dulce",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Cuvaison - Napa Valley 2018",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos U.S.A.",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Cheverny, François Cazin, Vallée de Loire",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos Francia",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Alfredo Roca - Mendoza 2013",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos Argentina",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Albarolo Ensenada 2018",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos México",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Migration Duckhorn - Napa Valley 2019",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos U.S.A.",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Remelluri - Rioja 2016",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Blanco España",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Duckhorn, Napa Valley 2018",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Mi Selección U.S.A.",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Bembibre, Dominio de Tares, Bierzo",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos España",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Flor de Matteria Toro",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos España",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Quintaluna - Castilla y León 2018",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Blanco España",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Cabernet Rosato Frizzante Monte 2020",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Rosados",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Viña Oropéndola, Rueda 2020",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Blanco España",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Nuits St.Georges, Louis Jadot, Côte de Nuits",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos Francia",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Achaval Ferrer Quimera, Luján de Cuyo 2018",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos Argentina",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Château Picque Caillou-Pessac-léognan",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos Francia",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Chablis Premier Cru, Domaine Servin, Bourgogne 2020",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Blanco Francia",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Emilio Moro, Ribera del Duero",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos España",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Crémant de Bourgogne, Albert Bichot",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Vino Espumoso",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Chablis, Domaine Servin, Bourgogne 2018",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Blanco Francia",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Gomez Cruzado Reserva, Rioja",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos España",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Cattier Premier Cru Brut Rosé",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Champagne",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Segura Viudas Heredad, Cava",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Vino Espumoso",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Flor de Pingus, Dominio de Pingus, Ribera del Duero 2018",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Mi Selección España",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Château Bousquet Bordeaux - Graves",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos Francia",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Chateau Patris, Saint Emilion, Grand Cru",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos Francia",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Chateau Paveil de Luze, Margaux",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos Francia",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Proelio Rioja",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos España",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Hacienda de Encinillas Selección Especial 2019",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos México",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Valserrano – Crianza Rioja",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos España",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Alion, Ribera del Duero 2018",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Mi Selección España",
+      "layer": "menu_items"
+    },
+    {
+      "name": "El Recio, Matsu, Toro",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos España",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Paco y Lola, Rias Baixas 2021",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Blanco España",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Château La Gorce, Bordeaux-Médoc",
+      "description": null,
+      "price": null,
+      "currency": "MXN",
+      "category": "Tintos Francia",
+      "layer": "menu_items"
+    }
+  ],
+  "Botánico": [
+    {
+      "name": "Fried calamari",
+      "description": "Perfectly fried calamari",
+      "price": null,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Tuna carpaccio",
+      "description": "Delicate tuna carpaccio",
+      "price": null,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Lamb pappardelle",
+      "description": "Tender lamb pappardelle",
+      "price": null,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Passionfruit cocktail",
+      "description": "Vibrant passionfruit blend",
+      "price": null,
+      "currency": "MXN",
+      "category": "Cocktails",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Sparkling lemonade mocktail",
+      "description": "Refreshing sparkling lemonade mocktail with a lively twist",
+      "price": null,
+      "currency": "MXN",
+      "category": "Cocktails",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Tamarind cocktail",
+      "description": "Vibrant tamarind blend",
+      "price": null,
+      "currency": "MXN",
+      "category": "Cocktails",
+      "layer": "menu_items"
+    }
+  ],
+  "Comal Oculto": [
+    {
+      "name": "Agua Fresca del día",
+      "description": "Fresca, natural y preparada cada mañana con frutas de la temporada.",
+      "price": 65.0,
+      "currency": "MXN",
+      "category": "Bebidas",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Enmoladas de Chamorro (2 pzs)",
+      "description": "Tortillas de maíz rellenas de chamorro, bañadas en mole almendrado, con crema, queso y brotes frescos.",
+      "price": 310.0,
+      "currency": "MXN",
+      "category": "Antojitos con Chamorro",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Flautas (2 pzs)",
+      "description": "Tortillas freídas rellenas de papa, queso o pollo, cubiertas con crema y queso, servidas en porciones de 2 piezas.",
+      "price": 195.0,
+      "currency": "MXN",
+      "category": "Antojitos Bañados",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Orden de Sopes Sencillos (2 pzs)",
+      "description": "Base de maíz hecha al momento, frijol ayocote con hoja de aguacate, crema fresca, cebolla morada, queso cotija y brotes.",
+      "price": 115.0,
+      "currency": "MXN",
+      "category": "Antojitos al Comal",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Enmoladas (2 pzs)",
+      "description": "Tortillas de maíz rellenas de papa, queso, huevo o pollo, cubiertas con mole almendrado y servidas con crema y brotes.",
+      "price": 285.0,
+      "currency": "MXN",
+      "category": "Antojitos Bañados",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Gordita de Chicharrón",
+      "description": "Gordita de maíz rellena con chicharrón prensado en salsa pasilla, una delicia tradicional mexicana.",
+      "price": 89.0,
+      "currency": "MXN",
+      "category": "Antojitos al Comal",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Coca-Cola",
+      "description": "Regular de lata 355ml",
+      "price": 65.0,
+      "currency": "MXN",
+      "category": "Bebidas",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Flautas Ahogadas",
+      "description": "Tortillas freídas rellenas de papa, queso o pollo, bañadas en salsa verde, roja o mole, con crema y queso.",
+      "price": 230.0,
+      "currency": "MXN",
+      "category": "Antojitos Bañados",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Orden de Tacos de Chamorro (2 pzs)",
+      "description": "Tacos de chamorro confitado con cebolla morada encurtida y brotes de cilantro en tortilla suave.",
+      "price": 220.0,
+      "currency": "MXN",
+      "category": "Antojitos con Chamorro",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Flautas con Chamorro (2 pzs)",
+      "description": "Tortillas rellenas de chamorro, bañadas en crema y queso, servidas con brotes frescos.",
+      "price": 210.0,
+      "currency": "MXN",
+      "category": "Antojitos con Chamorro",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Enfrijoladas de Chamorro (2 pzs)",
+      "description": "Tortillas de maíz rellenas de chamorro, bañadas en salsas de frijol bayo y negro, con crema, queso y brotes.",
+      "price": 295.0,
+      "currency": "MXN",
+      "category": "Antojitos con Chamorro",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Quesadilla",
+      "description": "Tortilla de maíz rellena de guisado, con opción de quesillo, hecha al momento.",
+      "price": 69.0,
+      "currency": "MXN",
+      "category": "Antojitos al Comal",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Chocolate Caliente de Agua",
+      "description": "Chocolate artesanal mexicano batido en agua, resaltando las notas intensas y puras del cacao con un toque ligero de dulzor.",
+      "price": 65.0,
+      "currency": "MXN",
+      "category": "Bebidas",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Rancheros Comal",
+      "description": "2 Sopes acompañados de 2 huevos estrellados bañados con salsa roja, verde o mole, con aguacate, queso fresco y cilantro criollo.",
+      "price": 215.0,
+      "currency": "MXN",
+      "category": "Antojitos Bañados",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Enchiladas (2 pzs)",
+      "description": "Tortillas rellenas de papa, queso, huevo o pollo, bañadas en salsa verde o roja, con crema, queso y brotes.",
+      "price": 270.0,
+      "currency": "MXN",
+      "category": "Antojitos Bañados",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Enfrijoladas (2 pzs)",
+      "description": "Tortillas de maíz bañadas en salsas de frijol bayo y negro, rellenas de papa, queso, pollo o huevo, servidas con crema, queso y brotes.",
+      "price": 270.0,
+      "currency": "MXN",
+      "category": "Antojitos Bañados",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Flautas Ahogadas con Chamorro (2 pzs)",
+      "description": "Tortillas freídas rellenas de chamorro, bañadas en salsa verde, roja o mole, con crema, queso y brotes.",
+      "price": 260.0,
+      "currency": "MXN",
+      "category": "Antojitos con Chamorro",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Enchiladas con Chamorro (2 pzs)",
+      "description": "Tortillas de maíz rellenas de chamorro, bañadas en salsa verde o roja, con crema, queso y brotes.",
+      "price": 295.0,
+      "currency": "MXN",
+      "category": "Antojitos con Chamorro",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Chilaquiles",
+      "description": "Totopos de maíz cubiertos en salsa roja o mole, con crema, queso cotija, aguacate, cebolla morada y brotes de cilantro.",
+      "price": 140.0,
+      "currency": "MXN",
+      "category": "Antojitos Bañados",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Gordita Especial con Chamorro",
+      "description": "Gordita de maíz con chamorro confitado, rellena de chicharrón prensado en salsa pasilla para un sabor auténtico.",
+      "price": 149.0,
+      "currency": "MXN",
+      "category": "Antojitos con Chamorro",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Chilaquiles con Chamorro",
+      "description": "Totopos de maíz con chamorro confitado, bañados en salsa roja o mole, con crema, queso cotija, cebolla y cilantro.",
+      "price": 230.0,
+      "currency": "MXN",
+      "category": "Antojitos con Chamorro",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Orden de Sopes con Guisado (2 pzas)",
+      "description": "Sopes de maíz con frijol ayocote, crema, cebolla morada, queso cotija y brotes, acompañados de guisado a elección.",
+      "price": 189.0,
+      "currency": "MXN",
+      "category": "Antojitos al Comal",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Cafe de Olla",
+      "description": "Receta clásica de la casa. Café caliente aromático, endulzado con piloncillo.",
+      "price": 65.0,
+      "currency": "MXN",
+      "category": "Bebidas",
+      "layer": "menu_items"
+    }
+  ],
+  "Raíz": [
+    {
+      "name": "Coca Cola Sin Azucar",
+      "description": "Refresco (Botella 355 ml.)",
+      "price": 39.0,
+      "currency": "MXN",
+      "category": "Bebidas",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Wrap buffalo",
+      "description": "Mix de lechugas con pepino, jitomate, pechuga de pollo marinada con salsa de alitas, zanahoria, cebolla frita y guacamole, tortilla de harina. Acompañado de aderezo blue cheese.",
+      "price": 186.0,
+      "currency": "MXN",
+      "category": "Wraps De raiz",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Sidral Mundet Light",
+      "description": "Refresco (Botella 355 ml.)",
+      "price": 39.0,
+      "currency": "MXN",
+      "category": "Bebidas",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Ensalada oriental",
+      "description": "Mix de lechugas con piña, cacahuate, col morada, cilantro, germen de soya, zanahoria y pechuga de pollo. Acompañada de aderezo cacahuate.",
+      "price": 164.0,
+      "currency": "MXN",
+      "category": "Ensaladas  De raiz",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Ensalada camaron",
+      "description": "Mix de lechugas con zanahoria, guacamole, cebolla frita, jitomate, pepino, queso suizo y camarón sazonado en cajún. Acompañada de aderezo chipotle.",
+      "price": 180.0,
+      "currency": "MXN",
+      "category": "Ensaladas  De raiz",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Wrap pollo empanizado",
+      "description": "Mix de lechugas con guacamole, jitomate, zanahoria, cebolla morada y pechuga de pollo empanizada, tortilla de harina. Acompañado de aderezo honey mustard.",
+      "price": 175.0,
+      "currency": "MXN",
+      "category": "Wraps De raiz",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Ensalada pollo empanizado",
+      "description": "Mix de lechugas con guacamole, jitomate, zanahoria, cebolla morada y pechuga de pollo empanizada. Acompañada de aderezo honey mustard.",
+      "price": 175.0,
+      "currency": "MXN",
+      "category": "Ensaladas  De raiz",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Wrap coliflor rostizada",
+      "description": "Mix de lechugas con coliflor rostizada sazonada en cajún, cebolla morada, cacahuate, col morada, arándano y garbanzo marinado, tortilla de harina. Acompañado de aderezo honey mustard.",
+      "price": 180.0,
+      "currency": "MXN",
+      "category": "Wraps De raiz",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Mayonesa",
+      "description": "Mayonesa extra.",
+      "price": 10.0,
+      "currency": "MXN",
+      "category": "Extra",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Wrap kafta",
+      "description": "Mix de lechugas con aceituna negra, pan pita frito, garbanzo sazonado, kafta, queso cabra, jitomate, cebolla morada, pepinillo y pepino, tortilla de harina. Acompañado de aderezo yogurt.",
+      "price": 180.0,
+      "currency": "MXN",
+      "category": "Wraps De raiz",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Ensalada Kafta",
+      "description": "Mix de lechugas con aceituna negra, pan pita frito, garbanzo sazonado, kafta, queso cabra, jitomate, cebolla morada, pepinillo y pepino. Acompañada de aderezo yogurt.",
+      "price": 180.0,
+      "currency": "MXN",
+      "category": "Ensaladas  De raiz",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Wrap mexicano",
+      "description": "Mix de lechugas con queso mixto, pechuga de pollo, jitomate, guacamole, elotitos asados, tortilla frita y chile cuaresmeño, tortilla de harina. Acompañado de aderezo de la casa.",
+      "price": 180.0,
+      "currency": "MXN",
+      "category": "Wraps De raiz",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Ensalada mexicana",
+      "description": "Mix de lechugas con queso mixto, pechuga de pollo, jitomate, guacamole, elotitos asados, tortilla frita y chile cuaresmeño. Acompañada de aderezo de la casa.",
+      "price": 180.0,
+      "currency": "MXN",
+      "category": "Ensaladas  De raiz",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Wrap portobello",
+      "description": "Mix de lechugas con pasta al pesto, portobello marinado, jitomate confitado, cacahuate tostado, cebolla caramelizada, queso de cabra, tortilla de harina. Acompañado de aderezo mayo pesto.",
+      "price": 186.0,
+      "currency": "MXN",
+      "category": "Wraps De raiz",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Sprite Sin Azucar",
+      "description": "Refresco (Botella 355 ml.)",
+      "price": 39.0,
+      "currency": "MXN",
+      "category": "Bebidas",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Ensalada coliflor rostizada",
+      "description": "Mix de lechugas con coliflor rostizada sazonada en cajún, cebolla morada, cacahuate, col morada, arándano y garbanzo marinado. Acompañada de aderezo honey mustard.",
+      "price": 180.0,
+      "currency": "MXN",
+      "category": "Ensaladas  De raiz",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Wrap Cesar",
+      "description": "Mix de lechugas con queso parmesano, croutones y pechuga de pollo, tortilla de harina. Acompañado de aderezo césar.",
+      "price": 175.0,
+      "currency": "MXN",
+      "category": "Wraps De raiz",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Ensalada buffalo",
+      "description": "Mix de lechugas con pepino, jitomate, pechuga de pollo marinada con salsa de alitas, zanahoria, cebolla frita y guacamole. Acompañada de aderezo blue cheese.",
+      "price": 186.0,
+      "currency": "MXN",
+      "category": "Ensaladas  De raiz",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Ensalada portobello",
+      "description": "Mix de lechugas con pasta al pesto, portobello marinado, jitomate confitado, cacahuate tostado, cebolla caramelizada, queso de cabra. Acompañada de aderezo mayo pesto.",
+      "price": 186.0,
+      "currency": "MXN",
+      "category": "Ensaladas  De raiz",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Wrap oriental",
+      "description": "Mix de lechugas con piña, cacahuate, col morada, cilantro, germen de soya, zanahoria y pechuga de pollo, tortilla de harina. Acompañado de aderezo cacahuate.",
+      "price": 164.0,
+      "currency": "MXN",
+      "category": "Wraps De raiz",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Topo Chico Mineral",
+      "description": "Agua mineral (Botella 355 ml.)",
+      "price": 55.0,
+      "currency": "MXN",
+      "category": "Bebidas",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Ensalada Cesar",
+      "description": "Mix de lechugas con queso parmesano, croutones y pechuga de pollo. Acompañada de aderezo césar.",
+      "price": 175.0,
+      "currency": "MXN",
+      "category": "Ensaladas  De raiz",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Wrap camaron",
+      "description": "Mix de lechugas con zanahoria, guacamole, cebolla frita, jitomate, pepino, queso suizo y camarón sazonado en cajún, tortilla de harina. Acompañado de aderezo chipotle.",
+      "price": 180.0,
+      "currency": "MXN",
+      "category": "Wraps De raiz",
+      "layer": "menu_items"
+    },
+    {
+      "name": "Coca Cola Original",
+      "description": "Refresco (Botella 400 ml.)",
+      "price": 39.0,
+      "currency": "MXN",
+      "category": "Bebidas",
+      "layer": "menu_items"
+    }
+  ],
+  "Almara": [
+    {
+      "name": "Raw Sauce, Red Onion and Pickles",
+      "description": null,
+      "price": 380.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": ", Pesto, Capers and Chili Powder",
+      "description": null,
+      "price": 295.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Huitlacoche Mushroom and Poblano Chili Pepper",
+      "description": null,
+      "price": 230.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "g Vanilla Crème Brûlée",
+      "description": null,
+      "price": 210.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Olive Oil and slices Guajillo Chili",
+      "description": null,
+      "price": 210.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Quinoa, Fine Mustard and Avocado",
+      "description": null,
+      "price": 295.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Tomatoes *Platillo Picante / Spicy Dish",
+      "description": null,
+      "price": 390.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "g With Glazed Vegetables and Bacon",
+      "description": null,
+      "price": 330.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Parmesan Cheese Slices and Sauce",
+      "description": null,
+      "price": 350.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Lettuces, Arugula and Fennel Salad",
+      "description": null,
+      "price": 260.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "g Truffle Oil and Parsley",
+      "description": null,
+      "price": 220.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Fennel Orange Confit and Bernese Sauce",
+      "description": null,
+      "price": 609.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Potato, Glazed Portobello and Bordelaise Sauce",
+      "description": null,
+      "price": 520.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "with Serrano Ham and Arugula leaves",
+      "description": null,
+      "price": 395.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "g Caponata-Style Vegetables, Tapenade and Pesto",
+      "description": null,
+      "price": 557.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Cheese, Raspberries and Roquefort Vinaigrette Dressing",
+      "description": null,
+      "price": 250.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Squid ink Sauce and Cherry Tomatoes",
+      "description": null,
+      "price": 530.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "g Accompanied with Mexican Style Risotto",
+      "description": null,
+      "price": 330.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Half Portion",
+      "description": null,
+      "price": 130.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Fruits, Berries Compote and Chicken Sauce",
+      "description": null,
+      "price": 431.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Garlic Butter, Parsley and Almonds",
+      "description": null,
+      "price": 280.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "with Cream Dill Sauce and Wasabi",
+      "description": null,
+      "price": 295.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Feta Cheese and Kalamata Olives",
+      "description": null,
+      "price": 395.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Alfred with Grilled Chicken Breast Slices",
+      "description": null,
+      "price": 315.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Sauce, Soy Sauce and Sesame Seed",
+      "description": null,
+      "price": 220.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Porter House",
+      "description": null,
+      "price": 890.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Habanero Chili, Cucumber and Avocado",
+      "description": null,
+      "price": 295.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Classic Onion Soup Au Gratin",
+      "description": null,
+      "price": 210.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Praline Ganache and Vanilla Ice Cream",
+      "description": null,
+      "price": 210.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Wine, Potato Aligot and Glazed Celery",
+      "description": null,
+      "price": 595.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Pop Sorbet Any Flavour",
+      "description": null,
+      "price": 185.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "cheese Foam, Chipotle Chili and Avocado",
+      "description": null,
+      "price": 210.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Mix, Compote Bacon and French Fries",
+      "description": null,
+      "price": 588.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Spring Onion Sauce, Artichoke and Asparagus",
+      "description": null,
+      "price": 578.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "with Truffle Oil and Parmesan Cheese",
+      "description": null,
+      "price": 315.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Pomodoro , Mushrooms and baby Carrots",
+      "description": null,
+      "price": 590.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "Rib Eye",
+      "description": null,
+      "price": 750.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "with Saffron, Parmesan Cheese and Pancetta",
+      "description": null,
+      "price": 315.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "and Dried Fruits with Chicken Sauce",
+      "description": null,
+      "price": 315.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    },
+    {
+      "name": "and See Bass Served with Guacamole",
+      "description": null,
+      "price": 295.0,
+      "currency": "MXN",
+      "category": null,
+      "layer": "menu_items"
+    }
+  ]
+}

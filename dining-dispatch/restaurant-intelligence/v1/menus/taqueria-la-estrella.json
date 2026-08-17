@@ -1,0 +1,34 @@
+{
+  "slug": "taqueria-la-estrella",
+  "name": "Taquería La Estrella",
+  "url": "https://www.eluniversal.com.mx/menu/la-estrella-tacos-gourmet-de-asada-costillas-y-hasta-molleja/",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Taco de asada"
+    },
+    {
+      "name": "Taco de molleja"
+    },
+    {
+      "name": "Taco de chorizo"
+    },
+    {
+      "name": "Taco campechano"
+    },
+    {
+      "name": "Taco de aguja norteña"
+    },
+    {
+      "name": "Taco de costilla con cadena"
+    },
+    {
+      "name": "Asada con queso en tortilla de harina",
+      "price": 110,
+      "currency": "MXN",
+      "description": "2 por $110 — Alan x el Mundo"
+    }
+  ],
+  "notes": "El Universal + Alan x el Mundo named carta."
+}

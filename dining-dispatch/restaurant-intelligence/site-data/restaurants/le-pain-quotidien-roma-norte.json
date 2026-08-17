@@ -1,0 +1,527 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "ef98fb04-039c-47e6-b795-962f806fd506",
+  "slug": "le-pain-quotidien-roma-norte",
+  "name": "Le Pain Quotidien",
+  "location": {
+    "neighborhood": "ROMA NORTE",
+    "borough": "Cuauhtémoc",
+    "address": "Monterrey 104, Cuauhtémoc, 06140 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4175404,
+      "longitude": -99.1640728
+    }
+  },
+  "contact": {
+    "phone": "55 5207 8205",
+    "website": "https://lepainquotidien.com/mx/stores/roma?utm_source=gmb&utm_medium=business-listing",
+    "instagram": "https://www.instagram.com/lepainquotidienfr",
+    "googleMapsUrl": "https://maps.google.com/?cid=18442941309413431447&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "coffee_shop",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 8:00 a.m. – 8:00 p.m.",
+      "lunes: 7:00 a.m. – 10:00 p.m.",
+      "martes: 7:00 a.m. – 10:00 p.m.",
+      "miércoles: 7:00 a.m. – 10:00 p.m.",
+      "jueves: 7:00 a.m. – 10:00 p.m.",
+      "viernes: 7:00 a.m. – 11:00 p.m.",
+      "sábado: 8:00 a.m. – 11:00 p.m."
+    ],
+    "rating": 4.3,
+    "reviewCount": 3403
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-06-28T21:19:26.575+00:00",
+    "observationAgeDaysAtExport": 49,
+    "documentCount": 1,
+    "itemCount": 26,
+    "documents": [
+      {
+        "id": "15823145-9055-4d67-9c10-a2cc4c283c1c",
+        "sourceUrl": "https://www.lepainquotidien.com/fr/fr/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": null,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-06-28T21:19:26.575+00:00"
+      }
+    ],
+    "items": [
+      {
+        "id": "3418c28c-acec-4f49-9320-2954011ea696",
+        "documentId": "15823145-9055-4d67-9c10-a2cc4c283c1c",
+        "name": "Classic Brunch",
+        "description": "Notre brunch est servi tous les jours avec une sélection de nos pains biologiques, une boisson chaude biologique classique, accompagnée de confitures et de pâtes à tartiner biologiques.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Brunch",
+        "sourceUrl": "https://www.lepainquotidien.com/fr/fr/menu",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "12b9509d-72af-49c7-8475-48107bdde792",
+        "documentId": "15823145-9055-4d67-9c10-a2cc4c283c1c",
+        "name": "Oeuf au plat",
+        "description": "Un œuf bio cuit à la perfection, avec un jaune éclatant et un blanc tendre. Accompagné d'une baguette bio croustillante et d'un pain au levain bio.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Brunch",
+        "sourceUrl": "https://www.lepainquotidien.com/fr/fr/menu",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "7dca512c-40f1-4980-b714-2ca8b065d09b",
+        "documentId": "15823145-9055-4d67-9c10-a2cc4c283c1c",
+        "name": "Oeuf à la coque",
+        "description": "Un petit-déjeuner belge classique, choisissez entre un ou deux œufs bio de plein air.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Brunch",
+        "sourceUrl": "https://www.lepainquotidien.com/fr/fr/menu",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "0d1ee906-fd15-43c1-a54a-69cdd568a66d",
+        "documentId": "15823145-9055-4d67-9c10-a2cc4c283c1c",
+        "name": "Oeufs brouillés",
+        "description": "Des œufs brouillés bio onctueux et savoureux. Extras : poitrine grillé, avocat tranché ou saumon fumé.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Brunch",
+        "sourceUrl": "https://www.lepainquotidien.com/fr/fr/menu",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "a6d882ec-fd5b-47cc-8eb2-906735d83f6f",
+        "documentId": "15823145-9055-4d67-9c10-a2cc4c283c1c",
+        "name": "Toast aux oeufs brouillés",
+        "description": "pain de blé au levain bio toasté, œufs brouillés bio crémeux, avocat onctueux, tomates cerises juteuses, coriandre fraîche et un filet de pesto rosso bio.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Brunch",
+        "sourceUrl": "https://www.lepainquotidien.com/fr/fr/menu",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "708d7126-2e2d-43d9-b274-834b57301709",
+        "documentId": "15823145-9055-4d67-9c10-a2cc4c283c1c",
+        "name": "Flatbread au levain à l'italienne",
+        "description": "Découvrez le goût authentique de l'Italie, où notre flatbread au levain est rehaussé par un mélange de saveurs riches et savoureuses et de notes fraîches et vibrantes.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Flatbread",
+        "sourceUrl": "https://www.lepainquotidien.com/fr/fr/menu",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "ecf54817-82d7-4da8-8f8b-809e49c6f702",
+        "documentId": "15823145-9055-4d67-9c10-a2cc4c283c1c",
+        "name": "Fresh Fruit Salad V",
+        "description": "Un mélange vibrant de fruits de saison, fraîchement coupés chaque matin. Naturellement sucré et rafraîchissant, il est parfait pour un petit déjeuner léger ou un délicieux dessert.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Fruits Frais",
+        "sourceUrl": "https://www.lepainquotidien.com/fr/fr/menu",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "73db15ca-abb2-4089-b013-c2fb1330a2d1",
+        "documentId": "15823145-9055-4d67-9c10-a2cc4c283c1c",
+        "name": "Classic Granola Parfait",
+        "description": "Yaourt nature bio Skyr bio ou un substitut végétal bio, agrémenté de fruits de saison et de notre granola croustillant signature - un choix sain et rafraîchissant.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Granola Parfait",
+        "sourceUrl": "https://www.lepainquotidien.com/fr/fr/menu",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "60939676-8dab-4aae-8850-6cd29abb509c",
+        "documentId": "15823145-9055-4d67-9c10-a2cc4c283c1c",
+        "name": "Breakfast bowl",
+        "description": "Toutes les vitamines, protéines, graisses saines et fibres dont vous avez besoin sont réunies dans un seul plat. Ce bol est le petit-déjeuner puissant dont vous avez besoin pour démarrer votre journée.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Petit-déjeuner",
+        "sourceUrl": "https://www.lepainquotidien.com/fr/fr/menu",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "84c1b24a-670f-4494-834b-57c468f3ac5a",
+        "documentId": "15823145-9055-4d67-9c10-a2cc4c283c1c",
+        "name": "Delice de chia à la passion",
+        "description": "Un pudding énergique pour le petit-déjeuner à base de lait d'amande biologique et d'un délicieux fruit de la passion.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Petit-déjeuner",
+        "sourceUrl": "https://www.lepainquotidien.com/fr/fr/menu",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "caaf548f-29a6-4062-81f8-547a78152230",
+        "documentId": "15823145-9055-4d67-9c10-a2cc4c283c1c",
+        "name": "Flatbread au levain avec deux oeufs au plat bio",
+        "description": "Un délicieux flatbread au levain, garni de deux œufs au plat bio, de skyr bio au citron et au cumin, de tomates cerises rôties, de persil frais et d'une huile épicée maison.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Petit-déjeuner",
+        "sourceUrl": "https://www.lepainquotidien.com/fr/fr/menu",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "5cdbef83-a57f-465e-b496-c50ae071ded0",
+        "documentId": "15823145-9055-4d67-9c10-a2cc4c283c1c",
+        "name": "Mini Pancakes",
+        "description": "Un petit-déjeuner ou un dessert qui séduira tous les âges. Nos petites crêpes hollandaises signées sont aussi mignonnes que délicieuses. Elles sont accompagnées de fruits frais, selon la saison. Mini pancakes fruits de saison, menthe fraîche et confiture de fraises",
+        "price": null,
+        "currency": "MXN",
+        "category": "Petit-déjeuner",
+        "sourceUrl": "https://www.lepainquotidien.com/fr/fr/menu",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "ee811fea-88fa-4f6c-b642-b9ebf9b1634f",
+        "documentId": "15823145-9055-4d67-9c10-a2cc4c283c1c",
+        "name": "Pain Perdu",
+        "description": "Notre fameuse brioche est préparé à la perfection avec une légère couche de sucre et servie avec des fruits frais, en fonction de la saison.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Petit-déjeuner",
+        "sourceUrl": "https://www.lepainquotidien.com/fr/fr/menu",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "51626f0b-d9c3-4712-b53f-fb2809f7f0dc",
+        "documentId": "15823145-9055-4d67-9c10-a2cc4c283c1c",
+        "name": "Pancakes protéinés",
+        "description": "Laissez-vous tenter par nos délicieuses crêpes, conçues pour être à la fois légères et rassasiantes.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Petit-déjeuner",
+        "sourceUrl": "https://www.lepainquotidien.com/fr/fr/menu",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "b7780667-7209-4811-bfda-f18627e4f2b1",
+        "documentId": "15823145-9055-4d67-9c10-a2cc4c283c1c",
+        "name": "Petit-déjeuner Le Pain Quotidien",
+        "description": "Le combo petit-déjeuner qui figure sur notre carte depuis des années. Servi avec notre beurre bio, nos confitures bio & nos pâtes à tartiner bio.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Petit-déjeuner",
+        "sourceUrl": "https://www.lepainquotidien.com/fr/fr/menu",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "876818ed-aa2e-43ca-8b69-872d1d226cf0",
+        "documentId": "15823145-9055-4d67-9c10-a2cc4c283c1c",
+        "name": "Chèvre chaud",
+        "description": "Salade au fromage de chèvre chaud, salade croquante et légumes verts frais avec fromage de chèvre chaud fondant.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Salades",
+        "sourceUrl": "https://www.lepainquotidien.com/fr/fr/menu",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "d083b377-9d65-4f1e-bcaf-59c812714b4e",
+        "documentId": "15823145-9055-4d67-9c10-a2cc4c283c1c",
+        "name": "Classic Caesar",
+        "description": "Laitue romaine croustillante garnie de poulet grillé, de croûtons croustillants et de parmesan râpé, le tout mélangé à notre vinaigrette César crémeuse.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Salades",
+        "sourceUrl": "https://www.lepainquotidien.com/fr/fr/menu",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "2692757c-732c-4db1-b2d3-e51143a6017c",
+        "documentId": "15823145-9055-4d67-9c10-a2cc4c283c1c",
+        "name": "Bowl aux légumes de saison",
+        "description": "Bowl aux poivrons rôtis, avocat, taboulé de quinoa, houmous, concombre, mesclun, vinaigrette végane, jeunes pousses & croûtons de pain de blé bio.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Spécialités de saison",
+        "sourceUrl": "https://www.lepainquotidien.com/fr/fr/menu",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "981466d8-3002-4e36-a85c-233e40b739b0",
+        "documentId": "15823145-9055-4d67-9c10-a2cc4c283c1c",
+        "name": "Croissant jambon fromage",
+        "description": "Un croissant beurré et feuilleté, servi chaud et fourré de jambon savoureux et de fromage fondu - un classique simple mais satisfaisant.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Spécialités de saison",
+        "sourceUrl": "https://www.lepainquotidien.com/fr/fr/menu",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "e5840bd6-86e8-4a4b-98bb-f2ad9ce04761",
+        "documentId": "15823145-9055-4d67-9c10-a2cc4c283c1c",
+        "name": "Croque club poulet",
+        "description": "double tranche de pain de blé au levain bio toasté avec poulet plein champ, lard grillé, oeuf dur bio, tomates, salade romaine, mayonnaise & citron.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Spécialités de saison",
+        "sourceUrl": "https://www.lepainquotidien.com/fr/fr/menu",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "f3b9929b-fc87-4514-8118-a709c7992e1f",
+        "documentId": "15823145-9055-4d67-9c10-a2cc4c283c1c",
+        "name": "Croque Monsieur",
+        "description": "Un délicieux pain de blé au levain biologique, généreusement garni de jambon et de Comté fondant.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Tartines",
+        "sourceUrl": "https://www.lepainquotidien.com/fr/fr/menu",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "5a4cb7a6-bc3f-4928-963a-86dac8ef60aa",
+        "documentId": "15823145-9055-4d67-9c10-a2cc4c283c1c",
+        "name": "Gardener's Croque V",
+        "description": "Une version végétalienne d'un classique favori, avec du houmous et des légumes de saison sur notre pain au levain biologique.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Tartines",
+        "sourceUrl": "https://www.lepainquotidien.com/fr/fr/menu",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "7d249b12-4d57-40c0-9a74-2497e93ac958",
+        "documentId": "15823145-9055-4d67-9c10-a2cc4c283c1c",
+        "name": "Tartine saumon & avocat",
+        "description": "Saumon atlantique fumé, skyr bio aux herbes fraîches, ciboulette, citron & jeunes pousses",
+        "price": null,
+        "currency": "MXN",
+        "category": "Tartines",
+        "sourceUrl": "https://www.lepainquotidien.com/fr/fr/menu",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "28fca6b9-def0-4b2c-8047-880589697299",
+        "documentId": "15823145-9055-4d67-9c10-a2cc4c283c1c",
+        "name": "Thon",
+        "description": "Tartine de thon rafraîchissante, où la fraîcheur de l'océan rencontre un mélange harmonieux de richesse crémeuse, de texture croquante et d'herbes parfumées.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Tartines",
+        "sourceUrl": "https://www.lepainquotidien.com/fr/fr/menu",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "83ad5da6-c633-4b37-8dad-7d1a36a4e742",
+        "documentId": "15823145-9055-4d67-9c10-a2cc4c283c1c",
+        "name": "Toast Avocat V",
+        "description": "Une tranche grillée de notre pain au levain biologique 2KG, garnie d'une purée d'avocat frais. Ajoutez des œufs pochés bio, poitrine fumée ou du saumon fumé.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Tartines",
+        "sourceUrl": "https://www.lepainquotidien.com/fr/fr/menu",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "bd38beb6-8827-41f2-b58f-ccba9ab3a0a0",
+        "documentId": "15823145-9055-4d67-9c10-a2cc4c283c1c",
+        "name": "Toast poulet & mozzarella fumée",
+        "description": "Une tartine copieuse composée de poulet tendre et d'une riche mozzarella fumée, servie sur notre levain biologique signature.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Tartines",
+        "sourceUrl": "https://www.lepainquotidien.com/fr/fr/menu",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/fr/fr/menu",
+      "confidence": null,
+      "checkedAt": "2026-07-09T18:47:34.578+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/mx/es/stores/roma?utm_source=gmb&utm_medium=business-listing",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:39.545+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=18442941309413431447&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:32.531+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://www.facebook.com/lepainquotidienfr",
+      "confidence": null,
+      "checkedAt": "2026-07-09T18:48:09.388+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/@LePainQuotidien1990",
+      "confidence": null,
+      "checkedAt": "2026-07-09T18:48:09.215+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "tiktok",
+      "url": "https://www.tiktok.com/@lepainquotidienhq",
+      "confidence": null,
+      "checkedAt": "2026-07-09T18:48:09.147+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://www.instagram.com/lepainquotidienfr",
+      "confidence": null,
+      "checkedAt": "2026-07-09T18:48:08.861+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 1,
+    "sourceNames": [
+      "google_places"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-06-29T14:08:35.610154+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:08:35.751703+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 134,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_source_summary",
+      "low_source_count"
+    ]
+  }
+}

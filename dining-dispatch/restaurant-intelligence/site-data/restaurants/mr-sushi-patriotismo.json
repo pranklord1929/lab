@@ -1,0 +1,244 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "5eeeb46e-8bbc-4c8d-af55-e28123716192",
+  "slug": "mr-sushi-patriotismo",
+  "name": "Mr. Sushi Patriotismo",
+  "location": {
+    "neighborhood": "SAN PEDRO DE LOS PINOS",
+    "borough": "Benito Juárez",
+    "address": "Av. Patriotismo 229, San Pedro de los Pinos, Benito Juárez, 03800 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3964752,
+      "longitude": -99.1809164
+    }
+  },
+  "contact": {
+    "phone": "55 5271 8158",
+    "website": "https://www.mrsushi.mx/",
+    "instagram": "https://instagram.com/mrsushimex/",
+    "googleMapsUrl": "https://maps.google.com/?cid=4236334990333292333&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "sushi",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 12:00–10:00 p.m.",
+      "lunes: 12:00–11:00 p.m.",
+      "martes: 12:00–11:00 p.m.",
+      "miércoles: 12:00–11:00 p.m.",
+      "jueves: 12:00–11:00 p.m.",
+      "viernes: 12:00–11:00 p.m.",
+      "sábado: 12:00–11:00 p.m."
+    ],
+    "rating": 4.2,
+    "reviewCount": 1243
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "local_extraction_candidate",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 2,
+    "itemCount": 4,
+    "documents": [
+      {
+        "id": "7aa0618b-258f-4904-8348-ab99038242b5",
+        "sourceUrl": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPDPPP.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.98,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "b3c564f7-8364-4cf1-b7f0-3c4561e4d449",
+        "sourceUrl": "https://tofuu.getjusto.com/buckets-prod%2FBKJ5tfxPuBecjmyMC-T%26C%20GetJusto%20-%20Mr%20sushi.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.98,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": [
+      {
+        "id": "6b9bc1baee382836dad2c071a7bfb1ed",
+        "documentId": null,
+        "name": "Compra mínima",
+        "description": null,
+        "price": 250,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "7747ea3b90fb6e2116ade9dc97de836b",
+        "documentId": null,
+        "name": "Condiciones Aplicables",
+        "description": null,
+        "price": 250,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "e6bebf0a75c025189ee9f8b14d501a57",
+        "documentId": null,
+        "name": "Cupón de descuento",
+        "description": null,
+        "price": 100,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "4763c6b63716a67951726a6f0f675d6e",
+        "documentId": null,
+        "name": "Sushi",
+        "description": null,
+        "price": 50,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://tofuu.getjusto.com/buckets-prod%2FBKJ5tfxPuBecjmyMC-T%26C%20GetJusto%20-%20Mr%20sushi.pdf",
+      "confidence": 0.98,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPDPPP.pdf",
+      "confidence": 0.98,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.mrsushi.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:39.267+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=4236334990333292333&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:32.739+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/MrSushi.mx",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/mrsushimex/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.165171+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:08:51.05257+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 6,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_source_summary"
+    ]
+  }
+}

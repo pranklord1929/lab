@@ -1,0 +1,89 @@
+{
+  "catalogName": "La Bonvi",
+  "slug": "la-bonvi",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "La Bonvi",
+  "location": {
+    "address": "Pedregal 33, Lomas-Virreyes (flagship). Also Anatole France 139, Polanco.",
+    "neighborhood": "Lomas de Chapultepec",
+    "borough": "Miguel Hidalgo",
+    "postalCode": "11000",
+    "coordinates": {
+      "latitude": 19.426183,
+      "longitude": -99.2032317
+    }
+  },
+  "contact": {
+    "phone": null,
+    "website": "https://www.instagram.com/labonvi.mx/",
+    "instagram": "labonvi.mx",
+    "email": null,
+    "websiteIsInstagram": true
+  },
+  "hours": [
+    "IG: S–D 11:00–23:30; weekday close 23:30"
+  ],
+  "food": {
+    "cuisine": "upscale tacos",
+    "chef": "César de la Parra (press)",
+    "priceLevel": 2
+  },
+  "reservation": {
+    "platform": "walk-in",
+    "url": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.theinfatuation.com/mexico-city/reviews/la-bonvi",
+    "observedAt": "2026-08-17",
+    "itemCount": 3,
+    "items": [
+      {
+        "name": "Tostada de atún spicy",
+        "price": null,
+        "currency": "MXN",
+        "category": "tostadas"
+      },
+      {
+        "name": "Cachetada de picaña",
+        "price": null,
+        "currency": "MXN",
+        "category": "tacos",
+        "description": "Picaña fina, queso fundido, orillas crujientes"
+      },
+      {
+        "name": "Sorbetto de mango de la casa",
+        "price": null,
+        "currency": "MXN",
+        "category": "postres"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/labonvi.mx/",
+      "fields": [
+        "addresses",
+        "hours"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://www.theinfatuation.com/mexico-city/reviews/la-bonvi",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": []
+}

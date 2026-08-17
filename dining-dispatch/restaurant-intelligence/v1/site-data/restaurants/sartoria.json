@@ -1,0 +1,162 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "927e29ac-08b7-4bf1-8a98-8033ab81e3f7",
+  "slug": "sartoria",
+  "name": "Sartoria",
+  "location": {
+    "neighborhood": "ROMA NORTE",
+    "borough": "Cuauhtémoc",
+    "address": "C. Orizaba 42, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4218394,
+      "longitude": -99.1605215
+    }
+  },
+  "contact": {
+    "phone": "55 7265 3616",
+    "website": "http://www.sartoria.mx/",
+    "instagram": "https://instagram.com/sartoriamx/",
+    "googleMapsUrl": "https://maps.google.com/?cid=11817930351594586742&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "italian",
+    "michelinCuisine": "Italiana, Italiana contemporánea",
+    "openTableCuisine": "Italiana contemporánea",
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": "Sophisticated restaurant serving modern, refined Italian cuisine, with a focus on fresh pasta.",
+    "hours": [
+      "lun–sáb 13:00–00:00"
+    ],
+    "rating": 4.1,
+    "reviewCount": 1902
+  },
+  "distinctions": {
+    "michelin": "Seleccionado: Buena cocina",
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": "https://www.opentable.com.mx/r/sartoria-ciudad-de-mexico",
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://sartoria.mx/",
+    "observedAt": "2026-08-17",
+    "itemCount": 3,
+    "items": [
+      {
+        "name": "Tortellacci de burrata",
+        "category": "pasta"
+      },
+      {
+        "name": "Spaghetti alla chitarra",
+        "category": "pasta"
+      },
+      {
+        "name": "Pasta fresca hecha a mano",
+        "description": "Carta corta: antipasti, pasta, segundos",
+        "category": "pasta"
+      }
+    ],
+    "notes": "Michelin + OpenTable name the pasta focus; full priced carta is image/IG."
+  },
+  "links": [
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://sartoria.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:52:09.965+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=11817930351594586742&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:53:02.951+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/sartoriamx/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 7,
+    "sourceNames": [
+      "editorial",
+      "google_places",
+      "mexico_gastronomico",
+      "michelin",
+      "official_website",
+      "opentable",
+      "star_wine_list"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "opentable",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:23:02.793239+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": true,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 48,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_price_level",
+      "missing_structured_menu_items"
+    ]
+  }
+}

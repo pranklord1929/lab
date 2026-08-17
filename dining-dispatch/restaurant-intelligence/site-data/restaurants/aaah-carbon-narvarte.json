@@ -1,0 +1,210 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "1f6047a3-f116-4b13-94cb-37fd3387036e",
+  "slug": "aaah-carbon-narvarte",
+  "name": "Aaah! Carbon Narvarte",
+  "location": {
+    "neighborhood": "VÉRTIZ NARVARTE",
+    "borough": "Benito Juárez",
+    "address": "Ixcateopan 6, Vértiz Narvarte, Benito Juárez, 03600 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3822863,
+      "longitude": -99.1567602
+    }
+  },
+  "contact": {
+    "phone": "55 1549 4284",
+    "website": "https://aahcarbonnarvarte.com/",
+    "instagram": "https://instagram.com/aaah_carbon_narvarte/",
+    "googleMapsUrl": "https://maps.google.com/?cid=7696052077333932736&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 8:45 a.m. – 9:00 p.m.",
+      "lunes: Cerrado",
+      "martes: 8:30 a.m. – 10:00 p.m.",
+      "miércoles: 8:30 a.m. – 10:00 p.m.",
+      "jueves: 8:30 a.m. – 10:00 p.m.",
+      "viernes: 8:30 a.m. – 10:00 p.m.",
+      "sábado: 8:30 a.m. – 10:00 p.m."
+    ],
+    "rating": 4.3,
+    "reviewCount": 637
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 3,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "c8acc58d-46f1-40bf-bb45-cf97e0072084",
+        "sourceUrl": "http://aahcarbonnarvarte.com/wp-content/uploads/2026/06/menu_comidas.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.98,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "ce65a8e2-5905-40b9-a234-629bb094202a",
+        "sourceUrl": "https://aahcarbonnarvarte.com/menus/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "d817ec3d-899f-4ea4-8d7d-3a2e973d8d23",
+        "sourceUrl": "http://aahcarbonnarvarte.com/wp-content/uploads/2026/06/menu_desayunos.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.98,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://aahcarbonnarvarte.com/wp-content/uploads/2026/06/menu_desayunos.pdf",
+      "confidence": 0.98,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://aahcarbonnarvarte.com/wp-content/uploads/2026/06/menu_comidas.pdf",
+      "confidence": 0.98,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://aahcarbonnarvarte.com/menus/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://aahcarbonnarvarte.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:58.632+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=7696052077333932736&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:53.678+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/aaahcarbonarvarte",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/aaah_carbon_narvarte/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.165171+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:18:53.796557+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 6,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_cuisine",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

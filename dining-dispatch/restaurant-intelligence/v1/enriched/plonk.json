@@ -1,0 +1,108 @@
+{
+  "catalogName": "Plonk",
+  "slug": "plonk",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Plonk",
+  "location": {
+    "address": "Iztaccíhuatl 52, Condesa (near Parque México)",
+    "neighborhood": "Condesa",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06100",
+    "coordinates": {
+      "latitude": 19.4103973,
+      "longitude": -99.169358
+    }
+  },
+  "contact": {
+    "phone": "+52 55 2953 0255",
+    "website": "https://www.plonk.mx/",
+    "instagram": "plonk.mx",
+    "email": null
+  },
+  "hours": [
+    "Reservation via IG DM / site Book. Weekly hours not clearly listed on homepage."
+  ],
+  "food": {
+    "cuisine": "contemporary mexican + asian notes / wine bar",
+    "chef": "Flor Camorlinga",
+    "priceLevel": 3,
+    "notes": "Sommelier / co-owner Romina Arguelles. Natural/low-intervention wine focus."
+  },
+  "reservation": {
+    "platform": "instagram / website",
+    "url": "https://www.instagram.com/plonk.mx/"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/plonk",
+    "observedAt": "2026-08-17",
+    "itemCount": 3,
+    "items": [
+      {
+        "name": "Udon de camarón y queso cheddar con gochujang"
+      },
+      {
+        "name": "Tuétano con queso cotija y kimchi"
+      },
+      {
+        "name": "Doradito — tortilla de maíz azul, dorado crudo, salsa ahumada y macadamia"
+      }
+    ],
+    "notes": "Wix homepage shows portrait gallery images, no extractable dish list. No /menu page.",
+    "documents": [
+      "https://static.wixstatic.com/media/efa6e0_41122f685e2a4efea7e431ed5923c24e~mv2.png",
+      "https://static.wixstatic.com/media/efa6e0_7ba4459c1fd34d24863123e08742dd57~mv2.png",
+      "https://static.wixstatic.com/media/efa6e0_8de006b51a804fa78931f6732c7acb96~mv2.png"
+    ]
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/plonk.mx/",
+      "fields": [
+        "address"
+      ]
+    },
+    {
+      "source": "official",
+      "url": "https://www.plonk.mx/",
+      "fields": [
+        "website",
+        "chef"
+      ]
+    }
+  ],
+  "gaps": [
+    "hours",
+    "coordinates",
+    "email"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "distinctions": {
+    "michelin": "Bib Gourmand : nuestras mejores relaciones calidad-precio"
+  },
+  "michelinReview": "Este local ubicado en una calle arbolada de La Condesa es el lugar ideal para disfrutar de un buen momento: el exterior, con una barra construida alrededor de un árbol, rebosa encanto, mientras que el interior es íntimo y romántico. La chef Flor Camorlinga propone aquí una cocina creativa y contemporánea que reúne la sensibilidad mexicana con la asiática: udon de camarón y queso cheddar con gochujang, tuétano con queso cotija y kimchi… Todo pensado para compartir y acompañado con una cuidada selección de vinos naturales. El doradito –una finísima tortilla de maíz azul con dorado crudo, suave salsa ahumada y nuez de macadamia– destaca por su equilibrio de sabores y texturas, mientras que el tamal de marlín ahumado se realza con una intensa salsa de almendras y chile morita. Los postres suelen cambiar, pero no te los pierdas.",
+  "ratings": {
+    "opentable": 4.7
+  },
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/plonk",
+      "id": "1216322"
+    },
+    {
+      "source": "opentable",
+      "name": "PLONK",
+      "rating": 4.7
+    }
+  ]
+}

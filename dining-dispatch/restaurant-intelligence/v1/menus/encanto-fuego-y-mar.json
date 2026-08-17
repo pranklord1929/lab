@@ -1,0 +1,52 @@
+{
+  "slug": "encanto-fuego-y-mar",
+  "name": "Encanto Fuego y Mar",
+  "url": "https://www.opentable.com.mx/r/encanto-ciudad-de-mexico",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Ceviche verde",
+      "price": 345,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Aguachile rojo con camarón a las brasas",
+      "price": 550,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Tiradito mixto",
+      "price": 360,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Tiradito de hamachi",
+      "price": 450,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Tartar de res",
+      "price": 345,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Gyozas de betabel",
+      "price": null,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Tacos de rib eye",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos"
+    }
+  ],
+  "notes": "OpenTable published entradas + Reservándonos Polanco recs (gyozas de betabel, tacos de rib eye)."
+}

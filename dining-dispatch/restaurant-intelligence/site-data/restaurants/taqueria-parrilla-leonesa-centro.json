@@ -1,0 +1,314 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "52feef78-7e7e-4298-9767-84b8af2c6c93",
+  "slug": "taqueria-parrilla-leonesa-centro",
+  "name": "Taquería Parrilla Leonesa Centro",
+  "location": {
+    "neighborhood": "CENTRO",
+    "borough": "Cuauhtémoc",
+    "address": "Calle de Bolívar 29-A, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06000 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4335356,
+      "longitude": -99.1383917
+    }
+  },
+  "contact": {
+    "phone": "55 5510 0172",
+    "website": "http://www.parrillaleonesa.com.mx/",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=13652941830438717662&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "mexican",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 10:00 a.m. – 8:00 p.m.",
+      "lunes: 8:00 a.m. – 10:00 p.m.",
+      "martes: 8:00 a.m. – 10:00 p.m.",
+      "miércoles: 8:00 a.m. – 10:00 p.m.",
+      "jueves: 8:00 a.m. – 10:00 p.m.",
+      "viernes: 8:00 a.m. – 10:00 p.m.",
+      "sábado: 9:00 a.m. – 10:00 p.m."
+    ],
+    "rating": 4.4,
+    "reviewCount": 1448
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-17T10:10:05.905Z",
+    "observationAgeDaysAtExport": 31,
+    "documentCount": 12,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "06ec63cd-dcc8-4f65-b16b-17576b459ce7",
+        "sourceUrl": "http://www.parrillaleonesa.com.mx/assets/images/menu.png",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "098d1a7e-1d03-4352-b56f-2a84791381b6",
+        "sourceUrl": "http://parrillaleonesa.com.mx/assets/images/bebidas.png",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "14405c21-df1b-471c-addc-86cd33bd59d5",
+        "sourceUrl": "http://www.parrillaleonesa.com.mx/assets/images/bebidas.png",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "43cbab79-a372-4c75-b1cc-f53689361ad3",
+        "sourceUrl": "https://www.parrillaleonesa.com.mx/assets/images/bebidas.png",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "491e0fc0-0f3a-4069-bb1b-d689850be834",
+        "sourceUrl": "https://parrillaleonesa.com.mx/assets/images/menu.png",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "4e58dd75-d98d-4927-8f5b-68c311dfdb2f",
+        "sourceUrl": "https://parrillaleonesa.com.mx/assets/images/bebidas.png",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "70f889d5-acb7-48b2-ba0b-86446d54c3ba",
+        "sourceUrl": "https://www.parrillaleonesa.com.mx/assets/images/menu.png",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "af3db3bd-d11a-411d-9968-f2c13d70ecbf",
+        "sourceUrl": "http://parrillaleonesa.com.mx/assets/images/menu.png",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "8c450b2a-2ebd-4217-b644-9716b567e3a9",
+        "sourceUrl": "https://www.parrillaleonesa.com.mx/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "aa444b66-731f-4bd1-bbb2-9f92e22b1a4f",
+        "sourceUrl": "https://parrillaleonesa.com.mx/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "9ad8eb74-576b-4011-b933-6132df2eb00c",
+        "sourceUrl": "http://www.parrillaleonesa.com.mx/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "c62ade55-0ffb-4b09-b4cd-2eef805b7d96",
+        "sourceUrl": "http://parrillaleonesa.com.mx/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.75,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:56:08.445+00:00"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.parrillaleonesa.com.mx/assets/images/menu.png",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.parrillaleonesa.com.mx/menu",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.parrillaleonesa.com.mx/assets/images/menu.png",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.parrillaleonesa.com.mx/assets/images/bebidas.png",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.parrillaleonesa.com.mx/assets/images/bebidas.png",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://parrillaleonesa.com.mx/menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "http://www.parrillaleonesa.com.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:51.514+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=13652941830438717662&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:48.856+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/ParrillaLeonesa",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "canirac_safetravels",
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:17:27.976269+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 337,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

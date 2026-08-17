@@ -1,0 +1,354 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "0c9f2b52-166f-4975-aaf5-a1b8302bd50f",
+  "slug": "la-unica",
+  "name": "La Única",
+  "location": {
+    "neighborhood": "POLANCO III SECCIÓN",
+    "borough": "Miguel Hidalgo",
+    "address": "Anatole France 98, Polanco, Polanco III Secc, Miguel Hidalgo, 11550 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4315198,
+      "longitude": -99.1976674
+    }
+  },
+  "contact": {
+    "phone": "55 5280 4056",
+    "website": "http://www.launica.mx/",
+    "instagram": "https://instagram.com/launicamx/",
+    "googleMapsUrl": "https://maps.google.com/?cid=3592247226987528594&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "mexican",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 3
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 1:00 p.m. – 2:00 a.m.",
+      "lunes: 1:00 p.m. – 2:00 a.m.",
+      "martes: 1:00 p.m. – 2:00 a.m.",
+      "miércoles: 1:00 p.m. – 2:00 a.m.",
+      "jueves: 1:00 p.m. – 2:00 a.m.",
+      "viernes: 1:00 p.m. – 2:00 a.m.",
+      "sábado: 1:00 p.m. – 2:00 a.m."
+    ],
+    "rating": 4.4,
+    "reviewCount": 3605
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-09T18:55:02.991+00:00",
+    "observationAgeDaysAtExport": 38,
+    "documentCount": 2,
+    "itemCount": 14,
+    "documents": [
+      {
+        "id": "26931d46-17cf-4fe3-aec2-f301bd1a5cf5",
+        "sourceUrl": "https://www.launica.mx/polanco/menu-polanco/menu-polanco-bebidas/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 1,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:02.991+00:00"
+      },
+      {
+        "id": "573ff40a-9d8a-47f0-9e6c-f72cbb8a3f69",
+        "sourceUrl": "https://www.launica.mx/queretaro/menu-queretaro/menu-queretaro-bebidas/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 1,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:02.009+00:00"
+      }
+    ],
+    "items": [
+      {
+        "id": "0c3ded12-03f6-429f-aee2-07320bb56c16",
+        "documentId": null,
+        "name": "AGUAS AGUA NATURAL CASA DE AGUA 355 ML",
+        "description": null,
+        "price": 65,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "3ac91c3f-2d8f-4de0-a41e-05a21f38c68e",
+        "documentId": null,
+        "name": "BEBIDAS ENERGETICAS RED BULL ENERGY DRINK 250 ML",
+        "description": null,
+        "price": 115,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "6c9a861a-9bf0-4fd7-a3ec-4d7d8b307935",
+        "documentId": null,
+        "name": "Bebidas BEBIDAS Menu DESTILADOS TEQUILA DON JULIO 70",
+        "description": null,
+        "price": 355,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "d8ee5758-3d78-482b-afe2-e536501c13b3",
+        "documentId": null,
+        "name": "Bebidas BEBIDAS Menu DESTILADOS TEQUILA DON JULIO 70",
+        "description": null,
+        "price": 275,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "dd8aadaa-ab56-4cf9-a5d7-2b93212a35f8",
+        "documentId": null,
+        "name": "Bombay, Cinzano Rosso, Campari. Angostura bitter DRY MARTINI",
+        "description": null,
+        "price": 260,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "8d3dce95-8e03-4d95-ab47-c5f116371d2a",
+        "documentId": null,
+        "name": "CLOVER CLUB",
+        "description": null,
+        "price": 245,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "7a7cd71a-5458-40e1-aed2-54d20dde2a29",
+        "documentId": null,
+        "name": "Cinzano to spritz, agua mineral. St. Germain Spritz",
+        "description": null,
+        "price": 255,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "192aa37a-1f0c-4380-afc5-1d7f3fbd5bed",
+        "documentId": null,
+        "name": "Cristalino, Nixta, Ancho Reyes original, jengibre. DON VILLA",
+        "description": null,
+        "price": 235,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "e928db6e-013a-47f3-ab36-fcc20933be94",
+        "documentId": null,
+        "name": "DOÑA PALOMA",
+        "description": null,
+        "price": 225,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "3e7237eb-87cd-49b9-a947-dfa7389fd634",
+        "documentId": null,
+        "name": "Don Julio Blanco, chile pasilla, limón, piña. BONANZA",
+        "description": null,
+        "price": 220,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "0f9b39ea-9bcb-4a08-a42e-f9ce422285ee",
+        "documentId": null,
+        "name": "Germain, Cinzano to spritz, agua mineral. Lover Spritz",
+        "description": null,
+        "price": 225,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "e2dea4f3-b0f5-4e52-a9a3-c697371d0aa6",
+        "documentId": null,
+        "name": "Limoncello, Cinzano to spritz, agua mineral.. CLÁSICOS NEGRONI",
+        "description": null,
+        "price": 245,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "60d3d0c5-de0a-40f6-a206-85b0dcf52305",
+        "documentId": null,
+        "name": "Ramos Pinto, limón, miel de abeja. PALOMA NEGRA",
+        "description": null,
+        "price": 255,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "125dacd0-1247-4d3d-a5fb-35fae39e5b9c",
+        "documentId": null,
+        "name": "Tajín y rodaja de limón. SPRITZ APEROL SPRITZ",
+        "description": null,
+        "price": 235,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.launica.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:32.362+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=3592247226987528594&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:31.301+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/launicamx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:13:26.199+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 4,
+    "sourceNames": [
+      "foursquare",
+      "google_places",
+      "official_menus",
+      "resy"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T20:05:20.22199+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:07:28.238543+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": true,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 22,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_source_summary"
+    ]
+  }
+}

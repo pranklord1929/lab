@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "5f1bebc7-ca99-4a84-bb0f-33b285aaeb26",
+  "slug": "carnitas-rincon-barrilaco",
+  "name": "Carnitas Rincón Barrilaco",
+  "location": {
+    "neighborhood": "LOMAS DE CHAPULTEPEC III SECCIÓN",
+    "borough": "Miguel Hidalgo",
+    "address": "Barrilaco 416, Lomas - Virreyes, Lomas de Chapultepec, Miguel Hidalgo, 11000 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4277393,
+      "longitude": -99.2114114
+    }
+  },
+  "contact": {
+    "phone": "55 8849 7494",
+    "website": null,
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=17716235706885972065&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "taco",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 10:30 a.m. – 3:30 p.m.",
+      "lunes: 11:30 a.m. – 5:30 p.m.",
+      "martes: 11:30 a.m. – 5:30 p.m.",
+      "miércoles: 11:30 a.m. – 5:30 p.m.",
+      "jueves: 11:30 a.m. – 5:30 p.m.",
+      "viernes: 11:30 a.m. – 5:30 p.m.",
+      "sábado: 10:30 a.m. – 4:30 p.m."
+    ],
+    "rating": 4.5,
+    "reviewCount": 194
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "missing",
+    "observedAt": null,
+    "observationAgeDaysAtExport": null,
+    "documentCount": 0,
+    "itemCount": 0,
+    "documents": [],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=17716235706885972065&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:55.254+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 1,
+    "sourceNames": [
+      "google_places"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-06-29T14:22:35.622012+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:22:35.764709+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 5,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_website",
+      "missing_instagram",
+      "missing_price_level",
+      "missing_source_summary",
+      "missing_menu_document",
+      "missing_structured_menu_items",
+      "low_source_count"
+    ]
+  }
+}

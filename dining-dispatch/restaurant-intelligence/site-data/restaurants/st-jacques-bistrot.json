@@ -1,0 +1,146 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "b4157cea-097e-4ce2-b975-d4720c80665a",
+  "slug": "st-jacques-bistrot",
+  "name": "St Jacques Bistrot",
+  "location": {
+    "neighborhood": "POLANCO V SECCION",
+    "borough": "Miguel Hidalgo",
+    "address": "Lope de Vega 226, Chapultepec Morales, Polanco V Secc, Miguel Hidalgo, 11560 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4350416,
+      "longitude": -99.1871917
+    }
+  },
+  "contact": {
+    "phone": "55 8576 7370",
+    "website": "https://www.covermanager.com/reservation/module_restaurant/saintjacques-bistrot/spanish",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=12502204622713534975&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 1:00–6:00 p.m.",
+      "lunes: 1:00–11:00 p.m.",
+      "martes: 1:00–11:00 p.m.",
+      "miércoles: 1:00–11:00 p.m.",
+      "jueves: 1:00–11:00 p.m.",
+      "viernes: 1:00–11:00 p.m.",
+      "sábado: 1:00–11:00 p.m."
+    ],
+    "rating": 4.6,
+    "reviewCount": 575
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "missing",
+    "observedAt": null,
+    "observationAgeDaysAtExport": null,
+    "documentCount": 0,
+    "itemCount": 0,
+    "documents": [],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.covermanager.com/reservation/module_restaurant/saintjacques-bistrot/spanish",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:52:00.067+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=12502204622713534975&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:56.167+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "google_places",
+      "official_website",
+      "resy"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "resy",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:22:46.882468+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 269,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram,menu",
+    "actionPriority": 6,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_cuisine",
+      "missing_price_level",
+      "missing_source_summary",
+      "missing_menu_document",
+      "missing_structured_menu_items"
+    ]
+  }
+}

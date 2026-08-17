@@ -1,0 +1,98 @@
+{
+  "catalogName": "TAQUERÍA LA ESTRELLA",
+  "slug": "taqueria-la-estrella",
+  "status": "enriched",
+  "confidence": "medium",
+  "name": "Taquería La Estrella",
+  "location": {
+    "address": "Londres 208, Juárez/Roma edge (IG @taqueria.laestrella — Durango-style asada).",
+    "neighborhood": "Juárez",
+    "borough": "Cuauhtémoc",
+    "postalCode": null,
+    "coordinates": {
+      "latitude": 19.4235365,
+      "longitude": -99.1676948
+    }
+  },
+  "contact": {
+    "phone": null,
+    "website": "https://www.instagram.com/taqueria.laestrella/",
+    "instagram": "taqueria.laestrella",
+    "email": null,
+    "websiteIsInstagram": true
+  },
+  "hours": [
+    "dom–mié 13:00–01:00",
+    "jue–sáb 13:00–04:00"
+  ],
+  "food": {
+    "cuisine": "tacos asada estilo Durango",
+    "priceLevel": 1
+  },
+  "reservation": {
+    "platform": "walk-in",
+    "url": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.eluniversal.com.mx/menu/la-estrella-tacos-gourmet-de-asada-costillas-y-hasta-molleja/",
+    "observedAt": "2026-08-17",
+    "itemCount": 7,
+    "items": [
+      {
+        "name": "Taco de asada"
+      },
+      {
+        "name": "Taco de molleja"
+      },
+      {
+        "name": "Taco de chorizo"
+      },
+      {
+        "name": "Taco campechano"
+      },
+      {
+        "name": "Taco de aguja norteña"
+      },
+      {
+        "name": "Taco de costilla con cadena"
+      },
+      {
+        "name": "Asada con queso en tortilla de harina",
+        "price": 110,
+        "currency": "MXN",
+        "description": "2 por $110 — Alan x el Mundo"
+      }
+    ],
+    "notes": "Official IG: tacos de carne asada estilo Durango (Londres 208). No published itemized carta. US 'La Estrella' menus are other cities — not used."
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/taqueria.laestrella/",
+      "fields": [
+        "address",
+        "hours"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://www.instagram.com/taqueria.laestrella/",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "notes": [
+    "Many Estrellas exist. This is the CDMX asada one matching the catalog capitalization."
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": []
+}

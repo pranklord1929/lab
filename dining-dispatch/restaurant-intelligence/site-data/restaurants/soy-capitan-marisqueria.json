@@ -1,0 +1,844 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "2f968364-a72e-49a3-8b24-bf1377bfea4a",
+  "slug": "soy-capitan-marisqueria",
+  "name": "Soy Capitán Marisquería",
+  "location": {
+    "neighborhood": "NARVARTE ORIENTE",
+    "borough": "Benito Juárez",
+    "address": "Xola 1806-Loc B - 91 And 92, Narvarte Oriente, Benito Juárez, 03023 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3953332,
+      "longitude": -99.1479686
+    }
+  },
+  "contact": {
+    "phone": "55 5440 4845",
+    "website": "http://www.soycapitan.com.mx/",
+    "instagram": "https://instagram.com/soycapitanpescaderia/",
+    "googleMapsUrl": "https://maps.google.com/?cid=3238422382947431330&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "seafood",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 1:00–8:00 p.m.",
+      "lunes: Cerrado",
+      "martes: Cerrado",
+      "miércoles: 1:00–8:00 p.m.",
+      "jueves: 1:00–8:00 p.m.",
+      "viernes: 1:00–8:00 p.m.",
+      "sábado: 1:00–8:00 p.m."
+    ],
+    "rating": 4.1,
+    "reviewCount": 505
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "local_extraction_candidate",
+    "observedAt": "2026-07-17T10:10:05.905Z",
+    "observationAgeDaysAtExport": 31,
+    "documentCount": 32,
+    "itemCount": 12,
+    "documents": [
+      {
+        "id": "09884508-dbbe-4e8f-ae0b-578a5441b80d",
+        "sourceUrl": "http://www.soycapitan.com.mx/images/carta-menu_06.jpg?crc=1134903",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "32f06b4c-b3db-451f-8066-1da6178a7d52",
+        "sourceUrl": "http://www.soycapitan.com.mx/images/carta-tlahuac_10.jpg?crc=3868216377",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "416be237-bb0d-4a6a-8eff-d951c21f395a",
+        "sourceUrl": "http://www.soycapitan.com.mx/images/carta-tlahuac_11.jpg?crc=4048413843",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "45b0c480-1324-453c-9f91-0b482cec4e54",
+        "sourceUrl": "http://www.soycapitan.com.mx/images/carta-tlahuac_09.jpg?crc=367683045",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "57c1d4e2-2611-4045-a755-bbbfae1dd8c2",
+        "sourceUrl": "http://www.soycapitan.com.mx/images/carta-tlahuac_02.jpg?crc=531540646",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "62dad3d8-087a-4f38-bdd7-bc0b1f43f5f0",
+        "sourceUrl": "http://www.soycapitan.com.mx/images/carta-tlahuac_04.jpg?crc=4106335723",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "65de4e94-3e60-4e04-8dad-01e64ba5b8b0",
+        "sourceUrl": "http://www.soycapitan.com.mx/images/carta-menu_08.jpg?crc=4043930554",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "68d02f6f-68eb-4fee-80d6-b1ffd9aa873b",
+        "sourceUrl": "http://www.soycapitan.com.mx/images/carta-menu_07.jpg?crc=237421975",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "6bc89811-0e8e-4f32-be89-ebcf37fd9b82",
+        "sourceUrl": "http://www.soycapitan.com.mx/images/carta-tlahuac_12.jpg?crc=59535815",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "740cc283-326f-4b66-9833-366ceede20b8",
+        "sourceUrl": "http://www.soycapitan.com.mx/images/carta-menu_02.jpg?crc=403931783",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "82007903-28da-48e2-aee9-b0a0d69c85d8",
+        "sourceUrl": "http://www.soycapitan.com.mx/images/carta-menu_11.jpg?crc=225900600",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "949ef1e4-9010-4fc1-bf9d-b4e3b0fac5d5",
+        "sourceUrl": "http://www.soycapitan.com.mx/images/carta-tlahuac_07.jpg?crc=4123872847",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "96e47840-89d1-42a0-aeca-067cec10b381",
+        "sourceUrl": "http://www.soycapitan.com.mx/images/carta-tlahuac_06.jpg?crc=4159319646",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "9741a563-61a9-4482-aab8-1ef1312a3e5e",
+        "sourceUrl": "http://www.soycapitan.com.mx/images/carta-menu_05.jpg?crc=463092866",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "9faa4ff5-499d-488a-9c00-9bfed7da292b",
+        "sourceUrl": "http://www.soycapitan.com.mx/images/carta-menu_04.jpg?crc=491922733",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "ab8d3eae-2225-4dd3-87f6-1d025fad455b",
+        "sourceUrl": "http://www.soycapitan.com.mx/images/carta-menu_09.jpg?crc=4140369804",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "ace4379d-ecf6-4106-b150-074b4283b691",
+        "sourceUrl": "http://www.soycapitan.com.mx/images/carta-tlahuac_03.jpg?crc=4225763615",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "c8889f13-4eb6-4293-b640-2115e70cc43d",
+        "sourceUrl": "http://www.soycapitan.com.mx/images/carta-tlahuac_08.jpg?crc=52760075",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "ce8a649b-4559-4e8b-be2d-6f84301199bb",
+        "sourceUrl": "http://www.soycapitan.com.mx/images/carta-menu_12.jpg?crc=4251721707",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "d2891f92-9882-4230-80d3-fc124e8618d9",
+        "sourceUrl": "http://www.soycapitan.com.mx/images/carta-tlahuac_01.jpg?crc=2832197",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "e614728a-ab71-4efb-9916-cb49857097f7",
+        "sourceUrl": "http://www.soycapitan.com.mx/carta-menu_01_1769150394436.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "f458d624-6f0b-44d3-a8f0-6cdf5c6eb261",
+        "sourceUrl": "http://www.soycapitan.com.mx/images/carta-menu_03.jpg?crc=113644207",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "f57b32f6-c5d5-44fb-aeb6-82cc09c02b20",
+        "sourceUrl": "http://www.soycapitan.com.mx/images/carta-tlahuac_05.jpg?crc=522859925",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "f6d1e458-728c-4c15-9490-a385cfaa5666",
+        "sourceUrl": "http://www.soycapitan.com.mx/images/carta-menu_10.jpg?crc=4008632670",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "ffd04ba7-cf36-4172-b619-f46dd2d16056",
+        "sourceUrl": "http://www.soycapitan.com.mx/images/carta-menu_01.jpg?crc=4254752602",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "470a4af3-34d2-4374-887e-6da5b5bea58d",
+        "sourceUrl": "http://www.soycapitan.com.mx/menus.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "9afcd92c-b788-4f20-a0fd-09ff1b938e43",
+        "sourceUrl": "http://www.soycapitan.com.mx/a-la-carta-playa.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "ca11f3c8-590d-4b6a-acc7-8e268652b8e9",
+        "sourceUrl": "http://www.soycapitan.com.mx/a-la-carta-xola.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "d01f996f-f69a-4cc4-b0ed-78c9c38e9902",
+        "sourceUrl": "http://www.soycapitan.com.mx/phone/a-la-carta.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "f259351a-c36c-49ba-a212-6f280ddb95f9",
+        "sourceUrl": "http://www.soycapitan.com.mx/a-la-carta-tlahuac.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T21:03:07.607Z"
+      },
+      {
+        "id": "39a968e1-f113-486f-b585-ed33d6f3ffa5",
+        "sourceUrl": "http://www.soycapitan.com.mx/images/timon-menu.svg?crc=3770319172",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:decorative_asset",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T21:03:03.163Z"
+      },
+      {
+        "id": "6a9bd2c2-e991-48dc-a9cf-858ec1ea14d6",
+        "sourceUrl": "http://www.soycapitan.com.mx/images/image-carta_12.gif?crc=176870159",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:decorative_asset",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T21:03:03.163Z"
+      }
+    ],
+    "items": [
+      {
+        "id": "aed36f7bcb59a368b7c6db95194b8ab7",
+        "documentId": null,
+        "name": "Aros de calamaro",
+        "description": null,
+        "price": 105,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "d48766998920a4b10852f2805add59fe",
+        "documentId": null,
+        "name": "Caldo Sinaloense",
+        "description": null,
+        "price": 72,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "1265e1d679cc82a5ce56efdbc9f4edc9",
+        "documentId": null,
+        "name": "Caldo de Jaiba",
+        "description": null,
+        "price": 94,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "cbf91f750c1d7941a8a89d7f63544c9c",
+        "documentId": null,
+        "name": "Caldo de camarón",
+        "description": null,
+        "price": 83,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "14c01a5d0fcd0af06674729b0fbb59fe",
+        "documentId": null,
+        "name": "Chilpachole de Jaiba",
+        "description": null,
+        "price": 105,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "b8d68b850ecc3a1e5badf65e3720de88",
+        "documentId": null,
+        "name": "Crema de camarón",
+        "description": null,
+        "price": 65,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "29c032e5fbbbb4b994da05236c66f3b0",
+        "documentId": null,
+        "name": "Filettos de pescado",
+        "description": null,
+        "price": 50,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "0662551abb5366052a4480f87470b2e0",
+        "documentId": null,
+        "name": "Habanero de camarón",
+        "description": null,
+        "price": 152,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "7ec1e2b73ff5dcddda8a37aa8d3b786d",
+        "documentId": null,
+        "name": "Nuggets de pescado",
+        "description": null,
+        "price": 98,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "2300e076931a9cf79f5c40ceaf1d225d",
+        "documentId": null,
+        "name": "Sopa de mariscos",
+        "description": null,
+        "price": 83,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "c714d5f1dbe63bf3ba53590f9d0d187d",
+        "documentId": null,
+        "name": "Verde de Atún",
+        "description": null,
+        "price": 152,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "af097ef3c9d910e3bfba2b890b86fa54",
+        "documentId": null,
+        "name": "Verde de camarón",
+        "description": null,
+        "price": 137,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.soycapitan.com.mx/phone/a-la-carta.html",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.soycapitan.com.mx/menus.html",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.soycapitan.com.mx/a-la-carta-xola.html",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.soycapitan.com.mx/a-la-carta-tlahuac.html",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.soycapitan.com.mx/a-la-carta-playa.html",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.soycapitan.com.mx/images/carta-menu_01.jpg?crc=4254752602",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.soycapitan.com.mx/images/carta-menu_02.jpg?crc=403931783",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.soycapitan.com.mx/images/carta-menu_03.jpg?crc=113644207",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.soycapitan.com.mx/images/carta-menu_04.jpg?crc=491922733",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.soycapitan.com.mx/images/carta-menu_05.jpg?crc=463092866",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.soycapitan.com.mx/images/carta-menu_06.jpg?crc=1134903",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.soycapitan.com.mx/images/carta-menu_07.jpg?crc=237421975",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.soycapitan.com.mx/images/carta-menu_08.jpg?crc=4043930554",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.soycapitan.com.mx/images/carta-menu_09.jpg?crc=4140369804",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.soycapitan.com.mx/images/carta-menu_10.jpg?crc=4008632670",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.soycapitan.com.mx/images/carta-menu_11.jpg?crc=225900600",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.soycapitan.com.mx/images/carta-menu_12.jpg?crc=4251721707",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.soycapitan.com.mx/carta-menu_01_1769150394436.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.soycapitan.com.mx/images/carta-tlahuac_01.jpg?crc=2832197",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.soycapitan.com.mx/images/carta-tlahuac_02.jpg?crc=531540646",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.soycapitan.com.mx/images/carta-tlahuac_03.jpg?crc=4225763615",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.soycapitan.com.mx/images/carta-tlahuac_04.jpg?crc=4106335723",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.soycapitan.com.mx/images/carta-tlahuac_05.jpg?crc=522859925",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.soycapitan.com.mx/images/carta-tlahuac_06.jpg?crc=4159319646",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.soycapitan.com.mx/images/carta-tlahuac_07.jpg?crc=4123872847",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.soycapitan.com.mx/images/carta-tlahuac_08.jpg?crc=52760075",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.soycapitan.com.mx/images/carta-tlahuac_09.jpg?crc=367683045",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.soycapitan.com.mx/images/carta-tlahuac_10.jpg?crc=3868216377",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.soycapitan.com.mx/images/carta-tlahuac_11.jpg?crc=4048413843",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.soycapitan.com.mx/images/carta-tlahuac_12.jpg?crc=59535815",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "http://www.soycapitan.com.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:52:11.561+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=3238422382947431330&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:53:04.713+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/soycapitanpescaderia/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/soycapitanpescaderia/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.165171+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:23:20.290268+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 6,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_source_summary"
+    ]
+  }
+}

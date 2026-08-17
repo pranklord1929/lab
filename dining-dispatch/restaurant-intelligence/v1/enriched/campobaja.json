@@ -1,0 +1,115 @@
+{
+  "catalogName": "Campobaja",
+  "slug": "campobaja",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Campobaja",
+  "location": {
+    "address": "Colima 124, Roma Norte",
+    "neighborhood": "Roma Norte",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06700",
+    "coordinates": {
+      "latitude": 19.4201946,
+      "longitude": -99.1583255
+    }
+  },
+  "contact": {
+    "phone": "+52 55 7091 5660",
+    "website": "https://campobaja.mx/",
+    "instagram": "campobaja",
+    "email": null
+  },
+  "hours": [
+    "Secondary listings vary (some say Colima 124 via Michelin/OpenTable). Hours not locked from official page this pass."
+  ],
+  "food": {
+    "cuisine": "seafood / baja",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/r/campobaja-ciudad-de-mexico"
+  },
+  "distinctions": {
+    "michelin": "Seleccionado: Buena cocina",
+    "michelinStars": 0
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/campobaja",
+    "observedAt": "2026-08-17",
+    "itemCount": 7,
+    "items": [
+      {
+        "name": "Ceviches"
+      },
+      {
+        "name": "Aguachiles"
+      },
+      {
+        "name": "Burritos"
+      },
+      {
+        "name": "Tostadas"
+      },
+      {
+        "name": "Tacos de pescado"
+      },
+      {
+        "name": "Langosta roja frita"
+      },
+      {
+        "name": "Pulpo a la parrilla"
+      }
+    ],
+    "notes": "campobaja.mx does not resolve. campobaja.com is an unrelated parked casino site."
+  },
+  "sources": [
+    {
+      "source": "michelin",
+      "url": "https://guide.michelin.com/us/en/ciudad-de-mexico/cuauhtemoc_1995126/restaurant/campobaja",
+      "fields": [
+        "address"
+      ]
+    },
+    {
+      "source": "opentable",
+      "url": "https://www.opentable.com/r/campobaja-ciudad-de-mexico",
+      "fields": [
+        "address"
+      ]
+    }
+  ],
+  "gaps": [
+    "phone",
+    "instagram",
+    "hours",
+    "coordinates"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "michelinReview": "El chef Ezequiel Hernández y su Campobaja traen la cocina de Ensenada hasta Ciudad de México. La planta superior de este restaurante distribuido en dos niveles recuerda a un almacén con techos altos, vigas de hierro y viejas maderas antaño utilizadas para remolcar barcos y hoy renacidas en forma de mesas, bancos y muebles auxiliares. La propuesta culinaria se inspira en la sencillez y autenticidad de la cocina típica de un campo pesquero mexicano. Fundamental es la calidad de los pescados y mariscos que componen su carta, pensada para compartir y con platillos como los ceviches y aguachiles, los burritos, las tostadas y, ¡cómo no!, los tacos de pescado. La langosta roja frita y el pulpo a la parrilla son obligados.",
+  "ratings": {
+    "opentable": 4.6,
+    "opentableReviews": 636
+  },
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/campobaja",
+      "id": "1210973"
+    },
+    {
+      "source": "opentable",
+      "name": "Campobaja",
+      "rating": 4.6
+    }
+  ]
+}

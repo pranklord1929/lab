@@ -1,0 +1,688 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "29426679-96c3-4ce8-814e-77c6ce860950",
+  "slug": "queseriademi",
+  "name": "queseriademi",
+  "location": {
+    "neighborhood": "HIPÓDROMO",
+    "borough": "Cuauhtémoc",
+    "address": "Alfonso Reyes 164, Hipódromo Condesa, Cuauhtémoc, 06100 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4086595,
+      "longitude": -99.1753383
+    }
+  },
+  "contact": {
+    "phone": "55 7218 5586",
+    "website": "http://www.queseriademi.mx/",
+    "instagram": "https://instagram.com/queseria_demi/",
+    "googleMapsUrl": "https://maps.google.com/?cid=15567550202054252192&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": "Easygoing option offering breakfast & brunch menus in a cozy space that has a bar & outdoor seating.",
+    "hours": [
+      "domingo: 8:00 a.m. – 4:00 p.m.",
+      "lunes: 8:00 a.m. – 4:00 p.m.",
+      "martes: 8:00 a.m. – 4:00 p.m.",
+      "miércoles: 8:00 a.m. – 4:00 p.m.",
+      "jueves: 8:00 a.m. – 4:00 p.m.",
+      "viernes: 8:00 a.m. – 5:00 p.m.",
+      "sábado: 8:00 a.m. – 5:00 p.m."
+    ],
+    "rating": 4.4,
+    "reviewCount": 2066
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "local_extraction_candidate",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 4,
+    "itemCount": 36,
+    "documents": [
+      {
+        "id": "705d4bc5-16bd-4e01-b41d-6455772d3cbe",
+        "sourceUrl": "https://www.queseriademi.mx/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "7d0b5cc9-fa97-444d-a167-4364592acb1e",
+        "sourceUrl": "https://www.queseriademi.mx/desayunos",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "8c4317e0-e726-4259-aeea-3a86a332599f",
+        "sourceUrl": "https://queseriademi.mx/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "aff53689-a443-4399-a749-60827d97975c",
+        "sourceUrl": "https://www.queseriademi.mx/bebidas",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": [
+      {
+        "id": "24b87e51f1cdccd1955b057a22fdef68",
+        "documentId": null,
+        "name": "AGUA DEL DÍA (250 ml)",
+        "description": null,
+        "price": 30,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "80b80dab048e34b8899209a6faaf4f7e",
+        "documentId": null,
+        "name": "Agrega Blueberry en tus Hot Cakes +",
+        "description": null,
+        "price": 20,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "46971c7c4d214655ae150a177bc4618a",
+        "documentId": null,
+        "name": "Bebidas sin Alcohol",
+        "description": null,
+        "price": 40,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "d8d192f248bbf2f69001b95f1eccabd2",
+        "documentId": null,
+        "name": "CECILIO España (Merlot) ———— Copa",
+        "description": null,
+        "price": 135,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "7cb6ab433b927f698735fd8cb7f3ba48",
+        "documentId": null,
+        "name": "CECILIO España (Pinot Noir) ———— Copa",
+        "description": null,
+        "price": 135,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "5f86899c2ea02c5804bb18a38838dcc4",
+        "documentId": null,
+        "name": "CETTO Valle de Guadalupe (Chardonnay) ———— Copa",
+        "description": null,
+        "price": 125,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "a93764d63221ec9a37037cc0416ba33a",
+        "documentId": null,
+        "name": "CUNE RUEDA España (Verdejo) ———— Copa",
+        "description": null,
+        "price": 125,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "96e89261d9f6019c51e7b6e4055b9b11",
+        "documentId": null,
+        "name": "Cerveza",
+        "description": null,
+        "price": 15,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "dc969a3c03748df1842b79e24dad5734",
+        "documentId": null,
+        "name": "Cerveza",
+        "description": null,
+        "price": 25,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "6bc0651466e0bdb71ca44ea47f74d855",
+        "documentId": null,
+        "name": "Cocteles",
+        "description": null,
+        "price": 120,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "d42ebf408ec42b73f6f5298bbc44e8ba",
+        "documentId": null,
+        "name": "DE FRUTOS ROJOS Zarzamora, blueberry, frambuesa y fresa",
+        "description": null,
+        "price": 120,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "fe9b77f60033f40146d87a41f351a0c4",
+        "documentId": null,
+        "name": "DE FUTA MIXTA Mezcla de fruta de temporada",
+        "description": null,
+        "price": 120,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "9e7356c0fe30e85fc584d2ec9d43072f",
+        "documentId": null,
+        "name": "Extra de Huevo +",
+        "description": null,
+        "price": 20,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "41e3d4036eea3f4a2db624866d8c9387",
+        "documentId": null,
+        "name": "Extra de Jamón Serrano +",
+        "description": null,
+        "price": 35,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "af8d873e914ad432b8c8b9c2701d4ad4",
+        "documentId": null,
+        "name": "Favoritos",
+        "description": null,
+        "price": 147,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "cf5cc8462a33da65f8541e9fcfff9d78",
+        "documentId": null,
+        "name": "Ingrediente Extra (c/u)",
+        "description": null,
+        "price": 35,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "6fe745e7acc32247f5380e97ebd79b38",
+        "documentId": null,
+        "name": "LA REDONDA NOSOTROS Querétaro (Multivarietal) ———— Copa",
+        "description": null,
+        "price": 120,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "f2c9a2c3f0af0f14ce75928ae0d8c03f",
+        "documentId": null,
+        "name": "LA REDONDA Querétaro (Tinto Rubí) ———— Copa",
+        "description": null,
+        "price": 115,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "97b2f54ff9303b5ac316169ffc48da45",
+        "documentId": null,
+        "name": "LA REDONDA Querétaro (Tinto Rubí) ———— Copa",
+        "description": null,
+        "price": 120,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "eac45c74c2fc5c3c555b2c2ee0a69bff",
+        "documentId": null,
+        "name": "MODELO ESPECIAL (355 ml)",
+        "description": null,
+        "price": 45,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "b727c6299cd73e3ede8b0c170e4b9eae",
+        "documentId": null,
+        "name": "Manchego, Manchego Semicurado, Brie, Suizo, Cabra o Panela.",
+        "description": null,
+        "price": 135,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "a152e183feec5b8a5fe2a3574ecf5a20",
+        "documentId": null,
+        "name": "NEGRA MODELO (355 ml)",
+        "description": null,
+        "price": 45,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "e733591447c313a9d0e33bca6f9d0b93",
+        "documentId": null,
+        "name": "NUEVO Valle de Guadalupe (Sauvignon Blanc) ———— Copa",
+        "description": null,
+        "price": 110,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "879649d764822a66692e1360d3997d25",
+        "documentId": null,
+        "name": "Oaxaca y Manchego orgánicos, acompañados de salsa Mexicana",
+        "description": null,
+        "price": 108,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "476e7857bfc6c65e966c5baac0350f0e",
+        "documentId": null,
+        "name": "PAN DULCE Croissant, Chocolatín, Concha de Vainilla",
+        "description": null,
+        "price": 45,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "460230615faa82bbc594e4f800867cdd",
+        "documentId": null,
+        "name": "PUERTO NUEVO Valle de Guadalupe (Cabernet/Malbec) ———— Copa",
+        "description": null,
+        "price": 120,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "bc57866b3b8dbc8ba802c1a3a5fdcf0d",
+        "documentId": null,
+        "name": "REFRESCOS BÚHO (355 ml)",
+        "description": null,
+        "price": 58,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "c5af7b01e12bfddfdf582fa07e24350b",
+        "documentId": null,
+        "name": "REFRESCOS COCA-COLA (355 ml)",
+        "description": null,
+        "price": 40,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "4a270cdd96e38a96862d81346febc2c9",
+        "documentId": null,
+        "name": "ROLLO DE PISTACHE Simplemente delicioso",
+        "description": null,
+        "price": 45,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "932a59e5e7c9e16a5fbfc6650141b62b",
+        "documentId": null,
+        "name": "SAN PELLEGRINO (250 ml)",
+        "description": null,
+        "price": 35,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "5b5da6be17ee414a24015765c4e1cc9a",
+        "documentId": null,
+        "name": "STELLA ATROISE (355 ml)",
+        "description": null,
+        "price": 80,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "33b630bad804b6e70b3210cd5c085316",
+        "documentId": null,
+        "name": "TOPO CHICO (355 ml)",
+        "description": null,
+        "price": 47,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "38d9b59386a75bb5089be0d66de97e4e",
+        "documentId": null,
+        "name": "Tocino Extra",
+        "description": null,
+        "price": 115,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "4c35afa37493d8905c1cb89933559fb8",
+        "documentId": null,
+        "name": "VALERIANO Castilla, España (Tempranillo) ———— Copa",
+        "description": null,
+        "price": 135,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "319d8f8f989c0dc91cd8c9ad88de5829",
+        "documentId": null,
+        "name": "Vino por Copeo",
+        "description": null,
+        "price": 370,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "9110141debfedb3c9a37cadb9db0af98",
+        "documentId": null,
+        "name": "YOGHURT NATURAL Y GRANOLA",
+        "description": null,
+        "price": 55,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.queseriademi.mx/desayunos",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.queseriademi.mx/bebidas",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://queseriademi.mx/menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.queseriademi.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:58.105+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=15567550202054252192&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:53.435+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "http://facebook.com/QueseriaDeMI/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/queseria_demi/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:18:29.087765+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 292,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_cuisine",
+      "missing_price_level"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "la-once-mil",
+  "name": "La Once Mil",
+  "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/miguel-hidalgo_1999281/restaurante/la-once-mil",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Arrachera Prime"
+    },
+    {
+      "name": "Tortillas hechas a mano"
+    },
+    {
+      "name": "Salsa cruda"
+    },
+    {
+      "name": "Salsa martajada de chiles de árbol y morita"
+    }
+  ],
+  "notes": "Guía Michelin 2026 inspector (CDMX). Restored after a later overwrite emptied the file."
+}

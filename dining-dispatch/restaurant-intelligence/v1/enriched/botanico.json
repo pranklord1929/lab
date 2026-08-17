@@ -1,0 +1,139 @@
+{
+  "catalogName": "Botánico",
+  "slug": "botanico",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Botánico",
+  "location": {
+    "address": "Alfonso Reyes 217, Condesa / Hipódromo",
+    "neighborhood": "Condesa",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06100",
+    "coordinates": {
+      "latitude": 19.4071091,
+      "longitude": -99.1739583
+    }
+  },
+  "contact": {
+    "phone": "+52 55 5271 2152",
+    "website": "https://botanico.website/",
+    "instagram": "botanicomx",
+    "email": null
+  },
+  "hours": [
+    "lun cerrado",
+    "mar–dom 13:00–01:00"
+  ],
+  "food": {
+    "cuisine": "contemporary",
+    "chef": "Ernesto (cited on official site)",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "phone / opentable",
+    "url": "https://www.opentable.com/r/botanico-ciudad-de-mexico",
+    "notes": "Official CTA is phone reservation."
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "local://sqlite-menu-items",
+    "observedAt": "2026-08-17",
+    "itemCount": 6,
+    "items": [
+      {
+        "name": "Fried calamari",
+        "description": "Perfectly fried calamari",
+        "price": null,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "Tuna carpaccio",
+        "description": "Delicate tuna carpaccio",
+        "price": null,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "Lamb pappardelle",
+        "description": "Tender lamb pappardelle",
+        "price": null,
+        "currency": "MXN",
+        "category": null
+      },
+      {
+        "name": "Passionfruit cocktail",
+        "description": "Vibrant passionfruit blend",
+        "price": null,
+        "currency": "MXN",
+        "category": "Cocktails"
+      },
+      {
+        "name": "Sparkling lemonade mocktail",
+        "description": "Refreshing sparkling lemonade mocktail with a lively twist",
+        "price": null,
+        "currency": "MXN",
+        "category": "Cocktails"
+      },
+      {
+        "name": "Tamarind cocktail",
+        "description": "Vibrant tamarind blend",
+        "price": null,
+        "currency": "MXN",
+        "category": "Cocktails"
+      }
+    ],
+    "notes": "Prior extraction corpus"
+  },
+  "sources": [
+    {
+      "source": "official",
+      "url": "https://botanico.website/",
+      "fields": [
+        "address",
+        "hours",
+        "phone",
+        "menu"
+      ]
+    },
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/botanicomx/",
+      "fields": [
+        "hours"
+      ]
+    }
+  ],
+  "gaps": [
+    "coordinates",
+    "email"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "distinctions": {
+    "michelin": "Seleccionado: Buena cocina"
+  },
+  "michelinReview": "Tras un exterior que quizá no prometa gran cosa se esconde un auténtico oasis. Sus grandes cactus, su estanque con peces y su atmósfera familiar y desenfadada hacen que el lugar se preste tanto a una cena romántica como a una comida en grupo o en familia. Unos y otros disfrutarán con platos como el aguachile de serrano y pistacho con gambas o los cavatelli salteados con cangrejo azul y rematados con migas de anchoas. Para terminar, la crème brûlée sorprende por llevar un ingrediente inesperado: la aceituna de Kalamata.",
+  "ratings": {
+    "opentable": 4.7,
+    "opentableReviews": 1126
+  },
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/botanico",
+      "id": "1208793"
+    },
+    {
+      "source": "opentable",
+      "name": "BOTANICO",
+      "rating": 4.7
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "09efa953-eba4-4d9f-92de-f54d14d5d14f",
+  "slug": "hookah-lounge",
+  "name": "Hookah Lounge",
+  "location": {
+    "neighborhood": "HIPÓDROMO",
+    "borough": "Cuauhtémoc",
+    "address": "Campeche 284, Hipódromo Condesa, Cuauhtémoc, 06100 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4083332,
+      "longitude": -99.1705995
+    }
+  },
+  "contact": {
+    "phone": "55 5264 6275",
+    "website": "http://www.hookahlounge.com.mx/",
+    "instagram": "https://instagram.com/hookahloungecondesa/",
+    "googleMapsUrl": "https://maps.google.com/?cid=3952819328058179620&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "bar",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 5:00 p.m. – 12:00 a.m.",
+      "lunes: 5:00 p.m. – 12:00 a.m.",
+      "martes: 5:00 p.m. – 12:00 a.m.",
+      "miércoles: 5:00 p.m. – 2:00 a.m.",
+      "jueves: 5:00 p.m. – 2:00 a.m.",
+      "viernes: 5:00 p.m. – 2:00 a.m.",
+      "sábado: 5:00 p.m. – 2:00 a.m."
+    ],
+    "rating": 4.3,
+    "reviewCount": 1504
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 5,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "587e1de6-364f-45b6-a450-57e06dfff968",
+        "sourceUrl": "https://hookahlounge.com.mx/wp-content/uploads/2023/02/MENU-ESPAN%CC%83OL-ALIMENTOS-B-scaled.jpg",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "7a20b114-9d9b-42e8-a2bd-9273feb0a07f",
+        "sourceUrl": "https://hookahlounge.com.mx/wp-content/uploads/2023/02/MENU-ESPAN%CC%83OL-ALIMENTOS-A-scaled.jpg",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "a0f4e9c1-3be6-4a93-acc7-d6c5b4dce490",
+        "sourceUrl": "https://hookahlounge.com.mx/wp-content/uploads/2023/02/MENU-ESPAN%CC%83OL-BEBIDAS-B-scaled.jpg",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "d7d66d20-14c2-4b4f-ae20-e33c4deebef2",
+        "sourceUrl": "https://hookahlounge.com.mx/wp-content/uploads/2023/02/MENU-ESPAN%CC%83OL-BEBIDAS-A-scaled.jpg",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "dd18f718-7eee-4ed4-ab26-e84fffbc5fcf",
+        "sourceUrl": "https://hookahlounge.com.mx",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://hookahlounge.com.mx/wp-content/uploads/2023/02/MENU-ESPAN%CC%83OL-BEBIDAS-B-scaled.jpg",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://hookahlounge.com.mx",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://hookahlounge.com.mx/wp-content/uploads/2023/02/MENU-ESPAN%CC%83OL-ALIMENTOS-B-scaled.jpg",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://hookahlounge.com.mx/wp-content/uploads/2023/02/MENU-ESPAN%CC%83OL-ALIMENTOS-A-scaled.jpg",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://hookahlounge.com.mx/wp-content/uploads/2023/02/MENU-ESPAN%CC%83OL-BEBIDAS-A-scaled.jpg",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://hookahlounge.com.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:38.403+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=3952819328058179620&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:38.851+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/grupohookah/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/hookahloungecondesa/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.165171+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:12:06.731445+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 6,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

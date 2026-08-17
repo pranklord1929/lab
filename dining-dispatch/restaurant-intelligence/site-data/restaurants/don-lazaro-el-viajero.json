@@ -1,0 +1,170 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "07d5fd3e-56f6-48f3-8f2b-25105e555839",
+  "slug": "don-lazaro-el-viajero",
+  "name": "Don Lázaro El Viajero",
+  "location": {
+    "neighborhood": "SANTA MARÍA LA RIBERA",
+    "borough": "Cuauhtémoc",
+    "address": "Cto. Interior Instituto Técnico Industrial 241, Sta María la Ribera, Cuauhtémoc, 06400 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4522512,
+      "longitude": -99.1640027
+    }
+  },
+  "contact": {
+    "phone": "55 5547 0988",
+    "website": "http://donlazaro.com/",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=13088746567295615110&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "mexican",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": "Unpretentious destination with an easygoing ambiance specializing in chile en nogada.",
+    "hours": [
+      "domingo: 10:00 a.m. – 6:00 p.m.",
+      "lunes: 10:00 a.m. – 6:00 p.m.",
+      "martes: 10:00 a.m. – 6:00 p.m.",
+      "miércoles: 10:00 a.m. – 6:00 p.m.",
+      "jueves: 10:00 a.m. – 6:00 p.m.",
+      "viernes: 10:00 a.m. – 6:00 p.m.",
+      "sábado: 10:00 a.m. – 6:00 p.m."
+    ],
+    "rating": 4,
+    "reviewCount": 2131
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 2,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "3b696378-8be5-4e80-a6a3-874347cebb9a",
+        "sourceUrl": "https://donlazaro.com/menus",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "7150373b-8127-47c0-9a54-c7541afd6b63",
+        "sourceUrl": "https://www.donlazaro.com/menus",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://donlazaro.com/menus",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.donlazaro.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:52:08.444+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=13088746567295615110&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:59.621+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.165171+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:20:13.661208+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 7,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_structured_menu_items"
+    ]
+  }
+}

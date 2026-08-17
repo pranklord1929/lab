@@ -1,0 +1,362 @@
+{
+  "catalogName": "ESTIATORIO NOSTOS",
+  "slug": "estiatorio-nostos",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Estiatorio Nostos",
+  "location": {
+    "address": "Monte Athos 415, Lomas de Chapultepec V (flagship). Also Artz Pedregal.",
+    "neighborhood": "Lomas de Chapultepec",
+    "borough": "Miguel Hidalgo",
+    "postalCode": "11000",
+    "coordinates": {
+      "latitude": 19.4208478,
+      "longitude": -99.2099601
+    }
+  },
+  "contact": {
+    "phone": "+52 55 8438 1350",
+    "website": "https://www.nostos.mx/",
+    "instagram": "nostosmx",
+    "email": null,
+    "websiteIsInstagram": false
+  },
+  "hours": [
+    "lun–mié 12:30–00:30",
+    "jue–sáb 12:30–01:30",
+    "dom 12:30–23:00"
+  ],
+  "food": {
+    "cuisine": "greek",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "opentable / whatsapp",
+    "url": "https://www.opentable.com.mx/r/estiatorio-nostos-reservations-ciudad-de-mexico",
+    "phone": "+52 55 7809 8358"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.nostos.mx/menu-nostos",
+    "observedAt": "2026-08-17",
+    "itemCount": 42,
+    "items": [
+      {
+        "name": "Ceviche Mykonos",
+        "price": null,
+        "currency": "MXN",
+        "category": "raw bar",
+        "description": "Pesca del día, limón, cuaresmeño rojo y serrano, feta"
+      },
+      {
+        "name": "Tartare de salmón",
+        "price": null,
+        "currency": "MXN",
+        "category": "raw bar",
+        "description": "Salmón canadiense, pepino, limón, aceite de oliva"
+      },
+      {
+        "name": "Tartare de atún",
+        "price": null,
+        "currency": "MXN",
+        "category": "raw bar",
+        "description": "Atún joven, chile cuaresmeño, eneldo, albahaca, aceite de oliva"
+      },
+      {
+        "name": "Sashimi de salmón",
+        "price": null,
+        "currency": "MXN",
+        "category": "raw bar"
+      },
+      {
+        "name": "Sashimi de atún",
+        "price": null,
+        "currency": "MXN",
+        "category": "raw bar"
+      },
+      {
+        "name": "Ostiones de temporada",
+        "price": null,
+        "currency": "MXN",
+        "category": "raw bar"
+      },
+      {
+        "name": "Sashimi mediterráneo",
+        "price": null,
+        "currency": "MXN",
+        "category": "raw bar",
+        "description": "Pescado entero cortado finemente"
+      },
+      {
+        "name": "Sashimi de langosta",
+        "price": null,
+        "currency": "MXN",
+        "category": "raw bar"
+      },
+      {
+        "name": "Kalamarákia",
+        "price": null,
+        "currency": "MXN",
+        "category": "appetizers",
+        "description": "Calamares ligeramente capeados"
+      },
+      {
+        "name": "Oktapodi",
+        "price": null,
+        "currency": "MXN",
+        "category": "appetizers",
+        "description": "Pulpo asado, aceite de oliva, cebolla, alcaparras"
+      },
+      {
+        "name": "Crabcakes",
+        "price": null,
+        "currency": "MXN",
+        "category": "appetizers",
+        "description": "Esferas de jaiba selecta horneada"
+      },
+      {
+        "name": "Feta Saganaki",
+        "price": null,
+        "currency": "MXN",
+        "category": "appetizers",
+        "description": "Queso feta, jitomate y chile serrano rostizado"
+      },
+      {
+        "name": "Pétalos Nostos",
+        "price": null,
+        "currency": "MXN",
+        "category": "appetizers",
+        "description": "Hojuelas de berenjena y zucchini, tzatziki"
+      },
+      {
+        "name": "Camarones Metaxa",
+        "price": null,
+        "currency": "MXN",
+        "category": "appetizers",
+        "description": "Camarones grandes asados con Metaxa"
+      },
+      {
+        "name": "Garithakia",
+        "price": null,
+        "currency": "MXN",
+        "category": "appetizers",
+        "description": "Mini camarones enteros dorados"
+      },
+      {
+        "name": "Hongos de temporada a las brasas",
+        "price": null,
+        "currency": "MXN",
+        "category": "appetizers"
+      },
+      {
+        "name": "Selección de vegetales a las brasas",
+        "price": null,
+        "currency": "MXN",
+        "category": "appetizers"
+      },
+      {
+        "name": "Graviera Saganaki",
+        "price": null,
+        "currency": "MXN",
+        "category": "appetizers"
+      },
+      {
+        "name": "Kolokythokeftedes",
+        "price": null,
+        "currency": "MXN",
+        "category": "appetizers"
+      },
+      {
+        "name": "Camarones Saganaki",
+        "price": null,
+        "currency": "MXN",
+        "category": "del mar",
+        "description": "Salsa de tomate y feta"
+      },
+      {
+        "name": "Salmón canadiense asado",
+        "price": null,
+        "currency": "MXN",
+        "category": "del mar"
+      },
+      {
+        "name": "Mejillones Saganaki",
+        "price": null,
+        "currency": "MXN",
+        "category": "del mar",
+        "description": "Salsa de tomate y feta"
+      },
+      {
+        "name": "Pescado del mercado",
+        "price": null,
+        "currency": "MXN",
+        "category": "del mar",
+        "description": "Pargo, lubina, robalito, huachinango y más; 5 preparaciones según talla"
+      },
+      {
+        "name": "Horiátiki",
+        "price": null,
+        "currency": "MXN",
+        "category": "ensaladas",
+        "description": "Jitomate, feta, pepino, pimiento verde, cebolla morada, aceitunas Kalamata"
+      },
+      {
+        "name": "Maruli",
+        "price": null,
+        "currency": "MXN",
+        "category": "ensaladas"
+      },
+      {
+        "name": "Roka",
+        "price": null,
+        "currency": "MXN",
+        "category": "ensaladas",
+        "description": "Arúgula, queso de cabra, balsámico, alcachofa y pimiento rojo asado"
+      },
+      {
+        "name": "Ensalada de langosta",
+        "price": null,
+        "currency": "MXN",
+        "category": "ensaladas"
+      },
+      {
+        "name": "Linguini con camarones",
+        "price": null,
+        "currency": "MXN",
+        "category": "pastas",
+        "description": "Salsa de tomate cherry"
+      },
+      {
+        "name": "Linguini con langosta entera",
+        "price": null,
+        "currency": "MXN",
+        "category": "pastas",
+        "description": "Salsa de tomate cherry"
+      },
+      {
+        "name": "Linguini con almejas baby",
+        "price": null,
+        "currency": "MXN",
+        "category": "pastas",
+        "description": "Vino blanco, limón, ajo, chile seco"
+      },
+      {
+        "name": "Orzo con pulpo",
+        "price": null,
+        "currency": "MXN",
+        "category": "pastas"
+      },
+      {
+        "name": "Mejillones con orzo",
+        "price": null,
+        "currency": "MXN",
+        "category": "pastas"
+      },
+      {
+        "name": "Rib eye USDA Prime 500 g",
+        "price": null,
+        "currency": "MXN",
+        "category": "de la tierra"
+      },
+      {
+        "name": "Filete mignon USDA Prime 300 g",
+        "price": null,
+        "currency": "MXN",
+        "category": "de la tierra"
+      },
+      {
+        "name": "Costilla de cordero lollipop 500 g",
+        "price": null,
+        "currency": "MXN",
+        "category": "de la tierra"
+      },
+      {
+        "name": "Kotopoulo Spazi",
+        "price": null,
+        "currency": "MXN",
+        "category": "de la tierra",
+        "description": "Medio pollo orgánico quebrado a las brasas"
+      },
+      {
+        "name": "Imam",
+        "price": null,
+        "currency": "MXN",
+        "category": "de la tierra",
+        "description": "Berenjena rellena con jitomate y cebolla"
+      },
+      {
+        "name": "Papas al limón estilo griego",
+        "price": null,
+        "currency": "MXN",
+        "category": "sides"
+      },
+      {
+        "name": "Betabeles caramelizados",
+        "price": null,
+        "currency": "MXN",
+        "category": "sides"
+      },
+      {
+        "name": "Horta — acelga arcoíris",
+        "price": null,
+        "currency": "MXN",
+        "category": "sides"
+      },
+      {
+        "name": "Espárragos a las brasas",
+        "price": null,
+        "currency": "MXN",
+        "category": "sides"
+      },
+      {
+        "name": "Papas doradas corte grueso",
+        "price": null,
+        "currency": "MXN",
+        "category": "sides"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "official",
+      "url": "https://www.nostos.mx/",
+      "fields": [
+        "website",
+        "reservation"
+      ]
+    },
+    {
+      "source": "opentable",
+      "url": "https://www.opentable.com/r/nostos-lomas-de-chapultepec-ciudad-de-mexico",
+      "fields": [
+        "hours",
+        "phone"
+      ]
+    },
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/nostosmx/",
+      "fields": [
+        "addresses",
+        "phones"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://www.nostos.mx/menu-nostos",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": [],
+  "gaps": []
+}

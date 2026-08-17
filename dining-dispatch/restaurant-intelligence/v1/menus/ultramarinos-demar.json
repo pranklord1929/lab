@@ -1,0 +1,107 @@
+{
+  "slug": "ultramarinos-demar",
+  "name": "ULTRAMARINOS DEMAR",
+  "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/ultramarinos-demar",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Tostada de maíz azul con paté de marisco y gambas al vapor",
+      "price": null,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Crema de almejas",
+      "price": null,
+      "currency": "MXN",
+      "category": "sopas"
+    },
+    {
+      "name": "Rollo de langosta / lobster roll",
+      "price": null,
+      "currency": "MXN",
+      "category": "signature"
+    },
+    {
+      "name": "Búrguer de jaiba / crab cakes",
+      "price": null,
+      "currency": "MXN",
+      "category": "signature"
+    },
+    {
+      "name": "Ostiones",
+      "price": null,
+      "currency": "MXN",
+      "category": "raw bar"
+    },
+    {
+      "name": "Almejas",
+      "price": null,
+      "currency": "MXN",
+      "category": "raw bar"
+    },
+    {
+      "name": "Crudo mixto de atún, kampachi y callo",
+      "price": null,
+      "currency": "MXN",
+      "category": "raw bar"
+    },
+    {
+      "name": "Cóctel de camarón",
+      "price": null,
+      "currency": "MXN",
+      "category": "raw bar"
+    },
+    {
+      "name": "Queso fundido con chorizo de pescado",
+      "price": null,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Pasta con cangrejo y tomates cherry",
+      "price": null,
+      "currency": "MXN",
+      "category": "pastas"
+    },
+    {
+      "name": "Pescado a la sal",
+      "price": null,
+      "currency": "MXN",
+      "category": "fuertes",
+      "description": "Salsa de mantequilla, hueva de trucha y cebollín"
+    },
+    {
+      "name": "Milanesa de camarón",
+      "price": null,
+      "currency": "MXN",
+      "category": "fuertes"
+    },
+    {
+      "name": "Camarones a la parrilla",
+      "price": null,
+      "currency": "MXN",
+      "category": "fuertes"
+    },
+    {
+      "name": "Pescado zarandeado",
+      "price": null,
+      "currency": "MXN",
+      "category": "fuertes"
+    },
+    {
+      "name": "Helado de vainilla con piel de limón",
+      "price": null,
+      "currency": "MXN",
+      "category": "postres"
+    },
+    {
+      "name": "Flan",
+      "price": null,
+      "currency": "MXN",
+      "category": "postres"
+    }
+  ],
+  "notes": "Michelin inspector named dishes + CN Traveler + Marco Beteta quoting the official carta. No HTML prices."
+}

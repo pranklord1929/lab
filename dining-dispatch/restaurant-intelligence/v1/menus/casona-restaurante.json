@@ -1,0 +1,30 @@
+{
+  "slug": "casona-restaurante",
+  "name": "Casona Restaurante",
+  "url": "https://casonaroma.com/es/experiencias-gastronomicas/",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Tacos de milanesa de domingo",
+      "category": "tacos-romita"
+    },
+    {
+      "name": "Tacos de canasta de lechón",
+      "category": "tacos-romita"
+    },
+    {
+      "name": "Tlayudas",
+      "category": "tacos-romita"
+    },
+    {
+      "name": "Gorditas de chicharrón",
+      "category": "tacos-romita"
+    },
+    {
+      "name": "Sopa de tortilla",
+      "category": "tacos-romita"
+    }
+  ],
+  "notes": "Official hotel gastronomy page: Tacos Romita concept inside Casona Roma."
+}

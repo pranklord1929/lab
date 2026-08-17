@@ -1,0 +1,191 @@
+{
+  "catalogName": "Tacos Los Alexis",
+  "slug": "tacos-los-alexis",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Tacos Los Alexis",
+  "location": {
+    "address": "Two CDMX: Chiapas 46 Roma Norte + Río Lerma 264 Juárez/Cuauhtémoc. Michelin lists Chiapas 46.",
+    "neighborhood": "Roma Norte",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06700",
+    "coordinates": {
+      "latitude": 19.4132919,
+      "longitude": -99.1569371
+    }
+  },
+  "contact": {
+    "phone": "+52 55 4021 8314",
+    "website": "https://www.tacoslosalexis.com/",
+    "instagram": "tacoslosalexis",
+    "email": null
+  },
+  "hours": [
+    "lun, mié–dom 12:30–20:30 (cerrado martes, listings)"
+  ],
+  "food": {
+    "cuisine": "tacos asada / taurinos",
+    "chef": "Alexis Ayala",
+    "priceLevel": 1
+  },
+  "reservation": {
+    "platform": "walk-in",
+    "url": "https://www.tacoslosalexis.com/"
+  },
+  "distinctions": {
+    "michelin": "Bib Gourmand : nuestras mejores relaciones calidad-precio",
+    "bibGourmand": true
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.tacoslosalexis.com/",
+    "observedAt": "2026-08-17",
+    "itemCount": 18,
+    "items": [
+      {
+        "name": "Costra Especial",
+        "price": 82,
+        "currency": "MXN",
+        "category": "especiales",
+        "description": "Carne al carbón, tortilla de harina, queso planchado, salsa borracha"
+      },
+      {
+        "name": "Vegetariano",
+        "price": 72,
+        "currency": "MXN",
+        "category": "especiales",
+        "description": "Huitlacoche, mini costra de queso, aguacate, vegetales curtidos, maíz"
+      },
+      {
+        "name": "Volcán de Carne Asada",
+        "price": 68,
+        "currency": "MXN",
+        "category": "volcanes"
+      },
+      {
+        "name": "Volcán de Taurino",
+        "price": 68,
+        "currency": "MXN",
+        "category": "volcanes",
+        "description": "Cecina, chicharrón, longaniza"
+      },
+      {
+        "name": "Costra de Carne Asada",
+        "price": 65,
+        "currency": "MXN",
+        "category": "costras"
+      },
+      {
+        "name": "Costra de Taurino",
+        "price": 65,
+        "currency": "MXN",
+        "category": "costras"
+      },
+      {
+        "name": "Taco de Carne Asada",
+        "price": 48,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Taco de Taurino",
+        "price": 48,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Flan de Queso",
+        "price": 58,
+        "currency": "MXN",
+        "category": "postres"
+      },
+      {
+        "name": "Boing de Mango",
+        "price": 47,
+        "currency": "MXN",
+        "category": "bebidas"
+      },
+      {
+        "name": "Boing de Guayaba",
+        "price": 47,
+        "currency": "MXN",
+        "category": "bebidas"
+      },
+      {
+        "name": "Agua de Jamaica",
+        "price": 45,
+        "currency": "MXN",
+        "category": "bebidas"
+      },
+      {
+        "name": "Agua de Limón con Chía",
+        "price": 45,
+        "currency": "MXN",
+        "category": "bebidas"
+      },
+      {
+        "name": "Agua de Cebada",
+        "price": 45,
+        "currency": "MXN",
+        "category": "bebidas"
+      },
+      {
+        "name": "Coca Cola Regular",
+        "price": 42,
+        "currency": "MXN",
+        "category": "bebidas"
+      },
+      {
+        "name": "Cerveza Carta Blanca",
+        "price": 58,
+        "currency": "MXN",
+        "category": "bebidas"
+      },
+      {
+        "name": "Copa Vino Tinto",
+        "price": 145,
+        "currency": "MXN",
+        "category": "bebidas"
+      },
+      {
+        "name": "Mezcal",
+        "price": 160,
+        "currency": "MXN",
+        "category": "bebidas"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "official",
+      "url": "https://www.tacoslosalexis.com/",
+      "fields": [
+        "locations",
+        "instagram"
+      ]
+    },
+    {
+      "source": "michelin",
+      "url": "https://guide.michelin.com/us/en/ciudad-de-mexico/cuauhtemoc_1995126/restaurant/tacos-los-alexis",
+      "fields": [
+        "address"
+      ]
+    }
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "michelinReview": "La taquería del chef Alexis Ayala surge justo al lado de su restaurante, el Pargot, y la disposición es similar, con una cuidada zona de preparación en el interior y una terraza cubierta con varias mesas en la acera. Tacos Los Alexis ofrece una breve variedad de especialidades entre las que se incluyen volcanes, costras y deliciosos tacos. El taco vegetariano es un elegante platillo compuesto por una excelente tortilla con huitlacoche al ajillo, aguacate, limón amarillo y chicharrón de queso.",
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/tacos-los-alexis",
+      "id": "1212121"
+    }
+  ]
+}

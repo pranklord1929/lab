@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "85c5e0de-b106-499b-b742-36fb5e3accbc",
+  "slug": "el-farolito-altata",
+  "name": "El Farolito Altata",
+  "location": {
+    "neighborhood": "HIPÓDROMO",
+    "borough": "Cuauhtémoc",
+    "address": "Altata 19, Colonia Condesa, Cuauhtémoc, 06100 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4064535,
+      "longitude": -99.1727951
+    }
+  },
+  "contact": {
+    "phone": "55 5273 7297",
+    "website": "https://elfarolito.com.mx/",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=15713507173062092572&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "taco",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 12:00 p.m. – 12:00 a.m.",
+      "lunes: 12:00 p.m. – 1:00 a.m.",
+      "martes: 12:00 p.m. – 1:00 a.m.",
+      "miércoles: 12:00 p.m. – 1:00 a.m.",
+      "jueves: 12:00 p.m. – 3:00 a.m.",
+      "viernes: 12:00 p.m. – 3:00 a.m.",
+      "sábado: 12:00 p.m. – 3:00 a.m."
+    ],
+    "rating": 4.2,
+    "reviewCount": 2377
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-15T21:15:24.172Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 2,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "7b1253e0-7bdb-4dfc-89c3-0f110528ad72",
+        "sourceUrl": "https://elfarolito.com.mx/Aviso_Privacidad_Integral_Clientes_2026.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.98,
+        "extractionMethod": "candidate_filter:legal_document",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T21:15:24.172Z"
+      },
+      {
+        "id": "90f3ef0c-3a67-408b-b7d3-be7de5a380d7",
+        "sourceUrl": "https://elfarolito.com.mx/FTO_TyC_Web.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.98,
+        "extractionMethod": "candidate_filter:legal_document",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T21:15:24.172Z"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://elfarolito.com.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:16.833+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=15713507173062092572&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:27.467+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 4,
+    "sourceNames": [
+      "foursquare",
+      "google_places",
+      "official_website",
+      "restaurantguru"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:06:02.160994+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": true,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 82,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram,menu",
+    "actionPriority": 6,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

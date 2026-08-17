@@ -1,0 +1,345 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "3d8cda10-a6a9-4756-851b-cf3b4438d768",
+  "slug": "porton-toreo",
+  "name": "Portón Toreo",
+  "location": {
+    "neighborhood": "PERIODISTA",
+    "borough": "Miguel Hidalgo",
+    "address": "Perif. Blvd. Manuel Ávila Camacho 487, Periodista, Miguel Hidalgo, 11220 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4512147,
+      "longitude": -99.2197566
+    }
+  },
+  "contact": {
+    "phone": "55 3888 3904",
+    "website": "https://www.porton.com.mx/",
+    "instagram": "https://instagram.com/portonmx/",
+    "googleMapsUrl": "https://maps.google.com/?cid=15105821317845711901&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "mexican",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 7:00 a.m. – 10:00 p.m.",
+      "lunes: 7:00 a.m. – 10:00 p.m.",
+      "martes: 7:00 a.m. – 10:00 p.m.",
+      "miércoles: 7:00 a.m. – 10:00 p.m.",
+      "jueves: 7:00 a.m. – 10:00 p.m.",
+      "viernes: 7:00 a.m. – 10:00 p.m.",
+      "sábado: 7:00 a.m. – 10:00 p.m."
+    ],
+    "rating": 3.8,
+    "reviewCount": 2404
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-17T10:10:05.905Z",
+    "observationAgeDaysAtExport": 31,
+    "documentCount": 11,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "19a7fd4b-dd38-48fe-930c-ddfbe70660dd",
+        "sourceUrl": "https://porton.com.mx/wp-content/uploads/2026/06/El-Porton-menu-desde-99-d.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "1b3ca0b8-38dc-4002-a90d-d5ce68851c1a",
+        "sourceUrl": "https://porton.com.mx/wp-content/uploads/2023/11/menu-infantil-porton.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "3a01fed0-9804-4772-849e-f1e10c5ebdff",
+        "sourceUrl": "https://porton.com.mx/wp-content/uploads/2023/11/menu-infantil-porton-768x192.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "5d9e5dd1-2119-4b4c-8b49-51eb82cdb999",
+        "sourceUrl": "https://porton.com.mx/wp-content/uploads/2026/02/Desayunos-Porton.png",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "81fda1f5-8e7f-4e8e-9952-95b82df04daa",
+        "sourceUrl": "https://porton.com.mx/wp-content/uploads/2023/11/menu-infantil-porton-300x75.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "8dcc7988-a65c-4e06-9eea-2ca14311b526",
+        "sourceUrl": "https://porton.com.mx/wp-content/uploads/2023/11/menu-infantil-porton-1024x256.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "91fad563-735b-4044-a055-fb0ab20f58e2",
+        "sourceUrl": "https://porton.com.mx/wp-content/uploads/2026/07/menu-Desayunos-PORTON-J-2026.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "944e0c63-9fd0-4736-a432-e60707e8ad06",
+        "sourceUrl": "https://porton.com.mx/wp-content/uploads/2026/06/El-Porton-menu-desde-99-m.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "966040f7-b3ef-47f6-ad72-5ffa07cec789",
+        "sourceUrl": "https://porton.com.mx/menu/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "ada14edd-eaf3-454a-ab9c-e6db9934b497",
+        "sourceUrl": "https://porton.com.mx/menu-infantil/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "ea423ca6-691d-4001-a19d-72c86567345f",
+        "sourceUrl": "https://porton.com.mx/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://porton.com.mx/wp-content/uploads/2026/07/menu-Desayunos-PORTON-J-2026.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://porton.com.mx/wp-content/uploads/2026/06/El-Porton-menu-desde-99-d.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://porton.com.mx/wp-content/uploads/2026/06/El-Porton-menu-desde-99-m.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://porton.com.mx/wp-content/uploads/2026/02/Desayunos-Porton.png",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://porton.com.mx/wp-content/uploads/2023/11/menu-infantil-porton.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://porton.com.mx/wp-content/uploads/2023/11/menu-infantil-porton-300x75.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://porton.com.mx/wp-content/uploads/2023/11/menu-infantil-porton-1024x256.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://porton.com.mx/wp-content/uploads/2023/11/menu-infantil-porton-768x192.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://porton.com.mx/menu/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://porton.com.mx/menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://porton.com.mx/menu-infantil/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://porton.com.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:59.91+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=15105821317845711901&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:52.803+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/portonmx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/portonmx/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.802169+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:18:08.863903+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 6,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

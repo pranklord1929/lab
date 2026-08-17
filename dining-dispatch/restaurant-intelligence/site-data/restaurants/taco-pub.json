@@ -1,0 +1,173 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "d40614fd-c228-4dfe-8b89-4115c42ff7f2",
+  "slug": "taco-pub",
+  "name": "Taco Pub",
+  "location": {
+    "neighborhood": "EXTREMADURA INSURGENTES",
+    "borough": "Benito Juárez",
+    "address": "Av. Insurgentes Sur 1243, Extremadura Insurgentes, Benito Juárez, 03740 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3751647,
+      "longitude": -99.1786698
+    }
+  },
+  "contact": {
+    "phone": "55 4559 0292",
+    "website": "https://www.tacopub.mx/",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=1042684471266792373&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 8:00 a.m. – 5:00 p.m.",
+      "lunes: 8:00 a.m. – 7:00 p.m.",
+      "martes: 8:00 a.m. – 7:00 p.m.",
+      "miércoles: 8:00 a.m. – 7:00 p.m.",
+      "jueves: 8:00 a.m. – 7:00 p.m.",
+      "viernes: 8:00 a.m. – 7:00 p.m.",
+      "sábado: 8:00 a.m. – 5:00 p.m."
+    ],
+    "rating": 3.9,
+    "reviewCount": 68
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 2,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "441a6e3f-7665-4abc-8347-caaa8b9e7d59",
+        "sourceUrl": "https://www.tacopub.mx/tacopub_menu.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.98,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "b5712aa6-0fa5-4f84-a8ec-11f6892c289f",
+        "sourceUrl": "https://tacopub.mx/tacopub_menu.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.95,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://tacopub.mx/tacopub_menu.pdf",
+      "confidence": 0.95,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.tacopub.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:52:09.807+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=1042684471266792373&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:53:06.281+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "google_places",
+      "official_website",
+      "resy"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "resy",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.165171+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:24:11.731094+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 6,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_cuisine",
+      "missing_price_level",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

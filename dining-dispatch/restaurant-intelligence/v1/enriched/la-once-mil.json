@@ -1,0 +1,98 @@
+{
+  "catalogName": "La Once Mil",
+  "slug": "la-once-mil",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "La Once Mil",
+  "location": {
+    "address": "Monte Everest 780, Lomas de Chapultepec (flagship). Second: Orizaba 83, Roma Norte.",
+    "neighborhood": "Lomas de Chapultepec",
+    "borough": "Miguel Hidalgo",
+    "postalCode": "11000",
+    "coordinates": {
+      "latitude": 19.41806,
+      "longitude": -99.21556
+    }
+  },
+  "contact": {
+    "phone": "+525512004228",
+    "website": "https://laoncemiltaqueria.shop",
+    "instagram": "tacoslaoncemil",
+    "email": null
+  },
+  "hours": [
+    "Michelin lists Mon 12:00–23:30 at Lomas. No reservations."
+  ],
+  "food": {
+    "cuisine": "gourmet tacos",
+    "chef": "César de la Parra",
+    "priceLevel": 2
+  },
+  "reservation": {
+    "platform": "walk-in",
+    "url": "https://laoncemiltaqueria.shop",
+    "notes": "No reservations. First come first served."
+  },
+  "distinctions": {
+    "michelin": "Una Estrella : una cocina de gran nivel",
+    "michelinStars": 0
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/miguel-hidalgo_1999281/restaurante/la-once-mil",
+    "observedAt": "2026-08-17",
+    "itemCount": 4,
+    "items": [
+      {
+        "name": "Arrachera Prime"
+      },
+      {
+        "name": "Tortillas hechas a mano"
+      },
+      {
+        "name": "Salsa cruda"
+      },
+      {
+        "name": "Salsa martajada de chiles de árbol y morita"
+      }
+    ],
+    "notes": "laoncemiltaqueria.shop redirects to a Placejoys listing; menu photos say Updating..., no structured items."
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/tacoslaoncemil/",
+      "fields": [
+        "addresses"
+      ]
+    },
+    {
+      "source": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/La_Once_Mil",
+      "fields": [
+        "coords",
+        "chef"
+      ]
+    }
+  ],
+  "gaps": [
+    "phone",
+    "hours both locations"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "michelinReview": "En una ciudad donde hay tacos para todos los gustos, destacar entre tanta competencia parece una tarea titánica. Aun así, es lo que logra con pasmosa naturalidad este concurrido establecimiento, donde, nada más sentarse a la mesa, el comensal encuentra una generosa selección de excelentes salsas caseras, desde las más suaves –como la expresiva salsa cruda– hasta otras decididamente incendiarias, como la irresistible martajada de chiles de árbol y morita. Pero eso no es más que el principio. Las carnes de gran calidad son otro de sus fuertes, especialmente la arrachera Prime: jugosa, sabrosa y difícil de superar en cualquier asador. Igualmente destacables son las tortillas, elaboradas a mano y cocinadas al momento con una destreza admirable. Un bocado basta para convencerse.",
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/miguel-hidalgo_1999281/restaurante/la-once-mil",
+      "id": "1245564"
+    }
+  ]
+}

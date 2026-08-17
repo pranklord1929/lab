@@ -1,0 +1,108 @@
+{
+  "catalogName": "Taquería El Califa de León",
+  "slug": "el-califa-de-leon",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Taquería El Califa de León",
+  "location": {
+    "address": "Av. Ribera de San Cosme 56, San Rafael",
+    "neighborhood": "San Rafael",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06470",
+    "coordinates": {
+      "latitude": 19.44111,
+      "longitude": -99.15917
+    }
+  },
+  "contact": {
+    "phone": "+52 55 5566 7859",
+    "website": "https://el-califa-de-leon.shop/",
+    "instagram": "califadeleon",
+    "email": null
+  },
+  "hours": [
+    "lun–dom 11:00–02:00 (IG). Yelp lists 11:00–14:00 next day."
+  ],
+  "food": {
+    "cuisine": "tacos / antojito",
+    "chef": "Arturo Rivera Martínez (press)",
+    "priceLevel": 1,
+    "notes": "Tiny menu (gaonera etc.). First Mexican taco stand with a Michelin star (2024–25). Star lost May 2026 (Wikipedia). Not the El Califa chain."
+  },
+  "reservation": {
+    "platform": "queue / walk-in",
+    "url": "https://el-califa-de-leon.shop/",
+    "notes": "No reservations. NYC offshoot exists; CDMX original is the catalog target."
+  },
+  "distinctions": {
+    "michelin": "Seleccionado: Buena cocina",
+    "michelinStars": 0
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.instagram.com/califadeleon/",
+    "observedAt": "2026-08-17",
+    "itemCount": 4,
+    "items": [
+      {
+        "name": "Gaonera",
+        "description": "Thin beef fillet, house signature, salt and lime",
+        "category": "tacos"
+      },
+      {
+        "name": "Campechano",
+        "description": "Mixed beef taco",
+        "category": "tacos"
+      },
+      {
+        "name": "Chuleta",
+        "description": "Pork chop taco",
+        "category": "tacos"
+      },
+      {
+        "name": "Costilla",
+        "description": "Rib taco",
+        "category": "tacos"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Taquería_El_Califa_de_León",
+      "fields": [
+        "address",
+        "coords",
+        "instagram",
+        "stars"
+      ]
+    },
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/califadeleon/",
+      "fields": [
+        "hours",
+        "address"
+      ]
+    }
+  ],
+  "gaps": [
+    "official website CDMX"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "michelinReview": "Esta taquería abierta desde hace más de medio siglo apenas si tiene espacio para que un puñado de comensales se aprieten de pie en la barra. Poco importa, el local ocupa un puesto de honor entre las taquerías de Ciudad de México gracias a su creación estrella, el taco de gaonera, realizado con carne de res cortada en finas lonchas selladas al momento y acompañadas de un sencillo aderezo de sal y lima y tortillas de maíz frescas. La chuleta y la costilla de res son otras opciones a tener también muy en cuenta, sobre todo si las acompañas con el excelente dúo de salsas caseras.",
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/taqueria-el-califa-de-leon",
+      "id": "1213236"
+    }
+  ]
+}

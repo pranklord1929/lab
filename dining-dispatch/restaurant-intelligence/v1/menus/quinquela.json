@@ -1,0 +1,73 @@
+{
+  "slug": "quinquela",
+  "name": "Quinquela",
+  "url": "https://www.opentable.com/r/quinquela-ciudad-de-mexico",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Empanada de carne braseada con salsa pomodoro",
+      "price": null,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Taco de short rib",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos",
+      "description": "Salsa criolla y alioli de jalapeño"
+    },
+    {
+      "name": "Ravioles de calabaza",
+      "price": null,
+      "currency": "MXN",
+      "category": "pastas"
+    },
+    {
+      "name": "Tortellini de carne 250 g",
+      "price": null,
+      "currency": "MXN",
+      "category": "pastas"
+    },
+    {
+      "name": "Rotolo de espinaca",
+      "price": null,
+      "currency": "MXN",
+      "category": "pastas",
+      "description": "Ricotta, parmesano, salsa fileto"
+    },
+    {
+      "name": "Milanesa de New York",
+      "price": null,
+      "currency": "MXN",
+      "category": "fuertes",
+      "description": "Romesco, morrones asados, papas, huevo estrellado"
+    },
+    {
+      "name": "Short Rib Prime 400 g",
+      "price": null,
+      "currency": "MXN",
+      "category": "parrilla"
+    },
+    {
+      "name": "New York Prime 300 g",
+      "price": null,
+      "currency": "MXN",
+      "category": "parrilla"
+    },
+    {
+      "name": "Filete grass feed 200 g",
+      "price": null,
+      "currency": "MXN",
+      "category": "parrilla"
+    },
+    {
+      "name": "Panqué de manzana al ron",
+      "price": 250,
+      "currency": "MXN",
+      "category": "postres"
+    }
+  ],
+  "notes": "OpenTable platos fuertes + Time Out México (12 Nov 2025) tasting the carta."
+}

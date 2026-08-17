@@ -1,0 +1,209 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "ceb8fd6e-4241-48d2-b295-ad384550b961",
+  "slug": "hamburguesas-hm",
+  "name": "Hamburguesas HM",
+  "location": {
+    "neighborhood": "DEL VALLE NORTE",
+    "borough": "Benito Juárez",
+    "address": "Av. Insurgentes Sur 612, Col del Valle Nte, Benito Juárez, 03103 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3965785,
+      "longitude": -99.1713779
+    }
+  },
+  "contact": {
+    "phone": "55 5536 5270",
+    "website": "http://www.hamburguesashm.com/",
+    "instagram": "https://instagram.com/hamburguesashm/",
+    "googleMapsUrl": "https://maps.google.com/?cid=11784246285117901326&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "hamburger",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 12:00–10:00 p.m.",
+      "lunes: 12:00–10:00 p.m.",
+      "martes: 12:00–10:00 p.m.",
+      "miércoles: 12:00–10:00 p.m.",
+      "jueves: 12:00–10:00 p.m.",
+      "viernes: 12:00–11:00 p.m.",
+      "sábado: 12:00–11:00 p.m."
+    ],
+    "rating": 4.4,
+    "reviewCount": 5308
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-17T10:10:05.905Z",
+    "observationAgeDaysAtExport": 31,
+    "documentCount": 3,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "da2acc48-77f3-462f-90d4-494b9af34b47",
+        "sourceUrl": "https://hmhamburguesas.com/wp-content/uploads/2020/06/Fondo-menu-slider.png",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "f894dd3e-25cd-4e8f-b6c3-9ba59f79ef50",
+        "sourceUrl": "https://hmhamburguesas.com/wp-content/uploads/2020/07/Slider-Papas-Menu.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "b969cbfa-4493-40cf-b5e8-c130dae2f9d2",
+        "sourceUrl": "https://hmhamburguesas.com/menu/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.75,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:41.576+00:00"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://hmhamburguesas.com/wp-content/uploads/2020/06/Fondo-menu-slider.png",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://hmhamburguesas.com/wp-content/uploads/2020/07/Slider-Papas-Menu.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://hmhamburguesas.com/menu/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://hmhamburguesas.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:22.689+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=11784246285117901326&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:38.759+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/HamburguesasHM",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/hamburguesashm/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:12:00.904468+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 207,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

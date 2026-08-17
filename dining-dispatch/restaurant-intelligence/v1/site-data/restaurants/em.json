@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "af6e5a91-c657-4bda-9eee-f2ecde113154",
+  "slug": "em",
+  "name": "Em",
+  "location": {
+    "neighborhood": "ROMA NORTE",
+    "borough": "Cuauhtémoc",
+    "address": "Tonalá 133, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4152424,
+      "longitude": -99.1620192
+    }
+  },
+  "contact": {
+    "phone": "55 3543 3275",
+    "website": "http://www.itsemilia.rest/",
+    "instagram": "em.rest",
+    "googleMapsUrl": "https://maps.google.com/?cid=15798568466192210347&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "contemporary mexican",
+    "michelinCuisine": "Mexicana, Actual",
+    "openTableCuisine": null,
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": "Un cóctel en el bar 686, situado en el piso superior, es la mejor forma de empezar la velada antes de ponerse entre las hábiles manos del chef Lucho Martínez. El íntimo restaurante de la planta baja, bautizado así en honor a Emilia, la hija del chef, es el lugar perfecto para una cena en pareja. Su cocina ofrece una lectura contemporánea de las riquezas de la despensa mexicana, procedentes en buen",
+    "hours": [
+      "domingo: Cerrado",
+      "lunes: 4:00–9:30 p.m.",
+      "martes: 4:00–9:30 p.m.",
+      "miércoles: 4:00–9:30 p.m.",
+      "jueves: 4:00–9:30 p.m.",
+      "viernes: 4:00–9:30 p.m.",
+      "sábado: 4:00–9:30 p.m."
+    ],
+    "rating": 4.3,
+    "reviewCount": 714
+  },
+  "distinctions": {
+    "michelin": "Una Estrella : una cocina de gran nivel",
+    "michelinStars": 1,
+    "bibGourmand": false,
+    "worlds50Best": true,
+    "worlds50BestRank": "71",
+    "worlds50BestList": "Latin America's 50 Best Restaurants"
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null,
+    "url": "https://itsemilia.rest/",
+    "platform": "tock"
+  },
+  "menu": {
+    "state": "michelin_inspector",
+    "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/em",
+    "observedAt": "2026-08-17",
+    "itemCount": 3,
+    "items": [
+      {
+        "name": "Maíz tierno a la parrilla, salsa de café, mantequilla dorada y yuzu",
+        "category": "degustacion"
+      },
+      {
+        "name": "Tostada de pescado guisado al estilo Veracruz, láminas de aguacate y caviar",
+        "category": "degustacion"
+      },
+      {
+        "name": "Postre de mamey — brazo de gitano y tartaleta helada",
+        "category": "postres"
+      }
+    ],
+    "notes": "Prepaid tasting via Tock. No public à la carte. Corkage $600 MXN. No vegan/allium-free menu."
+  },
+  "links": [
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://itsemilia.rest/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:17.546+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=15798568466192210347&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:32.942+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 7,
+    "sourceNames": [
+      "google_places",
+      "mexico_gastronomico",
+      "michelin",
+      "official_website",
+      "restaurantguru",
+      "wikidata",
+      "worlds50best"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "mexico_gastronomico",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "photos": "google_places",
+      "description": "michelin"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:08:17.735214+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 6,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "menu",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_cuisine",
+      "missing_price_level",
+      "missing_source_summary",
+      "missing_menu_document",
+      "missing_structured_menu_items"
+    ]
+  }
+}

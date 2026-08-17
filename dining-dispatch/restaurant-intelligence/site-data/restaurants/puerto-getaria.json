@@ -1,0 +1,605 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "77d6e401-0d92-48c3-ab31-dcb586f1cf28",
+  "slug": "puerto-getaria",
+  "name": "Puerto Getaria",
+  "location": {
+    "neighborhood": "NÁPOLES",
+    "borough": "Benito Juárez",
+    "address": "Dakota 159, Nápoles, Benito Juárez, 03810 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3937376,
+      "longitude": -99.1755866
+    }
+  },
+  "contact": {
+    "phone": "55 5536 4811",
+    "website": "https://www.puertogetaria.com/",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=8125481900253218249&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "spanish",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 3
+  },
+  "experience": {
+    "sourceSummary": "Updated takes on Spanish classics & wine presented in a sophisticated environment.",
+    "hours": [
+      "domingo: 1:00–6:00 p.m.",
+      "lunes: 1:00–6:00 p.m.",
+      "martes: 1:00–11:00 p.m.",
+      "miércoles: 1:00–11:00 p.m.",
+      "jueves: 1:00–11:00 p.m.",
+      "viernes: 1:00–11:00 p.m.",
+      "sábado: 1:00–11:00 p.m."
+    ],
+    "rating": 4.5,
+    "reviewCount": 959
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "local_extraction_candidate",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 5,
+    "itemCount": 29,
+    "documents": [
+      {
+        "id": "8e2727e9-4f63-44de-9860-da3e82d0b525",
+        "sourceUrl": "https://puertogetaria.com/wp-content/uploads/2022/12/carta.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.98,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "9a7f1828-96a1-48a0-8d93-5c73ffd667c2",
+        "sourceUrl": "https://puertogetaria.com/wp-content/uploads/2022/12/postres.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.98,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "b9c4c0c3-a684-4e0e-8160-38f21b8d449b",
+        "sourceUrl": "https://puertogetaria.com/wp-content/uploads/2023/07/vinos.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.98,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "dc5d9a6a-175b-4e0d-bdac-b883830211bb",
+        "sourceUrl": "https://puertogetaria.com/wp-content/uploads/2022/12/sugerencias.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.98,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "5838871c-50fc-47cc-97f3-2847d50f7894",
+        "sourceUrl": "https://puertogetaria.com/menu/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.75,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:56:04.66+00:00"
+      }
+    ],
+    "items": [
+      {
+        "id": "98eea427ab43c974108d026ad0a8e5e7",
+        "documentId": null,
+        "name": "Alubias con chorizo",
+        "description": null,
+        "price": 345,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "f9528c232fe5d3206b9cf87f4955be49",
+        "documentId": null,
+        "name": "Bacalao al Pilpil o a la Vizcaína",
+        "description": null,
+        "price": 630,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "f32ae9f8846f55150f09a39786e47d78",
+        "documentId": null,
+        "name": "Callos a la Andaluza",
+        "description": null,
+        "price": 445,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "dd5407d8f7a3ebc98ae50084679d5b08",
+        "documentId": null,
+        "name": "Carnes",
+        "description": null,
+        "price": 607,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "42f8e2df1ddee24b6695c8efa648e56f",
+        "documentId": null,
+        "name": "Cazuela de Gulas con Gambas y Champiñon",
+        "description": null,
+        "price": 326,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "b7e94db310375252bd75b449d1bd2878",
+        "documentId": null,
+        "name": "Chistorra frita",
+        "description": null,
+        "price": 223,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "0a72a3cf7c953785f819f2463d47a0cb",
+        "documentId": null,
+        "name": "Croquetas de Jamón Serrano (8 pzs)",
+        "description": null,
+        "price": 152,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "fc1d1baf2c31abf4b186d580805f65af",
+        "documentId": null,
+        "name": "Cubierto…………………………………………………………………….……",
+        "description": null,
+        "price": 30,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "2dc5feb8823bf7e61e707e995e7bd974",
+        "documentId": null,
+        "name": "Ensalada Mixta estilo Puerto Getaria",
+        "description": null,
+        "price": 350,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "009b1dd9f702dd4d98cd153cf289032e",
+        "documentId": null,
+        "name": "Ensaladas",
+        "description": null,
+        "price": 310,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "e1c1b060fa8b610c3d544a29faf1df94",
+        "documentId": null,
+        "name": "Espárragos al carbón con queso Idiazabal",
+        "description": null,
+        "price": 345,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "b409e98cf341a5a6225916cfa2acf833",
+        "documentId": null,
+        "name": "Estofado de pollo al Guajillo",
+        "description": null,
+        "price": 326,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "a8bd8a2631e6d94f4a8b2828ef3cfbad",
+        "documentId": null,
+        "name": "Jamón serrano Español",
+        "description": null,
+        "price": 385,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "c7fbdd7fed0de46175646c40b5e4cf0c",
+        "documentId": null,
+        "name": "Pan con tomate y Jamón Serrano (5 pzs)",
+        "description": null,
+        "price": 375,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "161fa030e8dcd7e9b81bf8759743de70",
+        "documentId": null,
+        "name": "Pastas y Arroces",
+        "description": null,
+        "price": 365,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "92fdca2c8bae95f5cda17fe3f97c9c89",
+        "documentId": null,
+        "name": "Pastas y Arroces",
+        "description": null,
+        "price": 490,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "8fd1aaa60c43338da54bd292529c7875",
+        "documentId": null,
+        "name": "Pecho de ternera Breseado",
+        "description": null,
+        "price": 517,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "433429164613008bf9e9fe8a5403e772",
+        "documentId": null,
+        "name": "Pescados y Mariscos",
+        "description": null,
+        "price": 572,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "d1b792117d888e4e548f87dc56c4709d",
+        "documentId": null,
+        "name": "Pimientos de GERNIKA (10 pzs)",
+        "description": null,
+        "price": 247,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "5376456cd604205648d7c18870088f76",
+        "documentId": null,
+        "name": "Pintxos",
+        "description": null,
+        "price": 115,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "e6aa50b89a71531bfe5fac772563dbbe",
+        "documentId": null,
+        "name": "Potaje de Lentejas",
+        "description": null,
+        "price": 175,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "0cb346a8eae9859ec6dc5aef0402c931",
+        "documentId": null,
+        "name": "Pulpos a la Gallega",
+        "description": null,
+        "price": 423,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "d2a70f70cba7defc4528c550e4f69a47",
+        "documentId": null,
+        "name": "Queso Idiazabal (6 reb)",
+        "description": null,
+        "price": 380,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "b49294ba930d8b820d681ccfe6360284",
+        "documentId": null,
+        "name": "Queso Manchego Semicurado (6 reb)",
+        "description": null,
+        "price": 370,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "23648ece8572abced8577e9d8c713b0f",
+        "documentId": null,
+        "name": "Revuelto de Bacalao con cebollitas tiernas",
+        "description": null,
+        "price": 337,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "95b88fb8ab313223ea50c4993150709c",
+        "documentId": null,
+        "name": "Sopa de Hongos con Nopales",
+        "description": null,
+        "price": 135,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "d347fb37c4fb6103c139a4aaab9d4fed",
+        "documentId": null,
+        "name": "Sopa de Pescado",
+        "description": null,
+        "price": 345,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "7622eb14d1c0ff3baabfb7a932a31612",
+        "documentId": null,
+        "name": "Sopa de cola de Res",
+        "description": null,
+        "price": 186,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "ed9a1aba85742f4cc73a50295a98fe31",
+        "documentId": null,
+        "name": "Sopa de fideos al Azafrán",
+        "description": null,
+        "price": 140,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://puertogetaria.com/wp-content/uploads/2022/12/sugerencias.pdf",
+      "confidence": 0.98,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://puertogetaria.com/wp-content/uploads/2022/12/carta.pdf",
+      "confidence": 0.98,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://puertogetaria.com/wp-content/uploads/2022/12/postres.pdf",
+      "confidence": 0.98,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://puertogetaria.com/wp-content/uploads/2023/07/vinos.pdf",
+      "confidence": 0.98,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://puertogetaria.com/menu/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://puertogetaria.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:16.763+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=8125481900253218249&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:26.08+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:05:31.326735+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 291,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram"
+    ]
+  }
+}

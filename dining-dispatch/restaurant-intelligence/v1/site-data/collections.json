@@ -1,0 +1,209 @@
+[
+  {
+    "id": "borough:coyoacan",
+    "type": "borough",
+    "slug": "coyoacan",
+    "label": "Coyoacán",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "los-danzantes-coyoacan"
+    ]
+  },
+  {
+    "id": "borough:cuauhtemoc",
+    "type": "borough",
+    "slug": "cuauhtemoc",
+    "label": "Cuauhtémoc",
+    "restaurantCount": 8,
+    "restaurantSlugs": [
+      "restaurante-rosetta",
+      "azul-historico-restaurante-cdmx",
+      "meroma",
+      "filigrana",
+      "sartoria",
+      "contramar",
+      "restaurante-lorea",
+      "taqueria-el-jarocho"
+    ]
+  },
+  {
+    "id": "borough:miguel-hidalgo",
+    "type": "borough",
+    "slug": "miguel-hidalgo",
+    "label": "Miguel Hidalgo",
+    "restaurantCount": 5,
+    "restaurantSlugs": [
+      "pujol",
+      "quintonil",
+      "guzina-oaxaca",
+      "bakea-restaurant",
+      "comedor-jacinta"
+    ]
+  },
+  {
+    "id": "cuisine:fine-dining",
+    "type": "cuisine",
+    "slug": "fine-dining",
+    "label": "fine_dining",
+    "restaurantCount": 4,
+    "restaurantSlugs": [
+      "quintonil",
+      "restaurante-rosetta",
+      "meroma",
+      "restaurante-lorea"
+    ]
+  },
+  {
+    "id": "cuisine:french",
+    "type": "cuisine",
+    "slug": "french",
+    "label": "french",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "bakea-restaurant"
+    ]
+  },
+  {
+    "id": "cuisine:italian",
+    "type": "cuisine",
+    "slug": "italian",
+    "label": "italian",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "sartoria"
+    ]
+  },
+  {
+    "id": "cuisine:mexican",
+    "type": "cuisine",
+    "slug": "mexican",
+    "label": "mexican",
+    "restaurantCount": 6,
+    "restaurantSlugs": [
+      "pujol",
+      "los-danzantes-coyoacan",
+      "guzina-oaxaca",
+      "azul-historico-restaurante-cdmx",
+      "filigrana",
+      "comedor-jacinta"
+    ]
+  },
+  {
+    "id": "cuisine:seafood",
+    "type": "cuisine",
+    "slug": "seafood",
+    "label": "seafood",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "contramar"
+    ]
+  },
+  {
+    "id": "cuisine:taco",
+    "type": "cuisine",
+    "slug": "taco",
+    "label": "taco",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "taqueria-el-jarocho"
+    ]
+  },
+  {
+    "id": "distinction:michelin",
+    "type": "distinction",
+    "slug": "michelin",
+    "label": "Michelin-recognized restaurants",
+    "restaurantCount": 9,
+    "restaurantSlugs": [
+      "pujol",
+      "quintonil",
+      "restaurante-rosetta",
+      "los-danzantes-coyoacan",
+      "guzina-oaxaca",
+      "meroma",
+      "sartoria",
+      "comedor-jacinta",
+      "taqueria-el-jarocho"
+    ]
+  },
+  {
+    "id": "distinction:worlds-50-best",
+    "type": "distinction",
+    "slug": "worlds-50-best",
+    "label": "World's 50 Best",
+    "restaurantCount": 3,
+    "restaurantSlugs": [
+      "pujol",
+      "quintonil",
+      "restaurante-rosetta"
+    ]
+  },
+  {
+    "id": "neighborhood:centro",
+    "type": "neighborhood",
+    "slug": "centro",
+    "label": "CENTRO",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "azul-historico-restaurante-cdmx"
+    ]
+  },
+  {
+    "id": "neighborhood:lomas-de-chapultepec-ii-seccion",
+    "type": "neighborhood",
+    "slug": "lomas-de-chapultepec-ii-seccion",
+    "label": "LOMAS DE CHAPULTEPEC II SECCIÓN",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "bakea-restaurant"
+    ]
+  },
+  {
+    "id": "neighborhood:polanco-ii-seccion",
+    "type": "neighborhood",
+    "slug": "polanco-ii-seccion",
+    "label": "POLANCO II SECCIÓN",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "guzina-oaxaca"
+    ]
+  },
+  {
+    "id": "neighborhood:polanco-iv-seccion",
+    "type": "neighborhood",
+    "slug": "polanco-iv-seccion",
+    "label": "POLANCO IV SECCIÓN",
+    "restaurantCount": 3,
+    "restaurantSlugs": [
+      "pujol",
+      "quintonil",
+      "comedor-jacinta"
+    ]
+  },
+  {
+    "id": "neighborhood:roma-norte",
+    "type": "neighborhood",
+    "slug": "roma-norte",
+    "label": "ROMA NORTE",
+    "restaurantCount": 7,
+    "restaurantSlugs": [
+      "restaurante-rosetta",
+      "meroma",
+      "filigrana",
+      "sartoria",
+      "contramar",
+      "restaurante-lorea",
+      "taqueria-el-jarocho"
+    ]
+  },
+  {
+    "id": "neighborhood:villa-coyoacan",
+    "type": "neighborhood",
+    "slug": "villa-coyoacan",
+    "label": "VILLA COYOACÁN",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "los-danzantes-coyoacan"
+    ]
+  }
+]

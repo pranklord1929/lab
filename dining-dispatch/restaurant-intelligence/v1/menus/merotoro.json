@@ -1,0 +1,26 @@
+{
+  "slug": "merotoro",
+  "name": "MeroToro",
+  "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/merotoro",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Tostada de ceviche de pescado"
+    },
+    {
+      "name": "Jaiba suave rebozada"
+    },
+    {
+      "name": "Arroz cremoso con camarón"
+    },
+    {
+      "name": "Rabo de res braseado"
+    },
+    {
+      "name": "Pulpo a la parrilla con mole negro",
+      "description": "Official IG @merotoro_mx"
+    }
+  ],
+  "notes": "Guía Michelin 2026 inspector (CDMX). Restored after a later overwrite emptied the file."
+}

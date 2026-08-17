@@ -1,0 +1,578 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "fd800a3c-27b6-4b5c-923a-45e01efcc3b9",
+  "slug": "alfredo-di-roma",
+  "name": "Alfredo Di Roma",
+  "location": {
+    "neighborhood": "POLANCO IV SECCIÓN",
+    "borough": "Miguel Hidalgo",
+    "address": "Campos Elíseos 218, Polanco, Polanco IV Secc, Miguel Hidalgo, 11560 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4277801,
+      "longitude": -99.1935753
+    }
+  },
+  "contact": {
+    "phone": "55 4770 7772",
+    "website": "http://alfredodiroma.com.mx/",
+    "instagram": "https://instagram.com/alfredodiromamx/",
+    "googleMapsUrl": "https://maps.google.com/?cid=17980958013973387520&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "italian",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 4
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 1:00–10:00 p.m.",
+      "lunes: 1:00–11:30 p.m.",
+      "martes: 1:00–11:30 p.m.",
+      "miércoles: 1:00–11:30 p.m.",
+      "jueves: 1:00–11:30 p.m.",
+      "viernes: 1:00–11:30 p.m.",
+      "sábado: 1:00–11:30 p.m."
+    ],
+    "rating": 4.5,
+    "reviewCount": 1745
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "local_extraction_candidate",
+    "observedAt": "2026-07-17T10:10:05.905Z",
+    "observationAgeDaysAtExport": 31,
+    "documentCount": 20,
+    "itemCount": 6,
+    "documents": [
+      {
+        "id": "1a7f9899-d333-41a9-aa4a-c76d7b35a3d8",
+        "sourceUrl": "https://i0.wp.com/alfredodiroma.com.mx/wp-content/uploads/2025/03/cena-romantica-cdmx-vinos-alta.jpg?fit=990%2C600&ssl=1",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "44a4be7f-6a0b-4252-8986-c08e4cad73ce",
+        "sourceUrl": "https://i0.wp.com/alfredodiroma.com.mx/wp-content/uploads/2025/02/restaurante-italiano-cava-vinos-premio.jpg?fit=1919%2C1061&ssl=1",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "69b3ce91-88bf-43bf-b36d-32c111e3bfd4",
+        "sourceUrl": "https://alfredodiroma.com.mx/wp-content/uploads/2025/03/cena-romantica-cdmx-vinos-alta.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "7e1901a6-38c1-432c-9f46-1c2371fbdb02",
+        "sourceUrl": "https://alfredodiroma.com.mx/wp-content/uploads/2025/02/restaurante-italiano-cava-vinos-premio.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "01814640-ea84-4f26-8fd3-ab8455db4622",
+        "sourceUrl": "https://alfredodiroma.com.mx/en/cheese-menu-eng-adr/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "03fcb707-a6ac-4ffd-aa7e-1aa41daed9c3",
+        "sourceUrl": "https://alfredodiroma.com.mx/bebidas-menu-adr/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "147dd4a9-6cac-45c3-85d3-ca4eb2425a78",
+        "sourceUrl": "https://alfredodiroma.com.mx/carnes-y-pescados-menu-adr/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "185644e0-bb1d-40af-abf9-659f1193c7b3",
+        "sourceUrl": "https://alfredodiroma.com.mx/pastas-menu-adr/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "2ff93a38-1dd5-4862-92d2-aba0b9f66e3e",
+        "sourceUrl": "https://alfredodiroma.com.mx/pizza-menu-adr/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "3d7b23f9-dc91-4eb3-a106-9d2d0723f4fa",
+        "sourceUrl": "https://alfredodiroma.com.mx/en/pizza-menu-eng-adr/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "726f1342-5f3d-446b-bd06-ff6f01c279f2",
+        "sourceUrl": "https://alfredodiroma.com.mx/quesos-menu-adr/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "a2693a41-a265-4e57-b4a7-0f4a21a62ce3",
+        "sourceUrl": "https://alfredodiroma.com.mx/en/appetizers-menu-adr/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "a51fc89e-1c53-4c0a-a20c-4f8c351303de",
+        "sourceUrl": "https://alfredodiroma.com.mx/bebidas-italianas/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "c12d701d-c158-4f01-bfa3-059261b4ad63",
+        "sourceUrl": "https://alfredodiroma.com.mx/en/pastas-menu-eng-adr/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "c1348afd-1ed8-4d16-9333-56e6e950a6f3",
+        "sourceUrl": "https://alfredodiroma.com.mx/en/meat-and-fish-menu-adr/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "c98c61f5-2f68-4d68-8789-a6bde1d6b54e",
+        "sourceUrl": "https://alfredodiroma.com.mx/postres-menu-adr/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "d03c799b-0d63-47c2-885b-c6f7513b76c5",
+        "sourceUrl": "https://alfredodiroma.com.mx/en/beverages-menu-adr/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "e2f2501c-11f7-471b-b4a6-59b9b9a3cbad",
+        "sourceUrl": "https://alfredodiroma.com.mx/en/desserts-menu-adr/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "e9529b45-7119-40a0-ad51-f42164e3eb20",
+        "sourceUrl": "https://alfredodiroma.com.mx/vino-italiano/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "ffaa1871-8cd1-4c4c-9105-2e37d55ff066",
+        "sourceUrl": "https://alfredodiroma.com.mx/entremeses-menu-adr/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": [
+      {
+        "id": "4c5511d843a2f817088daa7ec55deb95",
+        "documentId": null,
+        "name": "CREMA DI PORO E PATATE",
+        "description": null,
+        "price": 285,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "5d5c4c0fdc68eec82328ba4994b5fa88",
+        "documentId": null,
+        "name": "FETTUCCINE NERO E ASTICE",
+        "description": null,
+        "price": 790,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "cab5a1b5171d7b27dbd7b584e99f2605",
+        "documentId": null,
+        "name": "LINGUINE AMARTICIANA",
+        "description": null,
+        "price": 390,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "386a768177139f7c8e6437f12ddfe4f0",
+        "documentId": null,
+        "name": "LINGUINE AMATRICIANA",
+        "description": null,
+        "price": 390,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "02911d5c50717f2c9e810f333c7c78ec",
+        "documentId": null,
+        "name": "PESCE ALL´ ARANCIA",
+        "description": null,
+        "price": 495,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "6e2e1d24b269069b0c4a0466aaa32843",
+        "documentId": null,
+        "name": "RIGATONI ALL´AMALFITANA",
+        "description": null,
+        "price": 295,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://alfredodiroma.com.mx/wp-content/uploads/2025/02/restaurante-italiano-cava-vinos-premio.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://i0.wp.com/alfredodiroma.com.mx/wp-content/uploads/2025/02/restaurante-italiano-cava-vinos-premio.jpg?fit=1919%2C1061&ssl=1",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://alfredodiroma.com.mx/en/beverages-menu-adr/",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://alfredodiroma.com.mx/entremeses-menu-adr/",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://alfredodiroma.com.mx/pastas-menu-adr/",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://alfredodiroma.com.mx/carnes-y-pescados-menu-adr/",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://alfredodiroma.com.mx/pizza-menu-adr/",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://alfredodiroma.com.mx/postres-menu-adr/",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://alfredodiroma.com.mx/quesos-menu-adr/",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://alfredodiroma.com.mx/en/appetizers-menu-adr/",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://alfredodiroma.com.mx/en/pastas-menu-eng-adr/",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://alfredodiroma.com.mx/en/meat-and-fish-menu-adr/",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://alfredodiroma.com.mx/en/pizza-menu-eng-adr/",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://alfredodiroma.com.mx/en/desserts-menu-adr/",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://alfredodiroma.com.mx/en/cheese-menu-eng-adr/",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://alfredodiroma.com.mx/wp-content/uploads/2025/03/cena-romantica-cdmx-vinos-alta.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://i0.wp.com/alfredodiroma.com.mx/wp-content/uploads/2025/03/cena-romantica-cdmx-vinos-alta.jpg?fit=990%2C600&ssl=1",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://alfredodiroma.com.mx/vino-italiano/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://alfredodiroma.com.mx/bebidas-italianas/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://alfredodiroma.com.mx/bebidas-menu-adr/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://alfredodiroma.com.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:48:59.396+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=17980958013973387520&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:17.718+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/AlfredoDiRomaMX/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/alfredodiromamx/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 4,
+    "sourceNames": [
+      "foursquare",
+      "google_places",
+      "official_website",
+      "star_wine_list"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:00:08.89078+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 233,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_source_summary"
+    ]
+  }
+}

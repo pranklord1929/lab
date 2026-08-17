@@ -1,0 +1,103 @@
+{
+  "catalogName": "SUKAI",
+  "slug": "sukai",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Sukai",
+  "location": {
+    "address": "Gral. Francisco Molinos del Campo 50B, San Miguel Chapultepec",
+    "neighborhood": "San Miguel Chapultepec",
+    "borough": "Miguel Hidalgo",
+    "postalCode": "11850",
+    "coordinates": {
+      "latitude": 19.4119466,
+      "longitude": -99.1887816
+    }
+  },
+  "contact": {
+    "phone": "+52 55 2504 8060",
+    "website": "https://www.instagram.com/sukai.cdmx/",
+    "instagram": "sukai.cdmx",
+    "email": null,
+    "websiteIsInstagram": true
+  },
+  "hours": [
+    "lun–mié 13:00–22:00",
+    "jue–vie listed on IG; reserve OpenTable"
+  ],
+  "food": {
+    "cuisine": "japanese / sushi / omakase",
+    "chef": "Claus (press @asap_klaus29)",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "opentable / whatsapp",
+    "url": "https://www.opentable.com/r/sukai-ciudad-de-mexico"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.sukai.mx/",
+    "observedAt": "2026-08-17",
+    "itemCount": 4,
+    "items": [
+      {
+        "name": "Handroll Kampachi Ginger",
+        "price": 110,
+        "currency": "MXN"
+      },
+      {
+        "name": "Handroll Atún Spicy",
+        "price": 130,
+        "currency": "MXN"
+      },
+      {
+        "name": "Handroll Anguila",
+        "price": 160,
+        "currency": "MXN"
+      },
+      {
+        "name": "Handroll Ikura Lemon",
+        "price": 180,
+        "currency": "MXN"
+      }
+    ],
+    "notes": "Official site + OpenTable exist; HTML did not expose a dish list. Not confirmed tasting-only."
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/sukai.cdmx/",
+      "fields": [
+        "address",
+        "hours"
+      ]
+    },
+    {
+      "source": "opentable",
+      "url": "https://www.opentable.com/r/sukai-ciudad-de-mexico",
+      "fields": [
+        "address"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://www.sukai.mx/",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "gaps": [
+    "website",
+    "coordinates"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": []
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "plonk",
+  "name": "Plonk",
+  "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/plonk",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Udon de camarón y queso cheddar con gochujang"
+    },
+    {
+      "name": "Tuétano con queso cotija y kimchi"
+    },
+    {
+      "name": "Doradito — tortilla de maíz azul, dorado crudo, salsa ahumada y macadamia"
+    }
+  ],
+  "notes": "Guía Michelin 2026 inspector (CDMX). Restored after a later overwrite emptied the file."
+}

@@ -1,0 +1,110 @@
+{
+  "catalogName": "Proprio",
+  "slug": "proprio",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Propio",
+  "location": {
+    "address": "Av. Álvaro Obregón 182, Roma Norte",
+    "neighborhood": "Roma Norte",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06700",
+    "coordinates": {
+      "latitude": 19.4179961,
+      "longitude": -99.1617642
+    }
+  },
+  "contact": {
+    "phone": null,
+    "website": "https://www.instagram.com/propiomx/",
+    "instagram": "propiomx",
+    "email": null,
+    "websiteIsInstagram": true
+  },
+  "hours": [
+    "mar–dom 13:00–01:00"
+  ],
+  "food": {
+    "cuisine": "mexican contemporary",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/r/restaurante-propio-ciudad-de-mexico"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://asofiamach.substack.com/p/con-permiso-propio-el-lugar-en-la",
+    "observedAt": "2026-08-17",
+    "itemCount": 7,
+    "items": [
+      {
+        "name": "Parker House Rolls"
+      },
+      {
+        "name": "Arroz rojo con milanesa de jaiba"
+      },
+      {
+        "name": "Croquetas de cangrejo, mayonesa de habanero, aguacate, radicchio"
+      },
+      {
+        "name": "Raviol francés de ricotta y piñón"
+      },
+      {
+        "name": "Ensalada de chícharo, chinos y jamón serrano"
+      },
+      {
+        "name": "Brócoli asado"
+      },
+      {
+        "name": "Pulpo estilo Santiago, glaze de chiltepín y frijoles"
+      }
+    ],
+    "notes": "OpenTable live; public notes say the menu changes every 1–2 months. No stable published item list."
+  },
+  "sources": [
+    {
+      "source": "eater",
+      "url": "https://www.eater.com/venue/113893/propio",
+      "fields": [
+        "address"
+      ]
+    },
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/propiomx/",
+      "fields": [
+        "hours"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://www.opentable.com/r/restaurante-propio-ciudad-de-mexico",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "gaps": [
+    "phone",
+    "website"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "ratings": {
+    "opentable": 4.7
+  },
+  "endpointSources": [
+    {
+      "source": "opentable",
+      "name": "Propio",
+      "rating": 4.7
+    }
+  ]
+}

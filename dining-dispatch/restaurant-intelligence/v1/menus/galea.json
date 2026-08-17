@@ -1,0 +1,21 @@
+{
+  "slug": "galea",
+  "name": "Galea",
+  "url": "https://www.galea.mx/",
+  "items": [
+    {
+      "name": "Menú degustación 4 tiempos",
+      "price": 1300,
+      "currency": "MXN",
+      "description": "entrada, pasta, principal, postre — 14:00–22:30 daily",
+      "category": "tasting"
+    },
+    {
+      "name": "Maridaje",
+      "price": 700,
+      "currency": "MXN",
+      "description": "3 glasses 3oz + dessert wine 2oz",
+      "category": "tasting"
+    }
+  ]
+}

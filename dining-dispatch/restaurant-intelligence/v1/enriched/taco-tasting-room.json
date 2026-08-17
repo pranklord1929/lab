@@ -1,0 +1,100 @@
+{
+  "catalogName": "Taco Tasting Room",
+  "slug": "taco-tasting-room",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Taco Tasting Room",
+  "location": {
+    "address": "Av. 5 de Mayo 47, Centro Histórico",
+    "neighborhood": "Centro",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06000",
+    "coordinates": {
+      "latitude": 19.4340508,
+      "longitude": -99.1357549
+    }
+  },
+  "contact": {
+    "phone": "+52 56 2553 9858",
+    "website": "https://tacotastingroom.com/",
+    "instagram": "tacotastingroom",
+    "email": "tacotastingroom@centralhoteles.com"
+  },
+  "hours": [
+    "mar cerrado",
+    "lun/mié/jue 13:30, 16:30, 20:30",
+    "vie–dom 13:00, 15:30, 18:00, 20:30"
+  ],
+  "food": {
+    "cuisine": "taco omakase",
+    "priceLevel": 3,
+    "notes": "14-seat intimate taquería."
+  },
+  "reservation": {
+    "platform": "official / opentable",
+    "url": "https://www.opentable.com/r/taco-tasting-room-ciudad-de-mexico"
+  },
+  "distinctions": {
+    "michelin": "Seleccionado: Buena cocina",
+    "michelinStars": 0
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/taco-tasting-room",
+    "observedAt": "2026-08-17",
+    "itemCount": 4,
+    "items": [
+      {
+        "name": "Tostada crujiente con kampachi, erizo de mar y mandarina"
+      },
+      {
+        "name": "Enchilada con mole cremoso y semillas de girasol tatemadas"
+      },
+      {
+        "name": "Taco de carnitas de cochinillo"
+      },
+      {
+        "name": "Esquites de maíz con ribeye a la brasa y mayonesa de chapulines"
+      }
+    ],
+    "notes": "Official /menu is a 14-seat taco omakase. No à la carte dish list published."
+  },
+  "sources": [
+    {
+      "source": "official",
+      "url": "https://tacotastingroom.com/en/",
+      "fields": [
+        "hours",
+        "phone",
+        "email"
+      ]
+    }
+  ],
+  "gaps": [
+    "coordinates"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "michelinReview": "El nombre de Taco Tasting Room resume a la perfección lo que nos aguarda en el interior de este dinámico local: basta acomodarse en su barra para emprender un viaje por México a través de doce pases. El resultado es un auténtico festín, aunque cada pase consta de apenas unos bocados, lo que lo hace muy llevadero. Todo respira creatividad y ofrece, además, una excelente relación calidad-precio. Desfilan propuestas como la tostada crujiente con kampachi, erizo de mar y mandarina, la enchilada con cremoso mole y semillas de girasol tatemadas, el taco de carnitas de cochinillo o los esquites de maíz con ribeye a la brasa y mayonesa de chapulines. Incluso los postres se sirven en varios tiempos. Y no conviene pasar por alto los cócteles, preparados al momento tras la barra.",
+  "ratings": {
+    "opentable": 4.8
+  },
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/taco-tasting-room",
+      "id": "1246556"
+    },
+    {
+      "source": "opentable",
+      "name": "Taco Tasting Room",
+      "rating": 4.8
+    }
+  ]
+}

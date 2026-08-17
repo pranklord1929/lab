@@ -1,0 +1,334 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "b647449b-694d-44df-b7a0-2e6653ab1926",
+  "slug": "osteria-del-becco",
+  "name": "Ostería del Becco",
+  "location": {
+    "neighborhood": "POLANCO III SECCIÓN",
+    "borough": "Miguel Hidalgo",
+    "address": "Goldsmith 103, Polanco, Polanco III Secc, Miguel Hidalgo, 11540 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4321989,
+      "longitude": -99.2005323
+    }
+  },
+  "contact": {
+    "phone": "55 5280 6657",
+    "website": "https://osteriadelbecco.shop/",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=8070422945996578500&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "italian",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 4
+  },
+  "experience": {
+    "sourceSummary": "Classy, plant-filled eatery serving inventive pizza, pasta & crudo plates, plus cocktails & wine.",
+    "hours": [
+      "domingo: 1:00–11:00 p.m.",
+      "lunes: 1:00 p.m. – 12:00 a.m.",
+      "martes: 1:00 p.m. – 12:00 a.m.",
+      "miércoles: 1:00 p.m. – 12:00 a.m.",
+      "jueves: 1:00 p.m. – 12:00 a.m.",
+      "viernes: 1:00 p.m. – 12:00 a.m.",
+      "sábado: 1:00 p.m. – 12:00 a.m."
+    ],
+    "rating": 4.5,
+    "reviewCount": 1041
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 4,
+    "itemCount": 11,
+    "documents": [
+      {
+        "id": "c124e796-647b-4dce-a79e-10cfc442504c",
+        "sourceUrl": "https://osteria-del-becco.locallya.com/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "0e39e6f6-2fb1-47ec-aeee-cc63236e67c0",
+        "sourceUrl": "https://m2burger.com/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.57,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:56:09.408+00:00"
+      },
+      {
+        "id": "640a7c9a-8f97-42a2-acf1-8967c5484904",
+        "sourceUrl": "https://zazukitchenbakery.com/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.57,
+        "extractionMethod": null,
+        "status": "failed",
+        "lastCheckedAt": "2026-07-09T18:56:06.69+00:00"
+      },
+      {
+        "id": "a76390ea-fe0e-43fc-b49a-6f1ba7370f80",
+        "sourceUrl": "https://www.gloriasmexicanfood.com/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.73,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:56:05.652+00:00"
+      }
+    ],
+    "items": [
+      {
+        "id": "957e3ad1-269e-4c76-a6c0-7b8d646b6e04",
+        "documentId": null,
+        "name": "Asparagi Croccanti",
+        "description": null,
+        "price": 260,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "42f38a8e-8a81-4e73-a834-53c534514823",
+        "documentId": null,
+        "name": "Barbabietole E Ricotta Di Bufala",
+        "description": null,
+        "price": 310,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "ecfb5beb-f0c1-43b9-a971-8fe5b9f6b2bc",
+        "documentId": null,
+        "name": "Cotoletta Di Maiale",
+        "description": null,
+        "price": 650,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "15f0d77a-5b27-47c4-abb7-4702215516af",
+        "documentId": null,
+        "name": "Filetto Di Manzo E Carciofi",
+        "description": null,
+        "price": 910,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "f39ab7a2-6e13-47d3-add9-ebecb25abfa7",
+        "documentId": null,
+        "name": "Orata Del Mediterraneo All Acqua Pazza",
+        "description": null,
+        "price": 540,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "ad2bcace-9691-4cc1-a6ff-a99f55616755",
+        "documentId": null,
+        "name": "Paccheri Amatriciana",
+        "description": null,
+        "price": 325,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "c7a8833c-78a5-40f0-a048-9bd0a182dd7a",
+        "documentId": null,
+        "name": "Pizze Funghe, Cotto E Speck",
+        "description": null,
+        "price": 430,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "6bbf2558-404e-434f-a0cb-2e21d8dcdfd1",
+        "documentId": null,
+        "name": "Pizze Margherita",
+        "description": null,
+        "price": 320,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "8c6169a1-cf08-4ceb-a48e-e103e7edb5ee",
+        "documentId": null,
+        "name": "Pizze Prosciutto",
+        "description": null,
+        "price": 370,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "a98f6d13-66b3-4e7d-a134-5cad5ca700a5",
+        "documentId": null,
+        "name": "Polpo E Patate",
+        "description": null,
+        "price": 375,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "db6466ee-8386-4433-a49f-6439257de759",
+        "documentId": null,
+        "name": "Rucola, Lampone E Parmigiano",
+        "description": null,
+        "price": 320,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://osteria-del-becco.locallya.com/menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://osteria-del-becco.locallya.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:04.472+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=8070422945996578500&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:20.491+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "google_places",
+      "official_menus",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T20:20:18.817259+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:07:54.410295+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 286,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram"
+    ]
+  }
+}

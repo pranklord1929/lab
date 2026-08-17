@@ -1,0 +1,3937 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "2b488af7-7299-4b6c-8b65-4540f0ac4c25",
+  "slug": "covadonga",
+  "name": "Covadonga",
+  "location": {
+    "neighborhood": "ROMA NORTE",
+    "borough": "Cuauhtémoc",
+    "address": "Puebla 121, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.422824,
+      "longitude": -99.1604989
+    }
+  },
+  "contact": {
+    "phone": "55 5533 2701",
+    "website": "WWW.BANQUETESCOVADONGA.COM.MX",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=3479857784625699950&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "spanish",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 1:00–7:00 p.m.",
+      "lunes: 1:00–10:00 p.m.",
+      "martes: 1:00 p.m. – 2:00 a.m.",
+      "miércoles: 1:00 p.m. – 2:00 a.m.",
+      "jueves: 1:00 p.m. – 2:00 a.m.",
+      "viernes: 1:00 p.m. – 2:00 a.m.",
+      "sábado: 1:00 p.m. – 2:00 a.m."
+    ],
+    "rating": 4.3,
+    "reviewCount": 4173
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-15T20:57:54.621Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 373,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "22e5239e-f1b5-41e6-a8a3-085d9dc510a4",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/dark-gold/desktop/menu/race.svg?v=20250528",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:57:54.621Z"
+      },
+      {
+        "id": "5c5ce76a-e205-4e1e-bbf9-45cae7f4ac38",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/dark-gold/desktop/menu/casino.svg?v=20250528",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:57:54.621Z"
+      },
+      {
+        "id": "5cad4ba8-d2cf-401b-be5d-dcc805df01a9",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/dark-gold/desktop/menu/e-sports.svg?v=20250528",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:57:54.621Z"
+      },
+      {
+        "id": "60b619d7-1c7e-4855-9ba2-5f97f0afdc07",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/dark-gold/desktop/menu/arcade.svg?v=20250528",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:57:54.621Z"
+      },
+      {
+        "id": "70957487-76bb-43cc-99bf-cb5dfc8541e8",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/dark-gold/desktop/menu/sports.svg?v=20250528",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:57:54.621Z"
+      },
+      {
+        "id": "779b847f-eb1e-4f34-8660-1b1ff84c5618",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/dark-gold/desktop/menu/cockfight.svg?v=20250528",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:57:54.621Z"
+      },
+      {
+        "id": "9d2d6bda-2ea1-4194-b95b-3b48c1a7d6cd",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/dark-gold/desktop/menu/promotion.svg?v=20250528",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:57:54.621Z"
+      },
+      {
+        "id": "9d910cb5-45c2-47df-9de8-564c22e1846e",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/dark-gold/desktop/menu/crash-game.svg?v=20250528",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:57:54.621Z"
+      },
+      {
+        "id": "a227fa05-0c31-4869-9821-b1d9f7a9750c",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/dark-gold/desktop/menu/hot-games.svg?v=20250528",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:57:54.621Z"
+      },
+      {
+        "id": "a4dcfc87-9f48-4229-b5eb-b7f00c32cf08",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/dark-gold/desktop/menu/slots.svg?v=20250528",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:57:54.621Z"
+      },
+      {
+        "id": "0164d376-ad63-4f9a-a310-0c3778c1e338",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-42.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "01a2eb19-b415-4a67-a014-f3a83fc40656",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-45.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "02ad0566-3256-4081-bf97-e338ff3f9561",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-77.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "039ab354-7036-4950-b078-3dcf5b5cb36d",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-2/game-code-43.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "0478aa44-6778-4505-a15a-c38b231bd0b1",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-110.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "08d26b44-403d-4b9f-a711-7dbfa393396f",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-116e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "08e0925a-9ebb-46b6-b93c-3de5a192fc34",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-97.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "09076423-ff9a-4ffd-ab34-ebab83b15b25",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-50.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "096b7a4a-62d2-4404-8252-3d953d71123e",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-6.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "09bbad24-f59a-4e99-8c25-06ce3161cb89",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-18.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "0a38bfd6-568b-4533-8a9e-ba2861921f65",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-2/game-code-38.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "0a80fe35-be89-4307-bc76-42ea82179972",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-17.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "0b336fb3-0c9c-4f8c-8fd0-95de219ac285",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-61.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "0c7daf4a-b53c-4bda-aae9-9b5b0778bbae",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-112.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "0e00fba0-9ab5-4c6f-9bd4-ca25fe77139f",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-97e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "0fbd65fe-7e80-4a24-92d0-2552d50d6443",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-2/game-code-44.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "0fe35466-49fa-4bb2-85f3-b96c86f65e8e",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-61.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "10b31204-dc88-43e0-ae1d-8115ab486ae4",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-2/game-code-84.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "11188149-78ed-49c6-9765-fbe6086b0c51",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-98.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "11706dc5-6d37-4f5f-b37d-130fd36ac1ae",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-4/game-code-80.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "11a0e00d-22de-4b3b-b11a-d8f3341772ba",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-54e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "1339fb5a-3d07-42d3-9896-74e629763e26",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-81.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "13c77727-6681-4ae6-912b-06a647ad667b",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-95.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "14703802-8a48-4bdf-8da7-9e0841728df0",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-93.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "14a0d593-0560-4af9-951f-ae4146308e67",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-114.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "14b130f1-3295-4bf2-b4b3-69e44a9fd368",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-80.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "154fe6db-3328-4679-b4e4-08f3c3273112",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-118e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "156b66b4-42dc-4d28-94df-ad56cd3ebe9a",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-16.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "15946726-5a91-49f5-b99f-06d6249198b8",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-115.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "1680d330-f9e7-4552-91c4-f69438eb99b5",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-2/game-code-14.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "17ac25b0-b545-4115-89c7-4dbdc53df54d",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-50e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "1832986c-e7a2-46bb-86d9-369b4a81b876",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-98.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "1897b99c-19d0-4ed2-acc0-ae3459395039",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-4/game-code-96.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "18bee136-799c-4bfe-8b2f-13410619ffa3",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-4/game-code-90.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "1a18cdfc-06a9-47fb-a639-10ea5f8dc6f2",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-108.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "1a77175e-0025-432a-9b7c-c980b0454e63",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-98.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "1bcdfbb3-4570-4334-90e3-f19ca76b2cb7",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-79.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "1c00e44a-2b7a-413d-823a-c99bf3743b6f",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-4/game-code-17.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "1ce5a2fa-ed44-4511-82af-132e96268dc6",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-4/game-code-61.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "1e0135ee-0d95-463f-942d-22fc3c8362b4",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-77.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "1e8f9141-8abd-4946-a3ee-544a6019df57",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-16e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "1f5a1316-659f-4e79-93d0-c80b278793a5",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-75.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "218a9b04-3d90-416d-91eb-bf8b8ff4a55c",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-94e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "2199d337-980d-4e50-ba49-bcda2c2ca24c",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-51.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "22a7ebcf-0df0-41a9-9065-affcf480b1ca",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-118.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "22a88e8e-1c32-4836-9b10-b5c6ecf2665f",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-114.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "22be902d-6261-40a4-a192-7f5e92f22531",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-18.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "239ff080-8297-4d6f-91df-509649732497",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-108.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "23ffbc77-34ae-45e3-95a8-06a90e5d4e04",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-51.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "26ac29ea-c713-4603-ba0f-537dc66036ac",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-115.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "26d59c9d-79ff-462e-afbb-d42329943170",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-8/game-code-17.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "26fb0c63-a8dc-4ba7-b822-b6a4b3c03b17",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-1/game-code-55.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "2725e0c4-799d-41d1-8c66-e77dca150b1d",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-2/game-code-100.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "28ae4a8e-9b67-4bf1-aa12-6a253312f0ee",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-54e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "299efd97-fb4b-4f7b-9961-d389aef2e78b",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-35.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "29d83453-a821-4b73-97a9-e6d4752e7637",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-81e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "2a181014-2f8d-4a3b-9899-a696bb57d162",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-51e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "2c5df4bd-280a-4986-8802-2bfdfc764c61",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-93.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "2d06c47b-4470-42ea-9608-b77b901cf477",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-75e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "2d2497a3-56ac-4de0-b90e-96661033ee63",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-87.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "2f193466-0590-4f60-9709-809d4aa90bbf",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-2.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "2fdb2f63-f195-4717-8bfd-82e082968347",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-6.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "3020496a-27ef-4d89-be69-f77df1589edf",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-8/game-code-29.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "304aca21-fb3b-4df8-bb72-77792c5bc93a",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-92e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "30f5a846-01eb-48f1-94ae-fbc9591091e6",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-2/game-code-39.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "3148dd2d-6b08-44e0-af42-ec332fa80578",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-7.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "31d08ab7-9bcd-484d-9b89-f49abbf6b602",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-17e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "322b78f7-2c8f-4ba0-9c54-e4137174a066",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-18.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "326b3fc0-2c14-4640-ad54-f0b22058c67a",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-81.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "33b9e4b9-9974-4fa1-b366-0345c719f4a6",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-73.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "341fe1bc-2f7f-4c65-b2c1-3121f23e726d",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-4/game-code-98.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "34d5a1b0-0aea-4c38-8554-864a1a08bec3",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-109.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "360827ed-272b-4372-bbb6-fc3ac4d2274c",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-98.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "3721bff1-4d89-48e1-add5-13cfae904dcf",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-29.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "38d61b49-6e36-44a5-93b2-fbfab60cea61",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-61.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "38d6e36f-4805-4a08-b96e-0078b17d1aa6",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-35.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "3913dcbd-f4c2-4df2-8567-c9ef09f23334",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-1/game-code-5.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "39152ea7-7357-4ec1-8bdd-d3a743de1daa",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-92.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "391f6e24-523a-48b3-ae4b-dfc0da8b3af4",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-29.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "39973140-3a55-47c7-a049-13ea92f4144d",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-17.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "3a01d10c-fedc-408e-afee-20a835da8d34",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-54.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "3a678df2-16ab-4541-a40f-d6486b5d177a",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-112.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "3ac974f0-562a-485e-859f-1ce7ff3773cf",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-9/game-code-104.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "3b7a6c1c-aadc-47bd-8610-33c04d4dfb4d",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-4/game-code-82.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "3bfcb925-d5a0-4f5f-9b1f-b31b992c9a8d",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-73.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "3c9a3281-1066-416a-aa04-6f364818ec82",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-72e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "3ed720bc-12af-46ef-9849-586fe4d8d1b3",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-93.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "414c0faf-bd07-407a-a959-47ccc4ef7145",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-116.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "415dba76-a525-4118-b1fd-2859e426f439",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-8/game-code-81.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "42ad04df-8282-487d-b6ce-83ed2e509b35",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-40e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "42b9d119-cf5b-48cb-a458-667c823ec850",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-6.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "4323449d-da30-42e0-912f-fc9158413e86",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-114e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "4451832d-460d-452a-9ade-33e13f36f069",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-87e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "45e1063a-1d54-442c-b051-2ca64dab1a08",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-65.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "4601f736-8bb0-42d4-937d-7a044ffbacd6",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-116.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "46f09f35-c47e-48ce-8540-a8c570c467fc",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-110.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "46ff9668-14e3-45b8-bb62-7e76d1480385",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-118.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "47f917ce-3ca8-4aaa-bb0c-1cfbd1a4c472",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-79.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "49702eed-1b3c-40d5-baee-7505590a6465",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-65e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "4aa7ce00-488d-482d-a9b1-9f8835677cb6",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-75.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "4b8021db-8f3b-4f2f-85e0-13cc51c54a81",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-54.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "4cdd3b52-e558-48a9-a3a9-cb52f33aa734",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-4/game-code-72.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "4d7526e2-81a1-4ab3-a2e2-af1b7f4c631e",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-4/game-code-116.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "4def3ebe-7f2a-4bb6-b13e-0a1a9ca27db0",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-90e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "4df40467-3410-4177-8e82-059984a833c8",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-16.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "4dfd5331-cbdd-430f-b5fb-d13121a6735a",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-7/game-code-58.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "4f5777ff-c7c9-4e6e-9a6d-80f2fac42540",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-18e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "4f751c88-0f3b-4e1f-a231-6eaeb6f74eda",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-116.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "50c5d60e-0834-4d59-b10c-5d02ddf14d8d",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-92.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "51140e0c-5ecf-4092-8e56-c58c3e58261b",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-90e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "51f103f5-005a-4895-bdad-0326a9b4b386",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-13.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "53423b20-2c04-493e-a56d-8648f57f1f53",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-72e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "54a19066-31b9-47d3-a2f5-b627ea13a536",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-6.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "560da204-9b3d-41f7-bc64-5afda8476ce4",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-77.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "570d6d33-a241-4f10-af70-2e001b504741",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-108.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "57a14f8d-b536-4ae4-99ec-7264b81da237",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-73.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "57ab0a11-2efe-4d76-bd52-2c1cb0d12a86",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-93e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "5882d038-49d2-493e-af7e-7c25ef0d894b",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-93.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "5891d82f-e0d6-466d-a899-60907708120e",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-40.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "59d50582-010b-46f4-bc8d-3d94cac6f0a2",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-13e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "59fe6456-4d01-4aaf-84b0-58535a89c302",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-94.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "59fe950e-8fbe-4e4a-8eb2-e8f1c8ec3f49",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-75e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "5a20bc07-e7a3-44e4-8a97-1d3391a31205",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-79e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "5b3672c7-4986-414b-be27-a61cf6983dbe",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-77e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "5b92d9c6-7ac9-4a5a-a377-f06bf57d83b5",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-50.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "5be60a76-3202-4368-ae0f-9533cddac059",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-4/game-code-7.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "5c8a89b2-da76-4e6f-8de7-a7186f69aecd",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-89e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "5d500326-d094-4222-91fc-366735fdba9f",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-42.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "5e355262-ea99-4d3b-93e9-28bac6133271",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-98e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "5e4e69ce-90a1-4372-9e81-2327ecc4ecd1",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-1/game-code-69.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "5f96b39d-959e-4288-b86a-fd320bc15945",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-1/game-code-83.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "5fb920f4-a0f6-452a-8460-5a9efbc5eef7",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-35.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "600f1603-68fc-4778-a54b-6760a4af5bd3",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-2/game-code-66.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "6143db06-4521-471a-a66c-e9ed156f9d84",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-87.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "61b6933a-4c92-47f6-8431-7a126d85711a",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-10/game-code-117.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "631c02ba-d2c5-46fa-9cc0-dd5709f366a7",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-4/game-code-73.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "640b0468-b659-494f-b786-58bdec42dc6a",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-81.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "64b191ff-5042-40d9-857f-d4767e81a7e2",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-8/game-code-108.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "64c5fd85-580a-4433-9465-e66193f90fb0",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-89.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "667c754e-248a-4a55-b954-38d1708e6aab",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-70.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "6848e6a4-fa5c-438d-ada4-e5237f88a3c0",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-77.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "684f37ab-013d-48d1-a09b-07724fd9a017",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-118.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "693608dd-703e-4d19-9b25-a0d1006e1369",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-8/game-code-107.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "693db7ad-b95a-4606-a547-45dc5bfa91f5",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-116.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "69bc871b-ddbd-4adb-ac3d-5b84f1351b81",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-9/game-code-111.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "6a1aeba3-11dd-4ec1-a60b-f8de242f69cb",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-50.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "6a2ac06e-f218-4726-ba3d-cae54a99ab8f",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-112.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "6b158414-eea6-4c4c-b3ee-58836b53c347",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-80.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "6b1d0e0c-a054-4326-bd9f-8a8442890029",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-4/game-code-118.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "6bafc6dc-c63d-4046-84b8-86dec74ad45c",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-9/game-code-57.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "6c21e212-b97e-4550-9176-918b0985656d",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-94e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "6c32a10b-1d4e-4256-8451-2827f7f0096a",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-16e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "6ce7dd8c-f161-4a84-922e-ee601c25cfcd",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-29.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "6d155f81-ff0d-49d9-997a-b882c845b3df",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-115.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "6d480ff0-c70c-4770-bf83-f0b0fff3f967",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-2/game-code-27.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "6da64ba3-ac2d-47b9-8032-a8a5d443a432",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-80.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "6efe61f4-d142-40fd-b865-711d133e489c",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-4/game-code-79.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "6f2d0e78-99d9-4580-9077-0cf06d8f1f77",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-95.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "6faf5717-9f56-44c1-bc4a-1f3abc5ac555",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-6.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "713e7d8c-f0ba-4f37-a57b-2ad2495ef0a7",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-81e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "72605607-4e7e-4f39-be88-f5bb7e47e8da",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-9.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "740ce168-aa3c-452e-9dff-8a81037d19c9",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-118.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "7472fb01-78b2-4f8b-b70d-629275bc6eeb",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-29e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "75583519-7aa7-4243-8df6-445d63b5bd10",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-9.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "75892bdc-7d60-4fbb-a05c-7f4301431955",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-2/game-code-1.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "75b68754-e2ee-458f-93d2-5fd5eb8dc9fe",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-70.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "75cabf99-0367-4031-abaa-fa785bc48282",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-110e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "76148e82-90e6-4404-8027-2c861a548e00",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-2.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "773fb211-9823-4c63-b972-9743b972b985",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-109.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "79415a70-0639-4851-87de-a5f00705ab3c",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-8/game-code-82.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "79e2decb-99c6-498b-8dfb-f6c26938a44b",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-9.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "7b43ab79-9546-421b-b8e7-7147f69ddad1",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-92.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "7c119495-6e66-4223-8489-aaf5856e7b4b",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-17.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "7d7fe293-70f7-4c20-b60f-fcf8ac793e33",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-2/game-code-85.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "7df3d947-79ee-4677-8531-a520b136424d",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-110e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "7f847889-d639-4365-8092-703dc3c94bd4",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-72.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "809bab7a-ec71-497e-b367-09aef7bece70",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-70.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "82c4a1b7-64dc-44ad-89c2-4812b70e0a22",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-118e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "84da1f30-7ae7-4cb5-9e6e-fd1da6f176ad",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-7.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "854217f9-9b31-43dd-a7fc-84dde2055d24",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-13.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "8718ed9a-8328-4c2a-8e81-6c08547bfb47",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-42e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "884a901d-c995-476f-b59c-506c2cab8899",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-2.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "88bc4c71-e025-458a-b3bb-ac77ca806808",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-93.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "89fa7515-eb97-4909-8da3-be41d48bf7c9",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-95e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "8a5a535f-473e-4818-8b42-a12b3cd89fc7",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-7.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "8a7a0e94-1501-4334-b066-bd837495eaab",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-29.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "8aad2dd8-3b1a-4356-b8a0-af08f86b6df0",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-70e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "8ac8fa4c-067a-4276-8a32-691ba0f7c817",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-89.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "8ae8439c-e5cf-4863-b13a-1bdf3ca71b83",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-1/game-code-86.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "8b8837da-688d-44ce-9efa-8fb5dc61691b",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-80.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "8c2a09ce-9562-461f-ab6d-9204ca9d68ee",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-79.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "8f9a5571-7dd5-43cc-a46e-86d48f290757",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-4/game-code-70.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "8fa7d186-b352-4201-ad37-e3503685d7ee",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-90.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "8fd825de-4b05-46d7-ad3b-b0b0de8e860d",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-40e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "9049b612-7b22-4bd1-82e8-c2447bed3f3d",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-90.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "910a4be6-58d6-4fcd-9d39-d269cc613180",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-94.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "9121db50-809e-4637-8a62-c5e1e5d8a18b",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-95.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "91aac151-0768-49e9-aebf-023674392952",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-108.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "9265bcd6-f367-4cde-8d48-ef806bac6e09",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-61.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "92e1a566-b85e-46b0-8548-74a5d1cd8cde",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-16.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "93150e41-a471-4103-9078-90ce3e6c519d",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-95.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "93bed298-bd5f-4c2c-9a9a-567221febd60",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-54.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "9628fd7f-4161-4f9f-8be3-89eb113c148d",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-4/game-code-51.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "966670ec-b583-4db7-b2c4-f884af51f26d",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-90.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "9691a71f-40e6-4d2e-964f-f90f75f49e4b",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-80e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "969b80bd-f122-409b-aebc-1de60a13ce74",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-2/game-code-41.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "97c7ab86-b180-43e9-b16d-dc0912895b1b",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-93e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "98e287d3-2e2c-47fc-8659-5a727ac40a93",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-98e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "9ad05ce3-060b-466e-9fbb-3936f01a7af0",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-4/game-code-6.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "9b7a837d-408a-4642-addf-a859e17f9b07",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-87.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "9c791832-2b9f-4f95-86f6-8250b27a0ef3",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-17.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "9f081992-b8b5-4d3b-b413-2888faec0586",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-65.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "a0206cc2-7428-4d5d-a5e9-86b7740ca740",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-17.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "a1faaee4-ec0e-4a89-8fbd-1c6bb4d34454",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-9e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "a27446a1-77dc-486b-a8ff-3f4f587fb42f",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-81.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "a2ac4d5c-4f93-40bd-a086-fa4353c27dcb",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-8/game-code-62.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "a37a0d7c-faf4-41f9-9b4e-b931ccafb4b1",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-79e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "a3a5d06c-cfcc-498b-a8f5-6942b1c766d1",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-109.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "a3bb28c2-8d2b-4a40-b232-6456143db2e1",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-6e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "a3c7de44-0d8e-4fac-9b1d-cebfc171b4b8",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-35e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "a5ba7cfe-8758-4f5f-8e62-d80f941956f2",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-79.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "a5f61b28-72d6-414d-ad5f-75603fc1d8c8",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-18.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "a5fccab5-15bf-447c-ad3d-811241d9aba8",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-110.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "a5fdac62-ca2f-4fc4-93e5-120591a2e6e4",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-45.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "a699ddd7-93bf-462a-9dac-1bca863b95a0",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-1/game-code-103.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "a7f7ae13-2655-4a43-968b-f6997c54b94e",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-65.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "a80ba350-f710-4c05-bd00-87c4793b8ff7",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-94.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "a8570164-0498-43a6-b8c1-02a8827343fc",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-8/game-code-97.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "a8ace58a-88e4-474d-98f1-d791aa77a1d4",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-7.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "a8b8710d-8c61-4a98-8632-4547c57e3ee5",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-97.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "a8c0f37d-b4bf-4dc7-9596-e2a28e6ca4c9",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-72.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "a904bfb2-d086-450b-9550-f5ebf18f9b25",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-40.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "a9650048-701c-44fb-bc5c-5d2faa1fd497",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-89.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "a97e7ab5-0da0-44fb-add4-25be8e0b130e",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-54.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "a9d15766-00ad-4942-b4ce-986624956dc1",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-95.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "a9f901ab-6f67-4d86-b685-cea44e5f21dc",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-114.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "aa3a463f-cd36-4899-ae1a-39cce79a68df",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-2/game-code-105.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "ab02bb88-8bde-4b75-ab41-80f48011f843",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-110.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "ab8032f0-e22c-4972-aa01-680c36009a29",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-50.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "ab988cf0-fe3f-4a8c-ae80-da3f73e9947c",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-79.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "ac7c88f5-8bea-495e-af86-25f4e417a863",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-70.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "ac8daf9d-00ca-440d-9016-288d55e0969d",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-114e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "acdfc9a6-979d-429e-bc74-01ba794598c9",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-51.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "ad6e7625-1ee6-4176-95a4-702a04fd5952",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-108e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "ae0ba9d0-f551-4317-b4e8-701252a7f1b9",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-4/game-code-81.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "ae3e4cbe-f9df-402e-8ec8-01e22fb42a17",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-40.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "ae6b72ca-f585-4666-a709-3d2c4b66531c",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-109e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "af86a8c1-0c06-4b21-9949-a5724fd266c6",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-2.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "b1ae56a7-8b4a-410c-8578-3910c046a12a",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-112.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "b1be3156-58b3-44cd-97d1-772fad13dd64",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-18.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "b1cbd164-bd5b-4e8f-b2d0-13a370c177aa",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-75.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "b2d383d1-ce71-4e3c-a3e3-149ea0d68090",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-115.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "b381be7c-b8bd-4d4f-8f67-0e98f1d1b2ed",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-45e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "b3b0d74d-cbfc-473f-b21c-c9abca7b7525",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-2e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "b7c3919e-9abd-434e-9cb1-7ef111a8a342",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-42.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "b89fb509-e46c-4e99-9d34-9faa7504fde0",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-80e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "b9073699-863c-415d-888c-f88766d227a2",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-45e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "ba3753ab-e459-4447-acd5-4e105e60a466",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-13.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "bafee796-5524-4965-ae53-a0090fa44614",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-109.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "bce6d08a-993d-4b18-9462-e31a1c50d096",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-8/game-code-35.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "bd8fe039-1309-4f08-afb5-dba34fe3abdf",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-114.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "bf1553c7-6e92-45e1-8618-02a7e38a2ea0",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-72.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "c03b9c38-4378-4bd2-a72b-6f234f1c144b",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-9.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "c0c8b0cc-b8fe-4f68-8157-89ec4372eaaf",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-115e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "c24da2bf-ebc2-4cc8-99e0-4a499637cede",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-90.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "c25eaca8-537c-4b32-afc4-be6b164a7cfc",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-2e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "c3033c53-9e48-489c-ad6d-838ef3fcb311",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-73e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "c353efaf-79af-4880-9cba-7a5c4b880b14",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-17e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "c3dc9a79-becc-434f-999c-40c7f2a4c4d5",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-61e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "c3ee182e-b470-4a53-a761-592dd66534ad",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-45.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "c5659e43-0ba8-4948-bc4b-21b0cc0e4225",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-1/game-code-71.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "c574a39f-588e-4f44-905f-395bba15b761",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-50.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "c600c018-7142-4633-a467-8e2090f67902",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-4/game-code-89.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "c6e4a6db-c855-460e-8875-b23ff3fcae11",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-89.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "c7100566-d1c7-4bcd-9bd2-42d85740f6c8",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-108e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "c770b1fe-5f08-46cc-8a14-8ce0f9deec99",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-45.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "c8e2c5bf-3a39-42ce-8b99-f11add35f15b",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-116e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "c9d7a2bb-5059-4250-9f1a-b3a27d097c2f",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-35.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "c9e5a6bd-36a1-4362-b77b-d1832a9ffd8d",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-65e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "ca15f8d8-b424-4666-b82a-e3ffd77ac950",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-98.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "ca43b260-79b5-449f-af14-11186202a014",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-4/game-code-35.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "cadfb68e-1c03-41b8-93d1-6d64c64b2007",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-8/game-code-41.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "cb5f9449-0b62-4f5d-94be-2f2222fe9d01",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-112.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "ccc3057b-46d6-44ab-a3dd-437f46dd8099",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-1/game-code-102.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "cd31f68d-5d02-4178-9499-8f087a6e65bb",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-13.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "cd932fb5-6e5e-4551-978a-d47163ff7eb7",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-40.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "ced9d0f2-bb6e-4e08-8986-dea3ca5fe692",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-89.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "d025b59d-6a1c-49e1-a280-2f3c0857d7dd",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-72.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "d044025a-d64f-40ca-9a7a-11d6ca4e6437",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-40.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "d18b1e72-e1c3-458e-8e61-0a8ef5820759",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-70.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "d1a379dd-32bc-4734-8216-c21760aa85a6",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-7.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "d1baca9e-519a-4c12-a12e-1fe2a3d3ecbf",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-18e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "d1f2c315-9b47-46c1-bd48-39a023061cf7",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-35e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "d208c8f0-cf8c-4d0e-a2de-648aec0cf883",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-92.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "d2d4a7e3-32d1-489b-86ed-8ebebea7075a",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-7e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "d3ab87b1-bc27-4ece-b4d9-48ab8d585d11",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-77e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "d4367d12-0163-49f7-99de-c200b380a533",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-115e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "d43ad48c-03e3-43f1-9c1e-b6c8bedf4b67",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-73e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "d4e90180-85eb-4a00-89a9-e6261c9a295b",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-45.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "d52a911c-d3c2-4ed5-90c8-1fe48b4200ae",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-35.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "d59333f0-6f90-42a1-a7c6-2560faca2ac4",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-9.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "d5afcc81-1b74-41d3-8880-fb63d59b6786",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-75.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "d631b5e2-4b10-417c-8de2-337d810e1553",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-2/game-code-101.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "d682eb81-6faa-4239-8690-63f932e50547",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-1/game-code-11.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "d6e5632d-2c4d-4ee0-93e2-df0dd4fa9711",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-9e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "d6fbfe81-7691-409f-a02c-260cacb14d4b",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-29e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "d7dba784-92e8-4262-9558-6ae9069ca104",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-51.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "d9b3b071-8fab-4f42-a266-90544de34b98",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-87.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "dbbe4dba-2bfc-4f3b-9d93-f1bbdebd099b",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-61e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "dbca9278-90f0-4a15-a792-727507922cc1",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-109.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "dbeb1b82-972a-4337-82a5-01f2823fbf63",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-4/game-code-107.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "dda34f52-8a69-42be-95cc-96ea85233cb9",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-94.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "ddbb65db-4bb6-499f-8d88-0bb104fd72db",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-92e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "de581517-659f-4b27-919b-7220d4a5f397",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-2.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "df2f53a3-d628-4d14-a758-039410c43b6c",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-13e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "dfeced77-b8be-483e-a8eb-68274839b54c",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-65.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "e07e49fa-05a0-4ffa-ad4a-f1efa58702fd",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-87e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "e11fe946-e0b8-4900-aeae-2e696b0901b4",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-4/game-code-13.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "e158a168-a92d-4658-9d99-07a6d91508ab",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-89e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "e1ffcf4b-3757-4ed4-a138-4c36ac3b6f41",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-42e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "e26ba7ce-742e-4d8c-9788-9f48d2fed2f0",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-70e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "e3c3a218-e0de-4215-97fc-d131a5fb5565",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-16.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "e45aba6b-f782-40e5-969d-9d90c48acc63",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-114.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "e4ccdae0-67c6-4a98-adb9-bbd49dd55589",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-115.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "e4d103b1-c802-4c6b-9e63-fe6cbb61804b",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-42.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "e520ad4c-f08f-4055-ae06-5eca28aa2780",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-72.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "e5535286-8c31-4c45-9554-ec43abff0892",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-51.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "e5d8510c-613b-4009-94d5-a019ff0b2148",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-2/game-code-10.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "e619d62f-3183-4bc9-a87b-d48fb880fda9",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-4/game-code-77.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "e652ee01-787e-4bf0-921b-6866c5281295",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-97e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "e7998332-74d3-448d-b3aa-65af98a71aed",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-112e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "e7bc171c-d671-4ad4-ad49-3b98e7405a7b",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-97.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "e80edc66-5e86-461c-9ae5-e509f56f77d1",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-116.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "e8855e12-ff85-43b5-b4eb-c8393d417838",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-6e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "e97c4003-1573-4acd-9602-3034bc8a63ab",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-7e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "ea077567-bd2c-4fee-9b6a-12255d8b1ffd",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-95e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "ea6291ed-b6df-4b5c-8580-4793c777677c",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-94.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "eaa1e24e-7e4e-47d5-8f90-37270feec373",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-110.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "eb1894bf-23c9-4ea3-9809-1e6e9e46adcc",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-112e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "eba6dbe3-602a-42b1-9302-3e665338ed9d",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-13.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "ed099952-ea66-4b9c-917c-50aab77d5382",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-87.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "ed6ab7c9-812d-4c56-997a-bb4d4e902fa1",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-54.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "ee4a18d2-ab75-4a3e-8c02-f15b4cec9869",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-42.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "ee8543e2-604b-4648-8f6b-b7c4f55f030f",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-97.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "ef1e64c7-a472-4f7d-9294-ee3944239364",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-109e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "ef687b3a-fcc9-4033-ae68-9a7d99168430",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-81.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "ef826f3c-4885-42a8-83e8-fdccfb6ded58",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-80.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "f0a93c3c-5012-49f6-93fa-85c1e673cfe8",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-97.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "f0b42fa9-dd42-4502-b861-089c6eb4e4d2",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-90.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "f2c7d4c1-2c40-475a-b55e-db79825cb811",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-16.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "f393e6be-0b15-4f32-95e7-bcc7f681173e",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/animations/game-code-51e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "f7588ae3-3712-4723-945c-a36f69701d26",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-73.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "f83829e3-b01c-44cd-9a57-6bc90e2b4ba0",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-108.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "f934594f-c5ad-418a-9a34-a031f781d796",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-73.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "f97c1763-81c8-465d-a038-f9a2edb67ff3",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-92.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "fb3ee434-f80a-41c1-9459-b6a3970f2c45",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-75.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "fbf19169-73b2-4c89-bee1-451cb89bd9be",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-61.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "fc4fae15-89db-4baf-9062-3b1f56d0675b",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-77.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "fd2d41e5-2b70-43de-a271-de8eee7c5b54",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-3/game-code-29.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "fdb6f392-dce0-44db-aefe-05461c2ea8f4",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home-menu-8/game-code-6.webp?v=20250528);",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "fdfe5131-4016-4ac5-9ea0-207c6bd11168",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/animations/game-code-65.webp?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "ff303857-4867-490d-a359-babb2c2279ed",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/menu/desktop/home/provider-menu-3/game-code-118.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "ffcc8509-a74b-4ea8-97b0-b22c880dac35",
+        "sourceUrl": "https://dsuown9evwz4y.cloudfront.net/Images/_normad-alpha/menu/desktop/home/provider-menu-3/game-code-50e252.png?v=20250528",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/dark-gold/desktop/menu/hot-games.svg?v=20250528",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:49:37.687Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/dark-gold/desktop/menu/slots.svg?v=20250528",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:49:37.687Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/dark-gold/desktop/menu/casino.svg?v=20250528",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:49:37.687Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/dark-gold/desktop/menu/race.svg?v=20250528",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:49:37.687Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/dark-gold/desktop/menu/sports.svg?v=20250528",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:49:37.687Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/dark-gold/desktop/menu/crash-game.svg?v=20250528",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:49:37.687Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/dark-gold/desktop/menu/arcade.svg?v=20250528",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:49:37.687Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/dark-gold/desktop/menu/e-sports.svg?v=20250528",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:49:37.687Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/dark-gold/desktop/menu/cockfight.svg?v=20250528",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:49:37.687Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://dsuown9evwz4y.cloudfront.net/Images/v-normad-alpha/dark-gold/desktop/menu/promotion.svg?v=20250528",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:49:37.687Z"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=3479857784625699950&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:58.923+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "foursquare",
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "denue",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:19:58.57783+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 303,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram,menu",
+    "actionPriority": 6,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

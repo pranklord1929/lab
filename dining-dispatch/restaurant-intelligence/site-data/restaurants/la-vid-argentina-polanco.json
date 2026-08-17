@@ -1,0 +1,315 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "318c5b7f-016c-47df-a081-a85d16024685",
+  "slug": "la-vid-argentina-polanco",
+  "name": "La Vid Argentina Polanco",
+  "location": {
+    "neighborhood": "POLANCO V SECCIÓN",
+    "borough": "Miguel Hidalgo",
+    "address": "Av. Sudermann 336, Polanco, Polanco V Secc, Miguel Hidalgo, 11560 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4318035,
+      "longitude": -99.1841178
+    }
+  },
+  "contact": {
+    "phone": "55 5448 5448",
+    "website": "https://www.lavidargentina.com/",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=14330967309522684081&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "argentinian",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 1:30–8:00 p.m.",
+      "lunes: 1:30–11:00 p.m.",
+      "martes: 1:30–11:00 p.m.",
+      "miércoles: 1:30–11:00 p.m.",
+      "jueves: 1:30–11:00 p.m.",
+      "viernes: 1:30–11:00 p.m.",
+      "sábado: 1:30–11:00 p.m."
+    ],
+    "rating": 4.6,
+    "reviewCount": 11608
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 5,
+    "itemCount": 6,
+    "documents": [
+      {
+        "id": "197d07d7-5fa2-4c15-a858-87b90c6c7a59",
+        "sourceUrl": "https://lavidargentina.com/categoria-producto/vinos/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "c8370bf5-e577-470a-af14-7f9430e0c168",
+        "sourceUrl": "https://lavidargentina.com/categoria-producto/vinos/tintos/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "cc5a8919-7958-422a-acf0-951e228cf13b",
+        "sourceUrl": "https://lavidargentina.com/categoria-producto/vinos/tintos/vinos-tintos-malbec-cabernet-sauvignon/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "88425e00-2834-479e-b855-c77ca0cfd686",
+        "sourceUrl": "https://www.lavidargentina.com/categoria-producto/vinos/tintos/vinos-tintos-malbec/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.34,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:11.944+00:00"
+      },
+      {
+        "id": "d69c4299-a844-41e8-bda1-1f037c44c434",
+        "sourceUrl": "https://www.lavidargentina.com/blog/services/desayuno-libre/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.34,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:11.504+00:00"
+      }
+    ],
+    "items": [
+      {
+        "id": "4641cae4-9e48-439e-b7fc-c4a65ee0717f",
+        "documentId": "88425e00-2834-479e-b855-c77ca0cfd686",
+        "name": "Finca La Vid Gran Reserva Malbec 12 botellas de 750 ML cada una",
+        "description": null,
+        "price": 5089,
+        "currency": "MXN",
+        "category": "Malbec",
+        "sourceUrl": "https://www.lavidargentina.com/categoria-producto/vinos/tintos/vinos-tintos-malbec/",
+        "observedAt": "2026-07-09T18:55:11.944+00:00",
+        "extractionConfidence": 0.34,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "cdc1faf6-b51d-4990-9033-5e5674d82ce4",
+        "documentId": "88425e00-2834-479e-b855-c77ca0cfd686",
+        "name": "Finca La Vid Gran Reserva Malbec 750 ML",
+        "description": "Gran Reserva Malbec",
+        "price": 499,
+        "currency": "MXN",
+        "category": "Malbec",
+        "sourceUrl": "https://www.lavidargentina.com/categoria-producto/vinos/tintos/vinos-tintos-malbec/",
+        "observedAt": "2026-07-09T18:55:11.944+00:00",
+        "extractionConfidence": 0.34,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "88b57e9c-e1f3-43f5-841b-3ad87a5aae6e",
+        "documentId": "88425e00-2834-479e-b855-c77ca0cfd686",
+        "name": "Finca La Vid Reserva Malbec 750 ML",
+        "description": "Reserva Malbec",
+        "price": 449,
+        "currency": "MXN",
+        "category": "Malbec",
+        "sourceUrl": "https://www.lavidargentina.com/categoria-producto/vinos/tintos/vinos-tintos-malbec/",
+        "observedAt": "2026-07-09T18:55:11.944+00:00",
+        "extractionConfidence": 0.34,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "d75c0bc6-bd12-40ca-877f-bc53919043e6",
+        "documentId": "88425e00-2834-479e-b855-c77ca0cfd686",
+        "name": "Finca La Vid Vinyes Ocults Gran Malbec 750 ML",
+        "description": "Gran Malbec",
+        "price": 1079,
+        "currency": "MXN",
+        "category": "Malbec",
+        "sourceUrl": "https://www.lavidargentina.com/categoria-producto/vinos/tintos/vinos-tintos-malbec/",
+        "observedAt": "2026-07-09T18:55:11.944+00:00",
+        "extractionConfidence": 0.34,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "1596f26e-59ce-47b5-8b1b-951589329f5d",
+        "documentId": "88425e00-2834-479e-b855-c77ca0cfd686",
+        "name": "Finca La Vid Vinyes Ocults Malbec 750 ML",
+        "description": "Varietal Malbec",
+        "price": 699,
+        "currency": "MXN",
+        "category": "Malbec",
+        "sourceUrl": "https://www.lavidargentina.com/categoria-producto/vinos/tintos/vinos-tintos-malbec/",
+        "observedAt": "2026-07-09T18:55:11.944+00:00",
+        "extractionConfidence": 0.34,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "fabacd15-d7c6-43f6-8476-0d7cadd116bb",
+        "documentId": "88425e00-2834-479e-b855-c77ca0cfd686",
+        "name": "Finca La Vid Reserva Cabernet Sauvignon 750 ML",
+        "description": null,
+        "price": 499,
+        "currency": "MXN",
+        "category": "Vinos",
+        "sourceUrl": "https://www.lavidargentina.com/categoria-producto/vinos/tintos/vinos-tintos-malbec/",
+        "observedAt": "2026-07-09T18:55:11.944+00:00",
+        "extractionConfidence": 0.34,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidargentina.com/blog/services/desayuno-libre/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidargentina.com/categoria-producto/vinos/tintos/vinos-tintos-malbec-cabernet-sauvignon/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidargentina.com/categoria-producto/vinos/tintos/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidargentina.com/categoria-producto/vinos/tintos/vinos-tintos-malbec/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lavidargentina.com/categoria-producto/vinos/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.lavidargentina.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:43.562+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=14330967309522684081&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:43.934+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/lavidargentina",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "foursquare",
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.802169+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:14:21.918566+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": true,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 47,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram,menu",
+    "actionPriority": 6,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_source_summary"
+    ]
+  }
+}

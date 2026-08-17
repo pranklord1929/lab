@@ -1,0 +1,100 @@
+{
+  "catalogName": "Cariñito Tacos",
+  "slug": "carinito-tacos",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Cariñito Tacos",
+  "location": {
+    "address": "Guanajuato 53, Roma Norte",
+    "neighborhood": "Roma Norte",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06700",
+    "coordinates": {
+      "latitude": 19.4174489,
+      "longitude": -99.156818
+    }
+  },
+  "contact": {
+    "phone": null,
+    "website": "https://www.instagram.com/carinito.tacos/",
+    "instagram": "carinito.tacos",
+    "email": null,
+    "websiteIsInstagram": true
+  },
+  "hours": [
+    "friday: [{'opens': None, 'closed': True, 'closes': None}]",
+    "monday: [{'opens': None, 'closed': True, 'closes': None}]",
+    "sunday: [{'opens': None, 'closed': True, 'closes': None}]",
+    "tuesday: [{'opens': None, 'closed': True, 'closes': None}]",
+    "saturday: [{'opens': None, 'closed': True, 'closes': None}]",
+    "thursday: [{'opens': None, 'closed': True, 'closes': None}]",
+    "wednesday: [{'opens': None, 'closed': True, 'closes': None}]"
+  ],
+  "food": {
+    "cuisine": "tacos / asian-mexican",
+    "priceLevel": 1,
+    "notes": "Michelin recommended 2024–25."
+  },
+  "reservation": {
+    "platform": "walk-in",
+    "url": null
+  },
+  "distinctions": {
+    "michelin": "Seleccionado: Buena cocina",
+    "michelinStars": 0
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://guide.michelin.com/us/en/ciudad-de-mexico/cuauhtemoc_1995126/restaurant/carinito-tacos",
+    "observedAt": "2026-08-17",
+    "itemCount": 2,
+    "items": [
+      {
+        "name": "Taco cantonés",
+        "price": null,
+        "currency": "MXN",
+        "category": "tacos",
+        "description": "Tocino de cerdo confitado, tortilla de harina, hoisin, sriracha y encurtidos"
+      },
+      {
+        "name": "Siu yuk",
+        "price": null,
+        "currency": "MXN",
+        "category": "tacos",
+        "description": "Cerdo asado crujiente, nam jim jaew y encurtidos en tortilla de harina"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/carinito.tacos/",
+      "fields": [
+        "address"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://guide.michelin.com/us/en/ciudad-de-mexico/cuauhtemoc_1995126/restaurant/carinito-tacos",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "michelinReview": "Está claro que Cariñito Tacos no es una taquería del montón, si no, no serviría tacos con un toque del sudeste asiático… Cuando hagas tu pedido en el mostrador de azulejos blancos echa un vistazo a la cocina: comprobarás lo bien que funciona y que todo se prepara al momento. Una vez fuera, podrás acomodarte en una silla y saborear tacos como el cantonés – tocino de cerdo confitado y montado en una tortilla de harina con especias, salsas hoisin, sriracha y encurtidos– servidos en hojas de maíz secas en lugar de platos. El siu yuk –crujiente cerdo asado, salsa nam jim jaew y encurtidos montados en una tortilla de harina– triunfa por su combinación de sabores y texturas.",
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/carinito-tacos",
+      "id": "1213221"
+    }
+  ]
+}

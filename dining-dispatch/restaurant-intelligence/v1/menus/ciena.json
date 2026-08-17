@@ -1,0 +1,64 @@
+{
+  "slug": "ciena",
+  "name": "Ciena",
+  "url": "https://mbmarcobeteta.com/lugares/ciena/",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Toast de hongos con mascarpone",
+      "price": null,
+      "currency": "MXN",
+      "category": "desayuno"
+    },
+    {
+      "name": "Brioche de huevo, tocino y queso cheddar",
+      "price": null,
+      "currency": "MXN",
+      "category": "desayuno"
+    },
+    {
+      "name": "Pan francés",
+      "price": null,
+      "currency": "MXN",
+      "category": "desayuno"
+    },
+    {
+      "name": "Arancini",
+      "price": null,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Aguachile de camarón",
+      "price": null,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Tostada de ceviche de robalo con alioli de miso",
+      "price": null,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Gnocchi en salsa de queso taleggio",
+      "price": null,
+      "currency": "MXN",
+      "category": "pastas"
+    },
+    {
+      "name": "Huachinango al grill con harissa",
+      "price": null,
+      "currency": "MXN",
+      "category": "fuertes"
+    },
+    {
+      "name": "Tarta de chocolate con caramelo y crème fraîche",
+      "price": null,
+      "currency": "MXN",
+      "category": "postres"
+    }
+  ],
+  "notes": "Marco Beteta recommended dishes + The Infatuation (arancini, aguachile)."
+}

@@ -1,0 +1,231 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "9e4c3d19-ac13-4439-a384-d2aa794fd29a",
+  "slug": "el-tizoncito",
+  "name": "El Tizoncito",
+  "location": {
+    "neighborhood": "HIPÓDROMO",
+    "borough": "Cuauhtémoc",
+    "address": "Av. Tamaulipas 122, Colonia Condesa, Cuauhtémoc, 06140 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4098457,
+      "longitude": -99.1752401
+    }
+  },
+  "contact": {
+    "phone": "55 5286 7321",
+    "website": "http://www.eltizoncito.com.mx/",
+    "instagram": "https://www.instagram.com/eltizoncitomx/",
+    "googleMapsUrl": "https://maps.google.com/?cid=2285017846735180902&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "taco",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 12:00 p.m. – 3:30 a.m.",
+      "lunes: 12:00 p.m. – 3:30 a.m.",
+      "martes: 12:00 p.m. – 3:30 a.m.",
+      "miércoles: 12:00 p.m. – 3:30 a.m.",
+      "jueves: 12:00 p.m. – 3:30 a.m.",
+      "viernes: 12:00 p.m. – 5:30 a.m.",
+      "sábado: 12:00 p.m. – 5:30 a.m."
+    ],
+    "rating": 4.2,
+    "reviewCount": 7016
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-06-28T21:19:26.575+00:00",
+    "observationAgeDaysAtExport": 49,
+    "documentCount": 1,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "637061b1-fe24-483c-bec8-70f5e2ba6eff",
+        "sourceUrl": "https://eltizoncito.com.mx/seleccionmenu/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": null,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-06-28T21:19:26.575+00:00"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "contact",
+      "provider": "whatsapp",
+      "url": "https://api.whatsapp.com/send/?phone=525557955459&text&type=phone_number&app_absent=0",
+      "confidence": null,
+      "checkedAt": "2026-07-09T18:47:16.412+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://eltizoncito.com.mx/menutecamachalco/",
+      "confidence": null,
+      "checkedAt": "2026-07-09T18:47:36.117+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://mexicoalacarta.com.mx/camara-de-comercio-italiana-en-mexico-reconoce-a-el-tizoncito-como-el-creador-del-taco-al-pastor/",
+      "confidence": null,
+      "checkedAt": "2026-07-09T18:47:36.077+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://eltizoncito.com.mx/menuavandaro/",
+      "confidence": null,
+      "checkedAt": "2026-07-09T18:47:35.844+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://eltizoncito.com.mx/menuqr/",
+      "confidence": null,
+      "checkedAt": "2026-07-09T18:47:35.75+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://eltizoncito.com.mx/seleccionmenu/",
+      "confidence": null,
+      "checkedAt": "2026-07-09T18:47:35.611+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://eltizoncito.com.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:23.069+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=2285017846735180902&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:29.038+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/eltizoncitomx/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "youtube",
+      "url": "https://www.youtube.com/watch?v=CKsbZ-LIyVM",
+      "confidence": null,
+      "checkedAt": "2026-07-09T18:48:04.057+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "tiktok",
+      "url": "https://www.tiktok.com/@eltizoncito",
+      "confidence": null,
+      "checkedAt": "2026-07-09T18:48:03.777+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://www.facebook.com/ElTizoncito1966",
+      "confidence": null,
+      "checkedAt": "2026-07-09T18:48:03.628+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://www.instagram.com/eltizoncitomx/",
+      "confidence": null,
+      "checkedAt": "2026-07-09T18:48:03.366+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:07:02.07868+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 213,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

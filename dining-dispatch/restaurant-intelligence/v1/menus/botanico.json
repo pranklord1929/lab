@@ -1,0 +1,49 @@
+{
+  "slug": "botanico",
+  "name": "Botánico",
+  "url": "local://sqlite-menu-items",
+  "items": [
+    {
+      "name": "Fried calamari",
+      "description": "Perfectly fried calamari",
+      "price": null,
+      "currency": "MXN",
+      "category": null
+    },
+    {
+      "name": "Tuna carpaccio",
+      "description": "Delicate tuna carpaccio",
+      "price": null,
+      "currency": "MXN",
+      "category": null
+    },
+    {
+      "name": "Lamb pappardelle",
+      "description": "Tender lamb pappardelle",
+      "price": null,
+      "currency": "MXN",
+      "category": null
+    },
+    {
+      "name": "Passionfruit cocktail",
+      "description": "Vibrant passionfruit blend",
+      "price": null,
+      "currency": "MXN",
+      "category": "Cocktails"
+    },
+    {
+      "name": "Sparkling lemonade mocktail",
+      "description": "Refreshing sparkling lemonade mocktail with a lively twist",
+      "price": null,
+      "currency": "MXN",
+      "category": "Cocktails"
+    },
+    {
+      "name": "Tamarind cocktail",
+      "description": "Vibrant tamarind blend",
+      "price": null,
+      "currency": "MXN",
+      "category": "Cocktails"
+    }
+  ]
+}

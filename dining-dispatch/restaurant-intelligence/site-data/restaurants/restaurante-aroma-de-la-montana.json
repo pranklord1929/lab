@@ -1,0 +1,144 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "593188b2-97c0-4993-a703-d8dde64f6ff0",
+  "slug": "restaurante-aroma-de-la-montana",
+  "name": "Restaurante Aroma de la Montaña",
+  "location": {
+    "neighborhood": "SAN MIGUEL TOPILEJO",
+    "borough": "Tlalpan",
+    "address": "Del Rastro 29, San Miguel Topilejo, Tlalpan, 14500 San Miguel Topilejo, CDMX",
+    "coordinates": {
+      "latitude": 19.1992217,
+      "longitude": -99.1397693
+    }
+  },
+  "contact": {
+    "phone": "55 3054 5534",
+    "website": "https://www.facebook.com/TopilejoCafe?mibextid=JRoKGi",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=1303508948925901948&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 8:00 a.m. – 10:30 p.m.",
+      "lunes: 8:00 a.m. – 10:30 p.m.",
+      "martes: 8:00 a.m. – 10:30 p.m.",
+      "miércoles: 8:00 a.m. – 10:30 p.m.",
+      "jueves: 8:00 a.m. – 10:30 p.m.",
+      "viernes: 8:00 a.m. – 10:30 p.m.",
+      "sábado: 8:00 a.m. – 10:30 p.m."
+    ],
+    "rating": 4.5,
+    "reviewCount": 229
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "missing",
+    "observedAt": null,
+    "observationAgeDaysAtExport": null,
+    "documentCount": 0,
+    "itemCount": 0,
+    "documents": [],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.facebook.com/TopilejoCafe?mibextid=JRoKGi",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:52:01.257+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=1303508948925901948&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:56.092+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 1,
+    "sourceNames": [
+      "google_places"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-06-29T14:19:01.377492+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:19:01.516957+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 475,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram,menu",
+    "actionPriority": 6,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_cuisine",
+      "missing_price_level",
+      "missing_source_summary",
+      "missing_menu_document",
+      "missing_structured_menu_items",
+      "low_source_count"
+    ]
+  }
+}

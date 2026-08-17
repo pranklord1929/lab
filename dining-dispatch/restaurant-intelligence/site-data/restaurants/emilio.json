@@ -1,0 +1,381 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "8de7a6ce-c505-4d8f-8002-5dc5ea83ab1a",
+  "slug": "emilio",
+  "name": "Emilio",
+  "location": {
+    "neighborhood": "POLANCO IV SECCIÓN",
+    "borough": "Miguel Hidalgo",
+    "address": "Av. Emilio Castelar 107, Polanco, Polanco IV Secc, Miguel Hidalgo, 11550 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4298697,
+      "longitude": -99.1964936
+    }
+  },
+  "contact": {
+    "phone": "55 4628 2563",
+    "website": "https://www.emiliorest.com/",
+    "instagram": "https://instagram.com/emiliorestaurante/",
+    "googleMapsUrl": "https://maps.google.com/?cid=18392999348985795086&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 3
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 7:00 a.m. – 10:00 p.m.",
+      "lunes: 7:00 a.m. – 12:00 a.m.",
+      "martes: 7:00 a.m. – 12:00 a.m.",
+      "miércoles: 7:00 a.m. – 12:00 a.m.",
+      "jueves: 7:00 a.m. – 12:00 a.m.",
+      "viernes: 7:00 a.m. – 12:00 a.m.",
+      "sábado: 7:00 a.m. – 12:00 a.m."
+    ],
+    "rating": 4.8,
+    "reviewCount": 2617
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "local_extraction_candidate",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 8,
+    "itemCount": 7,
+    "documents": [
+      {
+        "id": "0c65f693-89e9-49ef-988a-7bbc94830c5a",
+        "sourceUrl": "https://www.emiliorest.com/_files/ugd/e0bdbb_81e33822777e41608a49be95f30729f8.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.98,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "12fc676d-5d1a-412b-8c3d-7fe750a07d84",
+        "sourceUrl": "https://www.emiliorest.com/_files/ugd/e0bdbb_b0d0b9c415784ea3a58bb304bc5bdd4f.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.98,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "2a48c47a-444b-4611-ad06-ba12f5d15b02",
+        "sourceUrl": "https://emiliorest.com/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "498c9fb8-0bab-44a6-8d89-603aca974c2d",
+        "sourceUrl": "https://www.emiliorest.com/_files/ugd/e0bdbb_f19aa4eddcc948e38a9d1a2643ebe6bd.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.98,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "86251536-b4f5-4890-88ac-7efef3383b8f",
+        "sourceUrl": "https://www.emiliorest.com/_files/ugd/e0bdbb_5ad82cfedf764226aeaec84c074f0204.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.98,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "9ce34c30-f45f-4d66-a8b9-f6d7e77131a5",
+        "sourceUrl": "https://www.emiliorest.com/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "e5f541a1-ea5d-4da5-9792-3d1728655d97",
+        "sourceUrl": "https://www.emiliorest.com/_files/ugd/e0bdbb_b0971695a5564ef8adb8402adfd5d311.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.98,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "f0a9a333-a7c6-4385-a0d6-20c2f4ef5154",
+        "sourceUrl": "https://www.emiliorest.com/_files/ugd/e0bdbb_edf483d5b4da4adea5df90e92a6340cf.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.98,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": [
+      {
+        "id": "3027c43c7ab02ab52106fbc41486d86c",
+        "documentId": null,
+        "name": "R i b E y e",
+        "description": null,
+        "price": 70,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "e8f82610e069713b819a841db96f9bb6",
+        "documentId": null,
+        "name": "R i b E y e",
+        "description": null,
+        "price": 160,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "13618ac4d48e9e6e9a9e1f4b57d239b4",
+        "documentId": null,
+        "name": "R i b E y e",
+        "description": null,
+        "price": 195,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "6dfa65a77a5f58e84349f768474eae32",
+        "documentId": null,
+        "name": "R i b E y e",
+        "description": null,
+        "price": 230,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "5485627475fbf70a82be0b1c5f613bc7",
+        "documentId": null,
+        "name": "R i b E y e",
+        "description": null,
+        "price": 235,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "faa79b7a29e4239696184d8b42bee90b",
+        "documentId": null,
+        "name": "R i b E y e",
+        "description": null,
+        "price": 285,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "d184dac83016d6c03233aff20b9259d8",
+        "documentId": null,
+        "name": "R i b E y e",
+        "description": null,
+        "price": 310,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.emiliorest.com/_files/ugd/e0bdbb_edf483d5b4da4adea5df90e92a6340cf.pdf",
+      "confidence": 0.98,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.emiliorest.com/_files/ugd/e0bdbb_b0971695a5564ef8adb8402adfd5d311.pdf",
+      "confidence": 0.98,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.emiliorest.com/_files/ugd/e0bdbb_b0d0b9c415784ea3a58bb304bc5bdd4f.pdf",
+      "confidence": 0.98,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.emiliorest.com/_files/ugd/e0bdbb_81e33822777e41608a49be95f30729f8.pdf",
+      "confidence": 0.98,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.emiliorest.com/_files/ugd/e0bdbb_f19aa4eddcc948e38a9d1a2643ebe6bd.pdf",
+      "confidence": 0.98,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.emiliorest.com/_files/ugd/e0bdbb_5ad82cfedf764226aeaec84c074f0204.pdf",
+      "confidence": 0.98,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://emiliorest.com/menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.emiliorest.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:13.655+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=18392999348985795086&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:20.82+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/emiliorest",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/emiliorestaurante/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 4,
+    "sourceNames": [
+      "google_places",
+      "mexico_gastronomico",
+      "official_website",
+      "resy"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:08:12.651728+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 78,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_cuisine",
+      "missing_source_summary"
+    ]
+  }
+}

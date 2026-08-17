@@ -1,0 +1,101 @@
+{
+  "catalogName": "Berta",
+  "slug": "berta",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Berta",
+  "location": {
+    "address": "Río Hudson 15, Cuauhtémoc",
+    "neighborhood": "Cuauhtémoc",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06500",
+    "coordinates": {
+      "latitude": 19.4265261,
+      "longitude": -99.1748134
+    }
+  },
+  "contact": {
+    "phone": null,
+    "website": "https://www.instagram.com/bertasinh/",
+    "instagram": "bertasinh",
+    "email": "contact@Bertarestaurant.com",
+    "websiteIsInstagram": true
+  },
+  "hours": [
+    "17:00–01:00 (IG @bertasinh)"
+  ],
+  "food": {
+    "cuisine": "wine bar / kitchen",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "walk-in / instagram",
+    "url": "https://www.instagram.com/bertasinh/"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.instagram.com/p/DFZRHg_t7ib/",
+    "observedAt": "2026-08-17",
+    "itemCount": 8,
+    "items": [
+      {
+        "name": "Milanesa con salsa de mostaza"
+      },
+      {
+        "name": "Sándwich de albóndigas"
+      },
+      {
+        "name": "Burrata con aceitunas y pimienta"
+      },
+      {
+        "name": "Pickles de la casa"
+      },
+      {
+        "name": "Lengua"
+      },
+      {
+        "name": "Panna cotta"
+      },
+      {
+        "name": "Tarta de nuez"
+      },
+      {
+        "name": "Arroz meloso"
+      }
+    ],
+    "notes": "Wine bar / small rotating menu (Río Hudson 15). No official published item list. Reviewer recaps vary and were not treated as a carta."
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/bertasinh/",
+      "fields": [
+        "address",
+        "hours"
+      ]
+    },
+    {
+      "source": "tripadvisor",
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g150800-d32848989-Reviews-Berta-Mexico_City_Central_Mexico_and_Gulf_Coast.html",
+      "fields": [
+        "address"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://www.instagram.com/bertasinh/",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": []
+}

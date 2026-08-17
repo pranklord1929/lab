@@ -1,0 +1,79 @@
+{
+  "slug": "fierro",
+  "name": "Fierro",
+  "url": "https://fierrocantina.com/",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Carne asada",
+      "price": null,
+      "currency": "MXN",
+      "category": "signature",
+      "description": "Ceniza de maíz y cebolla asada. 200 g a las brasas"
+    },
+    {
+      "name": "Papas Galeana",
+      "price": null,
+      "currency": "MXN",
+      "category": "signature",
+      "description": "Con jocoque"
+    },
+    {
+      "name": "Ensalada Fierro",
+      "price": null,
+      "currency": "MXN",
+      "category": "ensaladas",
+      "description": "Aderezo de machaca"
+    },
+    {
+      "name": "Ensalada de tomate",
+      "price": null,
+      "currency": "MXN",
+      "category": "ensaladas",
+      "description": "Requesón de nuez de la India, crotón de masa madre"
+    },
+    {
+      "name": "Empanada atropellado",
+      "price": null,
+      "currency": "MXN",
+      "category": "entradas",
+      "description": "Machaca y manchego"
+    },
+    {
+      "name": "Mejillones con chorizo",
+      "price": null,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Arroz con chicharrón",
+      "price": null,
+      "currency": "MXN",
+      "category": "entradas",
+      "description": "Tomate y jocoque"
+    },
+    {
+      "name": "Tacos de barbacoa",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos",
+      "description": "Short rib, salsa de tomate y aguacate. 3 piezas"
+    },
+    {
+      "name": "Pollo asado",
+      "price": null,
+      "currency": "MXN",
+      "category": "fuertes",
+      "description": "Ahumado con salsa de chiles fermentados"
+    },
+    {
+      "name": "Capirotada",
+      "price": null,
+      "currency": "MXN",
+      "category": "postres",
+      "description": "Brioche, queso fresco, piloncillo, tomate verde y cacahuate"
+    }
+  ],
+  "notes": "Official kitchen list on fierrocantina.com (Cocina / También de la casa)."
+}

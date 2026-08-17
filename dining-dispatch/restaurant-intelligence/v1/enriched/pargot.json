@@ -1,0 +1,116 @@
+{
+  "catalogName": "Pargot",
+  "slug": "pargot",
+  "status": "enriched",
+  "confidence": "medium",
+  "name": "Pargot",
+  "location": {
+    "address": "Córdoba 212, Roma Norte (OpenTable 2026). Older SQLite row: Chiapas 46.",
+    "neighborhood": "Roma Norte",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06700",
+    "coordinates": {
+      "latitude": 19.4135412,
+      "longitude": -99.1571625
+    }
+  },
+  "contact": {
+    "phone": "+56 3470 4481",
+    "website": "https://www.instagram.com/pargotrestaurant/",
+    "instagram": "pargotrestaurant",
+    "email": null,
+    "websiteIsInstagram": true
+  },
+  "hours": [
+    "Reported Tue–Sat 14:00–23:00, Sun 14:00–20:00 (secondary listings — confirm)."
+  ],
+  "food": {
+    "cuisine": "mexican contemporary",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/r/pargot-ciudad-de-mexico"
+  },
+  "menu": {
+    "state": "michelin_inspector",
+    "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/pargot",
+    "observedAt": "2026-08-17",
+    "itemCount": 4,
+    "items": [
+      {
+        "name": "Kebbe crudo con salsa XO de chapulín"
+      },
+      {
+        "name": "Tostada con paté de puerros, ceniza de chile y puré de aguacate"
+      },
+      {
+        "name": "Risotto de bisque de jaiba"
+      },
+      {
+        "name": "Terrina de cordero"
+      }
+    ],
+    "notes": "No official site menu found."
+  },
+  "sources": [
+    {
+      "source": "opentable",
+      "url": "https://www.opentable.com/r/pargot-ciudad-de-mexico",
+      "fields": [
+        "address"
+      ]
+    },
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/pargotrestaurant/",
+      "fields": [
+        "instagram"
+      ]
+    }
+  ],
+  "gaps": [
+    "phone",
+    "website",
+    "hours official",
+    "address confirmation if they moved from Chiapas 46"
+  ],
+  "notes": [
+    "Address conflict: OpenTable Córdoba 212 vs local DB Chiapas 46. Used OpenTable as fresher booking source."
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "distinctions": {
+    "michelin": "Bib Gourmand : nuestras mejores relaciones calidad-precio"
+  },
+  "michelinReview": "El chef Alexis Ayala nos tienta en Pargot con una breve carta de platos admirablemente ejecutados y ordenados de menos a más sustanciosos. En ellos, su cocina de raíz mexicana se adorna con toques creativos. ¿Un ejemplo? El pescado procedente de Baja California –de una frescura intachable– se transforma en platos como el kebbe crudo aderezado con salsa XO de chapulín o una tostada con paté cremoso de puerros, ceniza de chile y puré de aguacate. Entre los platos más sustanciosos destacan el risotto de bisque de jaiba y la terrina de cordero.",
+  "ratings": {
+    "opentable": 4.8,
+    "opentableReviews": 269
+  },
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/pargot",
+      "id": "1211165"
+    },
+    {
+      "source": "opentable",
+      "name": "Pargot",
+      "rating": 4.8
+    }
+  ],
+  "opentableAwards": [
+    {
+      "name": "MICHELIN",
+      "year": 2024,
+      "__typename": "RestaurantAward"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "pelota-mestiza",
+  "name": "Pelota Mestiza",
+  "url": "https://foodandpleasure.com/restaurante-pelota-mestiza/",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Guacamole mestizo",
+      "price": 220,
+      "currency": "MXN",
+      "category": "entradas",
+      "description": "250 g — TripAdvisor carta"
+    },
+    {
+      "name": "Esquites ancestrales / esquites de Pátzcuaro",
+      "price": 190,
+      "currency": "MXN",
+      "category": "entradas",
+      "description": "Mayonesa de chipotle"
+    },
+    {
+      "name": "Tostada de pulpo enamorado",
+      "price": 195,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Taco de gambas al ajillo",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Taco de coliflor en recado negro",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Cerdo de 8 horas con jocoque y quelites",
+      "price": null,
+      "currency": "MXN",
+      "category": "fuertes"
+    },
+    {
+      "name": "Pechuga de pollo con mole y arroz rojo",
+      "price": null,
+      "currency": "MXN",
+      "category": "fuertes"
+    },
+    {
+      "name": "Dulce de calabazas de Castilla",
+      "price": null,
+      "currency": "MXN",
+      "category": "postres"
+    },
+    {
+      "name": "Acertijo de cacao",
+      "price": null,
+      "currency": "MXN",
+      "category": "postres",
+      "description": "Cremoso de cacahuate"
+    },
+    {
+      "name": "Suspiro de mango",
+      "price": null,
+      "currency": "MXN",
+      "category": "postres"
+    },
+    {
+      "name": "Hojaldre de manzana con almíbar de romero",
+      "price": null,
+      "currency": "MXN",
+      "category": "postres"
+    }
+  ],
+  "notes": "Food & Pleasure (29 Aug 2025) chef Lula Martín del Campo carta + TripAdvisor published prices."
+}

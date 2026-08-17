@@ -1,0 +1,22 @@
+{
+  "slug": "em",
+  "name": "Em",
+  "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/em",
+  "status": "tasting_only",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Maíz tierno a la parrilla, salsa de café, mantequilla dorada y yuzu",
+      "category": "degustacion"
+    },
+    {
+      "name": "Tostada de pescado guisado al estilo Veracruz, láminas de aguacate y caviar",
+      "category": "degustacion"
+    },
+    {
+      "name": "Postre de mamey — brazo de gitano y tartaleta helada",
+      "category": "postres"
+    }
+  ],
+  "notes": "Named dishes from Guía Michelin 2026 inspector text (CDMX listing). Not a full priced carta."
+}

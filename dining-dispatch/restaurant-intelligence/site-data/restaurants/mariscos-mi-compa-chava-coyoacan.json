@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "97917b4f-529c-4562-9262-4a1c12bdbae2",
+  "slug": "mariscos-mi-compa-chava-coyoacan",
+  "name": "MARISCOS \"MI COMPA CHAVA\" COYOACÁN",
+  "location": {
+    "neighborhood": "VILLA COYOACÁN",
+    "borough": "Coyoacán",
+    "address": "PRESIDENTE VENUSTIANO CARRANZA, Felipe Carrillo Puerto ESQ, Coyoacán, 04000 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3475681,
+      "longitude": -99.1634592
+    }
+  },
+  "contact": {
+    "phone": "55 9219 0294",
+    "website": "https://instagram.com/micompachava?igshid=NWRhNmQxMjQ=",
+    "instagram": "https://instagram.com/micompachava/",
+    "googleMapsUrl": "https://maps.google.com/?cid=11190132847266751142&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "seafood",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 3
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 12:00–8:00 p.m.",
+      "lunes: Cerrado",
+      "martes: 12:00–8:00 p.m.",
+      "miércoles: 12:00–8:00 p.m.",
+      "jueves: 12:00–8:00 p.m.",
+      "viernes: 12:00–8:00 p.m.",
+      "sábado: 12:00–8:00 p.m."
+    ],
+    "rating": 4.2,
+    "reviewCount": 2129
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "missing",
+    "observedAt": null,
+    "observationAgeDaysAtExport": null,
+    "documentCount": 0,
+    "itemCount": 0,
+    "documents": [],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.instagram.com/micompachava?igshid=NWRhNmQxMjQ%3D",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:33.691+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=11190132847266751142&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:32.187+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/micompachava/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:13:26.199+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "foursquare",
+      "google_places"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-06-29T14:09:11.629906+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:09:11.76391+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 493,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "menu",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_source_summary",
+      "missing_menu_document",
+      "missing_structured_menu_items"
+    ]
+  }
+}

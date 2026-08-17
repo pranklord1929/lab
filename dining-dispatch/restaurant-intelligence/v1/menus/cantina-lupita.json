@@ -1,0 +1,48 @@
+{
+  "slug": "cantina-lupita",
+  "name": "Cantina Lupita",
+  "url": "https://www.timeoutmexico.mx/ciudad-de-mexico/bares-y-cantinas/cantina-lupita",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Menú cantinero (8 tiempos)",
+      "price": null,
+      "currency": "MXN",
+      "category": "menú cantinero",
+      "description": "Incluido con consumo de cóctel o destilado"
+    },
+    {
+      "name": "Jugo de carne",
+      "price": null,
+      "currency": "MXN",
+      "category": "menú cantinero"
+    },
+    {
+      "name": "Flauta de aguacate",
+      "price": null,
+      "currency": "MXN",
+      "category": "menú cantinero"
+    },
+    {
+      "name": "Taco frito de marlín",
+      "price": null,
+      "currency": "MXN",
+      "category": "menú cantinero"
+    },
+    {
+      "name": "Fideo seco",
+      "price": null,
+      "currency": "MXN",
+      "category": "menú cantinero"
+    },
+    {
+      "name": "Barbacoa para taquear",
+      "price": null,
+      "currency": "MXN",
+      "category": "carta",
+      "description": "Con tortillas hechas a mano"
+    }
+  ],
+  "notes": "Time Out México (24 Nov 2025) quotes the complimentary menú cantinero and the à-la-carte barbacoa."
+}

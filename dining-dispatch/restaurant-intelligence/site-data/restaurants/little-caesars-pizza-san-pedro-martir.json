@@ -1,0 +1,143 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "cc6adb06-8bbd-496e-925e-4bb03f6fcdce",
+  "slug": "little-caesars-pizza-san-pedro-martir",
+  "name": "Little Caesars Pizza",
+  "location": {
+    "neighborhood": "SAN PEDRO MÁRTIR",
+    "borough": "Tlalpan",
+    "address": "Carr. Libre A Cuernavaca 5597-Loc A, San Pedro Mártir, Tlalpan, 14650 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.2684251,
+      "longitude": -99.1707931
+    }
+  },
+  "contact": {
+    "phone": "55 1671 2531",
+    "website": "https://www.premiercaesars.com/",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=14559626758525849650&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "pizza",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 1
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 9:30 a.m. – 11:30 p.m.",
+      "lunes: 9:30 a.m. – 10:30 p.m.",
+      "martes: 9:30 a.m. – 10:30 p.m.",
+      "miércoles: 9:30 a.m. – 10:30 p.m.",
+      "jueves: 9:30 a.m. – 11:30 p.m.",
+      "viernes: 9:30 a.m. – 11:30 p.m.",
+      "sábado: 9:30 a.m. – 11:30 p.m."
+    ],
+    "rating": 4.1,
+    "reviewCount": 2469
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "missing",
+    "observedAt": null,
+    "observationAgeDaysAtExport": null,
+    "documentCount": 0,
+    "itemCount": 0,
+    "documents": [],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://premiercaesars.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:47.745+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=14559626758525849650&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:46.582+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.802169+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:15:05.945424+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 6,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_source_summary",
+      "missing_menu_document",
+      "missing_structured_menu_items"
+    ]
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "d905f449-8398-4a54-a8cc-4ae9a3a70a7f",
+  "slug": "meson-taurino-san-angel",
+  "name": "Mesón Taurino San Ángel",
+  "location": {
+    "neighborhood": "CAMPESTRE",
+    "borough": "Álvaro Obregón",
+    "address": "calle A. Revolución 1511, Tlacopac, Álvaro Obregón, 01049 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3530478,
+      "longitude": -99.1903346
+    }
+  },
+  "contact": {
+    "phone": "55 5661 2183",
+    "website": "http://lasoriginalesgaoneras.com/",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=15881028855357026712&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "mexican",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 12:00–8:00 p.m.",
+      "lunes: 12:00–10:00 p.m.",
+      "martes: 12:00–10:00 p.m.",
+      "miércoles: 12:00–11:00 p.m.",
+      "jueves: 12:00–11:00 p.m.",
+      "viernes: 12:00–11:00 p.m.",
+      "sábado: 12:00–11:00 p.m."
+    ],
+    "rating": 4.5,
+    "reviewCount": 2137
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-15T21:03:03.163Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 8,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "0863a268-096a-4314-9ac0-3b3062eb4479",
+        "sourceUrl": "https://likingrestaurant.com/menu/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:unrelated_domain",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T21:03:03.163Z"
+      },
+      {
+        "id": "0a4b7b06-cf57-42fa-aa6a-a8b9930df420",
+        "sourceUrl": "https://likingrestaurant.com/chicken-strips_seniors-menu/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:unrelated_domain",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T21:03:03.163Z"
+      },
+      {
+        "id": "16c08bf6-67b3-4044-8b01-3ca7e129cc71",
+        "sourceUrl": "https://likingrestaurant.com/c/seniors-menu/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:unrelated_domain",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T21:03:03.163Z"
+      },
+      {
+        "id": "1d718349-24f3-4919-ae98-a78a0b49b6d7",
+        "sourceUrl": "https://likingrestaurant.com/hamburger-steak_seniors-menu/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:unrelated_domain",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T21:03:03.163Z"
+      },
+      {
+        "id": "2493db7f-c292-41bd-aa10-0a2c8db98897",
+        "sourceUrl": "https://likingrestaurant.com/fish-and-chips_seniors-menu/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:unrelated_domain",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T21:03:03.163Z"
+      },
+      {
+        "id": "48009389-bfdd-4a0e-9cc5-36e3c76a52e5",
+        "sourceUrl": "https://likingrestaurant.com/c/kids-menu/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:unrelated_domain",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T21:03:03.163Z"
+      },
+      {
+        "id": "9be1ebc6-4c78-4746-b281-f32a29158f69",
+        "sourceUrl": "https://likingrestaurant.com/upload_photos/hot-beef-sandwich_seniors-menu/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:unrelated_domain",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T21:03:03.163Z"
+      },
+      {
+        "id": "d4907355-bf26-4d35-83d8-e3058c427563",
+        "sourceUrl": "https://likingrestaurant.com/hot-beef-sandwich_seniors-menu/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:unrelated_domain",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T21:03:03.163Z"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://cigalhomes.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:51.192+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=15881028855357026712&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:49.211+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.165171+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:16:29.925773+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 216,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram,menu",
+    "actionPriority": 6,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

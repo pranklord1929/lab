@@ -1,0 +1,161 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "3c5364c2-8f71-452f-8360-8e57f5b969a7",
+  "slug": "limantour",
+  "name": "Limantour",
+  "location": {
+    "neighborhood": "POLANCO III SECCIÓN",
+    "borough": "Miguel Hidalgo",
+    "address": "Oscar Wilde 9, Polanco, Polanco III Secc, Miguel Hidalgo, 11560 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4303237,
+      "longitude": -99.1970539
+    }
+  },
+  "contact": {
+    "phone": "55 5280 1299",
+    "website": "http://www.limantour.tv/",
+    "instagram": "https://instagram.com/limantourmx/",
+    "googleMapsUrl": "https://maps.google.com/?cid=13041214239453771694&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "cocktail_bar",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 3
+  },
+  "experience": {
+    "sourceSummary": "Creative mezcal & tequila cocktails, plus simple bar food, at a buzzy venue with outdoor tables.",
+    "hours": [
+      "domingo: 2:00–11:00 p.m.",
+      "lunes: 5:00–11:00 p.m.",
+      "martes: 5:00 p.m. – 12:00 a.m.",
+      "miércoles: 5:00 p.m. – 1:00 a.m.",
+      "jueves: 4:00 p.m. – 1:00 a.m.",
+      "viernes: 4:00 p.m. – 1:00 a.m.",
+      "sábado: 3:00 p.m. – 1:00 a.m."
+    ],
+    "rating": 4.4,
+    "reviewCount": 1884
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": true,
+    "worlds50BestRank": "20",
+    "worlds50BestList": "North America's 50 Best Bars"
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "missing",
+    "observedAt": null,
+    "observationAgeDaysAtExport": null,
+    "documentCount": 0,
+    "itemCount": 0,
+    "documents": [],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://limantour.tv/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:46.189+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=13041214239453771694&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:44.977+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/limantourmx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/limantourmx/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 5,
+    "sourceNames": [
+      "google_places",
+      "official_website",
+      "resy",
+      "wikidata",
+      "worlds50best"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:14:43.812376+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": true,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 5,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "menu",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_menu_document",
+      "missing_structured_menu_items"
+    ]
+  }
+}

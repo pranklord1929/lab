@@ -1,0 +1,248 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "c59b19e2-6a47-41e6-8671-eb657c608937",
+  "slug": "bisquets-obregon-albert",
+  "name": "Bisquets Obregón",
+  "location": {
+    "neighborhood": "ALBERT",
+    "borough": "Benito Juárez",
+    "address": "Calz. de Tlalpan 1252, Albert, Benito Juárez, 03560 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.372418,
+      "longitude": -99.1409253
+    }
+  },
+  "contact": {
+    "phone": "55 7159 6410",
+    "website": "http://www.bisquetsobregon.com/",
+    "instagram": "https://instagram.com/bisquetsobregon/",
+    "googleMapsUrl": "https://maps.google.com/?cid=6235020962421944803&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 7:30 a.m. – 11:00 p.m.",
+      "lunes: 7:30 a.m. – 11:00 p.m.",
+      "martes: 7:30 a.m. – 11:00 p.m.",
+      "miércoles: 7:30 a.m. – 11:00 p.m.",
+      "jueves: 7:30 a.m. – 11:00 p.m.",
+      "viernes: 7:30 a.m. – 11:00 p.m.",
+      "sábado: 7:30 a.m. – 11:00 p.m."
+    ],
+    "rating": 4,
+    "reviewCount": 3820
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-17T10:08:09.061Z",
+    "observationAgeDaysAtExport": 31,
+    "documentCount": 6,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "2babadba-2415-4513-8237-2d2aa294d9bc",
+        "sourceUrl": "https://bisquetsobregon.com/blog/desayunos",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "f82f4d84-8072-466d-990b-caa41c860b2d",
+        "sourceUrl": "https://www.facebook.com/tr?id=976058224040281&amp;ev=PageView&amp;noscript=1",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "034522ae-c455-44c5-a504-3d3e791b3f5c",
+        "sourceUrl": "https://bisquetsobregon.com/menu-restaurante",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "0d23bf2d-8a5b-45d2-a909-c1d848faa48f",
+        "sourceUrl": "https://bisquetsobregon.com/menu-pan-y-cafe",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "7fc370eb-26de-4132-a227-183923426be5",
+        "sourceUrl": "https://www.bisquetsobregon.com/menu-pan-y-cafe",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "f7d67d08-a59e-4722-864e-82ccb11371d2",
+        "sourceUrl": "https://www.bisquetsobregon.com/menu-restaurante",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://bisquetsobregon.com/blog/desayunos",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.facebook.com/tr?id=976058224040281&amp;ev=PageView&amp;noscript=1",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://bisquetsobregon.com/menu-restaurante",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://bisquetsobregon.com/menu-pan-y-cafe",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.bisquetsobregon.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:30.576+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=6235020962421944803&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:31.135+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/bisquetsobregonoficial/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/bisquetsobregon/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "foursquare",
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.165171+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:07:20.636087+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 6,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_cuisine",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

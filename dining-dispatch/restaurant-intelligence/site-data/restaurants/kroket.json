@@ -1,0 +1,375 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "ec8402ff-45fb-4b76-ad62-925136fa3d68",
+  "slug": "kroket",
+  "name": "Kroket",
+  "location": {
+    "neighborhood": "NÁPOLES",
+    "borough": "Benito Juárez",
+    "address": "Arkansas 18, Nápoles, Benito Juárez, 03810 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3919394,
+      "longitude": -99.173851
+    }
+  },
+  "contact": {
+    "phone": "55 9339 8568",
+    "website": "https://www.kroket.com.mx/",
+    "instagram": "https://instagram.com/kroket_mx/",
+    "googleMapsUrl": "https://maps.google.com/?cid=16038239501913657586&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 9:00 a.m. – 5:00 p.m.",
+      "lunes: 9:00 a.m. – 5:00 p.m.",
+      "martes: 9:00 a.m. – 5:00 p.m.",
+      "miércoles: 9:00 a.m. – 5:00 p.m.",
+      "jueves: 9:00 a.m. – 9:00 p.m.",
+      "viernes: 9:00 a.m. – 9:00 p.m.",
+      "sábado: 9:00 a.m. – 9:00 p.m."
+    ],
+    "rating": 4.5,
+    "reviewCount": 198
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-17T10:08:09.061Z",
+    "observationAgeDaysAtExport": 31,
+    "documentCount": 16,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "274d3c3e-4c79-4857-b6d8-f14bb53c9c51",
+        "sourceUrl": "https://kroket.com.mx/MENU/ENGLISH-MENU/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "31083257-9b75-4c74-979d-def8828c9b32",
+        "sourceUrl": "https://kroket.com.mx/MENU/MENU/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "520dac7b-89c0-43e9-a08e-4142e3ca1600",
+        "sourceUrl": "https://kroket.com.mx/MENU/RESERVACIONES/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "cfa9a8c2-dee6-4182-bdd1-31377e669d52",
+        "sourceUrl": "https://kroket.com.mx/ENGLISH-MENU/ENGLISH-MENU/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "d78e4ffd-2e50-4a14-8e45-315aa79b9c31",
+        "sourceUrl": "https://kroket.com.mx/ENGLISH-MENU/MENU/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "fe5f71a6-d6ce-4cfb-9981-47af32cf1c2f",
+        "sourceUrl": "https://kroket.com.mx/ENGLISH-MENU/RESERVACIONES/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "2bb0178c-5b28-422a-99b6-b913bcb1a2b6",
+        "sourceUrl": "https://www.kroket.com.mx/ENGLISH-MENU/MENU/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "4272002b-05cc-4b02-a875-094b955fc65f",
+        "sourceUrl": "https://www.kroket.com.mx/ENGLISH-MENU/RESERVACIONES/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "4655127d-77cc-41e9-a258-875d2fee35f9",
+        "sourceUrl": "https://kroket.com.mx/ENGLISH-MENU/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "81f08074-70d0-4acd-a0c6-31d0e94c4875",
+        "sourceUrl": "https://kroket.com.mx/MENU/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "a37a3fc3-fdca-43e6-aa09-028dbfd12ef6",
+        "sourceUrl": "https://www.kroket.com.mx/MENU/ENGLISH-MENU/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "bf7c5fde-c350-4da6-bafa-3dd6ff0790f9",
+        "sourceUrl": "https://www.kroket.com.mx/ENGLISH-MENU/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "c65e266d-5dcd-4e14-86af-aa24a4b4654e",
+        "sourceUrl": "https://www.kroket.com.mx/MENU/RESERVACIONES/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "dc800e3a-6fe6-4c68-88e0-19acd999c3c4",
+        "sourceUrl": "https://www.kroket.com.mx/ENGLISH-MENU/ENGLISH-MENU/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "e07a506c-1f4b-4a7f-bed2-2fa40b91c643",
+        "sourceUrl": "https://www.kroket.com.mx/MENU/MENU/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "ecb026f1-d419-4aa7-92c1-d3d3b71fa47b",
+        "sourceUrl": "https://www.kroket.com.mx/MENU/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.kroket.com.mx/MENU/MENU/",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.kroket.com.mx/MENU/RESERVACIONES/",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.kroket.com.mx/MENU/ENGLISH-MENU/",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.kroket.com.mx/ENGLISH-MENU/MENU/",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.kroket.com.mx/ENGLISH-MENU/RESERVACIONES/",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.kroket.com.mx/ENGLISH-MENU/ENGLISH-MENU/",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://kroket.com.mx/MENU/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://kroket.com.mx/ENGLISH-MENU/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.kroket.com.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:30.26+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=16038239501913657586&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:41.35+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/kroket.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/kroket_mx/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.165171+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:13:04.655907+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 6,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_cuisine",
+      "missing_price_level",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

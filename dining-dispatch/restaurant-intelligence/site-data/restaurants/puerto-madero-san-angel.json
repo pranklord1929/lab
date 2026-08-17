@@ -1,0 +1,204 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "34fc72b8-0e9c-4236-9163-fa00de416cf9",
+  "slug": "puerto-madero-san-angel",
+  "name": "Puerto Madero San Ángel",
+  "location": {
+    "neighborhood": "SAN ÁNGEL",
+    "borough": "Álvaro Obregón",
+    "address": "Av. de la Paz 6, San Ángel, Álvaro Obregón, 01000 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3469473,
+      "longitude": -99.1886845
+    }
+  },
+  "contact": {
+    "phone": "55 5550 3535",
+    "website": "http://www.puertomaderorestaurantes.com/",
+    "instagram": "https://instagram.com/puertomaderomex/",
+    "googleMapsUrl": "https://maps.google.com/?cid=5605784475068738092&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "argentinian",
+    "michelinCuisine": null,
+    "openTableCuisine": "Argentina",
+    "priceLevel": 4
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 1:00 p.m. – 1:00 a.m.",
+      "lunes: 1:00 p.m. – 1:00 a.m.",
+      "martes: 1:00 p.m. – 1:00 a.m.",
+      "miércoles: 1:00 p.m. – 1:00 a.m.",
+      "jueves: 1:00 p.m. – 1:00 a.m.",
+      "viernes: 1:00 p.m. – 1:00 a.m.",
+      "sábado: 1:00 p.m. – 1:00 a.m."
+    ],
+    "rating": 4.7,
+    "reviewCount": 3096
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": "https://www.opentable.com.mx/r/puerto-madero-san-angel-ciudad-de-mexico",
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-17T10:08:09.061Z",
+    "observationAgeDaysAtExport": 31,
+    "documentCount": 3,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "6ee96ea3-901f-43ac-934a-683d009293c4",
+        "sourceUrl": "https://www.facebook.com/tr?id=280991476991990&ev=PageView&noscript=1&cd%5Bpost_category%5D=a+la+carta&cd%5Bpage_title%5D=Un+Gusto+Porte%C3%B1o+en+el+Coraz%C3%B3n+de+M%C3%A9xico&cd%5Bpost_type%5D=post&cd%5Bpost_id%5D=8154&cd%5Bplugin%5D=PixelYourSite&cd%5Buser_role%5D=guest&cd%5Bevent_url%5D=www.puertomaderorestaurantes.com%2Frestaurante-puerto-madero%2F",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "013d27fb-cf8f-46bf-bd5a-a3a126bca4b4",
+        "sourceUrl": "https://www.puertomaderorestaurantes.com/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.5,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:21.897+00:00"
+      },
+      {
+        "id": "436dcc0b-ab12-44dc-86f7-330ee69cb0e9",
+        "sourceUrl": "https://puertomaderorestaurantes.com/menu/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.75,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:17.503+00:00"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.facebook.com/tr?id=280991476991990&ev=PageView&noscript=1&cd%5Bpost_category%5D=a+la+carta&cd%5Bpage_title%5D=Un+Gusto+Porte%C3%B1o+en+el+Coraz%C3%B3n+de+M%C3%A9xico&cd%5Bpost_type%5D=post&cd%5Bpost_id%5D=8154&cd%5Bplugin%5D=PixelYourSite&cd%5Buser_role%5D=guest&cd%5Bevent_url%5D=www.puertomaderorestaurantes.com%2Frestaurante-puerto-madero%2F",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://puertomaderorestaurantes.com/menu/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.puertomaderorestaurantes.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:02.254+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=5605784475068738092&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:18.231+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/gpopuertomadero",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/puertomaderomex/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 4,
+    "sourceNames": [
+      "google_places",
+      "official_website",
+      "opentable",
+      "resy"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T13:58:52.627641+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": true,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 38,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "menu",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

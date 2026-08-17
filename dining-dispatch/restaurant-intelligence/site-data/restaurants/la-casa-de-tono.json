@@ -1,0 +1,265 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "6aa87362-5508-479d-99da-8fd0aed20c91",
+  "slug": "la-casa-de-tono",
+  "name": "La Casa de Toño",
+  "location": {
+    "neighborhood": "CHIMALISTAC",
+    "borough": "Álvaro Obregón",
+    "address": "Av. Insurgentes Sur 2374-Loc H, Chimalistac, Álvaro Obregón, 01070 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.340354,
+      "longitude": -99.1900535
+    }
+  },
+  "contact": {
+    "phone": null,
+    "website": "http://lacasadetono.mx/",
+    "instagram": "https://instagram.com/lacasadetono/",
+    "googleMapsUrl": "https://maps.google.com/?cid=13380730559021067199&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "mexican",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 1
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 8:00 a.m. – 11:00 p.m.",
+      "lunes: 8:00 a.m. – 11:00 p.m.",
+      "martes: 8:00 a.m. – 11:00 p.m.",
+      "miércoles: 8:00 a.m. – 11:00 p.m.",
+      "jueves: 8:00 a.m. – 11:00 p.m.",
+      "viernes: 8:00 a.m. – 11:00 p.m.",
+      "sábado: 8:00 a.m. – 11:00 p.m."
+    ],
+    "rating": 4.5,
+    "reviewCount": 12964
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-09T18:55:35.546+00:00",
+    "observationAgeDaysAtExport": 38,
+    "documentCount": 2,
+    "itemCount": 6,
+    "documents": [
+      {
+        "id": "98b9df77-7656-44b5-b598-f4d494b84213",
+        "sourceUrl": "https://delivery.lacasadetono.mx/pedir/PNubkCfXQ7CF93S9R/enchiladas-rellenas-con-pollo?categoria=platillos&amp;utm_source=lct_web&amp;utm_medium=referral&amp;utm_campaign=delivery&amp;utm_content=producto_destacado",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.32,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:35.546+00:00"
+      },
+      {
+        "id": "38e92654-a55c-4f0f-a3d2-ebcfca3f5d08",
+        "sourceUrl": "https://lacasadetono.mx/menus/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.75,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:33.682+00:00"
+      }
+    ],
+    "items": [
+      {
+        "id": "30b5455f-0247-43ed-8193-f95899384d58",
+        "documentId": "98b9df77-7656-44b5-b598-f4d494b84213",
+        "name": "Agua de horchata",
+        "description": null,
+        "price": 52,
+        "currency": "MXN",
+        "category": "Bebidas",
+        "sourceUrl": "https://delivery.lacasadetono.mx/pedir/PNubkCfXQ7CF93S9R/enchiladas-rellenas-con-pollo?categoria=platillos&amp;utm_source=lct_web&amp;utm_medium=referral&amp;utm_campaign=delivery&amp;utm_content=producto_destacado",
+        "observedAt": "2026-07-09T18:55:35.546+00:00",
+        "extractionConfidence": 0.32,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "e5bfaff6-dec2-42b9-9cf4-4fcf013136cb",
+        "documentId": "98b9df77-7656-44b5-b598-f4d494b84213",
+        "name": "Agua de tamarindo",
+        "description": null,
+        "price": 52,
+        "currency": "MXN",
+        "category": "Bebidas",
+        "sourceUrl": "https://delivery.lacasadetono.mx/pedir/PNubkCfXQ7CF93S9R/enchiladas-rellenas-con-pollo?categoria=platillos&amp;utm_source=lct_web&amp;utm_medium=referral&amp;utm_campaign=delivery&amp;utm_content=producto_destacado",
+        "observedAt": "2026-07-09T18:55:35.546+00:00",
+        "extractionConfidence": 0.32,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "886f8edc-f079-4bfb-8ebb-b01d1dbb904f",
+        "documentId": "98b9df77-7656-44b5-b598-f4d494b84213",
+        "name": "Enchiladas rellenas con pollo",
+        "description": "Se envían preparadas, rellenas con pollo (orden de 3 piezas)",
+        "price": null,
+        "currency": "MXN",
+        "category": "Desayunos",
+        "sourceUrl": "https://delivery.lacasadetono.mx/pedir/PNubkCfXQ7CF93S9R/enchiladas-rellenas-con-pollo?categoria=platillos&amp;utm_source=lct_web&amp;utm_medium=referral&amp;utm_campaign=delivery&amp;utm_content=producto_destacado",
+        "observedAt": "2026-07-09T18:55:35.546+00:00",
+        "extractionConfidence": 0.32,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "29352746-29ff-4a52-bdf7-059a168c423a",
+        "documentId": "98b9df77-7656-44b5-b598-f4d494b84213",
+        "name": "Crema (110gr)",
+        "description": "Extra",
+        "price": 41,
+        "currency": "MXN",
+        "category": "Extras",
+        "sourceUrl": "https://delivery.lacasadetono.mx/pedir/PNubkCfXQ7CF93S9R/enchiladas-rellenas-con-pollo?categoria=platillos&amp;utm_source=lct_web&amp;utm_medium=referral&amp;utm_campaign=delivery&amp;utm_content=producto_destacado",
+        "observedAt": "2026-07-09T18:55:35.546+00:00",
+        "extractionConfidence": 0.32,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "dab14117-94f1-4e20-882f-2ebf172548d4",
+        "documentId": "98b9df77-7656-44b5-b598-f4d494b84213",
+        "name": "Queso rallado (60 gr)",
+        "description": "Extra",
+        "price": 30,
+        "currency": "MXN",
+        "category": "Extras",
+        "sourceUrl": "https://delivery.lacasadetono.mx/pedir/PNubkCfXQ7CF93S9R/enchiladas-rellenas-con-pollo?categoria=platillos&amp;utm_source=lct_web&amp;utm_medium=referral&amp;utm_campaign=delivery&amp;utm_content=producto_destacado",
+        "observedAt": "2026-07-09T18:55:35.546+00:00",
+        "extractionConfidence": 0.32,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "20599e9d-1dd5-460c-a174-a41be165158a",
+        "documentId": null,
+        "name": "Opcional Seleccione al menos 1 Crema (110gr) +",
+        "description": null,
+        "price": 41,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lacasadetono.mx/menus/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://lacasadetono.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:44.464+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=13380730559021067199&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:34.279+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/LaCasaDeTonoOficial/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/lacasadetono/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 4,
+    "sourceNames": [
+      "foursquare",
+      "google_places",
+      "official_menus",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "foursquare",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T20:05:20.22199+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:09:38.376742+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": true,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 108,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_source_summary"
+    ]
+  }
+}

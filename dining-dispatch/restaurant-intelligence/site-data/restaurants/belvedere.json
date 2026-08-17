@@ -1,0 +1,178 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "8914a0b3-db39-4668-82b6-1025c813b84d",
+  "slug": "belvedere",
+  "name": "Belvedere",
+  "location": {
+    "neighborhood": "POLANCO V SECCIÓN",
+    "borough": "Miguel Hidalgo",
+    "address": "Av. Pdte. Masaryk 48, Chapultepec Morales, Polanco V Secc, Miguel Hidalgo, 11580 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4312351,
+      "longitude": -99.1830453
+    }
+  },
+  "contact": {
+    "phone": null,
+    "website": "https://www.belvederepolanco.com/",
+    "instagram": "https://instagram.com/belvedere_polanco/",
+    "googleMapsUrl": "https://maps.google.com/?cid=12922334831746440332&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: Cerrado",
+      "lunes: 1:00 p.m. – 2:00 a.m.",
+      "martes: 1:00 p.m. – 2:00 a.m.",
+      "miércoles: 1:00 p.m. – 2:00 a.m.",
+      "jueves: 1:00 p.m. – 2:00 a.m.",
+      "viernes: 1:00 p.m. – 2:00 a.m.",
+      "sábado: Cerrado"
+    ],
+    "rating": 4.5,
+    "reviewCount": 415
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-09T18:56:12.246+00:00",
+    "observationAgeDaysAtExport": 38,
+    "documentCount": 1,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "ca0ae8ec-6516-44a7-870b-7bd4a1bef618",
+        "sourceUrl": "https://www.belvederepolanco.com/men%C3%BA",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.5,
+        "extractionMethod": "website_crawl",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-09T18:56:12.246+00:00"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://belvederepolanco.com/men%C3%BA",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.belvederepolanco.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:14.667+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=12922334831746440332&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:25.385+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/BelvederePolanco",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/belvedere_polanco/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "google_places",
+      "official_website",
+      "resy"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "resy",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "resy",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:05:25.154572+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 327,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "menu",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_cuisine",
+      "missing_price_level",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

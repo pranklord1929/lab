@@ -1,0 +1,2042 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "3a759123-54cb-410d-adc3-e6dfa3caebee",
+  "slug": "the-urbanist",
+  "name": "The Urbanist",
+  "location": {
+    "neighborhood": "SANTA FE CUAJIMALPA",
+    "borough": "Cuajimalpa de Morelos",
+    "address": "Juan Salvador Agraz 60, Santa Fe, Contadero, Cuajimalpa de Morelos, 05300 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3580848,
+      "longitude": -99.2772557
+    }
+  },
+  "contact": {
+    "phone": "55 5292 4525",
+    "website": "http://www.theurbanist.mx/",
+    "instagram": "https://instagram.com/theurbanistmx/",
+    "googleMapsUrl": "https://maps.google.com/?cid=16118002821025864293&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 6:30 a.m. – 10:00 p.m.",
+      "lunes: 6:30 a.m. – 10:00 p.m.",
+      "martes: 6:30 a.m. – 10:00 p.m.",
+      "miércoles: 6:30 a.m. – 10:00 p.m.",
+      "jueves: 6:30 a.m. – 10:00 p.m.",
+      "viernes: 6:30 a.m. – 10:00 p.m.",
+      "sábado: 6:30 a.m. – 10:00 p.m."
+    ],
+    "rating": 4,
+    "reviewCount": 222
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "local_extraction_candidate",
+    "observedAt": "2026-07-17T10:10:05.905Z",
+    "observationAgeDaysAtExport": 31,
+    "documentCount": 63,
+    "itemCount": 63,
+    "documents": [
+      {
+        "id": "0048d773-c98c-4bb0-a5e1-a7980933d605",
+        "sourceUrl": "https://www.theurbanist.mx/menu/Imgs/Urbanist_Comida_Cena.png",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "015b37c5-f629-4e73-b49b-33ac967ce9b8",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Ing/Menus/URB_Menu_Tax_Room.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "02c1f765-a62f-43f2-962e-d5a0088125e5",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Esp/Menus/ComidasyCenas/URB_Menu_Comida_492.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "0a7dc49f-a873-4ba3-be2f-a8ac6fdade01",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Esp/Menus/Desayunos/URB_Menu_Desayunos_472.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "1eca9a77-081c-4dbe-abfa-dceba154ea75",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Ing/Menus/LunchandDinner/URB_Menu_Lunch_491.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "25bd8c18-3edc-476d-afa4-112ccc27fd49",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Esp/Menus/ComidasyCenas/URB_Menu_Comida_495.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "385b882f-51d3-48ca-9141-99e190e78ce9",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Ing/Menus/Drinks/URB_Menu_Drinks_471.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "3a49340a-167d-4d52-8bf3-ec2a0bd2c3b3",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Esp/Menus/ComidasyCenas/URB_Menu_Comida_496.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "41dba13a-ed00-403c-99e7-2356dff114b5",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Esp/Menus/ComidasyCenas/URB_Menu_Comida_498.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "4684effe-0690-48b5-8f75-0a0aef2c59f0",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Esp/Menus/ComidasyCenas/URB_Menu_Comida_497.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "4f793b82-021c-405f-b448-51e2aea1b2d4",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Imgs/Urbanist_Postres.png",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "50a50197-d776-4ece-97a4-57677b2aba3f",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Esp/Menus/Bebidas/URB_Menu_Bebidas_471.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "5748314b-5ba9-4336-b2f6-0d3b149fc3ab",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Imgs/Urbanist_Comida_Cena.png",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "57733e64-99ee-44b2-b0f2-cf89fe95b53c",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Ing/Menus/LunchandDinner/URB_Menu_Lunch_496.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "63f29de5-31a7-4198-9e65-11630bffc9d2",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Ing/Menus/LunchandDinner/URB_Menu_Lunch_494.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "65b47397-359c-43cb-b10e-85034586615e",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Esp/Menus/Desayunos/URB_Menu_Desayunos_473.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "6b7108ff-7de3-4636-986f-077f6011c72c",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Esp/Menus/Desayunos/URB_Menu_Desayunos.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "6eaa6680-1581-4cd9-93cd-35a31b4cabd8",
+        "sourceUrl": "https://www.theurbanist.mx/menu/Imgs/Urbanist_Desayunos.png",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "703503ed-1cfa-4d5b-8292-710e92962756",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Ing/Menus/Breakfast/URB_Menu_Breakfast_472.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "772c82a0-e1f4-44d1-858d-11e9c402ecdb",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Esp/Menus/Bebidas/URB_Menu_Bebidas_473.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "7c00b4c8-62f1-4dae-8cf5-5fdd586b01a7",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Imgs/Urbanist_Desayunos.png",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "87d99705-2cae-4238-a8f1-b13f482c2a34",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Ing/Menus/Drinks/URB_Menu_Drinks.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "9b73f0b3-f59b-43b6-a7ce-def023d3962e",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Ing/Menus/LunchandDinner/URB_Menu_Lunch_495.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "9c7df516-8878-4ea1-80ab-db1d23bad3a2",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Ing/Menus/Drinks/URB_Menu_Drinks_472.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "a47b35ee-db50-4e13-80cc-1894319f9f22",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Esp/Menus/URB_Menu_Imp_Room.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "ac0b17a3-4589-4caa-9ecd-ae7d4cc6d388",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Esp/Menus/Desayunos/URB_Menu_Desayunos_471.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "b642f24f-e415-4cbc-8d06-1537f5424253",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Ing/Menus/LunchandDinner/URB_Menu_Lunch_492.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "c102849b-f0aa-40d9-97cf-796eca898d1a",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Esp/Menus/ComidasyCenas/URB_Menu_Comida_491.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "ccb17847-7e8d-403d-93e8-5b6573130adb",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Ing/Menus/Drinks/URB_Menu_Drinks_473.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "cd55d8e0-b174-453f-939b-58e540fd7f5c",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Esp/Menus/ComidasyCenas/URB_Menu_Comida_493.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "cdb4a536-9ace-4a4b-a64b-cc09aa41a587",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Esp/Menus/Bebidas/URB_Menu_Bebidas_472.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "cdf32c82-4a59-4a01-b759-1868190fa119",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Ing/Menus/Breakfast/URB_Menu_Breakfast.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "d177df07-290b-4872-ba7b-07e94f7fdb2a",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Ing/Menus/Breakfast/URB_Menu_Breakfast_473.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "dea72c2b-da0a-4a4c-abbf-ded612288b05",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Esp/Menus/ComidasyCenas/URB_Menu_Comida_494.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "e9b6498e-c53f-47be-945a-dad8d5065e4c",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Ing/Menus/Breakfast/URB_Menu_Breakfast_471.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "f212ec33-c305-4474-8e54-c2d326c55372",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Ing/Menus/LunchandDinner/URB_Menu_Lunch_493.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "f26d0027-1304-43d3-9391-b76e997592ca",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Esp/Menus/URB_Menu_Desayuno.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "f49fd313-c180-4cbc-880d-4a6808929566",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Ing/Menus/LunchandDinner/URB_Menu_Lunch_497.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "f9cf17e7-3b69-44ac-b596-0b727c065985",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Esp/Menus/Bebidas/URB_Menu_Bebidas.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "fad5b54f-a81e-40f8-a3c0-73643a3e64dd",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Imgs/Urbanist_Bebidas.png",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "fb255848-5bae-4483-ac85-907e705c05ad",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Ing/Menus/URB_Menu_Breakfast.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "fbd5f674-ac8d-4ad4-b8bf-f3fc0edeb074",
+        "sourceUrl": "https://www.theurbanist.mx/menu/Imgs/Urbanist_Postres.png",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "fc006fef-f00f-4d31-9884-fad652ba5e36",
+        "sourceUrl": "https://www.theurbanist.mx/menu/Imgs/Urbanist_Bebidas.png",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "034fc93d-b343-4034-8a51-bcaa7c65cbd3",
+        "sourceUrl": "https://www.theurbanist.mx/menu/Esp/Menus/Postres/Postres_49.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "15b660f2-a37d-417f-a9d1-bcef06c3709b",
+        "sourceUrl": "https://www.theurbanist.mx/menu/Esp/Menus/Desayunos/Desayunos_47.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "1d130792-968b-45cb-8233-a35d85b60c5e",
+        "sourceUrl": "https://www.theurbanist.mx/menu/Esp/Menus/Bebidas/Bebidas_47.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "320f3cd2-2919-4f12-a7ac-7dcf1ff711e1",
+        "sourceUrl": "https://www.theurbanist.mx/menu/Ing/Menus/LunchandDinner/LunchandDinner_49.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "38f6412a-1af1-4241-9cbf-7ec5cb113546",
+        "sourceUrl": "https://www.theurbanist.mx/menu/Esp/Menus/ComidasyCenas/ComidasyCenas_49.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "3c618b19-52c2-4d41-8d16-c73e75bfb48e",
+        "sourceUrl": "https://www.theurbanist.mx/menu/index.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "7a71f875-f21d-4ca3-aa17-32402ce20526",
+        "sourceUrl": "https://www.theurbanist.mx/menu/Ing/Menus/Drinks/Drinks_47.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "aa1c5927-8a03-4a1a-a285-e6f79d36852a",
+        "sourceUrl": "https://www.theurbanist.mx/menu/Ing/Menus/Breakfast/Breakfast_47.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "c812ebc4-692c-4c62-80cd-03ccb3735638",
+        "sourceUrl": "https://www.theurbanist.mx/menu/Ing/Menus/Desserts/Desserts_49.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "28129509-4eb4-4540-9312-b7dc9b414e12",
+        "sourceUrl": "https://theurbanist.mx/menu/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "3d90f2e2-92f4-4595-939d-2f0e6ece2fec",
+        "sourceUrl": "http://www.theurbanist.mx/menu/index.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "435be594-56f9-4fb9-85ca-2e2f24cd7500",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Ing/Menus/Drinks/Drinks_47.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "4b3f6053-6006-4de2-9835-a1bf20feb9ae",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Esp/Menus/Bebidas/Bebidas_47.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "7987bc35-50d1-4fdf-8cbb-601c59ac43b2",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Ing/Menus/Breakfast/Breakfast_47.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "874a43e7-63cf-4fda-99dc-e6a11027f1d9",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Esp/Menus/ComidasyCenas/ComidasyCenas_49.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "abb10b58-ab48-4f7a-8d09-ac8d05f29d4e",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Esp/Menus/Desayunos/Desayunos_47.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "ad525734-a707-4923-aa78-114f6b7a31b1",
+        "sourceUrl": "http://theurbanist.mx/menu/index.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "b20f7d4f-1b98-4050-ba23-9f6f430ab8e0",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Ing/Menus/LunchandDinner/LunchandDinner_49.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "dd0d975d-57df-4a8f-9f35-9438f61c7111",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Ing/Menus/Desserts/Desserts_49.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "ea2a435f-f3fb-4a5b-842e-98a5d7cd48bf",
+        "sourceUrl": "http://www.theurbanist.mx/menu/Esp/Menus/Postres/Postres_49.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": [
+      {
+        "id": "7d1623a2cfb8ab9f36b498f6a6ea4cde",
+        "documentId": null,
+        "name": "Arab-Style Taco",
+        "description": null,
+        "price": 150,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "ef89de442ee8abc218c0f3f423906dd2",
+        "documentId": null,
+        "name": "BLT Sandwich (200 g)",
+        "description": null,
+        "price": 150,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "d70b44dbb363f6e054ae58d185318937",
+        "documentId": null,
+        "name": "Beef Broth",
+        "description": null,
+        "price": 120,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "af6c4cf0ed35802c32185124da6455b8",
+        "documentId": null,
+        "name": "Breaded Cutlet with Fries (180 g)",
+        "description": null,
+        "price": 200,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "ffd5692da7e0e7f700e56662bfb400e7",
+        "documentId": null,
+        "name": "Caesar (250 g)",
+        "description": null,
+        "price": 130,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "6fe1d249d306840369c5296cdd5f5970",
+        "documentId": null,
+        "name": "Cantina-Style Breaded Cutlet (180 g)",
+        "description": null,
+        "price": 250,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "0e451f0e67e6ecf61beb0244ce3203b4",
+        "documentId": null,
+        "name": "Caprese",
+        "description": null,
+        "price": 150,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "808e5c9f86965a9d6f9f7a5be654c27a",
+        "documentId": null,
+        "name": "Caprese (250 g)",
+        "description": null,
+        "price": 150,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "f67dd781b23a5b49069dda1c57da2d9e",
+        "documentId": null,
+        "name": "Cebolla Francesa",
+        "description": null,
+        "price": 80,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "ae5a5550c70e140dff98bcec1de08ff0",
+        "documentId": null,
+        "name": "Chicken Noodle",
+        "description": null,
+        "price": 120,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "0115a2b3fe2aba5d50460f57633bb99c",
+        "documentId": null,
+        "name": "Chicken Parmigiana (180 g)",
+        "description": null,
+        "price": 240,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "651503ff0148b0ccb66b32fbb1df5077",
+        "documentId": null,
+        "name": "Club Sandwich (200 g)",
+        "description": null,
+        "price": 250,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "1242c00dbe3e3108828fa468160b54cb",
+        "documentId": null,
+        "name": "Cobb",
+        "description": null,
+        "price": 150,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "bd84516552af30c81af8d05720078f83",
+        "documentId": null,
+        "name": "Cobb (250 g)",
+        "description": null,
+        "price": 150,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "83dc2bf632ca8c9ff053da10650a9bde",
+        "documentId": null,
+        "name": "Cochinita Tacos",
+        "description": null,
+        "price": 100,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "b2e2dc847fdddd3531a9f9e7d4a473b0",
+        "documentId": null,
+        "name": "Cream of Mushroom",
+        "description": null,
+        "price": 100,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "ab8f5e21b59021ca0ecc8ac12e8aa354",
+        "documentId": null,
+        "name": "Crema de Champiñones",
+        "description": null,
+        "price": 100,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "4e594d26d4255d1bd2d4bced42a1da49",
+        "documentId": null,
+        "name": "César",
+        "description": null,
+        "price": 130,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "6a164835bc4ec6fb5f780a833aab874e",
+        "documentId": null,
+        "name": "De Tortilla",
+        "description": null,
+        "price": 100,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "c7d60f582f23f2be6ac61c13148f77f1",
+        "documentId": null,
+        "name": "Deluxe Burger (340 g)",
+        "description": null,
+        "price": 280,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "32510d578c77c74e47221c15e460e478",
+        "documentId": null,
+        "name": "French Onion",
+        "description": null,
+        "price": 80,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "d017ead5fab7b9cbdaa606f7ec52eb88",
+        "documentId": null,
+        "name": "Gaoneras con Costra",
+        "description": null,
+        "price": 300,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "73549fd5ce2590fe675e9e7853721bf6",
+        "documentId": null,
+        "name": "Gaoneras with Cheese Crust",
+        "description": null,
+        "price": 300,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "93bacb0e312b321139a366b7aa2f1a09",
+        "documentId": null,
+        "name": "Gazpacho",
+        "description": null,
+        "price": 80,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "41acdaaecc829cde04a0f3df62b8d0c5",
+        "documentId": null,
+        "name": "Goat Cheese, Red Berries & Caramelized Nuts (250 g)",
+        "description": null,
+        "price": 160,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "7f85fc966d28636ccfbb37e9fd3a24d8",
+        "documentId": null,
+        "name": "Greek (200 g)",
+        "description": null,
+        "price": 120,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "ec4cfe5a3feea04e0546d128fa3a58ab",
+        "documentId": null,
+        "name": "Griega",
+        "description": null,
+        "price": 120,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "6d4df2d0c192570d6489422bf90eb6c7",
+        "documentId": null,
+        "name": "Grilled Salmon (180 9)",
+        "description": null,
+        "price": 275,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "89be08ce1cbf19d641672f9f96b521a7",
+        "documentId": null,
+        "name": "Hamburguesa Deluxe",
+        "description": null,
+        "price": 280,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "e089af98d64de47213452b1dcfb87b09",
+        "documentId": null,
+        "name": "Hamburguesa Urbanist",
+        "description": null,
+        "price": 250,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "8dbf5f43fb8392a60079c6b2041a8b7d",
+        "documentId": null,
+        "name": "Jugo de Carne",
+        "description": null,
+        "price": 120,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "0fd4852832376ded63e22ec2ec320ef1",
+        "documentId": null,
+        "name": "Lasagna Bolognese (380 g)",
+        "description": null,
+        "price": 250,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "f14de94bc86af2bc0b94fd7aa53c8f77",
+        "documentId": null,
+        "name": "Milanesa Cantinera",
+        "description": null,
+        "price": 250,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "5d67ebf2e2419126a61e9480e3181c9e",
+        "documentId": null,
+        "name": "Milanesa con Papas",
+        "description": null,
+        "price": 200,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "7611a8ac691bf5469cc55211cfa09a65",
+        "documentId": null,
+        "name": "Noodle Soup",
+        "description": null,
+        "price": 100,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "4eaf90d0890d0ce146b67d0ef86a90d7",
+        "documentId": null,
+        "name": "Pechuga a la Parmigiana",
+        "description": null,
+        "price": 240,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "3ac67106b20cbbd15a024ffb1d594261",
+        "documentId": null,
+        "name": "Penne Alfredo (300 g)",
+        "description": null,
+        "price": 150,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "88896f283095dc65630690295794c670",
+        "documentId": null,
+        "name": "Penne Pomodoro (220 g)",
+        "description": null,
+        "price": 150,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "266968a0d304514f08b77f8facc609c1",
+        "documentId": null,
+        "name": "Pepito de Arrachera (250 g)",
+        "description": null,
+        "price": 280,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "2bf677b5a62f5337bfc2c222d64b6306",
+        "documentId": null,
+        "name": "Pollo Teriyaki",
+        "description": null,
+        "price": 280,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "1119f2d2dbaa0677851249aac066200b",
+        "documentId": null,
+        "name": "Queso de Cabra, Frutos Rojos y Nueces",
+        "description": null,
+        "price": 160,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "c3983cff7c79bca08d3d734cdce3a1a4",
+        "documentId": null,
+        "name": "Skirt Steak (200 g)",
+        "description": null,
+        "price": 280,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "06c238ebca3e34b307e49c3bce74252c",
+        "documentId": null,
+        "name": "Skirt Steak Tacos",
+        "description": null,
+        "price": 330,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "724d5a8cde0392a83259a01c5080c9ed",
+        "documentId": null,
+        "name": "Sopa de Fideos",
+        "description": null,
+        "price": 100,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "7aee0d5cc535bba90b17b367a8ec47e2",
+        "documentId": null,
+        "name": "Sopes",
+        "description": null,
+        "price": 200,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "b0236f58991d3d7c1a26ef6fba9b2d8d",
+        "documentId": null,
+        "name": "Sopes (350 g)",
+        "description": null,
+        "price": 200,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "9b7948ae3bdd11fd25fdbe09ff143261",
+        "documentId": null,
+        "name": "Spaghetti Arrabbiata (300 g)",
+        "description": null,
+        "price": 150,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "2f68fec01e6dd6dee37a071cbe8123e4",
+        "documentId": null,
+        "name": "Spaghetti Bolognese (270 g)",
+        "description": null,
+        "price": 180,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "9acb3170df5789303c6a870e53127395",
+        "documentId": null,
+        "name": "Steak with Melted Cheese (180 g)",
+        "description": null,
+        "price": 300,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "55cce9e5deb142f8d116dfa88bd3c4ec",
+        "documentId": null,
+        "name": "Sábana Invierno",
+        "description": null,
+        "price": 300,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "efd9a4105b5b53c2d19553425c625f4e",
+        "documentId": null,
+        "name": "Taco Árabe",
+        "description": null,
+        "price": 150,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "f0aba8a52ef3453a6db231b260e0b56f",
+        "documentId": null,
+        "name": "Tacos de Arrachera",
+        "description": null,
+        "price": 330,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "ca407b81d0b062c1e583e4aea6f89f73",
+        "documentId": null,
+        "name": "Tacos de Cochinita",
+        "description": null,
+        "price": 100,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "e2e1ca7ee809ca5dcfe6f9c77d7522a1",
+        "documentId": null,
+        "name": "Teriyaki Chicken (210 g)",
+        "description": null,
+        "price": 280,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "3c124c6d3bb6dd28a229a66a8927e260",
+        "documentId": null,
+        "name": "Torta de Cochinita (200 g)",
+        "description": null,
+        "price": 180,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "2723de6a9be12a0e7b0796c916b74075",
+        "documentId": null,
+        "name": "Torta de Jamón y Queso (250 g)",
+        "description": null,
+        "price": 180,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "349a0182168e70ca43f411570130f95f",
+        "documentId": null,
+        "name": "Torta de Milanesa (280 g)",
+        "description": null,
+        "price": 250,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "69867d9bbc5c79eb0bc2abedf8b76367",
+        "documentId": null,
+        "name": "Tortilla",
+        "description": null,
+        "price": 100,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "691571c096dd121576c8b394175a5fb6",
+        "documentId": null,
+        "name": "Urbanist",
+        "description": null,
+        "price": 150,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "c3cab93329f19d21a0a42a55db64e15c",
+        "documentId": null,
+        "name": "Urbanist (250 g)",
+        "description": null,
+        "price": 150,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "6eb82552208ee730db67391e321f9f4f",
+        "documentId": null,
+        "name": "Urbanist Burger (250 g)",
+        "description": null,
+        "price": 250,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "e7dc9e463c85c8dbff2a5a8160af1c53",
+        "documentId": null,
+        "name": "Wrap de Arrachera (290 g)",
+        "description": null,
+        "price": 260,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "fa34e8f6688f0fb995bbbafe2cd5180b",
+        "documentId": null,
+        "name": "Wrap de Pollo (290 g)",
+        "description": null,
+        "price": 170,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.theurbanist.mx/menu/index.html",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Imgs/Urbanist_Bebidas.png",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Imgs/Urbanist_Desayunos.png",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Imgs/Urbanist_Comida_Cena.png",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Imgs/Urbanist_Postres.png",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.theurbanist.mx/menu/Esp/Menus/Bebidas/Bebidas_47.html",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.theurbanist.mx/menu/Ing/Menus/Drinks/Drinks_47.html",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.theurbanist.mx/menu/Esp/Menus/Desayunos/Desayunos_47.html",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.theurbanist.mx/menu/Ing/Menus/Breakfast/Breakfast_47.html",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.theurbanist.mx/menu/Esp/Menus/ComidasyCenas/ComidasyCenas_49.html",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.theurbanist.mx/menu/Ing/Menus/LunchandDinner/LunchandDinner_49.html",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.theurbanist.mx/menu/Esp/Menus/Postres/Postres_49.html",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.theurbanist.mx/menu/Ing/Menus/Desserts/Desserts_49.html",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.theurbanist.mx/menu/Imgs/Urbanist_Bebidas.png",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.theurbanist.mx/menu/Imgs/Urbanist_Desayunos.png",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.theurbanist.mx/menu/Imgs/Urbanist_Comida_Cena.png",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.theurbanist.mx/menu/Imgs/Urbanist_Postres.png",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Esp/Menus/Bebidas/URB_Menu_Bebidas.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Esp/Menus/Bebidas/URB_Menu_Bebidas_471.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Esp/Menus/Bebidas/URB_Menu_Bebidas_472.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Esp/Menus/Bebidas/URB_Menu_Bebidas_473.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Esp/Menus/URB_Menu_Imp_Room.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Ing/Menus/Drinks/URB_Menu_Drinks.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Ing/Menus/Drinks/URB_Menu_Drinks_471.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Ing/Menus/Drinks/URB_Menu_Drinks_472.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Ing/Menus/Drinks/URB_Menu_Drinks_473.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Ing/Menus/URB_Menu_Tax_Room.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Esp/Menus/Desayunos/URB_Menu_Desayunos.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Esp/Menus/Desayunos/URB_Menu_Desayunos_471.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Esp/Menus/Desayunos/URB_Menu_Desayunos_472.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Esp/Menus/Desayunos/URB_Menu_Desayunos_473.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Esp/Menus/URB_Menu_Desayuno.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Ing/Menus/Breakfast/URB_Menu_Breakfast.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Ing/Menus/Breakfast/URB_Menu_Breakfast_471.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Ing/Menus/Breakfast/URB_Menu_Breakfast_472.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Ing/Menus/Breakfast/URB_Menu_Breakfast_473.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Ing/Menus/URB_Menu_Breakfast.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Esp/Menus/ComidasyCenas/URB_Menu_Comida_491.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Esp/Menus/ComidasyCenas/URB_Menu_Comida_492.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Esp/Menus/ComidasyCenas/URB_Menu_Comida_493.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Esp/Menus/ComidasyCenas/URB_Menu_Comida_494.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Esp/Menus/ComidasyCenas/URB_Menu_Comida_495.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Esp/Menus/ComidasyCenas/URB_Menu_Comida_496.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Esp/Menus/ComidasyCenas/URB_Menu_Comida_497.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Esp/Menus/ComidasyCenas/URB_Menu_Comida_498.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Ing/Menus/LunchandDinner/URB_Menu_Lunch_491.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Ing/Menus/LunchandDinner/URB_Menu_Lunch_492.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Ing/Menus/LunchandDinner/URB_Menu_Lunch_493.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Ing/Menus/LunchandDinner/URB_Menu_Lunch_494.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Ing/Menus/LunchandDinner/URB_Menu_Lunch_495.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Ing/Menus/LunchandDinner/URB_Menu_Lunch_496.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Ing/Menus/LunchandDinner/URB_Menu_Lunch_497.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Esp/Menus/Bebidas/Bebidas_47.html",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Ing/Menus/Drinks/Drinks_47.html",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Esp/Menus/Desayunos/Desayunos_47.html",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Ing/Menus/Breakfast/Breakfast_47.html",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Esp/Menus/ComidasyCenas/ComidasyCenas_49.html",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Ing/Menus/LunchandDinner/LunchandDinner_49.html",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Esp/Menus/Postres/Postres_49.html",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/menu/Ing/Menus/Desserts/Desserts_49.html",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://theurbanist.mx/menu/",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://theurbanist.mx/menu/index.html",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "http://www.theurbanist.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:46.617+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=16118002821025864293&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:45.717+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/theurbanistmx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/theurbanistmx/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.165171+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:22:15.349159+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 6,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_cuisine",
+      "missing_source_summary"
+    ]
+  }
+}

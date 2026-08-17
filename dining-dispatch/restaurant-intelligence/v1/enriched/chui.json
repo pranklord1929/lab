@@ -1,0 +1,220 @@
+{
+  "catalogName": "Chuí",
+  "slug": "chui",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Chuí",
+  "location": {
+    "address": "Orizaba 34, Roma Norte",
+    "neighborhood": "Roma Norte",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06700",
+    "coordinates": {
+      "latitude": 19.422394,
+      "longitude": -99.1603723
+    }
+  },
+  "contact": {
+    "phone": "+52 56 4912 2952",
+    "website": "https://linktr.ee/chui.cdmx",
+    "instagram": "chui.cdmx",
+    "email": null
+  },
+  "hours": [
+    "lun–sáb 13:00–01:00",
+    "dom 13:00–22:30"
+  ],
+  "food": {
+    "cuisine": "argentine vegetarian",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com.mx/r/chui-reservations-ciudad-de-mexico"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://drive.google.com/file/d/1htZovuIAss9t8CUv8RWbvDovgGhWv50G/view",
+    "observedAt": "2026-08-17",
+    "itemCount": 25,
+    "items": [
+      {
+        "name": "Focaccia a la leña",
+        "price": 60,
+        "currency": "MXN",
+        "category": "platitos"
+      },
+      {
+        "name": "Pan de masa madre de harina de arroz",
+        "price": 70,
+        "currency": "MXN",
+        "category": "platitos"
+      },
+      {
+        "name": "Paté de hongos",
+        "price": 95,
+        "currency": "MXN",
+        "category": "platitos"
+      },
+      {
+        "name": "Hummus de zanahoria",
+        "price": 85,
+        "currency": "MXN",
+        "category": "platitos"
+      },
+      {
+        "name": "Aguacate con kimchi, leche de tigre",
+        "price": 165,
+        "currency": "MXN",
+        "category": "platitos"
+      },
+      {
+        "name": "Queso morral asado con guayaba, chile güero en vinagre",
+        "price": 185,
+        "currency": "MXN",
+        "category": "platitos"
+      },
+      {
+        "name": "Elote amarillo frito, alioli de ajo asado, mojo de pimientos",
+        "price": 170,
+        "currency": "MXN",
+        "category": "platitos"
+      },
+      {
+        "name": "Espárragos, mostaza, queso panela, eneldo",
+        "price": 200,
+        "currency": "MXN",
+        "category": "platitos"
+      },
+      {
+        "name": "Shiitakes a la plancha con chimichurri",
+        "price": 205,
+        "currency": "MXN",
+        "category": "platitos"
+      },
+      {
+        "name": "Ensalada de chícharos, habas, espárragos, espinaca y col de Bruselas",
+        "price": 225,
+        "currency": "MXN",
+        "category": "platitos"
+      },
+      {
+        "name": "Jitomate heirloom, cherrys, xnipec y orégano fresco",
+        "price": 175,
+        "currency": "MXN",
+        "category": "platitos"
+      },
+      {
+        "name": "Faina, romesco, parmesano y arúgula",
+        "price": 245,
+        "currency": "MXN",
+        "category": "platos"
+      },
+      {
+        "name": "Pimientos dulces y picantes asados rellenos de hongos, labneh, granada y piñones",
+        "price": 265,
+        "currency": "MXN",
+        "category": "platos"
+      },
+      {
+        "name": "Camote y elotes en salsa huancaína, huitlacoche, huevo tierno",
+        "price": 235,
+        "currency": "MXN",
+        "category": "platos"
+      },
+      {
+        "name": "Setas de cardo a la provenzal",
+        "price": 385,
+        "currency": "MXN",
+        "category": "platos"
+      },
+      {
+        "name": "Milanesa de berenjena con puré de camote, mostaza Dijon y pepinillos",
+        "price": 265,
+        "currency": "MXN",
+        "category": "platos"
+      },
+      {
+        "name": "Arroz y hongos a la leña",
+        "price": 340,
+        "currency": "MXN",
+        "category": "platos"
+      },
+      {
+        "name": "Pizza Margherita",
+        "price": 215,
+        "currency": "MXN",
+        "category": "pizzas"
+      },
+      {
+        "name": "Pizza cuatro quesos, miel de ajo fermentada",
+        "price": 270,
+        "currency": "MXN",
+        "category": "pizzas"
+      },
+      {
+        "name": "Pizza champignons, queso de cabra, cebolla",
+        "price": 270,
+        "currency": "MXN",
+        "category": "pizzas"
+      },
+      {
+        "name": "Pizza zucchinis asados, queso de nuez de la India, jalapeños",
+        "price": 200,
+        "currency": "MXN",
+        "category": "pizzas"
+      },
+      {
+        "name": "Butterscotch",
+        "price": 95,
+        "currency": "MXN",
+        "category": "postres"
+      },
+      {
+        "name": "Mango, rocas de chocolate blanco, miel",
+        "price": 160,
+        "currency": "MXN",
+        "category": "postres"
+      },
+      {
+        "name": "Pastel de zanahoria, betún de nuez de la India",
+        "price": 160,
+        "currency": "MXN",
+        "category": "postres"
+      },
+      {
+        "name": "Torta vasca con compota de tomate y jalapeño",
+        "price": 170,
+        "currency": "MXN",
+        "category": "postres"
+      }
+    ],
+    "notes": "Official PDF linked from linktr.ee/chui.cdmx. Spanish food page used."
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/chui.cdmx/",
+      "fields": [
+        "address",
+        "hours"
+      ]
+    },
+    {
+      "source": "opentable",
+      "url": "https://www.opentable.com/r/chui-ciudad-de-mexico",
+      "fields": [
+        "address"
+      ]
+    }
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": []
+}

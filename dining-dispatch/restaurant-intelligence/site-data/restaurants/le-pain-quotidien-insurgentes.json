@@ -1,0 +1,3930 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "e57c23db-6c78-4d54-be1b-0151922808a7",
+  "slug": "le-pain-quotidien-insurgentes",
+  "name": "Le Pain Quotidien Insurgentes",
+  "location": {
+    "neighborhood": "CRÉDITO CONSTRUCTOR",
+    "borough": "Benito Juárez",
+    "address": "Av. Insurgentes Sur 1630, Insurgentes Mixcoac, Benito Juárez, 03490 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3628943,
+      "longitude": -99.1823509
+    }
+  },
+  "contact": {
+    "phone": "55 5661 9314",
+    "website": "https://lepainquotidien.com/mx/stores/insurgentes?utm_source=gmb&utm_medium=business-listing",
+    "instagram": "https://instagram.com/lepainquotidienmx/",
+    "googleMapsUrl": "https://maps.google.com/?cid=12691204301864893127&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "coffee_shop",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 8:00 a.m. – 8:00 p.m.",
+      "lunes: 7:00 a.m. – 10:00 p.m.",
+      "martes: 7:00 a.m. – 10:00 p.m.",
+      "miércoles: 7:00 a.m. – 10:00 p.m.",
+      "jueves: 7:00 a.m. – 10:00 p.m.",
+      "viernes: 7:00 a.m. – 11:00 p.m.",
+      "sábado: 7:00 a.m. – 11:00 p.m."
+    ],
+    "rating": 4.3,
+    "reviewCount": 2317
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "local_extraction_candidate",
+    "observedAt": "2026-07-17T10:08:09.061Z",
+    "observationAgeDaysAtExport": 31,
+    "documentCount": 147,
+    "itemCount": 99,
+    "documents": [
+      {
+        "id": "01882a36-b003-4f98-944f-30223cbc2fd7",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/fresh-fruit-salad-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "01c20032-3e78-40cf-8919-7fdfeed94c72",
+        "sourceUrl": "https://www.lepainquotidien.com/gr/el/menu/breakfast-bowl",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "01dd82e7-a28e-40af-90de-11f56e69fd8c",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/avocado-toast-with-scrambled-eggs-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "03ce47ad-b83b-461e-aaa5-88d3c2996a17",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/hummus-roasted-broccoli-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "059f3ffd-ee11-439e-b0b6-e96b078c2d80",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/quiche-spinach-mushroom-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "06c99cf7-54b9-4528-9e6b-c65d9ab5c8a6",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/pain-perdu-be",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "0712ad14-6fba-4592-8458-9709f665b433",
+        "sourceUrl": "https://www.lepainquotidien.com/be/en/menu/salmon-quinoa-bowl",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "07a55989-ce55-49f1-8dd9-87066ea67d88",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/belgian-chocolate-brownie-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "0813bb16-8818-4364-a907-51db7a5c1d5b",
+        "sourceUrl": "https://www.lepainquotidien.com/be/en/menu/gourmet-breakfast-be",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "0bda0172-280b-48d4-8866-941a8fa86aec",
+        "sourceUrl": "https://www.lepainquotidien.com/gr/el/menu/chicken-caesar",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "0c0c4005-552e-4bba-ade3-d515fcbdd80e",
+        "sourceUrl": "https://www.lepainquotidien.com/uk/en/menu/raspberry-yoghurt-smoothie",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "0dc603d0-4fd7-4fb5-a869-212398184455",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/beef-barley-risotto-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "136458ca-d919-422c-9526-f98b066988f0",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/quiche",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "1411ed85-2e0e-4ebd-8d95-5f64c57ad7be",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/chocolate-mousse-bombe-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "1499c41b-a248-4360-aea2-d0e82e20ac07",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/mini-pancakes-be",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "14ce21fa-5342-4cfc-83ef-2959c26770f7",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/croque-club-chicken",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "16addf4f-7390-4c12-98a3-5001181113c1",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/brunch-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "17f43cbf-05d3-4547-a2f0-c0c5d1d03383",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/lemon-tartlet-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "1acd44d5-5989-4eef-82e9-68c55e03cf60",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/baked-egg",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "1b23645e-0c13-4428-9c2a-19535f891ce7",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/portobello-and-roasted-vegetables-flatbread-be",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "21012bc3-f397-478d-9f2c-ec4e7db14ff3",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/smoked-chicken-mozzarella-toast-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "22e8bfe3-b085-4fae-af02-11f5e8e903bf",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/ham-cheese-croissant",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "264ed9ed-2d57-4e79-a5e8-bf938a72e50b",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/mediterranean-salad-be",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "26b0113c-f2cd-4033-8abb-9d84d8cc4a0d",
+        "sourceUrl": "https://www.lepainquotidien.com/br/pt/menu/croque-monsieur-pt",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "2767c4f9-a3bc-402d-8466-011ce71ea618",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/omelette-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "294d8b1c-7ba0-4485-b97c-354d36510f60",
+        "sourceUrl": "https://www.lepainquotidien.com/ar/es/menu/avocado-green-hemp",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "29ba480d-47e0-4380-bcb7-858ebd74bfc7",
+        "sourceUrl": "https://www.lepainquotidien.com/be/en/menu/seasonal-vegetables-bowl",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "2ba9b18c-4292-4981-b0c6-aac52fe67242",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/omelette-with-smoked-salmon-spinach-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "2e086a79-8e65-4d30-b3d2-f2959f8bcc0e",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/zucchini-eggplant-lasagna-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "2e7ef687-ee91-4a7c-8f05-a58a2095b7b8",
+        "sourceUrl": "https://www.lepainquotidien.com/uk/en/menu/burrata-di-bufala-heirloom-tomatoes",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "302a52d5-7913-4d37-942b-ceb9223cbe55",
+        "sourceUrl": "https://www.lepainquotidien.com/gr/el/menu/sourdough-flatbread-with-grilled-vegetables",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "3070a8f8-0468-497e-92b2-bba7eb15f5e9",
+        "sourceUrl": "https://www.lepainquotidien.com/be/en/menu/flatbread-grilled-vegetables",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "32a4ffd1-b191-4d71-9e37-4a9aab0eac39",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/painperdu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "33a6e8fa-193f-48b3-a208-940ad407bb40",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/granola-parfait",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "3450ade9-8578-471e-93a7-3376a59c5ed1",
+        "sourceUrl": "https://www.lepainquotidien.com/be/en/menu/tartine-lunch-be",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "35b53460-0486-44d5-836d-4ca97fce1e2b",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/tuna",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "3798193f-f179-429e-bc8e-080cc9cc4561",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/atlantic-smoked-salmon-quinoa-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "39af608b-b9f3-468e-ab30-b4ce3dbca719",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/soup-of-the-day",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "3a0824d2-e4c8-4751-a009-e34445c567f3",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/baker-s-lunch",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "3bf49252-896e-42a3-8ac2-0aebe3795e6f",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/avocado-toast",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "3f817466-4a6f-4d39-be32-8874f29c76d8",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/scrambled-eggs-toast",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "43978810-3d00-409e-b1ed-5614df3ad3d5",
+        "sourceUrl": "https://www.lepainquotidien.com/be/en/menu/croque-club-chicken",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "446ba923-cb91-4707-82a7-226337527ba8",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/peach-almond-tart-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "44ff6aa5-2cc5-4196-81b6-a7cc88945fb3",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/mini-pancakes-be-26",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "461becc3-12bb-4aa8-b9ee-2a9e098f644c",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/salmon-quinoa-bowl",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "4762ee5f-980a-4816-b59a-89245d7835f0",
+        "sourceUrl": "https://www.lepainquotidien.com/be/en/menu/le-pain-quotidien-breakfast-be",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "49a4e950-351d-44f0-b819-30c87bf47452",
+        "sourceUrl": "https://www.lepainquotidien.com/ar/es/menu/cookies-ar",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "49d6ae11-e589-4987-830f-8ef4644291ef",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/sourdough-flatbread-with-baked-eggs-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "4b408295-f151-433a-836a-4aeb1d045d9b",
+        "sourceUrl": "https://www.lepainquotidien.com/be/en/menu/warm-belgian-waffle",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "4ca05ba0-441c-4898-a030-f6ac8df4df5c",
+        "sourceUrl": "https://www.lepainquotidien.com/be/en/menu/ham-cheese-croissant",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "4d5b5618-f1f2-4f52-b06d-67ef924eb3f0",
+        "sourceUrl": "https://www.lepainquotidien.com/jp/ja/menu/manhattan-breakfast",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "4e4a9332-501c-47c1-9389-c894d00ccc7b",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/salmon-avocado-tartine",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "4eb606c5-1aa9-4381-81a0-7a3044bcdc26",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/seasonal-vegetables-bowl",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "52b649cc-4699-499e-b716-a896b2d78b82",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/caesar-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "52f8ff99-0b43-4ad4-baa9-69eb59def7e5",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/flatbread-grilled-vegetables",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "57267d0c-c1bf-4ad7-b497-d7707b14ee71",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/quiche-lorraine-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "57408002-34f1-4287-bfd6-ea460e284678",
+        "sourceUrl": "https://www.lepainquotidien.com/ar/es/menu/wrap-caesar-ar",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "58b67fde-14d6-40f2-83c4-bfbe2c284749",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/gardeners-croque-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "58d7c66a-51fe-4c32-b6c1-4c3da51a4257",
+        "sourceUrl": "https://www.lepainquotidien.com/gr/el/menu/sourdough-flatbread-with-two-organic-baked-eggs",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "5dfff630-5cb2-4513-9ab5-8c99806f1579",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/daily-bakers-lunch-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "5e41ef25-d480-4938-a76a-bd0c93b002b8",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/baked-eggs-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "632d6164-6f43-492e-9c9d-f942f4a7e44d",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/manhattan-breakfast",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "64de327d-68e2-44eb-967b-e1f2b7dbb15b",
+        "sourceUrl": "https://www.lepainquotidien.com/gr/el/menu/farmer-brunch",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "6a5437be-2923-4a04-9330-a192b5e352c2",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/manhattan-chocolate-chip-cookie-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "6b9a93d9-0f37-4f66-b155-adca78fec343",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/harvest-bowl-be",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "6bc582d9-a50d-497c-a6ea-41558b8bafab",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/scrambled-eggs",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "6e553aaf-c01a-418a-9e2c-e0a1a3a912ba",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/omelette-with-mushrooms-cheese-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "6f100225-3fef-4d30-9552-a8fded165184",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/croque-monsieur-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "7372ef2c-2db5-471c-a5b2-d357fc4324f9",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/lemon-cake-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "7612bc11-c8a1-4dff-96d5-d231a5b79412",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/belgian-beef-tartare",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "7a1d2d39-2dea-4c0f-9da7-243b77f34e34",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/fresh-fruit-tart-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "7b19fb2e-f00e-4187-be10-dc50cef74435",
+        "sourceUrl": "https://www.lepainquotidien.com/br/pt/menu/smoked-salmon-tartar-salad",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "7cebc6b6-ecb4-42b6-9090-5757fac1abf0",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/mozzarella-panzanella-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "7ef69fdb-c46c-4c73-94f0-3dfcd96724e5",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/soft-boiled-egg",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "822656a0-9021-4d07-a638-df3cccd87443",
+        "sourceUrl": "https://www.lepainquotidien.com/be/en/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "83217c46-a76e-4600-928e-49061b749d04",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/roasted-chicken-vegetables-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "83d78c6a-4ee7-4e34-b85a-802bfc10dd28",
+        "sourceUrl": "https://www.lepainquotidien.com/gr/el/menu/avocado-toast",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "84c52883-6a18-4710-b569-778d66fdbd4a",
+        "sourceUrl": "https://www.lepainquotidien.com/ar/es/menu/potato-and-semolina-gnocchi-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "855c9dfd-4d3f-4033-aa6b-b52bdfede69a",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/scrambled-eggs-with-avocado-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "87d462fc-93c5-4c0c-b031-4ad9b151f7f8",
+        "sourceUrl": "https://www.lepainquotidien.com/br/pt/menu/brunch-board",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "88e67b72-0920-4702-9404-f50ec8b68da9",
+        "sourceUrl": "https://www.lepainquotidien.com/ar/es/menu/granola-parfait-ar",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "8d4eec7c-231b-4dd6-9fad-cb4f3f92ca0f",
+        "sourceUrl": "https://www.lepainquotidien.com/br/pt/menu/zuchinni-lasanha",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "8e2894a1-3b18-4730-a399-508f6e95ce54",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/chia-red-fruit-delice",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "8f78e61e-8adb-419a-8722-cba1cdafcb5b",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/sourdough-flatbread-with-mozzarella-roasted-vegetables-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "8f91218a-b13c-4d30-9ce4-c9ef66ccc504",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/scrambled-eggs-with-smoked-salmon-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "912c163e-75b7-4d28-963c-d41a73366b85",
+        "sourceUrl": "https://www.lepainquotidien.com/gr/el/menu/chicken-and-smoked-mozzarella",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "92b86353-04fd-472a-8d65-bfc9061c6e22",
+        "sourceUrl": "https://www.lepainquotidien.com/ar/es/menu/danish-ar",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "9422e9d2-fe57-4fb8-a67a-c4af247a8a1f",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/croque-monsieur",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "955ef163-d85e-4ea4-9e72-2ea108651f70",
+        "sourceUrl": "https://www.lepainquotidien.com/ar/es/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "9c4b3641-010a-4400-bccc-026db5c38a71",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/passion-fruit-tart-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "9cfe2641-5167-48ee-91ac-f3226830a587",
+        "sourceUrl": "https://www.lepainquotidien.com/gr/el/menu/angler-brunch",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "9dbba550-0e1e-4acf-aeb6-f415ae164b59",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/warm-goat-cheese",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "9e9994d7-dcd5-42c9-9391-1c7f2a23e063",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/pain-perdu-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "9f3a2038-c834-4ad2-81dc-9c083cc157f7",
+        "sourceUrl": "https://www.lepainquotidien.com/gr/el/menu/croque-monsieur",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "a38bb47a-4150-4e97-b9af-aa8f0362fe0f",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/tartine-lunch-be",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "a97edc75-0caa-4a8a-99ed-6a0ca141acf9",
+        "sourceUrl": "https://www.datocms-assets.com/138964/1782291653-be_mobile_menu_summer_2026_nl.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.98,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "a9b86308-5434-4a7f-b93a-cab86d4cadb9",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "ac74b446-49b2-4c73-9107-206ed6b05bcd",
+        "sourceUrl": "https://www.lepainquotidien.com/be/en/menu/mediterranean-salad-be",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "af05c195-4a5a-42e8-8604-10c7e29897bd",
+        "sourceUrl": "https://www.lepainquotidien.com/be/en/menu/quiche",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "b004d11e-90c3-42c0-a52e-08bbe0aed306",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/breakfast-bowl-be",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "b1d20f21-722f-4c3d-8d2e-7573b1583def",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/fresh-fruit-salad-be",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "b2d6525e-8d71-4277-9e50-ac87069e18a3",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/gardener-s-croque",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "b2fe2a0e-7878-428d-b076-e9361d7780ab",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/chicken-caesar",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "c1208f6b-e845-4e46-bde7-c2e9643e52bc",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/chia-passion-fruit-delice-be",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "c66bbbf2-3da0-4d9f-9b09-284b857e0b59",
+        "sourceUrl": "https://www.lepainquotidien.com/gr/el/menu/granola-parfait",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "c774cdaa-4aa0-4ade-96d2-2ee999f840a7",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/granolaparfait",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "cd21ce44-3325-47cd-a823-4013aa49b28d",
+        "sourceUrl": "https://www.lepainquotidien.com/lu/fr/menu/panzanella",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "d00e5d96-dc3f-4021-9af1-e900ffcc0e45",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/chicken-and-smoked-mozzarella",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "d21fc480-4ac8-4995-bc45-51e8843c5dfc",
+        "sourceUrl": "https://www.lepainquotidien.com/nl/nl/menu/french-toast-nl",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "d52871bb-f172-4202-ba12-1169173abb38",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/salmon-miso-bowl-be",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "d7685a00-b659-4a33-847e-7a95e3073771",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/omelette-with-smoked-beef-cheese-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "d7880a78-8006-4199-80c5-7d6ec9a403a3",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/roasted-salmon-broccoli-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "d935736a-730b-4e41-97fd-9d74275f95e9",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/soup-of-the-day-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "de1be1f4-48ea-4592-b002-d8ae81e2f83f",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/tuna-hummus-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "de69a780-9ae0-4d9b-9d94-c00946fda39b",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/protein-pancakes",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "dee19c64-f0b5-4998-b994-3d9c59d02d67",
+        "sourceUrl": "https://www.lepainquotidien.com/ar/es/menu/semolina-and-mushroom-risotto-ar",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "df35e98e-6688-4f07-81c1-eb7a8481c91b",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/gourmet-breakfast-be",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "e5ff52da-7a5c-4028-b390-3bb7cdd8116a",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/cheesecake-red-fruits-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "e6559b2d-e7a2-4467-a7aa-7682c7aec0bc",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/italian-sourdough-flatbread",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "e70590c9-23a7-42fe-ae84-ce53b9602cca",
+        "sourceUrl": "https://www.lepainquotidien.com/uk/en/menu/salmon-gravlax-tartine",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "e728fbe3-347e-4b6f-b408-b8d18dfcead3",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/le-pain-quotidien-breakfast-be",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "e797ee26-c505-4c8f-aefd-804d0fef033b",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/sourdough-flatbread-with-two-organic-baked-eggs",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "ec39cb30-d813-4505-8ec8-f67bbf6a78cf",
+        "sourceUrl": "https://www.lepainquotidien.com/gr/el/menu/chia-red-fruit-delice",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "edba564e-a7cc-4680-b78a-02e8f0d38739",
+        "sourceUrl": "https://www.lepainquotidien.com/br/pt/menu/whoe-wheat-penne-with-prosciutto",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "ef4998fd-b8d3-4e63-93e9-f0f515742600",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/pot-au-feu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "f25c2e53-0804-4653-b480-53403d4990fb",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/brunch",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "f7d254c9-48a8-465f-bf98-1d4193251de5",
+        "sourceUrl": "https://www.lepainquotidien.com/be/en/menu/mini-pancakes-be-26",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "fa5cac22-c7a2-4524-82e3-9bbf8ac869ee",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/avocado-toast-with-smoked-salmon-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "fc801401-2c49-4f39-b299-926215b9a909",
+        "sourceUrl": "https://www.lepainquotidien.com/be/nl/menu/argentinian-pastrami-croque-be",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "fd65e70d-f2f1-48ff-afd5-035b8cc5e5db",
+        "sourceUrl": "https://www.lepainquotidien.com/ar/es/menu/dulce-de-leche-and-almond-croissant-ar",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "fd8086da-5935-48de-b8ac-5b5eed972817",
+        "sourceUrl": "https://www.lepainquotidien.com/az/az/menu/scrambled-eggs-az",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "1130c212-d7da-40c7-b649-e935fbd233f1",
+        "sourceUrl": "https://www.lepainquotidien.com/mx/es/menu/zucchini-and-vegetable-mini-pizza",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "11ce3143-6242-43a5-9b8e-987cc2c3bb4b",
+        "sourceUrl": "https://www.lepainquotidien.com/mx/es/menu/lasagna-mx",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "1cdebe0f-98b0-4206-8057-0ce969a5e682",
+        "sourceUrl": "https://www.lepainquotidien.com/mx/es/menu/mexican-style-scrambled-eggs",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "26965a18-d56d-4e86-8ac8-8f73a6b710d7",
+        "sourceUrl": "https://www.lepainquotidien.com/mx/es/menu/ham-and-bacon-mini-pizza",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "4717289a-d99c-4e69-994d-62f5c2a45721",
+        "sourceUrl": "https://www.lepainquotidien.com/mx/es/menu/avocado-toast-mx",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "632b75df-cfdb-4841-8539-b66d6b4a0d95",
+        "sourceUrl": "https://www.lepainquotidien.com/mx/es/menu/croque-madame-mx",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "6b199c23-13a4-4efc-baa3-88b218abc74c",
+        "sourceUrl": "https://www.lepainquotidien.com/mx/es/menu/chilaquiles-verdes",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "6d3e94fb-2ff8-4fa4-91c0-11876e605721",
+        "sourceUrl": "https://www.lepainquotidien.com/mx/es/menu/french-toast-mx",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "79b15133-a35c-4888-955d-3184016f70ad",
+        "sourceUrl": "https://www.lepainquotidien.com/mx/es/menu/four-cheese-baguette",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "7c0a2777-ba95-495b-b880-57a56b4b339c",
+        "sourceUrl": "https://www.lepainquotidien.com/mx/es/menu/english-muffin-mx",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "8347b7b3-53a1-418a-a206-a90ca358bacd",
+        "sourceUrl": "https://www.lepainquotidien.com/mx/es/menu/chicken-and-mushroom-baguette",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "842d90c0-8979-4fbe-a631-de2a0ad53304",
+        "sourceUrl": "https://lepainquotidien.com/mx/es/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "c6d7c42b-02ce-447f-a8d4-c0c802463932",
+        "sourceUrl": "https://www.lepainquotidien.com/mx/es/menu/steak-tartine-mx",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "c990f57f-eada-413c-8f4c-192e33aa450f",
+        "sourceUrl": "https://www.lepainquotidien.com/mx/es/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "eb44433d-69e1-4360-bebf-d5eb8e4c17a6",
+        "sourceUrl": "https://www.lepainquotidien.com/mx/es/menu/molletes",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "166c7d58-6808-4266-945e-5f9503dd1c5e",
+        "sourceUrl": "https://www.lepainquotidien.com/fr/fr/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.75,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:56:14.108+00:00"
+      }
+    ],
+    "items": [
+      {
+        "id": "e71a08f737ced7542c67f35cf6f23857",
+        "documentId": null,
+        "name": "AMERICANO",
+        "description": null,
+        "price": 395,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "3167f4759b392157fcaf6b449ef99a93",
+        "documentId": null,
+        "name": "APPEL-KANEELTAARTJE",
+        "description": null,
+        "price": 645,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "d0e70080b87f53745789167d342a14e4",
+        "documentId": null,
+        "name": "AVOCADO TOAST V",
+        "description": null,
+        "price": 13.95,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "5a455f498600b5f5670bb645a72d410d",
+        "documentId": null,
+        "name": "AVOCADO TOAST V (met bio roereitjes)",
+        "description": null,
+        "price": 16.95,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "91311879d9ad2177e76261d974cbdacf",
+        "documentId": null,
+        "name": "AVOCADO TOAST V (met gerookte Atlantische zalm)",
+        "description": null,
+        "price": 18.95,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "d7bb25b2f6d0d11ea37c572ad5ed3854",
+        "documentId": null,
+        "name": "BAKER’S LUNCH",
+        "description": null,
+        "price": 16.95,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "6cb77e1ba4a3bf9ef3287ac58cbee6a9",
+        "documentId": null,
+        "name": "BAKER’S LUNCH (met poffertjes natuur of mini verse fruitsalade V)",
+        "description": null,
+        "price": 19.9,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "84b64295a9634435caab91e08c5de939",
+        "documentId": null,
+        "name": "BELGISCH RUNDSTARTAAR",
+        "description": null,
+        "price": 17.95,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "a72efc70159de23bd776d9e3c8d86510",
+        "documentId": null,
+        "name": "BELGISCHE WARME CHOCOLADEMELK",
+        "description": null,
+        "price": 495,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "359f3aa4dcd05043f2ff10287c6d2b64",
+        "documentId": null,
+        "name": "BIO APPELSAP",
+        "description": null,
+        "price": 495,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "b5ce17ded5f9ca7860432de7c7935a9d",
+        "documentId": null,
+        "name": "BOTERCROISSANT",
+        "description": null,
+        "price": 395,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "b01ecd68fdf125b86d83907bfa299f9d",
+        "documentId": null,
+        "name": "BOWL MET SEIZOENSGROENTEN V",
+        "description": null,
+        "price": 14.95,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "b4261fc6de36c5bb561e883525f09581",
+        "documentId": null,
+        "name": "BOWL MET SEIZOENSGROENTEN V (met feta)",
+        "description": null,
+        "price": 17.85,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "100dc8ff985b15653160accd0eab8b54",
+        "documentId": null,
+        "name": "BOWL MET SEIZOENSGROENTEN V (met vrije-uitloopkip)",
+        "description": null,
+        "price": 18.85,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "194ae2071c235a333c1523c522f20060",
+        "documentId": null,
+        "name": "BREAKFAST BOWL",
+        "description": null,
+        "price": 1495,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "4962ff59a53c02830152e6f4a572f343",
+        "documentId": null,
+        "name": "BROWNIE MET BELGISCHE CHOCOLADE",
+        "description": null,
+        "price": 645,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "f9be2a2f482255c9da9f2b3e38a4c2bb",
+        "documentId": null,
+        "name": "BRUNCH",
+        "description": null,
+        "price": 2695,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "9a55337c871aef82cbff440cd9745667",
+        "documentId": null,
+        "name": "CAESAR",
+        "description": null,
+        "price": 17.95,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "ceb5fa274eb7ee72660fde7b4e2dd7dd",
+        "documentId": null,
+        "name": "CAPPUCCINO",
+        "description": null,
+        "price": 495,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "c2bbadc87180c086c50f53f098ba6697",
+        "documentId": null,
+        "name": "CARAMEL LATTE MACCHIATO",
+        "description": null,
+        "price": 695,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "6609f4d3af6a926894ea56f4be9b4ef2",
+        "documentId": null,
+        "name": "CHAÏ LATTE",
+        "description": null,
+        "price": 595,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "94fb3a5b53b916a6e65702fabe769c60",
+        "documentId": null,
+        "name": "CHEESECAKE MET ROOD FRUIT",
+        "description": null,
+        "price": 745,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "300f49e338fa9297d97548b34eabfc4e",
+        "documentId": null,
+        "name": "CHIA DELICE MET ROOD FRUIT",
+        "description": null,
+        "price": 1095,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "5210d04734479cf1dce09a00056ead52",
+        "documentId": null,
+        "name": "CHOCOLADE COOKIE OF CARAMEL FRAPPÉ",
+        "description": null,
+        "price": 695,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "294a78f1fab2032be7783a37facce1a5",
+        "documentId": null,
+        "name": "CHOCOLADE DELICE V",
+        "description": null,
+        "price": 545,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "95432d5cc7197f34d637fb2ea50c0e94",
+        "documentId": null,
+        "name": "CHOCOLADEBROODJE",
+        "description": null,
+        "price": 395,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "99602fbfe09999dd3fa84e685a475f08",
+        "documentId": null,
+        "name": "CINNAMON ROLL V",
+        "description": null,
+        "price": 475,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "97ada762b1499088c594a62d4917571e",
+        "documentId": null,
+        "name": "CITROENTAARTJE MET MERINGUE",
+        "description": null,
+        "price": 645,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "abc46924d72368e766c737f94da6761a",
+        "documentId": null,
+        "name": "COOKIES chocolade of honing-rozijnen",
+        "description": null,
+        "price": 295,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "fb415c46a3b25b556259bd3abccd0cae",
+        "documentId": null,
+        "name": "CRISTAL",
+        "description": null,
+        "price": 395,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "c42ac1813c780a34e1d006114db26b1b",
+        "documentId": null,
+        "name": "CROQUE CLUB CHICKEN",
+        "description": null,
+        "price": 18.95,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "03e097612a7ce904023d24349e36e80e",
+        "documentId": null,
+        "name": "CROQUE MONSIEUR",
+        "description": null,
+        "price": 17.95,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "5b88e42b49bc253ab09acc258b58e98a",
+        "documentId": null,
+        "name": "CRÉMANT D’ALSACE",
+        "description": null,
+        "price": 745,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "83b559cfabab77f365e953bcab2ea47a",
+        "documentId": null,
+        "name": "DETOX COLD-PRESSED JUICE",
+        "description": null,
+        "price": 595,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "eeb7651f2958bb5c6a014b952e5ceb10",
+        "documentId": null,
+        "name": "ESPRESSO",
+        "description": null,
+        "price": 395,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "98e4d56f33e6e6ad168dbc4ae21feb1f",
+        "documentId": null,
+        "name": "FLAT WHITE",
+        "description": null,
+        "price": 495,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "8684a0159c93ae2db9c192f0922a8796",
+        "documentId": null,
+        "name": "FLATBREAD MET TWEE BIO SPIEGELEITJES",
+        "description": null,
+        "price": 1595,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "9fb5733a8e69216f68b1aab17498467b",
+        "documentId": null,
+        "name": "FRAMBOZENTAARTJE MET MERINGUE",
+        "description": null,
+        "price": 645,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "824eb39c6c3bc3e246fe5f3f9493bbc4",
+        "documentId": null,
+        "name": "GARDENER’S CROQUE V",
+        "description": null,
+        "price": 15.95,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "162ac0ad0568153e4ae234323d4ee0b7",
+        "documentId": null,
+        "name": "GEGRILDE GROENTEN V",
+        "description": null,
+        "price": 16.95,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "7e17c125c8393ab5da2dc753b573c661",
+        "documentId": null,
+        "name": "GEGRILDE GROENTEN V (met mozzarella di bufala D.O.P.)",
+        "description": null,
+        "price": 19.85,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "b41e491ce07d867aaf85a17c991afbf3",
+        "documentId": null,
+        "name": "GEGRILDE GROENTEN V (met serrano ham)",
+        "description": null,
+        "price": 19.85,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "5ea4de63d7a0172957ce8e2ba1cf277d",
+        "documentId": null,
+        "name": "GEMBER ELIXIR*",
+        "description": null,
+        "price": 495,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "0ac6c2afea45fac0c6d45ebfeb0a1a7b",
+        "documentId": null,
+        "name": "GOURMET BREAKFAST",
+        "description": null,
+        "price": 16.95,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "4418b3624e7d393bb0aeede38cb1ca75",
+        "documentId": null,
+        "name": "GRANOLA PARFAIT",
+        "description": null,
+        "price": 1095,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "341cb9b8e33d4b9e4ab346c5924c1b07",
+        "documentId": null,
+        "name": "HAM & KAAS CROISSANT",
+        "description": null,
+        "price": 795,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "1a3c05c7f44b68dd422d82614363cb32",
+        "documentId": null,
+        "name": "HUISGEMAAKTE ICED TEA",
+        "description": null,
+        "price": 495,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "2e01161b787b318ba175aa728a8764fb",
+        "documentId": null,
+        "name": "HUISGEMAAKTE LIMONADE citroen of frambozen",
+        "description": null,
+        "price": 595,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "bb8eca2ea32726c9dc886dff1e7e1f16",
+        "documentId": null,
+        "name": "ITALIAANS",
+        "description": null,
+        "price": 18.95,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "30d3f1ee45d38ce6fadfb1a15c8a0c12",
+        "documentId": null,
+        "name": "KARAMELTAARTJE",
+        "description": null,
+        "price": 645,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "4c2a80c251264888fa9c74c857712d3a",
+        "documentId": null,
+        "name": "LATTE MACCHIATO",
+        "description": null,
+        "price": 595,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "b3b01377de4a9eeede2613e068192d21",
+        "documentId": null,
+        "name": "LONG BLACK",
+        "description": null,
+        "price": 495,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "e01b6a5770803f8d4603fa8a0cd38f48",
+        "documentId": null,
+        "name": "LUIKSE WAFEL",
+        "description": null,
+        "price": 695,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "a4328996c6092442a267b70dd8e773d9",
+        "documentId": null,
+        "name": "MADELEINE",
+        "description": null,
+        "price": 295,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "d96be8cd80850ec0e2e224586fc62501",
+        "documentId": null,
+        "name": "MANHATTAN BREAKFAST",
+        "description": null,
+        "price": 1495,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "8151f978634d339cb7eac7b3fe23c94d",
+        "documentId": null,
+        "name": "MATCHA LATTE",
+        "description": null,
+        "price": 695,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "e2187073c22a615f9cd843372a475091",
+        "documentId": null,
+        "name": "MATÉ ENERGIEDRANK",
+        "description": null,
+        "price": 495,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "aae9c30b1ebc8ba28faf03b4d0a8dcf9",
+        "documentId": null,
+        "name": "MEDITERRAANSE SALADE",
+        "description": null,
+        "price": 17.95,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "fae88050d2dc590b34013881a640a32f",
+        "documentId": null,
+        "name": "MEDITERRAANSE SALADE (met serrano ham)",
+        "description": null,
+        "price": 20.85,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "364a810b2afcc9f621f14b056c942cc2",
+        "documentId": null,
+        "name": "MERVEILLEUX",
+        "description": null,
+        "price": 645,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "635a014af67547a8962b7c779f1cc271",
+        "documentId": null,
+        "name": "MILLEFEUILLE MET ROOD FRUIT & RABARBER",
+        "description": null,
+        "price": 745,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "885cf006e64c8beef453fac11463ed1e",
+        "documentId": null,
+        "name": "MIMOSA OF BELLINI*",
+        "description": null,
+        "price": 795,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "b084cae7c21f9d1e6ba087a6b029a9b4",
+        "documentId": null,
+        "name": "OÉ ROOD",
+        "description": null,
+        "price": 675,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "565c748781f9b3d5f996fe42792d92ea",
+        "documentId": null,
+        "name": "OÉ ROSÉ",
+        "description": null,
+        "price": 675,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "5d5ee965bfe2d0f04ec07f3c10b43d26",
+        "documentId": null,
+        "name": "OÉ WIT",
+        "description": null,
+        "price": 675,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "199d47bbf77b5a836105dd004eac16d2",
+        "documentId": null,
+        "name": "PASTEL DE NATA",
+        "description": null,
+        "price": 295,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "ceade2c931de393a32d7907427845c62",
+        "documentId": null,
+        "name": "PAVLOVA MET AARDBEIEN V",
+        "description": null,
+        "price": 545,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "b0373c767c40500b31ee1f15ba7ea62c",
+        "documentId": null,
+        "name": "PLAT OF BRUISEND WATER BRU 25cl",
+        "description": null,
+        "price": 345,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "6ba95304ddf21dc01c8c2de1e47818a0",
+        "documentId": null,
+        "name": "PLAT OF BRUISEND WATER BRU 50cl",
+        "description": null,
+        "price": 545,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "609e15761ee789be9c2e9d9031fa1c58",
+        "documentId": null,
+        "name": "POFFERTJES",
+        "description": null,
+        "price": 1295,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "cfb56837ed63c9c09edad32c924be7d7",
+        "documentId": null,
+        "name": "PORTIE BIO BAGUETTE",
+        "description": null,
+        "price": 395,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "c5c346d9b9babb912d48949a05a23056",
+        "documentId": null,
+        "name": "PROTEÏNE PANCAKES",
+        "description": null,
+        "price": 1295,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "7a0f3f22c42158929f7c19a0c042fc7c",
+        "documentId": null,
+        "name": "ROEREIEREN",
+        "description": null,
+        "price": 1095,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "a09a313a69435268d2c84aff404ab57f",
+        "documentId": null,
+        "name": "SELECTIE BIO BROOD EN BAGUETTE",
+        "description": null,
+        "price": 695,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "f20c7965f5d0c57d2bafa855267fe427",
+        "documentId": null,
+        "name": "SINAASAPPELSAP",
+        "description": null,
+        "price": 495,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "0494908e1758305586f26067ff686f80",
+        "documentId": null,
+        "name": "SPIEGELEITJE (1 OF 2)",
+        "description": null,
+        "price": 495,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "ae825b0d40046b39fea11db5132748c9",
+        "documentId": null,
+        "name": "SPRANKELENDE BOTANISCHE LIMONADE",
+        "description": null,
+        "price": 495,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "0b2c104e5eed4ff3365b5d69a2300dc1",
+        "documentId": null,
+        "name": "TARTINE LUNCH",
+        "description": null,
+        "price": 15.95,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "c41344cb6576f371b64ac212847f3d1f",
+        "documentId": null,
+        "name": "TARTINE LUNCH (met poffertjes natuur of mini verse fruitsalade V)",
+        "description": null,
+        "price": 18.95,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "89bde1e080c8c388aab0d8e524335646",
+        "documentId": null,
+        "name": "THEE",
+        "description": null,
+        "price": 495,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "b7b9e4276a8175e60e04bc9bc60a74d5",
+        "documentId": null,
+        "name": "TOAST KIP & GEROOKTE MOZZARELLA",
+        "description": null,
+        "price": 17.95,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "4700f991849542034920672da66efea4",
+        "documentId": null,
+        "name": "TOAST KIP & GEROOKTE MOZZARELLA (met gemengd slaatje V)",
+        "description": null,
+        "price": 21.6,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "b126fb32bf2f562a475f2a9459948203",
+        "documentId": null,
+        "name": "TOAST ROEREI",
+        "description": null,
+        "price": 1595,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "01431225c68000cc6e1097883a3fa085",
+        "documentId": null,
+        "name": "TONIJN",
+        "description": null,
+        "price": 13.95,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "d273e5b5f78a0a0ef62c3c8bf5bd1af9",
+        "documentId": null,
+        "name": "TORTILLON",
+        "description": null,
+        "price": 445,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "04d06f47002df568a985261b7243243f",
+        "documentId": null,
+        "name": "TWEE BIO SPIEGELEITJES",
+        "description": null,
+        "price": 15.95,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "3c3fb0f449aaddde2be194de644796bd",
+        "documentId": null,
+        "name": "VEDETT EXTRA PILSNER",
+        "description": null,
+        "price": 495,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "47a2f65d672fe1dab560964b99cc467c",
+        "documentId": null,
+        "name": "VEDETT EXTRA WHITE",
+        "description": null,
+        "price": 495,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "82de086f5ac6b285513553d171456757",
+        "documentId": null,
+        "name": "VERLOREN BROOD",
+        "description": null,
+        "price": 1195,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "3db104fc3e7c492ffa3c89e97f4415ed",
+        "documentId": null,
+        "name": "VERSE FRUITSALADE V",
+        "description": null,
+        "price": 795,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "48bded3fa6bfca7dc5e4d3075035b50c",
+        "documentId": null,
+        "name": "WARME APPELSAP",
+        "description": null,
+        "price": 575,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "6bdea2dfa6296b9fe4b3a359e3af14d5",
+        "documentId": null,
+        "name": "WARME GEITENKAAS",
+        "description": null,
+        "price": 17.95,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "e6b97c3e2f54b230baf550c94dfce57d",
+        "documentId": null,
+        "name": "WARME GEITENKAAS (met gegrild spek)",
+        "description": null,
+        "price": 21.85,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "a92061fef5a303bd6c1bc163101cc021",
+        "documentId": null,
+        "name": "ZACHTGEKOOKT EITJE (1 OF 2)",
+        "description": null,
+        "price": 495,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "20748df7dc9762fb5044dce658c276af",
+        "documentId": null,
+        "name": "ZALM & AVOCADO",
+        "description": null,
+        "price": 17.95,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "1be7b82d5885bf859d6982cc8dad8ff1",
+        "documentId": null,
+        "name": "ZALM & QUINOA BOWL",
+        "description": null,
+        "price": 18.95,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "5e7498228b2033a35ea434af92380180",
+        "documentId": null,
+        "name": "ZALM & QUINOA BOWL (met avocado)",
+        "description": null,
+        "price": 22.85,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "2a519283cd88bcb1080883c3c33c30f8",
+        "documentId": null,
+        "name": "portie taart van de dag met bio klassieke",
+        "description": null,
+        "price": 995,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "1796affb3fe9e385b2081ab8b8535fd9",
+        "documentId": null,
+        "name": "ÉCLAIR MET CHOCOLADE",
+        "description": null,
+        "price": 545,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.datocms-assets.com/138964/1782291653-be_mobile_menu_summer_2026_nl.pdf",
+      "confidence": 0.98,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/ar/es/menu/cookies-ar",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/ar/es/menu/danish-ar",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/ar/es/menu/avocado-green-hemp",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/ar/es/menu/potato-and-semolina-gnocchi-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/ar/es/menu/granola-parfait-ar",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/gr/el/menu/sourdough-flatbread-with-two-organic-baked-eggs",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/en/menu/ham-cheese-croissant",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/gr/el/menu/chicken-caesar",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/en/menu/flatbread-grilled-vegetables",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/gr/el/menu/chicken-and-smoked-mozzarella",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/gr/el/menu/croque-monsieur",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/gr/el/menu/avocado-toast",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/gr/el/menu/chia-red-fruit-delice",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/jp/ja/menu/manhattan-breakfast",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/en/menu/mini-pancakes-be-26",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/en/menu/quiche",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/en/menu/salmon-quinoa-bowl",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/en/menu/le-pain-quotidien-breakfast-be",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/en/menu/croque-club-chicken",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/en/menu/mediterranean-salad-be",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/en/menu/gourmet-breakfast-be",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/en/menu/seasonal-vegetables-bowl",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/br/pt/menu/brunch-board",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/br/pt/menu/zuchinni-lasanha",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/br/pt/menu/smoked-salmon-tartar-salad",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/br/pt/menu/whoe-wheat-penne-with-prosciutto",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/br/pt/menu/croque-monsieur-pt",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/pain-perdu-be",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/mini-pancakes-be",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/nl/nl/menu/french-toast-nl",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/salmon-miso-bowl-be",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/pot-au-feu",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/portobello-and-roasted-vegetables-flatbread-be",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/lu/fr/menu/panzanella",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/gr/el/menu/farmer-brunch",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/gr/el/menu/angler-brunch",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/gr/el/menu/breakfast-bowl",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/en/menu/warm-belgian-waffle",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/gr/el/menu/granola-parfait",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/gr/el/menu/sourdough-flatbread-with-grilled-vegetables",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/uk/en/menu/salmon-gravlax-tartine",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/uk/en/menu/burrata-di-bufala-heirloom-tomatoes",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/uk/en/menu/raspberry-yoghurt-smoothie",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/chia-passion-fruit-delice-be",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/harvest-bowl-be",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/argentinian-pastrami-croque-be",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/chocolate-mousse-bombe-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/cheesecake-red-fruits-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/passion-fruit-tart-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/fresh-fruit-tart-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/lemon-tartlet-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/peach-almond-tart-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/lemon-cake-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/belgian-chocolate-brownie-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/manhattan-chocolate-chip-cookie-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/pain-perdu-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/mozzarella-panzanella-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/quiche-lorraine-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/brunch-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/zucchini-eggplant-lasagna-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/beef-barley-risotto-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/roasted-salmon-broccoli-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/roasted-chicken-vegetables-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/quiche-spinach-mushroom-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/atlantic-smoked-salmon-quinoa-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/caesar-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/daily-bakers-lunch-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/soup-of-the-day-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/sourdough-flatbread-with-mozzarella-roasted-vegetables-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/smoked-chicken-mozzarella-toast-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/gardeners-croque-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/croque-monsieur-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/avocado-toast-with-smoked-salmon-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/avocado-toast-with-scrambled-eggs-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/tuna-hummus-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/hummus-roasted-broccoli-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/sourdough-flatbread-with-baked-eggs-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/omelette-with-smoked-beef-cheese-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/omelette-with-smoked-salmon-spinach-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/omelette-with-mushrooms-cheese-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/omelette-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/scrambled-eggs-with-smoked-salmon-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/scrambled-eggs-with-avocado-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/scrambled-eggs-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/baked-eggs-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/az/az/menu/fresh-fruit-salad-az",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/en/menu/tartine-lunch-be",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/ar/es/menu/wrap-caesar-ar",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/ar/es/menu/semolina-and-mushroom-risotto-ar",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/ar/es/menu/dulce-de-leche-and-almond-croissant-ar",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/fresh-fruit-salad-be",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/gardener-s-croque",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/brunch",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/granolaparfait",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/painperdu",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/salmon-avocado-tartine",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/warm-goat-cheese",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/breakfast-bowl-be",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/italian-sourdough-flatbread",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/protein-pancakes",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/croque-club-chicken",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/granola-parfait",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/mediterranean-salad-be",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/seasonal-vegetables-bowl",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/gourmet-breakfast-be",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/salmon-quinoa-bowl",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/ham-cheese-croissant",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/sourdough-flatbread-with-two-organic-baked-eggs",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/mini-pancakes-be-26",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/manhattan-breakfast",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/le-pain-quotidien-breakfast-be",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/chia-red-fruit-delice",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/scrambled-eggs",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/baked-egg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/soft-boiled-egg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/scrambled-eggs-toast",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/chicken-caesar",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/chicken-and-smoked-mozzarella",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/avocado-toast",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/tuna",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/flatbread-grilled-vegetables",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/croque-monsieur",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/belgian-beef-tartare",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/quiche",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/soup-of-the-day",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/baker-s-lunch",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/nl/menu/tartine-lunch-be",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/be/en/menu",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/ar/es/menu",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/mx/es/menu/chilaquiles-verdes",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/mx/es/menu/mexican-style-scrambled-eggs",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/mx/es/menu/french-toast-mx",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/mx/es/menu/molletes",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/mx/es/menu/english-muffin-mx",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/mx/es/menu/croque-madame-mx",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/mx/es/menu/avocado-toast-mx",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/mx/es/menu/four-cheese-baguette",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/mx/es/menu/chicken-and-mushroom-baguette",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/mx/es/menu/lasagna-mx",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/mx/es/menu/steak-tartine-mx",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/mx/es/menu/ham-and-bacon-mini-pizza",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/mx/es/menu/zucchini-and-vegetable-mini-pizza",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lepainquotidien.com/mx/es/menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.lepainquotidien.com/mx/es/stores/insurgentes?utm_source=gmb&utm_medium=business-listing",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:07.724+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=12691204301864893127&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:22.468+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/lepainquotidienmx",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/lepainquotidienmx/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:01:32.65339+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 379,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_source_summary"
+    ]
+  }
+}

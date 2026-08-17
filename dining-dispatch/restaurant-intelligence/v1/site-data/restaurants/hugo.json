@@ -1,0 +1,190 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "3ff07af7-4f80-46e8-b7bf-115b9e464101",
+  "slug": "hugo",
+  "name": "Hugo",
+  "location": {
+    "neighborhood": "ROMA NORTE",
+    "borough": "Cuauhtémoc",
+    "address": "Av. Veracruz 38, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4185677,
+      "longitude": -99.175288
+    }
+  },
+  "contact": {
+    "phone": "55 9224 6882",
+    "website": "http://www.hugoelwinebar.com/",
+    "instagram": "https://instagram.com/hugoelwinebar/",
+    "googleMapsUrl": "https://maps.google.com/?cid=15097745889544607510&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "wine_bar",
+    "michelinCuisine": "Actual",
+    "openTableCuisine": null,
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": "Wines by the glass & creative bites offered in a straightforward space with outdoor tables.",
+    "hours": [
+      "lun–sáb 14:00–23:30",
+      "dom 14:00–21:00"
+    ],
+    "rating": 4.4,
+    "reviewCount": 581
+  },
+  "distinctions": {
+    "michelin": "Seleccionado: Buena cocina",
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null,
+    "url": "http://www.hugoelwinebar.com/",
+    "platform": "official"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://hugoelwinebar.com/",
+    "observedAt": "2026-08-17",
+    "itemCount": 7,
+    "items": [
+      {
+        "name": "Callo, naranja agria, alcaparras",
+        "category": "small plates"
+      },
+      {
+        "name": "Scallops, citrus, pink peppercorn",
+        "category": "small plates"
+      },
+      {
+        "name": "Gnocchi, brown butter, chicken jus",
+        "category": "small plates"
+      },
+      {
+        "name": "Radicchio salad",
+        "category": "small plates"
+      },
+      {
+        "name": "Pork Milanese",
+        "category": "small plates"
+      },
+      {
+        "name": "Kampachi crudo",
+        "category": "small plates"
+      },
+      {
+        "name": "Basque cheesecake",
+        "category": "postres"
+      }
+    ],
+    "notes": "Dishes named on official IG + Condé Nast / Infatuation. Not a full priced carta."
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.figma.com/embed?embed_host=share&amp;url=https://www.figma.com/proto/knsOBnwsBQrbtEFPCNKdez/CAFE-MILOU-HUGO?node-id=265709-943&amp;t=PyW4Ap3S3FJWfEhF-0&amp;scaling=contain&amp;content-scaling=fixed&amp;starting-point-node-id=265709:943&amp;show-proto-sidebar=1",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:59:23.534Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://hugoelwinebar.com",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://hugoelwinebar.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:39.039+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=15097745889544607510&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:38.999+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/hugoelwinebar/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 4,
+    "sourceNames": [
+      "google_places",
+      "michelin",
+      "official_website",
+      "star_wine_list"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:12:09.267822+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 247,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "menu",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_price_level",
+      "missing_structured_menu_items"
+    ]
+  }
+}

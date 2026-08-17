@@ -1,0 +1,144 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "61f59c97-901b-4e56-a6ea-5ac479c5d394",
+  "slug": "imperia",
+  "name": "IMPERIA",
+  "location": {
+    "neighborhood": "ANZURES",
+    "borough": "Miguel Hidalgo",
+    "address": "Leibnitz 51, Anzures, Miguel Hidalgo, 11590 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4271036,
+      "longitude": -99.1774452
+    }
+  },
+  "contact": {
+    "phone": "55 7439 1440",
+    "website": "https://www.instagram.com/imperiacdmx/",
+    "instagram": "https://www.instagram.com/imperiacdmx/",
+    "googleMapsUrl": "https://maps.google.com/?cid=11604334927482462983&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: Cerrado",
+      "lunes: 6:00 p.m. – 2:00 a.m.",
+      "martes: 4:00 p.m. – 2:00 a.m.",
+      "miércoles: 4:00 p.m. – 2:00 a.m.",
+      "jueves: 3:00 p.m. – 2:00 a.m.",
+      "viernes: 3:00 p.m. – 2:00 a.m.",
+      "sábado: Cerrado"
+    ],
+    "rating": 4.5,
+    "reviewCount": 113
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "missing",
+    "observedAt": null,
+    "observationAgeDaysAtExport": null,
+    "documentCount": 0,
+    "itemCount": 0,
+    "documents": [],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=11604334927482462983&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:56.724+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://www.instagram.com/imperiacdmx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:13:53.65+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 1,
+    "sourceNames": [
+      "google_places"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "google_places",
+      "instagram": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-06-29T14:19:18.445477+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:19:18.624215+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 6,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_cuisine",
+      "missing_price_level",
+      "missing_source_summary",
+      "missing_menu_document",
+      "missing_structured_menu_items",
+      "low_source_count"
+    ]
+  }
+}

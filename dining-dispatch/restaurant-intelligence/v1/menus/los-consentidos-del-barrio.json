@@ -1,0 +1,41 @@
+{
+  "slug": "los-consentidos-del-barrio",
+  "name": "Los Consentidos del Barrio",
+  "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/benito-juarez_1994163/restaurante/los-consentidos-del-barrio",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Tacos al carbón",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos",
+      "description": "Carne en rebanadas finas a la parrilla, luego en cuadros"
+    },
+    {
+      "name": "Taco de arrachera",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Taco de poblano en rodajas",
+      "price": null,
+      "currency": "MXN",
+      "category": "vegetarianos"
+    },
+    {
+      "name": "Taco de nopales",
+      "price": null,
+      "currency": "MXN",
+      "category": "vegetarianos"
+    },
+    {
+      "name": "Taco de champiñones",
+      "price": null,
+      "currency": "MXN",
+      "category": "vegetarianos"
+    }
+  ],
+  "notes": "Michelin inspector (tacos al carbón, arrachera, poblano, nopales, champiñones)."
+}

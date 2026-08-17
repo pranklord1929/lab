@@ -1,0 +1,297 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "1d19cce4-1cad-47d4-8f83-1002ea8dce36",
+  "slug": "kabuki-sushi-haciendas-de-coyoacan",
+  "name": "Kabuki Sushi",
+  "location": {
+    "neighborhood": "HACIENDAS DE COYOACÁN",
+    "borough": "Coyoacán",
+    "address": "Rancho Yuritzio 6, Coapa, Hacienda de Coyoacán, Coyoacán, 04970 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3054818,
+      "longitude": -99.1126027
+    }
+  },
+  "contact": {
+    "phone": "55 5833 6888",
+    "website": "http://www.kabuki.mx/",
+    "instagram": "https://instagram.com/kabukisushi_mx/",
+    "googleMapsUrl": "https://maps.google.com/?cid=6656542532763137255&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "japanese",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 12:00–9:00 p.m.",
+      "lunes: 12:00–10:00 p.m.",
+      "martes: 12:00–10:00 p.m.",
+      "miércoles: 12:00–10:00 p.m.",
+      "jueves: 12:00–10:00 p.m.",
+      "viernes: 12:00–10:00 p.m.",
+      "sábado: 12:00–10:00 p.m."
+    ],
+    "rating": 4.4,
+    "reviewCount": 1253
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-09T18:56:12.677+00:00",
+    "observationAgeDaysAtExport": 38,
+    "documentCount": 2,
+    "itemCount": 8,
+    "documents": [
+      {
+        "id": "23afc675-c658-479b-860d-0e21ac9d19b2",
+        "sourceUrl": "https://tofuu.getjusto.com/buckets-prod%2F9LscBRJpPkyu4pxJh-T%26C%20GetJusto%20-%20Kabuki.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.35,
+        "extractionMethod": "pdf_parse",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:56:12.677+00:00"
+      },
+      {
+        "id": "de13780f-15bd-4ae0-bd25-f5eba959e27b",
+        "sourceUrl": "https://www.kabuki.mx/pedir",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.5,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:56:12.379+00:00"
+      }
+    ],
+    "items": [
+      {
+        "id": "4f977d78-3a21-4a89-a6f4-92c4964638e5",
+        "documentId": null,
+        "name": "Comercio Kabuki",
+        "description": null,
+        "price": 50,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "fc96028b-c0b3-480f-ab17-b4536e687c24",
+        "documentId": null,
+        "name": "Compra mínima",
+        "description": null,
+        "price": 250,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "a9f38c2a-9ea4-40fa-a45b-961353858206",
+        "documentId": null,
+        "name": "Condiciones Aplicables",
+        "description": null,
+        "price": 250,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "cf959792-28ca-43c2-a7e0-584e9a0f1da7",
+        "documentId": null,
+        "name": "Cupón de descuento",
+        "description": null,
+        "price": 100,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "17b3f447-dea5-4dae-abb2-777c6a59ffc6",
+        "documentId": null,
+        "name": "Edamame al Vapor Frjol de soya al vapor",
+        "description": null,
+        "price": 142,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "fe452291-45ec-4928-a900-3eab5a0d5d02",
+        "documentId": null,
+        "name": "Nigiris de frutas",
+        "description": null,
+        "price": 193,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "c4cb56d6-8c3b-46a9-a8bb-6e91841b6a66",
+        "documentId": null,
+        "name": "Refrescos",
+        "description": null,
+        "price": 63,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "66186bbf-3d19-42f8-a544-31a795413f0e",
+        "documentId": null,
+        "name": "Temaki California Aguacate pepino y surimi 1 pz",
+        "description": null,
+        "price": 109,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://tofuu.getjusto.com/buckets-prod%2F9LscBRJpPkyu4pxJh-T%26C%20GetJusto%20-%20Kabuki.pdf",
+      "confidence": 0.95,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://kabuki.mx/pedir",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.kabuki.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:38.271+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=6656542532763137255&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:38.609+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/kabukisushimx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/kabukisushi_mx/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "google_places",
+      "official_menus",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T20:05:20.22199+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:12:31.952373+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 357,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_source_summary"
+    ]
+  }
+}

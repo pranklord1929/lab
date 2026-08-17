@@ -1,0 +1,104 @@
+{
+  "catalogName": "Feral",
+  "slug": "feral",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Feral",
+  "location": {
+    "address": "Av. México 157, Hipódromo / Condesa",
+    "neighborhood": "Condesa",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06100",
+    "coordinates": {
+      "latitude": 19.4118272,
+      "longitude": -99.1682436
+    }
+  },
+  "contact": {
+    "phone": "+52 55 3098 7606",
+    "phoneAlt": "+52 55 6163 0811",
+    "website": "https://www.instagram.com/feral_rest/",
+    "instagram": "feral_rest",
+    "email": null,
+    "websiteIsInstagram": true
+  },
+  "hours": [
+    "mié–sáb 14:00–23:00, bar later",
+    "dom–mar 14:00–22:00"
+  ],
+  "food": {
+    "cuisine": "french / middle-eastern / mexican",
+    "chef": "Paola Sepúlveda",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "whatsapp / opentable",
+    "url": "https://www.opentable.com/r/feral-ciudad-de-mexico"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.opentable.com/r/feral-ciudad-de-mexico",
+    "observedAt": "2026-08-17",
+    "itemCount": 3,
+    "items": [
+      {
+        "name": "Almeja Reina",
+        "price": 100,
+        "currency": "MXN",
+        "category": "entradas",
+        "description": "Aderezo de chiltepín, camarón seco, cebolla morada y pepino"
+      },
+      {
+        "name": "Tostada de atún",
+        "price": 150,
+        "currency": "MXN",
+        "category": "entradas",
+        "description": "Alioli de chiltepín, alcaparras, yuzu"
+      },
+      {
+        "name": "Tacos de entraña",
+        "price": null,
+        "currency": "MXN",
+        "category": "especiales",
+        "description": "Cebollitas toreadas, salsa verde de aguacate — IG oficial @feral_rest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/feral_rest/",
+      "fields": [
+        "hours",
+        "phone"
+      ]
+    },
+    {
+      "source": "opentable",
+      "url": "https://www.opentable.com/r/feral-ciudad-de-mexico",
+      "fields": [
+        "address"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://www.opentable.com/r/feral-ciudad-de-mexico",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "gaps": [
+    "website",
+    "coordinates"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": []
+}

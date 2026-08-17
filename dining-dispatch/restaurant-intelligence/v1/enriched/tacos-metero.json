@@ -1,0 +1,84 @@
+{
+  "catalogName": "Tacos Metero",
+  "slug": "tacos-metero",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Tacos Meteoro",
+  "location": {
+    "address": "Coahuila 192, Roma Sur",
+    "neighborhood": "Roma Sur",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06760",
+    "coordinates": {
+      "latitude": 19.410626,
+      "longitude": -99.1651028
+    }
+  },
+  "contact": {
+    "phone": null,
+    "website": "https://www.instagram.com/tacos_meteoro/",
+    "instagram": "tacos_meteoro",
+    "email": null,
+    "websiteIsInstagram": true
+  },
+  "hours": [
+    "mar–sáb 13:00–21:00",
+    "dom 12:00–20:00",
+    "lun cerrado"
+  ],
+  "food": {
+    "cuisine": "yucatecan tacos",
+    "priceLevel": 1,
+    "notes": "CSV typo Metero = Meteoro."
+  },
+  "reservation": {
+    "platform": "walk-in",
+    "url": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.local.mx/tag/tacos/",
+    "observedAt": "2026-08-17",
+    "itemCount": 6,
+    "items": [
+      {
+        "name": "Taco de asada estilo Durango"
+      },
+      {
+        "name": "Taco de chorizo"
+      },
+      {
+        "name": "Taco de molleja"
+      },
+      {
+        "name": "Taco de costilla"
+      },
+      {
+        "name": "Taco de chilaca"
+      },
+      {
+        "name": "Taco de aguja norteña"
+      }
+    ],
+    "notes": "No published CDMX carta found. Michelin dump matched a Guadalajara stall — ignored."
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/tacos_meteoro/",
+      "fields": [
+        "address",
+        "hours"
+      ]
+    }
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": []
+}

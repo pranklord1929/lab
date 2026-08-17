@@ -1,0 +1,107 @@
+{
+  "catalogName": "Anónimo",
+  "slug": "anonimo",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Anónimo",
+  "location": {
+    "address": "Atlixco 105, Hipódromo Condesa",
+    "neighborhood": "Condesa / Hipódromo",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06100",
+    "coordinates": {
+      "latitude": 19.4113384,
+      "longitude": -99.1754832
+    }
+  },
+  "contact": {
+    "phone": null,
+    "website": "https://www.instagram.com/anonimo.rest/",
+    "instagram": "anonimo.rest",
+    "email": null,
+    "websiteIsInstagram": true
+  },
+  "hours": [
+    "dom–mié 13:00–23:00",
+    "jue–sáb 13:00–00:00"
+  ],
+  "food": {
+    "cuisine": "italian / creative",
+    "chef": "Claus Albert (press)",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/anonimo.rest/"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.opentable.com/r/anonimo-colectivo-ciudad-de-mexico",
+    "observedAt": "2026-08-17",
+    "itemCount": 5,
+    "items": [
+      {
+        "name": "Ensalada César, anchoas y parmesano",
+        "price": 190,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Aceitunas rellenas",
+        "price": 180,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Toast de pera, burrata fresca y gorgonzola",
+        "price": 195,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Tiradito",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Pizza Di Formaggio",
+        "price": null,
+        "currency": "MXN",
+        "category": "pizzas",
+        "description": "Pecorino, asiago, mozzarella, anchoas y ranch — IG oficial @anonimo.rest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/anonimo.rest/",
+      "fields": [
+        "address",
+        "hours"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://www.opentable.com/r/anonimo-colectivo-ciudad-de-mexico",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "gaps": [
+    "phone",
+    "website",
+    "coordinates"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": []
+}

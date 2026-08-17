@@ -1,0 +1,58 @@
+{
+  "slug": "bichi",
+  "name": "BICHI",
+  "url": "https://lideresmexicanos.com/tendencias/bichi-sabores-de-oaxaca-y-sinaloa-en-la-condesa",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Taquito de asada",
+      "price": null,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Tetela de marlín",
+      "price": null,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Tlayuda de tasajo",
+      "price": null,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Tostada de callo de hacha",
+      "price": null,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Rib eye en salsa de chicatana",
+      "price": null,
+      "currency": "MXN",
+      "category": "fuertes"
+    },
+    {
+      "name": "Enmoladas estilo istmeño",
+      "price": null,
+      "currency": "MXN",
+      "category": "fuertes"
+    },
+    {
+      "name": "Flan de quesillo",
+      "price": null,
+      "currency": "MXN",
+      "category": "postres"
+    },
+    {
+      "name": "Espuma de tejate",
+      "price": null,
+      "currency": "MXN",
+      "category": "postres"
+    }
+  ],
+  "notes": "Líderes Mexicanos (25 Sep 2025) lists recommended dishes from the Bichi Condesa carta."
+}

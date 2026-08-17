@@ -1,0 +1,150 @@
+{
+  "catalogName": "Fierro",
+  "slug": "fierro",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Fierro",
+  "location": {
+    "address": "Marsella 53, Juárez",
+    "neighborhood": "Juárez",
+    "borough": "Cuauhtémoc",
+    "postalCode": null,
+    "coordinates": {
+      "latitude": 19.4256741,
+      "longitude": -99.1592128
+    }
+  },
+  "contact": {
+    "phone": "+52 55 4894 3291",
+    "website": "https://fierrocantina.com/",
+    "instagram": "fierrocdmx",
+    "email": null,
+    "websiteIsInstagram": false
+  },
+  "hours": [
+    "lun 13:00–20:00",
+    "mar–mié 13:00–23:00",
+    "mié–sáb 13:00–01:00 (IG — overlapping; confirm)",
+    "dom 13:00–20:00"
+  ],
+  "food": {
+    "cuisine": "northern mexican cantina",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "covermanager / phone",
+    "url": "https://www.covermanager.com/reservation/module_restaurant/restaurante-fierro/spanish",
+    "phone": "+52 55 4894 3291"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://fierrocantina.com/",
+    "observedAt": "2026-08-17",
+    "itemCount": 10,
+    "items": [
+      {
+        "name": "Carne asada",
+        "price": null,
+        "currency": "MXN",
+        "category": "signature",
+        "description": "Ceniza de maíz y cebolla asada. 200 g a las brasas"
+      },
+      {
+        "name": "Papas Galeana",
+        "price": null,
+        "currency": "MXN",
+        "category": "signature",
+        "description": "Con jocoque"
+      },
+      {
+        "name": "Ensalada Fierro",
+        "price": null,
+        "currency": "MXN",
+        "category": "ensaladas",
+        "description": "Aderezo de machaca"
+      },
+      {
+        "name": "Ensalada de tomate",
+        "price": null,
+        "currency": "MXN",
+        "category": "ensaladas",
+        "description": "Requesón de nuez de la India, crotón de masa madre"
+      },
+      {
+        "name": "Empanada atropellado",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas",
+        "description": "Machaca y manchego"
+      },
+      {
+        "name": "Mejillones con chorizo",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Arroz con chicharrón",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas",
+        "description": "Tomate y jocoque"
+      },
+      {
+        "name": "Tacos de barbacoa",
+        "price": null,
+        "currency": "MXN",
+        "category": "tacos",
+        "description": "Short rib, salsa de tomate y aguacate. 3 piezas"
+      },
+      {
+        "name": "Pollo asado",
+        "price": null,
+        "currency": "MXN",
+        "category": "fuertes",
+        "description": "Ahumado con salsa de chiles fermentados"
+      },
+      {
+        "name": "Capirotada",
+        "price": null,
+        "currency": "MXN",
+        "category": "postres",
+        "description": "Brioche, queso fresco, piloncillo, tomate verde y cacahuate"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "goodfoodmexico",
+      "url": "https://www.goodfoodmexico.com/home/2025/11/11/fierro-north-by-northwest",
+      "fields": [
+        "address",
+        "phone"
+      ]
+    },
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/fierrocdmx/",
+      "fields": [
+        "hours"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://fierrocantina.com/",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": [],
+  "gaps": []
+}

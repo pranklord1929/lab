@@ -1,0 +1,79 @@
+/* Deepstate design tokens
+ * Captured from https://deepstate.sh — 2026-08-17
+ *
+ * The live site is almost a two-color system: ink on paper.
+ * No shadows. No radius (except circular token marks).
+ * Light only.
+ */
+
+:root {
+  color-scheme: light only;
+
+  --ds-black: #000;
+  --ds-white: #fff;
+  --ds-ink: var(--ds-black);
+  --ds-paper: var(--ds-white);
+  --ds-overlay: #00000080;
+
+  --ds-sans: "Space Grotesk", sans-serif;
+  --ds-mono: "Space Mono", monospace;
+
+  --ds-stroke: 1.5px;
+  --ds-line: var(--ds-stroke) solid var(--ds-ink);
+  --ds-radius: 0;
+  --ds-radius-mark: 50%;
+
+  --ds-track-wordmark: 0.2em;
+  --ds-track-nav: 0.14em;
+  --ds-track-tab: 0.16em;
+  --ds-track-label: 0.1em;
+  --ds-track-micro: 0.12em;
+  --ds-track-meta: 0.04em;
+  --ds-track-footer: 0.06em;
+
+  --ds-fs-micro: 7.5px;
+  --ds-fs-caption: 9px;
+  --ds-fs-label: 10px;
+  --ds-fs-meta: 11px;
+  --ds-fs-ui: 12px;
+  --ds-fs-body: 13px;
+  --ds-fs-nav: 12px;
+  --ds-fs-price: 15px;
+  --ds-fs-wordmark: 18px;
+  --ds-fs-amount: 26px;
+  --ds-fs-cta: 14px;
+
+  --ds-fw-regular: 400;
+  --ds-fw-medium: 500;
+  --ds-fw-semibold: 600;
+  --ds-fw-bold: 700;
+
+  --ds-space-1: 6px;
+  --ds-space-2: 8px;
+  --ds-space-3: 12px;
+  --ds-space-4: 16px;
+  --ds-space-5: 18px;
+  --ds-space-6: 24px;
+  --ds-space-7: 26px;
+
+  --ds-control-h: 34px;
+  --ds-mark-size: 34px;
+  --ds-flip-size: 36px;
+
+  --ds-max-header: 1180px;
+  --ds-max-page: 1000px;
+  --ds-dock: 452px;
+  --ds-panel: 420px;
+
+  --ds-ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --ds-ease-flip: cubic-bezier(0.5, 0, 0.2, 1);
+  --ds-dur-page: 0.25s;
+  --ds-dur-flip: 0.6s;
+  --ds-dur-toast: 0.2s;
+
+  /* aliases matching the live :root */
+  --black: var(--ds-black);
+  --white: var(--ds-white);
+  --sans: var(--ds-sans);
+  --mono: var(--ds-mono);
+}

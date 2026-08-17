@@ -1,0 +1,62 @@
+{
+  "slug": "tacos-del-valle",
+  "name": "Tacos del Valle",
+  "url": "https://tacosdelvalle.com/",
+  "items": [
+    {
+      "name": "TDV Fried Potato Chips",
+      "description": "Panela and salsa",
+      "category": "starters"
+    },
+    {
+      "name": "Crisp Corn Tostada",
+      "description": "Rib eye, chile japonés salsa",
+      "category": "starters"
+    },
+    {
+      "name": "Frijoles Charros",
+      "description": "Pork, bacon, chorizo, polka sausage",
+      "category": "starters"
+    },
+    {
+      "name": "Frijoles Charros Especiales",
+      "description": "Plus trompo asada and cheese",
+      "category": "starters"
+    },
+    {
+      "name": "Trompo Negro Fuego",
+      "description": "3 pork tacos, corn tortilla",
+      "category": "trompos"
+    },
+    {
+      "name": "Trompo Rojo de Pork Belly",
+      "description": "3 pork belly tacos",
+      "category": "trompos"
+    },
+    {
+      "name": "Trompo de Carne Asada",
+      "description": "3 beef tacos",
+      "category": "trompos"
+    },
+    {
+      "name": "Pirata",
+      "description": "Giant flour tortilla, sirloin, beans, cheese",
+      "category": "especiales"
+    },
+    {
+      "name": "Bistec con Tuétano",
+      "description": "5 beef tacos, chicharrón, marrow",
+      "category": "tacos"
+    },
+    {
+      "name": "Gringa Trompo Rojo",
+      "description": "Cheese, pork belly, avocado, flour tortilla",
+      "category": "gringas"
+    },
+    {
+      "name": "Tijuanita",
+      "description": "Costra, asada, aguacate, papa rallada",
+      "category": "especiales"
+    }
+  ]
+}

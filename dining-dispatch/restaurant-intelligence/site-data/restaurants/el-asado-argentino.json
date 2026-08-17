@@ -1,0 +1,163 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "2c0421a1-cdda-4b5a-bbb4-9ae0bef93ccf",
+  "slug": "el-asado-argentino",
+  "name": "El Asado Argentino",
+  "location": {
+    "neighborhood": "TLALPAN",
+    "borough": "Tlalpan",
+    "address": "Calle, Av. Insurgentes Sur 3874, La Fama, Tlalpan, 14000 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.2911932,
+      "longitude": -99.1741197
+    }
+  },
+  "contact": {
+    "phone": "55 5606 1820",
+    "website": "http://www.asadoargentino.com.mx/",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=17793230081324481319&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "argentinian",
+    "michelinCuisine": null,
+    "openTableCuisine": "Argentina",
+    "priceLevel": 3
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 12:00–9:00 p.m.",
+      "lunes: 12:00–9:00 p.m.",
+      "martes: 12:00–9:00 p.m.",
+      "miércoles: 12:00–9:00 p.m.",
+      "jueves: 12:00–9:00 p.m.",
+      "viernes: 12:00–9:00 p.m.",
+      "sábado: 12:00–9:00 p.m."
+    ],
+    "rating": 4.6,
+    "reviewCount": 3265
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": "https://www.opentable.com.mx/r/el-asado-argentino-del-sur-ciudad-de-mexico",
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-09T18:55:28.88+00:00",
+    "observationAgeDaysAtExport": 38,
+    "documentCount": 1,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "d5895c98-ec46-44d5-a9f4-4b761e7506f1",
+        "sourceUrl": "https://bit.ly/menu-asado-argentino",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.57,
+        "extractionMethod": "website_crawl",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-09T18:55:28.88+00:00"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://bit.ly/menu-asado-argentino",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://asadoargentino.com.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:00.897+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=17793230081324481319&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:17.812+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 4,
+    "sourceNames": [
+      "foursquare",
+      "google_places",
+      "official_website",
+      "opentable"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "opentable"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.165171+00:00",
+    "canonicalUpdatedAt": "2026-06-29T13:58:50.918968+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": true,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 103,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram,menu",
+    "actionPriority": 6,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

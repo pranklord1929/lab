@@ -1,0 +1,85 @@
+{
+  "slug": "restaurante-lorea",
+  "name": "RESTAURANTE LOREA",
+  "url": null,
+  "items": [
+    {
+      "id": "cdf63d59-c0c6-44d8-b649-00c0a465963a",
+      "documentId": "dd0c960a-3966-4356-ae4e-0b11b2764a0e",
+      "name": "Experiencia \"HUMO\" (menú degustación 7 platos)",
+      "description": "Menú degustación de siete platos inspirados en el humo como elemento en la cocina mexicana para activar todos los sentidos.",
+      "price": 3000,
+      "currency": "MXN",
+      "category": null,
+      "sourceUrl": "https://lorea.mx/",
+      "observedAt": "2026-07-09T18:55:35.146+00:00",
+      "extractionConfidence": 0.5,
+      "extractionLayer": "canonical"
+    },
+    {
+      "id": "056a49ae-ad3c-4bb7-984d-fde91700aa6d",
+      "documentId": "dd0c960a-3966-4356-ae4e-0b11b2764a0e",
+      "name": "Kitchen Table",
+      "description": "La experiencia más dinámica e interactiva en la barra frente a la cocina abierta. Los chefs son los guías a lo largo de la cena y añaden sorpresas al menú.",
+      "price": 3550,
+      "currency": "MXN",
+      "category": null,
+      "sourceUrl": "https://lorea.mx/",
+      "observedAt": "2026-07-09T18:55:35.146+00:00",
+      "extractionConfidence": 0.5,
+      "extractionLayer": "canonical"
+    },
+    {
+      "id": "6a5d95b9-998f-4761-80e4-91e60c3a92db",
+      "documentId": "dd0c960a-3966-4356-ae4e-0b11b2764a0e",
+      "name": "Maridaje",
+      "description": "Complemento de armonización de bebidas con alcohol.",
+      "price": 1575,
+      "currency": "MXN",
+      "category": "Complementos",
+      "sourceUrl": "https://lorea.mx/",
+      "observedAt": "2026-07-09T18:55:35.146+00:00",
+      "extractionConfidence": 0.5,
+      "extractionLayer": "canonical"
+    },
+    {
+      "id": "46e3ba44-dd7c-433d-9103-a830b6e58dbe",
+      "documentId": "dd0c960a-3966-4356-ae4e-0b11b2764a0e",
+      "name": "Maridaje sin alcohol",
+      "description": "Complemento de armonización de bebidas sin alcohol.",
+      "price": 885,
+      "currency": "MXN",
+      "category": "Complementos",
+      "sourceUrl": "https://lorea.mx/",
+      "observedAt": "2026-07-09T18:55:35.146+00:00",
+      "extractionConfidence": 0.5,
+      "extractionLayer": "canonical"
+    },
+    {
+      "id": "25536b8d-6117-4db2-a9ed-08f91d26a43f",
+      "documentId": null,
+      "name": "Complementos disponibles",
+      "description": null,
+      "price": 575,
+      "currency": "MXN",
+      "category": null,
+      "sourceUrl": null,
+      "observedAt": null,
+      "extractionConfidence": null,
+      "extractionLayer": "canonical"
+    },
+    {
+      "id": "2ef90ceb-0004-4e9a-a67f-17c042e24dfc",
+      "documentId": null,
+      "name": "Complementos disponibles",
+      "description": null,
+      "price": 885,
+      "currency": "MXN",
+      "category": null,
+      "sourceUrl": null,
+      "observedAt": null,
+      "extractionConfidence": null,
+      "extractionLayer": "canonical"
+    }
+  ]
+}

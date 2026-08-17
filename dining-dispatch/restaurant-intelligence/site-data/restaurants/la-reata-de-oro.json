@@ -1,0 +1,322 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "2be7b0a4-d907-46df-bd5c-e442124112ec",
+  "slug": "la-reata-de-oro",
+  "name": "La Reata de Oro",
+  "location": {
+    "neighborhood": "SAN PEDRO DE LOS PINOS",
+    "borough": "Benito Juárez",
+    "address": "Av. Patriotismo 272, San Pedro de los Pinos, Benito Juárez, 03800 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3945244,
+      "longitude": -99.1817638
+    }
+  },
+  "contact": {
+    "phone": "55 5271 2345",
+    "website": "http://www.lareatadeoro.com/",
+    "instagram": "https://instagram.com/lareatadeoro/",
+    "googleMapsUrl": "https://maps.google.com/?cid=5043227597781815138&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "bar_and_grill",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": "Relaxed restaurant offering hefty platters of steak & chicken, plus seafood, tacos & cocktails.",
+    "hours": [
+      "domingo: Cerrado",
+      "lunes: 1:00 p.m. – 1:00 a.m.",
+      "martes: 1:00 p.m. – 1:00 a.m.",
+      "miércoles: 1:00 p.m. – 1:00 a.m.",
+      "jueves: 1:00 p.m. – 1:00 a.m.",
+      "viernes: 1:00 p.m. – 1:00 a.m.",
+      "sábado: 1:00 p.m. – 1:00 a.m."
+    ],
+    "rating": 4.3,
+    "reviewCount": 3152
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "local_extraction_candidate",
+    "observedAt": "2026-07-17T10:10:05.905Z",
+    "observationAgeDaysAtExport": 31,
+    "documentCount": 4,
+    "itemCount": 8,
+    "documents": [
+      {
+        "id": "6220991f-da0f-4239-a71c-f432bf0b25eb",
+        "sourceUrl": "https://lareatadeoro.com/img/vino_menu.png",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "1bf91114-0b5f-4ca9-a864-af34e74d3b76",
+        "sourceUrl": "https://lareatadeoro.com/carta.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "9a7debc1-76ea-4420-ac6b-0deb9d704bc7",
+        "sourceUrl": "https://lareatadeoro.com/menu.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.5,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:56:08.51+00:00"
+      },
+      {
+        "id": "952cc1ec-b407-4b9e-b256-d0d306dbc79f",
+        "sourceUrl": "https://lareatadeoro.com/menubebidas.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.82,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:56:08.313+00:00"
+      }
+    ],
+    "items": [
+      {
+        "id": "ba1a949466e5c50fcf80e73ce322bd90",
+        "documentId": null,
+        "name": "BLANCO DIAMANTE RIOJA 750ML",
+        "description": null,
+        "price": 500,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "278ab76b6cb14dd9a23dd7a53ff04920",
+        "documentId": null,
+        "name": "CASILLA MADERO 3V 750ML",
+        "description": null,
+        "price": 850,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "39a97edd198b12720ebf6457e03dcbfe",
+        "documentId": null,
+        "name": "CINZANO PRO SECO 750ML",
+        "description": null,
+        "price": 800,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "be4944196cb531ad7382969e6996b736",
+        "documentId": null,
+        "name": "CUNE CRIANZA 750ML",
+        "description": null,
+        "price": 650,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "3e4bd003ec80a2442980b0880c98c6b7",
+        "documentId": null,
+        "name": "L.A. CETTO CHARDONAY 750ML",
+        "description": null,
+        "price": 450,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "8919559c30496c55ff348fde1c68ab75",
+        "documentId": null,
+        "name": "MOET ICE 750ML",
+        "description": null,
+        "price": 4100,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "858f473d1859702892b9546027ee5533",
+        "documentId": null,
+        "name": "TINTO CASILLERO DEL DIABLO 750ML",
+        "description": null,
+        "price": 550,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "7a894ae0204454fb90e74385013724e3",
+        "documentId": null,
+        "name": "XA DOMEO 750ML",
+        "description": null,
+        "price": 500,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lareatadeoro.com/img/vino_menu.png",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lareatadeoro.com/carta.html",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lareatadeoro.com/menu.html",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lareatadeoro.com/menubebidas.html",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://lareatadeoro.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:02.816+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=5043227597781815138&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:24.858+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/lareatadeoro/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:07:58.447744+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 336,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review"
+    ]
+  }
+}

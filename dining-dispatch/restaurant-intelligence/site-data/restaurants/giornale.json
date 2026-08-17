@@ -1,0 +1,616 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "ae79c882-1a81-47df-b96b-5fdcbcff5b5b",
+  "slug": "giornale",
+  "name": "Giornale",
+  "location": {
+    "neighborhood": "SAN ÁNGEL",
+    "borough": "Álvaro Obregón",
+    "address": "Desierto de los Leones 24, San Ángel, Álvaro Obregón, 01000 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3498837,
+      "longitude": -99.1875466
+    }
+  },
+  "contact": {
+    "phone": "55 3693 2392",
+    "website": "https://giornale.mx/",
+    "instagram": "https://instagram.com/giornalemx/",
+    "googleMapsUrl": "https://maps.google.com/?cid=1099559638177145999&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 8:00 a.m. – 10:00 p.m.",
+      "lunes: 7:30 a.m. – 11:00 p.m.",
+      "martes: 7:30 a.m. – 11:00 p.m.",
+      "miércoles: 7:30 a.m. – 11:00 p.m.",
+      "jueves: 7:30 a.m. – 11:00 p.m.",
+      "viernes: 7:30 a.m. – 11:00 p.m.",
+      "sábado: 7:30 a.m. – 11:00 p.m."
+    ],
+    "rating": 4.4,
+    "reviewCount": 930
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "local_extraction_candidate",
+    "observedAt": "2026-07-17T10:08:09.061Z",
+    "observationAgeDaysAtExport": 31,
+    "documentCount": 20,
+    "itemCount": 9,
+    "documents": [
+      {
+        "id": "8b5101d5-2852-40c4-9882-33752cb1255a",
+        "sourceUrl": "https://giornale.mx/menu/featured_image",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "01b21c41-feff-4b8c-a8c7-4ee3de1346fa",
+        "sourceUrl": "https://giornale.mx/menu/sopas",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "11589b08-a9bc-4eeb-ba53-e801861e4d62",
+        "sourceUrl": "https://giornale.mx/menu/ghiacciato",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "1d6e7911-3203-4fbe-8851-ca160c3fbeff",
+        "sourceUrl": "https://giornale.mx/menu/cafe",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "24e3c6ee-3b58-4c93-8fc4-e3a81c42a0a2",
+        "sourceUrl": "https://giornale.mx/menu/entradas",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "3157f993-fe71-4092-9419-1fe5d64f74ef",
+        "sourceUrl": "https://giornale.mx/menu/sandwiches-wraps",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "350f93ff-5cf3-4d58-ae31-a491026d62a5",
+        "sourceUrl": "https://giornale.mx/menu/ensaladas",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "3523f184-6c52-4cd1-9a12-7ea5a3bff28d",
+        "sourceUrl": "https://giornale.mx/menu/toasts",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "5300c2e3-a30a-4fce-bb0c-440d9c7aec1e",
+        "sourceUrl": "https://giornale.mx/menu/bebidas",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "6647cfbc-fe7c-4fd7-a2fb-9790161144d4",
+        "sourceUrl": "https://giornale.mx/menu/better-balance",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "79347971-4348-4321-a78f-ecffe1a25fab",
+        "sourceUrl": "https://giornale.mx/menu/hamburguesas",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "7c215655-9964-46bc-9f0f-f580c3712fa2",
+        "sourceUrl": "https://giornale.mx/menu/platos-fuertes",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "8786694e-f8f1-4253-b75b-3589d17dd6b5",
+        "sourceUrl": "https://giornale.mx/menu/bowls-y-fruta",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "8f49156d-1ad8-48ac-bbb2-d780a7129742",
+        "sourceUrl": "https://giornale.mx/menu/postres",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "9b4e9a1d-0b62-4474-afb3-0efa131e9d10",
+        "sourceUrl": "https://giornale.mx/menu/panaderia",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "c39ba744-a2ed-4f34-bea2-44eb7cb20046",
+        "sourceUrl": "https://giornale.mx/menu/mexicano",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "d16e6ba8-2c73-4ec0-b288-1d4728338313",
+        "sourceUrl": "https://giornale.mx/menu/huevos-y-omelettes",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "d5c876ed-d865-4619-a315-cca4b175d933",
+        "sourceUrl": "https://giornale.mx/menu/poke-bowls",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "f1e05099-2835-41fb-8b3b-da5ae47eb653",
+        "sourceUrl": "https://giornale.mx/menu/jugos-y-smoothies",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "ea4e5d07-02c0-40f3-a7c6-625ad673ee1d",
+        "sourceUrl": "https://giornale.mx/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.75,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:56:18.99+00:00"
+      }
+    ],
+    "items": [
+      {
+        "id": "31a084e763241de5fd8520f3cc3b7517",
+        "documentId": null,
+        "name": "Better Bolognesa",
+        "description": null,
+        "price": 120,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "af91aa3b06751990264a1a22e9283477",
+        "documentId": null,
+        "name": "Ensalada China",
+        "description": null,
+        "price": 45,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "a115f9324663711e22d5f93d2a1c950e",
+        "documentId": null,
+        "name": "Ensalada César",
+        "description": null,
+        "price": 45,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "ef3539ca876cb8753f2b5ffb80e9d09d",
+        "documentId": null,
+        "name": "Ensalada de Lenteja",
+        "description": null,
+        "price": 45,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "98c3a9a3c7b0ed1fc47ba38ad516c51c",
+        "documentId": null,
+        "name": "Hamburguesa Giornale",
+        "description": null,
+        "price": 240,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "7c758e0b1ab4872fe187427743e59ebb",
+        "documentId": null,
+        "name": "Nuez un Taco",
+        "description": null,
+        "price": 45,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "5fb6bbb1f5ba9db825469c44f652afaa",
+        "documentId": null,
+        "name": "Quinoa Burger",
+        "description": null,
+        "price": 240,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "12533e6b48185ef9c43c96bc34e6b3fe",
+        "documentId": null,
+        "name": "Tacos Mediterráneos",
+        "description": null,
+        "price": 45,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "6a421c76c30364b13b590d45e2af2220",
+        "documentId": null,
+        "name": "The Veggie Burger",
+        "description": null,
+        "price": 240,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://giornale.mx/menu/featured_image",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://giornale.mx/menu/bebidas",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://giornale.mx/menu/better-balance",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://giornale.mx/menu/bowls-y-fruta",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://giornale.mx/menu/cafe",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://giornale.mx/menu/ensaladas",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://giornale.mx/menu/entradas",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://giornale.mx/menu/ghiacciato",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://giornale.mx/menu/hamburguesas",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://giornale.mx/menu/huevos-y-omelettes",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://giornale.mx/menu/jugos-y-smoothies",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://giornale.mx/menu/mexicano",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://giornale.mx/menu/panaderia",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://giornale.mx/menu/platos-fuertes",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://giornale.mx/menu/poke-bowls",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://giornale.mx/menu/postres",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://giornale.mx/menu/sandwiches-wraps",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://giornale.mx/menu/sopas",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://giornale.mx/menu/toasts",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://giornale.mx/menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://giornale.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:52:06.633+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=1099559638177145999&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:53:00.244+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/giornalemx",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/giornalemx/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:20:42.995788+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 400,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_cuisine",
+      "missing_source_summary"
+    ]
+  }
+}

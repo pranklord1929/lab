@@ -1,0 +1,949 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "a6195123-9cdd-4959-842a-0eed83238c05",
+  "slug": "savana-restaurante-fernis-grill",
+  "name": "Savana Restaurante - Ferni's Grill",
+  "location": {
+    "neighborhood": "BOSQUE DE LAS LOMAS",
+    "borough": "Miguel Hidalgo",
+    "address": "Bosque de los Ciruelos, Bosque de las Lomas, Miguel Hidalgo, 11700 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4030099,
+      "longitude": -99.2429492
+    }
+  },
+  "contact": {
+    "phone": "55 5442 8238",
+    "website": "WWW.SAVANA.MX",
+    "instagram": "https://instagram.com/savana_restaurante/",
+    "googleMapsUrl": "https://maps.google.com/?cid=13400800900373564194&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 1:00–8:00 p.m.",
+      "lunes: 1:00–10:00 p.m.",
+      "martes: 1:00–10:00 p.m.",
+      "miércoles: 1:00 p.m. – 12:00 a.m.",
+      "jueves: 1:00 p.m. – 12:00 a.m.",
+      "viernes: 1:00 p.m. – 12:00 a.m.",
+      "sábado: 1:00 p.m. – 12:00 a.m."
+    ],
+    "rating": 4.2,
+    "reviewCount": 105
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 32,
+    "itemCount": 20,
+    "documents": [
+      {
+        "id": "03148979-0d13-4ca9-a799-c702659375c6",
+        "sourceUrl": "https://savana.mx/menubook.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "056b063c-1c59-4c1e-a3b9-2b336eeff82a",
+        "sourceUrl": "https://savana.mx/img/wine/2.jpg",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "094053f1-ca19-4015-ae0c-711cfb3d6ff8",
+        "sourceUrl": "https://savana.mx/img/menu/mains/3.jpg",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "0c4b02ea-2e71-4334-a2f2-3c6255c832b2",
+        "sourceUrl": "https://savana.mx/img/wine/3.jpg",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "0ca34af3-050e-4e23-a964-9b4f6bf6f898",
+        "sourceUrl": "https://savana.mx/img/menu/mains/2.jpg",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "1388fdeb-f04d-4841-aea7-56fa826ab201",
+        "sourceUrl": "https://savana.mx/img/menu/mains/4.jpg",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "2cdda627-8f24-401a-ae28-9de0d43d0bd4",
+        "sourceUrl": "https://savana.mx/img/menu/desserts/4.jpg",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "33752c32-3bdb-4e7a-abdc-3a535f413ada",
+        "sourceUrl": "https://savana.mx/menubook4.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "42d34e0a-0b2e-4a8d-a7d7-48a2149ad532",
+        "sourceUrl": "https://savana.mx/img/menu/desserts/1.jpg",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "525a0d83-1686-4364-a2bf-3a81e9386195",
+        "sourceUrl": "https://savana.mx/img/menu/mains/1.jpg",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "55f49202-3604-432d-aa9c-697b9378a8c0",
+        "sourceUrl": "https://savana.mx/menubook6.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "61aa495b-a4ca-4621-a176-52084e019087",
+        "sourceUrl": "https://savana.mx/img/menu/wine/3.jpg",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "6ad82257-1e83-451a-afd7-8598a0778a59",
+        "sourceUrl": "https://savana.mx/menubook5.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "7c5b1484-4616-4bf9-abeb-bef4e16cf841",
+        "sourceUrl": "https://savana.mx/img/menu/salads/2.jpg",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "7d7cd41c-5dd2-4cb0-a034-062b4cdc6cad",
+        "sourceUrl": "https://savana.mx/img/menu/desserts/3.jpg",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "809d697a-90f1-40d0-aa05-dbf3f9a03c88",
+        "sourceUrl": "https://savana.mx/img/wine/1.jpg",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "8a8b1a74-ee5f-4a9f-aaee-c2531934c999",
+        "sourceUrl": "https://savana.mx/menubook2.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "92afe844-b103-4e43-a56e-bccb1e50d2d9",
+        "sourceUrl": "https://savana.mx/img/menu/starters/1.jpg",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "a1e95cd7-46c2-422c-a872-4e16d723d251",
+        "sourceUrl": "https://savana.mx/menubook3.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "a865cbe8-9b6c-49d1-a6b9-8ea286a64b66",
+        "sourceUrl": "https://savana.mx/img/menu/wine/4.jpg",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "a8ec3213-b53e-466d-a384-2b3a303b3762",
+        "sourceUrl": "https://savana.mx/img/menu/wine/1.jpg",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "ab761885-46c4-4aff-aeeb-a1b80c47cf6c",
+        "sourceUrl": "https://savana.mx",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "b36f811e-18e0-44cd-a220-689dd22d4ef8",
+        "sourceUrl": "https://savana.mx/img/menu/desserts/2.jpg",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "c47f7fac-e2f6-4e21-a562-305ef20d1d90",
+        "sourceUrl": "https://savana.mx/news.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "c4e13e0a-808d-4f9d-ab2e-1592728bcf2b",
+        "sourceUrl": "https://savana.mx/img/menu/wine/2.jpg",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "d2953cbf-e1a4-4c9e-aff7-e89f5eeae730",
+        "sourceUrl": "https://savana.mx/img/menu/starters/2.jpg",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "d64eb300-2069-4462-a4a5-861d67ed4e6f",
+        "sourceUrl": "https://savana.mx/img/menu/salads/1.jpg",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "da07e925-c50d-43eb-a5c5-8ade2d8e29a8",
+        "sourceUrl": "https://savana.mx/img/menu/salads/3.jpg",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "e5e3c21a-46b9-40db-a663-452a71571166",
+        "sourceUrl": "https://savana.mx/img/menu/starters/3.jpg",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "f2e3f4dc-41c7-41af-a214-9c8f8cf677fb",
+        "sourceUrl": "https://savana.mx/img/menu/salads/4.jpg",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "f4cf5900-1839-4f7c-abd1-c1f651c8f257",
+        "sourceUrl": "https://savana.mx/img/wine/4.jpg",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "fb96bfae-f04b-451c-a6d5-19001c8d15c0",
+        "sourceUrl": "https://savana.mx/img/menu/starters/4.jpg",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": [
+      {
+        "id": "2c9dba52-3853-4877-a08d-f12bed9aaa32",
+        "documentId": null,
+        "name": "Amarone Classico",
+        "description": null,
+        "price": 20,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "1b7fa09b-e0e4-4e45-ab77-3df987d9509a",
+        "documentId": null,
+        "name": "Apple & Pear Crumble",
+        "description": null,
+        "price": 40,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "c524a5c7-be5a-42d0-a6e3-fd09a98d09d9",
+        "documentId": null,
+        "name": "Buffalo Wings",
+        "description": null,
+        "price": 30.5,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "a9d1a1b2-d4f6-47cc-af84-b1de97af9f0c",
+        "documentId": null,
+        "name": "Cajun Fish Steak",
+        "description": null,
+        "price": 30,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "7726f7d2-9a87-4322-a15e-25269c1bbc86",
+        "documentId": null,
+        "name": "Ceaser Salad",
+        "description": null,
+        "price": 15,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "9fa5463d-a0bc-483c-a75e-a8fc2f635a90",
+        "documentId": null,
+        "name": "Chicken Cobb Salad",
+        "description": null,
+        "price": 30.5,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "8fe5fdb2-a86d-4455-a11e-d73f7f13c94b",
+        "documentId": null,
+        "name": "Chilli Con Carne",
+        "description": null,
+        "price": 20,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "7e93fd85-3650-4326-a848-3d5194da1e93",
+        "documentId": null,
+        "name": "Dom Perignon",
+        "description": null,
+        "price": 30,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "26c57b5d-0aef-4679-a4c8-62c4296639d0",
+        "documentId": null,
+        "name": "Grilled Salmon Salad",
+        "description": null,
+        "price": 25,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "59b7b7fe-29c0-4738-ad03-4b92273f696b",
+        "documentId": null,
+        "name": "House Avocado Tempura",
+        "description": null,
+        "price": 40,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "3613baab-46dc-4d0f-a433-ceeba0c8024b",
+        "documentId": null,
+        "name": "Mozzarella Dippers",
+        "description": null,
+        "price": 27,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "5e6cfc11-a707-4318-ab0c-00909f781958",
+        "documentId": null,
+        "name": "New York Cheesecake",
+        "description": null,
+        "price": 20,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "09cf6c42-b3db-4d2d-ae65-12f50107042d",
+        "documentId": null,
+        "name": "Onion Rings",
+        "description": null,
+        "price": 15,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "a086d267-1ae8-4e0b-aee0-9aee7d855f9d",
+        "documentId": null,
+        "name": "Riscos Malbec",
+        "description": null,
+        "price": 25,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "dd622520-7fbf-4861-a3a8-e842ceb24047",
+        "documentId": null,
+        "name": "Rusty’s Burger",
+        "description": null,
+        "price": 35,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "89c012a1-6ffe-4299-abea-9a46ad116b1a",
+        "documentId": null,
+        "name": "Rusty’s ice-cream",
+        "description": null,
+        "price": 10.5,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "cfb52682-0765-4831-a404-1cfd5b1e35c2",
+        "documentId": null,
+        "name": "Southern Fried Chicken",
+        "description": null,
+        "price": 45.5,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "981984f3-ea53-466c-a37b-ab3142d073f2",
+        "documentId": null,
+        "name": "Valle Berta Gavi",
+        "description": null,
+        "price": 45,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "feb12c14-b754-4a22-ae34-4887c2ae298f",
+        "documentId": null,
+        "name": "Vegan Potato Waffles",
+        "description": null,
+        "price": 18,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "03adb55f-a3e4-406b-af86-21048e4ef210",
+        "documentId": null,
+        "name": "Waldorf Salad",
+        "description": null,
+        "price": 10,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://savana.mx/img/menu/desserts/1.jpg",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://savana.mx/img/menu/starters/1.jpg",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://savana.mx/img/wine/4.jpg",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://savana.mx/img/menu/salads/3.jpg",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://savana.mx",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://savana.mx/img/menu/wine/2.jpg",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://savana.mx/img/menu/starters/2.jpg",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://savana.mx/img/wine/3.jpg",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://savana.mx/img/menu/wine/3.jpg",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://savana.mx/img/menu/starters/4.jpg",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://savana.mx/img/menu/salads/4.jpg",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://savana.mx/img/menu/salads/1.jpg",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://savana.mx/img/menu/desserts/2.jpg",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://savana.mx/menubook2.html",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://savana.mx/img/menu/desserts/3.jpg",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://savana.mx/img/menu/starters/3.jpg",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://savana.mx/img/wine/1.jpg",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://savana.mx/menubook5.html",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://savana.mx/img/menu/mains/3.jpg",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://savana.mx/menubook3.html",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://savana.mx/img/menu/salads/2.jpg",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://savana.mx/img/menu/mains/4.jpg",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://savana.mx/img/menu/desserts/4.jpg",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://savana.mx/menubook4.html",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://savana.mx/news.html",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://savana.mx/img/wine/2.jpg",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://savana.mx/menubook6.html",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://savana.mx/img/menu/wine/4.jpg",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://savana.mx/img/menu/wine/1.jpg",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://savana.mx/menubook.html",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://savana.mx/img/menu/mains/1.jpg",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://savana.mx/img/menu/mains/2.jpg",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=13400800900373564194&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:27.192+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/savana_restaurante/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "google_places",
+      "official_menus",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "denue",
+      "instagram": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T20:20:18.817259+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:05:57.272473+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 6,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_cuisine",
+      "missing_price_level",
+      "missing_source_summary"
+    ]
+  }
+}

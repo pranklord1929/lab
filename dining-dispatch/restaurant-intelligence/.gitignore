@@ -1,0 +1,9 @@
+# The archive is the confidential working corpus copied from the legacy project.
+# Keep it local: it contains large raw payloads and a complete SQLite snapshot.
+archive/legacy-data/
+
+# Local operating files.
+.DS_Store
+*.sqlite-shm
+*.sqlite-wal
+

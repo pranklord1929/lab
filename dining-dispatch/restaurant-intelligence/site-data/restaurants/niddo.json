@@ -1,0 +1,280 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "07d6b7ce-4ac6-4d9d-8e4a-cad704427b14",
+  "slug": "niddo",
+  "name": "niddo",
+  "location": {
+    "neighborhood": "JUÁREZ",
+    "borough": "Cuauhtémoc",
+    "address": "Dresde 2, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4244352,
+      "longitude": -99.1695746
+    }
+  },
+  "contact": {
+    "phone": "55 5525 0262",
+    "website": "http://www.niddo.mx/",
+    "instagram": "https://instagram.com/_niddo/",
+    "googleMapsUrl": "https://maps.google.com/?cid=7598304041584856651&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 3
+  },
+  "experience": {
+    "sourceSummary": "Relaxed, bohemian eatery with an open kitchen turning out hearty comfort food with a twist.",
+    "hours": [
+      "domingo: 8:00 a.m. – 5:30 p.m.",
+      "lunes: 7:30 a.m. – 5:30 p.m.",
+      "martes: 7:30 a.m. – 5:30 p.m.",
+      "miércoles: 7:30 a.m. – 5:30 p.m.",
+      "jueves: 7:30 a.m. – 5:30 p.m.",
+      "viernes: 7:30 a.m. – 5:30 p.m.",
+      "sábado: 8:00 a.m. – 5:30 p.m."
+    ],
+    "rating": 4.2,
+    "reviewCount": 3695
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-17T10:10:05.905Z",
+    "observationAgeDaysAtExport": 31,
+    "documentCount": 8,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "104ab803-c4a3-4d91-812f-5167c3f2c06f",
+        "sourceUrl": "https://www.niddo.mx/wp-content/uploads/2021/11/niddo-desayunos-3-1-scaled.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "59193937-9087-4225-b946-15a62cb8fdaf",
+        "sourceUrl": "https://www.niddo.mx/wp-content/uploads/2021/11/niddo-desayunos-5-1-scaled.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "62793a8a-2428-422e-bfdd-e180be294c1c",
+        "sourceUrl": "https://www.niddo.mx/wp-content/uploads/2021/11/niddo-desayunos-3-scaled.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "7d9f7c42-bddb-4ddd-b99e-dbe914ff8dd7",
+        "sourceUrl": "https://www.niddo.mx/wp-content/uploads/2021/11/niddo-desayunos-4-1-scaled.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "91657766-5391-4cab-91b5-9ef3ce21aad8",
+        "sourceUrl": "https://www.niddo.mx/wp-content/uploads/2021/11/niddo-desayunos-2-1-scaled.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "cb6007ef-ef3c-4427-88f9-e2d8d970e1cb",
+        "sourceUrl": "https://www.niddo.mx/wp-content/uploads/2021/11/niddo-desayunos-1-1-scaled.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "97679124-0448-408a-a9d7-1e96cc8d5099",
+        "sourceUrl": "https://foodbooking.com/ordering/restaurant/menu?company_uid=1f5d9279-ea70-4cad-bb1c-1c002fe400e4&",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "b7bdceff-2afb-4613-b48f-bc501177ef88",
+        "sourceUrl": "https://www.foodbooking.com/ordering/restaurant/menu?company_uid=1f5d9279-ea70-4cad-bb1c-1c002fe400e4&",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.niddo.mx/wp-content/uploads/2021/11/niddo-desayunos-3-scaled.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.niddo.mx/wp-content/uploads/2021/11/niddo-desayunos-1-1-scaled.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.niddo.mx/wp-content/uploads/2021/11/niddo-desayunos-2-1-scaled.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.niddo.mx/wp-content/uploads/2021/11/niddo-desayunos-3-1-scaled.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.niddo.mx/wp-content/uploads/2021/11/niddo-desayunos-4-1-scaled.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.niddo.mx/wp-content/uploads/2021/11/niddo-desayunos-5-1-scaled.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://foodbooking.com/ordering/restaurant/menu?company_uid=1f5d9279-ea70-4cad-bb1c-1c002fe400e4&",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.niddo.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:14.007+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=7598304041584856651&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:24.07+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/_niddo/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.165171+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:02:50.871153+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 418,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "menu",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_cuisine",
+      "missing_structured_menu_items"
+    ]
+  }
+}

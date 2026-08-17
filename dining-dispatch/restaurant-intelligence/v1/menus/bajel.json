@@ -1,0 +1,25 @@
+{
+  "slug": "bajel",
+  "name": "Bajel",
+  "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/bajel",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Menú degustación Claridad y profundidad"
+    },
+    {
+      "name": "Menú degustación Pureza y refinamiento (vegetal)"
+    },
+    {
+      "name": "Ensalada César deconstruida"
+    },
+    {
+      "name": "Trucha en salsa de puerro"
+    },
+    {
+      "name": "Mole blanco (plato insignia)"
+    }
+  ],
+  "notes": "Guía Michelin 2026 inspector (CDMX). Restored after a later overwrite emptied the file."
+}

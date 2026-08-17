@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "1fe8fd9a-b843-492f-ac91-95ff9fdb16f4",
+  "slug": "antolina",
+  "name": "Antolina",
+  "location": {
+    "neighborhood": "HIPÓDROMO",
+    "borough": "Cuauhtémoc",
+    "address": "Aguascalientes 232, Hipódromo, Cuauhtémoc, 06100 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4070185,
+      "longitude": -99.173043
+    }
+  },
+  "contact": {
+    "phone": "55 3891 4767",
+    "website": null,
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=15316104596226057795&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "mexican",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": "Elevated dishes, craft beers & mezcal cocktails are served in this warm restaurant with a terrace.",
+    "hours": [
+      "domingo: 10:30 a.m. – 10:30 p.m.",
+      "lunes: 1:00–10:30 p.m.",
+      "martes: 1:00–10:30 p.m.",
+      "miércoles: 1:00–10:30 p.m.",
+      "jueves: 1:00–10:30 p.m.",
+      "viernes: 1:00–11:00 p.m.",
+      "sábado: 10:30 a.m. – 11:00 p.m."
+    ],
+    "rating": 4.5,
+    "reviewCount": 1323
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "missing",
+    "observedAt": null,
+    "observationAgeDaysAtExport": null,
+    "documentCount": 0,
+    "itemCount": 0,
+    "documents": [],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=15316104596226057795&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:28.002+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 1,
+    "sourceNames": [
+      "google_places"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-06-29T14:06:23.159405+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:06:23.283884+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 403,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram,website,menu",
+    "actionPriority": 8,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_website",
+      "missing_instagram",
+      "missing_menu_document",
+      "missing_structured_menu_items",
+      "low_source_count"
+    ]
+  }
+}

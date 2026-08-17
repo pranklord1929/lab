@@ -1,0 +1,272 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "ff296a8e-0e06-4228-8652-74f7f6d4d1ff",
+  "slug": "restaurante-lorea",
+  "name": "RESTAURANTE LOREA",
+  "location": {
+    "neighborhood": "ROMA NORTE",
+    "borough": "Cuauhtémoc",
+    "address": "Sinaloa 141, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4201426,
+      "longitude": -99.1700661
+    }
+  },
+  "contact": {
+    "phone": "55 6103 7914",
+    "website": "https://lorea.mx/",
+    "instagram": "http://www.instagram.com/loreamx",
+    "googleMapsUrl": "https://maps.google.com/?cid=167739944535560360&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "fine_dining",
+    "michelinCuisine": null,
+    "openTableCuisine": "Mexicana contemporánea",
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": "El chef Oswaldo Oliva rinde homenaje a los años pasados en España bautizando su restaurante de la Roma Norte con la palabra vasca para “flor”. Todo el local, distribuido en varios niveles, destaca por sus bonitas mesas e impecables acabados, pero el mejor sitio a nuestro entender, es la barra del chef, donde podrás ver a la brigada en acción. En esta cocina sosegada y siempre limpia toma forma un ",
+    "hours": [
+      "domingo: 5:00–11:00 p.m.",
+      "lunes: Cerrado",
+      "martes: 5:00–11:00 p.m.",
+      "miércoles: 5:00–11:00 p.m.",
+      "jueves: 5:00–11:00 p.m.",
+      "viernes: 5:00–11:00 p.m.",
+      "sábado: 5:00–11:00 p.m."
+    ],
+    "rating": 4.5,
+    "reviewCount": 657
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": "https://www.opentable.com.mx/r/lorea-mexico",
+    "links": [
+      {
+        "type": "reservation",
+        "provider": "opentable",
+        "url": "https://www.opentable.com.mx/booking/restref/availability?rid=335395&",
+        "confidence": null,
+        "checkedAt": "2026-07-09T18:47:46.741+00:00"
+      }
+    ],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-09T18:55:35.146+00:00",
+    "observationAgeDaysAtExport": 38,
+    "documentCount": 1,
+    "itemCount": 6,
+    "documents": [
+      {
+        "id": "dd0c960a-3966-4356-ae4e-0b11b2764a0e",
+        "sourceUrl": "https://lorea.mx/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.5,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:35.146+00:00"
+      }
+    ],
+    "items": [
+      {
+        "id": "cdf63d59-c0c6-44d8-b649-00c0a465963a",
+        "documentId": "dd0c960a-3966-4356-ae4e-0b11b2764a0e",
+        "name": "Experiencia \"HUMO\" (menú degustación 7 platos)",
+        "description": "Menú degustación de siete platos inspirados en el humo como elemento en la cocina mexicana para activar todos los sentidos.",
+        "price": 3000,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "https://lorea.mx/",
+        "observedAt": "2026-07-09T18:55:35.146+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "056a49ae-ad3c-4bb7-984d-fde91700aa6d",
+        "documentId": "dd0c960a-3966-4356-ae4e-0b11b2764a0e",
+        "name": "Kitchen Table",
+        "description": "La experiencia más dinámica e interactiva en la barra frente a la cocina abierta. Los chefs son los guías a lo largo de la cena y añaden sorpresas al menú.",
+        "price": 3550,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "https://lorea.mx/",
+        "observedAt": "2026-07-09T18:55:35.146+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "6a5d95b9-998f-4761-80e4-91e60c3a92db",
+        "documentId": "dd0c960a-3966-4356-ae4e-0b11b2764a0e",
+        "name": "Maridaje",
+        "description": "Complemento de armonización de bebidas con alcohol.",
+        "price": 1575,
+        "currency": "MXN",
+        "category": "Complementos",
+        "sourceUrl": "https://lorea.mx/",
+        "observedAt": "2026-07-09T18:55:35.146+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "46e3ba44-dd7c-433d-9103-a830b6e58dbe",
+        "documentId": "dd0c960a-3966-4356-ae4e-0b11b2764a0e",
+        "name": "Maridaje sin alcohol",
+        "description": "Complemento de armonización de bebidas sin alcohol.",
+        "price": 885,
+        "currency": "MXN",
+        "category": "Complementos",
+        "sourceUrl": "https://lorea.mx/",
+        "observedAt": "2026-07-09T18:55:35.146+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "25536b8d-6117-4db2-a9ed-08f91d26a43f",
+        "documentId": null,
+        "name": "Complementos disponibles",
+        "description": null,
+        "price": 575,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "2ef90ceb-0004-4e9a-a67f-17c042e24dfc",
+        "documentId": null,
+        "name": "Complementos disponibles",
+        "description": null,
+        "price": 885,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "contact",
+      "provider": "whatsapp",
+      "url": "https://api.whatsapp.com/send/?phone=%2B525661037914&text&type=phone_number&app_absent=0",
+      "confidence": null,
+      "checkedAt": "2026-07-09T18:47:16.978+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://lorea.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:26.911+00:00"
+    },
+    {
+      "type": "reservation",
+      "provider": "opentable",
+      "url": "https://www.opentable.com.mx/booking/restref/availability?rid=335395&",
+      "confidence": null,
+      "checkedAt": "2026-07-09T18:47:46.741+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=167739944535560360&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:27.098+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://www.facebook.com/loreamx",
+      "confidence": null,
+      "checkedAt": "2026-07-09T18:48:16.727+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://www.instagram.com/loreamx",
+      "confidence": null,
+      "checkedAt": "2026-07-09T18:48:15.638+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 4,
+    "sourceNames": [
+      "google_places",
+      "mexico_gastronomico",
+      "official_menus",
+      "opentable"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "opentable",
+      "photos": "google_places",
+      "description": "opentable"
+    },
+    "freshestSourceAt": "2026-07-15T20:20:18.817259+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:06:44.63364+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": true,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 104,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_price_level",
+      "missing_source_summary"
+    ]
+  }
+}

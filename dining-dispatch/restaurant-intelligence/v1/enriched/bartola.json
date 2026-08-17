@@ -1,0 +1,86 @@
+{
+  "catalogName": "Bartola",
+  "slug": "bartola",
+  "status": "enriched",
+  "confidence": "medium",
+  "name": "Bartola Steak & Grill",
+  "location": {
+    "address": "Arquímedes 31, Polanco (plus other branches: Río Elba 10, Patriotismo 414, Palmas 530, Leones 135). Catalog likely Polanco.",
+    "neighborhood": "Polanco",
+    "borough": "Miguel Hidalgo",
+    "postalCode": "11560",
+    "coordinates": {
+      "latitude": 19.429449,
+      "longitude": -99.1913779
+    }
+  },
+  "contact": {
+    "phone": "+52 55 6146 6879",
+    "website": "https://bartola.mx/",
+    "instagram": "bartola_steakandgrill",
+    "email": null
+  },
+  "hours": [
+    "lun–vie 14:00–02:00 (IG multi-branch)"
+  ],
+  "food": {
+    "cuisine": "steak / grill",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "phone",
+    "url": "https://bartola.mx/"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.eater.com/venue/932486/bartola",
+    "observedAt": "2026-08-17",
+    "itemCount": 6,
+    "items": [
+      {
+        "name": "Caesar salad"
+      },
+      {
+        "name": "Rigatoni cacio e pepe"
+      },
+      {
+        "name": "Ravioli with short rib"
+      },
+      {
+        "name": "Chicken parm",
+        "description": "Diabola sauce, pesto, mozzarella — Eater"
+      },
+      {
+        "name": "Chicken Alfredo",
+        "description": "Official IG @bartola.cdmx new dishes"
+      },
+      {
+        "name": "Orzo de hongos",
+        "description": "Official IG @bartola.cdmx"
+      }
+    ],
+    "notes": "bartola.mx is a parked/hijacked gambling site. No official carta found."
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/bartola_steakandgrill/",
+      "fields": [
+        "branches",
+        "hours"
+      ]
+    }
+  ],
+  "notes": [
+    "Not La Bartola Del Valle. Polanco steakhouse matches bartola.mx."
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": []
+}

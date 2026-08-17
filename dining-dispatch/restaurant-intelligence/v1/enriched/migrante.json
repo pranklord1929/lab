@@ -1,0 +1,214 @@
+{
+  "catalogName": "Migrante",
+  "slug": "migrante",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Migrante",
+  "location": {
+    "address": "Chiapas 186, Roma Norte",
+    "neighborhood": "Roma Norte",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06700",
+    "coordinates": {
+      "latitude": 19.41184,
+      "longitude": -99.1649269
+    }
+  },
+  "contact": {
+    "phone": "+52 55 5941 5470",
+    "website": "https://migranteroma.com/",
+    "instagram": "migranteroma",
+    "email": null
+  },
+  "hours": [
+    "lun–dom comida 13:30–18:00",
+    "lun–dom cena 18:30–23:00"
+  ],
+  "food": {
+    "cuisine": "mexican with international influences",
+    "priceLevel": 3,
+    "chef": "Fernando Martínez",
+    "notes": "Mexican with international influences. Corkage $800 MXN. Vegetarian yes, limited vegan. Valet daily. Private events to 40."
+  },
+  "reservation": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com.mx/r/migrante-ciudad-de-mexico"
+  },
+  "distinctions": {
+    "michelin": "Seleccionado: Buena cocina",
+    "michelinStars": 0
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://migranteroma.com/en/menu/",
+    "observedAt": "2026-08-17",
+    "itemCount": 15,
+    "items": [
+      {
+        "name": "Roast suadero bun",
+        "price": 315,
+        "currency": "MXN",
+        "description": "Peach & radicchio chutney, smoked pork (3 pcs)",
+        "category": "snacks"
+      },
+      {
+        "name": "Homemade churros",
+        "price": 315,
+        "currency": "MXN",
+        "description": "Roast foie gras, charred mamey, hazelnut & squash (4)",
+        "category": "snacks"
+      },
+      {
+        "name": "Crispy prawn",
+        "price": 575,
+        "currency": "MXN",
+        "description": "Sichuan tempura, yuzu kosho, radish mayo (3)",
+        "category": "snacks"
+      },
+      {
+        "name": "Blue crab salad",
+        "price": 465,
+        "currency": "MXN",
+        "description": "Green apple, grapefruit, peanuts, sesame, lemongrass air",
+        "category": "starters"
+      },
+      {
+        "name": "Raw fish",
+        "price": 455,
+        "currency": "MXN",
+        "description": "Blood orange / coconut emulsion, ginger, red chili",
+        "category": "starters"
+      },
+      {
+        "name": "Cured beef tartare",
+        "price": 355,
+        "currency": "MXN",
+        "description": "Pistachio praline, ibérico crumble, quelites",
+        "category": "starters"
+      },
+      {
+        "name": "Seasonal fresh pasta",
+        "price": 355,
+        "currency": "MXN",
+        "category": "starters"
+      },
+      {
+        "name": "Seasonal vegetable dish",
+        "price": 295,
+        "currency": "MXN",
+        "category": "starters"
+      },
+      {
+        "name": "Sautéed clams",
+        "price": 375,
+        "currency": "MXN",
+        "description": "Amazake and lime emulsion, samphire",
+        "category": "starters"
+      },
+      {
+        "name": "Grilled dry-aged fish",
+        "price": 665,
+        "currency": "MXN",
+        "description": "Pickled mussels, bouillabaisse beurre, kombu oil",
+        "category": "mains"
+      },
+      {
+        "name": "Roast lamb",
+        "price": 585,
+        "currency": "MXN",
+        "description": "Sweet pepper cream, cauliflower, lamb jus",
+        "category": "mains"
+      },
+      {
+        "name": "Glazed Kurobuta pork chop",
+        "price": 1125,
+        "currency": "MXN",
+        "description": "Kombu jus, mushrooms, mole amarillito — suggested for sharing",
+        "category": "mains"
+      },
+      {
+        "name": "Aged duck breast",
+        "price": 585,
+        "currency": "MXN",
+        "description": "Sumac and pu-erh jus, sake carrots, raspberry",
+        "category": "mains"
+      },
+      {
+        "name": "Tornaviaje tasting 6 courses",
+        "price": 2100,
+        "currency": "MXN",
+        "description": "Pairing 3400 / zero pairing 2850",
+        "category": "tasting"
+      },
+      {
+        "name": "Meridiano tasting 9 courses",
+        "price": 3000,
+        "currency": "MXN",
+        "description": "Pairing 4900 / zero pairing 3950",
+        "category": "tasting"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "official",
+      "url": "https://migranteroma.com/en/",
+      "fields": [
+        "address",
+        "hours",
+        "phone"
+      ]
+    },
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/migranteroma/",
+      "fields": [
+        "instagram"
+      ]
+    }
+  ],
+  "gaps": [
+    "coordinates",
+    "email",
+    "dinner close time"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "michelinReview": "Moderno, con estilo y una decoración digna de atención, Migrante está administrado por un joven equipo muy cortés y acogedor. De la cocina abierta no paran de salir platillos contemporáneos elaborados con enfoque internacional, entre ellos el crujiente langostino en tempura thai con kosho de mandarina y rabanitos en escabeche o el churro frito de paté con calabaza, mantequilla, mamey y avellana tostada. El minigrilled sándwich de alcachofas confitadas con kampachi es un delicioso snack, perfecto para dar paso a un principal como la lobina a la parrilla, beurre de mejillones y yuzu.",
+  "ratings": {
+    "opentable": 4.4,
+    "opentableReviews": 626
+  },
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/migrante",
+      "id": "1208196"
+    },
+    {
+      "source": "opentable",
+      "name": "Migrante",
+      "rating": 4.4
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need a reservation?",
+      "a": "Recommended, especially weekends. Book via OpenTable."
+    },
+    {
+      "q": "Vegetarian/vegan?",
+      "a": "Some vegetarian dishes, limited vegan. No fully vegan menu."
+    },
+    {
+      "q": "Corkage?",
+      "a": "$800 MXN per bottle."
+    }
+  ]
+}

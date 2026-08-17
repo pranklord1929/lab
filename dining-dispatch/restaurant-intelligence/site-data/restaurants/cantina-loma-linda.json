@@ -1,0 +1,237 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "4628ec3b-2eb2-488b-847b-b70a78375d49",
+  "slug": "cantina-loma-linda",
+  "name": "Cantina Loma Linda",
+  "location": {
+    "neighborhood": "NÁPOLES",
+    "borough": "Benito Juárez",
+    "address": "Av. Insurgentes Sur 601, Nápoles, Benito Juárez, 03810 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3980074,
+      "longitude": -99.1712236
+    }
+  },
+  "contact": {
+    "phone": "55 4940 6083",
+    "website": "http://lomalinda.com.mx/",
+    "instagram": "https://instagram.com/cantinalomalinda/",
+    "googleMapsUrl": "https://maps.google.com/?cid=3043618120103235400&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "gastropub",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 1:00–8:00 p.m.",
+      "lunes: 1:00–8:00 p.m.",
+      "martes: 1:00–10:00 p.m.",
+      "miércoles: 1:00 p.m. – 12:00 a.m.",
+      "jueves: 1:00 p.m. – 12:00 a.m.",
+      "viernes: 1:00 p.m. – 12:00 a.m.",
+      "sábado: 1:00 p.m. – 12:00 a.m."
+    ],
+    "rating": 4.4,
+    "reviewCount": 765
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "local_extraction_candidate",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 3,
+    "itemCount": 2,
+    "documents": [
+      {
+        "id": "2719fdef-cf64-43d8-88bf-5804b493bdc2",
+        "sourceUrl": "https://lomalinda.com.mx/download/MENU-LOMA-CITY.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.98,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "c9d112bc-e830-4768-8879-9f3a4640bc51",
+        "sourceUrl": "http://www.menudigital.rest/LOMALINDA%20MENU-PRINCIPAL-TODO-SEP.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.98,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "45b4934d-cf8d-4d17-8e84-c00d76884eb2",
+        "sourceUrl": "https://lomalinda.com.mx/download/MENUS_FIN_A%C3%91O_2025_DIGITALMd.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 1,
+        "extractionMethod": "pdf_parse",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-09T18:55:10.554+00:00"
+      }
+    ],
+    "items": [
+      {
+        "id": "269eef088becab98c7aa4e94a79e5f87",
+        "documentId": null,
+        "name": "SIRLOIN",
+        "description": null,
+        "price": 150,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "4b5a7aa9ed2824e39c5bbf7cdf4d1146",
+        "documentId": null,
+        "name": "VINO TINTO O BLANCO 750 ML O MENOS",
+        "description": null,
+        "price": 750,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.menudigital.rest/LOMALINDA%20MENU-PRINCIPAL-TODO-SEP.pdf",
+      "confidence": 0.98,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lomalinda.com.mx/download/MENU-LOMA-CITY.pdf",
+      "confidence": 0.98,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lomalinda.com.mx/download/MENUS_FIN_A%C3%91O_2025_DIGITALMd.pdf",
+      "confidence": 0.95,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://lomalinda.com.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:59.781+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=3043618120103235400&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:54.945+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/RestLomaLinda/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/cantinalomalinda/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "google_places",
+      "official_website",
+      "resy"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "resy",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:18:49.227455+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": true,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 69,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_price_level",
+      "missing_source_summary"
+    ]
+  }
+}

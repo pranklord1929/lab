@@ -1,0 +1,75 @@
+{
+  "catalogName": "Mesa B",
+  "slug": "mesa-b",
+  "status": "enriched",
+  "confidence": "low",
+  "name": "Mesa (possible match)",
+  "location": {
+    "address": "Colima 164, Roma Norte — Elena Reygadas shop, not a restaurant.",
+    "neighborhood": "Roma Norte",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06700",
+    "coordinates": {
+      "latitude": 19.4197904,
+      "longitude": -99.1596899
+    }
+  },
+  "contact": {
+    "phone": "+525622059062",
+    "website": "https://elenareygadas.com/en/",
+    "instagram": "mesarosetta",
+    "email": null
+  },
+  "hours": [
+    "lun–sáb 11:00–21:00 (shop hours)"
+  ],
+  "food": {
+    "cuisine": "home/tableware shop (not a restaurant)",
+    "priceLevel": null,
+    "notes": "Likely Mesa shop (tableware), not a dining room. Needs Jules confirmation."
+  },
+  "reservation": {
+    "platform": "resy",
+    "url": "https://resy.com/cities/mexico-city-mexico/venues/de-la-raiz-a-tu-mesa"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://elenareygadas.com/en/",
+    "observedAt": "2026-08-17",
+    "itemCount": 1,
+    "items": [
+      {
+        "name": "Pan y pastelería Elena Reygadas (Mesa B is the bakery/table project, not a restaurant service)"
+      }
+    ],
+    "notes": "Mesa is Reygadas' tableware shop, not a dining room."
+  },
+  "sources": [
+    {
+      "source": "elenareygadas",
+      "url": "https://elenareygadas.com/en/",
+      "fields": [
+        "address",
+        "hours"
+      ]
+    }
+  ],
+  "gaps": [
+    "confirm this is the catalog target"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": [
+    {
+      "source": "resy",
+      "url": "https://resy.com/cities/mexico-city-mexico/venues/de-la-raiz-a-tu-mesa",
+      "slug": "de-la-raiz-a-tu-mesa"
+    }
+  ]
+}

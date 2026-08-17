@@ -1,0 +1,94 @@
+{
+  "catalogName": "Galea",
+  "slug": "galea",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Galea",
+  "location": {
+    "address": "Sinaloa 67, Roma Norte",
+    "neighborhood": "Roma Norte",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06700",
+    "coordinates": {
+      "latitude": 19.4209063,
+      "longitude": -99.1668636
+    }
+  },
+  "contact": {
+    "phone": "+52 55 5158 9911",
+    "website": "https://galea.mx/",
+    "instagram": "galea.restaurante",
+    "email": null
+  },
+  "hours": [
+    "lun–sáb 14:00–23:00",
+    "dom 14:00–19:00"
+  ],
+  "food": {
+    "cuisine": "italian",
+    "chef": "Rafael Zaga / Michelle Catarata (IG)",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "instagram / website",
+    "url": "https://www.galea.mx/reservaciones/",
+    "email": "reservas-eventos@galea.mx"
+  },
+  "distinctions": {
+    "michelin": "Bib Gourmand : nuestras mejores relaciones calidad-precio",
+    "bibGourmand": true
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.galea.mx/",
+    "observedAt": "2026-08-17",
+    "itemCount": 2,
+    "items": [
+      {
+        "name": "Menú degustación 4 tiempos",
+        "price": 1300,
+        "currency": "MXN",
+        "description": "entrada, pasta, principal, postre — 14:00–22:30 daily",
+        "category": "tasting"
+      },
+      {
+        "name": "Maridaje",
+        "price": 700,
+        "currency": "MXN",
+        "description": "3 glasses 3oz + dessert wine 2oz",
+        "category": "tasting"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/galea.restaurante/",
+      "fields": [
+        "address",
+        "hours",
+        "distinction"
+      ]
+    }
+  ],
+  "gaps": [
+    "coordinates",
+    "email"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "michelinReview": "Este encantador local de esquina cuenta con una terraza exterior y un interior donde el uso de la madera crea un marco a medio camino entre lo tradicional y lo moderno. En cualquier caso, Galea es uno de los restaurantes preferidos de la zona gracias a su atmósfera distendida, a sus precios más bien moderados y a su carta de inspiración italiana, concisa pero variada. La propuesta se completa con los platos del día (además de los crudos especiales) y con pastas caseras dignas de toda la atención. Estas últimas se ofrecen también por medias raciones, muy práctico si quieres probar más de una. La focaccia casera podrá ir seguida de un plato de gnochetti con un ragú de mariscos que reconforta el alma. El pescado del día con un cremoso beurre blanc es todo un acierto, pero acuérdate de dejar hueco para la panna cotta, elaborada con un toque mexicano.",
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/galea",
+      "id": "1208792"
+    }
+  ]
+}

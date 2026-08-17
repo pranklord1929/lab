@@ -1,0 +1,211 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "ad8f462e-6457-4384-bed1-dbbeabbe1c20",
+  "slug": "fonda-la-unica",
+  "name": "Fonda La Única",
+  "location": {
+    "neighborhood": "AJUSCO",
+    "borough": "Coyoacán",
+    "address": "Av. Aztecas 849, Ajusco, Coyoacán, 04300 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3127693,
+      "longitude": -99.1700092
+    }
+  },
+  "contact": {
+    "phone": "55 5617 4222",
+    "website": "http://www.fondalaunica.com/",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=11447574365313683847&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "mexican",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 1
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: Cerrado",
+      "lunes: 8:30 a.m. – 6:30 p.m.",
+      "martes: 8:30 a.m. – 6:30 p.m.",
+      "miércoles: 8:30 a.m. – 6:30 p.m.",
+      "jueves: 8:30 a.m. – 6:30 p.m.",
+      "viernes: 8:30 a.m. – 6:30 p.m.",
+      "sábado: 8:30 a.m. – 6:30 p.m."
+    ],
+    "rating": 4.2,
+    "reviewCount": 1671
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 4,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "3909b5ac-c823-4f06-a68a-4dae0d67a5e5",
+        "sourceUrl": "https://fondalaunica.com/categoria_des1.php",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "5322fd27-e8fb-4460-a1d6-c43cb3878220",
+        "sourceUrl": "https://fondalaunica.com/menu/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "d9217b25-81d1-49c1-a9f7-9ccede8cf0ea",
+        "sourceUrl": "https://fondalaunica.com/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "ee6a7f8a-764e-4880-b801-3bdbdcb22190",
+        "sourceUrl": "https://fondalaunica.com/desayunos.php",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://fondalaunica.com/desayunos.php",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://fondalaunica.com/categoria_des1.php",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://fondalaunica.com/menu/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://fondalaunica.com/menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://fondalaunica.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:13.732+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=11447574365313683847&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:15.989+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.165171+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:08:05.702217+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 6,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

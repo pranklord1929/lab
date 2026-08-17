@@ -1,0 +1,155 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "0e55476e-31cb-4f54-8678-d80ca8573cd2",
+  "slug": "torre-de-castilla",
+  "name": "Torre de Castilla",
+  "location": {
+    "neighborhood": "POLANCO II SECCIÓN",
+    "borough": "Miguel Hidalgo",
+    "address": "Esopo 31, Polanco, Polanco II Secc, Miguel Hidalgo, 11530 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4331832,
+      "longitude": -99.2070014
+    }
+  },
+  "contact": {
+    "phone": "55 1168 9766",
+    "website": "http://www.grupocastellano.com.mx/",
+    "instagram": "torredecastillamx",
+    "googleMapsUrl": "https://maps.google.com/?cid=7714748985829117272&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "spanish",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 4
+  },
+  "experience": {
+    "sourceSummary": "Restaurant built & decorated to resemble a medieval castle, serving Spanish meat & fish dishes.",
+    "hours": [
+      "domingo: 1:00–7:00 p.m.",
+      "lunes: 1:00–11:00 p.m.",
+      "martes: 1:00–11:00 p.m.",
+      "miércoles: 1:00–11:00 p.m.",
+      "jueves: 1:00–11:00 p.m.",
+      "viernes: 1:00–11:00 p.m.",
+      "sábado: 1:00–11:00 p.m."
+    ],
+    "rating": 4.5,
+    "reviewCount": 1947
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-15T21:02:19.410Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 1,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "4db96d21-18b3-4978-865c-ac1ed37f962c",
+        "sourceUrl": "https://www.grupocastellano.com.mx/restaurants-menu-sitemap.xml",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "candidate_filter:sitemap",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T21:02:19.410Z"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.grupocastellano.com.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:02.257+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=7714748985829117272&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:19.607+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 4,
+    "sourceNames": [
+      "google_places",
+      "mexico_gastronomico",
+      "official_website",
+      "resy"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "mexico_gastronomico",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:00:44.623892+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": true,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 46,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "menu",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_structured_menu_items"
+    ]
+  }
+}

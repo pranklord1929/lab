@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "681ffe7e-0ebb-4473-bd97-482c26ab96bc",
+  "slug": "prime-time",
+  "name": "Prime Time",
+  "location": {
+    "neighborhood": "INSURGENTES SAN BORJA",
+    "borough": "Benito Juárez",
+    "address": "Av. Insurgentes Sur 952, Insurgentes San Borja, Benito Juárez, 03900 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3846193,
+      "longitude": -99.1752234
+    }
+  },
+  "contact": {
+    "phone": "55 5523 8747",
+    "website": null,
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=14765824235097194703&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 3
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: Cerrado",
+      "lunes: 1:00 p.m. – 2:00 a.m.",
+      "martes: 1:00 p.m. – 2:00 a.m.",
+      "miércoles: 1:00 p.m. – 2:00 a.m.",
+      "jueves: 1:00 p.m. – 2:00 a.m.",
+      "viernes: 1:00 p.m. – 2:00 a.m.",
+      "sábado: 1:00–11:00 p.m."
+    ],
+    "rating": 4.5,
+    "reviewCount": 517
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "missing",
+    "observedAt": null,
+    "observationAgeDaysAtExport": null,
+    "documentCount": 0,
+    "itemCount": 0,
+    "documents": [],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=14765824235097194703&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:16.645+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "resy"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-06-29T13:58:48.169643+00:00",
+    "canonicalUpdatedAt": "2026-06-29T13:58:48.293667+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 62,
+    "richnessScore": 5,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram,website,menu",
+    "actionPriority": 8,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_website",
+      "missing_instagram",
+      "missing_cuisine",
+      "missing_source_summary",
+      "missing_menu_document",
+      "missing_structured_menu_items"
+    ]
+  }
+}

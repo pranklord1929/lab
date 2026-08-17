@@ -1,0 +1,48 @@
+{
+  "slug": "la-89",
+  "name": "La 89",
+  "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/la-89",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Quesabirria",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos",
+      "description": "Michelin: con consomé"
+    },
+    {
+      "name": "Tacos de carne asada",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Tacos de birria",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Tortas",
+      "price": null,
+      "currency": "MXN",
+      "category": "tortas",
+      "description": "Michelin: pan excelente, montadas con cuidado"
+    },
+    {
+      "name": "Torta de birria",
+      "price": null,
+      "currency": "MXN",
+      "category": "tortas"
+    },
+    {
+      "name": "Taco de lengua",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos"
+    }
+  ],
+  "notes": "Michelin inspector + Time Out México (quesabirria, birria, asada, tortas)."
+}

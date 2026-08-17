@@ -1,0 +1,29 @@
+{
+  "slug": "la-bonvi",
+  "name": "La Bonvi",
+  "url": "https://www.theinfatuation.com/mexico-city/reviews/la-bonvi",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Tostada de atún spicy",
+      "price": null,
+      "currency": "MXN",
+      "category": "tostadas"
+    },
+    {
+      "name": "Cachetada de picaña",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos",
+      "description": "Picaña fina, queso fundido, orillas crujientes"
+    },
+    {
+      "name": "Sorbetto de mango de la casa",
+      "price": null,
+      "currency": "MXN",
+      "category": "postres"
+    }
+  ],
+  "notes": "The Infatuation (25 Feb 2026). Walk-in only; two locations (Pedregal 33 / Anatole France 139)."
+}

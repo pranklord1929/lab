@@ -1,0 +1,162 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "467c235c-d62b-4e32-83ae-2517552b337e",
+  "slug": "centro-castellano",
+  "name": "Centro Castellano",
+  "location": {
+    "neighborhood": "CENTRO",
+    "borough": "Cuauhtémoc",
+    "address": "República de Uruguay 16-y 18, Centro Histórico de la Cdad. de México, Centro, Cuauhtémoc, 06000 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4309949,
+      "longitude": -99.1398698
+    }
+  },
+  "contact": {
+    "phone": "55 1168 9696",
+    "website": "http://www.grupocastellano.com.mx/",
+    "instagram": "https://instagram.com/grupocastellano/",
+    "googleMapsUrl": "https://maps.google.com/?cid=12050105856225751968&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "spanish",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 1:00–8:00 p.m.",
+      "lunes: 1:00–8:00 p.m.",
+      "martes: 1:00–8:00 p.m.",
+      "miércoles: 1:00–8:00 p.m.",
+      "jueves: 1:00–8:00 p.m.",
+      "viernes: 1:00–8:00 p.m.",
+      "sábado: 1:00–8:00 p.m."
+    ],
+    "rating": 4.6,
+    "reviewCount": 11006
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-15T21:02:19.410Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 1,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "f538cbb8-9e5d-4eee-8db0-0bb308ada36d",
+        "sourceUrl": "https://www.grupocastellano.com.mx/restaurants-menu-sitemap.xml",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "candidate_filter:sitemap",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T21:02:19.410Z"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.grupocastellano.com.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:00.768+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=12050105856225751968&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:18.038+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/grupocastellano/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 4,
+    "sourceNames": [
+      "google_places",
+      "mexico_gastronomico",
+      "official_website",
+      "resy"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T13:58:56.676763+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": true,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 25,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "menu",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

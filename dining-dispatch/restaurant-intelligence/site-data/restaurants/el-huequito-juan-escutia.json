@@ -1,0 +1,209 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "f101b44c-d5e7-4279-a662-464bef41e73d",
+  "slug": "el-huequito-juan-escutia",
+  "name": "El Huequito Juan Escutia",
+  "location": {
+    "neighborhood": "CONDESA",
+    "borough": "Cuauhtémoc",
+    "address": "Transito, Bajo Puente S/N-Local 4, Colonia Condesa, Cuauhtémoc, 06140 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4162805,
+      "longitude": -99.1792297
+    }
+  },
+  "contact": {
+    "phone": "55 5553 7136",
+    "website": "https://www.elhuequito.mx/",
+    "instagram": "https://instagram.com/elhuequitomx/",
+    "googleMapsUrl": "https://maps.google.com/?cid=3820953990878718844&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "taco",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 12:00 p.m. – 12:00 a.m.",
+      "lunes: 12:00 p.m. – 4:00 a.m.",
+      "martes: 12:00 p.m. – 4:00 a.m.",
+      "miércoles: 12:00 p.m. – 4:00 a.m.",
+      "jueves: 12:00 p.m. – 4:00 a.m.",
+      "viernes: 12:00 p.m. – 4:00 a.m.",
+      "sábado: 12:00 p.m. – 4:00 a.m."
+    ],
+    "rating": 4.3,
+    "reviewCount": 2274
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 3,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "0191d378-748e-49f3-a8eb-43284df7c3e3",
+        "sourceUrl": "https://www.elhuequito.mx/_files/ugd/fd9a44_234ba572f67a4e87967dfb9fe4e7fd3c.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.98,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "7f488325-bec8-44fd-85e9-82a4d4ce4f01",
+        "sourceUrl": "https://www.elhuequito.mx/_files/ugd/fd9a44_5c88f55010fc4745b81b2c302eaca4d6.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.98,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "7303cd9b-25b9-4dca-a6fa-afef070a9f0f",
+        "sourceUrl": "https://www.elhuequito.mx/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.75,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:56:16.153+00:00"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.elhuequito.mx/_files/ugd/fd9a44_234ba572f67a4e87967dfb9fe4e7fd3c.pdf",
+      "confidence": 0.98,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.elhuequito.mx/_files/ugd/fd9a44_5c88f55010fc4745b81b2c302eaca4d6.pdf",
+      "confidence": 0.98,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://elhuequito.mx/menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.elhuequito.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:52:02.072+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=3820953990878718844&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:56.466+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/elhuequitomx",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/elhuequitomx/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:19:09.496474+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 384,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

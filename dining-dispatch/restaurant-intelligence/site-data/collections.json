@@ -1,0 +1,1047 @@
+[
+  {
+    "id": "borough:alvaro-obregon",
+    "type": "borough",
+    "slug": "alvaro-obregon",
+    "label": "Álvaro Obregón",
+    "restaurantCount": 10,
+    "restaurantSlugs": [
+      "cluny",
+      "restaurante-san-angel-inn",
+      "la-taberna-del-leon",
+      "puerto-madero-san-angel",
+      "cantinetta-del-becco",
+      "la-bella-lula",
+      "hunan-san-angel",
+      "la-casa-de-tono",
+      "el-farolito-pedregal",
+      "los-almendros"
+    ]
+  },
+  {
+    "id": "borough:benito-juarez",
+    "type": "borough",
+    "slug": "benito-juarez",
+    "label": "Benito Juárez",
+    "restaurantCount": 13,
+    "restaurantSlugs": [
+      "fonda-argentina-viaducto",
+      "cochinita-country",
+      "la-imperial-napoles",
+      "lucky-sushi-portales-norte",
+      "taqueria-los-parados-prime-mx",
+      "la-famiglia",
+      "cantina-loma-linda",
+      "mamas-pizza",
+      "restaurante-nagaoka",
+      "el-regreso-napoles",
+      "pizza-del-perro-negro-del-valle",
+      "el-regreso-del-valle",
+      "meson-de-santiago"
+    ]
+  },
+  {
+    "id": "borough:coyoacan",
+    "type": "borough",
+    "slug": "coyoacan",
+    "label": "Coyoacán",
+    "restaurantCount": 13,
+    "restaurantSlugs": [
+      "los-danzantes-coyoacan",
+      "daikoku-del-carmen",
+      "la-casa-de-tono-en-coapa",
+      "tortas-gigantes-sur-12-tlalpan-sur",
+      "porco-rosso-bbq-coyoacan",
+      "izakaya-sushi-miramontes",
+      "pizzas-plaza-coyoacan",
+      "la-posta-trattoria",
+      "starbucks-coyoacan-centro",
+      "lucky-sushi-petrolera-taxquena",
+      "pizzas-plaza-santa-ana",
+      "kabuki-sushi-villa-coyoacan",
+      "cafe-kowloon-coyoacan"
+    ]
+  },
+  {
+    "id": "borough:cuajimalpa-de-morelos",
+    "type": "borough",
+    "slug": "cuajimalpa-de-morelos",
+    "label": "Cuajimalpa de Morelos",
+    "restaurantCount": 2,
+    "restaurantSlugs": [
+      "porco-rosso-bbq-santa-fe",
+      "aida"
+    ]
+  },
+  {
+    "id": "borough:cuauhtemoc",
+    "type": "borough",
+    "slug": "cuauhtemoc",
+    "label": "Cuauhtémoc",
+    "restaurantCount": 29,
+    "restaurantSlugs": [
+      "restaurante-rosetta",
+      "azul-historico-restaurante-cdmx",
+      "izakaya-sushi-roma",
+      "el-lugar-del-mariachi",
+      "galanga-thai-house",
+      "centro-castellano",
+      "raffaello-ristorante",
+      "el-gran-abanico",
+      "meroma",
+      "pizza-del-perro-negro-rabioso",
+      "azul-condesa-restaurante-cdmx",
+      "filigrana",
+      "sartoria",
+      "el-mexicano-restaurante-y-mezcaleria",
+      "daikoku-reforma",
+      "sushi-roll-condesa",
+      "por-siempre-vegana-taqueria-2",
+      "el-farolito-altata",
+      "contramar",
+      "koku",
+      "restaurante-lorea",
+      "taqueria-el-califa",
+      "macelleria-roma",
+      "taqueria-el-jarocho",
+      "pizza-del-perro-negro-roma-norte",
+      "meson-puerto-chico",
+      "huset",
+      "creperie-de-la-paix",
+      "plantasia"
+    ]
+  },
+  {
+    "id": "borough:miguel-hidalgo",
+    "type": "borough",
+    "slug": "miguel-hidalgo",
+    "label": "Miguel Hidalgo",
+    "restaurantCount": 30,
+    "restaurantSlugs": [
+      "pujol",
+      "quintonil",
+      "limantour",
+      "porfirios",
+      "guzina-oaxaca",
+      "la-unica",
+      "maison-kayser-polanco",
+      "casa-damico",
+      "senora-tanaka-masaryk",
+      "bakea-restaurant",
+      "torre-de-castilla",
+      "la-vid-argentina-polanco",
+      "el-farolito-polanco",
+      "hacienda-de-los-morales",
+      "casa-portuguesa",
+      "restaurante-canto-de-sirenas",
+      "caldos-riesi",
+      "prosecco-polanco-iii-seccion",
+      "pizza-del-perro-negro-sangriento",
+      "entremar",
+      "cabanna-restaurant",
+      "comedor-jacinta",
+      "lampuga",
+      "midam",
+      "villa-maria",
+      "le-pain-quotidien-polanco-v-seccion",
+      "murakami",
+      "los-panchos",
+      "caldos-dleo",
+      "the-palm"
+    ]
+  },
+  {
+    "id": "borough:tlalpan",
+    "type": "borough",
+    "slug": "tlalpan",
+    "label": "Tlalpan",
+    "restaurantCount": 3,
+    "restaurantSlugs": [
+      "el-asado-argentino",
+      "de-costa-a-costa-tlalpan",
+      "mi-gusto-es-parque-del-pedregal"
+    ]
+  },
+  {
+    "id": "cuisine:american",
+    "type": "cuisine",
+    "slug": "american",
+    "label": "american",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "the-palm"
+    ]
+  },
+  {
+    "id": "cuisine:argentinian",
+    "type": "cuisine",
+    "slug": "argentinian",
+    "label": "argentinian",
+    "restaurantCount": 4,
+    "restaurantSlugs": [
+      "fonda-argentina-viaducto",
+      "puerto-madero-san-angel",
+      "la-vid-argentina-polanco",
+      "el-asado-argentino"
+    ]
+  },
+  {
+    "id": "cuisine:asian",
+    "type": "cuisine",
+    "slug": "asian",
+    "label": "asian",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "plantasia"
+    ]
+  },
+  {
+    "id": "cuisine:barbecue",
+    "type": "cuisine",
+    "slug": "barbecue",
+    "label": "barbecue",
+    "restaurantCount": 2,
+    "restaurantSlugs": [
+      "porco-rosso-bbq-santa-fe",
+      "porco-rosso-bbq-coyoacan"
+    ]
+  },
+  {
+    "id": "cuisine:breakfast",
+    "type": "cuisine",
+    "slug": "breakfast",
+    "label": "breakfast",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "caldos-dleo"
+    ]
+  },
+  {
+    "id": "cuisine:cafe",
+    "type": "cuisine",
+    "slug": "cafe",
+    "label": "cafe",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "starbucks-coyoacan-centro"
+    ]
+  },
+  {
+    "id": "cuisine:chinese",
+    "type": "cuisine",
+    "slug": "chinese",
+    "label": "chinese",
+    "restaurantCount": 2,
+    "restaurantSlugs": [
+      "hunan-san-angel",
+      "cafe-kowloon-coyoacan"
+    ]
+  },
+  {
+    "id": "cuisine:cocktail-bar",
+    "type": "cuisine",
+    "slug": "cocktail-bar",
+    "label": "cocktail_bar",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "limantour"
+    ]
+  },
+  {
+    "id": "cuisine:coffee-shop",
+    "type": "cuisine",
+    "slug": "coffee-shop",
+    "label": "coffee_shop",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "le-pain-quotidien-polanco-v-seccion"
+    ]
+  },
+  {
+    "id": "cuisine:fine-dining",
+    "type": "cuisine",
+    "slug": "fine-dining",
+    "label": "fine_dining",
+    "restaurantCount": 4,
+    "restaurantSlugs": [
+      "quintonil",
+      "restaurante-rosetta",
+      "meroma",
+      "restaurante-lorea"
+    ]
+  },
+  {
+    "id": "cuisine:french",
+    "type": "cuisine",
+    "slug": "french",
+    "label": "french",
+    "restaurantCount": 4,
+    "restaurantSlugs": [
+      "cluny",
+      "maison-kayser-polanco",
+      "bakea-restaurant",
+      "creperie-de-la-paix"
+    ]
+  },
+  {
+    "id": "cuisine:gastropub",
+    "type": "cuisine",
+    "slug": "gastropub",
+    "label": "gastropub",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "cantina-loma-linda"
+    ]
+  },
+  {
+    "id": "cuisine:italian",
+    "type": "cuisine",
+    "slug": "italian",
+    "label": "italian",
+    "restaurantCount": 8,
+    "restaurantSlugs": [
+      "raffaello-ristorante",
+      "casa-damico",
+      "cantinetta-del-becco",
+      "sartoria",
+      "la-famiglia",
+      "prosecco-polanco-iii-seccion",
+      "macelleria-roma",
+      "la-posta-trattoria"
+    ]
+  },
+  {
+    "id": "cuisine:japanese",
+    "type": "cuisine",
+    "slug": "japanese",
+    "label": "japanese",
+    "restaurantCount": 8,
+    "restaurantSlugs": [
+      "daikoku-del-carmen",
+      "senora-tanaka-masaryk",
+      "daikoku-reforma",
+      "restaurante-nagaoka",
+      "koku",
+      "izakaya-sushi-miramontes",
+      "murakami",
+      "kabuki-sushi-villa-coyoacan"
+    ]
+  },
+  {
+    "id": "cuisine:korean-barbecue",
+    "type": "cuisine",
+    "slug": "korean-barbecue",
+    "label": "korean_barbecue",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "midam"
+    ]
+  },
+  {
+    "id": "cuisine:mexican",
+    "type": "cuisine",
+    "slug": "mexican",
+    "label": "mexican",
+    "restaurantCount": 32,
+    "restaurantSlugs": [
+      "pujol",
+      "los-danzantes-coyoacan",
+      "porfirios",
+      "restaurante-san-angel-inn",
+      "guzina-oaxaca",
+      "azul-historico-restaurante-cdmx",
+      "la-taberna-del-leon",
+      "el-lugar-del-mariachi",
+      "la-unica",
+      "el-gran-abanico",
+      "azul-condesa-restaurante-cdmx",
+      "filigrana",
+      "el-mexicano-restaurante-y-mezcaleria",
+      "cochinita-country",
+      "la-imperial-napoles",
+      "la-bella-lula",
+      "la-casa-de-tono-en-coapa",
+      "el-farolito-polanco",
+      "hacienda-de-los-morales",
+      "tortas-gigantes-sur-12-tlalpan-sur",
+      "caldos-riesi",
+      "la-casa-de-tono",
+      "el-farolito-pedregal",
+      "comedor-jacinta",
+      "aida",
+      "villa-maria",
+      "huset",
+      "el-regreso-napoles",
+      "los-almendros",
+      "el-regreso-del-valle",
+      "los-panchos",
+      "meson-de-santiago"
+    ]
+  },
+  {
+    "id": "cuisine:pizza",
+    "type": "cuisine",
+    "slug": "pizza",
+    "label": "pizza",
+    "restaurantCount": 7,
+    "restaurantSlugs": [
+      "pizza-del-perro-negro-rabioso",
+      "mamas-pizza",
+      "pizza-del-perro-negro-sangriento",
+      "pizzas-plaza-coyoacan",
+      "pizza-del-perro-negro-roma-norte",
+      "pizzas-plaza-santa-ana",
+      "pizza-del-perro-negro-del-valle"
+    ]
+  },
+  {
+    "id": "cuisine:portuguese",
+    "type": "cuisine",
+    "slug": "portuguese",
+    "label": "portuguese",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "casa-portuguesa"
+    ]
+  },
+  {
+    "id": "cuisine:seafood",
+    "type": "cuisine",
+    "slug": "seafood",
+    "label": "seafood",
+    "restaurantCount": 7,
+    "restaurantSlugs": [
+      "restaurante-canto-de-sirenas",
+      "contramar",
+      "entremar",
+      "cabanna-restaurant",
+      "lampuga",
+      "de-costa-a-costa-tlalpan",
+      "mi-gusto-es-parque-del-pedregal"
+    ]
+  },
+  {
+    "id": "cuisine:spanish",
+    "type": "cuisine",
+    "slug": "spanish",
+    "label": "spanish",
+    "restaurantCount": 3,
+    "restaurantSlugs": [
+      "centro-castellano",
+      "torre-de-castilla",
+      "meson-puerto-chico"
+    ]
+  },
+  {
+    "id": "cuisine:sushi",
+    "type": "cuisine",
+    "slug": "sushi",
+    "label": "sushi",
+    "restaurantCount": 4,
+    "restaurantSlugs": [
+      "izakaya-sushi-roma",
+      "sushi-roll-condesa",
+      "lucky-sushi-portales-norte",
+      "lucky-sushi-petrolera-taxquena"
+    ]
+  },
+  {
+    "id": "cuisine:taco",
+    "type": "cuisine",
+    "slug": "taco",
+    "label": "taco",
+    "restaurantCount": 4,
+    "restaurantSlugs": [
+      "taqueria-los-parados-prime-mx",
+      "el-farolito-altata",
+      "taqueria-el-califa",
+      "taqueria-el-jarocho"
+    ]
+  },
+  {
+    "id": "cuisine:thai",
+    "type": "cuisine",
+    "slug": "thai",
+    "label": "thai",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "galanga-thai-house"
+    ]
+  },
+  {
+    "id": "cuisine:vegan",
+    "type": "cuisine",
+    "slug": "vegan",
+    "label": "vegan",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "por-siempre-vegana-taqueria-2"
+    ]
+  },
+  {
+    "id": "distinction:michelin",
+    "type": "distinction",
+    "slug": "michelin",
+    "label": "Michelin-recognized restaurants",
+    "restaurantCount": 12,
+    "restaurantSlugs": [
+      "pujol",
+      "quintonil",
+      "restaurante-rosetta",
+      "los-danzantes-coyoacan",
+      "guzina-oaxaca",
+      "galanga-thai-house",
+      "el-gran-abanico",
+      "meroma",
+      "sartoria",
+      "comedor-jacinta",
+      "taqueria-el-jarocho",
+      "le-pain-quotidien-polanco-v-seccion"
+    ]
+  },
+  {
+    "id": "distinction:worlds-50-best",
+    "type": "distinction",
+    "slug": "worlds-50-best",
+    "label": "World's 50 Best",
+    "restaurantCount": 4,
+    "restaurantSlugs": [
+      "pujol",
+      "quintonil",
+      "restaurante-rosetta",
+      "limantour"
+    ]
+  },
+  {
+    "id": "neighborhood:ampliacion-napoles",
+    "type": "neighborhood",
+    "slug": "ampliacion-napoles",
+    "label": "AMPLIACIÓN NÁPOLES",
+    "restaurantCount": 2,
+    "restaurantSlugs": [
+      "la-imperial-napoles",
+      "meson-de-santiago"
+    ]
+  },
+  {
+    "id": "neighborhood:anzures",
+    "type": "neighborhood",
+    "slug": "anzures",
+    "label": "ANZURES",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "los-panchos"
+    ]
+  },
+  {
+    "id": "neighborhood:atenor-salas",
+    "type": "neighborhood",
+    "slug": "atenor-salas",
+    "label": "ATENOR SALAS",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "fonda-argentina-viaducto"
+    ]
+  },
+  {
+    "id": "neighborhood:belisario-dominguez-seccion-xvi",
+    "type": "neighborhood",
+    "slug": "belisario-dominguez-seccion-xvi",
+    "label": "BELISARIO DOMÍNGUEZ SECCIÓN XVI",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "de-costa-a-costa-tlalpan"
+    ]
+  },
+  {
+    "id": "neighborhood:campestre",
+    "type": "neighborhood",
+    "slug": "campestre",
+    "label": "CAMPESTRE",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "la-bella-lula"
+    ]
+  },
+  {
+    "id": "neighborhood:centro",
+    "type": "neighborhood",
+    "slug": "centro",
+    "label": "CENTRO",
+    "restaurantCount": 3,
+    "restaurantSlugs": [
+      "azul-historico-restaurante-cdmx",
+      "centro-castellano",
+      "pizza-del-perro-negro-rabioso"
+    ]
+  },
+  {
+    "id": "neighborhood:chimalistac",
+    "type": "neighborhood",
+    "slug": "chimalistac",
+    "label": "CHIMALISTAC",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "la-casa-de-tono"
+    ]
+  },
+  {
+    "id": "neighborhood:condesa",
+    "type": "neighborhood",
+    "slug": "condesa",
+    "label": "CONDESA",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "creperie-de-la-paix"
+    ]
+  },
+  {
+    "id": "neighborhood:cuauhtemoc",
+    "type": "neighborhood",
+    "slug": "cuauhtemoc",
+    "label": "CUAUHTÉMOC",
+    "restaurantCount": 2,
+    "restaurantSlugs": [
+      "el-mexicano-restaurante-y-mezcaleria",
+      "koku"
+    ]
+  },
+  {
+    "id": "neighborhood:del-carmen",
+    "type": "neighborhood",
+    "slug": "del-carmen",
+    "label": "DEL CARMEN",
+    "restaurantCount": 2,
+    "restaurantSlugs": [
+      "daikoku-del-carmen",
+      "starbucks-coyoacan-centro"
+    ]
+  },
+  {
+    "id": "neighborhood:del-valle-centro",
+    "type": "neighborhood",
+    "slug": "del-valle-centro",
+    "label": "DEL VALLE CENTRO",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "taqueria-los-parados-prime-mx"
+    ]
+  },
+  {
+    "id": "neighborhood:del-valle-sur",
+    "type": "neighborhood",
+    "slug": "del-valle-sur",
+    "label": "DEL VALLE SUR",
+    "restaurantCount": 2,
+    "restaurantSlugs": [
+      "mamas-pizza",
+      "pizza-del-perro-negro-del-valle"
+    ]
+  },
+  {
+    "id": "neighborhood:el-reloj",
+    "type": "neighborhood",
+    "slug": "el-reloj",
+    "label": "EL RELOJ",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "tortas-gigantes-sur-12-tlalpan-sur"
+    ]
+  },
+  {
+    "id": "neighborhood:el-rosedal",
+    "type": "neighborhood",
+    "slug": "el-rosedal",
+    "label": "EL ROSEDAL",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "porco-rosso-bbq-coyoacan"
+    ]
+  },
+  {
+    "id": "neighborhood:guadalupe-inn",
+    "type": "neighborhood",
+    "slug": "guadalupe-inn",
+    "label": "GUADALUPE INN",
+    "restaurantCount": 2,
+    "restaurantSlugs": [
+      "hunan-san-angel",
+      "los-almendros"
+    ]
+  },
+  {
+    "id": "neighborhood:hipodromo",
+    "type": "neighborhood",
+    "slug": "hipodromo",
+    "label": "HIPÓDROMO",
+    "restaurantCount": 2,
+    "restaurantSlugs": [
+      "azul-condesa-restaurante-cdmx",
+      "el-farolito-altata"
+    ]
+  },
+  {
+    "id": "neighborhood:hipodromo-condesa",
+    "type": "neighborhood",
+    "slug": "hipodromo-condesa",
+    "label": "HIPÓDROMO CONDESA",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "sushi-roll-condesa"
+    ]
+  },
+  {
+    "id": "neighborhood:jardines-de-coyoacan",
+    "type": "neighborhood",
+    "slug": "jardines-de-coyoacan",
+    "label": "JARDINES DE COYOACÁN",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "izakaya-sushi-miramontes"
+    ]
+  },
+  {
+    "id": "neighborhood:jardines-del-pedregal",
+    "type": "neighborhood",
+    "slug": "jardines-del-pedregal",
+    "label": "JARDINES DEL PEDREGAL",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "el-farolito-pedregal"
+    ]
+  },
+  {
+    "id": "neighborhood:juarez",
+    "type": "neighborhood",
+    "slug": "juarez",
+    "label": "JUÁREZ",
+    "restaurantCount": 3,
+    "restaurantSlugs": [
+      "el-lugar-del-mariachi",
+      "raffaello-ristorante",
+      "taqueria-el-califa"
+    ]
+  },
+  {
+    "id": "neighborhood:lomas-de-chapultepec-ii-seccion",
+    "type": "neighborhood",
+    "slug": "lomas-de-chapultepec-ii-seccion",
+    "label": "LOMAS DE CHAPULTEPEC II SECCIÓN",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "bakea-restaurant"
+    ]
+  },
+  {
+    "id": "neighborhood:lomas-de-chapultepec-iv-seccion",
+    "type": "neighborhood",
+    "slug": "lomas-de-chapultepec-iv-seccion",
+    "label": "LOMAS DE CHAPULTEPEC IV SECCIÓN",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "midam"
+    ]
+  },
+  {
+    "id": "neighborhood:loreto",
+    "type": "neighborhood",
+    "slug": "loreto",
+    "label": "LORETO",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "la-taberna-del-leon"
+    ]
+  },
+  {
+    "id": "neighborhood:los-girasoles",
+    "type": "neighborhood",
+    "slug": "los-girasoles",
+    "label": "LOS GIRASOLES",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "la-casa-de-tono-en-coapa"
+    ]
+  },
+  {
+    "id": "neighborhood:napoles",
+    "type": "neighborhood",
+    "slug": "napoles",
+    "label": "NÁPOLES",
+    "restaurantCount": 3,
+    "restaurantSlugs": [
+      "cantina-loma-linda",
+      "restaurante-nagaoka",
+      "el-regreso-napoles"
+    ]
+  },
+  {
+    "id": "neighborhood:parque-del-pedregal",
+    "type": "neighborhood",
+    "slug": "parque-del-pedregal",
+    "label": "PARQUE DEL PEDREGAL",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "mi-gusto-es-parque-del-pedregal"
+    ]
+  },
+  {
+    "id": "neighborhood:petrolera-taxquena",
+    "type": "neighborhood",
+    "slug": "petrolera-taxquena",
+    "label": "PETROLERA TAXQUEÑA",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "lucky-sushi-petrolera-taxquena"
+    ]
+  },
+  {
+    "id": "neighborhood:polanco-i-seccion",
+    "type": "neighborhood",
+    "slug": "polanco-i-seccion",
+    "label": "POLANCO I SECCIÓN",
+    "restaurantCount": 3,
+    "restaurantSlugs": [
+      "hacienda-de-los-morales",
+      "caldos-riesi",
+      "caldos-dleo"
+    ]
+  },
+  {
+    "id": "neighborhood:polanco-ii-seccion",
+    "type": "neighborhood",
+    "slug": "polanco-ii-seccion",
+    "label": "POLANCO II SECCIÓN",
+    "restaurantCount": 2,
+    "restaurantSlugs": [
+      "guzina-oaxaca",
+      "torre-de-castilla"
+    ]
+  },
+  {
+    "id": "neighborhood:polanco-iii-seccion",
+    "type": "neighborhood",
+    "slug": "polanco-iii-seccion",
+    "label": "POLANCO III SECCIÓN",
+    "restaurantCount": 6,
+    "restaurantSlugs": [
+      "limantour",
+      "la-unica",
+      "maison-kayser-polanco",
+      "casa-portuguesa",
+      "prosecco-polanco-iii-seccion",
+      "lampuga"
+    ]
+  },
+  {
+    "id": "neighborhood:polanco-iv-seccion",
+    "type": "neighborhood",
+    "slug": "polanco-iv-seccion",
+    "label": "POLANCO IV SECCIÓN",
+    "restaurantCount": 5,
+    "restaurantSlugs": [
+      "pujol",
+      "quintonil",
+      "comedor-jacinta",
+      "villa-maria",
+      "the-palm"
+    ]
+  },
+  {
+    "id": "neighborhood:polanco-v-seccion",
+    "type": "neighborhood",
+    "slug": "polanco-v-seccion",
+    "label": "POLANCO V SECCIÓN",
+    "restaurantCount": 9,
+    "restaurantSlugs": [
+      "porfirios",
+      "casa-damico",
+      "senora-tanaka-masaryk",
+      "la-vid-argentina-polanco",
+      "el-farolito-polanco",
+      "entremar",
+      "cabanna-restaurant",
+      "le-pain-quotidien-polanco-v-seccion",
+      "murakami"
+    ]
+  },
+  {
+    "id": "neighborhood:portales-norte",
+    "type": "neighborhood",
+    "slug": "portales-norte",
+    "label": "PORTALES NORTE",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "lucky-sushi-portales-norte"
+    ]
+  },
+  {
+    "id": "neighborhood:presidentes-ejidales-primera-seccion",
+    "type": "neighborhood",
+    "slug": "presidentes-ejidales-primera-seccion",
+    "label": "PRESIDENTES EJIDALES PRIMERA SECCIÓN",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "pizzas-plaza-santa-ana"
+    ]
+  },
+  {
+    "id": "neighborhood:roma-norte",
+    "type": "neighborhood",
+    "slug": "roma-norte",
+    "label": "ROMA NORTE",
+    "restaurantCount": 14,
+    "restaurantSlugs": [
+      "restaurante-rosetta",
+      "izakaya-sushi-roma",
+      "galanga-thai-house",
+      "meroma",
+      "filigrana",
+      "sartoria",
+      "por-siempre-vegana-taqueria-2",
+      "contramar",
+      "restaurante-lorea",
+      "macelleria-roma",
+      "taqueria-el-jarocho",
+      "pizza-del-perro-negro-roma-norte",
+      "huset",
+      "plantasia"
+    ]
+  },
+  {
+    "id": "neighborhood:san-angel",
+    "type": "neighborhood",
+    "slug": "san-angel",
+    "label": "SAN ÁNGEL",
+    "restaurantCount": 2,
+    "restaurantSlugs": [
+      "cluny",
+      "puerto-madero-san-angel"
+    ]
+  },
+  {
+    "id": "neighborhood:san-angel-inn",
+    "type": "neighborhood",
+    "slug": "san-angel-inn",
+    "label": "SAN ÁNGEL INN",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "restaurante-san-angel-inn"
+    ]
+  },
+  {
+    "id": "neighborhood:san-diego-ocoyoacac",
+    "type": "neighborhood",
+    "slug": "san-diego-ocoyoacac",
+    "label": "SAN DIEGO OCOYOACAC",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "pizza-del-perro-negro-sangriento"
+    ]
+  },
+  {
+    "id": "neighborhood:san-jose-insurgentes",
+    "type": "neighborhood",
+    "slug": "san-jose-insurgentes",
+    "label": "SAN JOSÉ INSURGENTES",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "la-famiglia"
+    ]
+  },
+  {
+    "id": "neighborhood:santa-fe-cuajimalpa",
+    "type": "neighborhood",
+    "slug": "santa-fe-cuajimalpa",
+    "label": "SANTA FE CUAJIMALPA",
+    "restaurantCount": 2,
+    "restaurantSlugs": [
+      "porco-rosso-bbq-santa-fe",
+      "aida"
+    ]
+  },
+  {
+    "id": "neighborhood:santa-fe-la-loma",
+    "type": "neighborhood",
+    "slug": "santa-fe-la-loma",
+    "label": "SANTA FE LA LOMA",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "cantinetta-del-becco"
+    ]
+  },
+  {
+    "id": "neighborhood:tabacalera",
+    "type": "neighborhood",
+    "slug": "tabacalera",
+    "label": "TABACALERA",
+    "restaurantCount": 2,
+    "restaurantSlugs": [
+      "daikoku-reforma",
+      "meson-puerto-chico"
+    ]
+  },
+  {
+    "id": "neighborhood:tlacoquemecatl",
+    "type": "neighborhood",
+    "slug": "tlacoquemecatl",
+    "label": "TLACOQUEMECATL",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "el-regreso-del-valle"
+    ]
+  },
+  {
+    "id": "neighborhood:tlalpan",
+    "type": "neighborhood",
+    "slug": "tlalpan",
+    "label": "TLALPAN",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "el-asado-argentino"
+    ]
+  },
+  {
+    "id": "neighborhood:tlaxpana",
+    "type": "neighborhood",
+    "slug": "tlaxpana",
+    "label": "TLAXPANA",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "restaurante-canto-de-sirenas"
+    ]
+  },
+  {
+    "id": "neighborhood:transito",
+    "type": "neighborhood",
+    "slug": "transito",
+    "label": "TRÁNSITO",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "el-gran-abanico"
+    ]
+  },
+  {
+    "id": "neighborhood:vertiz-narvarte",
+    "type": "neighborhood",
+    "slug": "vertiz-narvarte",
+    "label": "VÉRTIZ NARVARTE",
+    "restaurantCount": 1,
+    "restaurantSlugs": [
+      "cochinita-country"
+    ]
+  },
+  {
+    "id": "neighborhood:villa-coyoacan",
+    "type": "neighborhood",
+    "slug": "villa-coyoacan",
+    "label": "VILLA COYOACÁN",
+    "restaurantCount": 5,
+    "restaurantSlugs": [
+      "los-danzantes-coyoacan",
+      "pizzas-plaza-coyoacan",
+      "la-posta-trattoria",
+      "kabuki-sushi-villa-coyoacan",
+      "cafe-kowloon-coyoacan"
+    ]
+  }
+]

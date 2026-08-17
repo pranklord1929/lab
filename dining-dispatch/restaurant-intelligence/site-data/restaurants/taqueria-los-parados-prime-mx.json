@@ -1,0 +1,331 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "bd60078e-07bb-4e52-91ba-6efbbc154648",
+  "slug": "taqueria-los-parados-prime-mx",
+  "name": "Taquería Los Parados Prime MX",
+  "location": {
+    "neighborhood": "DEL VALLE CENTRO",
+    "borough": "Benito Juárez",
+    "address": "Av Porfirio Díaz 100, Col del Valle Centro, Benito Juárez, 03100 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3812345,
+      "longitude": -99.1730336
+    }
+  },
+  "contact": {
+    "phone": null,
+    "website": "https://www.los-parados.com/",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=5589505402396614775&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "taco",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 11:00 a.m. – 11:00 p.m.",
+      "lunes: 11:00 a.m. – 11:00 p.m.",
+      "martes: 11:00 a.m. – 11:00 p.m.",
+      "miércoles: 11:00 a.m. – 11:00 p.m.",
+      "jueves: 11:00 a.m. – 11:00 p.m.",
+      "viernes: 11:00 a.m. – 11:00 p.m.",
+      "sábado: 11:00 a.m. – 11:00 p.m."
+    ],
+    "rating": 4.1,
+    "reviewCount": 154
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-09T18:55:20.725+00:00",
+    "observationAgeDaysAtExport": 38,
+    "documentCount": 1,
+    "itemCount": 13,
+    "documents": [
+      {
+        "id": "0190d67b-9912-49f2-bc31-1fc4c8bbdf67",
+        "sourceUrl": "https://los-parados.com/menu.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.5,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:20.725+00:00"
+      }
+    ],
+    "items": [
+      {
+        "id": "943afb0f-0a50-4106-802c-119250e0c9ea",
+        "documentId": "0190d67b-9912-49f2-bc31-1fc4c8bbdf67",
+        "name": "Aguas Frescas",
+        "description": "La mejor agua de jamaica de la CDMX, refrescante y con el sabor auténtico de la casa.",
+        "price": 15,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "https://los-parados.com/menu.html",
+        "observedAt": "2026-07-09T18:55:20.725+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "5d8e9b81-b13f-4a6d-aa12-aaad02ee140c",
+        "documentId": "0190d67b-9912-49f2-bc31-1fc4c8bbdf67",
+        "name": "Campechanos",
+        "description": "Las mejores campechanos de CDMX, mezcla perfecta de carnes con cebolla y cilantro fresco.",
+        "price": 38,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "https://los-parados.com/menu.html",
+        "observedAt": "2026-07-09T18:55:20.725+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "1ad54d5e-5362-4351-8a0d-ebd9010e4655",
+        "documentId": "0190d67b-9912-49f2-bc31-1fc4c8bbdf67",
+        "name": "Flautas",
+        "description": "Flautas crujientes rellenas de pollo o carne, acompañadas con frijoles y guacamole casero.",
+        "price": 32,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "https://los-parados.com/menu.html",
+        "observedAt": "2026-07-09T18:55:20.725+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "325ea24f-d85e-450b-9a60-015f48d27e7d",
+        "documentId": "0190d67b-9912-49f2-bc31-1fc4c8bbdf67",
+        "name": "Huaraches",
+        "description": "Los mejores huaraches de CDMX, con masa fresca y toppings tradicionales.",
+        "price": 40,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "https://los-parados.com/menu.html",
+        "observedAt": "2026-07-09T18:55:20.725+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "7c0f79fe-54b3-4b92-b6a4-0ae160976622",
+        "documentId": "0190d67b-9912-49f2-bc31-1fc4c8bbdf67",
+        "name": "Quesadillas",
+        "description": "Quesadillas con pan árabe o tortilla de maíz, rellenas de queso Oaxaca y tus ingredientes favoritos.",
+        "price": 22,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "https://los-parados.com/menu.html",
+        "observedAt": "2026-07-09T18:55:20.725+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "0baae776-20dc-43ef-b69e-8daf7f6a4fab",
+        "documentId": "0190d67b-9912-49f2-bc31-1fc4c8bbdf67",
+        "name": "Quesos Fundidos",
+        "description": "El Mejor Queso Fundido De CDMX, con queso Oaxaca derretido perfecto.",
+        "price": 35,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "https://los-parados.com/menu.html",
+        "observedAt": "2026-07-09T18:55:20.725+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "ff3886c6-1f33-49de-b7f3-3a4c827fcfb5",
+        "documentId": "0190d67b-9912-49f2-bc31-1fc4c8bbdf67",
+        "name": "Sopes",
+        "description": "Sopes tradicionales con frijoles, lechuga, queso, crema y tus ingredientes favoritos.",
+        "price": 26,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "https://los-parados.com/menu.html",
+        "observedAt": "2026-07-09T18:55:20.725+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "0401bac0-b058-4668-8787-f6f8171c5c03",
+        "documentId": "0190d67b-9912-49f2-bc31-1fc4c8bbdf67",
+        "name": "Tacos al pastor",
+        "description": "El mejor taco de pastor de CDMX, preparado con la receta original desde 1965.",
+        "price": 25,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "https://los-parados.com/menu.html",
+        "observedAt": "2026-07-09T18:55:20.725+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "9362d520-3edb-47e0-ab75-edd60a9ed28a",
+        "documentId": "0190d67b-9912-49f2-bc31-1fc4c8bbdf67",
+        "name": "Tacos con queso",
+        "description": "Los mejores tacos con queso de CDMX, con queso Oaxaca derretido y tus ingredientes favoritos.",
+        "price": 28,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "https://los-parados.com/menu.html",
+        "observedAt": "2026-07-09T18:55:20.725+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "37ba79da-f5cb-4ac3-9ead-8fee0013c4ef",
+        "documentId": "0190d67b-9912-49f2-bc31-1fc4c8bbdf67",
+        "name": "Tacos de bistec",
+        "description": "Tacos de bistec jugoso con cebolla y cilantro fresco, un clásico de la casa.",
+        "price": 24,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "https://los-parados.com/menu.html",
+        "observedAt": "2026-07-09T18:55:20.725+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "f81044e3-a874-4503-a221-0bbd4250a1c6",
+        "documentId": "0190d67b-9912-49f2-bc31-1fc4c8bbdf67",
+        "name": "Tortas",
+        "description": "Las mejores tortas de CDMX, preparadas con pan fresco y los mejores ingredientes.",
+        "price": 45,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "https://los-parados.com/menu.html",
+        "observedAt": "2026-07-09T18:55:20.725+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "0e939d6e-2be3-47fe-acbb-12669fdcbff5",
+        "documentId": "0190d67b-9912-49f2-bc31-1fc4c8bbdf67",
+        "name": "Volcanes con queso",
+        "description": "Los mejores volcanes con queso de CDMX, tortilla frita con queso derretido y tus ingredientes favoritos.",
+        "price": 30,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "https://los-parados.com/menu.html",
+        "observedAt": "2026-07-09T18:55:20.725+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "c841c167-8633-457e-a9ff-7aed673fa478",
+        "documentId": null,
+        "name": "Fundido De CDMX, con queso Oaxaca derretido perfecto",
+        "description": null,
+        "price": 35,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://los-parados.com/menu.html",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.los-parados.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:53.13+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=5589505402396614775&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:51.454+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 4,
+    "sourceNames": [
+      "google_places",
+      "official_menus",
+      "official_website",
+      "resy"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "website": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "resy",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T20:05:20.22199+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:17:26.540501+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": true,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 63,
+    "richnessScore": 5,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_price_level",
+      "missing_source_summary"
+    ]
+  }
+}

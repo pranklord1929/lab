@@ -1,0 +1,226 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "b24fa01a-2b38-4a26-b188-2c07fa707157",
+  "slug": "gruta-ehden-florida",
+  "name": "GRUTA EHDEN",
+  "location": {
+    "neighborhood": "FLORIDA",
+    "borough": "Álvaro Obregón",
+    "address": "Pino 69, Florida, Álvaro Obregón, 01030 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3627258,
+      "longitude": -99.1761841
+    }
+  },
+  "contact": {
+    "phone": "55 5661 3863",
+    "website": "http://www.grutaehden.com.mx/",
+    "instagram": "https://instagram.com/restaurant_grutaehden/",
+    "googleMapsUrl": "https://maps.google.com/?cid=1057695316692451887&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "lebanese",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 3
+  },
+  "experience": {
+    "sourceSummary": "Traditional Lebanese dishes & meze are offered in this relaxed restaurant with a leafy terrace.",
+    "hours": [
+      "domingo: 8:00 a.m. – 7:00 p.m.",
+      "lunes: 8:00 a.m. – 7:00 p.m.",
+      "martes: 8:00 a.m. – 9:00 p.m.",
+      "miércoles: 8:00 a.m. – 9:00 p.m.",
+      "jueves: 8:00 a.m. – 11:00 p.m.",
+      "viernes: 8:00 a.m. – 11:00 p.m.",
+      "sábado: 8:00 a.m. – 11:00 p.m."
+    ],
+    "rating": 4.7,
+    "reviewCount": 3738
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-15T20:57:54.621Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 4,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "1ea61cbe-f9c7-432f-8ea0-518f5bde7223",
+        "sourceUrl": "https://grutaehden.com.mx/menu/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:57:54.621Z"
+      },
+      {
+        "id": "7b3eb950-f645-4487-9239-53794c9f2f7c",
+        "sourceUrl": "https://grutaehden.com.mx/vinos/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:57:54.621Z"
+      },
+      {
+        "id": "99f3c6b5-e2a1-456d-b827-fd0c5a79f733",
+        "sourceUrl": "https://grutaehden.com.mx/menu-2-2/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:57:54.621Z"
+      },
+      {
+        "id": "b07618df-a40e-4d7e-b7db-ff86f5adf838",
+        "sourceUrl": "https://grutaehden.com.mx/desayunos/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:57:54.621Z"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://grutaehden.com.mx/menu/",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:49:37.687Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://grutaehden.com.mx/desayunos/",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:49:37.687Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://grutaehden.com.mx/menu-2-2/",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:49:37.687Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://grutaehden.com.mx/vinos/",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:49:37.687Z"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://grutaehden.com.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:10.857+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=1057695316692451887&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:20.008+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/grutaehden/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/restaurant_grutaehden/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.165171+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:00:25.375756+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 94,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_structured_menu_items"
+    ]
+  }
+}

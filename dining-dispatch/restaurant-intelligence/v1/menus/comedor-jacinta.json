@@ -1,0 +1,20 @@
+{
+  "slug": "comedor-jacinta",
+  "name": "Comedor Jacinta",
+  "url": null,
+  "items": [
+    {
+      "id": "a2da671f-a87d-4d7a-b0cb-62705b7d1033",
+      "documentId": "e7d467c8-1388-4186-854d-0fd728015088",
+      "name": "Huevos orgánicos estrellados",
+      "description": "con arroz o papitas a la francesa",
+      "price": null,
+      "currency": "MXN",
+      "category": null,
+      "sourceUrl": "http://comedorjacinta.com/",
+      "observedAt": "2026-07-09T18:55:39.227+00:00",
+      "extractionConfidence": 0.5,
+      "extractionLayer": "canonical"
+    }
+  ]
+}

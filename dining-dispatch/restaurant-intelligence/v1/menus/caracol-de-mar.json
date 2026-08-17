@@ -1,0 +1,306 @@
+{
+  "slug": "caracol-de-mar",
+  "name": "Caracol de Mar",
+  "url": "https://caracoldemar.com.mx/menu/",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Ceviche de almeja chocolata",
+      "price": 130,
+      "currency": "MXN",
+      "category": "conchas-y-mariscos"
+    },
+    {
+      "name": "Ceviche de almeja blanca",
+      "price": 140,
+      "currency": "MXN",
+      "category": "conchas-y-mariscos"
+    },
+    {
+      "name": "Ceviche de almeja roja",
+      "price": 180,
+      "currency": "MXN",
+      "category": "conchas-y-mariscos"
+    },
+    {
+      "name": "Ceviche de almeja reina",
+      "price": 360,
+      "currency": "MXN",
+      "category": "conchas-y-mariscos"
+    },
+    {
+      "name": "Ostiones japoneses",
+      "price": 520,
+      "currency": "MXN",
+      "category": "conchas-y-mariscos",
+      "description": "Mignonette de salsa bruja, sriracha de jalapeño, 8 pzas"
+    },
+    {
+      "name": "Ostiones Kumamoto",
+      "price": 680,
+      "currency": "MXN",
+      "category": "conchas-y-mariscos"
+    },
+    {
+      "name": "Camarones para pelar",
+      "price": 915,
+      "currency": "MXN",
+      "category": "conchas-y-mariscos",
+      "description": "Mayonesa de chiltepín, 300 g"
+    },
+    {
+      "name": "Tenazas de cangrejo jumbo",
+      "price": 2065,
+      "currency": "MXN",
+      "category": "conchas-y-mariscos",
+      "description": "Orden chica $1,190"
+    },
+    {
+      "name": "Tenazas de cangrejo colosal",
+      "price": 2880,
+      "currency": "MXN",
+      "category": "conchas-y-mariscos",
+      "description": "Orden chica $2,020"
+    },
+    {
+      "name": "Tostada de coco",
+      "price": 165,
+      "currency": "MXN",
+      "category": "frio",
+      "description": "Aguacate, chintextle, 70 g"
+    },
+    {
+      "name": "Tostada de atún",
+      "price": 185,
+      "currency": "MXN",
+      "category": "frio",
+      "description": "Furikake, ralladura de limón amarillo, 70 g"
+    },
+    {
+      "name": "Verdolagas y romeritos",
+      "price": 185,
+      "currency": "MXN",
+      "category": "frio",
+      "description": "Apio, aguacate, yema curada, anchoas, 95 g"
+    },
+    {
+      "name": "Ceviche de chayote",
+      "price": 195,
+      "currency": "MXN",
+      "category": "frio",
+      "description": "Aguacate, pimiento rojo, quinoa negra, 185 g"
+    },
+    {
+      "name": "Tiradito de jícama",
+      "price": 195,
+      "currency": "MXN",
+      "category": "frio"
+    },
+    {
+      "name": "Betabeles encurtidos en alga kombu",
+      "price": 195,
+      "currency": "MXN",
+      "category": "frio",
+      "description": "Puré de pepita, 210 g"
+    },
+    {
+      "name": "Tostada de pulpo enamorado",
+      "price": 225,
+      "currency": "MXN",
+      "category": "frio",
+      "description": "Mayonesa de chile serrano tatemado, 80 g"
+    },
+    {
+      "name": "Ensalada de jaiba",
+      "price": 330,
+      "currency": "MXN",
+      "category": "frio",
+      "description": "Mayonesa, chile serrano, apio, 100 g"
+    },
+    {
+      "name": "Crudo de camarón",
+      "price": 335,
+      "currency": "MXN",
+      "category": "frio",
+      "description": "Salsa macha, cacahuates, rábano, 130 g"
+    },
+    {
+      "name": "Ceviche de atún nikkei",
+      "price": 365,
+      "currency": "MXN",
+      "category": "frio",
+      "description": "Pepino persa, chile manzano, soya, 100 g"
+    },
+    {
+      "name": "Tartar de kampachi",
+      "price": 425,
+      "currency": "MXN",
+      "category": "frio",
+      "description": "Almendra, ajonjolí negro, 100 g"
+    },
+    {
+      "name": "Erizo con jitomates criollos",
+      "price": 595,
+      "currency": "MXN",
+      "category": "frio"
+    },
+    {
+      "name": "Sope de hongos duraznillos caramelizados",
+      "price": 145,
+      "currency": "MXN",
+      "category": "caliente"
+    },
+    {
+      "name": "Tamal de berenjena",
+      "price": 165,
+      "currency": "MXN",
+      "category": "caliente"
+    },
+    {
+      "name": "Tamal de mejillones",
+      "price": 185,
+      "currency": "MXN",
+      "category": "caliente"
+    },
+    {
+      "name": "Tiradito tibio de ventresca de atún",
+      "price": 275,
+      "currency": "MXN",
+      "category": "caliente"
+    },
+    {
+      "name": "Tacos de esmedregal estilo Ensenada",
+      "price": 290,
+      "currency": "MXN",
+      "category": "caliente"
+    },
+    {
+      "name": "Spaghetti con ragú de cachete de res",
+      "price": 295,
+      "currency": "MXN",
+      "category": "caliente"
+    },
+    {
+      "name": "Caracol con mantequilla de setas",
+      "price": 365,
+      "currency": "MXN",
+      "category": "caliente"
+    },
+    {
+      "name": "Spaghetti con hongos silvestres",
+      "price": 380,
+      "currency": "MXN",
+      "category": "caliente"
+    },
+    {
+      "name": "Pasta con erizo",
+      "price": 595,
+      "currency": "MXN",
+      "category": "caliente"
+    },
+    {
+      "name": "Pesca con chilpachole de jaiba",
+      "price": 595,
+      "currency": "MXN",
+      "category": "caliente"
+    },
+    {
+      "name": "Pulpo al carbón con frijoles estilo sinaloense",
+      "price": 670,
+      "currency": "MXN",
+      "category": "caliente"
+    },
+    {
+      "name": "Costilla de res braseada en recado negro",
+      "price": 765,
+      "currency": "MXN",
+      "category": "caliente"
+    },
+    {
+      "name": "Cogollos asados",
+      "price": 245,
+      "currency": "MXN",
+      "category": "para-compartir"
+    },
+    {
+      "name": "Risotto con mole verde",
+      "price": 265,
+      "currency": "MXN",
+      "category": "para-compartir"
+    },
+    {
+      "name": "Ensalada tibia de ejotes amarillos con faveta",
+      "price": 335,
+      "currency": "MXN",
+      "category": "para-compartir"
+    },
+    {
+      "name": "Camote a las brasas",
+      "price": 365,
+      "currency": "MXN",
+      "category": "para-compartir"
+    },
+    {
+      "name": "Camarones al ajillo",
+      "price": 915,
+      "currency": "MXN",
+      "category": "para-compartir"
+    },
+    {
+      "name": "Pescado a la talla Contramar",
+      "price": 810,
+      "currency": "MXN",
+      "category": "para-compartir",
+      "description": "Precio final por peso; $1.62 / g"
+    },
+    {
+      "name": "Merengue",
+      "price": 195,
+      "currency": "MXN",
+      "category": "postres"
+    },
+    {
+      "name": "Panna cotta de temporada",
+      "price": 195,
+      "currency": "MXN",
+      "category": "postres"
+    },
+    {
+      "name": "Flan de queso de oveja",
+      "price": 195,
+      "currency": "MXN",
+      "category": "postres"
+    },
+    {
+      "name": "Tamal de chocolate",
+      "price": 195,
+      "currency": "MXN",
+      "category": "postres"
+    },
+    {
+      "name": "Pastel de tres leches",
+      "price": 195,
+      "currency": "MXN",
+      "category": "postres"
+    },
+    {
+      "name": "Postre de plátano",
+      "price": 195,
+      "currency": "MXN",
+      "category": "postres"
+    },
+    {
+      "name": "Sorbete de temporada",
+      "price": 65,
+      "currency": "MXN",
+      "category": "postres"
+    },
+    {
+      "name": "Panna cotta manzanilla",
+      "price": 195,
+      "currency": "MXN",
+      "category": "postres"
+    }
+  ]
+}

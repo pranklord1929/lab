@@ -1,0 +1,83 @@
+{
+  "slug": "gia",
+  "name": "GIA",
+  "url": "https://giacdmx.com/menu",
+  "items": [
+    {
+      "name": "Aceitunas marinadas",
+      "category": "para empezar"
+    },
+    {
+      "name": "Pickles, crème fraîche, dukkah",
+      "category": "para empezar"
+    },
+    {
+      "name": "Boquerones, stracciatella, pimientos",
+      "category": "para empezar"
+    },
+    {
+      "name": "Almejas chione gratinadas, chiles, panko",
+      "category": "para empezar"
+    },
+    {
+      "name": "Chicken liver mousse, blueberry, focaccia",
+      "category": "para empezar"
+    },
+    {
+      "name": "Apio, dátiles, nueces pecanas, queso azul",
+      "category": "veggies"
+    },
+    {
+      "name": "Green goddess, parmigiano",
+      "category": "veggies"
+    },
+    {
+      "name": "Endivias rostizadas, ajo blanco, macadamias",
+      "category": "veggies"
+    },
+    {
+      "name": "Duraznos, jitomate, arúgula, avellana",
+      "category": "veggies"
+    },
+    {
+      "name": "Gnocchi, haba, chícharo, tartufata",
+      "category": "pastas"
+    },
+    {
+      "name": "Spaghetti pomodoro",
+      "category": "pastas"
+    },
+    {
+      "name": "Fettuccine al limone",
+      "category": "pastas"
+    },
+    {
+      "name": "Pappardelle bolognese",
+      "category": "pastas"
+    },
+    {
+      "name": "Spaghetti, cangrejo moro, bottarga",
+      "category": "pastas"
+    },
+    {
+      "name": "Spaghetti, berenjena, chile de árbol",
+      "category": "pastas"
+    },
+    {
+      "name": "Spaghetti, trufa de invierno",
+      "category": "pastas"
+    },
+    {
+      "name": "Camarones silvestres con 'nduja",
+      "category": "fuertes"
+    },
+    {
+      "name": "Meatballs, focaccia",
+      "category": "fuertes"
+    },
+    {
+      "name": "Medio pollo rostizado, puré de camote",
+      "category": "fuertes"
+    }
+  ]
+}

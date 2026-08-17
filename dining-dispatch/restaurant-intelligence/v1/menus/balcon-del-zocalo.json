@@ -1,0 +1,60 @@
+{
+  "slug": "balcon-del-zocalo",
+  "name": "Balcón del Zócalo",
+  "url": "https://balcondelzocalo.com/menu-de-experiencias/",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "notes": "Published tasting 'ARTIFICIAL' on official menú de experiencias. No prices on the dish list.",
+  "items": [
+    {
+      "name": "La Pastilla de La Vida",
+      "category": "degustacion",
+      "description": "Bombón líquido de aguachile de aguacate congelado con manteca de cacao"
+    },
+    {
+      "name": "Desconexión Humana",
+      "category": "degustacion",
+      "description": "Tostada de guanábana con mayonesa de wagyu y callo de hacha en recado blanco"
+    },
+    {
+      "name": "Robo de Identidad",
+      "category": "degustacion",
+      "description": "Quesadilla frita con masa de epazote, queso de Etla, huitlacoche y chicharrón prensado"
+    },
+    {
+      "name": "La Predicción de La Muerte",
+      "category": "degustacion",
+      "description": "Risotto de betabel y vino tinto con pera y queso Ocosingo"
+    },
+    {
+      "name": "El Costo de la I.A.",
+      "category": "degustacion",
+      "description": "Mantequilla de temporada y bolillo de masa madre"
+    },
+    {
+      "name": "Desechados por la I.A.",
+      "category": "degustacion",
+      "description": "Gnocchis de pan duro con escamoles a la mantequilla, almejas y bacalao confitado"
+    },
+    {
+      "name": "El Mejor Plato del Mundo",
+      "category": "degustacion",
+      "description": "Mole con pollo"
+    },
+    {
+      "name": "Amor Artificial",
+      "category": "degustacion",
+      "description": "Aire congelado de jamaica, lima y cerezas"
+    },
+    {
+      "name": "Origen",
+      "category": "degustacion",
+      "description": "Ópera de Theobroma cacao al 80% y avellanas"
+    },
+    {
+      "name": "Maridaje de temporada",
+      "category": "degustacion",
+      "description": "Selección de vinos y espirituosos del día"
+    }
+  ]
+}

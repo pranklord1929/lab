@@ -1,0 +1,143 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "190f6811-16fc-4e65-966b-7548be0cf4aa",
+  "slug": "restaurante-tributo",
+  "name": "Restaurante Tributo",
+  "location": {
+    "neighborhood": "SAN ÁNGEL",
+    "borough": "Álvaro Obregón",
+    "address": "Av. Revolución, San Ángel, Álvaro Obregón, 01000 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3498205,
+      "longitude": -99.1907129
+    }
+  },
+  "contact": {
+    "phone": "55 5616 1516",
+    "website": "http://restaurantetributo.com/",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=18156047325391442704&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "fusion",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 3
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 8:00 a.m. – 5:00 p.m.",
+      "lunes: 1:00 p.m. – 1:00 a.m.",
+      "martes: 1:00 p.m. – 1:00 a.m.",
+      "miércoles: 1:00 p.m. – 1:00 a.m.",
+      "jueves: 1:00 p.m. – 1:00 a.m.",
+      "viernes: 1:00 p.m. – 1:00 a.m.",
+      "sábado: 8:00 a.m. – 5:00 p.m."
+    ],
+    "rating": 4.4,
+    "reviewCount": 539
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "missing",
+    "observedAt": null,
+    "observationAgeDaysAtExport": null,
+    "documentCount": 0,
+    "itemCount": 0,
+    "documents": [],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "http://restaurantetributo.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:13.908+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=18156047325391442704&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:25.672+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:05:12.457013+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 467,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram,menu",
+    "actionPriority": 6,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_source_summary",
+      "missing_menu_document",
+      "missing_structured_menu_items"
+    ]
+  }
+}

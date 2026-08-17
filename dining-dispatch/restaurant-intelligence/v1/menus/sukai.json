@@ -1,0 +1,30 @@
+{
+  "slug": "sukai",
+  "name": "Sukai",
+  "url": "https://www.sukai.mx/",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Handroll Kampachi Ginger",
+      "price": 110,
+      "currency": "MXN"
+    },
+    {
+      "name": "Handroll Atún Spicy",
+      "price": 130,
+      "currency": "MXN"
+    },
+    {
+      "name": "Handroll Anguila",
+      "price": 160,
+      "currency": "MXN"
+    },
+    {
+      "name": "Handroll Ikura Lemon",
+      "price": 180,
+      "currency": "MXN"
+    }
+  ],
+  "notes": "Official sukai.mx order page (handrolls)."
+}

@@ -1,0 +1,585 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "748201f4-aa29-437a-abb5-5bb63d6286a2",
+  "slug": "malix",
+  "name": "Malix",
+  "location": {
+    "neighborhood": "POLANCO V SECCIÓN",
+    "borough": "Miguel Hidalgo",
+    "address": "Av. Isaac Newton 104-Loc 2 y 3, Chapultepec Morales, Polanco V Secc, Miguel Hidalgo, 11560 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4322718,
+      "longitude": -99.1902365
+    }
+  },
+  "contact": {
+    "phone": "55 2875 1825",
+    "website": "http://malixresto.com/",
+    "instagram": "https://instagram.com/malix_resto/",
+    "googleMapsUrl": "https://maps.google.com/?cid=10088378805294844350&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": "Mexicana, Internacional",
+    "openTableCuisine": null,
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: Cerrado",
+      "lunes: 2:00–10:30 p.m.",
+      "martes: 2:00–10:30 p.m.",
+      "miércoles: 2:00–10:30 p.m.",
+      "jueves: 2:00–10:30 p.m.",
+      "viernes: 2:00–10:30 p.m.",
+      "sábado: 2:00–10:30 p.m."
+    ],
+    "rating": 4.4,
+    "reviewCount": 252
+  },
+  "distinctions": {
+    "michelin": "Seleccionado: Buena cocina",
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "local_extraction_candidate",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 4,
+    "itemCount": 28,
+    "documents": [
+      {
+        "id": "9ec4d039-0263-4558-ba5c-1a9e2a4c9c1e",
+        "sourceUrl": "https://www.malixresto.com/s/Menu-doble-vista-impresion-04julio2026.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.98,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "be12da85-6d0d-4687-a935-25e8ffb23f56",
+        "sourceUrl": "https://www.malixresto.com/s/Menu-CenaComida-Agosto.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.98,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "d0c07e8c-5160-4d23-813a-2c26ed366cc5",
+        "sourceUrl": "https://www.malixresto.com/s/English-menu-Malix-03_DIC_2024.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.98,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "ee10d9dc-8e63-4ca5-9f61-5d58b5e03c29",
+        "sourceUrl": "https://www.malixresto.com/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.75,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:56:08.816+00:00"
+      }
+    ],
+    "items": [
+      {
+        "id": "f6e2ec3b44ed4595819ef0e7d864e6e4",
+        "documentId": null,
+        "name": "Brocolini a la parilla",
+        "description": null,
+        "price": 185,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "34a83d5368dfab76c5b90abada015270",
+        "documentId": null,
+        "name": "Buñuelos",
+        "description": null,
+        "price": 200,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "75595b710557c55d565f300a670aae63",
+        "documentId": null,
+        "name": "Cerdo",
+        "description": null,
+        "price": 180,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "e632f21d1b6b1a284cc2084422707941",
+        "documentId": null,
+        "name": "Cordero",
+        "description": null,
+        "price": 220,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "47fb0cd3f84a35bc3eb06969e17bf6d3",
+        "documentId": null,
+        "name": "Crema de rancho, longaniza de Valladolid",
+        "description": null,
+        "price": 190,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "21a60f1dba43006f466b692103775a0a",
+        "documentId": null,
+        "name": "Croquetas de Plátano",
+        "description": null,
+        "price": 170,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "5fbc0e9cef4f0a2a643af7ccb61b8b74",
+        "documentId": null,
+        "name": "Ensalada de nopal",
+        "description": null,
+        "price": 160,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "7b9948da354bb6d3ad628b18971b41be",
+        "documentId": null,
+        "name": "Flatbread",
+        "description": null,
+        "price": 280,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "d15492c327a19620e65dc6a32e7fd068",
+        "documentId": null,
+        "name": "Galleta",
+        "description": null,
+        "price": 45,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "6d26b72871b167b6eb4a7a590db8c6f7",
+        "documentId": null,
+        "name": "Hongo mazayel",
+        "description": null,
+        "price": 190,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "ca679d770d01bfc97b655841b1b4b926",
+        "documentId": null,
+        "name": "Hummus de frijol",
+        "description": null,
+        "price": 165,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "52a5eea3cdea9f5d2f2a931dc01bdd16",
+        "documentId": null,
+        "name": "Lechuga al Grill",
+        "description": null,
+        "price": 180,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "000bf12f79645690da953d0d071d2b12",
+        "documentId": null,
+        "name": "Lengua de Res",
+        "description": null,
+        "price": 350,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "01eeee0eb9204827817d55903104d70c",
+        "documentId": null,
+        "name": "Miel Melipona, mermelada temporada",
+        "description": null,
+        "price": 175,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "c2473a69c1860de19549111e6d5ea257",
+        "documentId": null,
+        "name": "Mousse de Chocolate",
+        "description": null,
+        "price": 230,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "cfe6014c42cf01e0b35e94def9668b3c",
+        "documentId": null,
+        "name": "Muhammara, salsa XO",
+        "description": null,
+        "price": 320,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "09197c14043a2eac166aba67876d499d",
+        "documentId": null,
+        "name": "Panna Cotta",
+        "description": null,
+        "price": 150,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "6cdc46bff84a67bd67d6d9912185006e",
+        "documentId": null,
+        "name": "Panqué",
+        "description": null,
+        "price": 40,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "02bff461db9fba406ec6fba845749914",
+        "documentId": null,
+        "name": "Pato",
+        "description": null,
+        "price": 270,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "89816175de8405cd4a4863f4bb3538b8",
+        "documentId": null,
+        "name": "Paté de Pollo",
+        "description": null,
+        "price": 170,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "6866e9b6c699e70e3c4daa7d1b792242",
+        "documentId": null,
+        "name": "Pecho de Cordero",
+        "description": null,
+        "price": 340,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "cd04526f24d190c4701771e44c722b4b",
+        "documentId": null,
+        "name": "Salchicha de la casa",
+        "description": null,
+        "price": 300,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "f5e2beb291a82b3464e78b92ba5a2e6f",
+        "documentId": null,
+        "name": "Seleccion de quesos de Puebla",
+        "description": null,
+        "price": 195,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "78a0a44e47b1acb0a7bb4642d954714e",
+        "documentId": null,
+        "name": "Sierra ahumada",
+        "description": null,
+        "price": 175,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "c0e2b5a2c2a7229f6d1a712c7443329a",
+        "documentId": null,
+        "name": "Sorbete de Fresa",
+        "description": null,
+        "price": 160,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "e17cead36f94f848f8331ea396b43e4e",
+        "documentId": null,
+        "name": "Tartar de Cordero",
+        "description": null,
+        "price": 200,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "1460fad597b2febd4a2948173680faef",
+        "documentId": null,
+        "name": "Tostada de Vegetales",
+        "description": null,
+        "price": 155,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "5b826071258c412559aa8d6ae8b13591",
+        "documentId": null,
+        "name": "Zanahorias ahumadas",
+        "description": null,
+        "price": 165,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.malixresto.com/s/Menu-doble-vista-impresion-04julio2026.pdf",
+      "confidence": 0.98,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.malixresto.com/s/English-menu-Malix-03_DIC_2024.pdf",
+      "confidence": 0.98,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.malixresto.com/s/Menu-CenaComida-Agosto.pdf",
+      "confidence": 0.98,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://malixresto.com/menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.malixresto.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:49.404+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=10088378805294844350&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:48.083+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/malix_resto/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "google_places",
+      "michelin",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "photos": "google_places",
+      "description": "michelin"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:15:56.075857+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 339,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_cuisine",
+      "missing_price_level",
+      "missing_source_summary"
+    ]
+  }
+}

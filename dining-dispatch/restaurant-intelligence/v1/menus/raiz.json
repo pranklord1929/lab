@@ -1,0 +1,175 @@
+{
+  "slug": "raiz",
+  "name": "Raíz",
+  "url": "local://sqlite-menu-items",
+  "items": [
+    {
+      "name": "Coca Cola Sin Azucar",
+      "description": "Refresco (Botella 355 ml.)",
+      "price": 39.0,
+      "currency": "MXN",
+      "category": "Bebidas"
+    },
+    {
+      "name": "Wrap buffalo",
+      "description": "Mix de lechugas con pepino, jitomate, pechuga de pollo marinada con salsa de alitas, zanahoria, cebolla frita y guacamole, tortilla de harina. Acompañado de aderezo blue cheese.",
+      "price": 186.0,
+      "currency": "MXN",
+      "category": "Wraps De raiz"
+    },
+    {
+      "name": "Sidral Mundet Light",
+      "description": "Refresco (Botella 355 ml.)",
+      "price": 39.0,
+      "currency": "MXN",
+      "category": "Bebidas"
+    },
+    {
+      "name": "Ensalada oriental",
+      "description": "Mix de lechugas con piña, cacahuate, col morada, cilantro, germen de soya, zanahoria y pechuga de pollo. Acompañada de aderezo cacahuate.",
+      "price": 164.0,
+      "currency": "MXN",
+      "category": "Ensaladas  De raiz"
+    },
+    {
+      "name": "Ensalada camaron",
+      "description": "Mix de lechugas con zanahoria, guacamole, cebolla frita, jitomate, pepino, queso suizo y camarón sazonado en cajún. Acompañada de aderezo chipotle.",
+      "price": 180.0,
+      "currency": "MXN",
+      "category": "Ensaladas  De raiz"
+    },
+    {
+      "name": "Wrap pollo empanizado",
+      "description": "Mix de lechugas con guacamole, jitomate, zanahoria, cebolla morada y pechuga de pollo empanizada, tortilla de harina. Acompañado de aderezo honey mustard.",
+      "price": 175.0,
+      "currency": "MXN",
+      "category": "Wraps De raiz"
+    },
+    {
+      "name": "Ensalada pollo empanizado",
+      "description": "Mix de lechugas con guacamole, jitomate, zanahoria, cebolla morada y pechuga de pollo empanizada. Acompañada de aderezo honey mustard.",
+      "price": 175.0,
+      "currency": "MXN",
+      "category": "Ensaladas  De raiz"
+    },
+    {
+      "name": "Wrap coliflor rostizada",
+      "description": "Mix de lechugas con coliflor rostizada sazonada en cajún, cebolla morada, cacahuate, col morada, arándano y garbanzo marinado, tortilla de harina. Acompañado de aderezo honey mustard.",
+      "price": 180.0,
+      "currency": "MXN",
+      "category": "Wraps De raiz"
+    },
+    {
+      "name": "Mayonesa",
+      "description": "Mayonesa extra.",
+      "price": 10.0,
+      "currency": "MXN",
+      "category": "Extra"
+    },
+    {
+      "name": "Wrap kafta",
+      "description": "Mix de lechugas con aceituna negra, pan pita frito, garbanzo sazonado, kafta, queso cabra, jitomate, cebolla morada, pepinillo y pepino, tortilla de harina. Acompañado de aderezo yogurt.",
+      "price": 180.0,
+      "currency": "MXN",
+      "category": "Wraps De raiz"
+    },
+    {
+      "name": "Ensalada Kafta",
+      "description": "Mix de lechugas con aceituna negra, pan pita frito, garbanzo sazonado, kafta, queso cabra, jitomate, cebolla morada, pepinillo y pepino. Acompañada de aderezo yogurt.",
+      "price": 180.0,
+      "currency": "MXN",
+      "category": "Ensaladas  De raiz"
+    },
+    {
+      "name": "Wrap mexicano",
+      "description": "Mix de lechugas con queso mixto, pechuga de pollo, jitomate, guacamole, elotitos asados, tortilla frita y chile cuaresmeño, tortilla de harina. Acompañado de aderezo de la casa.",
+      "price": 180.0,
+      "currency": "MXN",
+      "category": "Wraps De raiz"
+    },
+    {
+      "name": "Ensalada mexicana",
+      "description": "Mix de lechugas con queso mixto, pechuga de pollo, jitomate, guacamole, elotitos asados, tortilla frita y chile cuaresmeño. Acompañada de aderezo de la casa.",
+      "price": 180.0,
+      "currency": "MXN",
+      "category": "Ensaladas  De raiz"
+    },
+    {
+      "name": "Wrap portobello",
+      "description": "Mix de lechugas con pasta al pesto, portobello marinado, jitomate confitado, cacahuate tostado, cebolla caramelizada, queso de cabra, tortilla de harina. Acompañado de aderezo mayo pesto.",
+      "price": 186.0,
+      "currency": "MXN",
+      "category": "Wraps De raiz"
+    },
+    {
+      "name": "Sprite Sin Azucar",
+      "description": "Refresco (Botella 355 ml.)",
+      "price": 39.0,
+      "currency": "MXN",
+      "category": "Bebidas"
+    },
+    {
+      "name": "Ensalada coliflor rostizada",
+      "description": "Mix de lechugas con coliflor rostizada sazonada en cajún, cebolla morada, cacahuate, col morada, arándano y garbanzo marinado. Acompañada de aderezo honey mustard.",
+      "price": 180.0,
+      "currency": "MXN",
+      "category": "Ensaladas  De raiz"
+    },
+    {
+      "name": "Wrap Cesar",
+      "description": "Mix de lechugas con queso parmesano, croutones y pechuga de pollo, tortilla de harina. Acompañado de aderezo césar.",
+      "price": 175.0,
+      "currency": "MXN",
+      "category": "Wraps De raiz"
+    },
+    {
+      "name": "Ensalada buffalo",
+      "description": "Mix de lechugas con pepino, jitomate, pechuga de pollo marinada con salsa de alitas, zanahoria, cebolla frita y guacamole. Acompañada de aderezo blue cheese.",
+      "price": 186.0,
+      "currency": "MXN",
+      "category": "Ensaladas  De raiz"
+    },
+    {
+      "name": "Ensalada portobello",
+      "description": "Mix de lechugas con pasta al pesto, portobello marinado, jitomate confitado, cacahuate tostado, cebolla caramelizada, queso de cabra. Acompañada de aderezo mayo pesto.",
+      "price": 186.0,
+      "currency": "MXN",
+      "category": "Ensaladas  De raiz"
+    },
+    {
+      "name": "Wrap oriental",
+      "description": "Mix de lechugas con piña, cacahuate, col morada, cilantro, germen de soya, zanahoria y pechuga de pollo, tortilla de harina. Acompañado de aderezo cacahuate.",
+      "price": 164.0,
+      "currency": "MXN",
+      "category": "Wraps De raiz"
+    },
+    {
+      "name": "Topo Chico Mineral",
+      "description": "Agua mineral (Botella 355 ml.)",
+      "price": 55.0,
+      "currency": "MXN",
+      "category": "Bebidas"
+    },
+    {
+      "name": "Ensalada Cesar",
+      "description": "Mix de lechugas con queso parmesano, croutones y pechuga de pollo. Acompañada de aderezo césar.",
+      "price": 175.0,
+      "currency": "MXN",
+      "category": "Ensaladas  De raiz"
+    },
+    {
+      "name": "Wrap camaron",
+      "description": "Mix de lechugas con zanahoria, guacamole, cebolla frita, jitomate, pepino, queso suizo y camarón sazonado en cajún, tortilla de harina. Acompañado de aderezo chipotle.",
+      "price": 180.0,
+      "currency": "MXN",
+      "category": "Wraps De raiz"
+    },
+    {
+      "name": "Coca Cola Original",
+      "description": "Refresco (Botella 400 ml.)",
+      "price": 39.0,
+      "currency": "MXN",
+      "category": "Bebidas"
+    }
+  ]
+}

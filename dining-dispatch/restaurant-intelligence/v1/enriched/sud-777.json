@@ -1,0 +1,138 @@
+{
+  "catalogName": "Sud 777",
+  "slug": "sud-777",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Sud 777",
+  "location": {
+    "address": "Blvd. de la Luz 777, Jardines del Pedregal",
+    "neighborhood": "Jardines del Pedregal",
+    "borough": "Álvaro Obregón",
+    "postalCode": "01900",
+    "coordinates": {
+      "latitude": 19.3091352,
+      "longitude": -99.2093593
+    }
+  },
+  "contact": {
+    "phone": "+52 55 5578 4777",
+    "phoneAlt": "+52 55 5568 4777",
+    "website": "https://www.sud777.com.mx/",
+    "instagram": "sud777mx",
+    "email": null
+  },
+  "hours": [
+    "lun–sáb 13:30–23:00",
+    "dom 13:30–17:00"
+  ],
+  "food": {
+    "cuisine": "contemporary mexican",
+    "chef": "Edgar Núñez",
+    "priceLevel": 4,
+    "notes": "à la carte + tasting menus (3/5/12 courses reported)"
+  },
+  "reservation": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/sud-777",
+    "notes": "Often described as a hard reservation."
+  },
+  "distinctions": {
+    "michelin": "Una Estrella : una cocina de gran nivel",
+    "michelinStars": 1
+  },
+  "menu": {
+    "state": "tasting_only",
+    "url": "https://www.sud777.com.mx/menú",
+    "observedAt": "2026-08-17",
+    "itemCount": 1,
+    "items": [
+      {
+        "name": "Menú de temporada de cuatro tiempos",
+        "price": 2650,
+        "currency": "MXN",
+        "category": "tasting",
+        "description": "Por persona; no incluye bebidas. Publicado en brochure de eventos del sitio oficial."
+      }
+    ],
+    "notes": "Wix restaurant-menus app on official /menú: 'Application is no longer available'. Events PDF still published: 4-course seasonal menú $2,650 (no dish list)."
+  },
+  "sources": [
+    {
+      "source": "opentable",
+      "url": "https://www.opentable.com/sud-777",
+      "fields": [
+        "address",
+        "hours",
+        "chef",
+        "price"
+      ]
+    },
+    {
+      "source": "michelin",
+      "url": "https://guide.michelin.com/us/en/ciudad-de-mexico/alvaro-obregon_2003790/restaurant/sud-777",
+      "fields": [
+        "stars",
+        "phone"
+      ]
+    },
+    {
+      "source": "official",
+      "url": "https://www.sud777.com.mx/",
+      "fields": [
+        "website"
+      ]
+    }
+  ],
+  "gaps": [
+    "coordinates",
+    "structured menu items",
+    "email"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "michelinReview": "Sud 777 goza de una envidiable ubicación en la exclusiva zona del Pedregal de Ciudad de México. En su moderna y espaciosa sala de techos altos, madera oscura y colores tierra, el chef Edgar Núñez nos propone un menú degustación en varios tiempos, además de una amplia carta con entradas como la crujiente infladita de maíz rellena de suculento pulpo en mole verde o la sofisticada ensalada de patatas con huevo mollet y anchoas. Con todo, si hay un plato que no te puedes perder es el cochinillo adobado rematado con salsa pibil y piña y servido con tortillas caseras para que te prepares tus propios tacos.",
+  "ratings": {
+    "opentable": 4.3,
+    "opentableReviews": 1714
+  },
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/alvaro-obregon_2003790/restaurante/sud-777",
+      "id": "1208234"
+    },
+    {
+      "source": "opentable",
+      "name": "Sud 777",
+      "rating": 4.3
+    }
+  ],
+  "opentableAwards": [
+    {
+      "name": "MICHELIN",
+      "year": 2025,
+      "__typename": "RestaurantAward"
+    },
+    {
+      "name": "MICHELIN",
+      "year": 2024,
+      "__typename": "RestaurantAward"
+    },
+    {
+      "name": "World's 50 Best",
+      "year": 2022,
+      "__typename": "RestaurantAward"
+    },
+    {
+      "name": "World's 50 Best",
+      "year": 2023,
+      "__typename": "RestaurantAward"
+    }
+  ]
+}

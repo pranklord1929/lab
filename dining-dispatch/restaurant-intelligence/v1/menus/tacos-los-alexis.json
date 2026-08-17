@@ -1,0 +1,120 @@
+{
+  "slug": "tacos-los-alexis",
+  "name": "Tacos Los Alexis",
+  "url": "https://www.tacoslosalexis.com/",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Costra Especial",
+      "price": 82,
+      "currency": "MXN",
+      "category": "especiales",
+      "description": "Carne al carbón, tortilla de harina, queso planchado, salsa borracha"
+    },
+    {
+      "name": "Vegetariano",
+      "price": 72,
+      "currency": "MXN",
+      "category": "especiales",
+      "description": "Huitlacoche, mini costra de queso, aguacate, vegetales curtidos, maíz"
+    },
+    {
+      "name": "Volcán de Carne Asada",
+      "price": 68,
+      "currency": "MXN",
+      "category": "volcanes"
+    },
+    {
+      "name": "Volcán de Taurino",
+      "price": 68,
+      "currency": "MXN",
+      "category": "volcanes",
+      "description": "Cecina, chicharrón, longaniza"
+    },
+    {
+      "name": "Costra de Carne Asada",
+      "price": 65,
+      "currency": "MXN",
+      "category": "costras"
+    },
+    {
+      "name": "Costra de Taurino",
+      "price": 65,
+      "currency": "MXN",
+      "category": "costras"
+    },
+    {
+      "name": "Taco de Carne Asada",
+      "price": 48,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Taco de Taurino",
+      "price": 48,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Flan de Queso",
+      "price": 58,
+      "currency": "MXN",
+      "category": "postres"
+    },
+    {
+      "name": "Boing de Mango",
+      "price": 47,
+      "currency": "MXN",
+      "category": "bebidas"
+    },
+    {
+      "name": "Boing de Guayaba",
+      "price": 47,
+      "currency": "MXN",
+      "category": "bebidas"
+    },
+    {
+      "name": "Agua de Jamaica",
+      "price": 45,
+      "currency": "MXN",
+      "category": "bebidas"
+    },
+    {
+      "name": "Agua de Limón con Chía",
+      "price": 45,
+      "currency": "MXN",
+      "category": "bebidas"
+    },
+    {
+      "name": "Agua de Cebada",
+      "price": 45,
+      "currency": "MXN",
+      "category": "bebidas"
+    },
+    {
+      "name": "Coca Cola Regular",
+      "price": 42,
+      "currency": "MXN",
+      "category": "bebidas"
+    },
+    {
+      "name": "Cerveza Carta Blanca",
+      "price": 58,
+      "currency": "MXN",
+      "category": "bebidas"
+    },
+    {
+      "name": "Copa Vino Tinto",
+      "price": 145,
+      "currency": "MXN",
+      "category": "bebidas"
+    },
+    {
+      "name": "Mezcal",
+      "price": 160,
+      "currency": "MXN",
+      "category": "bebidas"
+    }
+  ]
+}

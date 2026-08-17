@@ -1,0 +1,66 @@
+{
+  "slug": "plotz",
+  "name": "PLOTZ",
+  "url": "https://dondeir.com/restaurantes/plotz-el-smokehouse-y-wine-garden-que-conquista-la-del-valle/2025/11/",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Bites de tocino ahumado en hot honey",
+      "price": null,
+      "currency": "MXN",
+      "category": "para picar"
+    },
+    {
+      "name": "Papas Bravuconas",
+      "price": 180,
+      "currency": "MXN",
+      "category": "para picar"
+    },
+    {
+      "name": "Mac & cheese",
+      "price": 192,
+      "currency": "MXN",
+      "category": "para picar"
+    },
+    {
+      "name": "Sandwich pulled pork",
+      "price": 297,
+      "currency": "MXN",
+      "category": "sandwiches",
+      "description": "Cerdo ahumado, BBQ de la casa"
+    },
+    {
+      "name": "Sandwich Reuben",
+      "price": 308,
+      "currency": "MXN",
+      "category": "sandwiches",
+      "description": "Pastrami, chucrut, queso suizo"
+    },
+    {
+      "name": "Sandwich brisket",
+      "price": 297,
+      "currency": "MXN",
+      "category": "sandwiches"
+    },
+    {
+      "name": "Baby back ribs",
+      "price": null,
+      "currency": "MXN",
+      "category": "ahumados"
+    },
+    {
+      "name": "Brisket ahumado",
+      "price": null,
+      "currency": "MXN",
+      "category": "ahumados"
+    },
+    {
+      "name": "Ensalada de burrata y jitomates criollos",
+      "price": null,
+      "currency": "MXN",
+      "category": "ensaladas"
+    }
+  ],
+  "notes": "Dónde Ir (27 Jan 2026) + Uber Eats Plotz store prices (Pestalozzi 1152)."
+}

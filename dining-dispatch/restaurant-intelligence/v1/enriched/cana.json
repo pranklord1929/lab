@@ -1,0 +1,208 @@
+{
+  "catalogName": "Cana",
+  "slug": "cana",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "CANA",
+  "location": {
+    "address": "Liverpool 9, Juárez",
+    "neighborhood": "Juárez",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06600",
+    "coordinates": {
+      "latitude": 19.4282159,
+      "longitude": -99.1563375
+    }
+  },
+  "contact": {
+    "phone": "+52 55 7909 2913",
+    "website": "https://www.canacdmx.com/",
+    "instagram": "canacdmx",
+    "email": "contacto@canacdmx.com"
+  },
+  "hours": [
+    "lun–sáb 14:00–23:00",
+    "dom 11:00–18:00"
+  ],
+  "food": {
+    "cuisine": "contemporary bistro",
+    "chef": "Fabiola Escobosa",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "official",
+    "url": "https://www.canacdmx.com/"
+  },
+  "distinctions": {
+    "michelin": "Seleccionado: Buena cocina",
+    "michelinStars": 0
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.canacdmx.com/menu",
+    "observedAt": "2026-08-17",
+    "itemCount": 32,
+    "items": [
+      {
+        "name": "Caviar Petrossian, crème fraîche, chips (20g)",
+        "category": "all-day"
+      },
+      {
+        "name": "Pandeyuca, ricotta",
+        "category": "all-day"
+      },
+      {
+        "name": "Chicharrón de kale, ikura, crème fraîche",
+        "category": "all-day"
+      },
+      {
+        "name": "Paté de foie gras, ate de higo, Acetaia Pagani 7",
+        "category": "all-day"
+      },
+      {
+        "name": "Ostiones Mar Azul, mignonette",
+        "category": "all-day"
+      },
+      {
+        "name": "Atún, kimchi de jamaica, kombu, dátil",
+        "category": "all-day"
+      },
+      {
+        "name": "Shrimp cocktail, shiso",
+        "category": "all-day"
+      },
+      {
+        "name": "Tartar de res, jitomate, pimienta encurtida, queso Chiapas",
+        "category": "all-day"
+      },
+      {
+        "name": "Betabeles rostizados, queso azul, verdes",
+        "category": "all-day"
+      },
+      {
+        "name": "Ciruelas Moscatel, avellanas, miso, queso Asiago",
+        "category": "all-day"
+      },
+      {
+        "name": "Crudités, aguacate y miso, limón caviar",
+        "category": "all-day"
+      },
+      {
+        "name": "Ensalada Caesar",
+        "category": "all-day"
+      },
+      {
+        "name": "Dumplings de chirivía, dashi, hinojo bronce",
+        "category": "all-day"
+      },
+      {
+        "name": "Huachinango, chícharos, almeja, beurre blanc, trufa de invierno",
+        "category": "all-day"
+      },
+      {
+        "name": "Arroz negro, callo, calamar, leche de tigre, chile chilhuacle",
+        "category": "all-day"
+      },
+      {
+        "name": "Steak frites",
+        "category": "all-day"
+      },
+      {
+        "name": "Confit, zanahorias glaseadas, puré de coliflor, tamarindo",
+        "category": "all-day"
+      },
+      {
+        "name": "CANA Burger",
+        "category": "all-day"
+      },
+      {
+        "name": "Cordero, berenjena, tortilla de harina, chile de árbol",
+        "category": "all-day"
+      },
+      {
+        "name": "Spoon de mousse au chocolat, aceite de oliva",
+        "category": "postres"
+      },
+      {
+        "name": "Cheesecake d'affinois, helado de temporada",
+        "category": "postres"
+      },
+      {
+        "name": "Flan, vainilla, cardamomo",
+        "category": "postres"
+      },
+      {
+        "name": "Pastel de chocolate, habatonka, vainilla ahumada",
+        "category": "postres"
+      },
+      {
+        "name": "Mochi de mamey, pixtle",
+        "category": "postres"
+      },
+      {
+        "name": "Helados y sorbetes de temporada",
+        "category": "postres"
+      },
+      {
+        "name": "Trucha salmonada, alcaparrón, crème fraîche",
+        "category": "brunch"
+      },
+      {
+        "name": "Pancakes, miel de maple, mantequilla",
+        "category": "brunch"
+      },
+      {
+        "name": "Omelette, d'affinois, arúgula",
+        "category": "brunch"
+      },
+      {
+        "name": "Sandwich de mortadela, gruyère",
+        "category": "brunch"
+      },
+      {
+        "name": "Burrito de jaiba concha suave, guacachile",
+        "category": "brunch"
+      },
+      {
+        "name": "Milanesa de pollo, ensalada de radicchio, hinojo",
+        "category": "brunch"
+      },
+      {
+        "name": "Fish & chips",
+        "category": "brunch"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "official",
+      "url": "https://www.canacdmx.com/",
+      "fields": [
+        "address",
+        "hours",
+        "phone",
+        "email",
+        "instagram"
+      ]
+    }
+  ],
+  "gaps": [
+    "coordinates"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "michelinReview": "En el Cana, lleno de luz y con un look clásico y elegante, reina una cálida e informal atmósfera de bistró tan animada como acogedora: un lugar perfecto para una cena romántica, pero también para una salida entre amigos. La breve carta de cocina mexicana contemporánea pone el foco en los ingredientes locales de temporada, incluyendo platillos bien presentados que van desde las croquetas de bacalao o el arroz meloso con calamar y almejas hasta el magret de pato con zanahorias y farro o el cheesecake de camembert con compota de guayaba.",
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/cana",
+      "id": "1211144"
+    }
+  ]
+}

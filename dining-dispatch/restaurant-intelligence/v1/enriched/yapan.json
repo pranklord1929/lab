@@ -1,0 +1,135 @@
+{
+  "catalogName": "YAPAN",
+  "slug": "yapan",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Yapan",
+  "location": {
+    "address": "Córdoba 128, Roma Norte",
+    "neighborhood": "Roma Norte",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06700",
+    "coordinates": {
+      "latitude": 19.41755877,
+      "longitude": -99.15812603
+    }
+  },
+  "contact": {
+    "phone": "+52 55 9677 4243",
+    "website": "https://www.instagram.com/yapan.mx/",
+    "instagram": "yapan.mx",
+    "email": null,
+    "websiteIsInstagram": true
+  },
+  "hours": [
+    "mar–mié 13:00–00:00",
+    "jue–sáb 13:00–01:00",
+    "dom 13:00–20:00",
+    "lun cerrado"
+  ],
+  "food": {
+    "cuisine": "japanese-mexican fusion",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "opentable / reservandonos",
+    "url": "https://www.opentable.com/r/yapan-espacio-japomex-ciudad-de-mexico"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.timeoutmexico.mx/ciudad-de-mexico/restaurantes/yapan",
+    "observedAt": "2026-08-17",
+    "itemCount": 7,
+    "items": [
+      {
+        "name": "Gyoza de birria",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas",
+        "description": "Rellenas de birria de res, consomé"
+      },
+      {
+        "name": "Edamame frito spicy",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Atún aleta azul sobre mole poblano",
+        "price": null,
+        "currency": "MXN",
+        "category": "crudos"
+      },
+      {
+        "name": "Spicy tuna",
+        "price": null,
+        "currency": "MXN",
+        "category": "crudos"
+      },
+      {
+        "name": "Maki kani-san",
+        "price": null,
+        "currency": "MXN",
+        "category": "makis",
+        "description": "Camarón tempura, aguacate, kanikama, macha-mayo, tare"
+      },
+      {
+        "name": "Nigiri chutoro con achiote",
+        "price": null,
+        "currency": "MXN",
+        "category": "nigiri"
+      },
+      {
+        "name": "Flan de cajeta y mazapán",
+        "price": null,
+        "currency": "MXN",
+        "category": "postres"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "opentable",
+      "url": "https://www.opentable.com/r/yapan-espacio-japomex-ciudad-de-mexico",
+      "fields": [
+        "address",
+        "hours",
+        "phone",
+        "reservation"
+      ]
+    },
+    {
+      "source": "reservandonos",
+      "url": "https://reservandonos.com/en/place/yapan-roma-norte",
+      "fields": [
+        "address",
+        "coordinates",
+        "hours"
+      ]
+    },
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/yapan.mx/",
+      "fields": [
+        "instagram"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://www.timeoutmexico.mx/ciudad-de-mexico/restaurantes/yapan",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "gaps": [],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": []
+}

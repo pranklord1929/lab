@@ -1,0 +1,96 @@
+{
+  "catalogName": "Fugaz",
+  "slug": "fugaz",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Fugaz",
+  "location": {
+    "address": "Orizaba 3B, Roma Norte",
+    "neighborhood": "Roma Norte",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06700",
+    "coordinates": {
+      "latitude": 19.4239222,
+      "longitude": -99.1612934
+    }
+  },
+  "contact": {
+    "phone": "+52 55 3566 0298",
+    "website": "https://www.instagram.com/fuuuugaz/",
+    "instagram": "fuuuugaz",
+    "email": null,
+    "websiteIsInstagram": true
+  },
+  "hours": [
+    "Sunday 14:00–18:00 posted on IG; weekday hours not fully locked this pass. Reservations via Instagram."
+  ],
+  "food": {
+    "cuisine": "mexican / mediterranean",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/fuuuugaz/"
+  },
+  "distinctions": {
+    "michelin": "Bib Gourmand : nuestras mejores relaciones calidad-precio",
+    "michelinStars": 0
+  },
+  "menu": {
+    "state": "michelin_inspector",
+    "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/fugaz",
+    "observedAt": "2026-08-17",
+    "itemCount": 1,
+    "items": [
+      {
+        "name": "Pesca del día en crudo con frijoles blancos y puré de almendra"
+      }
+    ],
+    "notes": "Tiny room, reservation via IG. No public carta."
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/fuuuugaz/",
+      "fields": [
+        "instagram"
+      ]
+    },
+    {
+      "source": "eater",
+      "url": "https://www.eater.com/venue/100527/fugaz",
+      "fields": [
+        "address"
+      ]
+    },
+    {
+      "source": "michelin",
+      "url": "https://guide.michelin.com/us/en/ciudad-de-mexico/cuauhtemoc_1995126/restaurant/fugaz",
+      "fields": [
+        "address"
+      ]
+    }
+  ],
+  "gaps": [
+    "full hours",
+    "website",
+    "email",
+    "coordinates"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "michelinReview": "Tras el discreto aspecto de este agradable café de la Roma Norte se oculta en realidad una cocina muy seria y creativa. El local, bonito dentro de la sencillez, se reconoce por su persiana y frente de un verde intenso, sus suelos de terrazo en tonos arena, sus muebles de madera clara y sus paredes desnudas en tonos también claros. La cocina del chef Giuseppe Lacorazza –formado en Buenos Aires y con experiencia en cocinas de Europa y Nueva York– se reconoce en cambio por su ligero acento mediterráneo sobre base mexicana, destacando en especial las preparaciones con predominio de lo vegetal. La pesca del día puede transformarse en un crudo con frijoles blancos sobre un cremoso puré de almendras y mantequilla avellanada, mientras que los gnudi se sirven en un caldo ligero con cebolla blanca finamente laminada y un toque de parmesano. El sándwich de salchicha siciliana puede ser otra buena opción para los amantes de la carne.",
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/fugaz",
+      "id": "1211159"
+    }
+  ]
+}

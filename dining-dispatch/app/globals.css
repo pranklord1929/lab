@@ -1,0 +1,462 @@
+@import "tailwindcss";
+@import "../vendor/deepstate/css/tokens.css";
+@import "../vendor/deepstate/css/deepstate-system.css";
+
+:root {
+  color-scheme: only light;
+}
+
+html {
+  min-width: 0;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+html,
+body {
+  background: var(--ds-paper);
+  color: var(--ds-ink);
+  max-width: 100%;
+  overflow-x: clip;
+}
+
+.ds-page {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: var(--ds-max-page);
+  margin: 0 auto;
+  padding: 0 max(24px, env(safe-area-inset-right, 0px))
+    calc(80px + env(safe-area-inset-bottom, 0px))
+    max(24px, env(safe-area-inset-left, 0px));
+  flex: 1;
+  min-width: 0;
+}
+
+.ds-kicker-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  padding: 18px 0 12px;
+  border-bottom: var(--ds-line);
+  flex-wrap: wrap;
+}
+
+.ds-title {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.05;
+  text-transform: uppercase;
+  margin: 18px 0 10px;
+  overflow-wrap: anywhere;
+}
+
+.ds-lede {
+  font-size: 16px;
+  line-height: 1.45;
+  max-width: 42rem;
+  margin: 0 0 24px;
+}
+
+.ds-prose {
+  font-size: 15px;
+  line-height: 1.5;
+  max-width: 42rem;
+}
+
+.ds-prose p {
+  margin: 0 0 12px;
+}
+
+.ds-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px;
+}
+
+.ds-grid > .ds-panel {
+  min-width: 0;
+}
+
+.ds-panel {
+  container-type: inline-size;
+  min-width: 0;
+}
+
+.ds-stack {
+  display: grid;
+  gap: 16px;
+  margin-top: 16px;
+  min-width: 0;
+}
+
+.ds-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  padding: 12px 16px;
+  border-bottom: var(--ds-line);
+  min-width: 0;
+}
+
+.ds-row > .ds-label {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
+.ds-row > :not(.ds-label) {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow-wrap: break-word;
+  text-align: right;
+}
+
+.ds-row:last-child {
+  border-bottom: 0;
+}
+
+.ds-hours {
+  border-bottom: var(--ds-line);
+}
+
+.ds-hours summary {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.ds-hours summary::-webkit-details-marker,
+.ds-hours summary::marker {
+  display: none;
+  content: "";
+}
+
+.ds-hours-arrow {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg);
+  margin-top: -3px;
+}
+
+.ds-hours[open] .ds-hours-arrow {
+  transform: rotate(225deg);
+  margin-top: 2px;
+}
+
+.ds-hours summary:hover,
+.ds-hours summary:active {
+  background: var(--ds-ink);
+  color: var(--ds-paper);
+}
+
+.ds-hours-list {
+  display: grid;
+  gap: 4px;
+  padding: 0 16px 12px;
+  font-size: 14px;
+  overflow-wrap: break-word;
+}
+
+.ds-pad {
+  padding: 16px;
+}
+
+.ds-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ds-list li {
+  border-bottom: var(--ds-line);
+  padding: 10px 16px;
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+
+.ds-list li:last-child {
+  border-bottom: 0;
+}
+
+.deepstate-nav a {
+  box-sizing: border-box;
+  height: var(--ds-control-h);
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--ds-sans);
+  letter-spacing: var(--ds-track-nav);
+  text-transform: uppercase;
+  text-decoration: none;
+  background: var(--ds-paper);
+  color: var(--ds-ink);
+  border: var(--ds-line);
+  border-right: 0;
+  margin: 0;
+  padding: 0 15px;
+  font-size: var(--ds-fs-nav);
+  font-weight: var(--ds-fw-semibold);
+}
+
+.deepstate-nav a:last-child {
+  border-right: var(--ds-line);
+}
+
+.deepstate-nav a:hover,
+.deepstate-nav a:active,
+.deepstate-nav a.is-active,
+.deepstate-nav a[aria-current="page"] {
+  color: var(--ds-paper);
+  background: var(--ds-ink);
+}
+
+.deepstate-header {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: var(--ds-max-page);
+  justify-content: flex-start;
+  padding-top: max(20px, env(safe-area-inset-top, 0px));
+  padding-left: max(24px, env(safe-area-inset-left, 0px));
+  padding-right: max(24px, env(safe-area-inset-right, 0px));
+}
+
+.deepstate-header-main {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.ds-panel-head {
+  gap: 8px;
+  min-width: 0;
+}
+
+.ds-panel-head > .ds-label {
+  min-width: 0;
+  overflow-wrap: break-word;
+}
+
+.ds-panel-head > .num {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
+.deepstate-brand {
+  text-decoration: none;
+}
+
+.deepstate-header-controls,
+.deepstate-header-status {
+  gap: 8px;
+}
+
+.deepstate-wordmark {
+  font-size: 24px;
+  letter-spacing: 0.08em;
+  overflow-wrap: break-word;
+}
+
+.deepstate-header,
+.deepstate-header-main,
+.deepstate-header-controls {
+  min-width: 0;
+}
+
+.ds-card-name {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin: 0;
+  overflow-wrap: break-word;
+}
+
+a.ds-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  max-width: 100%;
+  margin-top: 12px;
+  text-decoration: none;
+  padding: 12px 18px;
+  text-align: left;
+  white-space: normal;
+}
+
+.ds-panel a.ds-cta {
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.ds-card-actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px;
+  padding: 12px 16px;
+  min-width: 0;
+}
+
+.ds-card-actions .ds-cta {
+  display: inline-flex;
+  width: 100%;
+  min-width: 0;
+  margin-top: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 12px 18px;
+  overflow-wrap: break-word;
+}
+
+.ds-cta-mute {
+  opacity: 0.45;
+  pointer-events: none;
+}
+
+a.ds-link {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: var(--ds-line);
+  overflow-wrap: anywhere;
+}
+
+a.ds-link:hover,
+a.ds-link:active {
+  background: var(--ds-ink);
+  color: var(--ds-paper);
+}
+
+.ds-faq details {
+  border-bottom: var(--ds-line);
+}
+
+.ds-faq details:last-child {
+  border-bottom: 0;
+}
+
+.ds-faq summary {
+  cursor: pointer;
+  padding: 14px 16px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  list-style: none;
+}
+
+.ds-faq summary::-webkit-details-marker {
+  display: none;
+}
+
+.ds-faq summary:hover,
+.ds-faq details[open] summary {
+  background: var(--ds-ink);
+  color: var(--ds-paper);
+}
+
+.ds-faq p {
+  margin: 0;
+  padding: 0 16px 16px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.ds-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  min-width: 0;
+}
+
+.ds-pill {
+  max-width: 100%;
+  min-width: 0;
+}
+
+.ds-pill b {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.ds-empty {
+  padding: 16px;
+  font-family: var(--ds-mono);
+  font-size: var(--ds-fs-meta);
+  letter-spacing: var(--ds-track-meta);
+  text-transform: uppercase;
+}
+
+@media (max-width: 980px) {
+  .deepstate-header-status {
+    display: none;
+  }
+
+  .deepstate-nav {
+    display: flex;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .deepstate-nav a {
+    flex: 1;
+    justify-content: center;
+    padding: 0 8px;
+    min-width: 0;
+  }
+}
+
+@media (max-width: 760px) {
+  .ds-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ds-page {
+    padding: 0 max(12px, env(safe-area-inset-right, 0px))
+      calc(48px + env(safe-area-inset-bottom, 0px))
+      max(12px, env(safe-area-inset-left, 0px));
+  }
+
+  .ds-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .ds-row > :not(.ds-label) {
+    text-align: left;
+  }
+
+  .deepstate-header {
+    padding-top: max(14px, env(safe-area-inset-top, 0px));
+    padding-left: max(12px, env(safe-area-inset-left, 0px));
+    padding-right: max(12px, env(safe-area-inset-right, 0px));
+  }
+
+  .deepstate-nav,
+  .deepstate-nav a {
+    height: 44px;
+  }
+
+  .ds-footer {
+    padding: 12px max(12px, env(safe-area-inset-right, 0px))
+      calc(12px + env(safe-area-inset-bottom, 0px))
+      max(12px, env(safe-area-inset-left, 0px));
+  }
+}
+
+@container (max-width: 440px) {
+  .ds-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .ds-row > :not(.ds-label) {
+    text-align: left;
+  }
+}

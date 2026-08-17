@@ -1,0 +1,125 @@
+{
+  "catalogName": "El Hidalguense",
+  "slug": "el-hidalguense",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "El Hidalguense",
+  "location": {
+    "address": "Campeche 155, Roma Sur",
+    "neighborhood": "Roma Sur",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06760",
+    "coordinates": {
+      "latitude": 19.4098165,
+      "longitude": -99.1652105
+    }
+  },
+  "contact": {
+    "phone": "+52 55 5564 0538",
+    "website": "https://www.instagram.com/elhidalguense_restaurante/",
+    "instagram": "elhidalguense_restaurante",
+    "email": null,
+    "websiteIsInstagram": true
+  },
+  "hours": [
+    "vie–dom 07:00–18:00",
+    "lun–jue cerrado (standard; they open some holidays)"
+  ],
+  "food": {
+    "cuisine": "hidalguense / barbacoa",
+    "priceLevel": 2,
+    "notes": "Famous weekend barbacoa. This is the Roma Sur location, not the Iztapalapa DENUE namesake."
+  },
+  "reservation": {
+    "platform": "walk-in",
+    "url": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.tripadvisor.com/Restaurant_Review-g150800-d7289663-Reviews-El_Hidalguense-Mexico_City_Central_Mexico_and_Gulf_Coast.html",
+    "observedAt": "2026-08-17",
+    "itemCount": 8,
+    "items": [
+      {
+        "name": "Barbacoa de borrego",
+        "price": null,
+        "currency": "MXN",
+        "category": "barbacoa",
+        "description": "Estilo Hidalgo, horno de maguey. Vie–dom"
+      },
+      {
+        "name": "Consomé de borrego",
+        "price": null,
+        "currency": "MXN",
+        "category": "sopas"
+      },
+      {
+        "name": "Mixiote",
+        "price": null,
+        "currency": "MXN",
+        "category": "guisos"
+      },
+      {
+        "name": "Pancita de barbacoa",
+        "price": null,
+        "currency": "MXN",
+        "category": "guisos"
+      },
+      {
+        "name": "Queso asado",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Guacamole con chapulines",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Pan de elote",
+        "price": null,
+        "currency": "MXN",
+        "category": "postres"
+      },
+      {
+        "name": "Pulque",
+        "price": null,
+        "currency": "MXN",
+        "category": "bebidas"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/elhidalguense_restaurante/",
+      "fields": [
+        "address",
+        "hours",
+        "phone"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g150800-d7289663-Reviews-El_Hidalguense-Mexico_City_Central_Mexico_and_Gulf_Coast.html",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "gaps": [
+    "website",
+    "coordinates"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": []
+}

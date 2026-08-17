@@ -1,0 +1,372 @@
+{
+  "catalogName": "La Barra de Fran",
+  "slug": "la-barra-de-fran",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "La Barra de Fran",
+  "location": {
+    "address": "Emilio Castelar 185, Polanco",
+    "neighborhood": "Polanco",
+    "borough": "Miguel Hidalgo",
+    "postalCode": "11560",
+    "coordinates": {
+      "latitude": 19.4306954,
+      "longitude": -99.2003001
+    }
+  },
+  "contact": {
+    "phone": "+52 55 5280 6650",
+    "phoneAlt": "+52 56 2015 9781",
+    "website": "https://labarradefran.com/",
+    "instagram": "labarradefran",
+    "email": null
+  },
+  "hours": [
+    "lun–dom 11:00–23:00"
+  ],
+  "food": {
+    "cuisine": "spanish tapas",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "phone / whatsapp",
+    "url": "https://www.instagram.com/labarradefran/"
+  },
+  "distinctions": {
+    "michelin": "Seleccionado: Buena cocina",
+    "michelinStars": 0
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.labarradefran.com/menu",
+    "observedAt": "2026-08-17",
+    "itemCount": 47,
+    "items": [
+      {
+        "name": "Queso Manchego semi-curado 50g",
+        "price": 240,
+        "currency": "MXN",
+        "category": "ultramarinos"
+      },
+      {
+        "name": "Queso Manchego curado 50g",
+        "price": 245,
+        "currency": "MXN",
+        "category": "ultramarinos"
+      },
+      {
+        "name": "Queso Manchego añejo 50g",
+        "price": 250,
+        "currency": "MXN",
+        "category": "ultramarinos"
+      },
+      {
+        "name": "Salchichón ibérico de bellota 50g",
+        "price": 210,
+        "currency": "MXN",
+        "category": "ultramarinos"
+      },
+      {
+        "name": "Fuet ibérico 50g",
+        "price": 205,
+        "currency": "MXN",
+        "category": "ultramarinos"
+      },
+      {
+        "name": "Sobrasada ibérica 50g",
+        "price": 225,
+        "currency": "MXN",
+        "category": "ultramarinos"
+      },
+      {
+        "name": "Magret de pato 50g",
+        "price": 395,
+        "currency": "MXN",
+        "category": "ultramarinos"
+      },
+      {
+        "name": "Jamón ibérico de bellota 50g",
+        "price": 495,
+        "currency": "MXN",
+        "category": "ultramarinos"
+      },
+      {
+        "name": "Jamón en taquitos 100g",
+        "price": 295,
+        "currency": "MXN",
+        "category": "ultramarinos"
+      },
+      {
+        "name": "Aceitunas de la casa 145g",
+        "price": 110,
+        "currency": "MXN",
+        "category": "tapas"
+      },
+      {
+        "name": "Almendras tostadas 70g",
+        "price": 115,
+        "currency": "MXN",
+        "category": "tapas"
+      },
+      {
+        "name": "Anchoas de Santoña 7 pz",
+        "price": 375,
+        "currency": "MXN",
+        "category": "tapas"
+      },
+      {
+        "name": "Boquerones de vinagre 8 pz",
+        "price": 165,
+        "currency": "MXN",
+        "category": "tapas"
+      },
+      {
+        "name": "Pincho de tortilla 200g",
+        "price": 115,
+        "currency": "MXN",
+        "category": "tapas"
+      },
+      {
+        "name": "Tortilla de patatas completa",
+        "price": 920,
+        "currency": "MXN",
+        "category": "tapas"
+      },
+      {
+        "name": "Ensaladilla rusa 250g",
+        "price": 125,
+        "currency": "MXN",
+        "category": "tapas"
+      },
+      {
+        "name": "Croquetas de la casa 6 pz",
+        "price": 135,
+        "currency": "MXN",
+        "category": "tapas"
+      },
+      {
+        "name": "Papas bravas 230g",
+        "price": 160,
+        "currency": "MXN",
+        "category": "tapas"
+      },
+      {
+        "name": "Pimientos de padrón 12 pz",
+        "price": 175,
+        "currency": "MXN",
+        "category": "tapas"
+      },
+      {
+        "name": "Chistorra a la sidra 6 pz",
+        "price": 175,
+        "currency": "MXN",
+        "category": "tapas"
+      },
+      {
+        "name": "Lomo adobado 150g",
+        "price": 175,
+        "currency": "MXN",
+        "category": "tapas"
+      },
+      {
+        "name": "Morcilla de Burgos entera",
+        "price": 295,
+        "currency": "MXN",
+        "category": "tapas"
+      },
+      {
+        "name": "Morcilla de Burgos 5 pz",
+        "price": 170,
+        "currency": "MXN",
+        "category": "tapas"
+      },
+      {
+        "name": "Gambas al ajillo 110g",
+        "price": 190,
+        "currency": "MXN",
+        "category": "tapas"
+      },
+      {
+        "name": "Cachopo 150g",
+        "price": 200,
+        "currency": "MXN",
+        "category": "tapas"
+      },
+      {
+        "name": "Mollejas 200g",
+        "price": 195,
+        "currency": "MXN",
+        "category": "tapas"
+      },
+      {
+        "name": "Buñuelo de bacalao 100g",
+        "price": 210,
+        "currency": "MXN",
+        "category": "tapas"
+      },
+      {
+        "name": "Habitas baby con jamón 200g",
+        "price": 275,
+        "currency": "MXN",
+        "category": "tapas"
+      },
+      {
+        "name": "Pepito de ternera 250g",
+        "price": 295,
+        "currency": "MXN",
+        "category": "tapas"
+      },
+      {
+        "name": "Carrillada ibérica con papas fritas 300g",
+        "price": 315,
+        "currency": "MXN",
+        "category": "fuertes"
+      },
+      {
+        "name": "Rabo de toro con papas fritas 400g",
+        "price": 310,
+        "currency": "MXN",
+        "category": "fuertes"
+      },
+      {
+        "name": "Gazpacho 400ml",
+        "price": 140,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Cogollos Tudela 300g",
+        "price": 310,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Tomate aliñado con bonito 350g",
+        "price": 345,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Espárragos a la plancha con queso 200g",
+        "price": 225,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Arroz con setas y alcachofas (mín. 2 pax)",
+        "price": 220,
+        "currency": "MXN",
+        "category": "arroces"
+      },
+      {
+        "name": "Arroz con camarones y chipirones (mín. 2 pax)",
+        "price": 230,
+        "currency": "MXN",
+        "category": "arroces"
+      },
+      {
+        "name": "Arroz meloso de lágrima ibérica (mín. 2 pax)",
+        "price": 230,
+        "currency": "MXN",
+        "category": "arroces"
+      },
+      {
+        "name": "Fideuà de mariscos (mín. 2 pax)",
+        "price": 220,
+        "currency": "MXN",
+        "category": "arroces"
+      },
+      {
+        "name": "Lubina de Baja con alcachofas, pimientos y jamón",
+        "price": 435,
+        "currency": "MXN",
+        "category": "pescados"
+      },
+      {
+        "name": "Atún aleta azul con tártara tomate y alcaparras",
+        "price": 475,
+        "currency": "MXN",
+        "category": "pescados"
+      },
+      {
+        "name": "Solomillo 250g con foie al oporto",
+        "price": 520,
+        "currency": "MXN",
+        "category": "carnes"
+      },
+      {
+        "name": "Solomillo 250g con Cabrales",
+        "price": 495,
+        "currency": "MXN",
+        "category": "carnes"
+      },
+      {
+        "name": "Chuletón de la casa añejado (2 personas, 1000g prime)",
+        "price": 1650,
+        "currency": "MXN",
+        "category": "carnes"
+      },
+      {
+        "name": "Flan",
+        "price": 160,
+        "currency": "MXN",
+        "category": "postres"
+      },
+      {
+        "name": "Tarta de olivo con romero",
+        "price": 160,
+        "currency": "MXN",
+        "category": "postres"
+      },
+      {
+        "name": "Helados Sin Culpa",
+        "price": 170,
+        "currency": "MXN",
+        "category": "postres"
+      }
+    ],
+    "notes": "Official Wix menu image currently published on /menu (OCR)."
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/labarradefran/",
+      "fields": [
+        "address",
+        "hours",
+        "phone"
+      ]
+    },
+    {
+      "source": "michelin",
+      "url": "https://guide.michelin.com/us/en/ciudad-de-mexico/miguel-hidalgo_1999281/restaurant/la-barra-de-fran",
+      "fields": [
+        "address"
+      ]
+    }
+  ],
+  "gaps": [
+    "coordinates"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "michelinReview": "Por si tuvieras alguna duda de lo que te aguarda en la Barra de Fran, en la entrada hay una cabeza de toro que deja claro que tanto el alma como los sabores de este lugar son decididamente españoles. El local, una réplica de los famosos bares de tapas españoles, es el lugar perfecto para pasar una velada muy divertida. Te esperan patatas bravas, anchoas sobre pan ligeramente tostado con un poco de aceite y tomate, gambas al ajillo, flan y otras especialidades clásicas de la cocina española ideales para compartir. Por ello, no olvides traerte a un amigo o intenta hacer uno nuevo.",
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/miguel-hidalgo_1999281/restaurante/la-barra-de-fran",
+      "id": "1208822"
+    },
+    {
+      "source": "resy",
+      "url": "https://resy.com/cities/mexico-city-mexico/venues/la-barra-de-fran",
+      "slug": "la-barra-de-fran"
+    }
+  ]
+}

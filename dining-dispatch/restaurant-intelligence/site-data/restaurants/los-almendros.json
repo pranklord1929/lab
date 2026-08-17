@@ -1,0 +1,476 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "cf2bf145-cd94-4124-86e0-b4cf931ed2bc",
+  "slug": "los-almendros",
+  "name": "Los Almendros",
+  "location": {
+    "neighborhood": "GUADALUPE INN",
+    "borough": "Álvaro Obregón",
+    "address": "Av. Insurgentes Sur 1759, Guadalupe Inn, Álvaro Obregón, 01020 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3586133,
+      "longitude": -99.1840234
+    }
+  },
+  "contact": {
+    "phone": "55 5663 5151",
+    "website": "https://www.losalmendros.com.mx/losalmendroscdmx",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=482620573192548360&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "mexican",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": "Spicy Yucatan specialties like poc chuc (meat or fish in a citrus marinade) in an elegant space.",
+    "hours": [
+      "domingo: 8:00 a.m. – 6:00 p.m.",
+      "lunes: 7:30 a.m. – 8:00 p.m.",
+      "martes: 7:30 a.m. – 8:00 p.m.",
+      "miércoles: 7:30 a.m. – 8:00 p.m.",
+      "jueves: 7:30 a.m. – 10:00 p.m.",
+      "viernes: 7:30 a.m. – 10:00 p.m.",
+      "sábado: 7:30 a.m. – 10:00 p.m."
+    ],
+    "rating": 4.4,
+    "reviewCount": 3796
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 3,
+    "itemCount": 21,
+    "documents": [
+      {
+        "id": "fbde5eb0-4f6b-4f2f-a8a4-6c5fd2fc2f6d",
+        "sourceUrl": "https://losalmendros.com.mx/copia-de-menu-temporada",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "fbca9079-663d-48fa-9ab4-9f00fdbf48a2",
+        "sourceUrl": "https://www.losalmendros.com.mx/menu-temporada",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.75,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:51.476+00:00"
+      },
+      {
+        "id": "5fb53ad3-8804-4698-b71c-a29916860d48",
+        "sourceUrl": "https://www.losalmendros.com.mx/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.75,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:50.447+00:00"
+      }
+    ],
+    "items": [
+      {
+        "id": "90c42451-6dd7-4ebd-ae23-35e59ce1f4b5",
+        "documentId": "fbca9079-663d-48fa-9ab4-9f00fdbf48a2",
+        "name": "Arroz Lima 1Kg.",
+        "description": "Arroz blanco son esencia de lima",
+        "price": 150,
+        "currency": "MXN",
+        "category": "Recetas de fin de año",
+        "sourceUrl": "https://www.losalmendros.com.mx/menu-temporada",
+        "observedAt": "2026-07-09T18:55:51.476+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "a44e2cae-4f86-4271-adb7-583117882f96",
+        "documentId": "fbca9079-663d-48fa-9ab4-9f00fdbf48a2",
+        "name": "Arroz Navideño 1Kg.",
+        "description": "Arroz verde con jamón, chícharos, elote y cilantro",
+        "price": 120,
+        "currency": "MXN",
+        "category": "Recetas de fin de año",
+        "sourceUrl": "https://www.losalmendros.com.mx/menu-temporada",
+        "observedAt": "2026-07-09T18:55:51.476+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "b11cb65a-32c0-4ac9-b1b2-ea5141746e22",
+        "documentId": "fbca9079-663d-48fa-9ab4-9f00fdbf48a2",
+        "name": "Bacalao 1kg.",
+        "description": "Bacalao Noruego con aceitunas, papas, tomate, pimiento morrón y naranja agria.",
+        "price": 1200,
+        "currency": "MXN",
+        "category": "Recetas de fin de año",
+        "sourceUrl": "https://www.losalmendros.com.mx/menu-temporada",
+        "observedAt": "2026-07-09T18:55:51.476+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "b6fc14c5-b83c-42ab-81a3-3b7f1802a038",
+        "documentId": "fbca9079-663d-48fa-9ab4-9f00fdbf48a2",
+        "name": "Carnero en Pebre 1 Pieza 2 kg.",
+        "description": "Rak de carnero, alas brasas y especias.",
+        "price": 1800,
+        "currency": "MXN",
+        "category": "Recetas de fin de año",
+        "sourceUrl": "https://www.losalmendros.com.mx/menu-temporada",
+        "observedAt": "2026-07-09T18:55:51.476+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "3ad611f1-f4b0-4df0-85a1-350c9ca0c3eb",
+        "documentId": "fbca9079-663d-48fa-9ab4-9f00fdbf48a2",
+        "name": "Cebolla Morada Curtida 1Kg.",
+        "description": "Cebolla curtida con vinagre",
+        "price": 120,
+        "currency": "MXN",
+        "category": "Recetas de fin de año",
+        "sourceUrl": "https://www.losalmendros.com.mx/menu-temporada",
+        "observedAt": "2026-07-09T18:55:51.476+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "657dcdd7-4765-4579-a30f-9831e2cfab5d",
+        "documentId": "fbca9079-663d-48fa-9ab4-9f00fdbf48a2",
+        "name": "Frijol refrito 1Kg.",
+        "description": "Frijol Negro con cebolla",
+        "price": 120,
+        "currency": "MXN",
+        "category": "Recetas de fin de año",
+        "sourceUrl": "https://www.losalmendros.com.mx/menu-temporada",
+        "observedAt": "2026-07-09T18:55:51.476+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "f37d670b-5105-47a6-be1b-24cefab9d481",
+        "documentId": "fbca9079-663d-48fa-9ab4-9f00fdbf48a2",
+        "name": "Jamón Claveteado 1Pieza 2kg.",
+        "description": "Jamón curado con jerez y clavos de especie",
+        "price": 850,
+        "currency": "MXN",
+        "category": "Recetas de fin de año",
+        "sourceUrl": "https://www.losalmendros.com.mx/menu-temporada",
+        "observedAt": "2026-07-09T18:55:51.476+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "eaf99f5f-58c5-41d4-966c-d6e3f3e646d1",
+        "documentId": "fbca9079-663d-48fa-9ab4-9f00fdbf48a2",
+        "name": "Lechón Pelón al horno 1Pieza 5 kg.",
+        "description": "Lechón pequeño con piel marinado con naranjas agrias y especias.",
+        "price": 2450,
+        "currency": "MXN",
+        "category": "Recetas de fin de año",
+        "sourceUrl": "https://www.losalmendros.com.mx/menu-temporada",
+        "observedAt": "2026-07-09T18:55:51.476+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "751cc5b6-9945-4f1c-8bd6-949782e3f889",
+        "documentId": "fbca9079-663d-48fa-9ab4-9f00fdbf48a2",
+        "name": "Lomo con ciruelas 1 Pieza 2kg.",
+        "description": "Lomo de cerdo relleno de ciruelas dulces",
+        "price": 1250,
+        "currency": "MXN",
+        "category": "Recetas de fin de año",
+        "sourceUrl": "https://www.losalmendros.com.mx/menu-temporada",
+        "observedAt": "2026-07-09T18:55:51.476+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "aba3e9e8-7773-43bd-8b95-2c430b08b832",
+        "documentId": "fbca9079-663d-48fa-9ab4-9f00fdbf48a2",
+        "name": "Pasta de Coditos Navideña 1 Kg.",
+        "description": "Pasta de trigo con jamón, piña, queso, crema, manzana, uvas y peras.",
+        "price": 160,
+        "currency": "MXN",
+        "category": "Recetas de fin de año",
+        "sourceUrl": "https://www.losalmendros.com.mx/menu-temporada",
+        "observedAt": "2026-07-09T18:55:51.476+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "d42bfe7c-abd0-43cd-88e7-64085b205d42",
+        "documentId": "fbca9079-663d-48fa-9ab4-9f00fdbf48a2",
+        "name": "Pastel de Tres leches 1 Pieza 10 personas.",
+        "description": "Biscocho relleno de crema y bañado en leche narural, leche semidescremada y leche condensada.",
+        "price": 450,
+        "currency": "MXN",
+        "category": "Recetas de fin de año",
+        "sourceUrl": "https://www.losalmendros.com.mx/menu-temporada",
+        "observedAt": "2026-07-09T18:55:51.476+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "56bae97d-72be-4f49-b257-2db2264399d6",
+        "documentId": "fbca9079-663d-48fa-9ab4-9f00fdbf48a2",
+        "name": "Pato en China 1 Pieza 2 kg.",
+        "description": "Pato horneado con naranja china de la región, especias y miel",
+        "price": 1250,
+        "currency": "MXN",
+        "category": "Recetas de fin de año",
+        "sourceUrl": "https://www.losalmendros.com.mx/menu-temporada",
+        "observedAt": "2026-07-09T18:55:51.476+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "8316d991-16a7-422f-87ba-86183cbeb5cc",
+        "documentId": "fbca9079-663d-48fa-9ab4-9f00fdbf48a2",
+        "name": "Pavo Escabeche en Relleno Blanco y kol (salsa) 1 Pieza 6-7 kg",
+        "description": "Pavo Horneado con especias, mientas, cebollas, chile Xkatic. Relleno de picadillo de cerdo",
+        "price": 2200,
+        "currency": "MXN",
+        "category": "Recetas de fin de año",
+        "sourceUrl": "https://www.losalmendros.com.mx/menu-temporada",
+        "observedAt": "2026-07-09T18:55:51.476+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "0628d086-2f8d-465c-a555-7dc4a61020d0",
+        "documentId": "fbca9079-663d-48fa-9ab4-9f00fdbf48a2",
+        "name": "Pavo a la Yucateca y Kol Indio 1 Pieza 6-7 kg.",
+        "description": "Pavo horneado con achiote y especias.",
+        "price": 2100,
+        "currency": "MXN",
+        "category": "Recetas de fin de año",
+        "sourceUrl": "https://www.losalmendros.com.mx/menu-temporada",
+        "observedAt": "2026-07-09T18:55:51.476+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "0e6d8587-6c45-4b15-8b35-65521952fc68",
+        "documentId": "fbca9079-663d-48fa-9ab4-9f00fdbf48a2",
+        "name": "Pavo en Almendra con Salsa de Miel 1 Pieza 6-7 kg",
+        "description": "Pavo horneado con almendras, ajo, cebolla, clavo, canela",
+        "price": 2400,
+        "currency": "MXN",
+        "category": "Recetas de fin de año",
+        "sourceUrl": "https://www.losalmendros.com.mx/menu-temporada",
+        "observedAt": "2026-07-09T18:55:51.476+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "ed73cf5a-f4a1-416e-90ee-adb4521e1a57",
+        "documentId": "fbca9079-663d-48fa-9ab4-9f00fdbf48a2",
+        "name": "Pierna A la Yucateca 1 Pieza 3 kg",
+        "description": "Pierna de Cerdo con achiote al Horno",
+        "price": 1100,
+        "currency": "MXN",
+        "category": "Recetas de fin de año",
+        "sourceUrl": "https://www.losalmendros.com.mx/menu-temporada",
+        "observedAt": "2026-07-09T18:55:51.476+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "509b96c9-e67a-40bf-be5f-07ab037fe519",
+        "documentId": "fbca9079-663d-48fa-9ab4-9f00fdbf48a2",
+        "name": "Salsa Habanera 1 Kg",
+        "description": null,
+        "price": 100,
+        "currency": "MXN",
+        "category": "Recetas de fin de año",
+        "sourceUrl": "https://www.losalmendros.com.mx/menu-temporada",
+        "observedAt": "2026-07-09T18:55:51.476+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "aa8b3a34-9076-4ef8-9691-3ec45ecc5686",
+        "documentId": "fbca9079-663d-48fa-9ab4-9f00fdbf48a2",
+        "name": "Sandwichón 1 Pieza",
+        "description": "Pan de molde entre capas con pimiento morrón, jamón, queso, mayonesa y crema.",
+        "price": 600,
+        "currency": "MXN",
+        "category": "Recetas de fin de año",
+        "sourceUrl": "https://www.losalmendros.com.mx/menu-temporada",
+        "observedAt": "2026-07-09T18:55:51.476+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "57f83d6d-402e-43cb-9711-ee001d6a93dd",
+        "documentId": "fbca9079-663d-48fa-9ab4-9f00fdbf48a2",
+        "name": "Sopa de Lima Especial 2 Lt",
+        "description": "Consome de pavo con especias, lima, julianas de tortilla y pao deshebrado",
+        "price": 150,
+        "currency": "MXN",
+        "category": "Recetas de fin de año",
+        "sourceUrl": "https://www.losalmendros.com.mx/menu-temporada",
+        "observedAt": "2026-07-09T18:55:51.476+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "c70cd608-e9b1-4297-a438-4c8f521c6d8b",
+        "documentId": null,
+        "name": "Frijol Negro con cebolla",
+        "description": null,
+        "price": 120,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "b77bfaf2-70ef-4930-a3ee-f2bde5d23e68",
+        "documentId": null,
+        "name": "Salsa Habanera",
+        "description": null,
+        "price": 100,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://losalmendros.com.mx/menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://losalmendros.com.mx/menu-temporada",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://losalmendros.com.mx/copia-de-menu-temporada",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.losalmendros.com.mx/losalmendroscdmx",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:48.798+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=482620573192548360&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:46.869+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "http://facebook.com/losalmendrosmexico",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "google_places",
+      "official_menus",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T20:05:20.22199+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:15:15.212539+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": true,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 151,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram"
+    ]
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "2fbe7674-cf8b-482e-8b5f-6b468d40c210",
+  "slug": "el-guacamayo",
+  "name": "El Guacamayo",
+  "location": {
+    "neighborhood": "EX-EJIDO DE SAN FRANCISCO CULHUACÁN",
+    "borough": "Coyoacán",
+    "address": "Av. Sta. Ana 238, Ex-Ejido de San Francisco Culhuacan, Coyoacán, 04420 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3297284,
+      "longitude": -99.1275327
+    }
+  },
+  "contact": {
+    "phone": "55 6719 1002",
+    "website": "https://www.restauranteelguacamayo.com.mx/",
+    "instagram": "https://instagram.com/guacamayo.mx/",
+    "googleMapsUrl": "https://maps.google.com/?cid=4541346432697118714&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "mexican",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 8:00 a.m. – 10:00 p.m.",
+      "lunes: 8:00 a.m. – 7:00 p.m.",
+      "martes: 8:00 a.m. – 7:00 p.m.",
+      "miércoles: Cerrado",
+      "jueves: 8:00 a.m. – 2:00 a.m.",
+      "viernes: 8:00 a.m. – 2:00 a.m.",
+      "sábado: 8:00 a.m. – 2:00 a.m."
+    ],
+    "rating": 4,
+    "reviewCount": 611
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 1,
+    "itemCount": 9,
+    "documents": [
+      {
+        "id": "9fcead8e-686a-4910-a8e0-1d6c3f779950",
+        "sourceUrl": "https://restauranteelguacamayo.com.mx/bebidas",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": [
+      {
+        "id": "f3dbba77-be77-4b9a-ab7b-44e41a9bdc65",
+        "documentId": null,
+        "name": "AGUA EMBOTELLADA",
+        "description": null,
+        "price": 30,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "2dfe1fb9-198b-43fc-aa4b-7ecd05e373d6",
+        "documentId": null,
+        "name": "Horchata o Jamaica",
+        "description": null,
+        "price": 40,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "fb5d2a83-5fc4-4b1f-a4ea-329e3e373ae5",
+        "documentId": null,
+        "name": "JARRA DE AGUA HORCHATA O JAMAICA (1.5 LTS)",
+        "description": null,
+        "price": 125,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "07f8c9df-95f4-4ad7-a739-f97d742f0467",
+        "documentId": null,
+        "name": "Preparado estilo Guacamayo",
+        "description": null,
+        "price": 55,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "64d44712-5109-4d50-a28f-155e56bc157e",
+        "documentId": null,
+        "name": "Preparado estilo Guacamayo",
+        "description": null,
+        "price": 58,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "9b922eb1-c717-460e-a4a1-53ffeaacd48a",
+        "documentId": null,
+        "name": "Preparado estilo Guacamayo",
+        "description": null,
+        "price": 48,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "09e7c722-2c9f-49bb-a806-5257bf266087",
+        "documentId": null,
+        "name": "VASO DE LECHE (180 ML)",
+        "description": null,
+        "price": 41,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "6b9a39df-6201-4570-ac61-b87d7240ae6f",
+        "documentId": null,
+        "name": "VASO DE LECHE (180 ML)",
+        "description": null,
+        "price": 55,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "9f7936fd-cac2-4ba1-a80f-5ea0917d8b2f",
+        "documentId": null,
+        "name": "VASO DE LECHE (180 ML)",
+        "description": null,
+        "price": 49,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://restauranteelguacamayo.com.mx/bebidas",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.restauranteelguacamayo.com.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:58.719+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=4541346432697118714&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:54.204+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/elguacamayomx",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/guacamayo.mx/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "google_places",
+      "official_menus",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T20:05:20.22199+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:18:39.271566+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 6,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_source_summary"
+    ]
+  }
+}

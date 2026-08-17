@@ -1,0 +1,25 @@
+{
+  "slug": "la-opera",
+  "name": "LA OPERA",
+  "url": "http://laoperabar.com/",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Pulpo a la Gallega",
+      "category": "especialidades"
+    },
+    {
+      "name": "Caracoles en salsa chipotle",
+      "category": "especialidades"
+    },
+    {
+      "name": "Chamorro a la Gallega",
+      "category": "especialidades"
+    },
+    {
+      "name": "Lengua Veracruzana",
+      "category": "especialidades"
+    }
+  ]
+}

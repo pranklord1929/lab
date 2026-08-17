@@ -1,0 +1,196 @@
+{
+  "catalogName": "Maizajo",
+  "slug": "maizajo",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Maizajo",
+  "location": {
+    "address": "Fernando Montes de Oca 113, Condesa",
+    "neighborhood": "Condesa",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06140",
+    "coordinates": {
+      "latitude": 19.4148588,
+      "longitude": -99.1781367
+    }
+  },
+  "contact": {
+    "phone": "+52 55 9197 9461",
+    "website": "https://www.maizajo.com/",
+    "instagram": "maizajo",
+    "email": null
+  },
+  "hours": [
+    "restaurante lun–sáb 13:00–23:00, dom 13:00–18:00",
+    "taquería: walk-in"
+  ],
+  "food": {
+    "cuisine": "mexican / maize",
+    "chef": "Santiago Muñoz (press)",
+    "priceLevel": 3,
+    "notes": "Molino + taquería + restaurant on same site. Restaurant requires reservation."
+  },
+  "reservation": {
+    "platform": "official",
+    "url": "https://www.maizajo.com/pages/reserva-restaurante"
+  },
+  "distinctions": {
+    "michelin": "Seleccionado: Buena cocina",
+    "michelinStars": 0
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.maizajo.com/",
+    "observedAt": "2026-08-17",
+    "itemCount": 16,
+    "items": [
+      {
+        "name": "Menú degustación 10 tiempos",
+        "price": 2600,
+        "currency": "MXN",
+        "category": "tasting",
+        "description": "Técnicas de maíz y producto de temporada"
+      },
+      {
+        "name": "Tacos de camarón",
+        "price": 240,
+        "currency": "MXN",
+        "description": "Mojo isleño de guajillo, mayo habanero (2 pz)",
+        "category": "antojitos"
+      },
+      {
+        "name": "Vuelve a la vida",
+        "price": 420,
+        "currency": "MXN",
+        "description": "Camarón roca, ostión, caldo de jitomate, eucalipto",
+        "category": "antojitos"
+      },
+      {
+        "name": "Tlayuda de mar",
+        "price": 350,
+        "currency": "MXN",
+        "description": "Queso Oaxaca, frijoles, longaniza de pulpo, pescado curado",
+        "category": "antojitos"
+      },
+      {
+        "name": "Trilogía de antojitos",
+        "price": 220,
+        "currency": "MXN",
+        "description": "Memela mole Xico, gordita, quesadilla de lengua",
+        "category": "antojitos"
+      },
+      {
+        "name": "Tamal de hongos",
+        "price": 250,
+        "currency": "MXN",
+        "description": "Tres maíces, hongos, salsa achiotada (V)",
+        "category": "antojitos"
+      },
+      {
+        "name": "Manea",
+        "price": 350,
+        "currency": "MXN",
+        "description": "Tamal masa quebrada, cangrejo moro, chile amaxito",
+        "category": "antojitos"
+      },
+      {
+        "name": "Panucho",
+        "price": 320,
+        "currency": "MXN",
+        "description": "Mole de quelites, guajolote en escabeche",
+        "category": "antojitos"
+      },
+      {
+        "name": "Pichomole",
+        "price": 360,
+        "currency": "MXN",
+        "description": "Mole colonial, pork belly en recado blanco",
+        "category": "moles"
+      },
+      {
+        "name": "Mole de guayaba",
+        "price": 910,
+        "currency": "MXN",
+        "description": "Chuletón de cerdo 450g, verduras de chinampa",
+        "category": "moles"
+      },
+      {
+        "name": "Pesca en penca en 4 moles",
+        "price": 510,
+        "currency": "MXN",
+        "category": "moles"
+      },
+      {
+        "name": "Segueza con pulpo",
+        "price": 650,
+        "currency": "MXN",
+        "category": "moles"
+      },
+      {
+        "name": "Enmoladas de mole de Xico de barbacoa",
+        "price": 420,
+        "currency": "MXN",
+        "description": "Tacos dorados de barbacoa de pato (3 pz)",
+        "category": "moles"
+      },
+      {
+        "name": "Ensalada de la milpa",
+        "price": 250,
+        "currency": "MXN",
+        "category": "ensaladas"
+      },
+      {
+        "name": "Gaoneras para taquear",
+        "price": 1300,
+        "currency": "MXN",
+        "description": "NY Choice 400g",
+        "category": "carnes"
+      },
+      {
+        "name": "Lengua glaseada al carbón",
+        "price": 690,
+        "currency": "MXN",
+        "category": "carnes"
+      }
+    ],
+    "notes": "Official menu photo"
+  },
+  "sources": [
+    {
+      "source": "official",
+      "url": "https://www.maizajo.com/",
+      "fields": [
+        "address",
+        "hours",
+        "instagram",
+        "menu",
+        "reservation"
+      ]
+    }
+  ],
+  "gaps": [
+    "phone",
+    "coordinates"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "michelinReview": "Si te quedas en la taquería del bajo estarás de pie, pero si subes a Maizajo podrás sentarte y apreciar su estética marcadamente industrial-chic: mesas con patas hechas con vigas de construcción y sillas fabricadas con barras de acero corrugado. Mientras lees la carta del chef Santiago Muñoz Moctezuma podrás degustar unas tostadas con una picante salsa de habanero y pepita. Entre las mejores opciones están las tostadas de maíz azul al horno con puré de aguacate y láminas de atún aleta amarilla crudo, marinadas en aceite de sésamo negro y salsa de soya, así como el tamal de boda. En su versión vegetariana, este tamal de maíz va relleno con un guiso de chile poblano, poros y acelgas en salsa de jitomate, axiote y habanero. Todo coronado por finas rodajas de tubérculos que redondean un plato de matices dulces y terrosos a partes iguales.",
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/maizajo",
+      "id": "1213224"
+    },
+    {
+      "source": "resy",
+      "url": "https://resy.com/cities/mexico-city-mexico/venues/maizajo",
+      "slug": "maizajo"
+    }
+  ]
+}

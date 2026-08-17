@@ -1,0 +1,308 @@
+{
+  "slug": "abrasarme",
+  "name": "Abrasamar",
+  "url": "https://img1.wsimg.com/blobby/go/354b0000-1887-416d-9879-95fe76d6cc67/abrasamar_menuver180626.pdf",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Tostada Esmedregal Trufado",
+      "price": 285,
+      "currency": "MXN",
+      "category": "tostadas",
+      "description": "Caviar negro y poro frito, 60 g"
+    },
+    {
+      "name": "Tostada lonja de atún y chimichurri criollo",
+      "price": 275,
+      "currency": "MXN",
+      "category": "tostadas",
+      "description": "Aleta azul 60 g"
+    },
+    {
+      "name": "Tostada camarón con aderezo de chipotle ahumado y cacao",
+      "price": 195,
+      "currency": "MXN",
+      "category": "tostadas"
+    },
+    {
+      "name": "Tostada pulpo con emulsión de ajo y habanero rostizado",
+      "price": 225,
+      "currency": "MXN",
+      "category": "tostadas"
+    },
+    {
+      "name": "Ceviche blanco de robalo estilo Frontera",
+      "price": 195,
+      "currency": "MXN",
+      "category": "tostadas",
+      "description": "80 g"
+    },
+    {
+      "name": "Ceviche combinado con fruta de temporada",
+      "price": 225,
+      "currency": "MXN",
+      "category": "tostadas"
+    },
+    {
+      "name": "Tostada de salpicón de res",
+      "price": 295,
+      "currency": "MXN",
+      "category": "tostadas"
+    },
+    {
+      "name": "Tostada Sikilpak de mousse de pepita",
+      "price": 195,
+      "currency": "MXN",
+      "category": "tostadas"
+    },
+    {
+      "name": "Tostadas de pozol",
+      "price": 75,
+      "currency": "MXN",
+      "category": "tostadas",
+      "description": "3 pz"
+    },
+    {
+      "name": "Tostones de plátano",
+      "price": 75,
+      "currency": "MXN",
+      "category": "tostadas",
+      "description": "3 pz"
+    },
+    {
+      "name": "Ostiones a la leña en salsa de chiltepín",
+      "price": 325,
+      "currency": "MXN",
+      "category": "ostiones del golfo",
+      "description": "6 pz"
+    },
+    {
+      "name": "Ostiones gratinados con chipotle",
+      "price": 325,
+      "currency": "MXN",
+      "category": "ostiones del golfo",
+      "description": "6 pz"
+    },
+    {
+      "name": "Ostiones gratinados Abrasamar",
+      "price": 580,
+      "currency": "MXN",
+      "category": "ostiones del golfo",
+      "description": "Quesos tabasqueños y chaya"
+    },
+    {
+      "name": "Ostiones con tartar de atún trufado",
+      "price": 595,
+      "currency": "MXN",
+      "category": "ostiones del golfo"
+    },
+    {
+      "name": "Ostiones con salpicón de pulpo y camarón",
+      "price": 475,
+      "currency": "MXN",
+      "category": "ostiones del golfo"
+    },
+    {
+      "name": "Ostiones Tabasco",
+      "price": 325,
+      "currency": "MXN",
+      "category": "ostiones del golfo"
+    },
+    {
+      "name": "Mestiza al carbón de camarón",
+      "price": 165,
+      "currency": "MXN",
+      "category": "entre maíces",
+      "description": "Con xnipec"
+    },
+    {
+      "name": "Taco motuleño de pulpo con longaniza de Valladolid",
+      "price": 205,
+      "currency": "MXN",
+      "category": "entre maíces"
+    },
+    {
+      "name": "Panucho de pulpo negro y chiltomate",
+      "price": 195,
+      "currency": "MXN",
+      "category": "entre maíces"
+    },
+    {
+      "name": "Salbute de camarón",
+      "price": 145,
+      "currency": "MXN",
+      "category": "entre maíces"
+    },
+    {
+      "name": "Empanada de queso de hebra con camarón y chiltomate",
+      "price": 135,
+      "currency": "MXN",
+      "category": "entre maíces"
+    },
+    {
+      "name": "Taco rebosado de esmedregal",
+      "price": 175,
+      "currency": "MXN",
+      "category": "entre maíces"
+    },
+    {
+      "name": "Taco de atún al tikin-xic",
+      "price": 195,
+      "currency": "MXN",
+      "category": "entre maíces"
+    },
+    {
+      "name": "Taco de pescado del día al pibil",
+      "price": 195,
+      "currency": "MXN",
+      "category": "entre maíces"
+    },
+    {
+      "name": "Taco rebosado estilo San Benito",
+      "price": 160,
+      "currency": "MXN",
+      "category": "entre maíces"
+    },
+    {
+      "name": "Pocillo con barbacoa de mar",
+      "price": 135,
+      "currency": "MXN",
+      "category": "entre maíces"
+    },
+    {
+      "name": "Papadzules de mar",
+      "price": 595,
+      "currency": "MXN",
+      "category": "entre maíces",
+      "description": "3 pz. Camarón y queso de hebra"
+    },
+    {
+      "name": "Taco de camarón empanizado con puré de plátano macho",
+      "price": 195,
+      "currency": "MXN",
+      "category": "entre maíces"
+    },
+    {
+      "name": "Tortilla gruesa rellena de camarones y queso de hebra",
+      "price": 355,
+      "currency": "MXN",
+      "category": "entre maíces"
+    },
+    {
+      "name": "Tortilla gruesa rellena con pulpa de jaiba de Atasta",
+      "price": 425,
+      "currency": "MXN",
+      "category": "entre maíces"
+    },
+    {
+      "name": "Mestiza al carbón de rib eye",
+      "price": 165,
+      "currency": "MXN",
+      "category": "entre maíces"
+    },
+    {
+      "name": "Atún laminado con infusión de cítricos y cacao",
+      "price": 395,
+      "currency": "MXN",
+      "category": "barra fría"
+    },
+    {
+      "name": "Crudo de esmedregal encacahuatado",
+      "price": 325,
+      "currency": "MXN",
+      "category": "barra fría"
+    },
+    {
+      "name": "Cóctel frío de camarón estilo Progreso",
+      "price": 360,
+      "currency": "MXN",
+      "category": "barra fría"
+    },
+    {
+      "name": "Ceviche blanco de robalo estilo Frontera (plato)",
+      "price": 380,
+      "currency": "MXN",
+      "category": "barra fría"
+    },
+    {
+      "name": "Ceviche tropical de pulpo, camarón y robalo",
+      "price": 395,
+      "currency": "MXN",
+      "category": "barra fría"
+    },
+    {
+      "name": "Ceviche negro combinado",
+      "price": 395,
+      "currency": "MXN",
+      "category": "barra fría"
+    },
+    {
+      "name": "Aguachile verde de camarón con chile amashito",
+      "price": 340,
+      "currency": "MXN",
+      "category": "barra fría"
+    },
+    {
+      "name": "Rib eye al carbón con extracto de chiles secos",
+      "price": 695,
+      "currency": "MXN",
+      "category": "barra fría",
+      "description": "200 g"
+    },
+    {
+      "name": "Atún laminado con extracto de frutos rojos",
+      "price": 495,
+      "currency": "MXN",
+      "category": "barra fría"
+    },
+    {
+      "name": "Camarones cristal del mar de Campeche con limón caramelizado",
+      "price": 580,
+      "currency": "MXN",
+      "category": "parrilla",
+      "description": "500 g"
+    },
+    {
+      "name": "Camarones cristal flameados al xtabentún",
+      "price": 595,
+      "currency": "MXN",
+      "category": "parrilla"
+    },
+    {
+      "name": "Mone de robalo con hoja santa y tomate milpero",
+      "price": 695,
+      "currency": "MXN",
+      "category": "parrilla",
+      "description": "200 g"
+    },
+    {
+      "name": "Camarones axiotados con naranja agria",
+      "price": 580,
+      "currency": "MXN",
+      "category": "parrilla",
+      "description": "550 g"
+    },
+    {
+      "name": "Camarones cangrejo con mantequilla de perejil",
+      "price": 495,
+      "currency": "MXN",
+      "category": "parrilla",
+      "description": "500 g"
+    },
+    {
+      "name": "Costilla cargada 18 horas con juice de tuétanos",
+      "price": 895,
+      "currency": "MXN",
+      "category": "parrilla",
+      "description": "500 g"
+    },
+    {
+      "name": "Macarrones con crema de chiltepín, trufa blanca y camarones",
+      "price": 395,
+      "currency": "MXN",
+      "category": "parrilla"
+    }
+  ],
+  "notes": "Official PDF abrasamar_menuver180626.pdf linked from abrasamar.com (carta 18 Jun 2026)."
+}

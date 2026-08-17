@@ -1,0 +1,442 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "bbcd457e-a2f1-4cba-8b81-ab48d62e5c52",
+  "slug": "izakaya-sushi-roma",
+  "name": "Izakaya Sushi Roma",
+  "location": {
+    "neighborhood": "ROMA NORTE",
+    "borough": "Cuauhtémoc",
+    "address": "Av. Álvaro Obregón 120, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4179394,
+      "longitude": -99.1603792
+    }
+  },
+  "contact": {
+    "phone": "55 2155 9871",
+    "website": "http://www.izakayasushi.mx/",
+    "instagram": "https://instagram.com/izakayasushimx/",
+    "googleMapsUrl": "https://maps.google.com/?cid=14283773972235996205&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "sushi",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": "Busy Japanese eatery serving sushi towers & rolls, plus ramen, seafood, meat dishes & desserts.",
+    "hours": [
+      "domingo: 12:00–10:00 p.m.",
+      "lunes: 12:00–11:00 p.m.",
+      "martes: 12:00–11:00 p.m.",
+      "miércoles: 12:00–11:00 p.m.",
+      "jueves: 12:00–11:00 p.m.",
+      "viernes: 12:00 p.m. – 12:00 a.m.",
+      "sábado: 12:00 p.m. – 12:00 a.m."
+    ],
+    "rating": 4.4,
+    "reviewCount": 2214
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-09T18:55:03.171+00:00",
+    "observationAgeDaysAtExport": 38,
+    "documentCount": 2,
+    "itemCount": 19,
+    "documents": [
+      {
+        "id": "3bb1b0c7-093b-4637-beb4-22d50881d234",
+        "sourceUrl": "https://izakayasushi.mx/Bebidas",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.75,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:03.171+00:00"
+      },
+      {
+        "id": "60f40423-0614-454c-b41c-906028643a49",
+        "sourceUrl": "https://izakayasushi.mx/Menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.75,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:02.653+00:00"
+      }
+    ],
+    "items": [
+      {
+        "id": "eabca538-fb31-4f64-8278-a202a2b04e3b",
+        "documentId": "3bb1b0c7-093b-4637-beb4-22d50881d234",
+        "name": "AGUA CIEL",
+        "description": null,
+        "price": 58,
+        "currency": "MXN",
+        "category": "Bebidas",
+        "sourceUrl": "https://izakayasushi.mx/Bebidas",
+        "observedAt": "2026-07-09T18:55:03.171+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "2812317e-7b35-444c-9400-52c29c9892c0",
+        "documentId": "3bb1b0c7-093b-4637-beb4-22d50881d234",
+        "name": "AGUA CIEL MINERAL",
+        "description": null,
+        "price": 63,
+        "currency": "MXN",
+        "category": "Bebidas",
+        "sourceUrl": "https://izakayasushi.mx/Bebidas",
+        "observedAt": "2026-07-09T18:55:03.171+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "316cd36b-0c1c-43fb-a7ab-9b2dc7fb0233",
+        "documentId": "3bb1b0c7-093b-4637-beb4-22d50881d234",
+        "name": "AGUA QUINA",
+        "description": null,
+        "price": 63,
+        "currency": "MXN",
+        "category": "Bebidas",
+        "sourceUrl": "https://izakayasushi.mx/Bebidas",
+        "observedAt": "2026-07-09T18:55:03.171+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "2744f601-2978-4d58-980f-45b30e8a1015",
+        "documentId": "3bb1b0c7-093b-4637-beb4-22d50881d234",
+        "name": "AGUA ZOE",
+        "description": null,
+        "price": 62,
+        "currency": "MXN",
+        "category": "Bebidas",
+        "sourceUrl": "https://izakayasushi.mx/Bebidas",
+        "observedAt": "2026-07-09T18:55:03.171+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "47d5aa86-37c9-45cc-842d-e57c648a1f9d",
+        "documentId": "3bb1b0c7-093b-4637-beb4-22d50881d234",
+        "name": "COCA COLA",
+        "description": null,
+        "price": 63,
+        "currency": "MXN",
+        "category": "Bebidas",
+        "sourceUrl": "https://izakayasushi.mx/Bebidas",
+        "observedAt": "2026-07-09T18:55:03.171+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "3caaabde-96cf-498f-8af9-338847799c4f",
+        "documentId": "3bb1b0c7-093b-4637-beb4-22d50881d234",
+        "name": "COCA COLA LIGTH",
+        "description": null,
+        "price": 63,
+        "currency": "MXN",
+        "category": "Bebidas",
+        "sourceUrl": "https://izakayasushi.mx/Bebidas",
+        "observedAt": "2026-07-09T18:55:03.171+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "ac05c71a-37cb-4eaf-a907-fab248c04270",
+        "documentId": "3bb1b0c7-093b-4637-beb4-22d50881d234",
+        "name": "COCA COLA SIN AZUCAR",
+        "description": null,
+        "price": 63,
+        "currency": "MXN",
+        "category": "Bebidas",
+        "sourceUrl": "https://izakayasushi.mx/Bebidas",
+        "observedAt": "2026-07-09T18:55:03.171+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "d2be20f1-aaf2-4cd3-9fb6-66072167a1b0",
+        "documentId": "3bb1b0c7-093b-4637-beb4-22d50881d234",
+        "name": "FANTA",
+        "description": null,
+        "price": 63,
+        "currency": "MXN",
+        "category": "Bebidas",
+        "sourceUrl": "https://izakayasushi.mx/Bebidas",
+        "observedAt": "2026-07-09T18:55:03.171+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "ec113ce0-86ae-4a95-b80b-d441e79270b0",
+        "documentId": "3bb1b0c7-093b-4637-beb4-22d50881d234",
+        "name": "FRESCA",
+        "description": null,
+        "price": 63,
+        "currency": "MXN",
+        "category": "Bebidas",
+        "sourceUrl": "https://izakayasushi.mx/Bebidas",
+        "observedAt": "2026-07-09T18:55:03.171+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "0ed03929-451a-4cdc-a1c3-7d9d28c8aa47",
+        "documentId": "3bb1b0c7-093b-4637-beb4-22d50881d234",
+        "name": "GINGER ALE",
+        "description": null,
+        "price": 63,
+        "currency": "MXN",
+        "category": "Bebidas",
+        "sourceUrl": "https://izakayasushi.mx/Bebidas",
+        "observedAt": "2026-07-09T18:55:03.171+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "2f67da86-4d2d-4caf-bffa-8855ea1bf938",
+        "documentId": "3bb1b0c7-093b-4637-beb4-22d50881d234",
+        "name": "PERRIER",
+        "description": null,
+        "price": 78,
+        "currency": "MXN",
+        "category": "Bebidas",
+        "sourceUrl": "https://izakayasushi.mx/Bebidas",
+        "observedAt": "2026-07-09T18:55:03.171+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "2d232143-8a01-4817-889c-ec0047684183",
+        "documentId": "3bb1b0c7-093b-4637-beb4-22d50881d234",
+        "name": "RAMUNE LIMA",
+        "description": null,
+        "price": 118,
+        "currency": "MXN",
+        "category": "Bebidas",
+        "sourceUrl": "https://izakayasushi.mx/Bebidas",
+        "observedAt": "2026-07-09T18:55:03.171+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "634f3d06-26c3-4e94-9913-f73afb462f74",
+        "documentId": "3bb1b0c7-093b-4637-beb4-22d50881d234",
+        "name": "SAN PELLEGRINO CHICA",
+        "description": null,
+        "price": 88,
+        "currency": "MXN",
+        "category": "Bebidas",
+        "sourceUrl": "https://izakayasushi.mx/Bebidas",
+        "observedAt": "2026-07-09T18:55:03.171+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "26e56bd8-4921-440a-865c-e99fe83053b0",
+        "documentId": "3bb1b0c7-093b-4637-beb4-22d50881d234",
+        "name": "SIDRAL",
+        "description": null,
+        "price": 63,
+        "currency": "MXN",
+        "category": "Bebidas",
+        "sourceUrl": "https://izakayasushi.mx/Bebidas",
+        "observedAt": "2026-07-09T18:55:03.171+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "a779f65f-59d1-4adc-924b-6391c5379dd0",
+        "documentId": "3bb1b0c7-093b-4637-beb4-22d50881d234",
+        "name": "SIDRAL LIGTH",
+        "description": null,
+        "price": 63,
+        "currency": "MXN",
+        "category": "Bebidas",
+        "sourceUrl": "https://izakayasushi.mx/Bebidas",
+        "observedAt": "2026-07-09T18:55:03.171+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "9f6092f4-3233-408c-941f-28cd7be996ab",
+        "documentId": "3bb1b0c7-093b-4637-beb4-22d50881d234",
+        "name": "SPRITE",
+        "description": null,
+        "price": 63,
+        "currency": "MXN",
+        "category": "Bebidas",
+        "sourceUrl": "https://izakayasushi.mx/Bebidas",
+        "observedAt": "2026-07-09T18:55:03.171+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "ca914f37-ef8b-4068-ac12-31ca7c50e81f",
+        "documentId": "3bb1b0c7-093b-4637-beb4-22d50881d234",
+        "name": "SPRITE ZERO",
+        "description": null,
+        "price": 63,
+        "currency": "MXN",
+        "category": "Bebidas",
+        "sourceUrl": "https://izakayasushi.mx/Bebidas",
+        "observedAt": "2026-07-09T18:55:03.171+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "3f6767c0-bd15-4718-8c5c-f760a73922fe",
+        "documentId": "3bb1b0c7-093b-4637-beb4-22d50881d234",
+        "name": "SUPER BERRY MORADO",
+        "description": null,
+        "price": 78,
+        "currency": "MXN",
+        "category": "Bebidas",
+        "sourceUrl": "https://izakayasushi.mx/Bebidas",
+        "observedAt": "2026-07-09T18:55:03.171+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "d56b1659-e620-4733-bfb9-38813449f62e",
+        "documentId": "3bb1b0c7-093b-4637-beb4-22d50881d234",
+        "name": "SUPER BERRY ROJO",
+        "description": null,
+        "price": 78,
+        "currency": "MXN",
+        "category": "Bebidas",
+        "sourceUrl": "https://izakayasushi.mx/Bebidas",
+        "observedAt": "2026-07-09T18:55:03.171+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://izakayasushi.mx/Bebidas",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://izakayasushi.mx/Menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.izakayasushi.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:37.845+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=14283773972235996205&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:38.319+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/izakayasushimx",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/izakayasushimx/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 5,
+    "sourceNames": [
+      "foursquare",
+      "google_places",
+      "official_menus",
+      "official_website",
+      "resy"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T20:20:18.817259+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:12:22.762584+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": true,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 16,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review"
+    ]
+  }
+}

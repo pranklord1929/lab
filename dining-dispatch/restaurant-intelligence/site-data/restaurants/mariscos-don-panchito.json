@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "d880df2c-861f-40a6-8466-b6e010a6b742",
+  "slug": "mariscos-don-panchito",
+  "name": "Mariscos Don Panchito",
+  "location": {
+    "neighborhood": "VERÓNICA ANZURES",
+    "borough": "Miguel Hidalgo",
+    "address": "ENTREGAMOS A DOMICILIO, C. Bahia de Sta. Barbara 68, Verónica Anzúres, Miguel Hidalgo, 11300 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4369025,
+      "longitude": -99.1756429
+    }
+  },
+  "contact": {
+    "phone": "55 5366 9118",
+    "website": null,
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=16336091773026822647&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "seafood",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 11:30 a.m. – 7:00 p.m.",
+      "lunes: 12:00–6:00 p.m.",
+      "martes: 12:00–6:00 p.m.",
+      "miércoles: 12:00–6:00 p.m.",
+      "jueves: 12:00–6:00 p.m.",
+      "viernes: 11:30 a.m. – 7:00 p.m.",
+      "sábado: 11:30 a.m. – 7:00 p.m."
+    ],
+    "rating": 4.4,
+    "reviewCount": 5738
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "missing",
+    "observedAt": null,
+    "observationAgeDaysAtExport": null,
+    "documentCount": 0,
+    "itemCount": 0,
+    "documents": [],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=16336091773026822647&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:28.365+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "foursquare",
+      "google_places"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-06-29T14:06:41.805984+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:06:41.932067+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 313,
+    "richnessScore": 5,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram,website,menu",
+    "actionPriority": 8,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_website",
+      "missing_instagram",
+      "missing_source_summary",
+      "missing_menu_document",
+      "missing_structured_menu_items"
+    ]
+  }
+}

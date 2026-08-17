@@ -1,0 +1,209 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "31968410-8e59-481a-818f-eb7a317bb76a",
+  "slug": "parrilla-quilmes",
+  "name": "Parrilla Quilmes",
+  "location": {
+    "neighborhood": "CUAUHTÉMOC",
+    "borough": "Cuauhtémoc",
+    "address": "Río Pánuco 96, Cuauhtémoc, 06500 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4304455,
+      "longitude": -99.1677589
+    }
+  },
+  "contact": {
+    "phone": "55 1313 8304",
+    "website": "WWW.RESTAURANTEQUILMES.COM",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=2651369765378239991&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 12:00–8:00 p.m.",
+      "lunes: 12:00–9:00 p.m.",
+      "martes: 12:00–9:00 p.m.",
+      "miércoles: 12:00–9:00 p.m.",
+      "jueves: 12:00–10:00 p.m.",
+      "viernes: 12:00–10:00 p.m.",
+      "sábado: 12:00–10:00 p.m."
+    ],
+    "rating": 4.1,
+    "reviewCount": 248
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-15T20:57:54.621Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 5,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "5a29c0a9-4c74-4c91-ba51-53cebb6c0270",
+        "sourceUrl": "https://www.restaurantequilmes.com/vinos",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:57:54.621Z"
+      },
+      {
+        "id": "9da9a57f-08d4-447f-a399-6c5a27cd926d",
+        "sourceUrl": "https://www.restaurantequilmes.com/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:57:54.621Z"
+      },
+      {
+        "id": "318bbf01-4df3-4799-a247-4ab9425bcc5b",
+        "sourceUrl": "https://static.wixstatic.com/media/e316f544f9094143b9eac01f1f19e697.png/v1/fill/w_39,h_39,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/e316f544f9094143b9eac01f1f19e697.png",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "candidate_filter:non_menu_image",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      },
+      {
+        "id": "108e0095-89c5-4c25-a9c7-981faf57c8d8",
+        "sourceUrl": "https://restaurantequilmes.com/vinos",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "560f5790-19d8-4574-ad23-da22839c718a",
+        "sourceUrl": "https://restaurantequilmes.com/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://restaurantequilmes.com/vinos",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://restaurantequilmes.com/menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=2651369765378239991&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:55.965+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/parrillaquilmes/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "denue",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.165171+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:19:00.645323+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 6,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_cuisine",
+      "missing_price_level",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

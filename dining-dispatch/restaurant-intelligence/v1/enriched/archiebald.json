@@ -1,0 +1,172 @@
+{
+  "catalogName": "Archiebald",
+  "slug": "archiebald",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Archiebald Steak Home",
+  "location": {
+    "address": "Andrés Bello 29, JW Marriott Mexico City Polanco",
+    "neighborhood": "Polanco",
+    "borough": "Miguel Hidalgo",
+    "postalCode": "11560",
+    "coordinates": {
+      "latitude": 19.4269697,
+      "longitude": -99.1951073
+    }
+  },
+  "contact": {
+    "phone": "+52 55 1322 8411",
+    "website": "https://www.instagram.com/archiebaldmexicocity/",
+    "instagram": "archiebaldmexicocity",
+    "email": null,
+    "websiteIsInstagram": true
+  },
+  "hours": [
+    "lun–mié 13:00–01:00",
+    "jue–sáb 13:00–02:30",
+    "dom 13:00–22:30"
+  ],
+  "food": {
+    "cuisine": "american steakhouse",
+    "priceLevel": 4
+  },
+  "reservation": {
+    "platform": "opentable / phone",
+    "url": "https://www.opentable.com/r/archiebald-ciudad-de-mexico",
+    "phone": "+52 55 1322 8411"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://foodandwineespanol.com/gastronomia/restaurantes/archiebald-steak-home-lujo-y-sabor-en-el-corazon-de-polanco/",
+    "observedAt": "2026-08-17",
+    "itemCount": 16,
+    "items": [
+      {
+        "name": "Steak tartar con pan de masa madre",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Crab cakes de cangrejo azul",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Ensalada de betabel al rescoldo con stracciatella",
+        "price": null,
+        "currency": "MXN",
+        "category": "ensaladas"
+      },
+      {
+        "name": "Escargots de Bourgogne",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Crudo de kampachi con vinagreta de balsámico",
+        "price": null,
+        "currency": "MXN",
+        "category": "crudos"
+      },
+      {
+        "name": "Cóctel de camarón",
+        "price": null,
+        "currency": "MXN",
+        "category": "crudos"
+      },
+      {
+        "name": "Sopa de cebolla",
+        "price": null,
+        "currency": "MXN",
+        "category": "sopas"
+      },
+      {
+        "name": "Porterhouse",
+        "price": null,
+        "currency": "MXN",
+        "category": "steaks"
+      },
+      {
+        "name": "Filet mignon",
+        "price": null,
+        "currency": "MXN",
+        "category": "steaks"
+      },
+      {
+        "name": "Cowboy steak",
+        "price": null,
+        "currency": "MXN",
+        "category": "steaks"
+      },
+      {
+        "name": "NY Strip",
+        "price": null,
+        "currency": "MXN",
+        "category": "steaks"
+      },
+      {
+        "name": "Rib Eye",
+        "price": null,
+        "currency": "MXN",
+        "category": "steaks"
+      },
+      {
+        "name": "Cowboy de cerdo",
+        "price": null,
+        "currency": "MXN",
+        "category": "carnes"
+      },
+      {
+        "name": "Rack de cordero",
+        "price": null,
+        "currency": "MXN",
+        "category": "carnes"
+      },
+      {
+        "name": "Cheesecake vasco",
+        "price": null,
+        "currency": "MXN",
+        "category": "postres"
+      },
+      {
+        "name": "Hot chocolate chip cookie con helado de vainilla",
+        "price": null,
+        "currency": "MXN",
+        "category": "postres"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/archiebaldmexicocity/",
+      "fields": [
+        "location",
+        "phone"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://foodandwineespanol.com/gastronomia/restaurantes/archiebald-steak-home-lujo-y-sabor-en-el-corazon-de-polanco/",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "gaps": [
+    "street number inside hotel",
+    "hours"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": []
+}

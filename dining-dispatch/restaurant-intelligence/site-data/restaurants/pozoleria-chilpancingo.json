@@ -1,0 +1,194 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "adf292ec-8e6b-4d55-81de-2ec2bdcebf04",
+  "slug": "pozoleria-chilpancingo",
+  "name": "Pozolería Chilpancingo",
+  "location": {
+    "neighborhood": "LOS SAUCES",
+    "borough": "Coyoacán",
+    "address": "Calz. del Hueso 718, Coapa, Los Sauces, Coyoacán, 04940 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3014574,
+      "longitude": -99.1166678
+    }
+  },
+  "contact": {
+    "phone": "55 6234 6485",
+    "website": "https://queresto.com/chilpo2018",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=15582093534452530762&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "mexican",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 10:30 a.m. – 7:30 p.m.",
+      "lunes: Cerrado",
+      "martes: 1:00–9:00 p.m.",
+      "miércoles: 1:00–9:00 p.m.",
+      "jueves: 1:00–9:30 p.m.",
+      "viernes: 1:00–9:30 p.m.",
+      "sábado: 1:00–9:30 p.m."
+    ],
+    "rating": 4.3,
+    "reviewCount": 1495
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-09T18:56:21.515+00:00",
+    "observationAgeDaysAtExport": 38,
+    "documentCount": 1,
+    "itemCount": 3,
+    "documents": [
+      {
+        "id": "95f32666-b752-4335-a8e4-89c22e2c63c5",
+        "sourceUrl": "https://queresto.com/chilpo2018/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.34,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:56:21.515+00:00"
+      }
+    ],
+    "items": [
+      {
+        "id": "496dbfd7-13e7-40fc-adc2-848f286b31a1",
+        "documentId": null,
+        "name": "Jamaica, Tamarindo y Horchata Aguas 100% naturales 500ml",
+        "description": null,
+        "price": 30,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "82fca0ea-e65c-4e86-a2a0-f5a649139aee",
+        "documentId": null,
+        "name": "Los mejores!",
+        "description": null,
+        "price": 121,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "835df2e0-dee8-4961-ade4-621ecd524e1a",
+        "documentId": null,
+        "name": "Recomendada!",
+        "description": null,
+        "price": 48,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://queresto.com/chilpo2018",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:56.349+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=15582093534452530762&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:52.284+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 4,
+    "sourceNames": [
+      "foursquare",
+      "google_places",
+      "official_menus",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T20:05:20.22199+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:18:12.002586+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 431,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_source_summary"
+    ]
+  }
+}

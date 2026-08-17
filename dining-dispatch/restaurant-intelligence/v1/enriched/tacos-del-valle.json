@@ -1,0 +1,171 @@
+{
+  "catalogName": "Tacos del Valle",
+  "slug": "tacos-del-valle",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Tacos del Valle",
+  "location": {
+    "address": "Álvaro Obregón 130, Roma Norte (CDMX). Also Río Tamazunchale 280, San Pedro Garza García.",
+    "neighborhood": "Roma Norte",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06700",
+    "coordinates": {
+      "latitude": 19.4178601,
+      "longitude": -99.1605919
+    }
+  },
+  "contact": {
+    "phone": "+52 81 2351 1560",
+    "website": "https://tacosdelvalle.com/",
+    "instagram": "tacosdelvalle",
+    "email": null
+  },
+  "hours": [
+    {
+      "weekday": "sunday",
+      "start": "00:00",
+      "end": "00:00"
+    },
+    {
+      "weekday": "monday",
+      "start": "13:00",
+      "end": "01:00"
+    },
+    {
+      "weekday": "tuesday",
+      "start": "13:00",
+      "end": "01:00"
+    },
+    {
+      "weekday": "wednesday",
+      "start": "13:00",
+      "end": "01:00"
+    },
+    {
+      "weekday": "thursday",
+      "start": "13:00",
+      "end": "01:00"
+    },
+    {
+      "weekday": "friday",
+      "start": "13:00",
+      "end": "01:00"
+    },
+    {
+      "weekday": "saturday",
+      "start": "00:00",
+      "end": "00:00"
+    }
+  ],
+  "food": {
+    "cuisine": "northern mexican tacos / trompos",
+    "priceLevel": 2,
+    "notes": "Three trompos. Bib Gourmand claimed on official site."
+  },
+  "reservation": {
+    "platform": "walk-in",
+    "url": "https://resy.com/cities/mexico-city-mexico/venues/buzarda-del-valle"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://tacosdelvalle.com/",
+    "observedAt": "2026-08-17",
+    "itemCount": 11,
+    "items": [
+      {
+        "name": "TDV Fried Potato Chips",
+        "description": "Panela and salsa",
+        "category": "starters"
+      },
+      {
+        "name": "Crisp Corn Tostada",
+        "description": "Rib eye, chile japonés salsa",
+        "category": "starters"
+      },
+      {
+        "name": "Frijoles Charros",
+        "description": "Pork, bacon, chorizo, polka sausage",
+        "category": "starters"
+      },
+      {
+        "name": "Frijoles Charros Especiales",
+        "description": "Plus trompo asada and cheese",
+        "category": "starters"
+      },
+      {
+        "name": "Trompo Negro Fuego",
+        "description": "3 pork tacos, corn tortilla",
+        "category": "trompos"
+      },
+      {
+        "name": "Trompo Rojo de Pork Belly",
+        "description": "3 pork belly tacos",
+        "category": "trompos"
+      },
+      {
+        "name": "Trompo de Carne Asada",
+        "description": "3 beef tacos",
+        "category": "trompos"
+      },
+      {
+        "name": "Pirata",
+        "description": "Giant flour tortilla, sirloin, beans, cheese",
+        "category": "especiales"
+      },
+      {
+        "name": "Bistec con Tuétano",
+        "description": "5 beef tacos, chicharrón, marrow",
+        "category": "tacos"
+      },
+      {
+        "name": "Gringa Trompo Rojo",
+        "description": "Cheese, pork belly, avocado, flour tortilla",
+        "category": "gringas"
+      },
+      {
+        "name": "Tijuanita",
+        "description": "Costra, asada, aguacate, papa rallada",
+        "category": "especiales"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "official",
+      "url": "https://tacosdelvalle.com/",
+      "fields": [
+        "address",
+        "instagram",
+        "menu"
+      ]
+    }
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "distinctions": {
+    "michelin": "Bib Gourmand : nuestras mejores relaciones calidad-precio"
+  },
+  "michelinReview": "Taburetes altos, superficies relucientes… Esta bonita taquería montada al estilo de los diners clásicos propone carnes de cerdo y de res sabiamente sazonadas y asadas en el trompo, que gira y gira dejando que sus llamas churrusquen deliciosamente las carnes. Te las servirán sobre sencillas tortillas de maíz y podrás aliñarlas con las tres salsas que se presentan en botellitas y, aunque son las auténticas protagonistas de la carta, podrás optar también por propuestas más elaboradas como los tacos árabes o la tijuanita.",
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/tacos-del-valle",
+      "id": "1218323"
+    },
+    {
+      "source": "reservandonos",
+      "phone": "+525648111054"
+    },
+    {
+      "source": "resy",
+      "url": "https://resy.com/cities/mexico-city-mexico/venues/buzarda-del-valle",
+      "slug": "buzarda-del-valle"
+    }
+  ]
+}

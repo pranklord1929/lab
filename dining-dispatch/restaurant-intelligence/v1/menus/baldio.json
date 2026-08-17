@@ -1,0 +1,176 @@
+{
+  "slug": "baldio",
+  "name": "Baldío",
+  "url": "https://www.baldio.mx/menu",
+  "items": [
+    {
+      "name": "Experiencia Baldío",
+      "price": 1900,
+      "currency": "MXN",
+      "category": "tasting"
+    },
+    {
+      "name": "Maridaje mixto",
+      "price": 1100,
+      "currency": "MXN",
+      "category": "tasting"
+    },
+    {
+      "name": "Maridaje vino",
+      "price": 1600,
+      "currency": "MXN",
+      "category": "tasting"
+    },
+    {
+      "name": "Menú del día",
+      "price": 600,
+      "currency": "MXN",
+      "description": "lun–vie 14:00–17:00",
+      "category": "menu-del-dia"
+    },
+    {
+      "name": "Ceviche de mango",
+      "price": 140,
+      "currency": "MXN",
+      "description": "Nam Jim de almeja chocolata y maracuyá",
+      "category": "entradas"
+    },
+    {
+      "name": "Ceviche, leche de tigre",
+      "price": 400,
+      "currency": "MXN",
+      "description": "Jícama y hierbas chinamperas",
+      "category": "entradas"
+    },
+    {
+      "name": "Mezcla de jitomate de Tecomatlán",
+      "price": 260,
+      "currency": "MXN",
+      "description": "Chayote encurtido y sikil pak",
+      "category": "entradas"
+    },
+    {
+      "name": "Aguacates criollos al grill",
+      "price": 280,
+      "currency": "MXN",
+      "description": "Salsa Inglesa Mexicana, furikake de maracuyá",
+      "category": "entradas"
+    },
+    {
+      "name": "Focaccia de maíz",
+      "price": 180,
+      "currency": "MXN",
+      "description": "Mantequilla de cebolla con chintextle",
+      "category": "entradas"
+    },
+    {
+      "name": "Crudo de pesca del día",
+      "price": 400,
+      "currency": "MXN",
+      "description": "Leche de tigre de mucílago, aguacate, ciruela",
+      "category": "entradas"
+    },
+    {
+      "name": "Pescadilla, salsa chubasco",
+      "price": 90,
+      "currency": "MXN",
+      "description": "Pieza $90 / orden 3 $270",
+      "category": "entradas"
+    },
+    {
+      "name": "Vegetales chinamperos",
+      "price": 300,
+      "currency": "MXN",
+      "description": "Pipián verde y ajo negro",
+      "category": "entradas"
+    },
+    {
+      "name": "Esquites",
+      "price": 220,
+      "currency": "MXN",
+      "description": "Mantequilla ahumada y epazote",
+      "category": "entradas"
+    },
+    {
+      "name": "Chorizo de cerdo",
+      "price": 320,
+      "currency": "MXN",
+      "description": "Salsa perica y tortillas",
+      "category": "fuertes"
+    },
+    {
+      "name": "Trucha zarandeada",
+      "price": 800,
+      "currency": "MXN",
+      "description": "Mayonesa de hierbas, arroz para taquear",
+      "category": "fuertes"
+    },
+    {
+      "name": "Tetela",
+      "price": 320,
+      "currency": "MXN",
+      "description": "Queso de cacahuate, hongos de lluvia, pipián rojo",
+      "category": "fuertes"
+    },
+    {
+      "name": "Lomo de cerdo pelón",
+      "price": 480,
+      "currency": "MXN",
+      "description": "Curry-mole y hojas de chinampa",
+      "category": "fuertes"
+    },
+    {
+      "name": "New York Tierra de Todos",
+      "price": 1100,
+      "currency": "MXN",
+      "description": "Mole rojo, cebolla asada, insectos",
+      "category": "fuertes"
+    },
+    {
+      "name": "Trucha Nemi Natura",
+      "price": 400,
+      "currency": "MXN",
+      "description": "Agrodolce y jitomates rostizados",
+      "category": "fuertes"
+    },
+    {
+      "name": "Cerdo pelón con mole de tamarindo",
+      "price": 600,
+      "currency": "MXN",
+      "description": "Para compartir, kimchi, chimichurri",
+      "category": "fuertes"
+    },
+    {
+      "name": "Tamal, barbacoa de hongos",
+      "price": 320,
+      "currency": "MXN",
+      "description": "Salsa borracha y verduras encurtidas",
+      "category": "fuertes"
+    },
+    {
+      "name": "Sorbet de mango y miel",
+      "price": 110,
+      "currency": "MXN",
+      "category": "postres"
+    },
+    {
+      "name": "Sándwich de chocolate",
+      "price": 220,
+      "currency": "MXN",
+      "category": "postres"
+    },
+    {
+      "name": "Affogato",
+      "price": 195,
+      "currency": "MXN",
+      "description": "Espresso de mezquite, helado de pozol",
+      "category": "postres"
+    },
+    {
+      "name": "Pastel de plátano caramelizado",
+      "price": 195,
+      "currency": "MXN",
+      "category": "postres"
+    }
+  ]
+}

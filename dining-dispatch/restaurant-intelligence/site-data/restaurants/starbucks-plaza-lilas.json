@@ -1,0 +1,294 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "97363fcb-8133-4d5a-b8d7-ca0e2098eab3",
+  "slug": "starbucks-plaza-lilas",
+  "name": "Starbucks Plaza Lilas",
+  "location": {
+    "neighborhood": "BOSQUES DE LAS LOMAS",
+    "borough": "Miguel Hidalgo",
+    "address": "C. P.º de Las Lilas 92, Bosque de las Lomas, Miguel Hidalgo, 11910 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3875855,
+      "longitude": -99.2479437
+    }
+  },
+  "contact": {
+    "phone": "800 288 0888",
+    "website": "http://www.starbucks.com.mx/",
+    "instagram": "https://instagram.com/starbucksMex/",
+    "googleMapsUrl": "https://maps.google.com/?cid=878594764297230052&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "coffee_shop",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": "Welcoming coffeehouse with handcrafted coffee, espresso & tea, plus breakfast, lunch & pastries.",
+    "hours": [
+      "domingo: 8:00 a.m. – 7:00 p.m.",
+      "lunes: 7:00 a.m. – 9:00 p.m.",
+      "martes: 7:00 a.m. – 9:00 p.m.",
+      "miércoles: 7:00 a.m. – 9:00 p.m.",
+      "jueves: 7:00 a.m. – 9:00 p.m.",
+      "viernes: 7:00 a.m. – 9:00 p.m.",
+      "sábado: 8:00 a.m. – 8:00 p.m."
+    ],
+    "rating": 4.3,
+    "reviewCount": 1059
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 8,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "14a6a628-ac93-4d4a-9792-d3cff56824b1",
+        "sourceUrl": "https://www.starbucks.com.mx/menu/bebidas/bebidas-base-te",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "2c4b78f2-eb4e-4050-a848-076a40796078",
+        "sourceUrl": "https://www.starbucks.com.mx/menu/bebidas/frappuccinosr",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "36a21c36-ef8a-4c0f-af29-42ee152970af",
+        "sourceUrl": "https://www.starbucks.com.mx/menu/bebidas/cold-brew",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "4c2275d5-40e3-4fc0-bb36-ea94af706eaa",
+        "sourceUrl": "https://www.starbucks.com.mx/menu/bebidas/frias",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "54cbb43e-fc0f-444b-8e02-29afd0fcb222",
+        "sourceUrl": "https://www.starbucks.com.mx/menu/bebidas/calientes",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "5c841f93-578f-4055-b903-44e1abd28265",
+        "sourceUrl": "https://www.starbucks.com.mx/menu/alimentos/elige-tu-complemento-favorito",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "877d9c32-f25f-454a-aecd-0d1affe37bc6",
+        "sourceUrl": "https://www.starbucks.com.mx/menu/cafe-en-grano/elige-tu-cafe-favorito",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "715462c6-63b9-4fdc-b982-76345e565379",
+        "sourceUrl": "https://www.starbucks.com.mx/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.75,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:56:26.147+00:00"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.starbucks.com.mx/menu/bebidas/calientes",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.starbucks.com.mx/menu/bebidas/frappuccinosr",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.starbucks.com.mx/menu/bebidas/frias",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.starbucks.com.mx/menu/bebidas/bebidas-base-te",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.starbucks.com.mx/menu/bebidas/cold-brew",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.starbucks.com.mx/menu/alimentos/elige-tu-complemento-favorito",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.starbucks.com.mx/menu/cafe-en-grano/elige-tu-cafe-favorito",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://starbucks.com.mx/menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.starbucks.com.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:34.769+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=878594764297230052&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:36.663+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/StarbucksMexico",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/starbucksMex/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.165171+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:11:34.977844+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 474,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_structured_menu_items"
+    ]
+  }
+}

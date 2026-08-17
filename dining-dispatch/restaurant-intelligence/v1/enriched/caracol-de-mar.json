@@ -1,0 +1,396 @@
+{
+  "catalogName": "Caracol de Mar",
+  "slug": "caracol-de-mar",
+  "status": "enriched",
+  "confidence": "medium",
+  "name": "Caracol de Mar",
+  "location": {
+    "address": "Campeche 340 esquina Saltillo, Condesa",
+    "neighborhood": "Condesa",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06100",
+    "coordinates": {
+      "latitude": 19.4089529,
+      "longitude": -99.1735242
+    }
+  },
+  "contact": {
+    "phone": "+52 55 5949 8304",
+    "website": "https://caracoldemar.com.mx/",
+    "instagram": "caracoldemarcdmx",
+    "email": "info@caracoldemar.com.mx",
+    "phoneAlt": "+52 55 1920 4041"
+  },
+  "hours": [
+    "lun–sáb 13:00–22:00",
+    "dom 13:00–20:00"
+  ],
+  "food": {
+    "cuisine": "contemporary mexican / seafood",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/r/caracol-de-mar-ciudad-de-mexico"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://caracoldemar.com.mx/menu/",
+    "observedAt": "2026-08-17",
+    "itemCount": 47,
+    "items": [
+      {
+        "name": "Ceviche de almeja chocolata",
+        "price": 130,
+        "currency": "MXN",
+        "category": "conchas-y-mariscos"
+      },
+      {
+        "name": "Ceviche de almeja blanca",
+        "price": 140,
+        "currency": "MXN",
+        "category": "conchas-y-mariscos"
+      },
+      {
+        "name": "Ceviche de almeja roja",
+        "price": 180,
+        "currency": "MXN",
+        "category": "conchas-y-mariscos"
+      },
+      {
+        "name": "Ceviche de almeja reina",
+        "price": 360,
+        "currency": "MXN",
+        "category": "conchas-y-mariscos"
+      },
+      {
+        "name": "Ostiones japoneses",
+        "price": 520,
+        "currency": "MXN",
+        "category": "conchas-y-mariscos",
+        "description": "Mignonette de salsa bruja, sriracha de jalapeño, 8 pzas"
+      },
+      {
+        "name": "Ostiones Kumamoto",
+        "price": 680,
+        "currency": "MXN",
+        "category": "conchas-y-mariscos"
+      },
+      {
+        "name": "Camarones para pelar",
+        "price": 915,
+        "currency": "MXN",
+        "category": "conchas-y-mariscos",
+        "description": "Mayonesa de chiltepín, 300 g"
+      },
+      {
+        "name": "Tenazas de cangrejo jumbo",
+        "price": 2065,
+        "currency": "MXN",
+        "category": "conchas-y-mariscos",
+        "description": "Orden chica $1,190"
+      },
+      {
+        "name": "Tenazas de cangrejo colosal",
+        "price": 2880,
+        "currency": "MXN",
+        "category": "conchas-y-mariscos",
+        "description": "Orden chica $2,020"
+      },
+      {
+        "name": "Tostada de coco",
+        "price": 165,
+        "currency": "MXN",
+        "category": "frio",
+        "description": "Aguacate, chintextle, 70 g"
+      },
+      {
+        "name": "Tostada de atún",
+        "price": 185,
+        "currency": "MXN",
+        "category": "frio",
+        "description": "Furikake, ralladura de limón amarillo, 70 g"
+      },
+      {
+        "name": "Verdolagas y romeritos",
+        "price": 185,
+        "currency": "MXN",
+        "category": "frio",
+        "description": "Apio, aguacate, yema curada, anchoas, 95 g"
+      },
+      {
+        "name": "Ceviche de chayote",
+        "price": 195,
+        "currency": "MXN",
+        "category": "frio",
+        "description": "Aguacate, pimiento rojo, quinoa negra, 185 g"
+      },
+      {
+        "name": "Tiradito de jícama",
+        "price": 195,
+        "currency": "MXN",
+        "category": "frio"
+      },
+      {
+        "name": "Betabeles encurtidos en alga kombu",
+        "price": 195,
+        "currency": "MXN",
+        "category": "frio",
+        "description": "Puré de pepita, 210 g"
+      },
+      {
+        "name": "Tostada de pulpo enamorado",
+        "price": 225,
+        "currency": "MXN",
+        "category": "frio",
+        "description": "Mayonesa de chile serrano tatemado, 80 g"
+      },
+      {
+        "name": "Ensalada de jaiba",
+        "price": 330,
+        "currency": "MXN",
+        "category": "frio",
+        "description": "Mayonesa, chile serrano, apio, 100 g"
+      },
+      {
+        "name": "Crudo de camarón",
+        "price": 335,
+        "currency": "MXN",
+        "category": "frio",
+        "description": "Salsa macha, cacahuates, rábano, 130 g"
+      },
+      {
+        "name": "Ceviche de atún nikkei",
+        "price": 365,
+        "currency": "MXN",
+        "category": "frio",
+        "description": "Pepino persa, chile manzano, soya, 100 g"
+      },
+      {
+        "name": "Tartar de kampachi",
+        "price": 425,
+        "currency": "MXN",
+        "category": "frio",
+        "description": "Almendra, ajonjolí negro, 100 g"
+      },
+      {
+        "name": "Erizo con jitomates criollos",
+        "price": 595,
+        "currency": "MXN",
+        "category": "frio"
+      },
+      {
+        "name": "Sope de hongos duraznillos caramelizados",
+        "price": 145,
+        "currency": "MXN",
+        "category": "caliente"
+      },
+      {
+        "name": "Tamal de berenjena",
+        "price": 165,
+        "currency": "MXN",
+        "category": "caliente"
+      },
+      {
+        "name": "Tamal de mejillones",
+        "price": 185,
+        "currency": "MXN",
+        "category": "caliente"
+      },
+      {
+        "name": "Tiradito tibio de ventresca de atún",
+        "price": 275,
+        "currency": "MXN",
+        "category": "caliente"
+      },
+      {
+        "name": "Tacos de esmedregal estilo Ensenada",
+        "price": 290,
+        "currency": "MXN",
+        "category": "caliente"
+      },
+      {
+        "name": "Spaghetti con ragú de cachete de res",
+        "price": 295,
+        "currency": "MXN",
+        "category": "caliente"
+      },
+      {
+        "name": "Caracol con mantequilla de setas",
+        "price": 365,
+        "currency": "MXN",
+        "category": "caliente"
+      },
+      {
+        "name": "Spaghetti con hongos silvestres",
+        "price": 380,
+        "currency": "MXN",
+        "category": "caliente"
+      },
+      {
+        "name": "Pasta con erizo",
+        "price": 595,
+        "currency": "MXN",
+        "category": "caliente"
+      },
+      {
+        "name": "Pesca con chilpachole de jaiba",
+        "price": 595,
+        "currency": "MXN",
+        "category": "caliente"
+      },
+      {
+        "name": "Pulpo al carbón con frijoles estilo sinaloense",
+        "price": 670,
+        "currency": "MXN",
+        "category": "caliente"
+      },
+      {
+        "name": "Costilla de res braseada en recado negro",
+        "price": 765,
+        "currency": "MXN",
+        "category": "caliente"
+      },
+      {
+        "name": "Cogollos asados",
+        "price": 245,
+        "currency": "MXN",
+        "category": "para-compartir"
+      },
+      {
+        "name": "Risotto con mole verde",
+        "price": 265,
+        "currency": "MXN",
+        "category": "para-compartir"
+      },
+      {
+        "name": "Ensalada tibia de ejotes amarillos con faveta",
+        "price": 335,
+        "currency": "MXN",
+        "category": "para-compartir"
+      },
+      {
+        "name": "Camote a las brasas",
+        "price": 365,
+        "currency": "MXN",
+        "category": "para-compartir"
+      },
+      {
+        "name": "Camarones al ajillo",
+        "price": 915,
+        "currency": "MXN",
+        "category": "para-compartir"
+      },
+      {
+        "name": "Pescado a la talla Contramar",
+        "price": 810,
+        "currency": "MXN",
+        "category": "para-compartir",
+        "description": "Precio final por peso; $1.62 / g"
+      },
+      {
+        "name": "Merengue",
+        "price": 195,
+        "currency": "MXN",
+        "category": "postres"
+      },
+      {
+        "name": "Panna cotta de temporada",
+        "price": 195,
+        "currency": "MXN",
+        "category": "postres"
+      },
+      {
+        "name": "Flan de queso de oveja",
+        "price": 195,
+        "currency": "MXN",
+        "category": "postres"
+      },
+      {
+        "name": "Tamal de chocolate",
+        "price": 195,
+        "currency": "MXN",
+        "category": "postres"
+      },
+      {
+        "name": "Pastel de tres leches",
+        "price": 195,
+        "currency": "MXN",
+        "category": "postres"
+      },
+      {
+        "name": "Postre de plátano",
+        "price": 195,
+        "currency": "MXN",
+        "category": "postres"
+      },
+      {
+        "name": "Sorbete de temporada",
+        "price": 65,
+        "currency": "MXN",
+        "category": "postres"
+      },
+      {
+        "name": "Panna cotta manzanilla",
+        "price": 195,
+        "currency": "MXN",
+        "category": "postres"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "official",
+      "url": "https://caracoldemar.com.mx/",
+      "fields": [
+        "hours"
+      ]
+    },
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/caracoldemarcdmx/",
+      "fields": [
+        "move to Condesa"
+      ]
+    }
+  ],
+  "gaps": [
+    "current street address",
+    "phone"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "distinctions": {
+    "michelin": "Bib Gourmand : nuestras mejores relaciones calidad-precio"
+  },
+  "michelinReview": "Tras anunciar tu llegada al responsable de sala de este local situado en una esquina de la colonia Hipódromo, subirás por una llamativa escalera de caracol de madera hasta el comedor del segundo piso, con grandes ventanales y techos abovedados que le dan un aire contemporáneo. El espíritu creativo del barrio se hace presente no solo en la colorida instalación artística que lo decora, sino también en su cocina mexicana contemporánea. La carta –con propuestas sencillas pero muy bien presentadas– evoluciona al ritmo de los ingredientes de temporada. Platos como el pulpo al carbón o el merengue de cítricos dan fe del profundo conocimiento que la chef tiene de la cocina de su tierra.",
+  "ratings": {
+    "opentable": 4.7,
+    "opentableReviews": 790
+  },
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/caracol-de-mar",
+      "id": "1208936"
+    },
+    {
+      "source": "opentable",
+      "name": "Caracol de Mar",
+      "rating": 4.7
+    }
+  ],
+  "opentableAwards": [
+    {
+      "name": "MICHELIN",
+      "year": 2024,
+      "__typename": "RestaurantAward"
+    }
+  ]
+}

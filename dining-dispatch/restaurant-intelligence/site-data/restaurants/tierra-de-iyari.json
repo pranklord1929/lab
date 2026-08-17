@@ -1,0 +1,136 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "ff4386bf-177d-49be-bad2-75d53a5cecaf",
+  "slug": "tierra-de-iyari",
+  "name": "Tierra de IYARI",
+  "location": {
+    "neighborhood": "UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO CIUDAD UNIVERSITARIA",
+    "borough": "Coyoacán",
+    "address": "Avenida Universidad 3000, C.U., Coyoacán, 04510 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3146407,
+      "longitude": -99.1859867
+    }
+  },
+  "contact": {
+    "phone": "56 1009 8902",
+    "website": null,
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=11448345458565140039&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "mexican",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 8:00 a.m. – 6:00 p.m.",
+      "lunes: 8:00 a.m. – 6:00 p.m.",
+      "martes: 8:00 a.m. – 8:00 p.m.",
+      "miércoles: 8:00 a.m. – 8:00 p.m.",
+      "jueves: 8:00 a.m. – 8:00 p.m.",
+      "viernes: 8:00 a.m. – 8:00 p.m.",
+      "sábado: 8:00 a.m. – 8:00 p.m."
+    ],
+    "rating": 4.4,
+    "reviewCount": 1706
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "missing",
+    "observedAt": null,
+    "observationAgeDaysAtExport": null,
+    "documentCount": 0,
+    "itemCount": 0,
+    "documents": [],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=11448345458565140039&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:36.117+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 1,
+    "sourceNames": [
+      "google_places"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-06-29T14:10:55.051066+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:10:55.202731+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 466,
+    "richnessScore": 5,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram,website,menu",
+    "actionPriority": 8,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_website",
+      "missing_instagram",
+      "missing_price_level",
+      "missing_source_summary",
+      "missing_menu_document",
+      "missing_structured_menu_items",
+      "low_source_count"
+    ]
+  }
+}

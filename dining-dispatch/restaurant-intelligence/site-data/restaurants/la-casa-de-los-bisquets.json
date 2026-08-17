@@ -1,0 +1,210 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "0f190f92-fffa-4f28-a521-ec95eb694735",
+  "slug": "la-casa-de-los-bisquets",
+  "name": "La Casa de Los Bisquets",
+  "location": {
+    "neighborhood": "TABACALERA",
+    "borough": "Cuauhtémoc",
+    "address": "De La República 4, Cuauhtémoc, Tabacalera, Cuauhtémoc, 06030 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4362111,
+      "longitude": -99.1561944
+    }
+  },
+  "contact": {
+    "phone": "55 5535 5566",
+    "website": "WWW.LACASADELOSBISQUETS.WEBNODE.MX",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=7803750952175452035&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "mexican",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 7:00 a.m. – 8:00 p.m.",
+      "lunes: 7:00 a.m. – 8:00 p.m.",
+      "martes: 7:00 a.m. – 8:00 p.m.",
+      "miércoles: 7:00 a.m. – 8:00 p.m.",
+      "jueves: 7:00 a.m. – 8:00 p.m.",
+      "viernes: 7:00 a.m. – 8:00 p.m.",
+      "sábado: 7:00 a.m. – 8:00 p.m."
+    ],
+    "rating": 3.9,
+    "reviewCount": 3093
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 2,
+    "itemCount": 3,
+    "documents": [
+      {
+        "id": "1d9f6563-c05a-40f1-a736-6cead8e7f0dd",
+        "sourceUrl": "https://lacasadelosbisquets.webnode.mx/news/menu-diario/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "66e0952b-6366-4ce1-a499-c055cd8b73bd",
+        "sourceUrl": "https://lacasadelosbisquets.webnode.mx/menu/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": [
+      {
+        "id": "d985302b-8f1e-444e-a39d-de831abe9f58",
+        "documentId": null,
+        "name": "Cena",
+        "description": null,
+        "price": 45,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "4e2e71f1-3700-4158-a97a-f116a757e79d",
+        "documentId": null,
+        "name": "Comida",
+        "description": null,
+        "price": 45,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "4ca6ac19-ad19-4e6f-a5c8-a10ba04765ac",
+        "documentId": null,
+        "name": "Desayuno",
+        "description": null,
+        "price": 45,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lacasadelosbisquets.webnode.mx/menu/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://lacasadelosbisquets.webnode.mx/news/menu-diario/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=7803750952175452035&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:41.62+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "google_places",
+      "official_menus",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "denue",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T20:20:18.817259+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:13:23.707915+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 6,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_source_summary"
+    ]
+  }
+}

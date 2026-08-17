@@ -1,0 +1,22 @@
+{
+  "slug": "taco-tasting-room",
+  "name": "Taco Tasting Room",
+  "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/taco-tasting-room",
+  "status": "tasting_only",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Tostada crujiente con kampachi, erizo de mar y mandarina"
+    },
+    {
+      "name": "Enchilada con mole cremoso y semillas de girasol tatemadas"
+    },
+    {
+      "name": "Taco de carnitas de cochinillo"
+    },
+    {
+      "name": "Esquites de maíz con ribeye a la brasa y mayonesa de chapulines"
+    }
+  ],
+  "notes": "Guía Michelin 2026 inspector (CDMX). Restored after a later overwrite emptied the file."
+}

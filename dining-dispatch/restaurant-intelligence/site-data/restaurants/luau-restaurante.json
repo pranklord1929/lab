@@ -1,0 +1,221 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "6ef96455-c28e-4f64-832e-c7dcf8cd5849",
+  "slug": "luau-restaurante",
+  "name": "Luau Restaurante",
+  "location": {
+    "neighborhood": "JUÁREZ",
+    "borough": "Cuauhtémoc",
+    "address": "C. de Niza 38, Juárez, Cuauhtémoc, 06600 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4267246,
+      "longitude": -99.1625048
+    }
+  },
+  "contact": {
+    "phone": "55 5511 7184",
+    "website": "http://www.luau.mx/",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=3828288269255429430&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "chinese",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": "Long-standing eatery offering traditional Chinese cuisine & seafood in a down-to-earth dining area.",
+    "hours": [
+      "domingo: 1:00–9:30 p.m.",
+      "lunes: 1:00–9:30 p.m.",
+      "martes: 1:00–9:30 p.m.",
+      "miércoles: 1:00–9:30 p.m.",
+      "jueves: 1:00–9:30 p.m.",
+      "viernes: 1:00–9:30 p.m.",
+      "sábado: 1:00–9:30 p.m."
+    ],
+    "rating": 4.3,
+    "reviewCount": 1817
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 3,
+    "itemCount": 2,
+    "documents": [
+      {
+        "id": "2d5058d9-a4ef-4d2a-a70f-7e4ea93a47a0",
+        "sourceUrl": "http://chilango.com/comida/restaurantes/luau/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "71734663-b080-4992-a30f-3917ba22b2ef",
+        "sourceUrl": "https://itunes.apple.com/us/app/uber-eats-food-delivery/id1058959277?mt=8",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "86c3a727-f25f-4bd0-a2fc-09d37b1abbf4",
+        "sourceUrl": "https://luau.mx/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": [
+      {
+        "id": "39d0aa0e-1aa4-4330-aa1c-cf96a1e5ebbf",
+        "documentId": null,
+        "name": "SUBSCRIBE TO UBER ONE",
+        "description": null,
+        "price": 35,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "81ff1114-6f86-451d-a03d-45336deff92b",
+        "documentId": null,
+        "name": "SUBSCRIBE TO UBER ONE",
+        "description": null,
+        "price": 15,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://luau.mx/menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://chilango.com/comida/restaurantes/luau/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://itunes.apple.com/us/app/uber-eats-food-delivery/id1058959277?mt=8",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.luau.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:49.021+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=3828288269255429430&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:47.392+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "google_places",
+      "official_menus",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T20:20:18.817259+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:15:30.806429+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 409,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram"
+    ]
+  }
+}

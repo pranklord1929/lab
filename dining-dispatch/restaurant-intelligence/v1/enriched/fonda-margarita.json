@@ -1,0 +1,359 @@
+{
+  "catalogName": "Fonda Margarita",
+  "slug": "fonda-margarita",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Fonda Margarita",
+  "location": {
+    "address": "Adolfo Prieto 1364 B, Tlacoquemécatl del Valle",
+    "neighborhood": "Del Valle / Tlacoquemécatl",
+    "borough": "Benito Juárez",
+    "postalCode": "03100",
+    "coordinates": {
+      "latitude": 19.3803201,
+      "longitude": -99.1711188
+    }
+  },
+  "contact": {
+    "phone": "55 5559 6358",
+    "website": "https://fondamargarita.com.mx/",
+    "instagram": "fondamargarita",
+    "email": null
+  },
+  "hours": [
+    "mar–dom 06:30–12:00 (hasta que se acaben las cazuelas)"
+  ],
+  "food": {
+    "cuisine": "fonda / breakfast mexican",
+    "priceLevel": 1,
+    "notes": "Cash, communal tables, famous breakfast. Not the Álvaro Obregón DENUE clones."
+  },
+  "reservation": {
+    "platform": "walk-in",
+    "url": "https://fondamargarita.com.mx/"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://fondamargarita.com.mx/menu",
+    "observedAt": "2026-08-17",
+    "itemCount": 48,
+    "items": [
+      {
+        "name": "Cerdo en salsa verde",
+        "price": 75,
+        "currency": "MXN",
+        "category": "tradicionales",
+        "description": "Orden chica $51"
+      },
+      {
+        "name": "Chicharrón en salsa verde",
+        "price": 75,
+        "currency": "MXN",
+        "category": "tradicionales",
+        "description": "Orden chica $51"
+      },
+      {
+        "name": "Bistec en pasilla",
+        "price": 72,
+        "currency": "MXN",
+        "category": "tradicionales"
+      },
+      {
+        "name": "Huevo en pasilla",
+        "price": 72,
+        "currency": "MXN",
+        "category": "tradicionales"
+      },
+      {
+        "name": "Machaca con huevo estilo Fonda Margarita",
+        "price": 90,
+        "currency": "MXN",
+        "category": "tradicionales"
+      },
+      {
+        "name": "Migas norteñas",
+        "price": 70,
+        "currency": "MXN",
+        "category": "tradicionales",
+        "description": "Disponibles en guajillo los martes"
+      },
+      {
+        "name": "Longaniza en salsa verde",
+        "price": 80,
+        "currency": "MXN",
+        "category": "tradicionales",
+        "description": "Orden chica $56"
+      },
+      {
+        "name": "Tortas de carne de cerdo",
+        "price": 56,
+        "currency": "MXN",
+        "category": "tradicionales"
+      },
+      {
+        "name": "Espinazo en salsa verde",
+        "price": 75,
+        "currency": "MXN",
+        "category": "especiales-del-dia",
+        "description": "Chica $62"
+      },
+      {
+        "name": "Pata de res en salsa verde",
+        "price": 85,
+        "currency": "MXN",
+        "category": "especiales-del-dia",
+        "description": "Chica $62"
+      },
+      {
+        "name": "Carnero en salsa verde",
+        "price": 85,
+        "currency": "MXN",
+        "category": "especiales-del-dia",
+        "description": "Chica $62"
+      },
+      {
+        "name": "Manitas de cerdo en salsa verde",
+        "price": 85,
+        "currency": "MXN",
+        "category": "especiales-del-dia"
+      },
+      {
+        "name": "Chicharrón en salsa roja",
+        "price": 75,
+        "currency": "MXN",
+        "category": "especiales-del-dia",
+        "description": "Chica $62"
+      },
+      {
+        "name": "Milanesas con guacamole",
+        "price": 90,
+        "currency": "MXN",
+        "category": "especiales-del-dia"
+      },
+      {
+        "name": "Pancita",
+        "price": 115,
+        "currency": "MXN",
+        "category": "especiales-del-dia",
+        "description": "Chica $105"
+      },
+      {
+        "name": "Refritos sin huevo",
+        "price": 75,
+        "currency": "MXN",
+        "category": "refritos"
+      },
+      {
+        "name": "Refritos con huevo",
+        "price": 80,
+        "currency": "MXN",
+        "category": "refritos"
+      },
+      {
+        "name": "Refritos con longaniza",
+        "price": 85,
+        "currency": "MXN",
+        "category": "refritos"
+      },
+      {
+        "name": "De la olla sin huevo",
+        "price": 50,
+        "currency": "MXN",
+        "category": "de-la-olla"
+      },
+      {
+        "name": "De la olla con huevo",
+        "price": 67,
+        "currency": "MXN",
+        "category": "de-la-olla"
+      },
+      {
+        "name": "De la olla con longaniza",
+        "price": 77,
+        "currency": "MXN",
+        "category": "de-la-olla"
+      },
+      {
+        "name": "Chilaquiles verdes naturales",
+        "price": 75,
+        "currency": "MXN",
+        "category": "chilaquiles"
+      },
+      {
+        "name": "Chilaquiles verdes con huevo",
+        "price": 95,
+        "currency": "MXN",
+        "category": "chilaquiles"
+      },
+      {
+        "name": "Chilaquiles verdes con costilla",
+        "price": 115,
+        "currency": "MXN",
+        "category": "chilaquiles"
+      },
+      {
+        "name": "Chilaquiles verdes con pechuga asada",
+        "price": 120,
+        "currency": "MXN",
+        "category": "chilaquiles"
+      },
+      {
+        "name": "Chilaquiles verdes con pechuga empanizada",
+        "price": 125,
+        "currency": "MXN",
+        "category": "chilaquiles"
+      },
+      {
+        "name": "Huevos a la mexicana",
+        "price": 47,
+        "currency": "MXN",
+        "category": "revueltos"
+      },
+      {
+        "name": "Huevos rancheros",
+        "price": 75,
+        "currency": "MXN",
+        "category": "revueltos"
+      },
+      {
+        "name": "Huevos estrellados",
+        "price": 75,
+        "currency": "MXN",
+        "category": "revueltos"
+      },
+      {
+        "name": "Huevos con jamón",
+        "price": 48,
+        "currency": "MXN",
+        "category": "revueltos"
+      },
+      {
+        "name": "Huevos en salsa",
+        "price": 75,
+        "currency": "MXN",
+        "category": "revueltos"
+      },
+      {
+        "name": "Huevos con longaniza",
+        "price": 80,
+        "currency": "MXN",
+        "category": "revueltos"
+      },
+      {
+        "name": "Costilla de res asada a la parrilla",
+        "price": 85,
+        "currency": "MXN",
+        "category": "parrilla"
+      },
+      {
+        "name": "Costilla de res a la mexicana",
+        "price": 90,
+        "currency": "MXN",
+        "category": "parrilla"
+      },
+      {
+        "name": "Pechuga de pollo asada a la parrilla",
+        "price": 85,
+        "currency": "MXN",
+        "category": "parrilla"
+      },
+      {
+        "name": "Pechuga de pollo a la mexicana",
+        "price": 90,
+        "currency": "MXN",
+        "category": "parrilla"
+      },
+      {
+        "name": "Pechuga de pollo empanizada",
+        "price": 92,
+        "currency": "MXN",
+        "category": "parrilla"
+      },
+      {
+        "name": "Churro",
+        "price": 15,
+        "currency": "MXN",
+        "category": "dulce"
+      },
+      {
+        "name": "Jeriqueso",
+        "price": 30,
+        "currency": "MXN",
+        "category": "dulce"
+      },
+      {
+        "name": "Café de olla",
+        "price": 39,
+        "currency": "MXN",
+        "category": "bebidas"
+      },
+      {
+        "name": "Orden de guacamole",
+        "price": 36,
+        "currency": "MXN",
+        "category": "extras"
+      },
+      {
+        "name": "Orden de salsa",
+        "price": 21,
+        "currency": "MXN",
+        "category": "extras"
+      },
+      {
+        "name": "Chiles fritos",
+        "price": 13,
+        "currency": "MXN",
+        "category": "extras"
+      },
+      {
+        "name": "Tortillas ensalsadas",
+        "price": 9,
+        "currency": "MXN",
+        "category": "extras"
+      },
+      {
+        "name": "Ensalada de jitomate y cebolla",
+        "price": 21,
+        "currency": "MXN",
+        "category": "extras"
+      },
+      {
+        "name": "Tostadas",
+        "price": 11,
+        "currency": "MXN",
+        "category": "extras"
+      },
+      {
+        "name": "Orden de totopos",
+        "price": 18,
+        "currency": "MXN",
+        "category": "extras"
+      },
+      {
+        "name": "Bolillo",
+        "price": 6,
+        "currency": "MXN",
+        "category": "extras"
+      }
+    ],
+    "notes": "Official /menu. Where a chica price is published it is noted in description."
+  },
+  "sources": [
+    {
+      "source": "tripadvisor",
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g150800-d1481147-Reviews-Fonda_Margarita-Mexico_City_Central_Mexico_and_Gulf_Coast.html",
+      "fields": [
+        "address"
+      ]
+    }
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": []
+}

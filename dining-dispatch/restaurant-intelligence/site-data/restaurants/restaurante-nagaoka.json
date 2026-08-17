@@ -1,0 +1,457 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "e69a7f91-a996-46ba-90e4-fba8886d2538",
+  "slug": "restaurante-nagaoka",
+  "name": "Restaurante Nagaoka",
+  "location": {
+    "neighborhood": "NÁPOLES",
+    "borough": "Benito Juárez",
+    "address": "Arkansas 38, Nápoles, Benito Juárez, 03810 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3916569,
+      "longitude": -99.174688
+    }
+  },
+  "contact": {
+    "phone": "55 5543 9530",
+    "website": "WWW.NAGAOKA.COM.MX",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=15934952772375591657&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "japanese",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": "Family-run stalwart serving up sushi, sashimi & sukiyaki with an emphasis on seasonal ingredients.",
+    "hours": [
+      "domingo: 1:00–7:30 p.m.",
+      "lunes: Cerrado",
+      "martes: 1:00–10:30 p.m.",
+      "miércoles: 1:00–10:30 p.m.",
+      "jueves: 1:00–10:30 p.m.",
+      "viernes: 1:00–10:30 p.m.",
+      "sábado: 1:00–10:30 p.m."
+    ],
+    "rating": 4.7,
+    "reviewCount": 4421
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-09T18:55:13.502+00:00",
+    "observationAgeDaysAtExport": 38,
+    "documentCount": 2,
+    "itemCount": 22,
+    "documents": [
+      {
+        "id": "7543190c-fc5a-43d6-8fc1-169da2e2c23f",
+        "sourceUrl": "https://www.nagaoka.com.mx/japonesa-food-takeaway-mexico",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.34,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:13.502+00:00"
+      },
+      {
+        "id": "d1b03e22-273a-4a4f-8cc9-c42fa5847060",
+        "sourceUrl": "https://www.nagaoka.com.mx/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.75,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:13.144+00:00"
+      }
+    ],
+    "items": [
+      {
+        "id": "8320cc2d-384f-4750-a3c8-b9b7953f8b50",
+        "documentId": null,
+        "name": "Brochetas de camarón empanizadas PIEZA Kushiage Camarón 39.00",
+        "description": null,
+        "price": 39,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "f73b94f9-9f4b-46a6-ae5c-ea66c904bb40",
+        "documentId": null,
+        "name": "Camelia Pescados y Mariscos 魚介類 Tempura Mixto 296.00",
+        "description": null,
+        "price": 296,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "62fd8e28-ed26-44cd-a816-b8587e107f6e",
+        "documentId": null,
+        "name": "Conos 手巻き Cono de ATÚN From 89.00 From",
+        "description": null,
+        "price": 89,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "0ae0fdc8-f3a4-4ffb-afbd-5c7352f55e61",
+        "documentId": null,
+        "name": "Filetes de salmón empanizados Soft Shell Crab 173.00",
+        "description": null,
+        "price": 173,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "d4e1f914-72ff-41b6-ae00-d85d319a5d33",
+        "documentId": null,
+        "name": "Helado de ajonjolí negro Helado de Azuki 85.00",
+        "description": null,
+        "price": 85,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "4ef8299d-8cb0-46dd-a767-82ff582415fa",
+        "documentId": null,
+        "name": "Helado de té verde Helado de Lycheee 85.00",
+        "description": null,
+        "price": 85,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "59ec88d7-7dc7-47e4-a192-0d6b5701919a",
+        "documentId": null,
+        "name": "Kushiage Plátano Macho MEDIA ORDEN (5 pz) 109.00",
+        "description": null,
+        "price": 109,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "353f64e4-78c5-4da6-a48d-7d1833e90796",
+        "documentId": null,
+        "name": "Kushiage Queso Mozarella MEDIA ORDEN (5 pz) 109.00",
+        "description": null,
+        "price": 109,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "ce215bf3-4f53-464a-a355-4380d4dd0f99",
+        "documentId": null,
+        "name": "Nagaoka Entremeses 前菜 Sunomono Mixto From 199.00 From",
+        "description": null,
+        "price": 199,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "80180156-3a68-48d3-a743-30f38b8d9498",
+        "documentId": null,
+        "name": "Orden de fideo transparente Orden de Tofu 30.00",
+        "description": null,
+        "price": 30,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "3f50ebc5-6a1a-484c-a75e-649473d76625",
+        "documentId": null,
+        "name": "Rollo delgado relleno de chamoy Natto Maki 139.00",
+        "description": null,
+        "price": 139,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "c98fab6e-d095-42c3-a9fe-24dea20f7a83",
+        "documentId": null,
+        "name": "Sukiyaki o Shabu Shabu Orden de Udon 87.00",
+        "description": null,
+        "price": 87,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "e0ea69bf-93ae-49e6-ae52-08cec659b417",
+        "documentId": null,
+        "name": "Sushi pieza de calamar importado Pieza Masago 73.00",
+        "description": null,
+        "price": 73,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "70ef227d-cd9b-445b-a0c2-443babf80fb4",
+        "documentId": null,
+        "name": "Sushi pieza de cola amarilla Pieza Ebi 46.00",
+        "description": null,
+        "price": 46,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "6f7e64d9-23b9-4c5b-aee8-d9f9a4cf0d7b",
+        "documentId": null,
+        "name": "Sushi pieza de imitación cangrejo Pieza Sawara 42.00",
+        "description": null,
+        "price": 42,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "00dd2dbe-8584-4839-a2e6-a4378c886878",
+        "documentId": null,
+        "name": "Sushi pieza de macarela marinada Pieza Kobashira 46.00",
+        "description": null,
+        "price": 46,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "a1002c0f-147c-492e-a609-d9847647a8b5",
+        "documentId": null,
+        "name": "Sushi pieza de salmón fresco Pieza Unagi 76.00",
+        "description": null,
+        "price": 76,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "90b8d0ea-0a80-44a1-a60d-763ea79942fb",
+        "documentId": null,
+        "name": "Sushi pieza de sierra marinada Pieza Tobiko 98.00",
+        "description": null,
+        "price": 98,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "4d0330ab-538f-4784-a33b-8f8a97634b41",
+        "documentId": null,
+        "name": "Tazones y Arroz 丼 Katsudon From 253.00 From",
+        "description": null,
+        "price": 253,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "60f5420b-7af0-48cf-a239-0239a1771d80",
+        "documentId": null,
+        "name": "Tradicional bebida láctea japonesa Calpis con Midori 123.00",
+        "description": null,
+        "price": 123,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "d4c695ff-c86f-4b22-a9db-08361e050d55",
+        "documentId": null,
+        "name": "Té verde sencha Ramune 78.00",
+        "description": null,
+        "price": 78,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "ec0ebefb-16a3-472e-af36-236157c6538e",
+        "documentId": null,
+        "name": "Y GELATINA DE CAFÉ Wateishoku From 465.00 From",
+        "description": null,
+        "price": 465,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://nagaoka.com.mx/menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://nagaoka.com.mx/japonesa-food-takeaway-mexico",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=15934952772375591657&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:21.983+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "google_places",
+      "official_menus",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "denue",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T20:05:20.22199+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:01:05.877578+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": true,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 88,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram"
+    ]
+  }
+}

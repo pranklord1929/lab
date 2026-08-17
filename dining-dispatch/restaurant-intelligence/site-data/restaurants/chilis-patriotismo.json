@@ -1,0 +1,143 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "60dbcf0e-a3cf-4681-a6d2-39405e6f1d28",
+  "slug": "chilis-patriotismo",
+  "name": "Chili's Patriotismo",
+  "location": {
+    "neighborhood": "SAN PEDRO DE LOS PINOS",
+    "borough": "Benito Juárez",
+    "address": "Av. Patriotismo 201-Loc PB05, San Pedro de los Pinos, Benito Juárez, 03380 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3970788,
+      "longitude": -99.1799233
+    }
+  },
+  "contact": {
+    "phone": "56 5092 1459",
+    "website": "https://chilis.com.mx/",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=10741057208224074855&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "american",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": "Family-friendly chain serving classic Tex-Mex & American fare in a Southwestern-style setting.",
+    "hours": [
+      "domingo: 11:00 a.m. – 10:00 p.m.",
+      "lunes: 11:00 a.m. – 11:00 p.m.",
+      "martes: 11:00 a.m. – 11:00 p.m.",
+      "miércoles: 11:00 a.m. – 11:00 p.m.",
+      "jueves: 11:00 a.m. – 1:00 a.m.",
+      "viernes: 11:00 a.m. – 1:00 a.m.",
+      "sábado: 11:00 a.m. – 1:00 a.m."
+    ],
+    "rating": 3.9,
+    "reviewCount": 108
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "missing",
+    "observedAt": null,
+    "observationAgeDaysAtExport": null,
+    "documentCount": 0,
+    "itemCount": 0,
+    "documents": [],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://chilis.com.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:26.162+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=10741057208224074855&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:29.696+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.165171+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:07:12.895868+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 7,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_menu_document",
+      "missing_structured_menu_items"
+    ]
+  }
+}

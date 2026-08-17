@@ -1,0 +1,249 @@
+{
+  "catalogName": "Carmela y Sal",
+  "slug": "carmela-y-sal",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Carmela y Sal",
+  "location": {
+    "address": "Calle Pedregal 24, Molino del Rey / Torre Virreyes",
+    "neighborhood": "Molino del Rey",
+    "borough": "Miguel Hidalgo",
+    "postalCode": "11040",
+    "coordinates": {
+      "latitude": 19.4254133,
+      "longitude": -99.2033424
+    }
+  },
+  "contact": {
+    "phone": "+525520777107",
+    "website": "https://www.carmelaysal.mx/",
+    "instagram": "carmelaysal",
+    "email": null
+  },
+  "hours": [
+    "sun 13:00–20:00",
+    "mon 13:00–23:00",
+    "tue 13:00–23:00",
+    "wed 13:00–23:00",
+    "thu 13:00–23:30",
+    "fri 13:00–23:30",
+    "sat 13:00–23:30"
+  ],
+  "food": {
+    "cuisine": "mexican",
+    "chef": "Gabriela Ruiz",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "reservandonos",
+    "url": "https://reservandonos.com/lugar/restaurante-carmela-y-sal-lomas"
+  },
+  "distinctions": {
+    "michelin": "Seleccionado: Buena cocina",
+    "michelinStars": 0
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.carmelaysal.mx/",
+    "observedAt": "2026-08-17",
+    "itemCount": 31,
+    "items": [
+      {
+        "name": "Ensalada de jícamas con pesto",
+        "description": "Albahaca criolla, pistaches, uvas verdes",
+        "category": "entradas"
+      },
+      {
+        "name": "Ensalada de betabel",
+        "description": "Quinoa, cuscús, cebada, puré de camote y naranja",
+        "category": "entradas"
+      },
+      {
+        "name": "Taco de hojas frescas",
+        "description": "Aguacate, romesco, mayonesa vegana",
+        "category": "entradas"
+      },
+      {
+        "name": "Tostadas de mentiras",
+        "description": "Tostadas de coco",
+        "category": "entradas"
+      },
+      {
+        "name": "Tostones de jaiba",
+        "category": "entradas"
+      },
+      {
+        "name": "Tostada de ceviche blanco con cecina",
+        "category": "entradas"
+      },
+      {
+        "name": "Esquite a manera de risotto",
+        "description": "Doble crema de Comalcalco, epazote",
+        "category": "entradas"
+      },
+      {
+        "name": "Atún con castacán",
+        "description": "Salsa de chile de árbol",
+        "category": "fuertes"
+      },
+      {
+        "name": "Mole rosa",
+        "description": "Dobladitas de picadillo de jamaica, piñones",
+        "category": "fuertes"
+      },
+      {
+        "name": "Tacos de chile ancho",
+        "description": "Frijoles refritos y queso de hebra",
+        "category": "fuertes"
+      },
+      {
+        "name": "Taco de chicharrón de coco",
+        "description": "Coco en salsa verde, salsa macha",
+        "category": "fuertes"
+      },
+      {
+        "name": "Tostadas de pulpo",
+        "description": "Aguacate, tapenade, chile amashito",
+        "category": "fuertes"
+      },
+      {
+        "name": "Queso ahumado de Tenosique",
+        "description": "Pimientos rostizados y miel",
+        "category": "fuertes"
+      },
+      {
+        "name": "Paquetitos de plátano macho",
+        "description": "Rellenos de frijoles, crema de rancho",
+        "category": "fuertes"
+      },
+      {
+        "name": "Sope de chicharrón prensado y pulpo",
+        "category": "fuertes"
+      },
+      {
+        "name": "Ceviche de robalo y plátano",
+        "category": "fuertes"
+      },
+      {
+        "name": "Fetuccini con camarones",
+        "description": "Crema de xtabentún, chiltomate",
+        "category": "fuertes"
+      },
+      {
+        "name": "Canelones de cochinita pibil",
+        "category": "fuertes"
+      },
+      {
+        "name": "Pollo con fideos secos",
+        "category": "fuertes"
+      },
+      {
+        "name": "Poc chuc",
+        "description": "Cerdo, tomates rostizados, frijoles negros",
+        "category": "fuertes"
+      },
+      {
+        "name": "Lechón de navidad",
+        "description": "Horneado, crujiente, frutos secos",
+        "category": "fuertes"
+      },
+      {
+        "name": "Puchero de lengua de res",
+        "category": "fuertes"
+      },
+      {
+        "name": "Short rib con chirmol",
+        "category": "fuertes"
+      },
+      {
+        "name": "Filete de res con pastel de tortilla y rajas",
+        "category": "fuertes"
+      },
+      {
+        "name": "Cordero confitado",
+        "description": "Piña asada, salsa tatemada",
+        "category": "fuertes"
+      },
+      {
+        "name": "Robalo en hoja santa y pipián",
+        "category": "fuertes"
+      },
+      {
+        "name": "Robalo con risotto a la tumbada",
+        "category": "fuertes"
+      },
+      {
+        "name": "Plátanos con dulce de leche",
+        "category": "postres"
+      },
+      {
+        "name": "Mostachón tropical",
+        "category": "postres"
+      },
+      {
+        "name": "Pastelito de chocolate sin harina",
+        "category": "postres"
+      },
+      {
+        "name": "Manjar de coco y mango",
+        "category": "postres"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "official",
+      "url": "https://www.carmelaysal.mx/",
+      "fields": [
+        "website",
+        "menu"
+      ]
+    },
+    {
+      "source": "michelin",
+      "url": "https://guide.michelin.com/us/en/ciudad-de-mexico/miguel-hidalgo_1999281/restaurant/carmela-y-sal",
+      "fields": [
+        "address",
+        "phone"
+      ]
+    }
+  ],
+  "gaps": [
+    "full hours",
+    "coordinates"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "michelinReview": "Carmela y Sal es la carta de amor de Gabriela Ruiz Lugo a sus raíces tabasqueñas. La chef entrega mucho de su personalidad en este acogedor y moderno restaurante, cuyo amable personal se esfuerza para que disfrutes al máximo de la experiencia. Su cocina es irrepetible: su marcada personalidad te dejará huella y las ganas de volver para disfrutar de otra estupenda comida. No te pierdas platillos como el brócoli con salsas picantes, queso y chile piquín negro. El short rib con chirmol es una explosión de sabor gracias a su generosa salsa, además de un contundente plato apto para los grandes apetitos. El mostachón es una sencilla manera de terminar.",
+  "ratings": {
+    "opentable": 4.7,
+    "opentableReviews": 2708
+  },
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/miguel-hidalgo_1999281/restaurante/carmela-y-sal",
+      "id": "1208197"
+    },
+    {
+      "source": "reservandonos",
+      "phone": "+525520777107"
+    },
+    {
+      "source": "opentable",
+      "name": "Carmela y Sal",
+      "rating": 4.7
+    },
+    {
+      "source": "reservandonos-nuxt",
+      "url": "https://reservandonos.com/lugar/restaurante-carmela-y-sal-lomas",
+      "hours": true
+    }
+  ]
+}

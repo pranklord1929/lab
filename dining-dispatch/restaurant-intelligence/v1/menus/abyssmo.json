@@ -1,0 +1,42 @@
+{
+  "slug": "abyssmo",
+  "name": "Abyssmo",
+  "url": "https://www.instagram.com/abyssmo.mx/",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Enmoladas de langosta",
+      "price": null,
+      "currency": "MXN",
+      "category": "fuertes"
+    },
+    {
+      "name": "Arroz meloso",
+      "price": null,
+      "currency": "MXN",
+      "category": "fuertes",
+      "description": "Pesto de la casa, almejas, pulpo y ostión frito — IG oficial Jun 2026"
+    },
+    {
+      "name": "Taco de camarón con pork belly",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Camarones con chintextle",
+      "price": null,
+      "currency": "MXN",
+      "category": "fuertes"
+    },
+    {
+      "name": "Ensalada de tomates heirloom y albahaca mamut",
+      "price": null,
+      "currency": "MXN",
+      "category": "ensaladas",
+      "description": "Con mojama y aguacate — IG oficial"
+    }
+  ],
+  "notes": "Official @abyssmo.mx captions naming current carta dishes. Menu rotates."
+}

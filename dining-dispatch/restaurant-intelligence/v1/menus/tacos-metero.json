@@ -1,0 +1,28 @@
+{
+  "slug": "tacos-metero",
+  "name": "Tacos Meteoro",
+  "url": "https://www.local.mx/tag/tacos/",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Taco de asada estilo Durango"
+    },
+    {
+      "name": "Taco de chorizo"
+    },
+    {
+      "name": "Taco de molleja"
+    },
+    {
+      "name": "Taco de costilla"
+    },
+    {
+      "name": "Taco de chilaca"
+    },
+    {
+      "name": "Taco de aguja norteña"
+    }
+  ],
+  "notes": "Local.mx listing for @tacos_meteoro Coahuila 192 Roma Sur."
+}

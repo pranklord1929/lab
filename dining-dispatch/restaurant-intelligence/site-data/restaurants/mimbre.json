@@ -1,0 +1,342 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "dec1f943-0cda-4d71-b26d-d29f784f3fd3",
+  "slug": "mimbre",
+  "name": "Mimbre",
+  "location": {
+    "neighborhood": "SAN RAFAEL",
+    "borough": "Cuauhtémoc",
+    "address": "La Privada Roja, Serapio Rendón 61, San Rafael, Cuauhtémoc, 06470 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.436363,
+      "longitude": -99.1600107
+    }
+  },
+  "contact": {
+    "phone": "5588044496",
+    "website": "https://www.panaderiamimbre.com/",
+    "instagram": "https://instagram.com/panmimbre/",
+    "googleMapsUrl": "https://maps.google.com/?cid=5596195407192715305&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 8:00 a.m. – 7:00 p.m.",
+      "lunes: Cerrado",
+      "martes: 8:00 a.m. – 9:00 p.m.",
+      "miércoles: 8:00 a.m. – 9:00 p.m.",
+      "jueves: 8:00 a.m. – 9:00 p.m.",
+      "viernes: 8:00 a.m. – 10:00 p.m.",
+      "sábado: 8:00 a.m. – 10:00 p.m."
+    ],
+    "rating": 4.7,
+    "reviewCount": 4488
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-09T18:55:17.355+00:00",
+    "observationAgeDaysAtExport": 38,
+    "documentCount": 2,
+    "itemCount": 12,
+    "documents": [
+      {
+        "id": "0f820cb9-bed2-46e7-9891-2f7d78c0d776",
+        "sourceUrl": "https://www.panaderiamimbre.com/men%C3%BA",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.5,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:17.355+00:00"
+      },
+      {
+        "id": "dfa1a7bd-6ff7-45e3-bfdb-20a4af94a5c6",
+        "sourceUrl": "https://www.panaderiamimbre.com/_files/ugd/fd09e8_adf1af0e93c8442a81f5e4620d76517b.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.53,
+        "extractionMethod": "pdf_parse",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:13.895+00:00"
+      }
+    ],
+    "items": [
+      {
+        "id": "e00dff91-1602-42b2-9bcf-c149ab5397b3",
+        "documentId": "0f820cb9-bed2-46e7-9891-2f7d78c0d776",
+        "name": "Aguacate (60 gr)",
+        "description": null,
+        "price": 65,
+        "currency": "MXN",
+        "category": "Extras",
+        "sourceUrl": "https://www.panaderiamimbre.com/men%C3%BA",
+        "observedAt": "2026-07-09T18:55:17.355+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "9ddfc538-7797-4249-8eb6-cb6326d1bc22",
+        "documentId": "0f820cb9-bed2-46e7-9891-2f7d78c0d776",
+        "name": "Chapulines (25 gr)",
+        "description": null,
+        "price": 45,
+        "currency": "MXN",
+        "category": "Extras",
+        "sourceUrl": "https://www.panaderiamimbre.com/men%C3%BA",
+        "observedAt": "2026-07-09T18:55:17.355+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "9dec608a-8e2b-4fce-b9b7-4a1d8bb7963e",
+        "documentId": "0f820cb9-bed2-46e7-9891-2f7d78c0d776",
+        "name": "Chorizo (80 gr)",
+        "description": null,
+        "price": 59,
+        "currency": "MXN",
+        "category": "Extras",
+        "sourceUrl": "https://www.panaderiamimbre.com/men%C3%BA",
+        "observedAt": "2026-07-09T18:55:17.355+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "d6732ce8-d076-4c50-9161-c427b294f360",
+        "documentId": "0f820cb9-bed2-46e7-9891-2f7d78c0d776",
+        "name": "Huevo (2 pzas)",
+        "description": null,
+        "price": 39,
+        "currency": "MXN",
+        "category": "Extras",
+        "sourceUrl": "https://www.panaderiamimbre.com/men%C3%BA",
+        "observedAt": "2026-07-09T18:55:17.355+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "1f37c36e-2782-4c36-9816-d099952b8276",
+        "documentId": "0f820cb9-bed2-46e7-9891-2f7d78c0d776",
+        "name": "Milanesa empanizada (280 gr)",
+        "description": null,
+        "price": 110,
+        "currency": "MXN",
+        "category": "Extras",
+        "sourceUrl": "https://www.panaderiamimbre.com/men%C3%BA",
+        "observedAt": "2026-07-09T18:55:17.355+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "4601ade4-8bb2-4346-a5a3-24b85f008627",
+        "documentId": "0f820cb9-bed2-46e7-9891-2f7d78c0d776",
+        "name": "Pan para compartir",
+        "description": null,
+        "price": 15,
+        "currency": "MXN",
+        "category": "Extras",
+        "sourceUrl": "https://www.panaderiamimbre.com/men%C3%BA",
+        "observedAt": "2026-07-09T18:55:17.355+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "98bbacaa-a441-4e84-8e98-7434502338f4",
+        "documentId": "0f820cb9-bed2-46e7-9891-2f7d78c0d776",
+        "name": "Pechuga de pavo (40 gr)",
+        "description": null,
+        "price": 39,
+        "currency": "MXN",
+        "category": "Extras",
+        "sourceUrl": "https://www.panaderiamimbre.com/men%C3%BA",
+        "observedAt": "2026-07-09T18:55:17.355+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "94be107f-82bc-4639-b942-2215d1598478",
+        "documentId": "0f820cb9-bed2-46e7-9891-2f7d78c0d776",
+        "name": "Pepperoni (20 gr)",
+        "description": null,
+        "price": 49,
+        "currency": "MXN",
+        "category": "Extras",
+        "sourceUrl": "https://www.panaderiamimbre.com/men%C3%BA",
+        "observedAt": "2026-07-09T18:55:17.355+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "dab2055a-074a-477a-bf83-f98da119ccfc",
+        "documentId": "0f820cb9-bed2-46e7-9891-2f7d78c0d776",
+        "name": "Pollo (70 gr)",
+        "description": null,
+        "price": 49,
+        "currency": "MXN",
+        "category": "Extras",
+        "sourceUrl": "https://www.panaderiamimbre.com/men%C3%BA",
+        "observedAt": "2026-07-09T18:55:17.355+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "2033ed9b-d558-41be-9a72-0e22e0f63a41",
+        "documentId": "0f820cb9-bed2-46e7-9891-2f7d78c0d776",
+        "name": "Salame (30 gr)",
+        "description": null,
+        "price": 49,
+        "currency": "MXN",
+        "category": "Extras",
+        "sourceUrl": "https://www.panaderiamimbre.com/men%C3%BA",
+        "observedAt": "2026-07-09T18:55:17.355+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "44c0c839-5c2f-4dd2-9e18-ad0fa1c5ca0a",
+        "documentId": "0f820cb9-bed2-46e7-9891-2f7d78c0d776",
+        "name": "Tasajo (100 gr)",
+        "description": null,
+        "price": 69,
+        "currency": "MXN",
+        "category": "Extras",
+        "sourceUrl": "https://www.panaderiamimbre.com/men%C3%BA",
+        "observedAt": "2026-07-09T18:55:17.355+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "b7e046b7-9200-4e65-bfc1-c79e7ae8a195",
+        "documentId": "0f820cb9-bed2-46e7-9891-2f7d78c0d776",
+        "name": "Tocino (30 gr)",
+        "description": null,
+        "price": 59,
+        "currency": "MXN",
+        "category": "Extras",
+        "sourceUrl": "https://www.panaderiamimbre.com/men%C3%BA",
+        "observedAt": "2026-07-09T18:55:17.355+00:00",
+        "extractionConfidence": 0.5,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://panaderiamimbre.com/_files/ugd/fd09e8_adf1af0e93c8442a81f5e4620d76517b.pdf",
+      "confidence": 0.95,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.panaderiamimbre.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:30.895+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=5596195407192715305&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:34.458+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/panmimbremx",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/panmimbre/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "denue",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.802169+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:21:31.518939+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 53,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_cuisine",
+      "missing_source_summary"
+    ]
+  }
+}

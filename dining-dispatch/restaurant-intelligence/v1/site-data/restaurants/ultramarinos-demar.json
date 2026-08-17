@@ -1,0 +1,254 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "f0c31a70-f1df-4645-8e16-88618375b454",
+  "slug": "ultramarinos-demar",
+  "name": "ULTRAMARINOS DEMAR",
+  "location": {
+    "neighborhood": "ROMA NORTE",
+    "borough": "Cuauhtémoc",
+    "address": "Mérida 21, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4234256,
+      "longitude": -99.1585645
+    }
+  },
+  "contact": {
+    "phone": "+52 55 6481 5022",
+    "website": "https://demar.rest/",
+    "instagram": "https://instagram.com/ultramarinos.rest/",
+    "googleMapsUrl": "https://maps.google.com/?cid=11442259945348801028&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "email": "hola@demar.rest"
+  },
+  "food": {
+    "cuisine": "seafood / mexican",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": "Un cóctel en el bar 686, situado en el piso superior, es la mejor forma de empezar la velada antes de ponerse entre las hábiles manos del chef Lucho Martínez. El íntimo restaurante de la planta baja, bautizado así en honor a Emilia, la hija del chef, es el lugar perfecto para una cena en pareja. Su cocina ofrece una lectura contemporánea de las riquezas de la despensa mexicana, procedentes en buen",
+    "hours": [
+      "lun / mié / jue 13:00–19:00",
+      "vie / sáb / dom 12:00–19:00",
+      "martes cerrado"
+    ],
+    "rating": 4.2,
+    "reviewCount": 366
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null,
+    "url": "https://www.exploretock.com/ultramarinos-demar-ciudad-de-mxico",
+    "platform": "tock"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-08-17",
+    "observationAgeDaysAtExport": 0,
+    "documentCount": 1,
+    "itemCount": 16,
+    "documents": [
+      {
+        "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/ultramarinos-demar",
+        "kind": "published_carta"
+      }
+    ],
+    "items": [
+      {
+        "name": "Tostada de maíz azul con paté de marisco y gambas al vapor",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Crema de almejas",
+        "price": null,
+        "currency": "MXN",
+        "category": "sopas"
+      },
+      {
+        "name": "Rollo de langosta / lobster roll",
+        "price": null,
+        "currency": "MXN",
+        "category": "signature"
+      },
+      {
+        "name": "Búrguer de jaiba / crab cakes",
+        "price": null,
+        "currency": "MXN",
+        "category": "signature"
+      },
+      {
+        "name": "Ostiones",
+        "price": null,
+        "currency": "MXN",
+        "category": "raw bar"
+      },
+      {
+        "name": "Almejas",
+        "price": null,
+        "currency": "MXN",
+        "category": "raw bar"
+      },
+      {
+        "name": "Crudo mixto de atún, kampachi y callo",
+        "price": null,
+        "currency": "MXN",
+        "category": "raw bar"
+      },
+      {
+        "name": "Cóctel de camarón",
+        "price": null,
+        "currency": "MXN",
+        "category": "raw bar"
+      },
+      {
+        "name": "Queso fundido con chorizo de pescado",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Pasta con cangrejo y tomates cherry",
+        "price": null,
+        "currency": "MXN",
+        "category": "pastas"
+      },
+      {
+        "name": "Pescado a la sal",
+        "price": null,
+        "currency": "MXN",
+        "category": "fuertes",
+        "description": "Salsa de mantequilla, hueva de trucha y cebollín"
+      },
+      {
+        "name": "Milanesa de camarón",
+        "price": null,
+        "currency": "MXN",
+        "category": "fuertes"
+      },
+      {
+        "name": "Camarones a la parrilla",
+        "price": null,
+        "currency": "MXN",
+        "category": "fuertes"
+      },
+      {
+        "name": "Pescado zarandeado",
+        "price": null,
+        "currency": "MXN",
+        "category": "fuertes"
+      },
+      {
+        "name": "Helado de vainilla con piel de limón",
+        "price": null,
+        "currency": "MXN",
+        "category": "postres"
+      },
+      {
+        "name": "Flan",
+        "price": null,
+        "currency": "MXN",
+        "category": "postres"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.instagram.com/ultramarinos.rest",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:16.456+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=11442259945348801028&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:27.117+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/ultramarinos.rest/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:13:26.199+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 1,
+    "sourceNames": [
+      "google_places"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-06-29T14:06:49.003866+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:06:49.135968+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 6,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_cuisine",
+      "missing_price_level",
+      "missing_source_summary",
+      "missing_menu_document",
+      "missing_structured_menu_items",
+      "low_source_count"
+    ]
+  },
+  "enrichedAt": null
+}

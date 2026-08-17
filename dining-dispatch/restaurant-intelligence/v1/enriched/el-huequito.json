@@ -1,0 +1,435 @@
+{
+  "catalogName": "El Huequito",
+  "slug": "el-huequito",
+  "status": "enriched",
+  "confidence": "medium",
+  "name": "El Huequito (Ayuntamiento / original)",
+  "location": {
+    "address": "Ayuntamiento 21, Centro Histórico",
+    "neighborhood": "Centro",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06050",
+    "coordinates": {
+      "latitude": 19.431371,
+      "longitude": -99.1490515
+    }
+  },
+  "contact": {
+    "phone": "+52 55 5518 3313",
+    "website": "https://www.elhuequito.mx/",
+    "instagram": "elhuequitomx",
+    "email": null,
+    "websiteIsInstagram": false
+  },
+  "hours": [
+    "~09:00–22:00 daily (listings)"
+  ],
+  "food": {
+    "cuisine": "tacos al pastor",
+    "priceLevel": 1
+  },
+  "reservation": {
+    "platform": "walk-in",
+    "url": "https://www.elhuequito.mx/"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.elhuequito.mx/menu",
+    "observedAt": "2026-08-17",
+    "itemCount": 57,
+    "items": [
+      {
+        "name": "Pastor Especial",
+        "price": 183,
+        "currency": "MXN",
+        "category": "pastor especial",
+        "description": "1 pieza, 175 g"
+      },
+      {
+        "name": "Nuestro único taco al pastor",
+        "price": 27,
+        "currency": "MXN",
+        "category": "pastor especial"
+      },
+      {
+        "name": "Taco al pastor con queso",
+        "price": 48,
+        "currency": "MXN",
+        "category": "pastor especial",
+        "description": "1 pieza, 42 g"
+      },
+      {
+        "name": "Taco en tortilla hecha a mano",
+        "price": 53,
+        "currency": "MXN",
+        "category": "pastor especial"
+      },
+      {
+        "name": "Queso Relleno",
+        "price": 155,
+        "currency": "MXN",
+        "category": "pastor especial",
+        "description": "2 piezas"
+      },
+      {
+        "name": "Gringa",
+        "price": 105,
+        "currency": "MXN",
+        "category": "pastor especial"
+      },
+      {
+        "name": "Alambre (para compartir)",
+        "price": 175,
+        "currency": "MXN",
+        "category": "pastor especial"
+      },
+      {
+        "name": "Torta",
+        "price": 83,
+        "currency": "MXN",
+        "category": "pastor especial"
+      },
+      {
+        "name": "Queso Fundido",
+        "price": 133,
+        "currency": "MXN",
+        "category": "pastor especial"
+      },
+      {
+        "name": "Kilo de Pastor",
+        "price": 653,
+        "currency": "MXN",
+        "category": "pastor especial",
+        "description": "Solo para llevar. Incluye salsa naranja, salsa verde tipo guacamole, medio kilo de tortillas, 8 limones"
+      },
+      {
+        "name": "Costilla Inglés",
+        "price": 75,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Bistec Inglés",
+        "price": 69,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Costilla Prime Rib",
+        "price": 71,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Arrachera",
+        "price": 85,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Bistec",
+        "price": 65,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Bistec con Papas",
+        "price": 75,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Cecina de Yecapixtla",
+        "price": 71,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Longaniza",
+        "price": 63,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Campechano",
+        "price": 151,
+        "currency": "MXN",
+        "category": "tacos",
+        "description": "2 piezas. Bistec, longaniza, chicharrón seco"
+      },
+      {
+        "name": "Gorila",
+        "price": 221,
+        "currency": "MXN",
+        "category": "tacos",
+        "description": "3 piezas. Cecina, longaniza, chicharrón seco, aguacate"
+      },
+      {
+        "name": "Taco de Suadero",
+        "price": 29,
+        "currency": "MXN",
+        "category": "tacos",
+        "description": "Viernes: el suadero sigue siendo el rey"
+      },
+      {
+        "name": "Taco de Suadero en tortilla hecha a mano",
+        "price": 57,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Sopa Azteca",
+        "price": 77,
+        "currency": "MXN",
+        "category": "sopas"
+      },
+      {
+        "name": "Caldo de Hongos",
+        "price": 77,
+        "currency": "MXN",
+        "category": "sopas"
+      },
+      {
+        "name": "Consomé Especial",
+        "price": 77,
+        "currency": "MXN",
+        "category": "sopas",
+        "description": "Pechuga de pollo desmenuzada, aguacate, queso fresco, cilantro"
+      },
+      {
+        "name": "Guacamole",
+        "price": 67,
+        "currency": "MXN",
+        "category": "para compartir"
+      },
+      {
+        "name": "Chicharrón de queso",
+        "price": 103,
+        "currency": "MXN",
+        "category": "para compartir"
+      },
+      {
+        "name": "Cebollitas de Cambray",
+        "price": 53,
+        "currency": "MXN",
+        "category": "para compartir"
+      },
+      {
+        "name": "Cebollitas de Cambray preparadas",
+        "price": 59,
+        "currency": "MXN",
+        "category": "para compartir"
+      },
+      {
+        "name": "Frijoles Refritos",
+        "price": 47,
+        "currency": "MXN",
+        "category": "para compartir"
+      },
+      {
+        "name": "Alambre El Huequito",
+        "price": 221,
+        "currency": "MXN",
+        "category": "alambres",
+        "description": "Pastor, bistec, longaniza. 1 porción para 2–3 personas"
+      },
+      {
+        "name": "Alambre Costilla Prime Rib",
+        "price": 187,
+        "currency": "MXN",
+        "category": "alambres"
+      },
+      {
+        "name": "Alambre Arrachera",
+        "price": 211,
+        "currency": "MXN",
+        "category": "alambres"
+      },
+      {
+        "name": "Alambre Bistec",
+        "price": 181,
+        "currency": "MXN",
+        "category": "alambres"
+      },
+      {
+        "name": "Alambre Vegetariano",
+        "price": 101,
+        "currency": "MXN",
+        "category": "alambres",
+        "description": "Pimiento, cebolla, champiñones, sin tocino"
+      },
+      {
+        "name": "Torta Costilla Prime Rib",
+        "price": 75,
+        "currency": "MXN",
+        "category": "tortas"
+      },
+      {
+        "name": "Torta Arrachera",
+        "price": 85,
+        "currency": "MXN",
+        "category": "tortas"
+      },
+      {
+        "name": "Torta Bistec",
+        "price": 71,
+        "currency": "MXN",
+        "category": "tortas"
+      },
+      {
+        "name": "Queso fundido sólo queso",
+        "price": 92,
+        "currency": "MXN",
+        "category": "quesos fundidos"
+      },
+      {
+        "name": "Longiqueso",
+        "price": 119,
+        "currency": "MXN",
+        "category": "quesos fundidos"
+      },
+      {
+        "name": "Champiqueso",
+        "price": 121,
+        "currency": "MXN",
+        "category": "quesos fundidos"
+      },
+      {
+        "name": "Gringa Costilla Prime Rib",
+        "price": 105,
+        "currency": "MXN",
+        "category": "gringas"
+      },
+      {
+        "name": "Gringa Arrachera",
+        "price": 135,
+        "currency": "MXN",
+        "category": "gringas"
+      },
+      {
+        "name": "Gringa Bistec",
+        "price": 99,
+        "currency": "MXN",
+        "category": "gringas"
+      },
+      {
+        "name": "Gringa solo queso",
+        "price": 65,
+        "currency": "MXN",
+        "category": "gringas"
+      },
+      {
+        "name": "Queso relleno Bistec",
+        "price": 151,
+        "currency": "MXN",
+        "category": "quesos rellenos"
+      },
+      {
+        "name": "Queso relleno Cecina",
+        "price": 151,
+        "currency": "MXN",
+        "category": "quesos rellenos"
+      },
+      {
+        "name": "Quesadilla de maíz",
+        "price": 65,
+        "currency": "MXN",
+        "category": "quesadillas"
+      },
+      {
+        "name": "Quesadilla especial",
+        "price": 78,
+        "currency": "MXN",
+        "category": "quesadillas",
+        "description": "Pastor, bistec o longaniza"
+      },
+      {
+        "name": "Quesadilla de hongos con queso",
+        "price": 69,
+        "currency": "MXN",
+        "category": "quesadillas"
+      },
+      {
+        "name": "Flan Napolitano",
+        "price": 69,
+        "currency": "MXN",
+        "category": "postres"
+      },
+      {
+        "name": "Tacos de pechuga con nopales",
+        "price": 60,
+        "currency": "MXN",
+        "category": "especial del día",
+        "description": "Lunes, 2 pz"
+      },
+      {
+        "name": "Taco placero",
+        "price": 81,
+        "currency": "MXN",
+        "category": "especial del día",
+        "description": "Martes, 3 pz. Queso blanco, guacamole, nopales, chicharrón seco"
+      },
+      {
+        "name": "Parrillada 2 de 3 proteínas",
+        "price": 109,
+        "currency": "MXN",
+        "category": "especial del día",
+        "description": "Miércoles. Costilla, bistec o cecina de Yecapixtla"
+      },
+      {
+        "name": "Tacos de milanesa",
+        "price": 101,
+        "currency": "MXN",
+        "category": "especial del día",
+        "description": "Jueves, 2 tacos"
+      },
+      {
+        "name": "Torta de milanesa",
+        "price": 89,
+        "currency": "MXN",
+        "category": "especial del día",
+        "description": "Jueves"
+      },
+      {
+        "name": "Torta de suadero",
+        "price": 80,
+        "currency": "MXN",
+        "category": "especial del día",
+        "description": "Viernes"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/elhuequitomx/",
+      "fields": [
+        "brand"
+      ]
+    },
+    {
+      "source": "tripadvisor",
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g150800-d4925888-Reviews-El_Huequito-Mexico_City_Central_Mexico_and_Gulf_Coast.html",
+      "fields": [
+        "address"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://www.elhuequito.mx/menu",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": [],
+  "gaps": []
+}

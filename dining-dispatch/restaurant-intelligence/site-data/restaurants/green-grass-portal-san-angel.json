@@ -1,0 +1,219 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "3718b1aa-74f6-4cce-b839-03acd2deb056",
+  "slug": "green-grass-portal-san-angel",
+  "name": "Green Grass Portal San Ángel",
+  "location": {
+    "neighborhood": "LOS ALPES",
+    "borough": "Álvaro Obregón",
+    "address": "Av. Revolución 1267, Los Alpes, Álvaro Obregón, 01040 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3611112,
+      "longitude": -99.1895337
+    }
+  },
+  "contact": {
+    "phone": "55 2155 6229",
+    "website": "http://www.greengrass.mx/",
+    "instagram": "https://instagram.com/greengrass.mx/",
+    "googleMapsUrl": "https://maps.google.com/?cid=12402145021377375230&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "salad_shop",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 10:00 a.m. – 9:00 p.m.",
+      "lunes: 10:00 a.m. – 9:00 p.m.",
+      "martes: 10:00 a.m. – 9:00 p.m.",
+      "miércoles: 10:00 a.m. – 9:00 p.m.",
+      "jueves: 10:00 a.m. – 9:00 p.m.",
+      "viernes: 10:00 a.m. – 9:00 p.m.",
+      "sábado: 10:00 a.m. – 9:00 p.m."
+    ],
+    "rating": 4.3,
+    "reviewCount": 264
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-17T10:08:09.061Z",
+    "observationAgeDaysAtExport": 31,
+    "documentCount": 4,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "927b9731-8146-42a7-a489-36e248506b9d",
+        "sourceUrl": "https://www.greengrass.mx/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "bff571b3-7da2-4303-ac2f-9b61d3d073f6",
+        "sourceUrl": "https://ubereats.com/en-MX/mexico-city/food-delivery/green-grass-del-valle/by0hHG8HQo-1ShnoE6nyPQ/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "f0a58bf1-56e6-403f-a1d9-e9b40a0a2136",
+        "sourceUrl": "https://greengrass.mx/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "fc7748e0-abd3-4baa-af15-685cfff8939f",
+        "sourceUrl": "https://didi-food.com/es-MX/food/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://greengrass.mx/menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://didi-food.com/es-MX/food/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://ubereats.com/en-MX/mexico-city/food-delivery/green-grass-del-valle/by0hHG8HQo-1ShnoE6nyPQ/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://greengrass.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:35.632+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=12402145021377375230&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:36.036+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/greengrassmx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/greengrass.mx/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.802169+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:11:55.389548+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 6,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

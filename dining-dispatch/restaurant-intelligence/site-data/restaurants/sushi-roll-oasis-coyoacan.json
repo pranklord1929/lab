@@ -1,0 +1,746 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "85feae06-c1ef-47f1-858d-09f3fad12b52",
+  "slug": "sushi-roll-oasis-coyoacan",
+  "name": "Sushi Roll Oasis Coyoacán",
+  "location": {
+    "neighborhood": "ROMERO DE TERREROS",
+    "borough": "Coyoacán",
+    "address": "Miguel Ángel de Quevedo con, Av. Universidad 227, Oxtopulco, Coyoacán, 04360 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3463458,
+      "longitude": -99.1791748
+    }
+  },
+  "contact": {
+    "phone": "55 5086 3411",
+    "website": "http://www.sushiroll.mx/",
+    "instagram": "https://instagram.com/sushirollmx/",
+    "googleMapsUrl": "https://maps.google.com/?cid=2725896709006062325&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "sushi",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 11:00 a.m. – 9:00 p.m.",
+      "lunes: 12:00–10:00 p.m.",
+      "martes: 12:00–10:00 p.m.",
+      "miércoles: 12:00–10:00 p.m.",
+      "jueves: 12:00–10:00 p.m.",
+      "viernes: 12:00–10:00 p.m.",
+      "sábado: 11:00 a.m. – 10:00 p.m."
+    ],
+    "rating": 3.8,
+    "reviewCount": 611
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 7,
+    "itemCount": 36,
+    "documents": [
+      {
+        "id": "067fca3f-375d-42a0-abc0-f59e24f2bde9",
+        "sourceUrl": "https://tienda.sushiroll.mx/Menu/SubMenu/3",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "26dafbd2-45d9-4bad-a1a8-a4de41a1c872",
+        "sourceUrl": "https://tienda.sushiroll.mx/Menu/SubMenu/8",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "516f5ee0-5d12-4530-a26e-57b38f5fe934",
+        "sourceUrl": "https://sushiroll.com.mx/especiales/nuevas-bebidas/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "56848a36-7cff-4fbf-a079-bae439adb4d2",
+        "sourceUrl": "https://sushiroll.com.mx/menu/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "81c723c8-145c-4e16-a7f8-f664812b5e2e",
+        "sourceUrl": "https://tienda.sushiroll.mx/Menu/SubMenu/2",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "b48157c0-2023-4edf-ab9c-abc5f7eea5b3",
+        "sourceUrl": "https://tienda.sushiroll.mx/Menu/SubMenu/6",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "f52fbe0f-ab46-405e-af8d-55ba62d69597",
+        "sourceUrl": "https://tienda.sushiroll.mx/Menu%20Abril%2020252",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": [
+      {
+        "id": "2d31f3f5-d660-45b4-a62c-cec5a2e5865a",
+        "documentId": null,
+        "name": "BIEBER BEEF ROLL",
+        "description": null,
+        "price": 221,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "6c6db792-376b-49a2-a0b2-107cae942119",
+        "documentId": null,
+        "name": "BUNNY ROLL",
+        "description": null,
+        "price": 221,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "073663eb-150f-47a3-a09a-f4dc0c77250d",
+        "documentId": null,
+        "name": "COLLINS ROLL",
+        "description": null,
+        "price": 319,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "3cbd62dd-0a27-437b-a2e4-ae9c0f24c43d",
+        "documentId": null,
+        "name": "CRAZY ROLL",
+        "description": null,
+        "price": 221,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "f2671114-0755-4f1d-a288-1d87efaa8fcf",
+        "documentId": null,
+        "name": "CURRY ARRACHERA",
+        "description": null,
+        "price": 263,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "c2855d15-016b-4584-a363-e42dbfb4c2e6",
+        "documentId": null,
+        "name": "CURRY EBI",
+        "description": null,
+        "price": 263,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "0f70f761-94ec-402a-ac87-d9e5b6a0fb54",
+        "documentId": null,
+        "name": "CURRY SAKE",
+        "description": null,
+        "price": 263,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "a9c65894-902a-45a8-a0e4-8c00b0cdd302",
+        "documentId": null,
+        "name": "CURRY TORI",
+        "description": null,
+        "price": 263,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "ff7670e4-f4d5-4ec3-a5c1-2e58e06202b3",
+        "documentId": null,
+        "name": "GAGA ROLL",
+        "description": null,
+        "price": 195,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "46aa2a4a-77eb-406b-a856-fe754533b6bd",
+        "documentId": null,
+        "name": "INN ROLL",
+        "description": null,
+        "price": 175,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "9a385d2b-78ee-4d78-a310-b330f40eafd1",
+        "documentId": null,
+        "name": "MISO ESPECIAL",
+        "description": null,
+        "price": 203,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "3c31f24f-30d0-4a42-affd-48b60e35b0c5",
+        "documentId": null,
+        "name": "MISOSHIRO",
+        "description": null,
+        "price": 84,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "04b3334e-655e-4e2f-ab2c-cadab62a7ee8",
+        "documentId": null,
+        "name": "Más vendidos",
+        "description": null,
+        "price": 177,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "606f8a47-1440-4894-a9c9-aeafa67a3000",
+        "documentId": null,
+        "name": "OCEAN ROLL",
+        "description": null,
+        "price": 221,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "06b442ed-c885-4588-a6fd-742eaca4665b",
+        "documentId": null,
+        "name": "Orden (3)",
+        "description": null,
+        "price": 192,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "714efc7a-af28-49c8-a92c-0b9bdeecaf99",
+        "documentId": null,
+        "name": "Orden (3)",
+        "description": null,
+        "price": 177,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "9d683ed9-e3b7-44c7-afde-ebb5c0ddb957",
+        "documentId": null,
+        "name": "Orden (3)",
+        "description": null,
+        "price": 205,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "a51a667f-34a4-49d5-aa95-2357be292958",
+        "documentId": null,
+        "name": "Orden (3)",
+        "description": null,
+        "price": 162,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "b3e2fc9f-ccfa-439a-acd4-f32bcbc7b09b",
+        "documentId": null,
+        "name": "Orden (3)",
+        "description": null,
+        "price": 231,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "b4b87004-77af-453f-a01b-0575441a4b4a",
+        "documentId": null,
+        "name": "Orden (3)",
+        "description": null,
+        "price": 175,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "bff2cbd0-0e4d-416c-ae60-7a110cb28222",
+        "documentId": null,
+        "name": "Orden (3)",
+        "description": null,
+        "price": 199,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "e7d0e38f-d06d-4726-ab75-5a4543fc1163",
+        "documentId": null,
+        "name": "Orden (3)",
+        "description": null,
+        "price": 170,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "eaff7f45-e018-4ed9-af7b-d2a2099dda69",
+        "documentId": null,
+        "name": "Orden (3)",
+        "description": null,
+        "price": 123,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "f54ca00b-ed2d-4076-aa74-42fa7dcffc86",
+        "documentId": null,
+        "name": "SAKE DON",
+        "description": null,
+        "price": 205,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "ae3a3581-067a-45be-adc6-a0ef2954bcf1",
+        "documentId": null,
+        "name": "SHITAKE BROTH",
+        "description": null,
+        "price": 151,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "ff9d9c41-8dfb-4ed8-a703-b4528957f88b",
+        "documentId": null,
+        "name": "SOHO BOWL",
+        "description": null,
+        "price": 209,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "8ab500a2-a8f7-4b11-a436-44799b7e6553",
+        "documentId": null,
+        "name": "SOHO SAKE",
+        "description": null,
+        "price": 209,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "0fb239ff-8fe2-43de-aa00-2ed5e66a47da",
+        "documentId": null,
+        "name": "SOHO TUNA",
+        "description": null,
+        "price": 209,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "f67f294d-500e-4173-aad1-26920cdba64e",
+        "documentId": null,
+        "name": "SUMASHI",
+        "description": null,
+        "price": 179,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "91c5e874-586d-497b-a141-fc2a2303cc97",
+        "documentId": null,
+        "name": "SUNSET ROLL",
+        "description": null,
+        "price": 175,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "538b5102-c7f3-4c2e-a366-c8169e87e072",
+        "documentId": null,
+        "name": "TAMPICO",
+        "description": null,
+        "price": 48,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "f534ce62-a887-4979-af75-85b726d5e670",
+        "documentId": null,
+        "name": "TIC TOC ROLL",
+        "description": null,
+        "price": 195,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "9d15ddc0-f407-4868-a82d-24c0bcfefef8",
+        "documentId": null,
+        "name": "TORI ROLL",
+        "description": null,
+        "price": 141,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "0058ffc8-101a-4a0c-a6e5-e156af05c329",
+        "documentId": null,
+        "name": "TORISOZUI",
+        "description": null,
+        "price": 116,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "c9af4377-cb72-40e7-a72b-16f7eb30cc2d",
+        "documentId": null,
+        "name": "UP UP ROLL",
+        "description": null,
+        "price": 221,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "09f8cba1-2ffa-4f9b-ae60-5a77e6ce5905",
+        "documentId": null,
+        "name": "YAKIMESHI MIXTO",
+        "description": null,
+        "price": 141,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://sushiroll.com.mx/especiales/nuevas-bebidas/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://tienda.sushiroll.mx/Menu/SubMenu/8",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://tienda.sushiroll.mx/Menu/SubMenu/6",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://tienda.sushiroll.mx/Menu/SubMenu/2",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://tienda.sushiroll.mx/Menu%20Abril%2020252",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://sushiroll.com.mx/menu/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://tienda.sushiroll.mx/Menu/SubMenu/3",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://sushiroll.com.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:52:14.996+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=2725896709006062325&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:53:05.348+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/sushirollmx",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/sushirollmx/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "google_places",
+      "official_menus",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T20:05:20.22199+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:23:53.694518+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 6,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_price_level",
+      "missing_source_summary"
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "catalogName": "Pink Rambo",
+  "slug": "pink-rambo",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Pink Rambo",
+  "location": {
+    "address": "Cedro 66, Santa María la Ribera",
+    "neighborhood": "Santa María la Ribera",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06400",
+    "coordinates": {
+      "latitude": 19.4516146,
+      "longitude": -99.1617287
+    }
+  },
+  "contact": {
+    "phone": "+52 55 6479 2623",
+    "website": "https://www.instagram.com/pinkrambomx/",
+    "instagram": "pinkrambomx",
+    "email": null,
+    "websiteIsInstagram": true
+  },
+  "hours": [
+    "OpenTable location locked. Hours not fully published — some listings open ~14:00/18:00."
+  ],
+  "food": {
+    "cuisine": "cantina psicodélica",
+    "priceLevel": 2
+  },
+  "reservation": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/r/pink-rambo-ciudad-de-mexico"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.theinfatuation.com/mexico-city/reviews/pink-rambo",
+    "observedAt": "2026-08-17",
+    "itemCount": 6,
+    "items": [
+      {
+        "name": "Langoustine dumplings in broth",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Empanadas de queso con cebolla caramelizada",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas",
+        "description": "Con salsa de ajo picante"
+      },
+      {
+        "name": "Lamb tartare",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Trout confit",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Pollo frito",
+        "price": null,
+        "currency": "MXN",
+        "category": "fuertes"
+      },
+      {
+        "name": "Flan",
+        "price": null,
+        "currency": "MXN",
+        "category": "postres"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "opentable",
+      "url": "https://www.opentable.com/r/pink-rambo-ciudad-de-mexico",
+      "fields": [
+        "address"
+      ]
+    },
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/pinkrambomx/",
+      "fields": [
+        "instagram"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://www.theinfatuation.com/mexico-city/reviews/pink-rambo",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "gaps": [
+    "hours",
+    "website"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": []
+}

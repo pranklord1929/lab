@@ -1,0 +1,160 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "537e9de4-a359-4a22-b411-2b592f374a27",
+  "slug": "p-f-changs-parque-delta",
+  "name": "P.F. Chang's Parque Delta",
+  "location": {
+    "neighborhood": "NARVARTE",
+    "borough": "Benito Juárez",
+    "address": "Av. Cuauhtémoc 462-Loc RA-02-TR-02, Narvarte Poniente, Benito Juárez, 03020 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4033138,
+      "longitude": -99.1553757
+    }
+  },
+  "contact": {
+    "phone": "55 5035 5890",
+    "website": "https://pfchangsmexico.com.mx/?utm_source=PFC_1522&utm_medium=url_site_gmb&utm_campaign=google_maps",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=11278227808306811874&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "asian",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 3
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 12:00–10:00 p.m.",
+      "lunes: 12:00–11:00 p.m.",
+      "martes: 12:00–11:00 p.m.",
+      "miércoles: 12:00–11:00 p.m.",
+      "jueves: 12:00 p.m. – 12:00 a.m.",
+      "viernes: 12:00 p.m. – 12:00 a.m.",
+      "sábado: 12:00 p.m. – 12:00 a.m."
+    ],
+    "rating": 4.3,
+    "reviewCount": 2977
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-09T18:56:10.797+00:00",
+    "observationAgeDaysAtExport": 38,
+    "documentCount": 1,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "68acd1a3-bc76-4aac-8cd2-2d0e92f0d861",
+        "sourceUrl": "https://pfchangsmexico.com.mx/anc-2026-menu/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.5,
+        "extractionMethod": null,
+        "status": "failed",
+        "lastCheckedAt": "2026-07-09T18:56:10.797+00:00"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://pfchangsmexico.com.mx/anc-2026-menu/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://pfchangsmexico.com.mx/?utm_source=PFC_1522&utm_medium=url_site_gmb&utm_campaign=google_maps",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:16.723+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=11278227808306811874&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:27.236+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:06:07.442887+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 346,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram,menu",
+    "actionPriority": 6,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

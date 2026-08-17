@@ -1,0 +1,143 @@
+{
+  "catalogName": "PELOTA MESTIZA",
+  "slug": "pelota-mestiza",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Pelota Mestiza",
+  "location": {
+    "address": "3er piso, Frontón México, Av. de la República 17, Tabacalera",
+    "neighborhood": "Tabacalera",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06050",
+    "coordinates": {
+      "latitude": 19.4369782,
+      "longitude": -99.1533294
+    }
+  },
+  "contact": {
+    "phone": "+52 55 3521 1450",
+    "website": "https://www.instagram.com/pelotamestiza/",
+    "instagram": "pelotamestiza",
+    "email": null,
+    "websiteIsInstagram": true
+  },
+  "hours": [
+    "Not fully published this pass. Book OpenTable / WhatsApp."
+  ],
+  "food": {
+    "cuisine": "contemporary mexican / maize",
+    "chef": "Lula (IG @lulachef)",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "whatsapp / opentable",
+    "url": "https://www.opentable.com/r/pelota-mestiza-ciudad-de-mexico"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://foodandpleasure.com/restaurante-pelota-mestiza/",
+    "observedAt": "2026-08-17",
+    "itemCount": 11,
+    "items": [
+      {
+        "name": "Guacamole mestizo",
+        "price": 220,
+        "currency": "MXN",
+        "category": "entradas",
+        "description": "250 g — TripAdvisor carta"
+      },
+      {
+        "name": "Esquites ancestrales / esquites de Pátzcuaro",
+        "price": 190,
+        "currency": "MXN",
+        "category": "entradas",
+        "description": "Mayonesa de chipotle"
+      },
+      {
+        "name": "Tostada de pulpo enamorado",
+        "price": 195,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Taco de gambas al ajillo",
+        "price": null,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Taco de coliflor en recado negro",
+        "price": null,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Cerdo de 8 horas con jocoque y quelites",
+        "price": null,
+        "currency": "MXN",
+        "category": "fuertes"
+      },
+      {
+        "name": "Pechuga de pollo con mole y arroz rojo",
+        "price": null,
+        "currency": "MXN",
+        "category": "fuertes"
+      },
+      {
+        "name": "Dulce de calabazas de Castilla",
+        "price": null,
+        "currency": "MXN",
+        "category": "postres"
+      },
+      {
+        "name": "Acertijo de cacao",
+        "price": null,
+        "currency": "MXN",
+        "category": "postres",
+        "description": "Cremoso de cacahuate"
+      },
+      {
+        "name": "Suspiro de mango",
+        "price": null,
+        "currency": "MXN",
+        "category": "postres"
+      },
+      {
+        "name": "Hojaldre de manzana con almíbar de romero",
+        "price": null,
+        "currency": "MXN",
+        "category": "postres"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/pelotamestiza/",
+      "fields": [
+        "address",
+        "whatsapp"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://foodandpleasure.com/restaurante-pelota-mestiza/",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "gaps": [
+    "hours",
+    "coordinates"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": []
+}

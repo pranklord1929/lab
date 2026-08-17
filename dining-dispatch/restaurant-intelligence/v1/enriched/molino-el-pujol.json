@@ -1,0 +1,205 @@
+{
+  "catalogName": "Molino El Pujol",
+  "slug": "molino-el-pujol",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Molino El Pujol",
+  "location": {
+    "address": "Gral. Benjamín Hill 146, Hipódromo Condesa",
+    "neighborhood": "Hipódromo",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06100",
+    "coordinates": {
+      "latitude": 19.4077163,
+      "longitude": -99.1771063
+    }
+  },
+  "contact": {
+    "phone": "+52 55 4386 2283",
+    "website": "https://www.instagram.com/molinopujol/",
+    "instagram": "molinopujol",
+    "email": null
+  },
+  "hours": [
+    "todos los días 08:00–18:00 (Michelin + Uber Eats ~08:00–17:45)"
+  ],
+  "food": {
+    "cuisine": "masa / tortillas / counter",
+    "priceLevel": 1,
+    "notes": "Separate from Pujol restaurant. Masa mill / casual."
+  },
+  "reservation": {
+    "platform": "walk-in",
+    "url": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.ubereats.com/mx/store/molino-el-pujol/Uhc8DDiGTlKHBmetJnyIkQ",
+    "observedAt": "2026-08-17",
+    "itemCount": 17,
+    "items": [
+      {
+        "name": "Concha con costra de maíz",
+        "price": 75,
+        "currency": "MXN",
+        "category": "panadería"
+      },
+      {
+        "name": "Tamal de frijol",
+        "price": 154,
+        "currency": "MXN",
+        "category": "tamales"
+      },
+      {
+        "name": "Tamal de cerdo",
+        "price": 154,
+        "currency": "MXN",
+        "category": "tamales"
+      },
+      {
+        "name": "Tamal de calabaza",
+        "price": null,
+        "currency": "MXN",
+        "category": "tamales",
+        "description": "Named by Michelin inspector: masa al vapor, calabaza, ensalada con semillas caramelizadas"
+      },
+      {
+        "name": "Esquites",
+        "price": 95,
+        "currency": "MXN",
+        "category": "antojitos"
+      },
+      {
+        "name": "Taco de huitlacoche",
+        "price": 85,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Quesadilla",
+        "price": 75,
+        "currency": "MXN",
+        "category": "antojitos"
+      },
+      {
+        "name": "Chilaquiles de mole",
+        "price": 154,
+        "currency": "MXN",
+        "category": "especialidades",
+        "description": "Totopos, mole coloradito, crema, queso, cebolla y cilantro"
+      },
+      {
+        "name": "Chilaquiles verdes con huevos",
+        "price": 214,
+        "currency": "MXN",
+        "category": "especialidades"
+      },
+      {
+        "name": "Enfrijoladas",
+        "price": null,
+        "currency": "MXN",
+        "category": "especialidades",
+        "description": "Named on Michelin + official Pujol group page"
+      },
+      {
+        "name": "Huarache de sirloin de wagyu cross",
+        "price": 390,
+        "currency": "MXN",
+        "category": "antojitos"
+      },
+      {
+        "name": "Tortillas de maíz rojo",
+        "price": 69,
+        "currency": "MXN",
+        "category": "para llevar"
+      },
+      {
+        "name": "Masa negra Shub Nigas",
+        "price": 89,
+        "currency": "MXN",
+        "category": "para llevar"
+      },
+      {
+        "name": "Masa amarilla zapoteco valles",
+        "price": 79,
+        "currency": "MXN",
+        "category": "para llevar"
+      },
+      {
+        "name": "Frijoles de olla",
+        "price": 75,
+        "currency": "MXN",
+        "category": "acompañamientos"
+      },
+      {
+        "name": "Café de olla frío",
+        "price": 110,
+        "currency": "MXN",
+        "category": "bebidas"
+      },
+      {
+        "name": "Churro",
+        "price": 75,
+        "currency": "MXN",
+        "category": "postres"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "michelin",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/molino-el-pujol",
+      "fields": [
+        "address",
+        "postalCode",
+        "hours",
+        "phone"
+      ]
+    },
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/molinoelpujol/",
+      "fields": [
+        "instagram"
+      ]
+    },
+    {
+      "source": "local-db",
+      "url": null,
+      "fields": [
+        "neighborhood",
+        "rating 4.0"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://www.ubereats.com/mx/store/molino-el-pujol/Uhc8DDiGTlKHBmetJnyIkQ",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "gaps": [],
+  "notes": [
+    "Condesa mill, not Pujol Tennyson. Michelin street: Benjamín Hill 146."
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "distinctions": {
+    "michelin": "Bib Gourmand : nuestras mejores relaciones calidad-precio"
+  },
+  "michelinReview": "Este pequeño local de La Condesa con suelos de cemento pulido y paredes de azulejos blancos es un café de barrio con mucho estilo. Casi todo el espacio lo ocupa la cocina: para sentarse solo dispone de seis asientos frente a la barra de madera y otro puñado repartido por la acera. Su breve carta pone el foco en platos elaborados a diario con maíz nixtamalizado: tamales, tacos, chilaquiles y enfrijoladas. También hay productos para llevar a casa, como las excelentes tortillas, que te llevarás calientes con un poco de suerte. El tamal de calabaza es un sabroso envuelto de masa recién cocida al vapor, salpicada de tiernos trocitos de calabaza y acompañado de una pequeña ensalada aderezada con semillas de calabaza caramelizadas.",
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/molino-el-pujol",
+      "id": "1208823"
+    }
+  ]
+}

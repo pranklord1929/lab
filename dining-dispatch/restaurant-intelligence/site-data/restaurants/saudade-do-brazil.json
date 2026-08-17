@@ -1,0 +1,253 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "112d80b6-d83e-48d4-bbab-fb7e3d712374",
+  "slug": "saudade-do-brazil",
+  "name": "Saudade Do Brazil",
+  "location": {
+    "neighborhood": "NARVARTE PONIENTE",
+    "borough": "Benito Juárez",
+    "address": "Anaxágoras 743, Narvarte Poniente, Benito Juárez, 03020 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3879391,
+      "longitude": -99.1577038
+    }
+  },
+  "contact": {
+    "phone": "55 5523 8951",
+    "website": "https://saudadedobrazil.com/",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=576250556119624907&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "brazilian",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 1:00–6:30 p.m.",
+      "lunes: 1:00–9:30 p.m.",
+      "martes: 1:00–9:30 p.m.",
+      "miércoles: 1:00–9:30 p.m.",
+      "jueves: 1:00–9:30 p.m.",
+      "viernes: 1:00–9:30 p.m.",
+      "sábado: 1:00–9:30 p.m."
+    ],
+    "rating": 4.2,
+    "reviewCount": 5871
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-09T18:56:12.486+00:00",
+    "observationAgeDaysAtExport": 38,
+    "documentCount": 1,
+    "itemCount": 7,
+    "documents": [
+      {
+        "id": "04ebac8f-262e-4ad4-999c-f64a0610b59f",
+        "sourceUrl": "https://saudadedobrazil.com/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.5,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:56:12.486+00:00"
+      }
+    ],
+    "items": [
+      {
+        "id": "da9d978c-addb-4304-a9ac-4829c098845a",
+        "documentId": null,
+        "name": "A SÁBADO A PARTIR DE LAS 19:00 HRS",
+        "description": null,
+        "price": 379,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "f5efdb7d-3dc8-45c2-ae01-947481a9ee74",
+        "documentId": null,
+        "name": "A SÁBADO A PARTIR DE LAS 19:00 HRS",
+        "description": null,
+        "price": 219,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "83461aeb-96dc-4257-a3f7-4ec71df4c399",
+        "documentId": null,
+        "name": "JUEVES A DOMINGO",
+        "description": null,
+        "price": 439,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "69c790bf-c069-4412-a773-b0bcbca28d24",
+        "documentId": null,
+        "name": "LUNES Y MARTES TODO EL DÍA",
+        "description": null,
+        "price": 219,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "7bf7783b-81ed-4802-a24b-0e69daf6ae43",
+        "documentId": null,
+        "name": "LUNES, MARTES Y MIÉRCOLES TODO EL DÍA",
+        "description": null,
+        "price": 379,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "364f1e08-8a89-4ff9-aeab-2a7b6185141e",
+        "documentId": null,
+        "name": "MENÚ ENSALADAS NO INCLUYE RODIZIO BRASILEÑO",
+        "description": null,
+        "price": 219,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "732bfbf5-94b9-4df7-a721-41b0f08116e3",
+        "documentId": null,
+        "name": "MENÚ ENSALADAS NO INCLUYE RODIZIO BRASILEÑO",
+        "description": null,
+        "price": 295,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://saudadedobrazil.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:52:08.703+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=576250556119624907&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:53:04.032+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://es-la.facebook.com/SaudadedBrazil/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "google_places",
+      "official_menus",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T20:05:20.22199+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:23:03.639442+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 356,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_source_summary"
+    ]
+  }
+}

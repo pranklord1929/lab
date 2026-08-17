@@ -5,7 +5,7 @@ $ status: experimental
 $ polish: optional
 ```
 
-Four product ideas I started building. Not finished companies. Not weekend trash either.
+Five product ideas I started building. Not finished companies. Not weekend trash either.
 
 The code is early, agent-heavy, half-broken in places. The **ideas** are the interesting part — each one has a real loop, a who-pays / what-you-get shape, even if the implementation is still mid-thought.
 
@@ -23,6 +23,7 @@ If it runs, cool. If it doesn’t, default.
 | [`scorevault/`](./scorevault) | on-chain scores / vaults / commitments | stakes + coordination instead of “another sports app” | prototype · thesis in the contracts |
 | [`seo-autopilot/`](./seo-autopilot) | research → draft → publish (SEO/GEO) without babysitting every post | model labor × distribution; volume with a spine | early CLI · loop sketched |
 | [`la-cage/`](./la-cage) | restaurant ops cockpit — agents on invoices, stock, payroll | the cage is the habitacle; he plugs agents, you frame the resto | early dashboard · import loop live |
+| [`dining-dispatch/`](./dining-dispatch) | Mexico City restaurant intelligence — source-dated fiches, not a marketplace | local source of truth for humans and agents; public site is the proof | V1 catalog · 113 restaurants · upstream `thediningdispatch/dining-dispatch` |
 
 Copies. Full history lives upstream. Read for intent, not SLAs.
 

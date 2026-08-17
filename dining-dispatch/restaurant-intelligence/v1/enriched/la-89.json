@@ -1,0 +1,127 @@
+{
+  "catalogName": "La 89",
+  "slug": "la-89",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "La 89",
+  "location": {
+    "address": "Colima 134, Roma Norte",
+    "neighborhood": "Roma Norte",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06700",
+    "coordinates": {
+      "latitude": 19.4201578,
+      "longitude": -99.1583785
+    }
+  },
+  "contact": {
+    "phone": "+52 55 3112 6173",
+    "website": "https://www.instagram.com/la.ochenta.y.nueve/",
+    "instagram": "la.ochenta.y.nueve",
+    "email": "hola@taqueria89.mx",
+    "websiteIsInstagram": true
+  },
+  "hours": [
+    "lun–vie 12:00–00:00",
+    "sáb 11:00–00:00",
+    "dom 11:00–22:00"
+  ],
+  "food": {
+    "cuisine": "asador / birrieria / tacos",
+    "priceLevel": 1
+  },
+  "reservation": {
+    "platform": "walk-in",
+    "url": null
+  },
+  "distinctions": {
+    "michelin": "Bib Gourmand : nuestras mejores relaciones calidad-precio",
+    "bibGourmand": true
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/la-89",
+    "observedAt": "2026-08-17",
+    "itemCount": 6,
+    "items": [
+      {
+        "name": "Quesabirria",
+        "price": null,
+        "currency": "MXN",
+        "category": "tacos",
+        "description": "Michelin: con consomé"
+      },
+      {
+        "name": "Tacos de carne asada",
+        "price": null,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Tacos de birria",
+        "price": null,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Tortas",
+        "price": null,
+        "currency": "MXN",
+        "category": "tortas",
+        "description": "Michelin: pan excelente, montadas con cuidado"
+      },
+      {
+        "name": "Torta de birria",
+        "price": null,
+        "currency": "MXN",
+        "category": "tortas"
+      },
+      {
+        "name": "Taco de lengua",
+        "price": null,
+        "currency": "MXN",
+        "category": "tacos"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/la.ochenta.y.nueve/",
+      "fields": [
+        "hours",
+        "email"
+      ]
+    },
+    {
+      "source": "michelin",
+      "url": "https://guide.michelin.com/us/en/ciudad-de-mexico/cuauhtemoc_1995126/restaurant/la-89",
+      "fields": [
+        "address"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/la-89",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "michelinReview": "En la bonita Roma Norte, este luminoso local ofrece una excelente selección de tacos de carne asada, birria y tortas. Aquí nada se hace con prisas o de forma descuidada: la cocina se toma su tiempo para preparar todo al momento. Obligada es la quesabirria, acompañada o no del delicado consomé. Su carne asada destaca por su punto de aliño y cocción, pero sería una lástima pasar por alto las fantásticas tortas, elaboradas con un excelente pan y cuidadosamente montadas. El comedor es muy sencillo, con taburetes de plástico y mesas de metal.",
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/la-89",
+      "id": "1217588"
+    }
+  ]
+}

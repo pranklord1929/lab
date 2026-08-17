@@ -1,0 +1,64 @@
+{
+  "slug": "masala-y-maiz",
+  "name": "Masala y Maíz",
+  "url": "https://es.wikipedia.org/wiki/Masala_y_Maíz",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Samosas",
+      "price": 285,
+      "currency": "MXN"
+    },
+    {
+      "name": "Ceviche con uchuvas",
+      "price": 395,
+      "currency": "MXN"
+    },
+    {
+      "name": "Camarones pa pelar",
+      "price": 445,
+      "currency": "MXN"
+    },
+    {
+      "name": "Chilpachole",
+      "price": 485,
+      "currency": "MXN"
+    },
+    {
+      "name": "Esquites estilo Makai Paka"
+    },
+    {
+      "name": "Chilpachole con tamal y cangrejo blando"
+    },
+    {
+      "name": "Camarones jumbo a la parrilla con masala"
+    },
+    {
+      "name": "Gorditas con chorizo de cordero, raita de za'atar"
+    },
+    {
+      "name": "Uttapam de masa de arroz fermentada, garbanzos y chutney"
+    },
+    {
+      "name": "Pollo crujiente, ensalada de hinojo, jícama y mango verde"
+    },
+    {
+      "name": "Tamal de chocolate, naranja, mousse de aguacate",
+      "category": "postres"
+    },
+    {
+      "name": "Pastel de mora e hibisco",
+      "category": "postres"
+    },
+    {
+      "name": "Panna cotta de té de limón",
+      "category": "postres"
+    },
+    {
+      "name": "Merengue de cardamomo con higos, pera y nueces",
+      "category": "postres"
+    }
+  ],
+  "notes": "Wikipedia + 2026 published ticket prices."
+}

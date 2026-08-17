@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "a01a520c-6349-4238-8f4b-ac413d5c11d3",
+  "slug": "signora-mariola",
+  "name": "Signora Mariola",
+  "location": {
+    "neighborhood": "GRANADA",
+    "borough": "Miguel Hidalgo",
+    "address": "Lago Tanganica 75, Granada, Miguel Hidalgo, 11520 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4381207,
+      "longitude": -99.1930949
+    }
+  },
+  "contact": {
+    "phone": "55 8437 0070",
+    "website": "https://www.instagram.com/signoramariola/?hl=en",
+    "instagram": "https://instagram.com/signoramariola/",
+    "googleMapsUrl": "https://maps.google.com/?cid=1946720463484133245&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "coffee_shop",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 8:30 a.m. – 4:00 p.m.",
+      "lunes: 7:00 a.m. – 8:00 p.m.",
+      "martes: 7:00 a.m. – 8:00 p.m.",
+      "miércoles: 7:00 a.m. – 8:00 p.m.",
+      "jueves: 7:00 a.m. – 8:00 p.m.",
+      "viernes: 7:00 a.m. – 8:00 p.m.",
+      "sábado: 8:00 a.m. – 4:00 p.m."
+    ],
+    "rating": 4.5,
+    "reviewCount": 722
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "missing",
+    "observedAt": null,
+    "observationAgeDaysAtExport": null,
+    "documentCount": 0,
+    "itemCount": 0,
+    "documents": [],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.instagram.com/signoramariola/?hl=en",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:52:08.673+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=1946720463484133245&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:53:02.594+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/signoramariola/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T20:13:26.199+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 1,
+    "sourceNames": [
+      "google_places"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-06-29T14:23:14.695826+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:23:14.879745+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 329,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "menu",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_source_summary",
+      "missing_menu_document",
+      "missing_structured_menu_items",
+      "low_source_count"
+    ]
+  }
+}

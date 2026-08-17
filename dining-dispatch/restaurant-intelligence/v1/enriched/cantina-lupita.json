@@ -1,0 +1,114 @@
+{
+  "catalogName": "CANTINA LUPITA",
+  "slug": "cantina-lupita",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Cantina Lupita",
+  "location": {
+    "address": "Hamburgo 268, Juárez",
+    "neighborhood": "Juárez",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06600",
+    "coordinates": {
+      "latitude": 19.4229306,
+      "longitude": -99.1712105
+    }
+  },
+  "contact": {
+    "phone": null,
+    "website": "https://www.instagram.com/cantinalupita/",
+    "instagram": "cantinalupita",
+    "email": null,
+    "websiteIsInstagram": true
+  },
+  "hours": [
+    "lun–sáb 16:00–01:30",
+    "dom 12:00–21:00"
+  ],
+  "food": {
+    "cuisine": "cantina",
+    "priceLevel": 2
+  },
+  "reservation": {
+    "platform": "walk-in",
+    "url": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.timeoutmexico.mx/ciudad-de-mexico/bares-y-cantinas/cantina-lupita",
+    "observedAt": "2026-08-17",
+    "itemCount": 6,
+    "items": [
+      {
+        "name": "Menú cantinero (8 tiempos)",
+        "price": null,
+        "currency": "MXN",
+        "category": "menú cantinero",
+        "description": "Incluido con consumo de cóctel o destilado"
+      },
+      {
+        "name": "Jugo de carne",
+        "price": null,
+        "currency": "MXN",
+        "category": "menú cantinero"
+      },
+      {
+        "name": "Flauta de aguacate",
+        "price": null,
+        "currency": "MXN",
+        "category": "menú cantinero"
+      },
+      {
+        "name": "Taco frito de marlín",
+        "price": null,
+        "currency": "MXN",
+        "category": "menú cantinero"
+      },
+      {
+        "name": "Fideo seco",
+        "price": null,
+        "currency": "MXN",
+        "category": "menú cantinero"
+      },
+      {
+        "name": "Barbacoa para taquear",
+        "price": null,
+        "currency": "MXN",
+        "category": "carta",
+        "description": "Con tortillas hechas a mano"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/cantinalupita/",
+      "fields": [
+        "address"
+      ]
+    },
+    {
+      "source": "tiktok",
+      "url": null,
+      "fields": [
+        "hours"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://www.timeoutmexico.mx/ciudad-de-mexico/bares-y-cantinas/cantina-lupita",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": []
+}

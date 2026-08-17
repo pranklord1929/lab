@@ -1,0 +1,725 @@
+[
+  {
+    "slug": "los-cocuyos",
+    "michelinId": "1208239",
+    "michelinUrl": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/taqueria-los-cocuyos",
+    "phone": "+52 55 5518 4231",
+    "website": null,
+    "street": "Simón Bolívar 67, Centro",
+    "distinction": {
+      "label": "Bib Gourmand : nuestras mejores relaciones calidad-precio",
+      "slug": "bib-gourmand",
+      "icon": "="
+    },
+    "greenStar": null,
+    "review": "Esta taquería del Centro Histórico es una institución desde 1980. De pie, junto a un caldero lleno de carnes, un cocinero maneja el cuchillo con la velocidad del rayo, mientras que en el amplio comedor se comprueba lo concurrido del lugar. La oferta es amplia, pero entre los platos que gozan de mayor demanda últimamente destacan el taco de tierna y fundente cabeza y el clásico al pastor, ambos ter",
+    "cuisines": [
+      {
+        "code": "TYC_1084",
+        "label": "Mexicana",
+        "slug": "mexican"
+      }
+    ],
+    "bookingUrl": null,
+    "coords": {
+      "lat": 19.43037,
+      "lng": -99.1387648
+    }
+  },
+  {
+    "slug": "meroma",
+    "michelinId": "1210965",
+    "michelinUrl": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/meroma",
+    "phone": "+52 55 5920 2654",
+    "website": "https://meroma.mx/",
+    "street": "Colima 150, Roma Norte",
+    "distinction": {
+      "label": "Seleccionado: Buena cocina",
+      "slug": "el-plato-michelin",
+      "icon": "‹"
+    },
+    "greenStar": null,
+    "review": "Este local de la Roma propiedad de los chefs Mercedes Bernal y Rodney Cusic destaca por su estética y su cocina decididamente contemporáneas, con una propuesta que va más allá de lo mexicano y se deja influir ampliamente por Italia y el Mediterráneo. Ingredientes de primera calidad sirven para dar vida a una cocina muy solvente, con platos de pasta casera y principales como la jaiba de Veracruz o ",
+    "cuisines": [
+      {
+        "code": "TYC_6",
+        "label": "Actual",
+        "slug": "contemporary"
+      }
+    ],
+    "bookingUrl": "https://www.opentable.com.mx/r/meroma-ciudad-de-mexico?ref=18490",
+    "coords": {
+      "lat": 19.4200656,
+      "lng": -99.1590708
+    }
+  },
+  {
+    "slug": "filigrana",
+    "michelinId": "1212799",
+    "michelinUrl": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/filigrana",
+    "phone": "+55 4398 3137",
+    "website": "https://www.filigrana.com.mx/",
+    "street": "Av. Veracruz 62, Roma Norte",
+    "distinction": {
+      "label": "Bib Gourmand : nuestras mejores relaciones calidad-precio",
+      "slug": "bib-gourmand",
+      "icon": "="
+    },
+    "greenStar": null,
+    "review": "Este colorido y alegre local de la chef Martha Ortiz derrocha belleza y personalidad a lo grande. Debajo de un edificio residencial de la Roma Norte, esta jungla de concreto con sillones tapizados de morado, grandes ventanales y árboles ofrece una estampa tan elegante como la cocina, con reinterpretaciones inteligentemente lúdicas de los grandes clásicos. Podrás empezar con una gordita, un crujien",
+    "cuisines": [
+      {
+        "code": "TYC_1084",
+        "label": "Mexicana",
+        "slug": "mexican"
+      },
+      {
+        "code": "TYC_6",
+        "label": "Actual",
+        "slug": "contemporary"
+      }
+    ],
+    "bookingUrl": null,
+    "coords": {
+      "lat": 19.4175252,
+      "lng": -99.1740256
+    }
+  },
+  {
+    "slug": "guzina-oaxaca",
+    "michelinId": "1210978",
+    "michelinUrl": "https://guide.michelin.com/mx/es/ciudad-de-mexico/miguel-hidalgo_1999281/restaurante/guzina-oaxaca",
+    "phone": "+52 55 5282 1820",
+    "website": "https://guzinaoaxaca.org/",
+    "street": "Av. Presidente Masaryk 513, Polanco",
+    "distinction": {
+      "label": "Seleccionado: Buena cocina",
+      "slug": "el-plato-michelin",
+      "icon": "‹"
+    },
+    "greenStar": null,
+    "review": "Guzina Oaxaca, en una calle del barrio de Polanco a rebosar de tiendas de lujo, hace brillar con luz propia la gastronomía de este estado del sur de México. La cocina, con gran protagonismo del maíz y el chile, es conocida por sus moles y por el uso de insectos, entre ellos los chapulines. Tanto el chef Álex Ruiz, autor de la carta, como el chef Carlos Galán, autor material de los platos, son orig",
+    "cuisines": [
+      {
+        "code": "TYC_1101",
+        "label": "Regional",
+        "slug": "regional-cuisine"
+      },
+      {
+        "code": "TYC_1084",
+        "label": "Mexicana",
+        "slug": "mexican"
+      }
+    ],
+    "bookingUrl": "https://widget.mozrest.com/?key=619e53c7b964bafe32e3e87c&rpId=1210978&bgColor=ffffffff",
+    "coords": {
+      "lat": 19.4325514,
+      "lng": -99.2036507
+    }
+  },
+  {
+    "slug": "la-opera",
+    "michelinId": "1249375",
+    "michelinUrl": "https://guide.michelin.com/mx/es/yucatan/merida_2068208/restaurante/la-barra-de-huniik",
+    "phone": "+52 961 162 3881",
+    "website": "https://www.instagram.com/labarradehuniik?igsh=dmN4Z3lsMDN5cGY5",
+    "street": "C. 60 417, Parque Santa Ana, Centro",
+    "distinction": {
+      "label": "Una Estrella : una cocina de gran nivel",
+      "slug": "1-estrella-michelin",
+      "icon": "m"
+    },
+    "greenStar": null,
+    "review": "Justo al lado de Huniik, la casa madre, La Barra de Huniik baila a su propio ritmo. Concebido a la manera de un omakase, este pequeño espacio luce una estética fresca y contemporánea con alma yucateca. Y aunque la atmósfera es informal, el equipo es estricto en lo que se refiere a la calidad del producto y la ejecución. El recorrido –construido como menú degustación y guiado por el cliente o confi",
+    "cuisines": [
+      {
+        "code": "TYC_1084",
+        "label": "Mexicana",
+        "slug": "mexican"
+      }
+    ],
+    "bookingUrl": "https://www.opentable.com.mx/r/la-barra-de-huniik-merida?ref=18490",
+    "coords": {
+      "lat": 20.9760249,
+      "lng": -89.6215943
+    }
+  },
+  {
+    "slug": "maximo",
+    "michelinId": "1208229",
+    "michelinUrl": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/maximo",
+    "phone": "+55 5264 4291",
+    "website": "https://www.maximobistrot.com.mx/",
+    "street": "Álvaro Obregón, 65 Bis, Roma Norte",
+    "distinction": {
+      "label": "Una Estrella : una cocina de gran nivel",
+      "slug": "1-estrella-michelin",
+      "icon": "m"
+    },
+    "greenStar": null,
+    "review": "Este elegante restaurante de la Roma Norte surge envuelto en una luminosa atmósfera que hará que no te quieras ir de él. Pese a conservar testimonios de su pasado industrial, su estética es de lo más cuidada y actual: ladrillo encalado, muebles de madera de mezquite y techos altísimos. Aun así, la auténtica protagonista del lugar es la cocina del chef Eduardo García, de raíz mexicana e influencias",
+    "cuisines": [
+      {
+        "code": "TYC_1084",
+        "label": "Mexicana",
+        "slug": "mexican"
+      }
+    ],
+    "bookingUrl": "https://www.opentable.com.mx/r/maximo-mexico?ref=18490",
+    "coords": {
+      "lat": 19.4188657,
+      "lng": -99.1579904
+    }
+  },
+  {
+    "slug": "malix",
+    "michelinId": "1211155",
+    "michelinUrl": "https://guide.michelin.com/mx/es/ciudad-de-mexico/miguel-hidalgo_1999281/restaurante/malix",
+    "phone": "+52 55 2875 1825",
+    "website": "https://www.malixresto.com/",
+    "street": "Av. Isaac Newton 104, Polanco",
+    "distinction": {
+      "label": "Seleccionado: Buena cocina",
+      "slug": "el-plato-michelin",
+      "icon": "‹"
+    },
+    "greenStar": null,
+    "review": "Este local del barrio de Polanco tiene mesas en la acera, un bar con barra en forma de U y mesas en un comedor trasero desde donde se ve la cocina. En todo el lugar predominan los tonos crema, con mesas lacadas en blanco roto, banquetas de cuero beige y elementos de madera clara en contraste con las paredes de hormigón. Su carta, entendida como un mestizaje de cocina mexicana e influencias globale",
+    "cuisines": [
+      {
+        "code": "TYC_1084",
+        "label": "Mexicana",
+        "slug": "mexican"
+      },
+      {
+        "code": "TYC_1065",
+        "label": "Internacional",
+        "slug": "international"
+      }
+    ],
+    "bookingUrl": "https://widget.mozrest.com/?key=619e53c7b964bafe32e3e87c&rpId=1211155&bgColor=ffffffff",
+    "coords": {
+      "lat": 19.4325839,
+      "lng": -99.1902293
+    }
+  },
+  {
+    "slug": "er-rre-un-bistro",
+    "michelinId": "1211146",
+    "michelinUrl": "https://guide.michelin.com/mx/es/ciudad-de-mexico/miguel-hidalgo_1999281/restaurante/er-rre-un-bistro",
+    "phone": "+52 55 8974 1091",
+    "website": "https://www.errreunbistro.com/",
+    "street": "Polanco 8, Polanco",
+    "distinction": {
+      "label": "Seleccionado: Buena cocina",
+      "slug": "el-plato-michelin",
+      "icon": "‹"
+    },
+    "greenStar": null,
+    "review": "¿Tienes pensado visitar el Museo Nacional de Antropología? Haz tiempo suficiente para comer en este acogedor local muy cercano al mismo: es pequeño, por lo que la reservación es casi obligada. Este bistró clásico es ideal para una noche entre amigos, y si te gusta ver a la brigada en acción, tu sitio es la barra. La carta, tan reducida como el espacio, consta de una selección de platos de influenc",
+    "cuisines": [
+      {
+        "code": "TYC_1065",
+        "label": "Internacional",
+        "slug": "international"
+      },
+      {
+        "code": "TYC_6",
+        "label": "Actual",
+        "slug": "contemporary"
+      }
+    ],
+    "bookingUrl": "https://www.opentable.com.mx/r/errre-ciudad-de-mexico?ref=18490",
+    "coords": {
+      "lat": 19.4301217,
+      "lng": -99.1867267
+    }
+  },
+  {
+    "slug": "ultramarinos-demar",
+    "michelinId": "1208187",
+    "michelinUrl": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/em",
+    "phone": "+52 55 3543 3275",
+    "website": "https://itsemilia.rest/",
+    "street": "Tonalá 133, Roma Norte",
+    "distinction": {
+      "label": "Una Estrella : una cocina de gran nivel",
+      "slug": "1-estrella-michelin",
+      "icon": "m"
+    },
+    "greenStar": null,
+    "review": "Un cóctel en el bar 686, situado en el piso superior, es la mejor forma de empezar la velada antes de ponerse entre las hábiles manos del chef Lucho Martínez. El íntimo restaurante de la planta baja, bautizado así en honor a Emilia, la hija del chef, es el lugar perfecto para una cena en pareja. Su cocina ofrece una lectura contemporánea de las riquezas de la despensa mexicana, procedentes en buen",
+    "cuisines": [
+      {
+        "code": "TYC_1084",
+        "label": "Mexicana",
+        "slug": "mexican"
+      },
+      {
+        "code": "TYC_6",
+        "label": "Actual",
+        "slug": "contemporary"
+      }
+    ],
+    "bookingUrl": null,
+    "coords": {
+      "lat": 19.4152941,
+      "lng": -99.1619808
+    }
+  },
+  {
+    "slug": "quintonil",
+    "michelinId": "1208195",
+    "michelinUrl": "https://guide.michelin.com/mx/es/ciudad-de-mexico/miguel-hidalgo_1999281/restaurante/quintonil",
+    "phone": "+52 55 5280 2680",
+    "website": "https://quintonil.com/",
+    "street": "Isaac Newton 55, Polanco",
+    "distinction": {
+      "label": "Dos Estrellas : una cocina excepcional",
+      "slug": "2-estrellas-michelin",
+      "icon": "n"
+    },
+    "greenStar": null,
+    "review": "El elegante comedor del chef Jorge Vallejo y su esposa Alejandra Flores toma su nombre de una hierba autóctona de México. En contraste con su discreta fachada, el interior rebosa vitalidad, respirando un aire actual y desenfadado ajeno a toda solemnidad. En él, la despensa local –incluidos los insectos, utilizados con sutileza pero de gran efecto visual– sirve de base a una cocina con estilo propi",
+    "cuisines": [
+      {
+        "code": "TYC_1084",
+        "label": "Mexicana",
+        "slug": "mexican"
+      },
+      {
+        "code": "TYC_6",
+        "label": "Actual",
+        "slug": "contemporary"
+      }
+    ],
+    "bookingUrl": null,
+    "coords": {
+      "lat": 19.4310167,
+      "lng": -99.1916968
+    }
+  },
+  {
+    "slug": "siembra-comedor",
+    "michelinId": "1208187",
+    "michelinUrl": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/em",
+    "phone": "+52 55 3543 3275",
+    "website": "https://itsemilia.rest/",
+    "street": "Tonalá 133, Roma Norte",
+    "distinction": {
+      "label": "Una Estrella : una cocina de gran nivel",
+      "slug": "1-estrella-michelin",
+      "icon": "m"
+    },
+    "greenStar": null,
+    "review": "Un cóctel en el bar 686, situado en el piso superior, es la mejor forma de empezar la velada antes de ponerse entre las hábiles manos del chef Lucho Martínez. El íntimo restaurante de la planta baja, bautizado así en honor a Emilia, la hija del chef, es el lugar perfecto para una cena en pareja. Su cocina ofrece una lectura contemporánea de las riquezas de la despensa mexicana, procedentes en buen",
+    "cuisines": [
+      {
+        "code": "TYC_1084",
+        "label": "Mexicana",
+        "slug": "mexican"
+      },
+      {
+        "code": "TYC_6",
+        "label": "Actual",
+        "slug": "contemporary"
+      }
+    ],
+    "bookingUrl": null,
+    "coords": {
+      "lat": 19.4152941,
+      "lng": -99.1619808
+    }
+  },
+  {
+    "slug": "bella-aurora",
+    "michelinId": "1216542",
+    "michelinUrl": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/bella-aurora",
+    "phone": "+52 55 8790 6824",
+    "website": "https://bellaaurora.mx/",
+    "street": "Puebla 242, Roma Norte",
+    "distinction": {
+      "label": "Seleccionado: Buena cocina",
+      "slug": "el-plato-michelin",
+      "icon": "‹"
+    },
+    "greenStar": null,
+    "review": "Con este acogedor local de la Roma Norte, los creadores de Rosetta y de Lardo nos presentan un nuevo concepto para comer a cualquier hora del día. Desde la fachada rosa hasta el interior a rebosar de vegetación, todo en el Bella Aurora destila encanto, elegancia y sencillez. La panadería y la bollería son las estrellas del desayuno, mientras que para el almuerzo y la cena el protagonismo recae en ",
+    "cuisines": [
+      {
+        "code": "TYC_1067",
+        "label": "Italiana",
+        "slug": "italian"
+      }
+    ],
+    "bookingUrl": "https://www.opentable.com.mx/r/aurora-ciudad-de-mexico?ref=18490",
+    "coords": {
+      "lat": 19.4215394,
+      "lng": -99.1672095
+    }
+  },
+  {
+    "slug": "taqueria-el-jarocho",
+    "michelinId": "1213227",
+    "michelinUrl": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/taqueria-el-jarocho",
+    "phone": "+52 55 5574 5303",
+    "website": "https://taqueriaeljarocho.com.mx/",
+    "street": "Tapachula 94, Roma Norte",
+    "distinction": {
+      "label": "Bib Gourmand : nuestras mejores relaciones calidad-precio",
+      "slug": "bib-gourmand",
+      "icon": "="
+    },
+    "greenStar": null,
+    "review": "Ochenta años de historia respaldan al Jarocho, un local de la Roma Norte administrado hoy por la tercera generación de la misma familia. Esta antigua tortillería abierta para el desayuno, el almuerzo o una cena temprana es conocida por sus tacos de guisados, con gran variedad de carnes y verduras guisadas de diferentes maneras. Y aunque los tacos de guisados son razón suficiente para venir (el de ",
+    "cuisines": [
+      {
+        "code": "TYC_1084",
+        "label": "Mexicana",
+        "slug": "mexican"
+      }
+    ],
+    "bookingUrl": null,
+    "coords": {
+      "lat": 19.4112574,
+      "lng": -99.1659833
+    }
+  },
+  {
+    "slug": "contramar",
+    "michelinId": "1208236",
+    "michelinUrl": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/contramar",
+    "phone": "+52 55 5514 3169",
+    "website": "https://www.contramar.com.mx/",
+    "street": "Durango 200, Roma Norte",
+    "distinction": {
+      "label": "Bib Gourmand : nuestras mejores relaciones calidad-precio",
+      "slug": "bib-gourmand",
+      "icon": "="
+    },
+    "greenStar": null,
+    "review": "Pese a llevar abierto desde 1998, Contramar, de la chef Gabriela Cámara, no se duerme en los laureles. Este animado local situado en una calle muy transitada (es imprescindible reservar) enamora de principio a fin con su cocina centrada en el pescado y el marisco. Tras una tostada, quizá de callo de hacha crudo cortado en dados y aderezado con salsa macha, podrás saborear el pulpo a la gallega, un",
+    "cuisines": [
+      {
+        "code": "TYC_1096",
+        "label": "Pescados y mariscos",
+        "slug": "seafood-1096"
+      },
+      {
+        "code": "TYC_1084",
+        "label": "Mexicana",
+        "slug": "mexican"
+      }
+    ],
+    "bookingUrl": "https://www.opentable.com.mx/r/contramar-ciudad-de-mexico?ref=18490",
+    "coords": {
+      "lat": 19.4195779,
+      "lng": -99.1671515
+    }
+  },
+  {
+    "slug": "hugo",
+    "michelinId": "1210967",
+    "michelinUrl": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/hugo-1210967",
+    "phone": "+55 9224 6882",
+    "website": "https://hugoelwinebar.com/",
+    "street": "Av. Veracruz 38, Roma Norte",
+    "distinction": {
+      "label": "Seleccionado: Buena cocina",
+      "slug": "el-plato-michelin",
+      "icon": "‹"
+    },
+    "greenStar": null,
+    "review": "Con su terraza a la sombra de un toldo y su acogedora atmósfera, Hugo es uno de esos lugares a los que apetece volver una y otra vez. Aunque la carta de vinos es muy amplia, su calificativo de “wine bar” se explica no solo por su oferta enológica, sino también su acertada carta estilo bistró. Ingredientes de calidad dan lo mejor de sí en platos cuidadosamente presentados y en un estilo que, aunque",
+    "cuisines": [
+      {
+        "code": "TYC_6",
+        "label": "Actual",
+        "slug": "contemporary"
+      }
+    ],
+    "bookingUrl": null,
+    "coords": {
+      "lat": 19.4186687,
+      "lng": -99.1752412
+    }
+  },
+  {
+    "slug": "restaurante-lorea",
+    "michelinId": "1208198",
+    "michelinUrl": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/lorea",
+    "phone": "+55 6103 7914",
+    "website": "https://www.lorea.mx",
+    "street": "Sinaloa, 141, Roma Norte",
+    "distinction": {
+      "label": "Seleccionado: Buena cocina",
+      "slug": "el-plato-michelin",
+      "icon": "‹"
+    },
+    "greenStar": null,
+    "review": "El chef Oswaldo Oliva rinde homenaje a los años pasados en España bautizando su restaurante de la Roma Norte con la palabra vasca para “flor”. Todo el local, distribuido en varios niveles, destaca por sus bonitas mesas e impecables acabados, pero el mejor sitio a nuestro entender, es la barra del chef, donde podrás ver a la brigada en acción. En esta cocina sosegada y siempre limpia toma forma un ",
+    "cuisines": [
+      {
+        "code": "TYC_1084",
+        "label": "Mexicana",
+        "slug": "mexican"
+      },
+      {
+        "code": "TYC_6",
+        "label": "Actual",
+        "slug": "contemporary"
+      }
+    ],
+    "bookingUrl": null,
+    "coords": {
+      "lat": 19.4202321,
+      "lng": -99.1700682
+    }
+  },
+  {
+    "slug": "martinez",
+    "michelinId": "1210962",
+    "michelinUrl": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/martinez",
+    "phone": "+55 9355 0017",
+    "website": "https://www.martinez.rest",
+    "street": "Puebla 90, Roma Norte",
+    "distinction": {
+      "label": "Seleccionado: Buena cocina",
+      "slug": "el-plato-michelin",
+      "icon": "‹"
+    },
+    "greenStar": null,
+    "review": "Para abrir su restaurante, el chef y dueño Lucho Martínez se inspiró en la historia que un día le contó su hija Emilia, quien le confesó que lo que más le gustaba hacer en París era comer con él en los bistrós. De ahí surgió la idea de recrear esa sensación en Ciudad de México, y Martínez es precisamente eso: un pequeño restaurante con buena comida y buen vino y un ambiente joven y animado. Instál",
+    "cuisines": [
+      {
+        "code": "TYC_6",
+        "label": "Actual",
+        "slug": "contemporary"
+      }
+    ],
+    "bookingUrl": null,
+    "coords": {
+      "lat": 19.4231363,
+      "lng": -99.1586301
+    }
+  },
+  {
+    "slug": "comedor-jacinta",
+    "michelinId": "1210971",
+    "michelinUrl": "https://guide.michelin.com/mx/es/ciudad-de-mexico/miguel-hidalgo_1999281/restaurante/comedor-jacinta",
+    "phone": "+55 5086 6965",
+    "website": "https://comedorjacinta.com/en/",
+    "street": "Virgilio 40, Polanco",
+    "distinction": {
+      "label": "Bib Gourmand : nuestras mejores relaciones calidad-precio",
+      "slug": "bib-gourmand",
+      "icon": "="
+    },
+    "greenStar": null,
+    "review": "Este acogedor restaurante es propiedad del renombrado chef Edgar Núñez. La premisa aquí es la cocina tradicional, la cual se nutre de sus recuerdos de infancia. Los platos son sencillos pero sabrosos, con una técnica excelente, raciones abundantes y precios razonables. La carta incluye una sección de botanería, con platillos a base de maíz, y otra de molcajetes, con platillos elaborados en este mo",
+    "cuisines": [
+      {
+        "code": "TYC_1084",
+        "label": "Mexicana",
+        "slug": "mexican"
+      },
+      {
+        "code": "TYC_1122",
+        "label": "Tradicional",
+        "slug": "traditional-cuisine"
+      }
+    ],
+    "bookingUrl": null,
+    "coords": {
+      "lat": 19.4300983,
+      "lng": -99.1962132
+    }
+  },
+  {
+    "slug": "em",
+    "michelinId": "1208187",
+    "michelinUrl": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/em",
+    "phone": "+52 55 3543 3275",
+    "website": "https://itsemilia.rest/",
+    "street": "Tonalá 133, Roma Norte",
+    "distinction": {
+      "label": "Una Estrella : una cocina de gran nivel",
+      "slug": "1-estrella-michelin",
+      "icon": "m"
+    },
+    "greenStar": null,
+    "review": "Un cóctel en el bar 686, situado en el piso superior, es la mejor forma de empezar la velada antes de ponerse entre las hábiles manos del chef Lucho Martínez. El íntimo restaurante de la planta baja, bautizado así en honor a Emilia, la hija del chef, es el lugar perfecto para una cena en pareja. Su cocina ofrece una lectura contemporánea de las riquezas de la despensa mexicana, procedentes en buen",
+    "cuisines": [
+      {
+        "code": "TYC_1084",
+        "label": "Mexicana",
+        "slug": "mexican"
+      },
+      {
+        "code": "TYC_6",
+        "label": "Actual",
+        "slug": "contemporary"
+      }
+    ],
+    "bookingUrl": null,
+    "coords": {
+      "lat": 19.4152941,
+      "lng": -99.1619808
+    }
+  },
+  {
+    "slug": "lina",
+    "michelinId": "1216326",
+    "michelinUrl": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/lina",
+    "phone": "+52 55 5574 7004",
+    "website": "https://lina.mx/",
+    "street": "Av. Yucatán 147, Roma Norte",
+    "distinction": {
+      "label": "Seleccionado: Buena cocina",
+      "slug": "el-plato-michelin",
+      "icon": "‹"
+    },
+    "greenStar": null,
+    "review": "Este llamativo y acogedor local de la Roma presidido por su cocina abierta respira un encanto muy contemporáneo. La cordialidad de su personal es el complemento ideal para la cocina mexicana contemporánea de la chef Mariana Villegas Martínez, muy influida por sus viajes y sus experiencias y en la que todo, desde los productos de temporada hasta la armonía de sabores, habla de esmero. Lejos de ser ",
+    "cuisines": [
+      {
+        "code": "TYC_1084",
+        "label": "Mexicana",
+        "slug": "mexican"
+      },
+      {
+        "code": "TYC_6",
+        "label": "Actual",
+        "slug": "contemporary"
+      }
+    ],
+    "bookingUrl": null,
+    "coords": {
+      "lat": 19.4122069,
+      "lng": -99.1599736
+    }
+  },
+  {
+    "slug": "restaurante-rosetta",
+    "michelinId": "1208694",
+    "michelinUrl": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/rosetta",
+    "phone": "+52 55 5533 7804",
+    "website": "https://rosetta.com.mx",
+    "street": "Colima 166, Roma Norte",
+    "distinction": {
+      "label": "Una Estrella : una cocina de gran nivel",
+      "slug": "1-estrella-michelin",
+      "icon": "m"
+    },
+    "greenStar": null,
+    "review": "Rosetta, de la chef Elena Reygadas, es un clásico que no pasa de moda, siempre lleno de gente que viene a disfrutar de una cocina creativa decididamente mexicana, pero con influencias de todo el mundo. Los platos están pensados para compartir, lo cual es ideal para quienes quieran probar varias de sus ingeniosas creaciones, entre ellas los tacos de repollo y col rizada, servidos con pipián de pist",
+    "cuisines": [
+      {
+        "code": "TYC_1036",
+        "label": "Creativa",
+        "slug": "creative"
+      },
+      {
+        "code": "TYC_1084",
+        "label": "Mexicana",
+        "slug": "mexican"
+      }
+    ],
+    "bookingUrl": null,
+    "coords": {
+      "lat": 19.4198433,
+      "lng": -99.1597893
+    }
+  },
+  {
+    "slug": "fonda-fina",
+    "michelinId": "1208513",
+    "michelinUrl": "https://guide.michelin.com/mx/es/nuevo-leon/san-pedro-garza-garcia_2042888/restaurante/fonda-san-francisco",
+    "phone": "+52 81 1957 7070",
+    "website": "https://www.fonda.mx/",
+    "street": "Gómez Morín 323, Santa Engracia",
+    "distinction": {
+      "label": "Seleccionado: Buena cocina",
+      "slug": "el-plato-michelin",
+      "icon": "‹"
+    },
+    "greenStar": null,
+    "review": "Como su nombre indica, se trata de un establecimiento humilde y de perfil discreto que desentona un poco con la marca personal de Adrián Herrera, su chef y dueño. Con todo, y aunque no sea el tipo de lugar del que se pueda esperar un servicio de lujo, es perfecto para disfrutar de una comida abundante y de buenas bebidas en un ambiente relajado y agradable. La cocina, pues, es rústica, con platos ",
+    "cuisines": [
+      {
+        "code": "TYC_1084",
+        "label": "Mexicana",
+        "slug": "mexican"
+      }
+    ],
+    "bookingUrl": null,
+    "coords": {
+      "lat": 25.6554729,
+      "lng": -100.3568438
+    }
+  },
+  {
+    "slug": "pujol",
+    "michelinId": "1208201",
+    "michelinUrl": "https://guide.michelin.com/mx/es/ciudad-de-mexico/miguel-hidalgo_1999281/restaurante/pujol",
+    "phone": "+52 55 5545 4111",
+    "website": "https://pujol.com.mx/",
+    "street": "Tennyson 133, Polanco",
+    "distinction": {
+      "label": "Dos Estrellas : una cocina excepcional",
+      "slug": "2-estrellas-michelin",
+      "icon": "n"
+    },
+    "greenStar": null,
+    "review": "El local fundacional del chef y dueño Enrique Olvera ha sido durante mucho tiempo uno de los restaurantes más famosos del país. Este espacio fresco y contemporáneo, siempre en plena ebullición por el ir y venir de un equipo de camareros elegantemente vestidos de negro, congrega a una multitud deseosa de saborear sus delicias. Hay quien viene por el omakase de tacos, pero el corazón de este restaur",
+    "cuisines": [
+      {
+        "code": "TYC_1084",
+        "label": "Mexicana",
+        "slug": "mexican"
+      },
+      {
+        "code": "TYC_1085",
+        "label": "Moderna",
+        "slug": "modern-cuisine"
+      }
+    ],
+    "bookingUrl": null,
+    "coords": {
+      "lat": 19.4324232,
+      "lng": -99.1947841
+    }
+  },
+  {
+    "slug": "sartoria",
+    "michelinId": "1208721",
+    "michelinUrl": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/sartoria",
+    "phone": "+55 7265 3616",
+    "website": "https://sartoria.mx",
+    "street": "Orizaba 42, Roma Norte",
+    "distinction": {
+      "label": "Seleccionado: Buena cocina",
+      "slug": "el-plato-michelin",
+      "icon": "‹"
+    },
+    "greenStar": null,
+    "review": "Sartoria, con su terraza exterior y su interior de estilo industrial-chic, está siempre lleno de jóvenes y parejas que vienen a disfrutar de la noche. Su cocina típicamente italiana incluye desde antipasti y pasta hasta entradas, con una carta no muy amplia pero con propuestas para todos los gustos. Los tortellacci con su cremosa burrata están tan buenos como cuidada es su presentación, mientras q",
+    "cuisines": [
+      {
+        "code": "TYC_1067",
+        "label": "Italiana",
+        "slug": "italian"
+      },
+      {
+        "code": "TYC_814",
+        "label": "Italiana contemporánea",
+        "slug": "italian-contemporary"
+      }
+    ],
+    "bookingUrl": "https://www.opentable.com.mx/r/sartoria-ciudad-de-mexico?ref=18490",
+    "coords": {
+      "lat": 19.42194,
+      "lng": -99.1605399
+    }
+  }
+]

@@ -1,0 +1,77 @@
+{
+  "slug": "ricos-tacos-toluca",
+  "name": "Ricos Tacos Toluca",
+  "url": "https://guide.michelin.com/us/en/ciudad-de-mexico/cuauhtemoc_1995126/restaurant/ricos-tacos-toluca",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Taco de obispo",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos",
+      "description": "Longaniza gruesa de cerdo, dorada"
+    },
+    {
+      "name": "Taco de chorizo de tamarindo",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Taco de chorizo verde",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Taco de chorizo rojo",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Taco de chorizo de habanero",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Taco de longaniza",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Taco de cecina",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Taco de queso de puerco",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Taco de arrachera",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Taco de aguja",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Campechano",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos"
+    }
+  ],
+  "notes": "Michelin inspector (obispo, chorizo de tamarindo) + Chilango listing the vitrina (cecina, queso de puerco, longaniza, chorizos verde/rojo, arrachera, aguja, campechanos)."
+}

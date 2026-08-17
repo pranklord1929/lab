@@ -1,0 +1,22 @@
+{
+  "slug": "pargot",
+  "name": "Pargot",
+  "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/pargot",
+  "status": "tasting_or_unpublished",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Kebbe crudo con salsa XO de chapulín"
+    },
+    {
+      "name": "Tostada con paté de puerros, ceniza de chile y puré de aguacate"
+    },
+    {
+      "name": "Risotto de bisque de jaiba"
+    },
+    {
+      "name": "Terrina de cordero"
+    }
+  ],
+  "notes": "Named dishes from Guía Michelin 2026 inspector text (CDMX listing). Not a full priced carta."
+}

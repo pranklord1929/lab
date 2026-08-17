@@ -1,0 +1,149 @@
+{
+  "slug": "carmela-y-sal",
+  "name": "Carmela y Sal",
+  "url": "https://www.carmelaysal.mx/",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Ensalada de jícamas con pesto",
+      "description": "Albahaca criolla, pistaches, uvas verdes",
+      "category": "entradas"
+    },
+    {
+      "name": "Ensalada de betabel",
+      "description": "Quinoa, cuscús, cebada, puré de camote y naranja",
+      "category": "entradas"
+    },
+    {
+      "name": "Taco de hojas frescas",
+      "description": "Aguacate, romesco, mayonesa vegana",
+      "category": "entradas"
+    },
+    {
+      "name": "Tostadas de mentiras",
+      "description": "Tostadas de coco",
+      "category": "entradas"
+    },
+    {
+      "name": "Tostones de jaiba",
+      "category": "entradas"
+    },
+    {
+      "name": "Tostada de ceviche blanco con cecina",
+      "category": "entradas"
+    },
+    {
+      "name": "Esquite a manera de risotto",
+      "description": "Doble crema de Comalcalco, epazote",
+      "category": "entradas"
+    },
+    {
+      "name": "Atún con castacán",
+      "description": "Salsa de chile de árbol",
+      "category": "fuertes"
+    },
+    {
+      "name": "Mole rosa",
+      "description": "Dobladitas de picadillo de jamaica, piñones",
+      "category": "fuertes"
+    },
+    {
+      "name": "Tacos de chile ancho",
+      "description": "Frijoles refritos y queso de hebra",
+      "category": "fuertes"
+    },
+    {
+      "name": "Taco de chicharrón de coco",
+      "description": "Coco en salsa verde, salsa macha",
+      "category": "fuertes"
+    },
+    {
+      "name": "Tostadas de pulpo",
+      "description": "Aguacate, tapenade, chile amashito",
+      "category": "fuertes"
+    },
+    {
+      "name": "Queso ahumado de Tenosique",
+      "description": "Pimientos rostizados y miel",
+      "category": "fuertes"
+    },
+    {
+      "name": "Paquetitos de plátano macho",
+      "description": "Rellenos de frijoles, crema de rancho",
+      "category": "fuertes"
+    },
+    {
+      "name": "Sope de chicharrón prensado y pulpo",
+      "category": "fuertes"
+    },
+    {
+      "name": "Ceviche de robalo y plátano",
+      "category": "fuertes"
+    },
+    {
+      "name": "Fetuccini con camarones",
+      "description": "Crema de xtabentún, chiltomate",
+      "category": "fuertes"
+    },
+    {
+      "name": "Canelones de cochinita pibil",
+      "category": "fuertes"
+    },
+    {
+      "name": "Pollo con fideos secos",
+      "category": "fuertes"
+    },
+    {
+      "name": "Poc chuc",
+      "description": "Cerdo, tomates rostizados, frijoles negros",
+      "category": "fuertes"
+    },
+    {
+      "name": "Lechón de navidad",
+      "description": "Horneado, crujiente, frutos secos",
+      "category": "fuertes"
+    },
+    {
+      "name": "Puchero de lengua de res",
+      "category": "fuertes"
+    },
+    {
+      "name": "Short rib con chirmol",
+      "category": "fuertes"
+    },
+    {
+      "name": "Filete de res con pastel de tortilla y rajas",
+      "category": "fuertes"
+    },
+    {
+      "name": "Cordero confitado",
+      "description": "Piña asada, salsa tatemada",
+      "category": "fuertes"
+    },
+    {
+      "name": "Robalo en hoja santa y pipián",
+      "category": "fuertes"
+    },
+    {
+      "name": "Robalo con risotto a la tumbada",
+      "category": "fuertes"
+    },
+    {
+      "name": "Plátanos con dulce de leche",
+      "category": "postres"
+    },
+    {
+      "name": "Mostachón tropical",
+      "category": "postres"
+    },
+    {
+      "name": "Pastelito de chocolate sin harina",
+      "category": "postres"
+    },
+    {
+      "name": "Manjar de coco y mango",
+      "category": "postres"
+    }
+  ]
+}

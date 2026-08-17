@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "e2162b24-155c-4f2d-8210-6ca3b4e91174",
+  "slug": "krispy-kreme-mexico",
+  "name": "Krispy Kreme México",
+  "location": {
+    "neighborhood": "SANTA FE CENTRO CIUDAD",
+    "borough": "Álvaro Obregón",
+    "address": "C. Guillermo Gonzalez Camarena 1200, Santa Fe, Zedec Sta Fé, Álvaro Obregón, 01210 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3649784,
+      "longitude": -99.2643622
+    }
+  },
+  "contact": {
+    "phone": null,
+    "website": "http://www.krispykreme.mx/",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=16447360356361316160&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "donut_shop",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": "Longtime chain serving a variety of donut flavors & shapes, plus coffee & frozen drinks.",
+    "hours": [
+      "domingo: 9:00 a.m. – 8:00 p.m.",
+      "lunes: 9:00 a.m. – 8:00 p.m.",
+      "martes: 9:00 a.m. – 8:00 p.m.",
+      "miércoles: 9:00 a.m. – 8:00 p.m.",
+      "jueves: 9:00 a.m. – 8:00 p.m.",
+      "viernes: 9:00 a.m. – 8:00 p.m.",
+      "sábado: 9:00 a.m. – 8:00 p.m."
+    ],
+    "rating": 4.2,
+    "reviewCount": 36
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "missing",
+    "observedAt": null,
+    "observationAgeDaysAtExport": null,
+    "documentCount": 0,
+    "itemCount": 0,
+    "documents": [],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=16447360356361316160&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:40.781+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 9,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 1,
+    "sourceNames": [
+      "google_places"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "website": "google_places",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-06-29T14:12:48.897862+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:12:49.047697+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 6,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_menu_document",
+      "missing_structured_menu_items",
+      "low_source_count"
+    ]
+  }
+}

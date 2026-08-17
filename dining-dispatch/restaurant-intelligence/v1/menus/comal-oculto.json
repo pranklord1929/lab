@@ -1,0 +1,168 @@
+{
+  "slug": "comal-oculto",
+  "name": "Comal Oculto",
+  "url": "local://sqlite-menu-items",
+  "items": [
+    {
+      "name": "Agua Fresca del día",
+      "description": "Fresca, natural y preparada cada mañana con frutas de la temporada.",
+      "price": 65.0,
+      "currency": "MXN",
+      "category": "Bebidas"
+    },
+    {
+      "name": "Enmoladas de Chamorro (2 pzs)",
+      "description": "Tortillas de maíz rellenas de chamorro, bañadas en mole almendrado, con crema, queso y brotes frescos.",
+      "price": 310.0,
+      "currency": "MXN",
+      "category": "Antojitos con Chamorro"
+    },
+    {
+      "name": "Flautas (2 pzs)",
+      "description": "Tortillas freídas rellenas de papa, queso o pollo, cubiertas con crema y queso, servidas en porciones de 2 piezas.",
+      "price": 195.0,
+      "currency": "MXN",
+      "category": "Antojitos Bañados"
+    },
+    {
+      "name": "Orden de Sopes Sencillos (2 pzs)",
+      "description": "Base de maíz hecha al momento, frijol ayocote con hoja de aguacate, crema fresca, cebolla morada, queso cotija y brotes.",
+      "price": 115.0,
+      "currency": "MXN",
+      "category": "Antojitos al Comal"
+    },
+    {
+      "name": "Enmoladas (2 pzs)",
+      "description": "Tortillas de maíz rellenas de papa, queso, huevo o pollo, cubiertas con mole almendrado y servidas con crema y brotes.",
+      "price": 285.0,
+      "currency": "MXN",
+      "category": "Antojitos Bañados"
+    },
+    {
+      "name": "Gordita de Chicharrón",
+      "description": "Gordita de maíz rellena con chicharrón prensado en salsa pasilla, una delicia tradicional mexicana.",
+      "price": 89.0,
+      "currency": "MXN",
+      "category": "Antojitos al Comal"
+    },
+    {
+      "name": "Coca-Cola",
+      "description": "Regular de lata 355ml",
+      "price": 65.0,
+      "currency": "MXN",
+      "category": "Bebidas"
+    },
+    {
+      "name": "Flautas Ahogadas",
+      "description": "Tortillas freídas rellenas de papa, queso o pollo, bañadas en salsa verde, roja o mole, con crema y queso.",
+      "price": 230.0,
+      "currency": "MXN",
+      "category": "Antojitos Bañados"
+    },
+    {
+      "name": "Orden de Tacos de Chamorro (2 pzs)",
+      "description": "Tacos de chamorro confitado con cebolla morada encurtida y brotes de cilantro en tortilla suave.",
+      "price": 220.0,
+      "currency": "MXN",
+      "category": "Antojitos con Chamorro"
+    },
+    {
+      "name": "Flautas con Chamorro (2 pzs)",
+      "description": "Tortillas rellenas de chamorro, bañadas en crema y queso, servidas con brotes frescos.",
+      "price": 210.0,
+      "currency": "MXN",
+      "category": "Antojitos con Chamorro"
+    },
+    {
+      "name": "Enfrijoladas de Chamorro (2 pzs)",
+      "description": "Tortillas de maíz rellenas de chamorro, bañadas en salsas de frijol bayo y negro, con crema, queso y brotes.",
+      "price": 295.0,
+      "currency": "MXN",
+      "category": "Antojitos con Chamorro"
+    },
+    {
+      "name": "Quesadilla",
+      "description": "Tortilla de maíz rellena de guisado, con opción de quesillo, hecha al momento.",
+      "price": 69.0,
+      "currency": "MXN",
+      "category": "Antojitos al Comal"
+    },
+    {
+      "name": "Chocolate Caliente de Agua",
+      "description": "Chocolate artesanal mexicano batido en agua, resaltando las notas intensas y puras del cacao con un toque ligero de dulzor.",
+      "price": 65.0,
+      "currency": "MXN",
+      "category": "Bebidas"
+    },
+    {
+      "name": "Rancheros Comal",
+      "description": "2 Sopes acompañados de 2 huevos estrellados bañados con salsa roja, verde o mole, con aguacate, queso fresco y cilantro criollo.",
+      "price": 215.0,
+      "currency": "MXN",
+      "category": "Antojitos Bañados"
+    },
+    {
+      "name": "Enchiladas (2 pzs)",
+      "description": "Tortillas rellenas de papa, queso, huevo o pollo, bañadas en salsa verde o roja, con crema, queso y brotes.",
+      "price": 270.0,
+      "currency": "MXN",
+      "category": "Antojitos Bañados"
+    },
+    {
+      "name": "Enfrijoladas (2 pzs)",
+      "description": "Tortillas de maíz bañadas en salsas de frijol bayo y negro, rellenas de papa, queso, pollo o huevo, servidas con crema, queso y brotes.",
+      "price": 270.0,
+      "currency": "MXN",
+      "category": "Antojitos Bañados"
+    },
+    {
+      "name": "Flautas Ahogadas con Chamorro (2 pzs)",
+      "description": "Tortillas freídas rellenas de chamorro, bañadas en salsa verde, roja o mole, con crema, queso y brotes.",
+      "price": 260.0,
+      "currency": "MXN",
+      "category": "Antojitos con Chamorro"
+    },
+    {
+      "name": "Enchiladas con Chamorro (2 pzs)",
+      "description": "Tortillas de maíz rellenas de chamorro, bañadas en salsa verde o roja, con crema, queso y brotes.",
+      "price": 295.0,
+      "currency": "MXN",
+      "category": "Antojitos con Chamorro"
+    },
+    {
+      "name": "Chilaquiles",
+      "description": "Totopos de maíz cubiertos en salsa roja o mole, con crema, queso cotija, aguacate, cebolla morada y brotes de cilantro.",
+      "price": 140.0,
+      "currency": "MXN",
+      "category": "Antojitos Bañados"
+    },
+    {
+      "name": "Gordita Especial con Chamorro",
+      "description": "Gordita de maíz con chamorro confitado, rellena de chicharrón prensado en salsa pasilla para un sabor auténtico.",
+      "price": 149.0,
+      "currency": "MXN",
+      "category": "Antojitos con Chamorro"
+    },
+    {
+      "name": "Chilaquiles con Chamorro",
+      "description": "Totopos de maíz con chamorro confitado, bañados en salsa roja o mole, con crema, queso cotija, cebolla y cilantro.",
+      "price": 230.0,
+      "currency": "MXN",
+      "category": "Antojitos con Chamorro"
+    },
+    {
+      "name": "Orden de Sopes con Guisado (2 pzas)",
+      "description": "Sopes de maíz con frijol ayocote, crema, cebolla morada, queso cotija y brotes, acompañados de guisado a elección.",
+      "price": 189.0,
+      "currency": "MXN",
+      "category": "Antojitos al Comal"
+    },
+    {
+      "name": "Cafe de Olla",
+      "description": "Receta clásica de la casa. Café caliente aromático, endulzado con piloncillo.",
+      "price": 65.0,
+      "currency": "MXN",
+      "category": "Bebidas"
+    }
+  ]
+}

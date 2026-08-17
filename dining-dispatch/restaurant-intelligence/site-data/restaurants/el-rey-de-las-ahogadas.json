@@ -1,0 +1,146 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "51476575-b550-48cb-9e77-c2252027af9b",
+  "slug": "el-rey-de-las-ahogadas",
+  "name": "El Rey De Las Ahogadas",
+  "location": {
+    "neighborhood": "DEL VALLE NORTE",
+    "borough": "Benito Juárez",
+    "address": "Av. Coyoacan 360-E Benito Juárez, código 2, Col del Valle Centro, Benito Juárez, 03100 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3926452,
+      "longitude": -99.1659424
+    }
+  },
+  "contact": {
+    "phone": "55 5523 4989",
+    "website": "WWW.ELREYDELASAHOGADAS.COM",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=12817384540926038796&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "mexican",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 1
+  },
+  "experience": {
+    "sourceSummary": "Unassuming restaurant whipping up tacos, quesadillas, huaraches & other fast-food staples.",
+    "hours": [
+      "domingo: 11:00 a.m. – 10:30 p.m.",
+      "lunes: 11:00 a.m. – 11:30 p.m.",
+      "martes: 11:00 a.m. – 11:30 p.m.",
+      "miércoles: 11:00 a.m. – 11:30 p.m.",
+      "jueves: 11:00 a.m. – 11:30 p.m.",
+      "viernes: 11:00 a.m. – 11:30 p.m.",
+      "sábado: 11:00 a.m. – 12:00 a.m."
+    ],
+    "rating": 4,
+    "reviewCount": 4444
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-15T20:57:42.418Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 1,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "1c524241-1c97-4c14-83b1-0884b9f93d1c",
+        "sourceUrl": "https://plick.app/sitemap-menus.xml",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "candidate_filter:sitemap",
+        "status": "rejected_candidate",
+        "lastCheckedAt": "2026-07-15T20:57:42.418Z"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=12817384540926038796&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:53:00.182+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "denue",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.165171+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:20:32.711597+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 7,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_structured_menu_items"
+    ]
+  }
+}

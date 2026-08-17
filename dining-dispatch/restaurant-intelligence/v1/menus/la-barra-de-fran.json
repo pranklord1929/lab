@@ -1,0 +1,292 @@
+{
+  "slug": "la-barra-de-fran",
+  "name": "La Barra de Fran",
+  "url": "https://www.labarradefran.com/menu",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "notes": "Official Wix menu image currently published on /menu (OCR).",
+  "items": [
+    {
+      "name": "Queso Manchego semi-curado 50g",
+      "price": 240,
+      "currency": "MXN",
+      "category": "ultramarinos"
+    },
+    {
+      "name": "Queso Manchego curado 50g",
+      "price": 245,
+      "currency": "MXN",
+      "category": "ultramarinos"
+    },
+    {
+      "name": "Queso Manchego añejo 50g",
+      "price": 250,
+      "currency": "MXN",
+      "category": "ultramarinos"
+    },
+    {
+      "name": "Salchichón ibérico de bellota 50g",
+      "price": 210,
+      "currency": "MXN",
+      "category": "ultramarinos"
+    },
+    {
+      "name": "Fuet ibérico 50g",
+      "price": 205,
+      "currency": "MXN",
+      "category": "ultramarinos"
+    },
+    {
+      "name": "Sobrasada ibérica 50g",
+      "price": 225,
+      "currency": "MXN",
+      "category": "ultramarinos"
+    },
+    {
+      "name": "Magret de pato 50g",
+      "price": 395,
+      "currency": "MXN",
+      "category": "ultramarinos"
+    },
+    {
+      "name": "Jamón ibérico de bellota 50g",
+      "price": 495,
+      "currency": "MXN",
+      "category": "ultramarinos"
+    },
+    {
+      "name": "Jamón en taquitos 100g",
+      "price": 295,
+      "currency": "MXN",
+      "category": "ultramarinos"
+    },
+    {
+      "name": "Aceitunas de la casa 145g",
+      "price": 110,
+      "currency": "MXN",
+      "category": "tapas"
+    },
+    {
+      "name": "Almendras tostadas 70g",
+      "price": 115,
+      "currency": "MXN",
+      "category": "tapas"
+    },
+    {
+      "name": "Anchoas de Santoña 7 pz",
+      "price": 375,
+      "currency": "MXN",
+      "category": "tapas"
+    },
+    {
+      "name": "Boquerones de vinagre 8 pz",
+      "price": 165,
+      "currency": "MXN",
+      "category": "tapas"
+    },
+    {
+      "name": "Pincho de tortilla 200g",
+      "price": 115,
+      "currency": "MXN",
+      "category": "tapas"
+    },
+    {
+      "name": "Tortilla de patatas completa",
+      "price": 920,
+      "currency": "MXN",
+      "category": "tapas"
+    },
+    {
+      "name": "Ensaladilla rusa 250g",
+      "price": 125,
+      "currency": "MXN",
+      "category": "tapas"
+    },
+    {
+      "name": "Croquetas de la casa 6 pz",
+      "price": 135,
+      "currency": "MXN",
+      "category": "tapas"
+    },
+    {
+      "name": "Papas bravas 230g",
+      "price": 160,
+      "currency": "MXN",
+      "category": "tapas"
+    },
+    {
+      "name": "Pimientos de padrón 12 pz",
+      "price": 175,
+      "currency": "MXN",
+      "category": "tapas"
+    },
+    {
+      "name": "Chistorra a la sidra 6 pz",
+      "price": 175,
+      "currency": "MXN",
+      "category": "tapas"
+    },
+    {
+      "name": "Lomo adobado 150g",
+      "price": 175,
+      "currency": "MXN",
+      "category": "tapas"
+    },
+    {
+      "name": "Morcilla de Burgos entera",
+      "price": 295,
+      "currency": "MXN",
+      "category": "tapas"
+    },
+    {
+      "name": "Morcilla de Burgos 5 pz",
+      "price": 170,
+      "currency": "MXN",
+      "category": "tapas"
+    },
+    {
+      "name": "Gambas al ajillo 110g",
+      "price": 190,
+      "currency": "MXN",
+      "category": "tapas"
+    },
+    {
+      "name": "Cachopo 150g",
+      "price": 200,
+      "currency": "MXN",
+      "category": "tapas"
+    },
+    {
+      "name": "Mollejas 200g",
+      "price": 195,
+      "currency": "MXN",
+      "category": "tapas"
+    },
+    {
+      "name": "Buñuelo de bacalao 100g",
+      "price": 210,
+      "currency": "MXN",
+      "category": "tapas"
+    },
+    {
+      "name": "Habitas baby con jamón 200g",
+      "price": 275,
+      "currency": "MXN",
+      "category": "tapas"
+    },
+    {
+      "name": "Pepito de ternera 250g",
+      "price": 295,
+      "currency": "MXN",
+      "category": "tapas"
+    },
+    {
+      "name": "Carrillada ibérica con papas fritas 300g",
+      "price": 315,
+      "currency": "MXN",
+      "category": "fuertes"
+    },
+    {
+      "name": "Rabo de toro con papas fritas 400g",
+      "price": 310,
+      "currency": "MXN",
+      "category": "fuertes"
+    },
+    {
+      "name": "Gazpacho 400ml",
+      "price": 140,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Cogollos Tudela 300g",
+      "price": 310,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Tomate aliñado con bonito 350g",
+      "price": 345,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Espárragos a la plancha con queso 200g",
+      "price": 225,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Arroz con setas y alcachofas (mín. 2 pax)",
+      "price": 220,
+      "currency": "MXN",
+      "category": "arroces"
+    },
+    {
+      "name": "Arroz con camarones y chipirones (mín. 2 pax)",
+      "price": 230,
+      "currency": "MXN",
+      "category": "arroces"
+    },
+    {
+      "name": "Arroz meloso de lágrima ibérica (mín. 2 pax)",
+      "price": 230,
+      "currency": "MXN",
+      "category": "arroces"
+    },
+    {
+      "name": "Fideuà de mariscos (mín. 2 pax)",
+      "price": 220,
+      "currency": "MXN",
+      "category": "arroces"
+    },
+    {
+      "name": "Lubina de Baja con alcachofas, pimientos y jamón",
+      "price": 435,
+      "currency": "MXN",
+      "category": "pescados"
+    },
+    {
+      "name": "Atún aleta azul con tártara tomate y alcaparras",
+      "price": 475,
+      "currency": "MXN",
+      "category": "pescados"
+    },
+    {
+      "name": "Solomillo 250g con foie al oporto",
+      "price": 520,
+      "currency": "MXN",
+      "category": "carnes"
+    },
+    {
+      "name": "Solomillo 250g con Cabrales",
+      "price": 495,
+      "currency": "MXN",
+      "category": "carnes"
+    },
+    {
+      "name": "Chuletón de la casa añejado (2 personas, 1000g prime)",
+      "price": 1650,
+      "currency": "MXN",
+      "category": "carnes"
+    },
+    {
+      "name": "Flan",
+      "price": 160,
+      "currency": "MXN",
+      "category": "postres"
+    },
+    {
+      "name": "Tarta de olivo con romero",
+      "price": 160,
+      "currency": "MXN",
+      "category": "postres"
+    },
+    {
+      "name": "Helados Sin Culpa",
+      "price": 170,
+      "currency": "MXN",
+      "category": "postres"
+    }
+  ]
+}

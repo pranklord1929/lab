@@ -1,0 +1,113 @@
+{
+  "catalogName": "Sarde",
+  "slug": "sarde",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Sarde",
+  "location": {
+    "address": "Puebla 109, Roma Norte (esquina Córdoba)",
+    "neighborhood": "Roma Norte",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06700",
+    "coordinates": {
+      "latitude": 19.4235299,
+      "longitude": -99.1573427
+    }
+  },
+  "contact": {
+    "phone": "+52 55 2854 6561",
+    "website": "https://sarde.mx/",
+    "instagram": "sarde.rest",
+    "email": null
+  },
+  "hours": [
+    "lun–sáb 14:00–23:00",
+    "dom 14:00–18:00"
+  ],
+  "food": {
+    "cuisine": "contemporary / seafood",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/r/sarde-ciudad-de-mexico"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.theworlds50best.com/discovery/Establishments/Mexico/Mexico-City/Sarde.html",
+    "observedAt": "2026-08-17",
+    "itemCount": 10,
+    "items": [
+      {
+        "name": "Fish and chips"
+      },
+      {
+        "name": "Pulpo",
+        "price": 490,
+        "currency": "MXN"
+      },
+      {
+        "name": "Tostada con sardina",
+        "price": 200,
+        "currency": "MXN"
+      },
+      {
+        "name": "Flat Iron / New York 500g",
+        "price": 1700,
+        "currency": "MXN"
+      },
+      {
+        "name": "Postre de mango y coco",
+        "price": 200,
+        "currency": "MXN"
+      },
+      {
+        "name": "Octopus in black ink"
+      },
+      {
+        "name": "Sardines"
+      },
+      {
+        "name": "Ribeye tartare"
+      },
+      {
+        "name": "Camarones con salsa XO"
+      },
+      {
+        "name": "Rigatoni cacio e pepe"
+      }
+    ],
+    "notes": "Official homepage is reserva/eventos only. No published carta."
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/sarde.rest/",
+      "fields": [
+        "address",
+        "hours",
+        "phone"
+      ]
+    },
+    {
+      "source": "opentable",
+      "url": "https://www.opentable.com/r/sarde-ciudad-de-mexico",
+      "fields": [
+        "address"
+      ]
+    }
+  ],
+  "gaps": [
+    "coordinates",
+    "email"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": []
+}

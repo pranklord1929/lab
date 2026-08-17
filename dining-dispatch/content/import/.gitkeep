@@ -1,0 +1,3 @@
+# Import drop zone for bulk restaurant JSON / NDJSON.
+# Run: node scripts/ingest.mjs content/import/your-file.json
+# See scripts/ingest.mjs for the document shape.

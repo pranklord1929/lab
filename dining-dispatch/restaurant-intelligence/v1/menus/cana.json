@@ -1,0 +1,137 @@
+{
+  "slug": "cana",
+  "name": "CANA",
+  "url": "https://www.canacdmx.com/menu",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Caviar Petrossian, crème fraîche, chips (20g)",
+      "category": "all-day"
+    },
+    {
+      "name": "Pandeyuca, ricotta",
+      "category": "all-day"
+    },
+    {
+      "name": "Chicharrón de kale, ikura, crème fraîche",
+      "category": "all-day"
+    },
+    {
+      "name": "Paté de foie gras, ate de higo, Acetaia Pagani 7",
+      "category": "all-day"
+    },
+    {
+      "name": "Ostiones Mar Azul, mignonette",
+      "category": "all-day"
+    },
+    {
+      "name": "Atún, kimchi de jamaica, kombu, dátil",
+      "category": "all-day"
+    },
+    {
+      "name": "Shrimp cocktail, shiso",
+      "category": "all-day"
+    },
+    {
+      "name": "Tartar de res, jitomate, pimienta encurtida, queso Chiapas",
+      "category": "all-day"
+    },
+    {
+      "name": "Betabeles rostizados, queso azul, verdes",
+      "category": "all-day"
+    },
+    {
+      "name": "Ciruelas Moscatel, avellanas, miso, queso Asiago",
+      "category": "all-day"
+    },
+    {
+      "name": "Crudités, aguacate y miso, limón caviar",
+      "category": "all-day"
+    },
+    {
+      "name": "Ensalada Caesar",
+      "category": "all-day"
+    },
+    {
+      "name": "Dumplings de chirivía, dashi, hinojo bronce",
+      "category": "all-day"
+    },
+    {
+      "name": "Huachinango, chícharos, almeja, beurre blanc, trufa de invierno",
+      "category": "all-day"
+    },
+    {
+      "name": "Arroz negro, callo, calamar, leche de tigre, chile chilhuacle",
+      "category": "all-day"
+    },
+    {
+      "name": "Steak frites",
+      "category": "all-day"
+    },
+    {
+      "name": "Confit, zanahorias glaseadas, puré de coliflor, tamarindo",
+      "category": "all-day"
+    },
+    {
+      "name": "CANA Burger",
+      "category": "all-day"
+    },
+    {
+      "name": "Cordero, berenjena, tortilla de harina, chile de árbol",
+      "category": "all-day"
+    },
+    {
+      "name": "Spoon de mousse au chocolat, aceite de oliva",
+      "category": "postres"
+    },
+    {
+      "name": "Cheesecake d'affinois, helado de temporada",
+      "category": "postres"
+    },
+    {
+      "name": "Flan, vainilla, cardamomo",
+      "category": "postres"
+    },
+    {
+      "name": "Pastel de chocolate, habatonka, vainilla ahumada",
+      "category": "postres"
+    },
+    {
+      "name": "Mochi de mamey, pixtle",
+      "category": "postres"
+    },
+    {
+      "name": "Helados y sorbetes de temporada",
+      "category": "postres"
+    },
+    {
+      "name": "Trucha salmonada, alcaparrón, crème fraîche",
+      "category": "brunch"
+    },
+    {
+      "name": "Pancakes, miel de maple, mantequilla",
+      "category": "brunch"
+    },
+    {
+      "name": "Omelette, d'affinois, arúgula",
+      "category": "brunch"
+    },
+    {
+      "name": "Sandwich de mortadela, gruyère",
+      "category": "brunch"
+    },
+    {
+      "name": "Burrito de jaiba concha suave, guacachile",
+      "category": "brunch"
+    },
+    {
+      "name": "Milanesa de pollo, ensalada de radicchio, hinojo",
+      "category": "brunch"
+    },
+    {
+      "name": "Fish & chips",
+      "category": "brunch"
+    }
+  ]
+}

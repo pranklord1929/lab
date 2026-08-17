@@ -1,0 +1,410 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "93798e08-14b2-4ceb-964a-be1fccf528a6",
+  "slug": "entremar",
+  "name": "Entremar",
+  "location": {
+    "neighborhood": "POLANCO V SECCIÓN",
+    "borough": "Miguel Hidalgo",
+    "address": "B Y C, Hegel 307, Chapultepec Morales, Polanco V Secc, Miguel Hidalgo, 11560 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4329652,
+      "longitude": -99.188104
+    }
+  },
+  "contact": {
+    "phone": "55 5531 2031",
+    "website": "http://entremar.com/",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=5061730781190830428&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "seafood",
+    "michelinCuisine": null,
+    "openTableCuisine": "Pescados",
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": "Old-fashioned white tablecloth eatery with a terrace specializing in high-end fish recipes.",
+    "hours": [
+      "domingo: 12:00–8:00 p.m.",
+      "lunes: 12:00–8:00 p.m.",
+      "martes: 12:00–8:00 p.m.",
+      "miércoles: 12:00–8:00 p.m.",
+      "jueves: 12:00–8:00 p.m.",
+      "viernes: 12:00–8:00 p.m.",
+      "sábado: 12:00–8:00 p.m."
+    ],
+    "rating": 4.4,
+    "reviewCount": 2907
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": "https://www.opentable.com.mx/r/entremar-mexico-city",
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 1,
+    "itemCount": 19,
+    "documents": [
+      {
+        "id": "9d59644d-82b7-4b91-a377-a7c3097bab1b",
+        "sourceUrl": "http://entremar.com/vinos.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": [
+      {
+        "id": "05e854c5-b05d-4e86-a3c3-c94fc51e5029",
+        "documentId": null,
+        "name": "Albariño",
+        "description": null,
+        "price": 290,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "28fd791f-3f78-47d3-a7f5-a2a302f7706e",
+        "documentId": null,
+        "name": "Bobal",
+        "description": null,
+        "price": 440,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "19de3d60-3316-4b92-a050-c718d2742c95",
+        "documentId": null,
+        "name": "Cabernet Franc",
+        "description": null,
+        "price": 230,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "7d17db39-30ed-484b-a023-9a04efcf377d",
+        "documentId": null,
+        "name": "Cabernet Franc",
+        "description": null,
+        "price": 380,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "10d1dc00-d3a0-4bad-a616-831a187ac521",
+        "documentId": null,
+        "name": "Caladoc, Malbec",
+        "description": null,
+        "price": 240,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "2e74cd72-53f4-409e-a7c7-34ba1bd4a83d",
+        "documentId": null,
+        "name": "Chardonnay",
+        "description": null,
+        "price": 230,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "36d2a7de-df37-4b03-ae39-6b193f5c26a7",
+        "documentId": null,
+        "name": "Chardonnay",
+        "description": null,
+        "price": 300,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "816ab4ca-6bfa-4882-a53c-434aa4f46a1a",
+        "documentId": null,
+        "name": "Chardonnay",
+        "description": null,
+        "price": 340,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "e5643276-8cb9-4046-a22a-3e184dadc13b",
+        "documentId": null,
+        "name": "Furmint, Yellow Muscat, Zeta",
+        "description": null,
+        "price": 270,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "c384b93f-f761-4486-ab30-b26dc3fcbac3",
+        "documentId": null,
+        "name": "Glera",
+        "description": null,
+        "price": 210,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "db92888d-0409-4ee9-a20e-e236618e4af8",
+        "documentId": null,
+        "name": "Glera, Chardonnay",
+        "description": null,
+        "price": 230,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "86c9c0d9-3720-4027-a116-c762fc56a172",
+        "documentId": null,
+        "name": "Graciano",
+        "description": null,
+        "price": 280,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "84ed4c57-601f-4283-afee-309031a6c215",
+        "documentId": null,
+        "name": "Moscatel, Palomino",
+        "description": null,
+        "price": 260,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "17b2736d-1a60-4268-a16a-65dcb959a40a",
+        "documentId": null,
+        "name": "Pinot Noir",
+        "description": null,
+        "price": 390,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "aff79b26-a8dd-4633-a707-37783dd53a0e",
+        "documentId": null,
+        "name": "Riesling",
+        "description": null,
+        "price": 850,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "4f322487-a500-4c10-a377-84af8e5be0b1",
+        "documentId": null,
+        "name": "Rías Baixas",
+        "description": null,
+        "price": 320,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "f4307ef5-3931-4fbd-a146-13e7fd41e6bc",
+        "documentId": null,
+        "name": "Sauvignon Blanc",
+        "description": null,
+        "price": 260,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "68fa94a9-261f-46d5-a420-13c49141c2c9",
+        "documentId": null,
+        "name": "Treixadura, Godello, Torrontes, Caiño blanco",
+        "description": null,
+        "price": 320,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "06fde6d0-92be-4ab5-ae01-f201b6b8b739",
+        "documentId": null,
+        "name": "Turbiana",
+        "description": null,
+        "price": 395,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://entremar.com/vinos.html",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "http://entremar.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:08.036+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=5061730781190830428&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:22.986+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 5,
+    "sourceNames": [
+      "foursquare",
+      "google_places",
+      "official_menus",
+      "official_website",
+      "opentable"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T20:05:20.22199+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:02:40.156226+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": true,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 106,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram"
+    ]
+  }
+}

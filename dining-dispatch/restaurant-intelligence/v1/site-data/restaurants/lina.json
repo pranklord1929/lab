@@ -1,0 +1,156 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "e46c57e3-e468-4130-a6df-ba428fb00382",
+  "slug": "lina",
+  "name": "LINA",
+  "location": {
+    "neighborhood": "ROMA NORTE",
+    "borough": "Cuauhtémoc",
+    "address": "Av. Yucatán 147, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4123413,
+      "longitude": -99.1601863
+    }
+  },
+  "contact": {
+    "phone": "55 5574 7004",
+    "website": "https://www.lina.mx/",
+    "instagram": "lina.mx",
+    "googleMapsUrl": "https://maps.google.com/?cid=7493345682326663625&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "contemporary",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": "Este llamativo y acogedor local de la Roma presidido por su cocina abierta respira un encanto muy contemporáneo. La cordialidad de su personal es el complemento ideal para la cocina mexicana contemporánea de la chef Mariana Villegas Martínez, muy influida por sus viajes y sus experiencias y en la que todo, desde los productos de temporada hasta la armonía de sabores, habla de esmero. Lejos de ser ",
+    "hours": [
+      "domingo: Cerrado",
+      "lunes: Cerrado",
+      "martes: 5:30–10:00 p.m.",
+      "miércoles: 5:30–10:00 p.m.",
+      "jueves: 2:30–11:00 p.m.",
+      "viernes: 2:30–11:00 p.m.",
+      "sábado: 2:30–11:00 p.m."
+    ],
+    "rating": 4.7,
+    "reviewCount": 298
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null,
+    "url": "https://lina.mx/",
+    "platform": "official"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-08-17",
+    "observationAgeDaysAtExport": null,
+    "documentCount": 0,
+    "itemCount": 2,
+    "documents": [],
+    "items": [
+      {
+        "name": "Calabaza tatemada con salsa de piñones ahumados"
+      },
+      {
+        "name": "Pollo de piel crujiente, melocotones asados, setas y mole coloradito"
+      }
+    ],
+    "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/lina",
+    "notes": "Official site publishes hours and address. No carta."
+  },
+  "links": [
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://lina.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:29.736+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=7493345682326663625&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:30.617+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "google_places",
+      "official_website",
+      "restaurantguru"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:21:19.018157+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 256,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram,menu",
+    "actionPriority": 6,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_cuisine",
+      "missing_price_level",
+      "missing_source_summary",
+      "missing_menu_document",
+      "missing_structured_menu_items"
+    ]
+  }
+}

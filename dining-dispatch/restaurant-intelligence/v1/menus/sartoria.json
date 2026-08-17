@@ -1,0 +1,22 @@
+{
+  "slug": "sartoria",
+  "name": "Sartoria",
+  "url": "https://sartoria.mx/",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Tortellacci de burrata",
+      "category": "pasta"
+    },
+    {
+      "name": "Spaghetti alla chitarra",
+      "category": "pasta"
+    },
+    {
+      "name": "Pasta fresca hecha a mano",
+      "description": "Carta corta: antipasti, pasta, segundos",
+      "category": "pasta"
+    }
+  ]
+}

@@ -1,0 +1,731 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "1d938064-7896-4780-960a-0af5a666a9e6",
+  "slug": "fishers-house",
+  "name": "FISHER’S HOUSE",
+  "location": {
+    "neighborhood": "SAN ÁNGEL INN",
+    "borough": "Álvaro Obregón",
+    "address": "Av. Altavista 142, San Ángel Inn, Álvaro Obregón, 01060 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3490644,
+      "longitude": -99.1964765
+    }
+  },
+  "contact": {
+    "phone": "55 5550 5092",
+    "website": "https://www.fishershouse.mx/",
+    "instagram": "https://instagram.com/fishershouse_/",
+    "googleMapsUrl": "https://maps.google.com/?cid=8453275444815100621&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "seafood",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 3
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 9:30 a.m. – 9:00 p.m.",
+      "lunes: 1:00–9:00 p.m.",
+      "martes: 1:00–9:00 p.m.",
+      "miércoles: 1:00–11:00 p.m.",
+      "jueves: 1:00 p.m. – 12:00 a.m.",
+      "viernes: 1:00 p.m. – 12:00 a.m.",
+      "sábado: 9:30 a.m. – 12:00 a.m."
+    ],
+    "rating": 4.5,
+    "reviewCount": 1810
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-17T10:10:05.905Z",
+    "observationAgeDaysAtExport": 31,
+    "documentCount": 35,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "07410d5a-e44c-41c9-a7ee-339dbef6b88d",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/d26408a0-55de-411b-8ece-eeb3ee5f285d/IMG-Menu%CC%812.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "0f89a4bd-490b-4196-b1d4-a99b795526e9",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/406afab2-c74f-42b0-b5c5-77ee8f3ecc7d/IMG-Menu%CC%814.jpg?format=500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "2821f9b0-3a9d-4009-bfdb-e16ed5e671cd",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/9c788369-297d-4ea2-9472-3680b1ebe0bb/IMG-Menu%CC%813.jpg?format=1500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "356838ac-475d-41c9-8547-75eb94f9c712",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/a5919fb0-0e17-4230-bff2-36afc3160f5f/IMG-Menu%CC%811.jpg?format=300w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "35ff413a-86d3-4c62-959b-2a0745e19419",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/a5919fb0-0e17-4230-bff2-36afc3160f5f/IMG-Menu%CC%811.jpg?format=1000w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "372eb7c2-d2d4-4d22-b207-298536e7a83c",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/d26408a0-55de-411b-8ece-eeb3ee5f285d/IMG-Menu%CC%812.jpg?format=1000w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "3a41b04e-bdd3-4f3e-b880-c86d8c238e18",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/9c788369-297d-4ea2-9472-3680b1ebe0bb/IMG-Menu%CC%813.jpg?format=500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "40cea945-f58f-4b8e-8794-b1fd1cd6e68e",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/d26408a0-55de-411b-8ece-eeb3ee5f285d/IMG-Menu%CC%812.jpg?format=1500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "440692cf-4994-4a4a-a6c4-fd7b1f60bc62",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/406afab2-c74f-42b0-b5c5-77ee8f3ecc7d/IMG-Menu%CC%814.jpg?format=750w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "47b06e0c-8b29-4fd4-9fda-a3596dd7b88c",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/406afab2-c74f-42b0-b5c5-77ee8f3ecc7d/IMG-Menu%CC%814.jpg?format=1500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "6622ef7b-9899-4f6c-a45c-5eea1a15b7fc",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/9c788369-297d-4ea2-9472-3680b1ebe0bb/IMG-Menu%CC%813.jpg?format=750w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "71ad948a-72c3-45df-8c64-fec661b52ae4",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/406afab2-c74f-42b0-b5c5-77ee8f3ecc7d/IMG-Menu%CC%814.jpg?format=300w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "7afa7186-8f1a-4496-9acf-d1a5409a2f6b",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/d26408a0-55de-411b-8ece-eeb3ee5f285d/IMG-Menu%CC%812.jpg?format=100w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "7eb6ae0e-78dc-4389-b882-6599be494a86",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/9c788369-297d-4ea2-9472-3680b1ebe0bb/IMG-Menu%CC%813.jpg?format=100w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "81b64efe-f89d-4271-9fca-7e0dea8ca029",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/406afab2-c74f-42b0-b5c5-77ee8f3ecc7d/IMG-Menu%CC%814.jpg?format=2500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "89ccf964-44f1-4073-bf2e-004c32c82027",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/d26408a0-55de-411b-8ece-eeb3ee5f285d/IMG-Menu%CC%812.jpg?format=500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "a08b9430-1ed5-4455-8a6c-d26a193eb71c",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/d26408a0-55de-411b-8ece-eeb3ee5f285d/IMG-Menu%CC%812.jpg?format=2500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "abc00b5c-5f21-4721-85d0-bdba2cc34487",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/9c788369-297d-4ea2-9472-3680b1ebe0bb/IMG-Menu%CC%813.jpg?format=300w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "b2948769-23ce-4ab0-8ae2-86b0df609a22",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/9c788369-297d-4ea2-9472-3680b1ebe0bb/IMG-Menu%CC%813.jpg?format=2500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "b4995b85-fc07-4bdd-9b75-b6a65483532d",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/9c788369-297d-4ea2-9472-3680b1ebe0bb/IMG-Menu%CC%813.jpg?format=1000w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "c04ee742-f0f6-4926-b197-cebedbd3bcbf",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/a5919fb0-0e17-4230-bff2-36afc3160f5f/IMG-Menu%CC%811.jpg?format=2500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "c84988b3-7e51-4b99-a60f-5eb8632a4b57",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/d26408a0-55de-411b-8ece-eeb3ee5f285d/IMG-Menu%CC%812.jpg?format=750w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "c8539a46-a84a-4d0e-a9a3-79113b456199",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/d26408a0-55de-411b-8ece-eeb3ee5f285d/IMG-Menu%CC%812.jpg?format=300w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "cac8850b-69e9-49d8-a544-14f503a95b77",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/a5919fb0-0e17-4230-bff2-36afc3160f5f/IMG-Menu%CC%811.jpg?format=100w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "cd5f7e24-5dac-40e7-8182-1aae16751de4",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/a5919fb0-0e17-4230-bff2-36afc3160f5f/IMG-Menu%CC%811.jpg?format=500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "cdc0af20-bce8-4669-9bdc-331455a90d2c",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/406afab2-c74f-42b0-b5c5-77ee8f3ecc7d/IMG-Menu%CC%814.jpg?format=1000w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "ce2351d5-6105-49b9-92dc-d1a6c725828d",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/a5919fb0-0e17-4230-bff2-36afc3160f5f/IMG-Menu%CC%811.jpg?format=750w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "d0c2ed15-4289-49f4-84a7-c57aa91f8289",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/406afab2-c74f-42b0-b5c5-77ee8f3ecc7d/IMG-Menu%CC%814.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "d618871f-5d4c-4173-869a-d0046b01b110",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/a5919fb0-0e17-4230-bff2-36afc3160f5f/IMG-Menu%CC%811.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "e6d50619-4449-4c90-9fe1-afac1798654f",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/406afab2-c74f-42b0-b5c5-77ee8f3ecc7d/IMG-Menu%CC%814.jpg?format=100w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "fbadb835-5bed-4b4b-8d5a-8e8098cede1a",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/9c788369-297d-4ea2-9472-3680b1ebe0bb/IMG-Menu%CC%813.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "ff4c259b-8243-41e1-96c2-c138f612041a",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/a5919fb0-0e17-4230-bff2-36afc3160f5f/IMG-Menu%CC%811.jpg?format=1500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "347c3af8-d455-4dd5-a35c-d111c9237bbc",
+        "sourceUrl": "https://fishershouse.mx/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "9cf375ca-5381-40c1-b065-889ba4c24db7",
+        "sourceUrl": "https://www.fishershouse.mx/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "6a0a57d5-697a-4674-bf7e-a663d0a48acd",
+        "sourceUrl": "https://www.fishers.com.mx/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.75,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:46.358+00:00"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/a5919fb0-0e17-4230-bff2-36afc3160f5f/IMG-Menu%CC%811.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/a5919fb0-0e17-4230-bff2-36afc3160f5f/IMG-Menu%CC%811.jpg?format=100w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/a5919fb0-0e17-4230-bff2-36afc3160f5f/IMG-Menu%CC%811.jpg?format=300w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/a5919fb0-0e17-4230-bff2-36afc3160f5f/IMG-Menu%CC%811.jpg?format=500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/a5919fb0-0e17-4230-bff2-36afc3160f5f/IMG-Menu%CC%811.jpg?format=750w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/a5919fb0-0e17-4230-bff2-36afc3160f5f/IMG-Menu%CC%811.jpg?format=1000w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/a5919fb0-0e17-4230-bff2-36afc3160f5f/IMG-Menu%CC%811.jpg?format=1500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/a5919fb0-0e17-4230-bff2-36afc3160f5f/IMG-Menu%CC%811.jpg?format=2500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/d26408a0-55de-411b-8ece-eeb3ee5f285d/IMG-Menu%CC%812.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/d26408a0-55de-411b-8ece-eeb3ee5f285d/IMG-Menu%CC%812.jpg?format=100w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/d26408a0-55de-411b-8ece-eeb3ee5f285d/IMG-Menu%CC%812.jpg?format=300w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/d26408a0-55de-411b-8ece-eeb3ee5f285d/IMG-Menu%CC%812.jpg?format=500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/d26408a0-55de-411b-8ece-eeb3ee5f285d/IMG-Menu%CC%812.jpg?format=750w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/d26408a0-55de-411b-8ece-eeb3ee5f285d/IMG-Menu%CC%812.jpg?format=1000w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/d26408a0-55de-411b-8ece-eeb3ee5f285d/IMG-Menu%CC%812.jpg?format=1500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/d26408a0-55de-411b-8ece-eeb3ee5f285d/IMG-Menu%CC%812.jpg?format=2500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/9c788369-297d-4ea2-9472-3680b1ebe0bb/IMG-Menu%CC%813.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/9c788369-297d-4ea2-9472-3680b1ebe0bb/IMG-Menu%CC%813.jpg?format=100w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/9c788369-297d-4ea2-9472-3680b1ebe0bb/IMG-Menu%CC%813.jpg?format=300w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/9c788369-297d-4ea2-9472-3680b1ebe0bb/IMG-Menu%CC%813.jpg?format=500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/9c788369-297d-4ea2-9472-3680b1ebe0bb/IMG-Menu%CC%813.jpg?format=750w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/9c788369-297d-4ea2-9472-3680b1ebe0bb/IMG-Menu%CC%813.jpg?format=1000w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/9c788369-297d-4ea2-9472-3680b1ebe0bb/IMG-Menu%CC%813.jpg?format=1500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/9c788369-297d-4ea2-9472-3680b1ebe0bb/IMG-Menu%CC%813.jpg?format=2500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/406afab2-c74f-42b0-b5c5-77ee8f3ecc7d/IMG-Menu%CC%814.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/406afab2-c74f-42b0-b5c5-77ee8f3ecc7d/IMG-Menu%CC%814.jpg?format=100w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/406afab2-c74f-42b0-b5c5-77ee8f3ecc7d/IMG-Menu%CC%814.jpg?format=300w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/406afab2-c74f-42b0-b5c5-77ee8f3ecc7d/IMG-Menu%CC%814.jpg?format=500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/406afab2-c74f-42b0-b5c5-77ee8f3ecc7d/IMG-Menu%CC%814.jpg?format=750w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/406afab2-c74f-42b0-b5c5-77ee8f3ecc7d/IMG-Menu%CC%814.jpg?format=1000w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/406afab2-c74f-42b0-b5c5-77ee8f3ecc7d/IMG-Menu%CC%814.jpg?format=1500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/607dd1237df7df0baf1d7098/406afab2-c74f-42b0-b5c5-77ee8f3ecc7d/IMG-Menu%CC%814.jpg?format=2500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://fishershouse.mx/menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.fishershouse.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:12.498+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=8453275444815100621&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:25.134+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/fishershouse_/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:08:10.085653+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 230,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

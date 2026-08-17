@@ -1,0 +1,218 @@
+{
+  "slug": "siembra-comedor",
+  "name": "Siembra Comedor",
+  "url": "https://siempresiembra.com.mx/pages/menu",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "notes": "OCR of official menu screenshots published on /pages/menu (May 2025 captures still live).",
+  "documents": [
+    "https://siempresiembra.com.mx/cdn/shop/files/Captura_de_pantalla_2025-05-29_a_la_s_3.55.11_p.m._2048x2048.png",
+    "https://siempresiembra.com.mx/cdn/shop/files/Captura_de_pantalla_2025-05-29_a_la_s_3.55.19_p.m._2048x2048.png"
+  ],
+  "items": [
+    {
+      "name": "Pesca del día al pastor",
+      "price": 135,
+      "currency": "MXN",
+      "category": "tacos",
+      "description": "1 tortilla"
+    },
+    {
+      "name": "Camarón estilo Ensenada",
+      "price": 90,
+      "currency": "MXN",
+      "category": "tacos",
+      "description": "1 tortilla"
+    },
+    {
+      "name": "Jaiba suave",
+      "price": 145,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Fideo seco y tuétano",
+      "price": 75,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Campechano con chorizo rojo",
+      "price": 75,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Campechano con chorizo verde",
+      "price": 80,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Gaona con queso",
+      "price": 115,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Gaona sin queso",
+      "price": 88,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Cecina",
+      "price": 120,
+      "currency": "MXN",
+      "category": "tacos",
+      "description": "Tortilla de mano"
+    },
+    {
+      "name": "Cecina y chorizo verde",
+      "price": 140,
+      "currency": "MXN",
+      "category": "tacos",
+      "description": "Tortilla de mano"
+    },
+    {
+      "name": "Pastor",
+      "price": 70,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Gaona de pollo",
+      "price": 70,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Arrachera",
+      "price": 92,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Diezmillo",
+      "price": 130,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Rib eye",
+      "price": 178,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Picaña con chicharrón norteño",
+      "price": 128,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Tlacoyo de requesón",
+      "price": 64,
+      "currency": "MXN",
+      "category": "tlacoyos"
+    },
+    {
+      "name": "Tlacoyo de haba",
+      "price": 64,
+      "currency": "MXN",
+      "category": "tlacoyos"
+    },
+    {
+      "name": "Tlacoyo de papa",
+      "price": 64,
+      "currency": "MXN",
+      "category": "tlacoyos"
+    },
+    {
+      "name": "Tlacoyo de frijol",
+      "price": 64,
+      "currency": "MXN",
+      "category": "tlacoyos"
+    },
+    {
+      "name": "Tlacoyo de chicharrón",
+      "price": 64,
+      "currency": "MXN",
+      "category": "tlacoyos"
+    },
+    {
+      "name": "Tetela de frijol, hoja santa y chiltepín",
+      "price": 66,
+      "currency": "MXN",
+      "category": "otros"
+    },
+    {
+      "name": "Gordita de chicharrón",
+      "price": 69,
+      "currency": "MXN",
+      "category": "otros"
+    },
+    {
+      "name": "Flautas",
+      "price": 115,
+      "currency": "MXN",
+      "category": "otros",
+      "description": "Solo sábados y domingos"
+    },
+    {
+      "name": "Quesadilla",
+      "price": 62,
+      "currency": "MXN",
+      "category": "otros",
+      "description": "Diferentes rellenos, desde $62"
+    },
+    {
+      "name": "Plátano macho",
+      "price": 70,
+      "currency": "MXN",
+      "category": "postres"
+    },
+    {
+      "name": "Flan napolitano",
+      "price": 80,
+      "currency": "MXN",
+      "category": "postres"
+    },
+    {
+      "name": "Postre del día",
+      "price": 70,
+      "currency": "MXN",
+      "category": "postres"
+    },
+    {
+      "name": "Mole hecho en casa con pollo",
+      "price": 78,
+      "currency": "MXN",
+      "category": "tamales"
+    },
+    {
+      "name": "Setas con frijol y chile guajillo",
+      "price": 78,
+      "currency": "MXN",
+      "category": "tamales"
+    },
+    {
+      "name": "Suadero en salsa morita",
+      "price": 78,
+      "currency": "MXN",
+      "category": "tamales"
+    },
+    {
+      "name": "Cochinita pibil",
+      "price": 78,
+      "currency": "MXN",
+      "category": "tamales"
+    },
+    {
+      "name": "Mole y huitlacoche",
+      "price": 78,
+      "currency": "MXN",
+      "category": "tamales"
+    }
+  ]
+}

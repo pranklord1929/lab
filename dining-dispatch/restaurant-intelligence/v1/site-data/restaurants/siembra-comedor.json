@@ -1,0 +1,369 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "cb876216-a897-41fd-8c81-fec061048af8",
+  "slug": "siembra-comedor",
+  "name": "Siembra Comedor",
+  "location": {
+    "neighborhood": "POLANCO V SECCIÓN",
+    "borough": "Miguel Hidalgo",
+    "address": "Av. Ejército Nacional Mexicano 314, Chapultepec Morales, Polanco V Secc, Miguel Hidalgo, 11560 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4373129,
+      "longitude": -99.1840882
+    }
+  },
+  "contact": {
+    "phone": "55 7875 0411",
+    "website": "https://siempresiembra.com.mx/",
+    "instagram": "https://instagram.com/siembra_comedor_tortilleria/",
+    "googleMapsUrl": "https://maps.google.com/?cid=4253727859181370824&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "mexican",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": "Un cóctel en el bar 686, situado en el piso superior, es la mejor forma de empezar la velada antes de ponerse entre las hábiles manos del chef Lucho Martínez. El íntimo restaurante de la planta baja, bautizado así en honor a Emilia, la hija del chef, es el lugar perfecto para una cena en pareja. Su cocina ofrece una lectura contemporánea de las riquezas de la despensa mexicana, procedentes en buen",
+    "hours": [
+      "domingo: 10:00 a.m. – 5:00 p.m.",
+      "lunes: Cerrado",
+      "martes: 1:30–10:00 p.m.",
+      "miércoles: 1:30–10:00 p.m.",
+      "jueves: 1:30–10:00 p.m.",
+      "viernes: 1:30–10:00 p.m.",
+      "sábado: 1:30–10:00 p.m."
+    ],
+    "rating": 4.5,
+    "reviewCount": 998
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null,
+    "url": "https://www.covermanager.com/reservation/module_restaurant/siembracomedor-cdmx/spanish",
+    "platform": "covermanager"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-08-17",
+    "observationAgeDaysAtExport": 38,
+    "documentCount": 2,
+    "itemCount": 33,
+    "documents": [
+      "https://siempresiembra.com.mx/cdn/shop/files/Captura_de_pantalla_2025-05-29_a_la_s_3.55.11_p.m._2048x2048.png",
+      "https://siempresiembra.com.mx/cdn/shop/files/Captura_de_pantalla_2025-05-29_a_la_s_3.55.19_p.m._2048x2048.png"
+    ],
+    "items": [
+      {
+        "name": "Pesca del día al pastor",
+        "price": 135,
+        "currency": "MXN",
+        "category": "tacos",
+        "description": "1 tortilla"
+      },
+      {
+        "name": "Camarón estilo Ensenada",
+        "price": 90,
+        "currency": "MXN",
+        "category": "tacos",
+        "description": "1 tortilla"
+      },
+      {
+        "name": "Jaiba suave",
+        "price": 145,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Fideo seco y tuétano",
+        "price": 75,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Campechano con chorizo rojo",
+        "price": 75,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Campechano con chorizo verde",
+        "price": 80,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Gaona con queso",
+        "price": 115,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Gaona sin queso",
+        "price": 88,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Cecina",
+        "price": 120,
+        "currency": "MXN",
+        "category": "tacos",
+        "description": "Tortilla de mano"
+      },
+      {
+        "name": "Cecina y chorizo verde",
+        "price": 140,
+        "currency": "MXN",
+        "category": "tacos",
+        "description": "Tortilla de mano"
+      },
+      {
+        "name": "Pastor",
+        "price": 70,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Gaona de pollo",
+        "price": 70,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Arrachera",
+        "price": 92,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Diezmillo",
+        "price": 130,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Rib eye",
+        "price": 178,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Picaña con chicharrón norteño",
+        "price": 128,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Tlacoyo de requesón",
+        "price": 64,
+        "currency": "MXN",
+        "category": "tlacoyos"
+      },
+      {
+        "name": "Tlacoyo de haba",
+        "price": 64,
+        "currency": "MXN",
+        "category": "tlacoyos"
+      },
+      {
+        "name": "Tlacoyo de papa",
+        "price": 64,
+        "currency": "MXN",
+        "category": "tlacoyos"
+      },
+      {
+        "name": "Tlacoyo de frijol",
+        "price": 64,
+        "currency": "MXN",
+        "category": "tlacoyos"
+      },
+      {
+        "name": "Tlacoyo de chicharrón",
+        "price": 64,
+        "currency": "MXN",
+        "category": "tlacoyos"
+      },
+      {
+        "name": "Tetela de frijol, hoja santa y chiltepín",
+        "price": 66,
+        "currency": "MXN",
+        "category": "otros"
+      },
+      {
+        "name": "Gordita de chicharrón",
+        "price": 69,
+        "currency": "MXN",
+        "category": "otros"
+      },
+      {
+        "name": "Flautas",
+        "price": 115,
+        "currency": "MXN",
+        "category": "otros",
+        "description": "Solo sábados y domingos"
+      },
+      {
+        "name": "Quesadilla",
+        "price": 62,
+        "currency": "MXN",
+        "category": "otros",
+        "description": "Diferentes rellenos, desde $62"
+      },
+      {
+        "name": "Plátano macho",
+        "price": 70,
+        "currency": "MXN",
+        "category": "postres"
+      },
+      {
+        "name": "Flan napolitano",
+        "price": 80,
+        "currency": "MXN",
+        "category": "postres"
+      },
+      {
+        "name": "Postre del día",
+        "price": 70,
+        "currency": "MXN",
+        "category": "postres"
+      },
+      {
+        "name": "Mole hecho en casa con pollo",
+        "price": 78,
+        "currency": "MXN",
+        "category": "tamales"
+      },
+      {
+        "name": "Setas con frijol y chile guajillo",
+        "price": 78,
+        "currency": "MXN",
+        "category": "tamales"
+      },
+      {
+        "name": "Suadero en salsa morita",
+        "price": 78,
+        "currency": "MXN",
+        "category": "tamales"
+      },
+      {
+        "name": "Cochinita pibil",
+        "price": 78,
+        "currency": "MXN",
+        "category": "tamales"
+      },
+      {
+        "name": "Mole y huitlacoche",
+        "price": 78,
+        "currency": "MXN",
+        "category": "tamales"
+      }
+    ],
+    "url": "https://siempresiembra.com.mx/pages/menu",
+    "notes": "OCR of official menu screenshots published on /pages/menu (May 2025 captures still live)."
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://siempresiembra.com.mx/pages/menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://siempresiembra.com.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:52:09.455+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=4253727859181370824&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:53:03.639+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/siembra_comedor_tortilleria/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "google_places",
+      "mexico_gastronomico",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:23:14.01054+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 289,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_price_level",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "slug": "magazzino",
+  "name": "Magazzino",
+  "url": "https://www.opentable.com/r/magazzino-ciudad-de-mexico",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Aceitunas",
+      "price": null,
+      "currency": "MXN",
+      "category": "para picar"
+    },
+    {
+      "name": "Parmigiano Reggiano",
+      "price": null,
+      "currency": "MXN",
+      "category": "para picar"
+    },
+    {
+      "name": "Focaccia",
+      "price": null,
+      "currency": "MXN",
+      "category": "para picar"
+    }
+  ],
+  "notes": "OpenTable venue text: wine service accompanied by aceitunas, Reggiano and focaccia. Night wine-bar format; no full HTML carta."
+}

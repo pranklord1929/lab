@@ -1,0 +1,48 @@
+{
+  "slug": "sarde",
+  "name": "Sarde",
+  "url": "https://www.theworlds50best.com/discovery/Establishments/Mexico/Mexico-City/Sarde.html",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Fish and chips"
+    },
+    {
+      "name": "Pulpo",
+      "price": 490,
+      "currency": "MXN"
+    },
+    {
+      "name": "Tostada con sardina",
+      "price": 200,
+      "currency": "MXN"
+    },
+    {
+      "name": "Flat Iron / New York 500g",
+      "price": 1700,
+      "currency": "MXN"
+    },
+    {
+      "name": "Postre de mango y coco",
+      "price": 200,
+      "currency": "MXN"
+    },
+    {
+      "name": "Octopus in black ink"
+    },
+    {
+      "name": "Sardines"
+    },
+    {
+      "name": "Ribeye tartare"
+    },
+    {
+      "name": "Camarones con salsa XO"
+    },
+    {
+      "name": "Rigatoni cacio e pepe"
+    }
+  ],
+  "notes": "World's 50 Best Discovery + TripAdvisor dish names + published IG ticket prices @tacotios."
+}

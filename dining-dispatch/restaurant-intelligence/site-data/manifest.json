@@ -1,0 +1,179 @@
+{
+  "schemaVersion": "tdd.site-data.v0.1",
+  "exportedAt": "2026-08-17T12:01:07.969Z",
+  "sourceDatabase": "archive/legacy-data/local_db/cdmx_local.sqlite",
+  "sourceSnapshotManifest": "archive/legacy-data/local_db/manifest.json",
+  "cohortRule": "is_enriched + photo + rating >= 3.5 + reviews >= 20 + OPERATIONAL + address + hours",
+  "counts": {
+    "restaurants": 876,
+    "launchCandidates": 100,
+    "indexableRestaurants": 0,
+    "restaurantFiles": 876,
+    "menuDocuments": 3869,
+    "deduplicatedMenuItems": 29789,
+    "qaRecordsWithAdditionalFlags": 839,
+    "collections": 81
+  },
+  "publicationGuardrails": {
+    "machineAssembledDoesNotMeanHumanVerified": true,
+    "editorialFieldsAreBlankByDesign": true,
+    "allRestaurantsDefaultToNoindex": true,
+    "googlePlacesPhotoReferencesExcluded": true
+  },
+  "sourceStats": [
+    {
+      "source": "foursquare",
+      "recordCount": 5481,
+      "matchedRestaurantCount": 2136,
+      "oldestObservation": "2026-06-29T13:45:24.058947+00:00",
+      "newestObservation": "2026-06-29T13:45:30.36591+00:00"
+    },
+    {
+      "source": "restaurantguru",
+      "recordCount": 1307,
+      "matchedRestaurantCount": 97,
+      "oldestObservation": "2026-06-28T22:11:01.43209+00:00",
+      "newestObservation": "2026-07-13T16:05:04.137446+00:00"
+    },
+    {
+      "source": "google_places",
+      "recordCount": 985,
+      "matchedRestaurantCount": 984,
+      "oldestObservation": "2026-06-29T13:58:02.448168+00:00",
+      "newestObservation": "2026-06-29T14:24:17.615663+00:00"
+    },
+    {
+      "source": "resy",
+      "recordCount": 867,
+      "matchedRestaurantCount": 527,
+      "oldestObservation": "2026-06-29T09:02:44.234625+00:00",
+      "newestObservation": "2026-06-29T09:02:48.827982+00:00"
+    },
+    {
+      "source": "official_website",
+      "recordCount": 551,
+      "matchedRestaurantCount": 551,
+      "oldestObservation": "2026-07-15T19:59:20.144381+00:00",
+      "newestObservation": "2026-07-15T19:59:21.802169+00:00"
+    },
+    {
+      "source": "cdmx_invea_suspendidos",
+      "recordCount": 444,
+      "matchedRestaurantCount": 50,
+      "oldestObservation": "2026-06-29T09:06:10.924515+00:00",
+      "newestObservation": "2026-06-29T09:06:11.348166+00:00"
+    },
+    {
+      "source": "cdmx_mercados_publicos",
+      "recordCount": 327,
+      "matchedRestaurantCount": 5,
+      "oldestObservation": "2026-06-29T09:07:40.248933+00:00",
+      "newestObservation": "2026-06-29T09:07:40.48382+00:00"
+    },
+    {
+      "source": "ubereats",
+      "recordCount": 300,
+      "matchedRestaurantCount": 132,
+      "oldestObservation": "2026-07-09T19:37:00.850138+00:00",
+      "newestObservation": "2026-07-15T19:46:44.036142+00:00"
+    },
+    {
+      "source": "canirac_safetravels",
+      "recordCount": 296,
+      "matchedRestaurantCount": 53,
+      "oldestObservation": "2026-07-13T15:51:49.567327+00:00",
+      "newestObservation": "2026-07-13T15:51:50.066324+00:00"
+    },
+    {
+      "source": "rappi",
+      "recordCount": 224,
+      "matchedRestaurantCount": 223,
+      "oldestObservation": "2026-06-28T21:48:43.336893+00:00",
+      "newestObservation": "2026-06-28T21:48:43.643065+00:00"
+    },
+    {
+      "source": "opentable",
+      "recordCount": 206,
+      "matchedRestaurantCount": 98,
+      "oldestObservation": "2026-06-29T09:40:14.876003+00:00",
+      "newestObservation": "2026-06-29T09:40:15.172832+00:00"
+    },
+    {
+      "source": "michelin",
+      "recordCount": 200,
+      "matchedRestaurantCount": 75,
+      "oldestObservation": "2026-06-28T21:37:52.604131+00:00",
+      "newestObservation": "2026-07-09T19:05:47.858092+00:00"
+    },
+    {
+      "source": "official_menus",
+      "recordCount": 147,
+      "matchedRestaurantCount": 147,
+      "oldestObservation": "2026-07-15T20:05:20.22199+00:00",
+      "newestObservation": "2026-07-15T20:20:18.817259+00:00"
+    },
+    {
+      "source": "editorial",
+      "recordCount": 106,
+      "matchedRestaurantCount": 63,
+      "oldestObservation": "2026-06-29T08:34:47.478807+00:00",
+      "newestObservation": "2026-06-29T08:34:47.478807+00:00"
+    },
+    {
+      "source": "mexico_gastronomico",
+      "recordCount": 79,
+      "matchedRestaurantCount": 35,
+      "oldestObservation": "2026-07-13T19:42:50.507592+00:00",
+      "newestObservation": "2026-07-13T19:42:50.507592+00:00"
+    },
+    {
+      "source": "star_wine_list",
+      "recordCount": 37,
+      "matchedRestaurantCount": 11,
+      "oldestObservation": "2026-07-13T16:06:57.949748+00:00",
+      "newestObservation": "2026-07-13T16:06:57.949748+00:00"
+    },
+    {
+      "source": "chilango",
+      "recordCount": 29,
+      "matchedRestaurantCount": 15,
+      "oldestObservation": "2026-06-29T08:48:06.64737+00:00",
+      "newestObservation": "2026-06-29T08:48:06.64737+00:00"
+    },
+    {
+      "source": "wikidata",
+      "recordCount": 24,
+      "matchedRestaurantCount": 17,
+      "oldestObservation": "2026-07-13T15:54:41.132+00:00",
+      "newestObservation": "2026-07-13T15:54:41.132+00:00"
+    },
+    {
+      "source": "worlds50best",
+      "recordCount": 15,
+      "matchedRestaurantCount": 12,
+      "oldestObservation": "2026-06-29T14:39:41.722883+00:00",
+      "newestObservation": "2026-06-29T14:39:41.722883+00:00"
+    },
+    {
+      "source": "tesoros_mexico",
+      "recordCount": 11,
+      "matchedRestaurantCount": 5,
+      "oldestObservation": "2026-07-13T16:37:35.281359+00:00",
+      "newestObservation": "2026-07-13T16:37:35.281359+00:00"
+    },
+    {
+      "source": "happycow",
+      "recordCount": 10,
+      "matchedRestaurantCount": 1,
+      "oldestObservation": "2026-07-13T16:15:00.794485+00:00",
+      "newestObservation": "2026-07-13T16:15:00.794485+00:00"
+    },
+    {
+      "source": "laliste",
+      "recordCount": 9,
+      "matchedRestaurantCount": 6,
+      "oldestObservation": "2026-07-13T16:41:59.024388+00:00",
+      "newestObservation": "2026-07-13T16:41:59.024388+00:00"
+    }
+  ]
+}

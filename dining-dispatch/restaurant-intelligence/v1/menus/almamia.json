@@ -1,0 +1,23 @@
+{
+  "slug": "almamia",
+  "name": "AlmaMía",
+  "url": "https://www.tripadvisor.com/Restaurant_Review-g150800-d33284802-Reviews-Alma_Mia-Mexico_City_Central_Mexico_and_Gulf_Coast.html",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Tacos de ribeye",
+      "price": null,
+      "currency": "MXN",
+      "category": "menú cantina"
+    },
+    {
+      "name": "Ensalada de lluvia",
+      "price": null,
+      "currency": "MXN",
+      "category": "ensaladas",
+      "description": "Hojas de chinampa, hummus rosa, palmitos, pepitas caramelizadas, vinagreta de pera — Facebook oficial"
+    }
+  ],
+  "notes": "TripAdvisor venue copy (menú cantina: tacos de ribeye) + official Facebook dish. No full HTML carta."
+}

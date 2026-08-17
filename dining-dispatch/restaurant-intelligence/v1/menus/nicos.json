@@ -1,0 +1,58 @@
+{
+  "slug": "nicos",
+  "name": "Nicos",
+  "url": "https://www.opentable.com.mx/r/nicos-mexico",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Ceviche verde",
+      "price": 240,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Empanada estilo La Viga",
+      "price": 125,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Chile güero relleno de minilla",
+      "price": 197,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Guacamole",
+      "price": 180,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Cecina de res crujiente",
+      "category": "entradas"
+    },
+    {
+      "name": "Chile en nogada (temporada)",
+      "description": "Especialidad de temporada",
+      "category": "fuertes"
+    },
+    {
+      "name": "Filete Nicolasa",
+      "category": "fuertes"
+    },
+    {
+      "name": "Pollo en mole de la casa",
+      "category": "fuertes"
+    },
+    {
+      "name": "Camarones al tamarindo",
+      "category": "fuertes"
+    },
+    {
+      "name": "Sopa seca de natas",
+      "category": "sopas"
+    }
+  ]
+}

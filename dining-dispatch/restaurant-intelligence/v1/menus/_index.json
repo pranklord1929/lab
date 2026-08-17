@@ -1,0 +1,800 @@
+{
+  "generatedAt": "2026-08-17",
+  "catalogSize": 113,
+  "withMenu": 113,
+  "noMenuByDesign": 1,
+  "missing": 0,
+  "restaurants": [
+    {
+      "slug": "maximo",
+      "name": "Máximo Bistrot",
+      "status": "has_items",
+      "itemCount": 48,
+      "url": null
+    },
+    {
+      "slug": "em",
+      "name": "Em",
+      "status": "tasting_only",
+      "itemCount": 3,
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/em"
+    },
+    {
+      "slug": "pujol",
+      "name": "Pujol",
+      "status": "has_items",
+      "itemCount": 35,
+      "url": null
+    },
+    {
+      "slug": "meroma",
+      "name": "Meroma",
+      "status": "has_items",
+      "itemCount": 58,
+      "url": null
+    },
+    {
+      "slug": "quintonil",
+      "name": "Quintonil",
+      "status": "has_items",
+      "itemCount": 202,
+      "url": null
+    },
+    {
+      "slug": "restaurante-rosetta",
+      "name": "Rosetta",
+      "status": "has_items",
+      "itemCount": 40,
+      "url": null
+    },
+    {
+      "slug": "contramar",
+      "name": "Contramar",
+      "status": "has_items",
+      "itemCount": 37,
+      "url": null
+    },
+    {
+      "slug": "ticuchi",
+      "name": "Ticuchi",
+      "status": "has_items",
+      "itemCount": 11,
+      "url": "https://www.ticuchi.mx/"
+    },
+    {
+      "slug": "ultramarinos-demar",
+      "name": "Ultramarinos Demar",
+      "status": "has_items",
+      "itemCount": 16,
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/ultramarinos-demar"
+    },
+    {
+      "slug": "martinez",
+      "name": "Martínez",
+      "status": "has_items",
+      "itemCount": 2,
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/martinez"
+    },
+    {
+      "slug": "sartoria",
+      "name": "Sartoria",
+      "status": "has_items",
+      "itemCount": 3,
+      "url": "https://sartoria.mx/"
+    },
+    {
+      "slug": "siembra-comedor",
+      "name": "Siembra Comedor",
+      "status": "has_items",
+      "itemCount": 33,
+      "url": "https://siempresiembra.com.mx/pages/menu"
+    },
+    {
+      "slug": "la-opera",
+      "name": "La Opera",
+      "status": "has_items",
+      "itemCount": 4,
+      "url": "http://laoperabar.com/"
+    },
+    {
+      "slug": "lina",
+      "name": "Lina",
+      "status": "has_items",
+      "itemCount": 2,
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/lina"
+    },
+    {
+      "slug": "hugo",
+      "name": "Hugo",
+      "status": "has_items",
+      "itemCount": 7,
+      "url": "https://hugoelwinebar.com/"
+    },
+    {
+      "slug": "comedor-jacinta",
+      "name": "Comedor Jacinta",
+      "status": "has_items",
+      "itemCount": 1,
+      "url": null
+    },
+    {
+      "slug": "los-danzantes-coyoacan",
+      "name": "Los Danzantes Mexico City",
+      "status": "has_items",
+      "itemCount": 158,
+      "url": null
+    },
+    {
+      "slug": "restaurante-lorea",
+      "name": "Lorea",
+      "status": "has_items",
+      "itemCount": 6,
+      "url": null
+    },
+    {
+      "slug": "bella-aurora",
+      "name": "Bella Aurora",
+      "status": "has_items",
+      "itemCount": 50,
+      "url": null
+    },
+    {
+      "slug": "taqueria-el-jarocho",
+      "name": "Taquería El Jarocho",
+      "status": "has_items",
+      "itemCount": 189,
+      "url": null
+    },
+    {
+      "slug": "guzina-oaxaca",
+      "name": "Guzina Oaxaca",
+      "status": "has_items",
+      "itemCount": 57,
+      "url": "https://www.guzinaoaxaca.org/comidas-y-cenas"
+    },
+    {
+      "slug": "los-cocuyos",
+      "name": "Taqueria Los Cocuyos",
+      "status": "has_items",
+      "itemCount": 11,
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/taqueria-los-cocuyos"
+    },
+    {
+      "slug": "filigrana",
+      "name": "Filigrana",
+      "status": "has_items",
+      "itemCount": 42,
+      "url": "https://www.filigrana.com.mx/"
+    },
+    {
+      "slug": "er-rre-un-bistro",
+      "name": "Er Rre un Bistró",
+      "status": "has_items",
+      "itemCount": 3,
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/miguel-hidalgo_1999281/restaurante/er-rre-un-bistro"
+    },
+    {
+      "slug": "malix",
+      "name": "Malix",
+      "status": "has_items",
+      "itemCount": 28,
+      "url": null
+    },
+    {
+      "slug": "azul-historico-restaurante-cdmx",
+      "name": "Azul Histórico",
+      "status": "has_items",
+      "itemCount": 355,
+      "url": null
+    },
+    {
+      "slug": "fonda-fina",
+      "name": "Fonda Fina",
+      "status": "has_items",
+      "itemCount": 12,
+      "url": null
+    },
+    {
+      "slug": "bakea-restaurant",
+      "name": "Bakéa",
+      "status": "has_items",
+      "itemCount": 88,
+      "url": null
+    },
+    {
+      "slug": "perezoso",
+      "name": "PEREZOSO",
+      "status": "has_items",
+      "itemCount": 5,
+      "url": "https://lifeandstyle.expansion.mx/viajes-y-gourmet/2025/12/28/opiniones-perezoso-restaurante-cdmx"
+    },
+    {
+      "slug": "expendio-de-maiz",
+      "name": "Expendio de Maiz",
+      "status": "no_menu_by_design",
+      "itemCount": 2,
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/expendio-de-maiz"
+    },
+    {
+      "slug": "lardo",
+      "name": "Lardo",
+      "status": "has_items",
+      "itemCount": 44,
+      "url": "https://www.lardo.com.mx/menu.html"
+    },
+    {
+      "slug": "maizajo",
+      "name": "Maizajo",
+      "status": "has_items",
+      "itemCount": 16,
+      "url": "https://www.maizajo.com/"
+    },
+    {
+      "slug": "esquina-comun",
+      "name": "Esquina Común",
+      "status": "tasting_or_unpublished",
+      "itemCount": 2,
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/esquina-comun"
+    },
+    {
+      "slug": "sud-777",
+      "name": "Sud 777",
+      "status": "tasting_only",
+      "itemCount": 1,
+      "url": "https://www.sud777.com.mx/menú"
+    },
+    {
+      "slug": "pink-rambo",
+      "name": "Pink Rambo",
+      "status": "has_items",
+      "itemCount": 6,
+      "url": "https://www.theinfatuation.com/mexico-city/reviews/pink-rambo"
+    },
+    {
+      "slug": "bajel",
+      "name": "Bajel",
+      "status": "has_items",
+      "itemCount": 5,
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/bajel"
+    },
+    {
+      "slug": "fugaz",
+      "name": "Fugaz",
+      "status": "tasting_or_unpublished",
+      "itemCount": 1,
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/fugaz"
+    },
+    {
+      "slug": "sarde",
+      "name": "Sarde",
+      "status": "has_items",
+      "itemCount": 10,
+      "url": "https://www.theworlds50best.com/discovery/Establishments/Mexico/Mexico-City/Sarde.html"
+    },
+    {
+      "slug": "el-tigre-silencioso",
+      "name": "El Tigre Silencioso",
+      "status": "has_items",
+      "itemCount": 2,
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/el-tigre-silencioso"
+    },
+    {
+      "slug": "la-89",
+      "name": "La 89",
+      "status": "has_items",
+      "itemCount": 6,
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/la-89"
+    },
+    {
+      "slug": "cana",
+      "name": "Cana",
+      "status": "has_items",
+      "itemCount": 32,
+      "url": "https://www.canacdmx.com/menu"
+    },
+    {
+      "slug": "barbacoa-gonzalitos",
+      "name": "Barbacoa Gonzalitos",
+      "status": "has_items",
+      "itemCount": 4,
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/barbacoa-gonzalitos"
+    },
+    {
+      "slug": "botanico",
+      "name": "Botánico",
+      "status": "has_items",
+      "itemCount": 6,
+      "url": "local://sqlite-menu-items"
+    },
+    {
+      "slug": "vigneron",
+      "name": "Vigneron",
+      "status": "has_items",
+      "itemCount": 5,
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/vigneron"
+    },
+    {
+      "slug": "tacos-del-valle",
+      "name": "Tacos del Valle",
+      "status": "has_items",
+      "itemCount": 11,
+      "url": "https://tacosdelvalle.com/"
+    },
+    {
+      "slug": "plonk",
+      "name": "Plonk",
+      "status": "has_items",
+      "itemCount": 3,
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/plonk"
+    },
+    {
+      "slug": "ricos-tacos-toluca",
+      "name": "Ricos Tacos Toluca",
+      "status": "has_items",
+      "itemCount": 11,
+      "url": "https://guide.michelin.com/us/en/ciudad-de-mexico/cuauhtemoc_1995126/restaurant/ricos-tacos-toluca"
+    },
+    {
+      "slug": "baldio",
+      "name": "Baldio",
+      "status": "has_items",
+      "itemCount": 25,
+      "url": "https://www.baldio.mx/menu"
+    },
+    {
+      "slug": "comal-oculto",
+      "name": "Comal Oculto",
+      "status": "has_items",
+      "itemCount": 23,
+      "url": "local://sqlite-menu-items"
+    },
+    {
+      "slug": "carinito-tacos",
+      "name": "Cariñito Tacos",
+      "status": "has_items",
+      "itemCount": 2,
+      "url": "https://guide.michelin.com/us/en/ciudad-de-mexico/cuauhtemoc_1995126/restaurant/carinito-tacos"
+    },
+    {
+      "slug": "masala-y-maiz",
+      "name": "Masala y Maíz",
+      "status": "has_items",
+      "itemCount": 14,
+      "url": "https://es.wikipedia.org/wiki/Masala_y_Maíz"
+    },
+    {
+      "slug": "pargot",
+      "name": "Pargot",
+      "status": "tasting_or_unpublished",
+      "itemCount": 4,
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/pargot"
+    },
+    {
+      "slug": "gaba",
+      "name": "Gaba",
+      "status": "has_items",
+      "itemCount": 19,
+      "url": "https://gabarestaurante.com/menu/"
+    },
+    {
+      "slug": "nicos",
+      "name": "Nicos",
+      "status": "has_items",
+      "itemCount": 10,
+      "url": "https://www.opentable.com.mx/r/nicos-mexico"
+    },
+    {
+      "slug": "raiz",
+      "name": "Raíz",
+      "status": "has_items",
+      "itemCount": 24,
+      "url": "local://sqlite-menu-items"
+    },
+    {
+      "slug": "migrante",
+      "name": "Migrante",
+      "status": "has_items",
+      "itemCount": 15,
+      "url": "https://migranteroma.com/en/menu/"
+    },
+    {
+      "slug": "carmela-y-sal",
+      "name": "Carmela y Sal",
+      "status": "has_items",
+      "itemCount": 31,
+      "url": "https://www.carmelaysal.mx/"
+    },
+    {
+      "slug": "tacos-los-alexis",
+      "name": "Tacos Los Alexis",
+      "status": "has_items",
+      "itemCount": 18,
+      "url": "https://www.tacoslosalexis.com/"
+    },
+    {
+      "slug": "campobaja",
+      "name": "Campobaja",
+      "status": "has_items",
+      "itemCount": 7,
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/campobaja"
+    },
+    {
+      "slug": "merotoro",
+      "name": "MeroToro",
+      "status": "has_items",
+      "itemCount": 5,
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/merotoro"
+    },
+    {
+      "slug": "la-barra-de-fran",
+      "name": "La Barra de Fran",
+      "status": "has_items",
+      "itemCount": 47,
+      "url": "https://www.labarradefran.com/menu"
+    },
+    {
+      "slug": "galea",
+      "name": "Galea",
+      "status": "has_items",
+      "itemCount": 2,
+      "url": "https://www.galea.mx/"
+    },
+    {
+      "slug": "caracol-de-mar",
+      "name": "Caracol de Mar",
+      "status": "has_items",
+      "itemCount": 47,
+      "url": "https://caracoldemar.com.mx/menu/"
+    },
+    {
+      "slug": "almara",
+      "name": "Almara",
+      "status": "has_items",
+      "itemCount": 40,
+      "url": "local://sqlite-menu-items"
+    },
+    {
+      "slug": "taco-tasting-room",
+      "name": "Taco Tasting Room",
+      "status": "tasting_only",
+      "itemCount": 4,
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/taco-tasting-room"
+    },
+    {
+      "slug": "gia",
+      "name": "Gia",
+      "status": "has_items",
+      "itemCount": 19,
+      "url": "https://giacdmx.com/menu"
+    },
+    {
+      "slug": "la-once-mil",
+      "name": "La Once Mil",
+      "status": "has_items",
+      "itemCount": 4,
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/miguel-hidalgo_1999281/restaurante/la-once-mil"
+    },
+    {
+      "slug": "los-consentidos-del-barrio",
+      "name": "Los Consentidos del Barrio",
+      "status": "has_items",
+      "itemCount": 5,
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/benito-juarez_1994163/restaurante/los-consentidos-del-barrio"
+    },
+    {
+      "slug": "bartola",
+      "name": "Bartola",
+      "status": "has_items",
+      "itemCount": 6,
+      "url": "https://www.eater.com/venue/932486/bartola"
+    },
+    {
+      "slug": "el-califa-de-leon",
+      "name": "Taquería El Califa de León",
+      "status": "has_items",
+      "itemCount": 4,
+      "url": "https://www.instagram.com/califadeleon/"
+    },
+    {
+      "slug": "molino-el-pujol",
+      "name": "Molino El Pujol",
+      "status": "has_items",
+      "itemCount": 17,
+      "url": "https://www.ubereats.com/mx/store/molino-el-pujol/Uhc8DDiGTlKHBmetJnyIkQ"
+    },
+    {
+      "slug": "el-huequito",
+      "name": "El Huequito",
+      "status": "has_items",
+      "itemCount": 57,
+      "url": "https://www.elhuequito.mx/menu"
+    },
+    {
+      "slug": "tacos-charly",
+      "name": "Tacos Charly",
+      "status": "has_items",
+      "itemCount": 2,
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/tlalpan/restaurante/tacos-charly"
+    },
+    {
+      "slug": "taqueria-el-paisa",
+      "name": "Taqueria El Paisa",
+      "status": "has_items",
+      "itemCount": 4,
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/taqueria-el-paisa-1212979"
+    },
+    {
+      "slug": "casona-restaurante",
+      "name": "Casona Restaurante",
+      "status": "has_items",
+      "itemCount": 5,
+      "url": "https://casonaroma.com/es/experiencias-gastronomicas/"
+    },
+    {
+      "slug": "estiatorio-nostos",
+      "name": "ESTIATORIO NOSTOS",
+      "status": "has_items",
+      "itemCount": 42,
+      "url": "https://www.nostos.mx/menu-nostos"
+    },
+    {
+      "slug": "fonda-margarita",
+      "name": "Fonda Margarita",
+      "status": "has_items",
+      "itemCount": 48,
+      "url": "https://fondamargarita.com.mx/menu"
+    },
+    {
+      "slug": "mesa-b",
+      "name": "Mesa B",
+      "status": "not_a_restaurant",
+      "itemCount": 1,
+      "url": "https://elenareygadas.com/en/"
+    },
+    {
+      "slug": "el-hidalguense",
+      "name": "El Hidalguense",
+      "status": "has_items",
+      "itemCount": 8,
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g150800-d7289663-Reviews-El_Hidalguense-Mexico_City_Central_Mexico_and_Gulf_Coast.html"
+    },
+    {
+      "slug": "bichi",
+      "name": "BICHI",
+      "status": "has_items",
+      "itemCount": 8,
+      "url": "https://lideresmexicanos.com/tendencias/bichi-sabores-de-oaxaca-y-sinaloa-en-la-condesa"
+    },
+    {
+      "slug": "cantina-lupita",
+      "name": "CANTINA LUPITA",
+      "status": "has_items",
+      "itemCount": 6,
+      "url": "https://www.timeoutmexico.mx/ciudad-de-mexico/bares-y-cantinas/cantina-lupita"
+    },
+    {
+      "slug": "taqueria-la-estrella",
+      "name": "TAQUERÍA LA ESTRELLA",
+      "status": "has_items",
+      "itemCount": 7,
+      "url": "https://www.eluniversal.com.mx/menu/la-estrella-tacos-gourmet-de-asada-costillas-y-hasta-molleja/"
+    },
+    {
+      "slug": "oly",
+      "name": "Oly",
+      "status": "has_items",
+      "itemCount": 9,
+      "url": "https://www.tiktok.com/@tacotios/video/7548952120762912008"
+    },
+    {
+      "slug": "tacos-metero",
+      "name": "Tacos Metero",
+      "status": "has_items",
+      "itemCount": 6,
+      "url": "https://www.local.mx/tag/tacos/"
+    },
+    {
+      "slug": "charco",
+      "name": "Charco",
+      "status": "has_items",
+      "itemCount": 7,
+      "url": "https://www.eater.com/venue/895864/charco"
+    },
+    {
+      "slug": "berta",
+      "name": "Berta",
+      "status": "has_items",
+      "itemCount": 8,
+      "url": "https://www.instagram.com/p/DFZRHg_t7ib/"
+    },
+    {
+      "slug": "ciena",
+      "name": "Ciena",
+      "status": "has_items",
+      "itemCount": 9,
+      "url": "https://mbmarcobeteta.com/lugares/ciena/"
+    },
+    {
+      "slug": "anonimo",
+      "name": "Anónimo",
+      "status": "has_items",
+      "itemCount": 5,
+      "url": "https://www.opentable.com/r/anonimo-colectivo-ciudad-de-mexico"
+    },
+    {
+      "slug": "voraz",
+      "name": "Voraz",
+      "status": "has_items",
+      "itemCount": 24,
+      "url": "https://www.voraz.com/wp-content/uploads/2025/02/Menu-Voraz.pdf"
+    },
+    {
+      "slug": "balcon-del-zocalo",
+      "name": "BALCON DEL ZOCALO",
+      "status": "has_items",
+      "itemCount": 10,
+      "url": "https://balcondelzocalo.com/menu-de-experiencias/"
+    },
+    {
+      "slug": "quinquela",
+      "name": "QUINQUELA",
+      "status": "has_items",
+      "itemCount": 10,
+      "url": "https://www.opentable.com/r/quinquela-ciudad-de-mexico"
+    },
+    {
+      "slug": "yapan",
+      "name": "YAPAN",
+      "status": "has_items",
+      "itemCount": 7,
+      "url": "https://www.timeoutmexico.mx/ciudad-de-mexico/restaurantes/yapan"
+    },
+    {
+      "slug": "encanto-fuego-y-mar",
+      "name": "Encanto Fuego & Mar",
+      "status": "has_items",
+      "itemCount": 7,
+      "url": "https://www.opentable.com.mx/r/encanto-ciudad-de-mexico"
+    },
+    {
+      "slug": "pelota-mestiza",
+      "name": "PELOTA MESTIZA",
+      "status": "has_items",
+      "itemCount": 11,
+      "url": "https://foodandpleasure.com/restaurante-pelota-mestiza/"
+    },
+    {
+      "slug": "barra-lupe",
+      "name": "BARRA LUPE",
+      "status": "has_items",
+      "itemCount": 43,
+      "url": "https://barralupe.mx/menu/"
+    },
+    {
+      "slug": "espelta",
+      "name": "Espelta",
+      "status": "has_items",
+      "itemCount": 17,
+      "url": "https://espelta.mx/"
+    },
+    {
+      "slug": "sukai",
+      "name": "SUKAI",
+      "status": "has_items",
+      "itemCount": 4,
+      "url": "https://www.sukai.mx/"
+    },
+    {
+      "slug": "almamia",
+      "name": "ALMAMÍA",
+      "status": "has_items",
+      "itemCount": 2,
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g150800-d33284802-Reviews-Alma_Mia-Mexico_City_Central_Mexico_and_Gulf_Coast.html"
+    },
+    {
+      "slug": "plotz",
+      "name": "Plotz",
+      "status": "has_items",
+      "itemCount": 9,
+      "url": "https://dondeir.com/restaurantes/plotz-el-smokehouse-y-wine-garden-que-conquista-la-del-valle/2025/11/"
+    },
+    {
+      "slug": "la-bonvi",
+      "name": "La Bonvi",
+      "status": "has_items",
+      "itemCount": 3,
+      "url": "https://www.theinfatuation.com/mexico-city/reviews/la-bonvi"
+    },
+    {
+      "slug": "de-pescadores",
+      "name": "DE PESCADORES",
+      "status": "has_items",
+      "itemCount": 5,
+      "url": "https://www.instagram.com/reel/DSbRTn-jcpo/"
+    },
+    {
+      "slug": "abrasarme",
+      "name": "Abrasarme",
+      "status": "has_items",
+      "itemCount": 47,
+      "url": "https://img1.wsimg.com/blobby/go/354b0000-1887-416d-9879-95fe76d6cc67/abrasamar_menuver180626.pdf"
+    },
+    {
+      "slug": "efe-siete",
+      "name": "EFE SIETE",
+      "status": "has_items",
+      "itemCount": 6,
+      "url": "https://www.estilodf.tv/efe-siete-el-steakhouse-en-virreyes-que-eleva-la-carne-al-fuego-a-una-experiencia-ritual/"
+    },
+    {
+      "slug": "maleza",
+      "name": "Maleza",
+      "status": "has_items",
+      "itemCount": 35,
+      "url": "https://maleza.mx/"
+    },
+    {
+      "slug": "magazzino",
+      "name": "Magazzino",
+      "status": "has_items",
+      "itemCount": 3,
+      "url": "https://www.opentable.com/r/magazzino-ciudad-de-mexico"
+    },
+    {
+      "slug": "chevere",
+      "name": "Chevere",
+      "status": "has_items",
+      "itemCount": 5,
+      "url": "https://reservandonos.com/lugar/chevere-polanco/"
+    },
+    {
+      "slug": "chui",
+      "name": "Chuí",
+      "status": "has_items",
+      "itemCount": 25,
+      "url": "https://drive.google.com/file/d/1htZovuIAss9t8CUv8RWbvDovgGhWv50G/view"
+    },
+    {
+      "slug": "fierro",
+      "name": "Fierro",
+      "status": "has_items",
+      "itemCount": 10,
+      "url": "https://fierrocantina.com/"
+    },
+    {
+      "slug": "proprio",
+      "name": "Proprio",
+      "status": "has_items",
+      "itemCount": 7,
+      "url": "https://asofiamach.substack.com/p/con-permiso-propio-el-lugar-en-la"
+    },
+    {
+      "slug": "abyssmo",
+      "name": "Abyssmo",
+      "status": "has_items",
+      "itemCount": 5,
+      "url": "https://www.instagram.com/abyssmo.mx/"
+    },
+    {
+      "slug": "feral",
+      "name": "Feral",
+      "status": "has_items",
+      "itemCount": 3,
+      "url": "https://www.opentable.com/r/feral-ciudad-de-mexico"
+    },
+    {
+      "slug": "archiebald",
+      "name": "Archiebald",
+      "status": "has_items",
+      "itemCount": 16,
+      "url": "https://foodandwineespanol.com/gastronomia/restaurantes/archiebald-steak-home-lujo-y-sabor-en-el-corazon-de-polanco/"
+    },
+    {
+      "slug": "arrrco",
+      "name": "Arrrco",
+      "status": "has_items",
+      "itemCount": 1,
+      "url": "https://www.opentable.com.mx/r/arrco-ciudad-de-mexico"
+    }
+  ]
+}

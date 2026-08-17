@@ -1,0 +1,291 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "5aee15c7-59f0-4572-abee-c9a1a14c32fe",
+  "slug": "playitas-escandon",
+  "name": "Playitas Escandon",
+  "location": {
+    "neighborhood": "ESCANDÓN II SECCIÓN",
+    "borough": "Miguel Hidalgo",
+    "address": "C. Agrarismo 86, Escandón I Secc, Miguel Hidalgo, 11800 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4006264,
+      "longitude": -99.1727057
+    }
+  },
+  "contact": {
+    "phone": "55 9703 6839",
+    "website": "https://sites.google.com/view/playitasmxescandon/p%C3%A1gina-principal",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=7086801110433772492&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "seafood",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 12:30–6:45 p.m.",
+      "lunes: 1:00–5:40 p.m.",
+      "martes: 1:00–5:40 p.m.",
+      "miércoles: 1:00–5:40 p.m.",
+      "jueves: 1:00–5:40 p.m.",
+      "viernes: 12:30–6:45 p.m.",
+      "sábado: 12:30–6:45 p.m."
+    ],
+    "rating": 4.3,
+    "reviewCount": 634
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 1,
+    "itemCount": 10,
+    "documents": [
+      {
+        "id": "f7238614-2834-4c98-a8fe-3e19d167a064",
+        "sourceUrl": "https://sites.google.com/view/playitasmxescandon/postres-y-bebidas",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": [
+      {
+        "id": "9a88ecd7-4979-40fc-a283-2f8bdf52c530",
+        "documentId": null,
+        "name": "Coca~Cola, Cocacola sin azucar, Fanta, Sprite o Sidral",
+        "description": null,
+        "price": 45,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "22a0e8e4-6dbf-4b8d-a9d2-28a6466cb13b",
+        "documentId": null,
+        "name": "Fresquito",
+        "description": null,
+        "price": 55,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "6db39241-d6c1-4afe-a30d-b349a93a379c",
+        "documentId": null,
+        "name": "Fresquito",
+        "description": null,
+        "price": 45,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "145b4dfa-5251-4e5e-af73-f1e89a2ff1a6",
+        "documentId": null,
+        "name": "Indio, o Pacifico",
+        "description": null,
+        "price": 55,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "4b2bccd6-a9ed-4d46-afb2-d8e75a7e81e2",
+        "documentId": null,
+        "name": "Limonada/Naranjada",
+        "description": null,
+        "price": 45,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "041c1021-d876-49ca-afeb-46932eaeab00",
+        "documentId": null,
+        "name": "Postres",
+        "description": null,
+        "price": 115,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "11eae4b0-b630-4021-af47-38ddcf5a09c0",
+        "documentId": null,
+        "name": "Postres",
+        "description": null,
+        "price": 125,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "d4487563-e30f-4dc8-abc1-1417b8b06a87",
+        "documentId": null,
+        "name": "Postres y Bebidas",
+        "description": null,
+        "price": 45,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "3eb15449-d50a-4d45-acd1-f170f94aa961",
+        "documentId": null,
+        "name": "Suerito Topo Chico",
+        "description": null,
+        "price": 60,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "d2bfd8dd-e8f0-47b8-afdd-5f8abc1f03ec",
+        "documentId": null,
+        "name": "Ultra o Heineken",
+        "description": null,
+        "price": 60,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://sites.google.com/view/playitasmxescandon/postres-y-bebidas",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://sites.google.com/view/playitasmxescandon/p%C3%A1gina-principal",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:55.598+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=7086801110433772492&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:51.954+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "google_places",
+      "official_menus",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T20:05:20.22199+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:17:56.398335+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 6,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_source_summary"
+    ]
+  }
+}

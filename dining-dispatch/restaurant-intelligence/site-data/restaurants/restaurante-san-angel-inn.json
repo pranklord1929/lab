@@ -1,0 +1,437 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "b8e825c5-e874-4f29-9f96-d0dc5fc3082e",
+  "slug": "restaurante-san-angel-inn",
+  "name": "Restaurante San Ángel Inn",
+  "location": {
+    "neighborhood": "SAN ÁNGEL INN",
+    "borough": "Álvaro Obregón",
+    "address": "Diego Rivera 50, San Ángel Inn, Álvaro Obregón, 01060 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3489803,
+      "longitude": -99.1978454
+    }
+  },
+  "contact": {
+    "phone": "55 5616 1402",
+    "website": "http://www.sanangelinn.com/",
+    "instagram": "https://instagram.com/restaurantesanangelinn/",
+    "googleMapsUrl": "https://maps.google.com/?cid=781563938047007626&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "mexican",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 3
+  },
+  "experience": {
+    "sourceSummary": "Upmarket & time-honored Mexican dining in a former monastery with alfresco tables around a fountain.",
+    "hours": [
+      "domingo: 8:00 a.m. – 10:00 p.m.",
+      "lunes: 8:00 a.m. – 1:00 a.m.",
+      "martes: 8:00 a.m. – 1:00 a.m.",
+      "miércoles: 8:00 a.m. – 1:00 a.m.",
+      "jueves: 8:00 a.m. – 1:00 a.m.",
+      "viernes: 8:00 a.m. – 1:00 a.m.",
+      "sábado: 8:00 a.m. – 1:00 a.m."
+    ],
+    "rating": 4.6,
+    "reviewCount": 10758
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "local_extraction_candidate",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 11,
+    "itemCount": 8,
+    "documents": [
+      {
+        "id": "03f90d7b-ba9f-4cfe-abbd-76908bd5867c",
+        "sourceUrl": "https://sanangelinn.com/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "3066e780-b570-4b60-b1a0-d6f000847ce8",
+        "sourceUrl": "https://www.sanangelinn.com/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "653a0e6b-30cc-452f-a41c-672cde84e2bf",
+        "sourceUrl": "https://cdn.prod.website-files.com/68968747c1b7d71c16719fe4/6931e36eb04ef1914e6a506c_MENU%20CENA%20AN%CC%83O%20NUEVO%202025-2026.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.95,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "7013c87e-9a16-4d21-a18b-48797966a2cd",
+        "sourceUrl": "https://cdn.prod.website-files.com/68968747c1b7d71c1671a007/69bd838eeee231c184a5a285_Menu_Vinos_Marzo.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.98,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "78bf3431-50d1-4f9b-bc25-85238e89505a",
+        "sourceUrl": "https://cdn.prod.website-files.com/68968747c1b7d71c1671a007/6a2011684c17d0c450c6654f_Menu_Sain_Junio_2026.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.98,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "8b385600-db16-484e-b046-f04e748b5c47",
+        "sourceUrl": "https://www.sanangelinn.com/veranda",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "a81c2247-0c84-4549-8183-12ab5f6ba937",
+        "sourceUrl": "https://cdn.prod.website-files.com/68968747c1b7d71c1671a007/6a201c9fb0eb4cdfa0b3d870_MenuSAI_03_Junio_2026_ING.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.98,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "a9a7ef1d-4501-4526-87f1-c631fef8048e",
+        "sourceUrl": "https://cdn.prod.website-files.com/68968747c1b7d71c1671a007/6a1fe2f5ae02932f4c46843d_Menu_Veranda_03_Junio_2026.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.98,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "acfae822-4433-4e15-ac1b-064929cee769",
+        "sourceUrl": "https://cdn.prod.website-files.com/68968747c1b7d71c1671a007/6a42cf8f702ce7561d483394_Menu_Gastronome_30_Junio_2026.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.98,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "bf72ef90-f87f-45d4-aef2-eee8376a073a",
+        "sourceUrl": "https://www.sanangelinn.com/gastronome",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "ecb6acdc-dc8b-46a6-b5d6-f0ed723ce70e",
+        "sourceUrl": "https://www.sanangelinn.com/en/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": [
+      {
+        "id": "b095c82752a7c126c60fad690a2d3584",
+        "documentId": null,
+        "name": "Ajo Rostizado",
+        "description": null,
+        "price": 520,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "9f00f24f755a3cccb74fb315f941517d",
+        "documentId": null,
+        "name": "Chile Ancho Relleno",
+        "description": null,
+        "price": 205,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "b2e93cc36dfbded69bfa7268aaca5c07",
+        "documentId": null,
+        "name": "Garlic Butter",
+        "description": null,
+        "price": 520,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "0036cda513b7ae1f1cbccffb08587d1d",
+        "documentId": null,
+        "name": "Gazpacho Castilla Style",
+        "description": null,
+        "price": 270,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "4e29f08d8b9049fb8b6949ff5029d08f",
+        "documentId": null,
+        "name": "Gazpacho a la Castellana",
+        "description": null,
+        "price": 270,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "c516e991bc67dfc4603b723967e2d588",
+        "documentId": null,
+        "name": "Mango Manila",
+        "description": null,
+        "price": 110,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "560efc5c1450548903c67fcb338fc774",
+        "documentId": null,
+        "name": "Orden de Mango",
+        "description": null,
+        "price": 110,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "fe91d4e6f2cd1634c31ffca719ec6a73",
+        "documentId": null,
+        "name": "Tomato Sauce",
+        "description": null,
+        "price": 205,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://cdn.prod.website-files.com/68968747c1b7d71c1671a007/6a2011684c17d0c450c6654f_Menu_Sain_Junio_2026.pdf",
+      "confidence": 0.98,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://cdn.prod.website-files.com/68968747c1b7d71c1671a007/69bd838eeee231c184a5a285_Menu_Vinos_Marzo.pdf",
+      "confidence": 0.98,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://cdn.prod.website-files.com/68968747c1b7d71c1671a007/6a42cf8f702ce7561d483394_Menu_Gastronome_30_Junio_2026.pdf",
+      "confidence": 0.98,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://cdn.prod.website-files.com/68968747c1b7d71c1671a007/6a1fe2f5ae02932f4c46843d_Menu_Veranda_03_Junio_2026.pdf",
+      "confidence": 0.98,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://cdn.prod.website-files.com/68968747c1b7d71c1671a007/6a201c9fb0eb4cdfa0b3d870_MenuSAI_03_Junio_2026_ING.pdf",
+      "confidence": 0.98,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://cdn.prod.website-files.com/68968747c1b7d71c16719fe4/6931e36eb04ef1914e6a506c_MENU%20CENA%20AN%CC%83O%20NUEVO%202025-2026.pdf",
+      "confidence": 0.95,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.sanangelinn.com/veranda",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.sanangelinn.com/gastronome",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.sanangelinn.com/en/menu",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://sanangelinn.com/menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.sanangelinn.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:43.767+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=781563938047007626&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:33.792+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/restaurantesanangelinn/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 5,
+    "sourceNames": [
+      "chilango",
+      "editorial",
+      "foursquare",
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:09:33.509903+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": true,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 11,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review"
+    ]
+  }
+}

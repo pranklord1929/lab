@@ -1,0 +1,365 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "be7a74f6-e555-4e7e-ae4b-75955bddbb5d",
+  "slug": "portal-san-angel",
+  "name": "Portal San Ángel",
+  "location": {
+    "neighborhood": "LOS ALPES",
+    "borough": "Álvaro Obregón",
+    "address": "Av. Revolución 1267, Los Alpes, Álvaro Obregón, 01040 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3609634,
+      "longitude": -99.1895467
+    }
+  },
+  "contact": {
+    "phone": "55 2155 6179",
+    "website": "https://funocomercial.com/portal-san-angel/",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=12043085943847277325&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "shopping_mall",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 6:00 a.m. – 11:00 p.m.",
+      "lunes: 6:00 a.m. – 11:00 p.m.",
+      "martes: 6:00 a.m. – 11:00 p.m.",
+      "miércoles: 6:00 a.m. – 11:00 p.m.",
+      "jueves: 6:00 a.m. – 11:00 p.m.",
+      "viernes: 6:00 a.m. – 11:00 p.m.",
+      "sábado: 6:00 a.m. – 11:00 p.m."
+    ],
+    "rating": 4.5,
+    "reviewCount": 8475
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-09T18:55:22.84+00:00",
+    "observationAgeDaysAtExport": 38,
+    "documentCount": 2,
+    "itemCount": 16,
+    "documents": [
+      {
+        "id": "029c760f-a392-4c9e-a51a-934177a2805c",
+        "sourceUrl": "https://kfc.com.mx/es/menu/mega_combo_big_krunch___ke_tira_4549",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.75,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:22.84+00:00"
+      },
+      {
+        "id": "7f3a7dde-9c7f-4b86-8742-a8828ae2c3fd",
+        "sourceUrl": "https://kfc.com.mx/es/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.75,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:22.617+00:00"
+      }
+    ],
+    "items": [
+      {
+        "id": "7ca15290-cdb6-4ecf-837a-dc8d0c35be69",
+        "documentId": "029c760f-a392-4c9e-a51a-934177a2805c",
+        "name": "MEGA COMBO BIG KRUNCH + KE TIRA",
+        "description": "Deléitate con 1 Big Krunch® (Filete con aderezo Big Krunch, queso amarillo, cebolla, jitomate y lechuga), 1 Ke-Tira®, complemento individual, papas medianas y refresco de lata de 355 ml. Un combo ideal para un almuerzo completo y sabroso.",
+        "price": 157,
+        "currency": "MXN",
+        "category": "Combos",
+        "sourceUrl": "https://kfc.com.mx/es/menu/mega_combo_big_krunch___ke_tira_4549",
+        "observedAt": "2026-07-09T18:55:22.84+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "1974fed2-fb56-44be-ac17-10b361a29e61",
+        "documentId": null,
+        "name": "CLÁSICO DE 12 PIEZAS - 30% DE DESCUENTO",
+        "description": null,
+        "price": 384,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "40cbaa55-056c-4a5c-ad1d-cd6ee48a732f",
+        "documentId": null,
+        "name": "COMBO LA SECRETA ORIGINAL BURGER + KE TIRA",
+        "description": null,
+        "price": 234,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "e572c027-dacd-46e2-a49f-508165b0d80a",
+        "documentId": null,
+        "name": "COMBO LA SECRETA ORIGINAL BURGER + KE TIRA",
+        "description": null,
+        "price": 188,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "49c1a430-fdb2-4ea9-a023-72a62070b17d",
+        "documentId": null,
+        "name": "COMBO LA SECRETA SPICY BURGER + KE TIRA",
+        "description": null,
+        "price": 188,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "7265b615-0610-4339-add8-e21e856e2bf8",
+        "documentId": null,
+        "name": "COMBO LA SECRETA SPICY BURGER + KE TIRA",
+        "description": null,
+        "price": 234,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "42478beb-8832-4eac-a7d7-9ccbe532e866",
+        "documentId": null,
+        "name": "KE MIÉRCOLES KE MIÉRCOLES 6 + 3 PIEZAS",
+        "description": null,
+        "price": 229,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "846ca13a-8b9f-47e5-a0e9-93d6df1d31f0",
+        "documentId": null,
+        "name": "KE MIÉRCOLES KE MIÉRCOLES 6 + 3 PIEZAS",
+        "description": null,
+        "price": 299,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "604d96da-26d3-49dd-a76a-4eb2ca0988b9",
+        "documentId": null,
+        "name": "MEGA COMBO BBQ BACON BURGER + KE TIRA",
+        "description": null,
+        "price": 284,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "508de7c9-0dc7-4294-a7a5-6fe0e6385ce1",
+        "documentId": null,
+        "name": "MEGA COMBO CHIPOTLE BACON BURGER + KE TIRA",
+        "description": null,
+        "price": 284,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "ed792086-4e3d-42bb-adb6-2cec7cefc1d3",
+        "documentId": null,
+        "name": "MEGA COMBO KE TIRAS BURGER + KE TIRA",
+        "description": null,
+        "price": 214,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "ae843f26-9c81-4e5f-ad67-83c0f16ab4e6",
+        "documentId": null,
+        "name": "MEGA COMBO LA SECRETA ORIGINAL BURGER + PIEZA",
+        "description": null,
+        "price": 188,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "edb1d400-aed6-40de-ac53-f0d19bffdc5b",
+        "documentId": null,
+        "name": "MEGA COMBO LA SECRETA ORIGINAL BURGER + PIEZA",
+        "description": null,
+        "price": 234,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "5ee8afb1-a049-4a86-a8fd-01d44c4a6f7f",
+        "documentId": null,
+        "name": "MEGA COMBO LA SECRETA SPICY BURGER + PIEZA",
+        "description": null,
+        "price": 188,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "7028807b-813e-4663-ae8d-bce370d22b40",
+        "documentId": null,
+        "name": "MEGA COMBO LA SECRETA SPICY BURGER + PIEZA",
+        "description": null,
+        "price": 234,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "e7c7e4f4-bf2d-4f0b-a76b-a627accb0868",
+        "documentId": null,
+        "name": "PIEZAS EXTRA PAQUETES FUTBOLEROS BUCKET DE CRACKS PIEZAS",
+        "description": null,
+        "price": 559,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=12043085943847277325&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:53:03.945+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_menus"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "google_places",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T20:05:20.22199+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:23:37.768455+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 77,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_price_level",
+      "missing_source_summary",
+      "possible_non_restaurant_category"
+    ]
+  }
+}

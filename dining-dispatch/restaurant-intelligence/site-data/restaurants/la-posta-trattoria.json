@@ -1,0 +1,215 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "a920ce06-577a-4431-8e19-88f22700f862",
+  "slug": "la-posta-trattoria",
+  "name": "La Posta Trattoria",
+  "location": {
+    "neighborhood": "VILLA COYOACÁN",
+    "borough": "Coyoacán",
+    "address": "Av. Miguel Ángel de Quevedo 652, Coyoacán, 04000 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3448329,
+      "longitude": -99.1643661
+    }
+  },
+  "contact": {
+    "phone": "55 5554 0056",
+    "website": "http://www.restaurantelaposta.com.mx/",
+    "instagram": "https://instagram.com/laposta_mx/",
+    "googleMapsUrl": "https://maps.google.com/?cid=16132845708303756457&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "italian",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 1:00–10:00 p.m.",
+      "lunes: 1:00–11:00 p.m.",
+      "martes: 1:00–11:00 p.m.",
+      "miércoles: 1:00–11:00 p.m.",
+      "jueves: 1:00–11:00 p.m.",
+      "viernes: 1:00–11:00 p.m.",
+      "sábado: 1:00–11:00 p.m."
+    ],
+    "rating": 4.5,
+    "reviewCount": 2831
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-09T18:55:40.697+00:00",
+    "observationAgeDaysAtExport": 38,
+    "documentCount": 1,
+    "itemCount": 3,
+    "documents": [
+      {
+        "id": "3f546820-53d1-42d1-b61a-fdbafb4c993a",
+        "sourceUrl": "https://www.restaurantelaposta.com.mx/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.91,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:40.697+00:00"
+      }
+    ],
+    "items": [
+      {
+        "id": "7e78dc0e-bd4a-4ecc-b77f-323a88de8781",
+        "documentId": "3f546820-53d1-42d1-b61a-fdbafb4c993a",
+        "name": "Portobello al forno",
+        "description": "Portobello horneado con salsa de jitomate y gratinado con parmesano.",
+        "price": null,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "https://www.restaurantelaposta.com.mx/menu",
+        "observedAt": "2026-07-09T18:55:40.697+00:00",
+        "extractionConfidence": 0.91,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "b24d1842-b5ea-4ef9-a13b-16a0ac0637fa",
+        "documentId": null,
+        "name": "Tiramisu Elaborado con caffé SEGAFREDO y queso mascarpone",
+        "description": null,
+        "price": 179,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "4e0b770b-d39a-40e1-a63c-a32383f3ecbf",
+        "documentId": null,
+        "name": "Zero, Fanta, Squirt, Ginger Ale y Agua Quina",
+        "description": null,
+        "price": 64,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://restaurantelaposta.com.mx/menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.restaurantelaposta.com.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:42.693+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=16132845708303756457&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:43.56+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/LaPostaMX",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/laposta_mx/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "google_places",
+      "official_menus",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T20:05:20.22199+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:14:06.082915+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": true,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 120,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_source_summary"
+    ]
+  }
+}

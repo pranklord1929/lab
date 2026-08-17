@@ -1,0 +1,193 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "4f099212-5a0e-4368-949d-0b07a8f13708",
+  "slug": "ticuchi",
+  "name": "Ticuchi",
+  "location": {
+    "neighborhood": "POLANCO V SECCIÓN",
+    "borough": "Miguel Hidalgo",
+    "address": "Petrarca 254, Chapultepec Morales, Polanco V Secc, Miguel Hidalgo, 11560 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4333984,
+      "longitude": -99.1855805
+    }
+  },
+  "contact": {
+    "phone": "56 1299 7077",
+    "website": "http://ticuchi.mx/",
+    "instagram": "https://instagram.com/ticuchi.mx/",
+    "googleMapsUrl": "https://maps.google.com/?cid=916394848947072170&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "bar_and_grill",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "lun–mié 18:30–00:00",
+      "jue–sáb 15:00–01:00"
+    ],
+    "rating": 4.3,
+    "reviewCount": 1094
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null,
+    "url": "http://ticuchi.mx/",
+    "platform": "official"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.ticuchi.mx/",
+    "observedAt": "2026-08-17",
+    "itemCount": 11,
+    "items": [
+      {
+        "name": "Palomitas, sal de gusano y totomoxtle",
+        "category": "para picar"
+      },
+      {
+        "name": "Quesillo, nibs de cacao, aceite de oliva",
+        "category": "para picar"
+      },
+      {
+        "name": "Tamal de esquites",
+        "category": "antojitos"
+      },
+      {
+        "name": "Pescadilla al comal",
+        "category": "antojitos"
+      },
+      {
+        "name": "Memela, chile poblano y papitas rostizadas",
+        "category": "antojitos"
+      },
+      {
+        "name": "Tostada de ceviche de pulpo",
+        "description": "Mayonesa de chile serrano",
+        "category": "antojitos"
+      },
+      {
+        "name": "Tlayuda con encacahuatado",
+        "category": "para compartir"
+      },
+      {
+        "name": "Elotitos, vinagreta de limón, aleppo",
+        "category": "para compartir"
+      },
+      {
+        "name": "Tamal de hongos, cotija y epazote",
+        "category": "antojitos"
+      },
+      {
+        "name": "Chicharrón de arroz, chintextle",
+        "category": "antojitos"
+      },
+      {
+        "name": "Plátano macho, piloncillo, crema, queso, cacao",
+        "category": "postres"
+      }
+    ],
+    "notes": "Dishes listed by El Universal / Condé Nast from the current bar menu."
+  },
+  "links": [
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.ticuchi.mx/es",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:46.6+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=916394848947072170&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:45.291+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/ticuchi.mx/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "editorial",
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:22:16.332407+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 133,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "menu",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_price_level",
+      "missing_source_summary",
+      "missing_menu_document",
+      "missing_structured_menu_items"
+    ]
+  }
+}

@@ -1,0 +1,459 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "8022ad1d-28a3-407a-adf0-c3dbc0736cec",
+  "slug": "brassi",
+  "name": "Brassi",
+  "location": {
+    "neighborhood": "POLANCO III SECCIÓN",
+    "borough": "Miguel Hidalgo",
+    "address": "Virgilio 8, Polanco, Polanco III Secc, Miguel Hidalgo, 11560 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4303648,
+      "longitude": -99.1976812
+    }
+  },
+  "contact": {
+    "phone": "55 5281 4357",
+    "website": "http://www.brassi.com.mx/",
+    "instagram": "https://instagram.com/brassimx/",
+    "googleMapsUrl": "https://maps.google.com/?cid=7831704772876262541&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 3
+  },
+  "experience": {
+    "sourceSummary": "Upscale brasserie with checkered floors & live bands, serving breakfasts, steak frites & cocktails.",
+    "hours": [
+      "domingo: 8:00 a.m. – 2:00 a.m.",
+      "lunes: 1:00–11:00 p.m.",
+      "martes: 1:00–11:00 p.m.",
+      "miércoles: 1:00 p.m. – 2:00 a.m.",
+      "jueves: 1:00 p.m. – 2:00 a.m.",
+      "viernes: 1:00 p.m. – 2:00 a.m.",
+      "sábado: 8:00 a.m. – 2:00 a.m."
+    ],
+    "rating": 4.4,
+    "reviewCount": 2450
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-17T10:10:05.905Z",
+    "observationAgeDaysAtExport": 31,
+    "documentCount": 18,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "12f68e10-9ac3-495d-91c2-24d7cdcba406",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/608880bd5bdffb24c37232a6/1621556460577-YZGZTOY563TEW89TS5F1/ZZZ.-+Nuevo+menu%CC%81+2+BRUNCH+04-Dic-2020+INTERNET.jpg?format=2500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "37f5b4af-f808-4e8d-85e9-cc03136b1ee2",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/608880bd5bdffb24c37232a6/1621556460577-YZGZTOY563TEW89TS5F1/ZZZ.-+Nuevo+menu%CC%81+2+BRUNCH+04-Dic-2020+INTERNET.jpg?format=1000w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "5c91d467-131b-4d4e-9df4-0dd7352764d6",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/608880bd5bdffb24c37232a6/1621556441319-FGPSOSL5PRGKWQPXGI1T/ZZZ.-+Nuevo+menu%CC%81+1+BRUNCH+04-Dic-2020+INTERNET.jpg?format=500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "7064ba99-4067-4521-995a-57e74bf5ccb6",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/608880bd5bdffb24c37232a6/1621556441319-FGPSOSL5PRGKWQPXGI1T/ZZZ.-+Nuevo+menu%CC%81+1+BRUNCH+04-Dic-2020+INTERNET.jpg?format=100w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "76fcc606-522f-4f66-83e4-dcb3fa2e8614",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/608880bd5bdffb24c37232a6/1621556441319-FGPSOSL5PRGKWQPXGI1T/ZZZ.-+Nuevo+menu%CC%81+1+BRUNCH+04-Dic-2020+INTERNET.jpg?format=2500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "8b001825-d7f7-40d9-8994-d29f24336399",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/608880bd5bdffb24c37232a6/1621556460577-YZGZTOY563TEW89TS5F1/ZZZ.-+Nuevo+menu%CC%81+2+BRUNCH+04-Dic-2020+INTERNET.jpg?format=750w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "92ea6e3e-3035-4290-ae9e-b98f392af8f2",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/608880bd5bdffb24c37232a6/1621556460577-YZGZTOY563TEW89TS5F1/ZZZ.-+Nuevo+menu%CC%81+2+BRUNCH+04-Dic-2020+INTERNET.jpg?format=100w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "99eab166-1127-4f3e-ba53-9522354eb44b",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/608880bd5bdffb24c37232a6/1621556441319-FGPSOSL5PRGKWQPXGI1T/ZZZ.-+Nuevo+menu%CC%81+1+BRUNCH+04-Dic-2020+INTERNET.jpg?format=1000w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "aa64d499-f929-4b39-8a5b-1bf6d835a76b",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/608880bd5bdffb24c37232a6/1621556441319-FGPSOSL5PRGKWQPXGI1T/ZZZ.-+Nuevo+menu%CC%81+1+BRUNCH+04-Dic-2020+INTERNET.jpg?format=300w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "ab57b6a5-94d0-4c7b-bc21-64b086db48e9",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/608880bd5bdffb24c37232a6/1621556460577-YZGZTOY563TEW89TS5F1/ZZZ.-+Nuevo+menu%CC%81+2+BRUNCH+04-Dic-2020+INTERNET.jpg?format=1500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "b58ccc75-c465-42ed-aacf-3547b9971fe2",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/608880bd5bdffb24c37232a6/1621556460577-YZGZTOY563TEW89TS5F1/ZZZ.-+Nuevo+menu%CC%81+2+BRUNCH+04-Dic-2020+INTERNET.jpg?format=500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "b760838f-b656-4f65-9d31-9dd81618120f",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/608880bd5bdffb24c37232a6/1621556441319-FGPSOSL5PRGKWQPXGI1T/ZZZ.-+Nuevo+menu%CC%81+1+BRUNCH+04-Dic-2020+INTERNET.jpg?format=750w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "c3e0a937-a53f-452b-a676-36e348530360",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/608880bd5bdffb24c37232a6/1621556460577-YZGZTOY563TEW89TS5F1/ZZZ.-+Nuevo+menu%CC%81+2+BRUNCH+04-Dic-2020+INTERNET.jpg?format=300w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "d71d7d75-bc1b-40a2-b143-6ed483e9b52d",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/608880bd5bdffb24c37232a6/1621556441319-FGPSOSL5PRGKWQPXGI1T/ZZZ.-+Nuevo+menu%CC%81+1+BRUNCH+04-Dic-2020+INTERNET.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "ee76d4ab-ceaa-45e8-be99-d5def79cdf62",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/608880bd5bdffb24c37232a6/1621556460577-YZGZTOY563TEW89TS5F1/ZZZ.-+Nuevo+menu%CC%81+2+BRUNCH+04-Dic-2020+INTERNET.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "f62aee2e-f820-48cb-9426-d4ccf267164e",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/608880bd5bdffb24c37232a6/1621556441319-FGPSOSL5PRGKWQPXGI1T/ZZZ.-+Nuevo+menu%CC%81+1+BRUNCH+04-Dic-2020+INTERNET.jpg?format=1500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "42cf1abc-9213-44bd-bf67-0c5c30076747",
+        "sourceUrl": "https://www.brassi.com.mx/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "ed7bc9ee-b50a-4004-a389-a1309eb033c2",
+        "sourceUrl": "https://brassi.com.mx/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/608880bd5bdffb24c37232a6/1621556441319-FGPSOSL5PRGKWQPXGI1T/ZZZ.-+Nuevo+menu%CC%81+1+BRUNCH+04-Dic-2020+INTERNET.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/608880bd5bdffb24c37232a6/1621556441319-FGPSOSL5PRGKWQPXGI1T/ZZZ.-+Nuevo+menu%CC%81+1+BRUNCH+04-Dic-2020+INTERNET.jpg?format=100w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/608880bd5bdffb24c37232a6/1621556441319-FGPSOSL5PRGKWQPXGI1T/ZZZ.-+Nuevo+menu%CC%81+1+BRUNCH+04-Dic-2020+INTERNET.jpg?format=300w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/608880bd5bdffb24c37232a6/1621556441319-FGPSOSL5PRGKWQPXGI1T/ZZZ.-+Nuevo+menu%CC%81+1+BRUNCH+04-Dic-2020+INTERNET.jpg?format=500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/608880bd5bdffb24c37232a6/1621556441319-FGPSOSL5PRGKWQPXGI1T/ZZZ.-+Nuevo+menu%CC%81+1+BRUNCH+04-Dic-2020+INTERNET.jpg?format=750w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/608880bd5bdffb24c37232a6/1621556441319-FGPSOSL5PRGKWQPXGI1T/ZZZ.-+Nuevo+menu%CC%81+1+BRUNCH+04-Dic-2020+INTERNET.jpg?format=1000w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/608880bd5bdffb24c37232a6/1621556441319-FGPSOSL5PRGKWQPXGI1T/ZZZ.-+Nuevo+menu%CC%81+1+BRUNCH+04-Dic-2020+INTERNET.jpg?format=1500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/608880bd5bdffb24c37232a6/1621556441319-FGPSOSL5PRGKWQPXGI1T/ZZZ.-+Nuevo+menu%CC%81+1+BRUNCH+04-Dic-2020+INTERNET.jpg?format=2500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/608880bd5bdffb24c37232a6/1621556460577-YZGZTOY563TEW89TS5F1/ZZZ.-+Nuevo+menu%CC%81+2+BRUNCH+04-Dic-2020+INTERNET.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/608880bd5bdffb24c37232a6/1621556460577-YZGZTOY563TEW89TS5F1/ZZZ.-+Nuevo+menu%CC%81+2+BRUNCH+04-Dic-2020+INTERNET.jpg?format=100w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/608880bd5bdffb24c37232a6/1621556460577-YZGZTOY563TEW89TS5F1/ZZZ.-+Nuevo+menu%CC%81+2+BRUNCH+04-Dic-2020+INTERNET.jpg?format=300w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/608880bd5bdffb24c37232a6/1621556460577-YZGZTOY563TEW89TS5F1/ZZZ.-+Nuevo+menu%CC%81+2+BRUNCH+04-Dic-2020+INTERNET.jpg?format=500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/608880bd5bdffb24c37232a6/1621556460577-YZGZTOY563TEW89TS5F1/ZZZ.-+Nuevo+menu%CC%81+2+BRUNCH+04-Dic-2020+INTERNET.jpg?format=750w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/608880bd5bdffb24c37232a6/1621556460577-YZGZTOY563TEW89TS5F1/ZZZ.-+Nuevo+menu%CC%81+2+BRUNCH+04-Dic-2020+INTERNET.jpg?format=1000w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/608880bd5bdffb24c37232a6/1621556460577-YZGZTOY563TEW89TS5F1/ZZZ.-+Nuevo+menu%CC%81+2+BRUNCH+04-Dic-2020+INTERNET.jpg?format=1500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/608880bd5bdffb24c37232a6/1621556460577-YZGZTOY563TEW89TS5F1/ZZZ.-+Nuevo+menu%CC%81+2+BRUNCH+04-Dic-2020+INTERNET.jpg?format=2500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://brassi.com.mx/menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.brassi.com.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:17.765+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=7831704772876262541&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:27.811+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/BrassiPolanco",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/brassimx/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "cdmx_invea_suspendidos",
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.165171+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:06:21.917364+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 7,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_cuisine",
+      "missing_structured_menu_items"
+    ]
+  }
+}

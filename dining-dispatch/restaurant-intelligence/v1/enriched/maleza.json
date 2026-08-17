@@ -1,0 +1,284 @@
+{
+  "catalogName": "Maleza",
+  "slug": "maleza",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Maleza",
+  "location": {
+    "address": "Cuernavaca 4, Condesa — inside Hotel Casa Cuenca",
+    "neighborhood": "Condesa",
+    "borough": "Cuauhtémoc",
+    "postalCode": null,
+    "coordinates": {
+      "latitude": 19.4166107,
+      "longitude": -99.1736177
+    }
+  },
+  "contact": {
+    "phone": "+52 55 2069 9203",
+    "website": "https://maleza.mx/",
+    "instagram": "maleza.cdmx",
+    "email": null,
+    "websiteIsInstagram": false
+  },
+  "hours": [
+    "lun–mar 08:00–14:00",
+    "mié–sáb 08:00–22:30",
+    "dom 08:00–17:00"
+  ],
+  "food": {
+    "cuisine": "author / local ingredients",
+    "chef": "Christina Lecki",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "opentable / whatsapp",
+    "url": "https://www.opentable.com.mx/r/maleza-ciudad-de-mexico",
+    "phone": "+52 55 2069 9203"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://maleza.mx/",
+    "observedAt": "2026-08-17",
+    "itemCount": 35,
+    "items": [
+      {
+        "name": "Selección de pan dulce",
+        "price": 70,
+        "currency": "MXN",
+        "category": "desayunos"
+      },
+      {
+        "name": "Pan tostado de masa madre con mermelada y mantequilla",
+        "price": 110,
+        "currency": "MXN",
+        "category": "desayunos"
+      },
+      {
+        "name": "Yogurt orgánico, miel de abeja y almendras",
+        "price": 90,
+        "currency": "MXN",
+        "category": "desayunos"
+      },
+      {
+        "name": "Avena con linaza, coco, panela, maracuyá",
+        "price": 150,
+        "currency": "MXN",
+        "category": "desayunos"
+      },
+      {
+        "name": "Fruta de temporada orgánica",
+        "price": 140,
+        "currency": "MXN",
+        "category": "desayunos"
+      },
+      {
+        "name": "Tosta de aguacate, rábano, hierbas frescas",
+        "price": 170,
+        "currency": "MXN",
+        "category": "desayunos"
+      },
+      {
+        "name": "Caldo de hueso, quelites, jengibre, cúrcuma",
+        "price": 150,
+        "currency": "MXN",
+        "category": "desayunos"
+      },
+      {
+        "name": "Tostada de huitlacoche, tomate verde, huevo, queso cotija",
+        "price": 150,
+        "currency": "MXN",
+        "category": "desayunos"
+      },
+      {
+        "name": "Tortita de papa con huevo, tocino y codzito",
+        "price": 250,
+        "currency": "MXN",
+        "category": "desayunos"
+      },
+      {
+        "name": "Enchiladas de pipián",
+        "price": 190,
+        "currency": "MXN",
+        "category": "desayunos"
+      },
+      {
+        "name": "Frittata de cecina de Morelos, papa, romeritos y verdolagas",
+        "price": 220,
+        "currency": "MXN",
+        "category": "desayunos"
+      },
+      {
+        "name": "Sandwich de tocino, jitomate, aguacate, lechuga",
+        "price": 250,
+        "currency": "MXN",
+        "category": "desayunos"
+      },
+      {
+        "name": "Huevos con hongos, queso de oveja, mix de hierbas",
+        "price": 225,
+        "currency": "MXN",
+        "category": "desayunos"
+      },
+      {
+        "name": "Huevos al horno con salsa verde y roja, queso Ocosingo",
+        "price": 250,
+        "currency": "MXN",
+        "category": "desayunos"
+      },
+      {
+        "name": "Pan francés, frutas de temporada, maple",
+        "price": 225,
+        "currency": "MXN",
+        "category": "desayunos"
+      },
+      {
+        "name": "Papas crujientes con crema agria y polvo de cebolla",
+        "price": 225,
+        "currency": "MXN",
+        "category": "desayunos"
+      },
+      {
+        "name": "Pan de masa madre con mantequilla de nopal",
+        "price": 120,
+        "currency": "MXN",
+        "category": "botanas"
+      },
+      {
+        "name": "Aceitunas, concassé, romero",
+        "price": 130,
+        "currency": "MXN",
+        "category": "botanas"
+      },
+      {
+        "name": "Queso camembert y de montaña, tostada de ajonjolí",
+        "price": 130,
+        "currency": "MXN",
+        "category": "botanas"
+      },
+      {
+        "name": "Taco de setas y encacahuatado, nabo fermentado",
+        "price": 120,
+        "currency": "MXN",
+        "category": "botanas"
+      },
+      {
+        "name": "Esquites, chochoyotas, queso de oveja, mayonesa cítrica",
+        "price": 150,
+        "currency": "MXN",
+        "category": "botanas"
+      },
+      {
+        "name": "Uvas al carbón, tomillo-limón, avellanas",
+        "price": 180,
+        "currency": "MXN",
+        "category": "botanas"
+      },
+      {
+        "name": "Croquetas de conejo, puré de zanahoria, limón",
+        "price": 190,
+        "currency": "MXN",
+        "category": "botanas"
+      },
+      {
+        "name": "Ensalada de lechugas, aguacate, jícama, pepino",
+        "price": 190,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Papas crujientes con grasa wagyu",
+        "price": 220,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Hummus de habas y acelgas",
+        "price": 210,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Ceviche del día, vinagreta de tepache, mezcal",
+        "price": 210,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Gaznate salado, ricotta y montaña, muhammara",
+        "price": 230,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Crepa de garbanzo, coliflor, yogurt, guayaba",
+        "price": 220,
+        "currency": "MXN",
+        "category": "fuertes"
+      },
+      {
+        "name": "Tagliatelle con crema de quelites",
+        "price": 230,
+        "currency": "MXN",
+        "category": "fuertes"
+      },
+      {
+        "name": "Hamburguesa wagyu cross, queso montaña, hongos",
+        "price": 285,
+        "currency": "MXN",
+        "category": "fuertes"
+      },
+      {
+        "name": "Pollo orgánico asado, col rizada, tocino",
+        "price": 470,
+        "currency": "MXN",
+        "category": "fuertes"
+      },
+      {
+        "name": "Chamorro para dos, manchamanteles, puré de plátano",
+        "price": 640,
+        "currency": "MXN",
+        "category": "fuertes"
+      },
+      {
+        "name": "Pesca del día al carbón, escabeche de hierbabuena",
+        "price": 570,
+        "currency": "MXN",
+        "category": "fuertes"
+      },
+      {
+        "name": "Estofado de cachete de res wagyu",
+        "price": 650,
+        "currency": "MXN",
+        "category": "fuertes"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/maleza.cdmx/",
+      "fields": [
+        "hours",
+        "address"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://maleza.mx/",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": [],
+  "gaps": []
+}

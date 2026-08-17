@@ -1,0 +1,47 @@
+{
+  "slug": "pink-rambo",
+  "name": "Pink Rambo",
+  "url": "https://www.theinfatuation.com/mexico-city/reviews/pink-rambo",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Langoustine dumplings in broth",
+      "price": null,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Empanadas de queso con cebolla caramelizada",
+      "price": null,
+      "currency": "MXN",
+      "category": "entradas",
+      "description": "Con salsa de ajo picante"
+    },
+    {
+      "name": "Lamb tartare",
+      "price": null,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Trout confit",
+      "price": null,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Pollo frito",
+      "price": null,
+      "currency": "MXN",
+      "category": "fuertes"
+    },
+    {
+      "name": "Flan",
+      "price": null,
+      "currency": "MXN",
+      "category": "postres"
+    }
+  ],
+  "notes": "The Infatuation + Eater + Rico.guide named dishes. OpenTable has no published food menu."
+}

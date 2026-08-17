@@ -1,0 +1,54 @@
+{
+  "slug": "ticuchi",
+  "name": "Ticuchi",
+  "url": "https://www.ticuchi.mx/",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Palomitas, sal de gusano y totomoxtle",
+      "category": "para picar"
+    },
+    {
+      "name": "Quesillo, nibs de cacao, aceite de oliva",
+      "category": "para picar"
+    },
+    {
+      "name": "Tamal de esquites",
+      "category": "antojitos"
+    },
+    {
+      "name": "Pescadilla al comal",
+      "category": "antojitos"
+    },
+    {
+      "name": "Memela, chile poblano y papitas rostizadas",
+      "category": "antojitos"
+    },
+    {
+      "name": "Tostada de ceviche de pulpo",
+      "description": "Mayonesa de chile serrano",
+      "category": "antojitos"
+    },
+    {
+      "name": "Tlayuda con encacahuatado",
+      "category": "para compartir"
+    },
+    {
+      "name": "Elotitos, vinagreta de limón, aleppo",
+      "category": "para compartir"
+    },
+    {
+      "name": "Tamal de hongos, cotija y epazote",
+      "category": "antojitos"
+    },
+    {
+      "name": "Chicharrón de arroz, chintextle",
+      "category": "antojitos"
+    },
+    {
+      "name": "Plátano macho, piloncillo, crema, queso, cacao",
+      "category": "postres"
+    }
+  ]
+}

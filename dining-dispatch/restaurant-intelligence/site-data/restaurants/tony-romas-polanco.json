@@ -1,0 +1,500 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "6667e82f-63fc-468f-948e-c1a94f73ea03",
+  "slug": "tony-romas-polanco",
+  "name": "Tony Roma's • Polanco",
+  "location": {
+    "neighborhood": "POLANCO V SECCIÓN",
+    "borough": "Miguel Hidalgo",
+    "address": "Miguel Hidalgo C.P, Av. Pdte. Masaryk 52-D.F, Polanco, Polanco V Secc, Miguel Hidalgo, 11550 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4312389,
+      "longitude": -99.1832604
+    }
+  },
+  "contact": {
+    "phone": "55 5250 2522",
+    "website": "https://www.tonyromas.com/locations/tony-romas-polanco",
+    "instagram": "https://instagram.com/tonyromasmexico/",
+    "googleMapsUrl": "https://maps.google.com/?cid=8318402506967685912&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "american",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": "Long-running, family-friendly steakhouse chain known for its ribs, onion loaf & Romarita drinks.",
+    "hours": [
+      "domingo: 12:00 a.m. – 12:00 p.m., 1:00–10:00 p.m.",
+      "lunes: 1:00–11:00 p.m.",
+      "martes: 1:00–11:00 p.m.",
+      "miércoles: 1:00–11:00 p.m.",
+      "jueves: 1:00 p.m. – 12:00 a.m.",
+      "viernes: 12:00 a.m. – 12:00 p.m., 1:00 p.m. – 12:00 a.m.",
+      "sábado: 12:00 a.m. – 12:00 p.m., 1:00 p.m. – 12:00 a.m."
+    ],
+    "rating": 4.5,
+    "reviewCount": 3311
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-09T18:55:36.586+00:00",
+    "observationAgeDaysAtExport": 38,
+    "documentCount": 1,
+    "itemCount": 25,
+    "documents": [
+      {
+        "id": "39fcef79-db1c-44d4-bfd0-0a510f0c43ed",
+        "sourceUrl": "https://www.tonyromas.com/menu/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.75,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:36.586+00:00"
+      }
+    ],
+    "items": [
+      {
+        "id": "17b08b82-28e8-4f87-ba0f-8ed7b48c9c46",
+        "documentId": "39fcef79-db1c-44d4-bfd0-0a510f0c43ed",
+        "name": "Memphis Burger",
+        "description": "Pure-beef burger loaded with cheddar, red onion, pickles, topped with shredded beef rib and black pepper sauce.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Burgers & Sandwiches",
+        "sourceUrl": "https://www.tonyromas.com/menu/",
+        "observedAt": "2026-07-09T18:55:36.586+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "3d633f56-ac28-4c23-a90c-4bc5ebc9bcb3",
+        "documentId": "39fcef79-db1c-44d4-bfd0-0a510f0c43ed",
+        "name": "Nashville Chicken Sandwich",
+        "description": "Crispy chicken breast, Nashville hot sauce, lettuce, tomato, red onion, pickle slices, coleslaw, fries.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Burgers & Sandwiches",
+        "sourceUrl": "https://www.tonyromas.com/menu/",
+        "observedAt": "2026-07-09T18:55:36.586+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "9c3d6afd-ca13-4a42-9504-8cc013d3a205",
+        "documentId": "39fcef79-db1c-44d4-bfd0-0a510f0c43ed",
+        "name": "The Original North Miami Burger",
+        "description": "Chef David’s original recipe using an 8oz. ground short rib, brisket, chuck & pork patty, American cheese, caramelized onions, bacon aioli, dill pickles, tomato, lettuce, fries.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Burgers & Sandwiches",
+        "sourceUrl": "https://www.tonyromas.com/menu/",
+        "observedAt": "2026-07-09T18:55:36.586+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "0aa9a3bb-799a-422b-9e95-39917ebb1cd1",
+        "documentId": "39fcef79-db1c-44d4-bfd0-0a510f0c43ed",
+        "name": "BBQ 1/2 Chicken",
+        "description": "A juicy half chicken basted in TR’s Original™ BBQ sauce and charbroiled. Served with French fries and coleslaw.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Chicken",
+        "sourceUrl": "https://www.tonyromas.com/menu/",
+        "observedAt": "2026-07-09T18:55:36.586+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "e040972d-2f14-4151-b15e-1b9091c1982b",
+        "documentId": "39fcef79-db1c-44d4-bfd0-0a510f0c43ed",
+        "name": "Chicken Alfredo Florentine",
+        "description": "Grilled all-natural chicken breast sun-dried tomatoes and spinach. Tossed in a lemon Alfredo sauce over linguine. Topped with Asiago cheese and parsley.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Chicken",
+        "sourceUrl": "https://www.tonyromas.com/menu/",
+        "observedAt": "2026-07-09T18:55:36.586+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "ecc68c3f-2166-44b0-94ba-02f2aa47024b",
+        "documentId": "39fcef79-db1c-44d4-bfd0-0a510f0c43ed",
+        "name": "Chicken Spinach Stack",
+        "description": "All-natural chicken breasts straight from the open grill. Covered with a blend of four cheeses, artichoke hearts and creamy spinach.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Chicken",
+        "sourceUrl": "https://www.tonyromas.com/menu/",
+        "observedAt": "2026-07-09T18:55:36.586+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "11838a76-1ada-4d13-8699-d8fcea615732",
+        "documentId": "39fcef79-db1c-44d4-bfd0-0a510f0c43ed",
+        "name": "Crispy Brownie Sundae",
+        "description": "Bites of crispy brownie layered with vanilla, chocolate and butterscotch ripple ice cream. Topped with caramel, chocolate syrup, strawberries and whipped cream.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Desserts",
+        "sourceUrl": "https://www.tonyromas.com/menu/",
+        "observedAt": "2026-07-09T18:55:36.586+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "1d7dfd6e-e957-4668-80d5-97714c9a03a2",
+        "documentId": "39fcef79-db1c-44d4-bfd0-0a510f0c43ed",
+        "name": "New York-Style Cheesecake",
+        "description": "A rich, creamy slice of heaven drizzled with strawberry syrup.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Desserts",
+        "sourceUrl": "https://www.tonyromas.com/menu/",
+        "observedAt": "2026-07-09T18:55:36.586+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "195d43c1-8b74-4df2-937d-f67513802504",
+        "documentId": "39fcef79-db1c-44d4-bfd0-0a510f0c43ed",
+        "name": "Seasonal Cobbler",
+        "description": "Warm seasonal fruit topped with a crispy brown sugar and butter crumble. Served with vanilla ice cream.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Desserts",
+        "sourceUrl": "https://www.tonyromas.com/menu/",
+        "observedAt": "2026-07-09T18:55:36.586+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "8a7ee2e5-b5d8-4d3d-82b7-3ebc59f3c5b4",
+        "documentId": "39fcef79-db1c-44d4-bfd0-0a510f0c43ed",
+        "name": "St. Louis Ribs",
+        "description": "A larger, meatier cut of pork rib with more natural marbling. Finished with TR’s Original™ BBQ sauce or your choice of sauce.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Ribs",
+        "sourceUrl": "https://www.tonyromas.com/menu/",
+        "observedAt": "2026-07-09T18:55:36.586+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "27891e03-3eed-43fd-ac33-21e0ef603f27",
+        "documentId": "39fcef79-db1c-44d4-bfd0-0a510f0c43ed",
+        "name": "Tony’s BBQ Trio Sampler",
+        "description": "Build your perfect trio, starting with a half pound of our world-famous Baby Back Ribs with Original™ BBQ sauce. Then choose one chicken dish and one pork dish for a meal full of flavor. Served with corn on the cob, coleslaw and fries.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Ribs",
+        "sourceUrl": "https://www.tonyromas.com/menu/",
+        "observedAt": "2026-07-09T18:55:36.586+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "f2fbd67c-e4d8-4b4a-8dda-a02754632591",
+        "documentId": "39fcef79-db1c-44d4-bfd0-0a510f0c43ed",
+        "name": "World-Famous Baby Back Ribs",
+        "description": "Tender, lean pork loin meat basted with TR’s Original™ BBQ sauce or your choice of one of our other delicious sauces.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Ribs",
+        "sourceUrl": "https://www.tonyromas.com/menu/",
+        "observedAt": "2026-07-09T18:55:36.586+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "baac0f3c-0c6d-48d2-869c-8305a8f0909b",
+        "documentId": "39fcef79-db1c-44d4-bfd0-0a510f0c43ed",
+        "name": "Grilled Salmon 8oz.",
+        "description": "Griled salmon brushed with a savory garlic butter.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Seafood",
+        "sourceUrl": "https://www.tonyromas.com/menu/",
+        "observedAt": "2026-07-09T18:55:36.586+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "6a62c4d3-09a4-49e8-8ed3-82c74393d874",
+        "documentId": "39fcef79-db1c-44d4-bfd0-0a510f0c43ed",
+        "name": "Shrimp & Salmon Piccata",
+        "description": "Grilled salmon, topped with shrimp in a lemon caper wine sauce.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Seafood",
+        "sourceUrl": "https://www.tonyromas.com/menu/",
+        "observedAt": "2026-07-09T18:55:36.586+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "2e6e79e5-45c3-4c5e-a0c9-51c9ae2a8688",
+        "documentId": "39fcef79-db1c-44d4-bfd0-0a510f0c43ed",
+        "name": "Shrimp Scampi Pasta",
+        "description": "Chipotle garlic sauce, tomatoes, linguine, Asiago cheese, basil.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Seafood",
+        "sourceUrl": "https://www.tonyromas.com/menu/",
+        "observedAt": "2026-07-09T18:55:36.586+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "b4a9721c-650c-4363-8e00-e4d79face11a",
+        "documentId": "39fcef79-db1c-44d4-bfd0-0a510f0c43ed",
+        "name": "Chicken Caesar Salad",
+        "description": "Griled chicken, romaine lettuce, Caesar dressing, Asiago cheese, croutons.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Soups & Salads",
+        "sourceUrl": "https://www.tonyromas.com/menu/",
+        "observedAt": "2026-07-09T18:55:36.586+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "627ec925-7443-4491-afcc-45861efbf435",
+        "documentId": "39fcef79-db1c-44d4-bfd0-0a510f0c43ed",
+        "name": "Classic Potato Soup",
+        "description": "Cheddar cheese, bacon, and chives.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Soups & Salads",
+        "sourceUrl": "https://www.tonyromas.com/menu/",
+        "observedAt": "2026-07-09T18:55:36.586+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "093953d1-aabf-48be-8aa7-93744e69e32c",
+        "documentId": "39fcef79-db1c-44d4-bfd0-0a510f0c43ed",
+        "name": "Tony’s Asian Salad",
+        "description": "Griled chicken, fresh chopped Asian greens, diced red peppers, sweet Thai chili sauce, cilantro, fried wonton noodles and sesame seeds. Served with our Pan-Asian dressing.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Soups & Salads",
+        "sourceUrl": "https://www.tonyromas.com/menu/",
+        "observedAt": "2026-07-09T18:55:36.586+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "a265d5c1-2bc8-48d4-9e91-05e793914d9b",
+        "documentId": "39fcef79-db1c-44d4-bfd0-0a510f0c43ed",
+        "name": "Kickin’ Shrimp",
+        "description": "Fried shrimp, spicy cream sauce.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Starters",
+        "sourceUrl": "https://www.tonyromas.com/menu/",
+        "observedAt": "2026-07-09T18:55:36.586+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "b56080cc-4292-498a-8066-3b8ac12d7301",
+        "documentId": "39fcef79-db1c-44d4-bfd0-0a510f0c43ed",
+        "name": "Tony’s Rings & Things Sampler",
+        "description": "Combine our World-Famous Onion Loaf with your choice of two appetizers.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Starters",
+        "sourceUrl": "https://www.tonyromas.com/menu/",
+        "observedAt": "2026-07-09T18:55:36.586+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "7effae4e-86f6-4233-a1ec-7ec8914c239f",
+        "documentId": "39fcef79-db1c-44d4-bfd0-0a510f0c43ed",
+        "name": "World-Famous Onion Loaf",
+        "description": "Spanish onions, breaded, deep fried, TR's Original BBQ sauce.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Starters",
+        "sourceUrl": "https://www.tonyromas.com/menu/",
+        "observedAt": "2026-07-09T18:55:36.586+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "b8f4d765-ebe7-4b0c-bb2c-494c1a47e412",
+        "documentId": "39fcef79-db1c-44d4-bfd0-0a510f0c43ed",
+        "name": "Filet Medaillons",
+        "description": "Three all-natural filet medallions with your choice of up ot three gourmet toppings. Served with loaded mashed potatoes.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Steaks",
+        "sourceUrl": "https://www.tonyromas.com/menu/",
+        "observedAt": "2026-07-09T18:55:36.586+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "5ccd8b49-2083-4560-a1ca-5a31749e3cf3",
+        "documentId": "39fcef79-db1c-44d4-bfd0-0a510f0c43ed",
+        "name": "Filet Medallions & Rib Combo",
+        "description": "Two filet medallions, Cabernet demi-glace, half rack of Baby Back ribs, loaded mashed potatoes, broccoli.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Steaks",
+        "sourceUrl": "https://www.tonyromas.com/menu/",
+        "observedAt": "2026-07-09T18:55:36.586+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "52d50e90-d52c-4d3d-8265-955487e02c94",
+        "documentId": "39fcef79-db1c-44d4-bfd0-0a510f0c43ed",
+        "name": "Sirloin Steak 9oz.",
+        "description": "Grilled, bacon chive butter, mashed potatoes, grilled asparagus.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Steaks",
+        "sourceUrl": "https://www.tonyromas.com/menu/",
+        "observedAt": "2026-07-09T18:55:36.586+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "0cd31dae-4fe7-4cf6-8e0d-a4a074c4e4e6",
+        "documentId": "39fcef79-db1c-44d4-bfd0-0a510f0c43ed",
+        "name": "Sizzling Ribeye 12oz.",
+        "description": "Grilled, caramelized onions, portobello mushrooms, baked potato, grilled asparagus.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Steaks",
+        "sourceUrl": "https://www.tonyromas.com/menu/",
+        "observedAt": "2026-07-09T18:55:36.586+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://tonyromas.com/menu/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.tonyromas.com/locations/tony-romas-polanco/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:48:59.076+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=8318402506967685912&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:17.506+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/TonyRomasOfficial/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/tonyromasmexico/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.802169+00:00",
+    "canonicalUpdatedAt": "2026-06-29T13:59:39.147064+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 113,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review"
+    ]
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "6ba6ca77-4e60-4877-9b87-2d49eb60db27",
+  "slug": "subway",
+  "name": "Subway",
+  "location": {
+    "neighborhood": "SAN PEDRO MÁRTIR",
+    "borough": "Tlalpan",
+    "address": "Pemex Gas/c-store, México-cuernavaca 4367 Col, San Pedro Mártir, Tlalpan, 14650 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.2683797,
+      "longitude": -99.164361
+    }
+  },
+  "contact": {
+    "phone": "55 1550 4435",
+    "website": "https://restaurantes.subway.com/subway-san-pedro-martir-ciudad-de-mexico-58280",
+    "instagram": "https://instagram.com/subwaymexico/",
+    "googleMapsUrl": "https://maps.google.com/?cid=8288267398620655314&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "fast_food",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": "Casual counter-serve chain for build-your-own sandwiches & salads, with health-conscious options.",
+    "hours": [
+      "domingo: 9:00 a.m. – 10:00 p.m.",
+      "lunes: 9:00 a.m. – 10:00 p.m.",
+      "martes: 9:00 a.m. – 10:00 p.m.",
+      "miércoles: 9:00 a.m. – 10:00 p.m.",
+      "jueves: 9:00 a.m. – 10:00 p.m.",
+      "viernes: 9:00 a.m. – 10:00 p.m.",
+      "sábado: 9:00 a.m. – 10:00 p.m."
+    ],
+    "rating": 3.6,
+    "reviewCount": 74
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 1,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "bb16bcbf-3651-450b-a823-f984934d854b",
+        "sourceUrl": "https://restaurantes.subway.com/subway-san-pedro-martir-ciudad-de-mexico-58280",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://restaurantes.subway.com/subway-san-pedro-martir-ciudad-de-mexico-58280",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:52:12.433+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=8288267398620655314&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:53:05.906+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/SubwayMexico/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/subwaymexico/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "foursquare",
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.802169+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:23:28.896371+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 7,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_structured_menu_items"
+    ]
+  }
+}

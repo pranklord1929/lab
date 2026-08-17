@@ -1,0 +1,407 @@
+{
+  "schemaVersion": "tdd.catalog.needs-scrape.v0.1",
+  "note": "CSV names with no safe web fiche. Do not guess a page for these.",
+  "inArchiveNoFiche": [
+    {
+      "name": "Expendio de Maiz",
+      "stage": "In progress",
+      "why": "Present in SQLite (Roma Norte) but not in the 876 web fiches."
+    },
+    {
+      "name": "Lardo",
+      "stage": "In progress",
+      "why": "Present in SQLite (Condesa) but not in the 876 web fiches."
+    },
+    {
+      "name": "Maizajo",
+      "stage": "In progress",
+      "why": "Present in SQLite (Condesa, rating 4.06) but not in the 876 web fiches."
+    },
+    {
+      "name": "Esquina Común",
+      "stage": "In progress",
+      "why": "Present in SQLite (rating 4.9, 6 sources) but not in the 876 web fiches."
+    },
+    {
+      "name": "Sud 777",
+      "stage": "In progress",
+      "why": "Present in SQLite (Jardines del Pedregal, rating 4.3, 6 sources) but not in the 876 web fiches."
+    },
+    {
+      "name": "Pink Rambo",
+      "stage": "In progress",
+      "why": "Name exists in SQLite (Cuauhtémoc) but no enriched fiche."
+    },
+    {
+      "name": "Bajel",
+      "stage": "In progress",
+      "why": "Name exists in SQLite (Cuauhtémoc, 3 sources) but no enriched fiche."
+    },
+    {
+      "name": "Fugaz",
+      "stage": "In progress",
+      "why": "Name exists in SQLite (Cuauhtémoc) but no enriched fiche."
+    },
+    {
+      "name": "Sarde",
+      "stage": "In progress",
+      "why": "Two Roma Norte rows in SQLite. Need the correct address before a fiche."
+    },
+    {
+      "name": "El Tigre Silencioso",
+      "stage": "In progress",
+      "why": "Present in SQLite (Roma Norte, rating 4.6) but not in the 876 web fiches."
+    },
+    {
+      "name": "La 89",
+      "stage": "In progress",
+      "why": "Name exists in SQLite but no enriched fiche."
+    },
+    {
+      "name": "Cana",
+      "stage": "In progress",
+      "why": "Name exists in SQLite (Cuauhtémoc) but no enriched fiche."
+    },
+    {
+      "name": "Barbacoa Gonzalitos",
+      "stage": "In progress",
+      "why": "Name exists in SQLite but no enriched fiche."
+    },
+    {
+      "name": "Botánico",
+      "csvRaw": "https://www.instagram.com/botanicomx/",
+      "stage": "In progress",
+      "why": "Present in SQLite (Hipódromo, rating 4.7) but not in the 876 web fiches."
+    },
+    {
+      "name": "Vigneron",
+      "stage": "In progress",
+      "why": "Present in SQLite (Roma Norte) but no enriched fiche."
+    },
+    {
+      "name": "Tacos del Valle",
+      "stage": "In progress",
+      "why": "Name exists in SQLite but no enriched fiche."
+    },
+    {
+      "name": "Plonk",
+      "stage": "In progress",
+      "why": "Present in SQLite (rating 4.7, 4 sources) but not in the 876 web fiches."
+    },
+    {
+      "name": "Ricos Tacos Toluca",
+      "stage": "Done",
+      "why": "Name exists in SQLite (Centro / Cuauhtémoc) but no enriched fiche."
+    },
+    {
+      "name": "Baldio",
+      "stage": "Done",
+      "why": "Present in SQLite (Condesa, rating 4.8, 4 sources) but not in the 876 web fiches."
+    },
+    {
+      "name": "Comal Oculto",
+      "stage": "In progress",
+      "why": "Present in SQLite (San Miguel Chapultepec) but no enriched fiche."
+    },
+    {
+      "name": "Cariñito Tacos",
+      "stage": "In progress",
+      "why": "Name exists in SQLite but no enriched fiche."
+    },
+    {
+      "name": "Masala y Maíz",
+      "stage": "In progress",
+      "why": "Present in SQLite (5 sources) but not in the 876 web fiches."
+    },
+    {
+      "name": "Pargot",
+      "stage": "Done",
+      "why": "Present in SQLite (Roma Norte, rating 4.8) but not in the 876 web fiches."
+    },
+    {
+      "name": "Gaba",
+      "stage": "In progress",
+      "why": "Present in SQLite (rating 4.9, 5 sources) but not in the 876 web fiches."
+    },
+    {
+      "name": "Nicos",
+      "stage": "In progress",
+      "why": "Present in SQLite (Azcapotzalco, 3 sources) but not in the 876 web fiches."
+    },
+    {
+      "name": "Raíz",
+      "stage": "In progress",
+      "why": "Two Polanco/Miguel Hidalgo rows. Need the correct address before a fiche."
+    },
+    {
+      "name": "Migrante",
+      "stage": "In progress",
+      "why": "Present in SQLite (rating 4.4) but no enriched fiche."
+    },
+    {
+      "name": "Carmela y Sal",
+      "stage": "Not started",
+      "why": "Present in SQLite (Molino del Rey) but no enriched fiche."
+    },
+    {
+      "name": "Tacos Los Alexis",
+      "stage": "Not started",
+      "why": "Present in SQLite (Roma Norte / Juárez) but no enriched fiche."
+    },
+    {
+      "name": "Campobaja",
+      "stage": "Not started",
+      "why": "Present in SQLite (rating 4.6) but not in the 876 web fiches."
+    },
+    {
+      "name": "MeroToro",
+      "stage": "Not started",
+      "why": "Present in SQLite (Hipódromo, rating 4.9) but not in the 876 web fiches."
+    },
+    {
+      "name": "La Barra de Fran",
+      "stage": "Not started",
+      "why": "Present in SQLite (Polanco, rating 4.0) but no enriched fiche."
+    },
+    {
+      "name": "Galea",
+      "stage": "Not started",
+      "why": "Present in SQLite (Roma Norte, rating 5.0) but no enriched fiche."
+    },
+    {
+      "name": "Caracol de Mar",
+      "stage": "Not started",
+      "why": "Present in SQLite (rating 4.7) but no enriched fiche."
+    },
+    {
+      "name": "Almara",
+      "stage": "Not started",
+      "why": "DENUE row in Roma Norte only. Thin, needs scrape."
+    },
+    {
+      "name": "Taco Tasting Room",
+      "stage": "Not started",
+      "why": "Present in SQLite (rating 4.8, 4 sources) but no enriched fiche."
+    },
+    {
+      "name": "Gia",
+      "stage": "Not started",
+      "why": "Name exists in SQLite (Hipódromo) but no enriched fiche."
+    },
+    {
+      "name": "La Once Mil",
+      "stage": "Not started",
+      "why": "Present in SQLite (Lomas de Chapultepec, rating 5.0) but no enriched fiche."
+    },
+    {
+      "name": "Los Consentidos del Barrio",
+      "stage": "In progress",
+      "why": "Name exists in SQLite (Tlacoquemecatl) but no enriched fiche."
+    },
+    {
+      "name": "Bartola",
+      "stage": "Not started",
+      "why": "Closest SQLite row is La Bartola (Polanco). Confirm before a fiche."
+    }
+  ],
+  "ambiguousOrWrongMatch": [
+    {
+      "name": "Taquería El Califa de León",
+      "stage": "In progress",
+      "why": "Site has Taquería El Califa (chain, Juárez), not Califa de León. SQLite has EL CALIFA DEL LEON on Ribera de San Cosme but no fiche."
+    },
+    {
+      "name": "Molino El Pujol",
+      "stage": "In progress",
+      "why": "Different place from Pujol. Exists in SQLite (Hipódromo, rating 4.0) but no fiche."
+    },
+    {
+      "name": "El Huequito",
+      "stage": "Not started",
+      "why": "Site only has El Huequito Juan Escutia (Condesa). Famous stall is a different location."
+    },
+    {
+      "name": "Tacos Charly",
+      "stage": "In progress",
+      "why": "Several DENUE clones. Tlalpan row looks closest. Need the correct address."
+    },
+    {
+      "name": "Taqueria El Paisa",
+      "stage": "In progress",
+      "why": "Several clones across Iztapalapa / Azcapotzalco / GAM. Need the correct address."
+    },
+    {
+      "name": "Casona Restaurante",
+      "stage": "In progress",
+      "why": "No unique match. Nearby names are different restaurants."
+    },
+    {
+      "name": "ESTIATORIO NOSTOS",
+      "stage": "Not started",
+      "why": "DENUE row in Lomas plus another Nostos in Pedregal. Need the correct address."
+    },
+    {
+      "name": "Fonda Margarita",
+      "stage": "Not started",
+      "why": "Several fondas with that name. Famous one needs confirmation."
+    },
+    {
+      "name": "Mesa B",
+      "stage": "Not started",
+      "why": "No safe match."
+    },
+    {
+      "name": "El Hidalguense",
+      "stage": "Not started",
+      "why": "Several comedores. Famous Roma location not isolated."
+    },
+    {
+      "name": "BICHI",
+      "stage": "Not started",
+      "why": "Only Ceviche Bichi in SQLite. Probably not the same."
+    },
+    {
+      "name": "CANTINA LUPITA",
+      "stage": "Not started",
+      "why": "No unique match."
+    },
+    {
+      "name": "TAQUERÍA LA ESTRELLA",
+      "stage": "Not started",
+      "why": "No unique match."
+    },
+    {
+      "name": "Oly",
+      "stage": "Not started",
+      "why": "Only Taqueria Oly in Iztapalapa. Unlikely."
+    },
+    {
+      "name": "Tacos Metero",
+      "stage": "Not started",
+      "why": "No match. Possible typo for Tacos Meteoro — still absent."
+    },
+    {
+      "name": "Charco",
+      "stage": "Not started",
+      "why": "Rejected El Charco de las Ranas 2. Different restaurant."
+    },
+    {
+      "name": "Berta",
+      "stage": "Not started",
+      "why": "Rejected Antojitos Tía Berta. Different restaurant."
+    }
+  ],
+  "absent": [
+    {
+      "name": "Ciena",
+      "csvRaw": "https://www.instagram.com/ciena___/",
+      "stage": "In progress"
+    },
+    {
+      "name": "Anónimo",
+      "csvRaw": "https://www.instagram.com/anonimo.rest/",
+      "stage": "In progress"
+    },
+    {
+      "name": "Voraz",
+      "stage": "In progress"
+    },
+    {
+      "name": "BALCON DEL ZOCALO",
+      "stage": "Not started"
+    },
+    {
+      "name": "QUINQUELA",
+      "stage": "Not started"
+    },
+    {
+      "name": "YAPAN",
+      "stage": "Not started"
+    },
+    {
+      "name": "Encanto Fuego & Mar",
+      "stage": "Not started"
+    },
+    {
+      "name": "PELOTA MESTIZA",
+      "stage": "Not started"
+    },
+    {
+      "name": "BARRA LUPE",
+      "stage": "Not started"
+    },
+    {
+      "name": "Espelta",
+      "stage": "Not started"
+    },
+    {
+      "name": "SUKAI",
+      "stage": "Not started"
+    },
+    {
+      "name": "ALMAMÍA",
+      "stage": "Not started"
+    },
+    {
+      "name": "Plotz",
+      "stage": "Not started"
+    },
+    {
+      "name": "La Bonvi",
+      "stage": "Not started"
+    },
+    {
+      "name": "DE PESCADORES",
+      "stage": "Not started"
+    },
+    {
+      "name": "Abrasarme",
+      "stage": "Not started"
+    },
+    {
+      "name": "EFE SIETE",
+      "stage": "Not started"
+    },
+    {
+      "name": "Maleza",
+      "stage": "Not started"
+    },
+    {
+      "name": "Magazzino",
+      "stage": "Not started"
+    },
+    {
+      "name": "Chevere",
+      "csvRaw": "Google search link in CSV",
+      "stage": "Not started"
+    },
+    {
+      "name": "Chuí",
+      "stage": "Not started"
+    },
+    {
+      "name": "Fierro",
+      "stage": "Not started"
+    },
+    {
+      "name": "Proprio",
+      "stage": "Not started"
+    },
+    {
+      "name": "Abyssmo",
+      "stage": "Not started"
+    },
+    {
+      "name": "Feral",
+      "stage": "Not started"
+    },
+    {
+      "name": "Archiebald",
+      "stage": "Not started"
+    },
+    {
+      "name": "Arrrco",
+      "stage": "Not started"
+    }
+  ]
+}

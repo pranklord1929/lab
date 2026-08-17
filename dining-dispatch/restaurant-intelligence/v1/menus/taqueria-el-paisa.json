@@ -1,0 +1,35 @@
+{
+  "slug": "taqueria-el-paisa",
+  "name": "Taquería El Paisa",
+  "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/taqueria-el-paisa-1212979",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Taco de suadero",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos",
+      "description": "Michelin: el más solicitado"
+    },
+    {
+      "name": "Taco al pastor",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Torta asada",
+      "price": null,
+      "currency": "MXN",
+      "category": "tortas"
+    },
+    {
+      "name": "Torta adobada",
+      "price": null,
+      "currency": "MXN",
+      "category": "tortas"
+    }
+  ],
+  "notes": "Michelin inspector: suadero and pastor; related El Paisa listing also names asada and adobada tortas."
+}

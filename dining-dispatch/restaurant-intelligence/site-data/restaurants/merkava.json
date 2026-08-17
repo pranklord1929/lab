@@ -1,0 +1,634 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "2ea19fe4-53b3-4027-b58e-2b7934f6fc40",
+  "slug": "merkava",
+  "name": "Merkavá",
+  "location": {
+    "neighborhood": "HIPÓDROMO",
+    "borough": "Cuauhtémoc",
+    "address": "Ámsterdam 53, Hipódromo, Cuauhtémoc, 06100 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4152525,
+      "longitude": -99.1693178
+    }
+  },
+  "contact": {
+    "phone": "55 5086 8065",
+    "website": "https://restaurantemerkava.com/",
+    "instagram": "https://www.instagram.com/merkava/",
+    "googleMapsUrl": "https://maps.google.com/?cid=4707910803974948804&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 3
+  },
+  "experience": {
+    "sourceSummary": "Relaxed eatery featuring hummus, Israeli delicacies & cocktails, plus a terrace.",
+    "hours": [
+      "domingo: 9:00 a.m. – 6:30 p.m.",
+      "lunes: Cerrado",
+      "martes: 9:00 a.m. – 11:30 p.m.",
+      "miércoles: 9:00 a.m. – 11:30 p.m.",
+      "jueves: 9:00 a.m. – 11:30 p.m.",
+      "viernes: 9:00 a.m. – 11:30 p.m.",
+      "sábado: 9:00 a.m. – 11:30 p.m."
+    ],
+    "rating": 4.5,
+    "reviewCount": 1662
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "local_extraction_candidate",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 2,
+    "itemCount": 34,
+    "documents": [
+      {
+        "id": "281057c9-1a72-4a3e-a68f-8855385d755b",
+        "sourceUrl": "https://restaurantemerkava.com/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "ccb8185b-1b24-4f62-b6e3-055da6decebd",
+        "sourceUrl": "https://assets.cdn.filesafe.space/xd1g3R3BCWAGIZ8OeyjO/media/69a8779cc7e71f8623d2a77e.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.98,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": [
+      {
+        "id": "11f0ba2c6d0758f32a9ce5eb8889007a",
+        "documentId": null,
+        "name": "AFTER MEAL DRINKS",
+        "description": null,
+        "price": 180,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "9c3ecb73e824da6936b2bee50c24eb6d",
+        "documentId": null,
+        "name": "Americano",
+        "description": null,
+        "price": 50,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "81cf468c59296084e72724bdf818ff74",
+        "documentId": null,
+        "name": "BEBIDAS PARA LA SOBREMESA",
+        "description": null,
+        "price": 180,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "739baa778d291da33a014b18f51521e5",
+        "documentId": null,
+        "name": "BREAD SERVICE",
+        "description": null,
+        "price": 160,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "27f322487757f65a0fbd7bc6ca1c0648",
+        "documentId": null,
+        "name": "Bruselas y labneh",
+        "description": null,
+        "price": 520,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "9ac0bf33c3a07d040bc2d1d07ab9cfb7",
+        "documentId": null,
+        "name": "Café Nespresso",
+        "description": null,
+        "price": 50,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "a2947161b5df0f2a74007c4926ae2aa3",
+        "documentId": null,
+        "name": "Café Nespresso",
+        "description": null,
+        "price": 60,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "2cb03d83c46f59d3662e1562ebb045a3",
+        "documentId": null,
+        "name": "Café Nespresso",
+        "description": null,
+        "price": 170,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "1152bb08f035bbcd3d04e38b56d7d6f6",
+        "documentId": null,
+        "name": "HUMMUS",
+        "description": null,
+        "price": 170,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "1bbc0605dbc174e3325f5051aa2f47e9",
+        "documentId": null,
+        "name": "Hulda, Israel",
+        "description": null,
+        "price": 225,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "270629c61575698f52f4abc930b004b9",
+        "documentId": null,
+        "name": "Importada directamente de Israel, sabores a elegir",
+        "description": null,
+        "price": 200,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "2a82648be12f12d6dc427061f988ae0e",
+        "documentId": null,
+        "name": "Importada directamente de Israel, sabores a elegir",
+        "description": null,
+        "price": 330,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "223e574859b90e21579efd1024f2fde3",
+        "documentId": null,
+        "name": "Israel",
+        "description": null,
+        "price": 240,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "a4bf0f6af0e9358d51a8b59c8769e01a",
+        "documentId": null,
+        "name": "Ketel One, espresso y licor de café",
+        "description": null,
+        "price": 240,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "e36d40a930cd6d2caec84beffe47c532",
+        "documentId": null,
+        "name": "Kfardebian, Líbano",
+        "description": null,
+        "price": 240,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "077e8fb63cfcbed474740bc9b0211a04",
+        "documentId": null,
+        "name": "Licor 43 and Turkish Coffee",
+        "description": null,
+        "price": 260,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "2115c8da4a0cba60820f938c0b746d95",
+        "documentId": null,
+        "name": "Licor 43 y Café Turco",
+        "description": null,
+        "price": 240,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "562c470a65f1efd6c08714f09eae08a5",
+        "documentId": null,
+        "name": "MAIN DISHES",
+        "description": null,
+        "price": 440,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "8a74b786f2f92fc0325961b564b581c1",
+        "documentId": null,
+        "name": "Macchiato",
+        "description": null,
+        "price": 65,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "0d6b08e220ff2883fead6af46d6375c7",
+        "documentId": null,
+        "name": "NISHNUSHIM",
+        "description": null,
+        "price": 200,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "0fe441911175c6879907b06672b533c6",
+        "documentId": null,
+        "name": "Nespresso Coffee",
+        "description": null,
+        "price": 50,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "fb283fe0746f922c56a07cfa8c443136",
+        "documentId": null,
+        "name": "Nespresso Coffee",
+        "description": null,
+        "price": 60,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "69d463f1b1e5b3ecca3531cf59aa3244",
+        "documentId": null,
+        "name": "Nespresso Coffee",
+        "description": null,
+        "price": 65,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "f799018c9e75fc6dbf403eedeefe406b",
+        "documentId": null,
+        "name": "Nespresso Coffee",
+        "description": null,
+        "price": 170,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "8182f20de3beeeb6b2f129f0c22199f7",
+        "documentId": null,
+        "name": "Nueva York, Estados Unidos",
+        "description": null,
+        "price": 260,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "0dff2f97c17bfb087d10c2c230dc72c0",
+        "documentId": null,
+        "name": "PLATOS PRINCIPALES",
+        "description": null,
+        "price": 440,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "f9a2ecfac19aec43dacd8b1100593bdb",
+        "documentId": null,
+        "name": "POSTRES",
+        "description": null,
+        "price": 210,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "10bac23f49365324f78dabde0ac5328b",
+        "documentId": null,
+        "name": "SALATIM",
+        "description": null,
+        "price": 380,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "760b665bb83fa4d4dd4d5c90d2a5751a",
+        "documentId": null,
+        "name": "SERVICIO DE PAN",
+        "description": null,
+        "price": 160,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "90873e8a57605e8058377c370a066163",
+        "documentId": null,
+        "name": "SOPAS",
+        "description": null,
+        "price": 198,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "b5e3500a09bded18c2a29d5bcbee1e82",
+        "documentId": null,
+        "name": "SOUPS",
+        "description": null,
+        "price": 198,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "0169bbc4fe2fa274387d7df555dd8061",
+        "documentId": null,
+        "name": "Tirat Carmel, Israel",
+        "description": null,
+        "price": 215,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "eab188f9b4a78012b42213773a21df55",
+        "documentId": null,
+        "name": "Tirat Carmel, Israel",
+        "description": null,
+        "price": 220,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "14918f686b0d7affd9a9e4e413197794",
+        "documentId": null,
+        "name": "Whole chocolate Babka to go",
+        "description": null,
+        "price": 240,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://assets.cdn.filesafe.space/xd1g3R3BCWAGIZ8OeyjO/media/69a8779cc7e71f8623d2a77e.pdf",
+      "confidence": 0.98,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://restaurantemerkava.com/menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://restaurantemerkava.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:43.376+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=4707910803974948804&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:33.939+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/merkava_cdmx/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://www.instagram.com/merkava/",
+      "confidence": null,
+      "checkedAt": "2026-06-28T21:18:38.493+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:21:28.629354+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 154,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_cuisine"
+    ]
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "5a242251-8e6c-4634-97a6-72abe3110f4e",
+  "slug": "tacos-don-manolito-aguilas",
+  "name": "Tacos Don Manolito Águilas",
+  "location": {
+    "neighborhood": "LAS ÁGUILAS",
+    "borough": "Álvaro Obregón",
+    "address": "Calz de los Leones 145, Águilas, Álvaro Obregón, 01710 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3610285,
+      "longitude": -99.19706
+    }
+  },
+  "contact": {
+    "phone": "55 5593 8675",
+    "website": "https://tacosdonmanolito.com/sucursales/",
+    "instagram": "https://instagram.com/donmanolitomx/",
+    "googleMapsUrl": "https://maps.google.com/?cid=17660124961450252179&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "taco",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 9:00 a.m. – 8:00 p.m.",
+      "lunes: 9:00 a.m. – 10:00 p.m.",
+      "martes: 9:00 a.m. – 10:00 p.m.",
+      "miércoles: 9:00 a.m. – 10:00 p.m.",
+      "jueves: 9:00 a.m. – 10:00 p.m.",
+      "viernes: 9:00 a.m. – 11:00 p.m.",
+      "sábado: 9:00 a.m. – 11:00 p.m."
+    ],
+    "rating": 4.1,
+    "reviewCount": 194
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-17T10:10:05.905Z",
+    "observationAgeDaysAtExport": 31,
+    "documentCount": 3,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "588ee82e-1781-40a5-9725-c0fab575009b",
+        "sourceUrl": "https://www.tacosdonmanolito.com/img/tile-menu.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "6a19ec0f-ebe6-4455-ac61-16715242ea76",
+        "sourceUrl": "https://tacosdonmanolito.com/menu.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "d3d54cca-1c1c-46c7-88bd-cfdc386ea8a6",
+        "sourceUrl": "https://www.tacosdonmanolito.com/menu.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.tacosdonmanolito.com/img/tile-menu.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://tacosdonmanolito.com/menu.html",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.tacosdonmanolito.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-13T15:22:51.609+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=17660124961450252179&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:53:06.432+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/tacosdonmanolito/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/donmanolitomx/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.802169+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:24:17.738526+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 6,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

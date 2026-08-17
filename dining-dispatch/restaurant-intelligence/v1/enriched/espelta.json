@@ -1,0 +1,199 @@
+{
+  "catalogName": "Espelta",
+  "slug": "espelta",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Espelta",
+  "location": {
+    "address": "Gral. Antonio León 72, San Miguel Chapultepec I",
+    "neighborhood": "San Miguel Chapultepec",
+    "borough": "Miguel Hidalgo",
+    "postalCode": "11801",
+    "coordinates": {
+      "latitude": 19.4134103,
+      "longitude": -99.184644
+    }
+  },
+  "contact": {
+    "phone": "+52 55 2770 8605",
+    "phoneAlt": "+52 55 2328 4770",
+    "website": "https://espelta.mx/",
+    "instagram": "espelta.mx",
+    "email": null,
+    "websiteIsInstagram": false
+  },
+  "hours": [
+    "lun cerrado",
+    "mar–vie 13:30–22:00",
+    "sáb 09:00–22:00",
+    "dom 09:00–18:00"
+  ],
+  "food": {
+    "cuisine": "seasonal / wood fire",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "opentable / tock",
+    "url": "https://www.opentable.com.mx/r/espelta-reservations-ciudad-de-mexico"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://espelta.mx/",
+    "observedAt": "2026-08-17",
+    "itemCount": 17,
+    "items": [
+      {
+        "name": "Calabaza amarilla, albahaca y ’nduja de vegetales",
+        "price": null,
+        "currency": "MXN",
+        "category": "ensaladas",
+        "description": "Alcaparra, queso fresco y berenjena tatemada"
+      },
+      {
+        "name": "Endivias y betabel a la brasa",
+        "price": null,
+        "currency": "MXN",
+        "category": "ensaladas",
+        "description": "Yogurt de rancho, vinagreta de pimienta rosa, espelta garapiñada"
+      },
+      {
+        "name": "Ensalada verde",
+        "price": null,
+        "currency": "MXN",
+        "category": "ensaladas",
+        "description": "Berenjena, cherrys, queso y miel multifloral"
+      },
+      {
+        "name": "Camote rostizado y hojas amargas",
+        "price": null,
+        "currency": "MXN",
+        "category": "ensaladas",
+        "description": "Cacahuate, mix de hojas y salsa macha"
+      },
+      {
+        "name": "Pan de espelta",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas",
+        "description": "Mantequilla de rancho y flores comestibles"
+      },
+      {
+        "name": "Tataki de flat iron Wagyu FB",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas",
+        "description": "Ponzu, pepino persa y semilla de mostaza encurtida"
+      },
+      {
+        "name": "Croquetas",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas",
+        "description": "Piña, pimiento baby y salsa macha"
+      },
+      {
+        "name": "Queso fundido y hongos",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas",
+        "description": "Hoja santa, tortilla dorada, xnipec de col"
+      },
+      {
+        "name": "Flatbread de Espelta",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas",
+        "description": "Hongos, calabacín y aceite de oliva"
+      },
+      {
+        "name": "Aguachile rojo",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas",
+        "description": "Trucha, berenjena tatemada, pepino y tomate"
+      },
+      {
+        "name": "Chorizo y berenjena",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas",
+        "description": "Col caraflex, perejil y hogaza de espelta"
+      },
+      {
+        "name": "Verduras de temporada",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas",
+        "description": "Romesco rojo y pan de masa madre"
+      },
+      {
+        "name": "Tostadas de trucha blanca con aguacate",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas",
+        "description": "2 pz. Yuzu, pepino y cebolla morada"
+      },
+      {
+        "name": "Tagliatelle con hongos",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas",
+        "description": "Parmesano, chalote y pan de espelta"
+      },
+      {
+        "name": "Trucha al cedro",
+        "price": null,
+        "currency": "MXN",
+        "category": "platos fuertes",
+        "description": "Piña, cherrys y calabaza amarilla rostizada"
+      },
+      {
+        "name": "Short rib",
+        "price": null,
+        "currency": "MXN",
+        "category": "platos fuertes",
+        "description": "Puré aligot y demi-glace"
+      },
+      {
+        "name": "Pollo con adobo",
+        "price": null,
+        "currency": "MXN",
+        "category": "platos fuertes",
+        "description": "Verduras al carbón"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/espelta.mx/",
+      "fields": [
+        "address"
+      ]
+    },
+    {
+      "source": "opentable",
+      "url": "https://www.opentable.com/r/espelta-ciudad-de-mexico",
+      "fields": [
+        "phone"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://espelta.mx/",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "gaps": [],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": []
+}

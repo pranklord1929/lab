@@ -1,0 +1,53 @@
+{
+  "slug": "oly",
+  "name": "Oly",
+  "url": "https://www.tiktok.com/@tacotios/video/7548952120762912008",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Scallops",
+      "price": 240,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Col a la brasa con romesco",
+      "price": 180,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Capellini al limón",
+      "price": 210,
+      "currency": "MXN",
+      "category": "pastas"
+    },
+    {
+      "name": "Pasta de barco",
+      "price": 330,
+      "currency": "MXN",
+      "category": "pastas"
+    },
+    {
+      "name": "Short rib",
+      "price": 380,
+      "currency": "MXN",
+      "category": "fuertes"
+    },
+    {
+      "name": "Kofta",
+      "category": "fuertes"
+    },
+    {
+      "name": "Pan de pita y yogurt de hierbas"
+    },
+    {
+      "name": "Brocheta de pollo con chiles fermentados"
+    },
+    {
+      "name": "Sopa de ajo"
+    }
+  ],
+  "notes": "Published Taco Tíos 2025 video ticket + IG dish list. Mediterranean, Alfonso Reyes 120 / Condesa."
+}

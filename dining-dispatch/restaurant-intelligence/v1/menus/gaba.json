@@ -1,0 +1,85 @@
+{
+  "slug": "gaba",
+  "name": "Gaba",
+  "url": "https://gabarestaurante.com/menu/",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Paté de pollo, Jamaica, Sourdough",
+      "category": "comida"
+    },
+    {
+      "name": "Aceitunas marinadas",
+      "category": "comida"
+    },
+    {
+      "name": "Uvas, XO de cilantro, crema cultivada",
+      "category": "comida"
+    },
+    {
+      "name": "Betabel, hinojo, camote, avellana",
+      "category": "comida"
+    },
+    {
+      "name": "Mandarina, orejas de cerdo, almendra",
+      "category": "comida"
+    },
+    {
+      "name": "Toast de 'Nduja de chile costeño, crema de quesillo",
+      "category": "comida"
+    },
+    {
+      "name": "Carpaccio de lengua, chayote",
+      "category": "comida"
+    },
+    {
+      "name": "Col puntiaguda, nori, granola",
+      "category": "comida"
+    },
+    {
+      "name": "Crudo del día, haba, chaya",
+      "category": "comida"
+    },
+    {
+      "name": "Tartar de cecina wagyu, hormiga chicatana",
+      "category": "comida"
+    },
+    {
+      "name": "Almeja, lentejas, curry verde de tomatillo",
+      "category": "comida"
+    },
+    {
+      "name": "Setas asadas, berenjena tatemada, salsa macha",
+      "category": "comida"
+    },
+    {
+      "name": "Molleja de res, chileatole verde, queso cotija",
+      "category": "comida"
+    },
+    {
+      "name": "Pesca al grill, salsa verde, kale asada",
+      "category": "comida"
+    },
+    {
+      "name": "Pescuezo de cordero, consomé, pek",
+      "category": "comida"
+    },
+    {
+      "name": "Chuleta de cerdo Berkshire, piña, ensalada",
+      "category": "comida"
+    },
+    {
+      "name": "Sorbete de nopal, shiso, pepino",
+      "category": "postres"
+    },
+    {
+      "name": "Aguacate",
+      "category": "postres"
+    },
+    {
+      "name": "Tarta de chocolate, cacahuate, caramelo",
+      "category": "postres"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "el-califa-de-leon",
+  "name": "Taquería El Califa de León",
+  "url": "https://www.instagram.com/califadeleon/",
+  "items": [
+    {
+      "name": "Gaonera",
+      "description": "Thin beef fillet, house signature, salt and lime",
+      "category": "tacos"
+    },
+    {
+      "name": "Campechano",
+      "description": "Mixed beef taco",
+      "category": "tacos"
+    },
+    {
+      "name": "Chuleta",
+      "description": "Pork chop taco",
+      "category": "tacos"
+    },
+    {
+      "name": "Costilla",
+      "description": "Rib taco",
+      "category": "tacos"
+    }
+  ]
+}

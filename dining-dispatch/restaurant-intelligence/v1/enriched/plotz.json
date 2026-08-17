@@ -1,0 +1,131 @@
+{
+  "catalogName": "Plotz",
+  "slug": "plotz",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "PLOTZ",
+  "location": {
+    "address": "Pestalozzi 1152, Del Valle",
+    "neighborhood": "Del Valle",
+    "borough": "Benito Juárez",
+    "postalCode": null,
+    "coordinates": {
+      "latitude": 19.3799818,
+      "longitude": -99.1611516
+    }
+  },
+  "contact": {
+    "phone": "+52 55 6197 9858",
+    "website": "https://www.instagram.com/plotzmx/",
+    "instagram": "plotzmx",
+    "email": null,
+    "websiteIsInstagram": true
+  },
+  "hours": [
+    "mar–mié 13:00–20:00",
+    "jue–sáb 13:00–22:00",
+    "dom 09:00–18:00"
+  ],
+  "food": {
+    "cuisine": "smokehouse / wine garden / grill",
+    "priceLevel": 2
+  },
+  "reservation": {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/plotzmx/"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://dondeir.com/restaurantes/plotz-el-smokehouse-y-wine-garden-que-conquista-la-del-valle/2025/11/",
+    "observedAt": "2026-08-17",
+    "itemCount": 9,
+    "items": [
+      {
+        "name": "Bites de tocino ahumado en hot honey",
+        "price": null,
+        "currency": "MXN",
+        "category": "para picar"
+      },
+      {
+        "name": "Papas Bravuconas",
+        "price": 180,
+        "currency": "MXN",
+        "category": "para picar"
+      },
+      {
+        "name": "Mac & cheese",
+        "price": 192,
+        "currency": "MXN",
+        "category": "para picar"
+      },
+      {
+        "name": "Sandwich pulled pork",
+        "price": 297,
+        "currency": "MXN",
+        "category": "sandwiches",
+        "description": "Cerdo ahumado, BBQ de la casa"
+      },
+      {
+        "name": "Sandwich Reuben",
+        "price": 308,
+        "currency": "MXN",
+        "category": "sandwiches",
+        "description": "Pastrami, chucrut, queso suizo"
+      },
+      {
+        "name": "Sandwich brisket",
+        "price": 297,
+        "currency": "MXN",
+        "category": "sandwiches"
+      },
+      {
+        "name": "Baby back ribs",
+        "price": null,
+        "currency": "MXN",
+        "category": "ahumados"
+      },
+      {
+        "name": "Brisket ahumado",
+        "price": null,
+        "currency": "MXN",
+        "category": "ahumados"
+      },
+      {
+        "name": "Ensalada de burrata y jitomates criollos",
+        "price": null,
+        "currency": "MXN",
+        "category": "ensaladas"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/plotzmx/",
+      "fields": [
+        "address"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://dondeir.com/restaurantes/plotz-el-smokehouse-y-wine-garden-que-conquista-la-del-valle/2025/11/",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "gaps": [
+    "phone",
+    "hours",
+    "postal code"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": []
+}

@@ -1,0 +1,372 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "9e3ddbda-d5bb-4abc-93fe-1c6d6af6464f",
+  "slug": "apego-balcon-del-sur",
+  "name": "Apego, balcón del sur",
+  "location": {
+    "neighborhood": "LAS ÁGUILAS",
+    "borough": "Álvaro Obregón",
+    "address": "Gutiérrez Zamora 33, Las Águilas, Álvaro Obregón, 01710 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3579097,
+      "longitude": -99.1998185
+    }
+  },
+  "contact": {
+    "phone": "55 3884 7922",
+    "website": "http://www.apego.mx/",
+    "instagram": "https://instagram.com/apego.mx/",
+    "googleMapsUrl": "https://maps.google.com/?cid=18097069502371642333&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 8:00 a.m. – 6:00 p.m.",
+      "lunes: 8:00 a.m. – 6:00 p.m.",
+      "martes: 8:00 a.m. – 1:00 a.m.",
+      "miércoles: 8:00 a.m. – 1:00 a.m.",
+      "jueves: 8:00 a.m. – 1:00 a.m.",
+      "viernes: 8:00 a.m. – 1:00 a.m.",
+      "sábado: 8:00 a.m. – 1:00 a.m."
+    ],
+    "rating": 4.4,
+    "reviewCount": 674
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-17T10:10:05.905Z",
+    "observationAgeDaysAtExport": 31,
+    "documentCount": 15,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "2123a676-8c06-4580-8155-f8cad1d5ac52",
+        "sourceUrl": "http://www.apego.mx/menu/menu_completo.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "2c44744a-fc60-48ed-9837-f678ac909946",
+        "sourceUrl": "https://apego.mx/menu/menu_completo.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "7e332907-169d-4c23-9c7c-c534eaa96b92",
+        "sourceUrl": "http://www.apego.mx/menu-cocteles/menu_completo.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "863b9e69-85b6-44c6-81c3-06183c55f87d",
+        "sourceUrl": "https://apego.mx/menu-cocteles/menu_completo.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "9992e805-593b-4cea-8ebc-fb1d7fb17b44",
+        "sourceUrl": "https://www.apego.mx/menu/menu_completo.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "a347f365-7088-4c2f-b01b-62bebff77abb",
+        "sourceUrl": "https://www.apego.mx/menu-cocteles/menu_completo.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "06a1b842-49e8-4f26-98ad-2452a8e33403",
+        "sourceUrl": "https://www.apego.mx/menu-cocteles/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "22353b65-19b9-4309-a6a7-1c2b1e03c68b",
+        "sourceUrl": "https://apego.mx/menu/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "8207d264-0fa6-48ad-a179-18d7b265120b",
+        "sourceUrl": "https://apego.mx/menu-cocteles/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "8ba9a501-8adc-40cf-a36a-85623d90d893",
+        "sourceUrl": "https://www.apego.mx/menu/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "b2b2b871-e2d9-4a90-9e77-250b09ee3926",
+        "sourceUrl": "http://www.apego.mx/menu/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "c6372520-c316-4a77-9ed3-1c7127a66c38",
+        "sourceUrl": "http://www.apego.mx/menu-cocteles/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "e5432dd5-b0ff-4adb-a6e1-73ffa6a3b4b3",
+        "sourceUrl": "https://robbreport.mx/food-drinks/vas-a-sentir-mucho-apego-por-este-lugar-al-sur-de-la-ciudad/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "2d785e0a-aa22-426a-8bd1-d06156b808d2",
+        "sourceUrl": "http://apego.mx/menu-cocteles/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.75,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:56:21.287+00:00"
+      },
+      {
+        "id": "3963c280-8275-4b22-8cee-43f77f6334aa",
+        "sourceUrl": "http://apego.mx/menu/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.75,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:56:21.069+00:00"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.apego.mx/menu/",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.apego.mx/menu-cocteles/",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.apego.mx/menu/menu_completo.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.apego.mx/menu-cocteles/menu_completo.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.apego.mx/menu/menu_completo.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.apego.mx/menu-cocteles/menu_completo.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://apego.mx/menu-cocteles/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://robbreport.mx/food-drinks/vas-a-sentir-mucho-apego-por-este-lugar-al-sur-de-la-ciudad/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://apego.mx/menu/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "http://www.apego.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:13.818+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=18097069502371642333&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:56.145+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/apego.mx",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/apego.mx/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.165171+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:18:59.32349+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 432,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "menu",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_cuisine",
+      "missing_price_level",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

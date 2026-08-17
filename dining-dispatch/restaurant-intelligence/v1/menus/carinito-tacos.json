@@ -1,0 +1,24 @@
+{
+  "slug": "carinito-tacos",
+  "name": "Cariñito Tacos",
+  "url": "https://guide.michelin.com/us/en/ciudad-de-mexico/cuauhtemoc_1995126/restaurant/carinito-tacos",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Taco cantonés",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos",
+      "description": "Tocino de cerdo confitado, tortilla de harina, hoisin, sriracha y encurtidos"
+    },
+    {
+      "name": "Siu yuk",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos",
+      "description": "Cerdo asado crujiente, nam jim jaew y encurtidos en tortilla de harina"
+    }
+  ],
+  "notes": "Michelin inspector named the two signature tacos. Short Southeast-Asian taco list."
+}

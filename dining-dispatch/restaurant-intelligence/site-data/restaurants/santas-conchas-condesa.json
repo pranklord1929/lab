@@ -1,0 +1,1026 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "d7b38386-8025-4f14-b5e3-74da7e708b78",
+  "slug": "santas-conchas-condesa",
+  "name": "Santas Conchas Condesa",
+  "location": {
+    "neighborhood": "HIPÓDROMO",
+    "borough": "Cuauhtémoc",
+    "address": "Av México 49, Colonia Condesa, Cuauhtémoc, 06100 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4128449,
+      "longitude": -99.1700146
+    }
+  },
+  "contact": {
+    "phone": "55 6341 0777",
+    "website": "http://www.santasconchas.com/",
+    "instagram": "https://instagram.com/santasconchas/",
+    "googleMapsUrl": "https://maps.google.com/?cid=470096172722520198&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 8:00 a.m. – 9:00 p.m.",
+      "lunes: 8:00 a.m. – 9:00 p.m.",
+      "martes: 8:00 a.m. – 9:00 p.m.",
+      "miércoles: 8:00 a.m. – 9:00 p.m.",
+      "jueves: 8:00 a.m. – 10:00 p.m.",
+      "viernes: 8:00 a.m. – 10:00 p.m.",
+      "sábado: 8:00 a.m. – 10:00 p.m."
+    ],
+    "rating": 4.5,
+    "reviewCount": 1329
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-17T10:10:05.905Z",
+    "observationAgeDaysAtExport": 31,
+    "documentCount": 51,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "09fef5c9-dab9-43ce-bbfe-b5cefd55c0b1",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/74212df9-dfd9-4c1f-8a60-e7a6f36817ce/Bebidas.jpg?format=300w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "0dbec526-b3ad-4b00-8c96-a7d14122a549",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/74212df9-dfd9-4c1f-8a60-e7a6f36817ce/Bebidas.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "0e868806-8db8-43c7-a170-c8d1bcb9629d",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/6e41eab8-1377-4c55-ba4b-91bf7ddb3713/MENU%CC%81+BEBIDAS.png?format=1000w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "1ddd978b-a8fc-4d0b-bd2e-98425f6b9999",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/4bcc1162-0f31-4704-a31e-dd822f071e62/MENU%CC%81+DESAYUNOS+3.png",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "1f77e2e9-1716-4727-b428-18446ae9db18",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/1fd0006e-d760-4224-bda6-45769f1b9282/MENU%CC%81+DESAYUNO+1.png?format=750w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "28cfdf93-1573-4dec-9f7e-e568422b2842",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/1fd0006e-d760-4224-bda6-45769f1b9282/MENU%CC%81+DESAYUNO+1.png?format=100w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "2c231a44-77e9-4dd0-b045-099a38866f0e",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/6e41eab8-1377-4c55-ba4b-91bf7ddb3713/MENU%CC%81+BEBIDAS.png?format=300w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "3c619595-65a4-44bd-83df-9165a1be1a2a",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/1fd0006e-d760-4224-bda6-45769f1b9282/MENU%CC%81+DESAYUNO+1.png?format=1000w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "401e9680-3097-47b5-9454-72da540d7474",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/4bcc1162-0f31-4704-a31e-dd822f071e62/MENU%CC%81+DESAYUNOS+3.png?format=2500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "434e54d9-04cb-4852-b456-1ae28a81e5f2",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/6e41eab8-1377-4c55-ba4b-91bf7ddb3713/MENU%CC%81+BEBIDAS.png?format=100w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "443197d3-038c-413c-b1b8-f1d3704ced24",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/22268ec2-4745-4a91-9782-2ff32440cb47/Desayunos+Santas+Conchas.png?format=1500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "46f060e3-402f-41b3-9dcc-e1d257d572f8",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/74212df9-dfd9-4c1f-8a60-e7a6f36817ce/Bebidas.jpg?format=500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "490bcf9b-a696-41a5-b18e-071a16789e4c",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/1fd0006e-d760-4224-bda6-45769f1b9282/MENU%CC%81+DESAYUNO+1.png?format=300w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "4c659e23-f99b-4985-8769-a1f1caff29e3",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/f1ae737e-6a0e-4e55-8146-d134a8bbffcc/MENU%CC%81+DESAYUNOS+2.png?format=2500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "4ce8db6d-027e-4f2f-a1f4-2bf5ec2294e6",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/6e41eab8-1377-4c55-ba4b-91bf7ddb3713/MENU%CC%81+BEBIDAS.png?format=2500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "54f91688-b6be-4695-ba33-850b5700156a",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/4bcc1162-0f31-4704-a31e-dd822f071e62/MENU%CC%81+DESAYUNOS+3.png?format=750w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "59c85d93-5bdb-4329-8afe-4febf0dee19c",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/74212df9-dfd9-4c1f-8a60-e7a6f36817ce/Bebidas.jpg?format=100w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "5e10588b-6385-45ea-ba2d-ade460af328d",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/6e41eab8-1377-4c55-ba4b-91bf7ddb3713/MENU%CC%81+BEBIDAS.png?format=1500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "69740027-e0df-45ac-91b1-8d210469a00b",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/74212df9-dfd9-4c1f-8a60-e7a6f36817ce/Bebidas.jpg?format=1500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "6c931fa9-53de-4c2f-9a94-a120dce093e7",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/1fd0006e-d760-4224-bda6-45769f1b9282/MENU%CC%81+DESAYUNO+1.png?format=500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "724fb32c-62f3-40c2-9b58-665a4529dacd",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/4bcc1162-0f31-4704-a31e-dd822f071e62/MENU%CC%81+DESAYUNOS+3.png?format=1000w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "7400a51c-a832-4c0f-b23f-1d6caf54ecca",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/4bcc1162-0f31-4704-a31e-dd822f071e62/MENU%CC%81+DESAYUNOS+3.png?format=500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "7ff138c7-b616-4f1c-8b25-5e9ff26b45d4",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/1fd0006e-d760-4224-bda6-45769f1b9282/MENU%CC%81+DESAYUNO+1.png?format=2500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "816d9f07-0440-4932-9f48-ea22dbc7a39b",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/f1ae737e-6a0e-4e55-8146-d134a8bbffcc/MENU%CC%81+DESAYUNOS+2.png?format=750w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "8a16a9e0-f135-4bc5-a09f-9601aad1126e",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/22268ec2-4745-4a91-9782-2ff32440cb47/Desayunos+Santas+Conchas.png?format=750w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "8b035773-fa30-477d-9a43-279541d6c550",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/4bcc1162-0f31-4704-a31e-dd822f071e62/MENU%CC%81+DESAYUNOS+3.png?format=300w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "8be69be9-69ed-401e-a8e0-e7978cf5e2e3",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/74212df9-dfd9-4c1f-8a60-e7a6f36817ce/Bebidas.jpg?format=750w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "8c14c3da-91ca-4af5-986d-1051c3962fa7",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/6e41eab8-1377-4c55-ba4b-91bf7ddb3713/MENU%CC%81+BEBIDAS.png",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "986842da-a359-4f75-949f-e064919c82e1",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/6e41eab8-1377-4c55-ba4b-91bf7ddb3713/MENU%CC%81+BEBIDAS.png?format=750w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "98f6bcea-f052-4709-9632-a0636d87625a",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/f1ae737e-6a0e-4e55-8146-d134a8bbffcc/MENU%CC%81+DESAYUNOS+2.png?format=100w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "a1ffb82a-a206-46c2-8dae-c39d5ef1bb4c",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/74212df9-dfd9-4c1f-8a60-e7a6f36817ce/Bebidas.jpg?format=1000w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "a9591843-edc4-4648-af11-21a38e300487",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/4bcc1162-0f31-4704-a31e-dd822f071e62/MENU%CC%81+DESAYUNOS+3.png?format=1500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "a986392c-d821-46e2-ad4d-ca9c8b2ca27c",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/f1ae737e-6a0e-4e55-8146-d134a8bbffcc/MENU%CC%81+DESAYUNOS+2.png?format=1000w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "b8a5e003-d92c-440a-afcb-9222e4ba62da",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/1fd0006e-d760-4224-bda6-45769f1b9282/MENU%CC%81+DESAYUNO+1.png?format=1500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "be0d1c23-7d09-4213-9b4b-73ba84433682",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/22268ec2-4745-4a91-9782-2ff32440cb47/Desayunos+Santas+Conchas.png?format=1000w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "be56bec6-2e7e-4126-bc5e-34430975c569",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/22268ec2-4745-4a91-9782-2ff32440cb47/Desayunos+Santas+Conchas.png?format=2500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "c30f2d3a-e09a-48ad-b87c-03822b4d0b1e",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/22268ec2-4745-4a91-9782-2ff32440cb47/Desayunos+Santas+Conchas.png?format=100w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "c4a5df19-436b-4820-889b-e993513a688f",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/22268ec2-4745-4a91-9782-2ff32440cb47/Desayunos+Santas+Conchas.png",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "cdf4095c-3498-432b-ac3e-ba7edc5f0d74",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/6e41eab8-1377-4c55-ba4b-91bf7ddb3713/MENU%CC%81+BEBIDAS.png?format=500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "ce34c79d-2448-44be-a0d5-6b373e11f592",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/f1ae737e-6a0e-4e55-8146-d134a8bbffcc/MENU%CC%81+DESAYUNOS+2.png?format=300w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "d37aba1f-3122-42ec-9486-a3fa9de233c8",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/4bcc1162-0f31-4704-a31e-dd822f071e62/MENU%CC%81+DESAYUNOS+3.png?format=100w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "d76b1342-a0ed-40fb-8d6e-7f83ab7a9fa6",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/1fd0006e-d760-4224-bda6-45769f1b9282/MENU%CC%81+DESAYUNO+1.png",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "d831e98e-a5ef-477c-820c-fe8df39a7bfa",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/f1ae737e-6a0e-4e55-8146-d134a8bbffcc/MENU%CC%81+DESAYUNOS+2.png",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "dda2e4fd-6efb-4549-9e95-97feb4a32607",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/22268ec2-4745-4a91-9782-2ff32440cb47/Desayunos+Santas+Conchas.png?format=300w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "ed4dd0a1-6108-4905-b95e-5f866949d518",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/74212df9-dfd9-4c1f-8a60-e7a6f36817ce/Bebidas.jpg?format=2500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "f6c92728-22a4-4ecd-9733-4a1752fdc70a",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/22268ec2-4745-4a91-9782-2ff32440cb47/Desayunos+Santas+Conchas.png?format=500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "f7713571-7407-4fa7-954f-7533ec22ff8a",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/f1ae737e-6a0e-4e55-8146-d134a8bbffcc/MENU%CC%81+DESAYUNOS+2.png?format=1500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "fc44618a-ee77-413a-b1f2-61e54c618b5a",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/f1ae737e-6a0e-4e55-8146-d134a8bbffcc/MENU%CC%81+DESAYUNOS+2.png?format=500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "73b29d77-5112-4dcc-add5-98c9fedd69b2",
+        "sourceUrl": "https://www.santasconchas.com/bebidas",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "d49bd363-0c72-42d1-a629-a1fca6a361e0",
+        "sourceUrl": "https://www.santasconchas.com/desayunos",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "37bcb215-269f-489b-83ac-53240380898a",
+        "sourceUrl": "https://www.santasconchas.com/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.75,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:56.362+00:00"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.santasconchas.com/desayunos",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.santasconchas.com/bebidas",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/22268ec2-4745-4a91-9782-2ff32440cb47/Desayunos+Santas+Conchas.png",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/22268ec2-4745-4a91-9782-2ff32440cb47/Desayunos+Santas+Conchas.png?format=100w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/22268ec2-4745-4a91-9782-2ff32440cb47/Desayunos+Santas+Conchas.png?format=300w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/22268ec2-4745-4a91-9782-2ff32440cb47/Desayunos+Santas+Conchas.png?format=500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/22268ec2-4745-4a91-9782-2ff32440cb47/Desayunos+Santas+Conchas.png?format=750w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/22268ec2-4745-4a91-9782-2ff32440cb47/Desayunos+Santas+Conchas.png?format=1000w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/22268ec2-4745-4a91-9782-2ff32440cb47/Desayunos+Santas+Conchas.png?format=1500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/22268ec2-4745-4a91-9782-2ff32440cb47/Desayunos+Santas+Conchas.png?format=2500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/74212df9-dfd9-4c1f-8a60-e7a6f36817ce/Bebidas.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/74212df9-dfd9-4c1f-8a60-e7a6f36817ce/Bebidas.jpg?format=100w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/74212df9-dfd9-4c1f-8a60-e7a6f36817ce/Bebidas.jpg?format=300w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/74212df9-dfd9-4c1f-8a60-e7a6f36817ce/Bebidas.jpg?format=500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/74212df9-dfd9-4c1f-8a60-e7a6f36817ce/Bebidas.jpg?format=750w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/74212df9-dfd9-4c1f-8a60-e7a6f36817ce/Bebidas.jpg?format=1000w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/74212df9-dfd9-4c1f-8a60-e7a6f36817ce/Bebidas.jpg?format=1500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/74212df9-dfd9-4c1f-8a60-e7a6f36817ce/Bebidas.jpg?format=2500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/1fd0006e-d760-4224-bda6-45769f1b9282/MENU%CC%81+DESAYUNO+1.png",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/1fd0006e-d760-4224-bda6-45769f1b9282/MENU%CC%81+DESAYUNO+1.png?format=100w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/1fd0006e-d760-4224-bda6-45769f1b9282/MENU%CC%81+DESAYUNO+1.png?format=300w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/1fd0006e-d760-4224-bda6-45769f1b9282/MENU%CC%81+DESAYUNO+1.png?format=500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/1fd0006e-d760-4224-bda6-45769f1b9282/MENU%CC%81+DESAYUNO+1.png?format=750w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/1fd0006e-d760-4224-bda6-45769f1b9282/MENU%CC%81+DESAYUNO+1.png?format=1000w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/1fd0006e-d760-4224-bda6-45769f1b9282/MENU%CC%81+DESAYUNO+1.png?format=1500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/1fd0006e-d760-4224-bda6-45769f1b9282/MENU%CC%81+DESAYUNO+1.png?format=2500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/f1ae737e-6a0e-4e55-8146-d134a8bbffcc/MENU%CC%81+DESAYUNOS+2.png",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/f1ae737e-6a0e-4e55-8146-d134a8bbffcc/MENU%CC%81+DESAYUNOS+2.png?format=100w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/f1ae737e-6a0e-4e55-8146-d134a8bbffcc/MENU%CC%81+DESAYUNOS+2.png?format=300w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/f1ae737e-6a0e-4e55-8146-d134a8bbffcc/MENU%CC%81+DESAYUNOS+2.png?format=500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/f1ae737e-6a0e-4e55-8146-d134a8bbffcc/MENU%CC%81+DESAYUNOS+2.png?format=750w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/f1ae737e-6a0e-4e55-8146-d134a8bbffcc/MENU%CC%81+DESAYUNOS+2.png?format=1000w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/f1ae737e-6a0e-4e55-8146-d134a8bbffcc/MENU%CC%81+DESAYUNOS+2.png?format=1500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/f1ae737e-6a0e-4e55-8146-d134a8bbffcc/MENU%CC%81+DESAYUNOS+2.png?format=2500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/4bcc1162-0f31-4704-a31e-dd822f071e62/MENU%CC%81+DESAYUNOS+3.png",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/4bcc1162-0f31-4704-a31e-dd822f071e62/MENU%CC%81+DESAYUNOS+3.png?format=100w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/4bcc1162-0f31-4704-a31e-dd822f071e62/MENU%CC%81+DESAYUNOS+3.png?format=300w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/4bcc1162-0f31-4704-a31e-dd822f071e62/MENU%CC%81+DESAYUNOS+3.png?format=500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/4bcc1162-0f31-4704-a31e-dd822f071e62/MENU%CC%81+DESAYUNOS+3.png?format=750w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/4bcc1162-0f31-4704-a31e-dd822f071e62/MENU%CC%81+DESAYUNOS+3.png?format=1000w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/4bcc1162-0f31-4704-a31e-dd822f071e62/MENU%CC%81+DESAYUNOS+3.png?format=1500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/4bcc1162-0f31-4704-a31e-dd822f071e62/MENU%CC%81+DESAYUNOS+3.png?format=2500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/6e41eab8-1377-4c55-ba4b-91bf7ddb3713/MENU%CC%81+BEBIDAS.png",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/6e41eab8-1377-4c55-ba4b-91bf7ddb3713/MENU%CC%81+BEBIDAS.png?format=100w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/6e41eab8-1377-4c55-ba4b-91bf7ddb3713/MENU%CC%81+BEBIDAS.png?format=300w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/6e41eab8-1377-4c55-ba4b-91bf7ddb3713/MENU%CC%81+BEBIDAS.png?format=500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/6e41eab8-1377-4c55-ba4b-91bf7ddb3713/MENU%CC%81+BEBIDAS.png?format=750w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/6e41eab8-1377-4c55-ba4b-91bf7ddb3713/MENU%CC%81+BEBIDAS.png?format=1000w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/6e41eab8-1377-4c55-ba4b-91bf7ddb3713/MENU%CC%81+BEBIDAS.png?format=1500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/68dd74fff4ad145d3a693204/6e41eab8-1377-4c55-ba4b-91bf7ddb3713/MENU%CC%81+BEBIDAS.png?format=2500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://santasconchas.com/menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.santasconchas.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:52:01.572+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=470096172722520198&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:53:01.896+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/SantasConchas",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/santasconchas/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:23:00.96074+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 264,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_cuisine",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "catalogName": "Charco",
+  "slug": "charco",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Charco",
+  "location": {
+    "address": "República de Guatemala 24-6, Centro Histórico (roof of Museo del Cacao, view Templo Mayor)",
+    "neighborhood": "Centro",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06020",
+    "coordinates": {
+      "latitude": 19.4342,
+      "longitude": -99.1319
+    }
+  },
+  "contact": {
+    "phone": "+52 55 5470 9634",
+    "website": "https://www.charco.rest/",
+    "instagram": "charco.rest",
+    "email": null
+  },
+  "hours": [
+    "mié–dom 13:00–23:00 (cocina cierra 21:00)"
+  ],
+  "food": {
+    "cuisine": "vegetable / brasas",
+    "chef": "Ricardo Verdejo",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "website",
+    "url": "https://www.charco.rest/"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.eater.com/venue/895864/charco",
+    "observedAt": "2026-08-17",
+    "itemCount": 7,
+    "items": [
+      {
+        "name": "Farmer’s market crudité, gorgonzola dip, cured egg yolk"
+      },
+      {
+        "name": "Grilled catch of the day, peas, fava beans, seafood beurre monté"
+      },
+      {
+        "name": "Leeks and asparagus, meunière, olives"
+      },
+      {
+        "name": "Spicy kampachi crudo"
+      },
+      {
+        "name": "NY strip steak, beef jus"
+      },
+      {
+        "name": "Cheese empanadas"
+      },
+      {
+        "name": "Tuna tartare"
+      }
+    ],
+    "notes": "Official site has a Menú nav; /menu 404 (Webflow template). No dishes in HTML."
+  },
+  "sources": [
+    {
+      "source": "infatuation",
+      "url": "https://www.theinfatuation.com/mexico-city/reviews/charco",
+      "fields": [
+        "address",
+        "phone",
+        "instagram"
+      ]
+    }
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": []
+}

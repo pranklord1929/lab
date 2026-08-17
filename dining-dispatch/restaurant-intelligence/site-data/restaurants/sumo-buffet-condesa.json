@@ -1,0 +1,255 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "22184ebc-0c5a-435a-b170-5e70fa6ee604",
+  "slug": "sumo-buffet-condesa",
+  "name": "Sumo Buffet Condesa",
+  "location": {
+    "neighborhood": "HIPÓDROMO CONDESA",
+    "borough": "Cuauhtémoc",
+    "address": "Av. Tamaulipas, Del. Cuauhtémoc #99, Colonia Condesa, Cuauhtémoc, 06170 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4106055,
+      "longitude": -99.1748649
+    }
+  },
+  "contact": {
+    "phone": null,
+    "website": "https://www.sumobuffet.mx/",
+    "instagram": "https://instagram.com/sumobuffetmx/",
+    "googleMapsUrl": "https://maps.google.com/?cid=12690527253343928367&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "family",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 12:00–9:00 p.m.",
+      "lunes: 12:00–10:00 p.m.",
+      "martes: 12:00–10:00 p.m.",
+      "miércoles: 12:00–10:00 p.m.",
+      "jueves: 12:00–11:00 p.m.",
+      "viernes: 12:00 p.m. – 12:00 a.m.",
+      "sábado: 12:00 p.m. – 12:00 a.m."
+    ],
+    "rating": 4.2,
+    "reviewCount": 5420
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-17T10:10:05.905Z",
+    "observationAgeDaysAtExport": 31,
+    "documentCount": 7,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "82781c67-38ac-46bb-b879-030b9efc2001",
+        "sourceUrl": "https://static.wixstatic.com/media/eee09d_05b8aa55261e42118e571fda0b0280d2~mv2.png/v1/fill/w_612,h_1011,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/MENU%20SUMITOS%20NUEVO.png",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "21ba429c-9d5d-4d3b-8729-e6d264aa6359",
+        "sourceUrl": "https://www.sumobuffet.mx/menu-a-la-carta",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "247011c4-826f-49a6-af16-43377196cddc",
+        "sourceUrl": "https://sumobuffet.mx/bebidas-sumo-buffet",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "335b3239-b416-4992-a2fd-7dd6f6451af0",
+        "sourceUrl": "https://www.sumobuffet.mx/menu-infantil-sumo-buffet",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "52cbb947-fde2-42c6-a8d9-017352756eb4",
+        "sourceUrl": "https://sumobuffet.mx/menu-infantil-sumo-buffet",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "716a7361-6a12-4921-b383-14d228f45454",
+        "sourceUrl": "https://www.sumobuffet.mx/bebidas-sumo-buffet",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "f9c28bde-fc7b-47af-adb1-21889a9c80b1",
+        "sourceUrl": "https://sumobuffet.mx/menu-a-la-carta",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://static.wixstatic.com/media/eee09d_05b8aa55261e42118e571fda0b0280d2~mv2.png/v1/fill/w_612,h_1011,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/MENU%20SUMITOS%20NUEVO.png",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://sumobuffet.mx/menu-a-la-carta",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://sumobuffet.mx/menu-infantil-sumo-buffet",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://sumobuffet.mx/bebidas-sumo-buffet",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.sumobuffet.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:52:10.413+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=12690527253343928367&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:53:04.164+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/Sumo-Buffet-M%C3%A9xico-102913672583225",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/sumobuffetmx/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.165171+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:23:44.169334+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 5,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

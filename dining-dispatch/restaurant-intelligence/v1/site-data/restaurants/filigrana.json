@@ -1,0 +1,426 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "94255bef-873b-4ae8-9b2a-f1b05f3031d9",
+  "slug": "filigrana",
+  "name": "Filigrana",
+  "location": {
+    "neighborhood": "ROMA NORTE",
+    "borough": "Cuauhtémoc",
+    "address": "Av. Veracruz 62, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4174548,
+      "longitude": -99.1739482
+    }
+  },
+  "contact": {
+    "phone": "55 4398 3137",
+    "website": "https://filigrana.com.mx/",
+    "instagram": "https://www.instagram.com/filigranacdmx",
+    "googleMapsUrl": "https://maps.google.com/?cid=6215804261303381501&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "mexican",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": "Stylish eatery with a contemporary ambiance dishing up creative cuisine, plus cocktails.",
+    "hours": [
+      "domingo: 9:00 a.m. – 5:00 p.m.",
+      "lunes: 1:00–10:00 p.m.",
+      "martes: 1:00–10:00 p.m.",
+      "miércoles: 1:00–10:00 p.m.",
+      "jueves: 1:00–11:00 p.m.",
+      "viernes: 1:00–11:00 p.m.",
+      "sábado: 9:00 a.m. – 11:00 p.m."
+    ],
+    "rating": 4.5,
+    "reviewCount": 1339
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [
+      {
+        "type": "reservation",
+        "provider": "opentable",
+        "url": "https://www.opentable.com.mx/restaurant/profile/1042051/reserve?rid=1042051&",
+        "confidence": null,
+        "checkedAt": "2026-07-09T18:47:46.33+00:00"
+      }
+    ],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null,
+    "url": "https://www.filigrana.com.mx/",
+    "platform": "official"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-08-17",
+    "observationAgeDaysAtExport": 31,
+    "documentCount": 7,
+    "itemCount": 42,
+    "documents": [
+      "https://www.filigrana.com.mx/wp-content/uploads/2023/11/Desayuno.jpg",
+      "https://www.filigrana.com.mx/wp-content/uploads/2023/11/Desayuno2.jpg",
+      "https://www.filigrana.com.mx/wp-content/uploads/2023/11/Comida.jpg",
+      "https://www.filigrana.com.mx/wp-content/uploads/2023/11/Comida2.jpg",
+      "https://www.filigrana.com.mx/wp-content/uploads/2023/11/Comida3.jpg",
+      "https://www.filigrana.com.mx/wp-content/uploads/2023/11/Comida4.jpg",
+      "https://www.filigrana.com.mx/wp-content/uploads/2023/11/Vinos.jpg"
+    ],
+    "items": [
+      {
+        "name": "Fresco jugo de naranja",
+        "category": "desayuno-jugos"
+      },
+      {
+        "name": "Exótico jugo verde",
+        "category": "desayuno-jugos",
+        "description": "Manzana, apio y hierbabuena"
+      },
+      {
+        "name": "Jugo de betabel",
+        "category": "desayuno-jugos",
+        "description": "Con naranja, frutos rojos y cardamomo"
+      },
+      {
+        "name": "Licuado de mamey",
+        "category": "desayuno-jugos",
+        "description": "Con dulce leche de arroz"
+      },
+      {
+        "name": "Bodegón de frutas",
+        "category": "desayuno",
+        "description": "Espuma ligera de yogurt, granola de cacao"
+      },
+      {
+        "name": "Tostada de pan con el oro verde",
+        "category": "desayuno",
+        "description": "Pan de ceniza, aguacate, hinojo, ensalada fresca con semillas"
+      },
+      {
+        "name": "Chilaquiles solares",
+        "category": "desayuno",
+        "description": "Salsa de tomate amarillo, chile güero, crema de rancho y queso holandés"
+      },
+      {
+        "name": "Huevos norteños",
+        "category": "desayuno",
+        "description": "Machaca, salsa tatemada y tortillas de harina"
+      },
+      {
+        "name": "Huevos de pueblo",
+        "category": "desayuno",
+        "description": "Tlayuda, romeritos y salsa tatemada"
+      },
+      {
+        "name": "Huevos orgánicos a complacencia",
+        "category": "desayuno"
+      },
+      {
+        "name": "Sopes miniatura",
+        "category": "desayuno-maiz",
+        "description": "Recado negro de cerdo, frijoles refritos, encurtido de cebolla con habanero"
+      },
+      {
+        "name": "Gordita de lengua guisada",
+        "category": "desayuno-maiz",
+        "description": "Ensalada al orégano y confeti de hoja santa"
+      },
+      {
+        "name": "Tamal desnudo de setas",
+        "category": "desayuno-maiz",
+        "description": "Queso de hebra, salsa verde con hoja santa, verdolagas"
+      },
+      {
+        "name": "Pan francés",
+        "category": "desayuno-dulce",
+        "description": "Queso mascarpone, yogurt, frutas mexicanas y miel multifloral"
+      },
+      {
+        "name": "Chino de nuez",
+        "category": "pan-dulce",
+        "description": "Coco y piña"
+      },
+      {
+        "name": "Concha arte de vainilla",
+        "category": "pan-dulce"
+      },
+      {
+        "name": "Dona Filigrana de peltre",
+        "category": "pan-dulce"
+      },
+      {
+        "name": "Hojaldre relleno de xoconostle y queso ricotta",
+        "category": "pan-dulce"
+      },
+      {
+        "name": "Ceviche vampiro",
+        "category": "comida",
+        "description": "Mango, sangrita y aguanieve de chamoy"
+      },
+      {
+        "name": "Pescado zarandeado",
+        "category": "comida",
+        "description": "Adobo de piña, hierbabuena y albahaca"
+      },
+      {
+        "name": "Guacamole",
+        "category": "comida-llegada",
+        "description": "Habas, sal de insectos, tostadas de maíz martajado"
+      },
+      {
+        "name": "Láminas de cecina frita",
+        "category": "comida-llegada",
+        "description": "Salsa y aguacate tatemado"
+      },
+      {
+        "name": "Tostadas miniatura",
+        "category": "comida-llegada",
+        "description": "Pescado blanco al limón, mayonesa negra brava y cebolla morada"
+      },
+      {
+        "name": "Tortitas de papa",
+        "category": "comida-llegada",
+        "description": "Queso ahumado y salsa amarilla luminosa"
+      },
+      {
+        "name": "Quesadilla abierta",
+        "category": "comida-llegada",
+        "description": "Festín de quesos, quelites, elote tierno, miel y trufas"
+      },
+      {
+        "name": "Tamal frito de setas",
+        "category": "comida-llegada",
+        "description": "Queso de hebra, salsa roja de chile guajillo"
+      },
+      {
+        "name": "Ensalada primaveral con la verde lluvia",
+        "category": "comida-llegada",
+        "description": "Manzana verde, uva, apio, lechuga y yogurt"
+      },
+      {
+        "name": "Ensalada de la fuente de sodas",
+        "category": "comida-llegada",
+        "description": "Aguanieve de queso de cabra, jitomates miniatura, betabel rostizado"
+      },
+      {
+        "name": "Fideo seco",
+        "category": "comida-llegada",
+        "description": "Adobo a la canela, espuma de queso, juliana de chile pasilla"
+      },
+      {
+        "name": "Sopa ilustrada de letras",
+        "category": "comida-llegada",
+        "description": "Huevo de codorniz, queso fresco, caldillo picante con verdolagas"
+      },
+      {
+        "name": "Coliflor rostizada",
+        "category": "comida-fuertes",
+        "description": "Salsa de ajonjolí y chile ahumado picante"
+      },
+      {
+        "name": "Pescado blanco en salsa",
+        "category": "comida-fuertes",
+        "description": "Esquites tatemados, aceite de epazote"
+      },
+      {
+        "name": "Pollo con mole de las virtudes",
+        "category": "comida-fuertes",
+        "description": "Puré de plátano robusto"
+      },
+      {
+        "name": "Panceta de cerdo",
+        "category": "comida-fuertes",
+        "description": "Salsa dulce de pulque, chiles ahumados, puré de haba"
+      },
+      {
+        "name": "Lengua de res en jade pipián",
+        "category": "comida-fuertes",
+        "description": "Puré de coliflor al comino, arúgula y nopal"
+      },
+      {
+        "name": "Moderno mole de olla",
+        "category": "comida-fuertes",
+        "description": "Asado de tira, verduras miniatura, xoconostle"
+      },
+      {
+        "name": "Flan de leche de coco",
+        "category": "postres",
+        "description": "Piña tropical a las especias"
+      },
+      {
+        "name": "Fluido vital",
+        "category": "postres",
+        "description": "Cacao, eucalipto y hoja de aguacate"
+      },
+      {
+        "name": "Gelatina de yogurt",
+        "category": "postres",
+        "description": "Lavanda, zarzamoras, frambuesas"
+      },
+      {
+        "name": "Raspado de aguanieve",
+        "category": "postres",
+        "description": "Hierbabuena y frutos mexicanos"
+      },
+      {
+        "name": "Pastel de elote",
+        "category": "postres",
+        "description": "Helado de tlayuda tostada y caramelo"
+      },
+      {
+        "name": "Feria de nieves y helados",
+        "category": "postres",
+        "description": "Galleta de animalitos"
+      }
+    ],
+    "url": "https://www.filigrana.com.mx/",
+    "notes": "OCR of official JPG menus (Desayuno.jpg, Comida.jpg). No prices printed on the images."
+  },
+  "links": [
+    {
+      "type": "contact",
+      "provider": "whatsapp",
+      "url": "https://api.whatsapp.com/send?phone=5215546045791",
+      "confidence": null,
+      "checkedAt": "2026-07-09T18:47:16.445+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.filigrana.com.mx/wp-content/uploads/2022/11/MENU.png",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.filigrana.com.mx/wp-content/uploads/2023/11/Desayuno.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.filigrana.com.mx/wp-content/uploads/2023/11/Vinos.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.filigrana.com.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:43.373+00:00"
+    },
+    {
+      "type": "reservation",
+      "provider": "opentable",
+      "url": "https://www.opentable.com.mx/restaurant/profile/1042051/reserve?rid=1042051&",
+      "confidence": null,
+      "checkedAt": "2026-07-09T18:47:46.33+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=6215804261303381501&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:33.435+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/filigranacdmx/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://www.facebook.com/FiligranaCDMX",
+      "confidence": null,
+      "checkedAt": "2026-07-09T18:48:04.954+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://www.instagram.com/filigranacdmx",
+      "confidence": null,
+      "checkedAt": "2026-07-09T18:48:04.053+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "google_places",
+      "official_website",
+      "restaurantguru"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:09:03.377653+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": true,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 44,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "menu",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_price_level",
+      "missing_structured_menu_items"
+    ]
+  }
+}

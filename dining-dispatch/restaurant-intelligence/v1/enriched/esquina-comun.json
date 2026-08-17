@@ -1,0 +1,116 @@
+{
+  "catalogName": "Esquina Común",
+  "slug": "esquina-comun",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Esquina Común",
+  "location": {
+    "address": "Fernando Montes de Oca 86, Condesa",
+    "neighborhood": "Condesa",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06140",
+    "coordinates": {
+      "latitude": 19.4138958,
+      "longitude": -99.1767786
+    }
+  },
+  "contact": {
+    "phone": "+525555555555",
+    "website": "https://www.instagram.com/esquinacomun/",
+    "instagram": "esquinacomun",
+    "email": null
+  },
+  "hours": [
+    "Not stably published; reserve first."
+  ],
+  "food": {
+    "cuisine": "mexican creative",
+    "chef": "Ana Dolores González",
+    "priceLevel": 4,
+    "notes": "Rooftop / tasting-style; 1 Michelin star."
+  },
+  "reservation": {
+    "platform": "instagram DM + opentable",
+    "url": "https://www.opentable.com/r/esquina-comun-ciudad-de-mexico",
+    "notes": "Michelin: reservations historically via Instagram DM."
+  },
+  "distinctions": {
+    "michelin": "Una Estrella : una cocina de gran nivel",
+    "michelinStars": 1
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/esquina-comun",
+    "observedAt": "2026-08-17",
+    "itemCount": 2,
+    "items": [
+      {
+        "name": "Pescado del día — bacalao a la plancha en mole verde, plátano macho, habas y semillas"
+      },
+      {
+        "name": "Menú degustación / raciones para dos"
+      }
+    ],
+    "notes": "No public standing menu. Tasting / IG-DM reservation."
+  },
+  "sources": [
+    {
+      "source": "michelin",
+      "url": "https://guide.michelin.com/us/en/ciudad-de-mexico/cuauhtemoc_1995126/restaurant/esquina-comun",
+      "fields": [
+        "address",
+        "stars",
+        "reservation"
+      ]
+    },
+    {
+      "source": "opentable",
+      "url": "https://www.opentable.com/r/esquina-comun-ciudad-de-mexico",
+      "fields": [
+        "address"
+      ]
+    }
+  ],
+  "gaps": [
+    "phone",
+    "hours",
+    "coordinates"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "michelinReview": "Puede que la dirección de este local de moda ya no sea un secreto, pero las reservaciones siguen dándose a cuentagotas (y sólo se pueden hacer por mensaje directo en Instagram). En su azotea cubierta, con abundante vegetación, se respira una atmósfera agradable y relajada. Un marco perfecto pues para la personalísima cocina de la chef Ana Dolores González y su joven y talentoso equipo, caracterizada por su sólida base técnica y la calidad de sus ingredientes. Las propuestas, en forma de menú de degustación y raciones para dos personas, son impresionantes. Destaca el pescado del día, que puede ser bacalao a la plancha en un voluptuoso mole verde con plátano macho machacado, habas y semillas de calabaza. Siguiendo con el tema, el tamal de pescado de masa y plátano está relleno de pescado teñido de chile rojo con una sabrosa salsa macha.",
+  "ratings": {
+    "opentable": 4.9,
+    "opentableReviews": 407
+  },
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/esquina-comun",
+      "id": "1208933"
+    },
+    {
+      "source": "opentable",
+      "name": "Esquina Común",
+      "rating": 4.9
+    }
+  ],
+  "opentableAwards": [
+    {
+      "name": "MICHELIN",
+      "year": 2025,
+      "__typename": "RestaurantAward"
+    },
+    {
+      "name": "MICHELIN",
+      "year": 2024,
+      "__typename": "RestaurantAward"
+    }
+  ]
+}

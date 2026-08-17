@@ -1,0 +1,20 @@
+{
+  "slug": "er-rre-un-bistro",
+  "name": "Er Rre un Bistró",
+  "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/miguel-hidalgo_1999281/restaurante/er-rre-un-bistro",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Sardinas asadas"
+    },
+    {
+      "name": "Pastas de influencia italiana"
+    },
+    {
+      "name": "Crepes Suzette",
+      "category": "postres"
+    }
+  ],
+  "notes": "Guía Michelin 2026 inspector (CDMX)."
+}

@@ -1,0 +1,119 @@
+{
+  "catalogName": "Chevere",
+  "slug": "chevere",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Chévere",
+  "location": {
+    "address": "Campos Elíseos 295-Piso 2, Polanco",
+    "neighborhood": "Polanco",
+    "borough": "Miguel Hidalgo",
+    "postalCode": null,
+    "coordinates": {
+      "latitude": 19.4279498,
+      "longitude": -99.1922341
+    }
+  },
+  "contact": {
+    "phone": "+52 55 4463 8252",
+    "website": "https://www.instagram.com/chevere.restaurante/",
+    "instagram": "chevere.restaurante",
+    "email": null,
+    "websiteIsInstagram": true
+  },
+  "hours": [
+    "lun–dom 12:30–02:00"
+  ],
+  "food": {
+    "cuisine": "fusión mexicana-francesa-japonesa",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "opentable / whatsapp / reservandonos",
+    "url": "https://www.opentable.com.mx/r/chevere-ciudad-de-mexico",
+    "phone": "+52 55 4463 8252"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://reservandonos.com/lugar/chevere-polanco/",
+    "observedAt": "2026-08-17",
+    "itemCount": 5,
+    "items": [
+      {
+        "name": "Pescado zarandeado",
+        "price": null,
+        "currency": "MXN",
+        "category": "fuertes"
+      },
+      {
+        "name": "Ensalada César",
+        "price": null,
+        "currency": "MXN",
+        "category": "ensaladas"
+      },
+      {
+        "name": "Abulón",
+        "price": null,
+        "currency": "MXN",
+        "category": "mariscos"
+      },
+      {
+        "name": "Steak frites",
+        "price": null,
+        "currency": "MXN",
+        "category": "fuertes"
+      },
+      {
+        "name": "Clam chowder en croute",
+        "price": null,
+        "currency": "MXN",
+        "category": "sopas"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "reservandonos",
+      "url": "https://reservandonos.com/lugar/chevere-polanco/",
+      "fields": [
+        "hours",
+        "address",
+        "cuisine"
+      ]
+    },
+    {
+      "source": "opentable",
+      "url": "https://www.opentable.com.mx/r/chevere-ciudad-de-mexico",
+      "fields": [
+        "reservation"
+      ]
+    },
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/chevere.restaurante/",
+      "fields": [
+        "address",
+        "whatsapp"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://reservandonos.com/lugar/chevere-polanco/",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "gaps": [
+    "website"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": []
+}

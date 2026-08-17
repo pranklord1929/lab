@@ -1,0 +1,265 @@
+{
+  "slug": "guzina-oaxaca",
+  "name": "Guzina Oaxaca",
+  "url": "https://www.guzinaoaxaca.org/comidas-y-cenas",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "notes": "Official Squarespace menu pages (guzinaoaxaca.com redirects; live menus on guzinaoaxaca.org).",
+  "items": [
+    {
+      "name": "Chocolate caliente",
+      "category": "desayuno-bebidas"
+    },
+    {
+      "name": "Champurrado",
+      "category": "desayuno-bebidas"
+    },
+    {
+      "name": "Atolito de guayaba",
+      "category": "desayuno-bebidas"
+    },
+    {
+      "name": "Café de olla / americano / capuccino",
+      "category": "desayuno-bebidas"
+    },
+    {
+      "name": "Pan de yema",
+      "category": "desayuno-canasta"
+    },
+    {
+      "name": "Panqué del día hecho en casa",
+      "category": "desayuno-canasta"
+    },
+    {
+      "name": "Pan dulce del día",
+      "category": "desayuno-canasta",
+      "description": "Fin de semana"
+    },
+    {
+      "name": "Jugo de fruta de la temporada",
+      "category": "desayuno-fresco"
+    },
+    {
+      "name": "Jugo verde",
+      "category": "desayuno-fresco"
+    },
+    {
+      "name": "Jugo de jengibre, piña, naranja",
+      "category": "desayuno-fresco"
+    },
+    {
+      "name": "Variación de fruta de la temporada",
+      "category": "desayuno-fresco",
+      "description": "Con yogurt, granola y miel"
+    },
+    {
+      "name": "Quesadillas con guacamole",
+      "category": "desayuno-comal",
+      "description": "Flor de calabaza, champiñones o huitlacoche / tasajo, chorizo, cecina, chapulines"
+    },
+    {
+      "name": "Memelitas tradicionales",
+      "category": "desayuno-comal",
+      "description": "Aciento, pasta de frijol, queso fresco / tasajo, chorizo, cecina, chapulines"
+    },
+    {
+      "name": "Tetelas con chicharrón prensado",
+      "category": "desayuno-comal",
+      "description": "Salsa verde cruda con aguacate"
+    },
+    {
+      "name": "Tamal de mole negro con pollo",
+      "category": "desayuno-tamaliza"
+    },
+    {
+      "name": "Tamal de mole amarillo con pollo",
+      "category": "desayuno-tamaliza"
+    },
+    {
+      "name": "Tamal de rajas con queso fresco",
+      "category": "desayuno-tamaliza"
+    },
+    {
+      "name": "Pan de elote",
+      "category": "desayuno-almuerzos",
+      "description": "Compota de frutos rojos y mango"
+    },
+    {
+      "name": "Tostón de aguacate y quinoa",
+      "category": "desayuno-almuerzos",
+      "description": "Queso asado, jitomate de riñón, pesto de epazote"
+    },
+    {
+      "name": "Tasajo gratinado",
+      "category": "desayuno-almuerzos",
+      "description": "Verdolagas y salsa morita"
+    },
+    {
+      "name": "Tlayuda tradicional",
+      "category": "desayuno-almuerzos",
+      "description": "Con tasajo o chorizo"
+    },
+    {
+      "name": "Enmoladas de coloradito",
+      "category": "desayuno-almuerzos",
+      "description": "Rellenas de pollo al orégano"
+    },
+    {
+      "name": "Enfrijoladas o entomatadas",
+      "category": "desayuno-almuerzos",
+      "description": "Huevos estrellados / tasajo o cecina"
+    },
+    {
+      "name": "Chilaquiles en salsa de miltomate, roja o mole colorado",
+      "category": "desayuno-almuerzos"
+    },
+    {
+      "name": "Chilaquiles en salsa roja picosa",
+      "category": "desayuno-almuerzos",
+      "description": "Chiltepín y chorizo frito"
+    },
+    {
+      "name": "Huevos estrellados o revueltos",
+      "category": "desayuno-granja",
+      "description": "Con chorizo, tasajo o cecina"
+    },
+    {
+      "name": "Rancheros con hoja santa y queso fresco",
+      "category": "desayuno-granja"
+    },
+    {
+      "name": "Omelettes rellenos con quesillo",
+      "category": "desayuno-granja"
+    },
+    {
+      "name": "Salsa de huevo y chicharrón",
+      "category": "desayuno-granja",
+      "description": "Con chile de agua"
+    },
+    {
+      "name": "Guacamole y chapulines para picar",
+      "category": "entradas",
+      "description": "Quesillo, queso fresco y chicharrón de cerdito"
+    },
+    {
+      "name": "Tlayuda preparada con picaña rostizada",
+      "category": "entradas",
+      "description": "Aciento, pasta de frijol, quesillo, col rallada"
+    },
+    {
+      "name": "Flores de calabaza rellenas de requesón",
+      "category": "entradas",
+      "description": "Miel de abeja, epazote frito, puré de camote"
+    },
+    {
+      "name": "Ceviche de medregal con xoconostle",
+      "category": "entradas",
+      "description": "Salsa de cacahuate tostado con chile morita"
+    },
+    {
+      "name": "Tostada campechana de camarón y pulpo",
+      "category": "entradas"
+    },
+    {
+      "name": "Empanada San Antonino de amarillito con cangrejo",
+      "category": "entradas"
+    },
+    {
+      "name": "Romesco de pasilla mixe con hongos confitados",
+      "category": "entradas"
+    },
+    {
+      "name": "Aguachile de camarón y chiltepín",
+      "category": "entradas"
+    },
+    {
+      "name": "Taquitos de pato con mole coloradito",
+      "category": "entradas"
+    },
+    {
+      "name": "Tacos de lengua en barbacoa",
+      "category": "entradas",
+      "description": "Costra de quesillo, pasta de frijol, salsa verde cruda"
+    },
+    {
+      "name": "Taquitos de cerdito",
+      "category": "entradas",
+      "description": "Salsa verde cruda con aguacate, chicharrón, guacachile"
+    },
+    {
+      "name": "Sopa de jitomate riñón",
+      "category": "sopas"
+    },
+    {
+      "name": "Caldito de amarillito costeño con hongos",
+      "category": "sopas"
+    },
+    {
+      "name": "Camarones a la parrilla con aceite de chiles tostados",
+      "category": "del-mar"
+    },
+    {
+      "name": "Pesca del día con esquites cremosos al epazote",
+      "category": "del-mar"
+    },
+    {
+      "name": "Pulpo maya tatemado",
+      "category": "del-mar",
+      "description": "Agridulce de chile morita, puré de camote, mantequilla de chintextle"
+    },
+    {
+      "name": "Tetelas enchiladas en chichilo rojo",
+      "category": "de-la-cocina",
+      "description": "Rellenas de cuitlacoche con elote [Cañada]"
+    },
+    {
+      "name": "Tostada de chamorro confitado y chicatanas",
+      "category": "de-la-cocina"
+    },
+    {
+      "name": "Mole negro mixteco con pechuga de pato maple",
+      "category": "de-la-cocina"
+    },
+    {
+      "name": "Tamales de mole coloradito con cerdito",
+      "category": "de-la-cocina"
+    },
+    {
+      "name": "Estofado almendrado con lengua de res",
+      "category": "de-la-cocina",
+      "description": "Valles Centrales"
+    },
+    {
+      "name": "Short rib en barbacoa mixteca con yiki",
+      "category": "de-la-cocina",
+      "description": "CAB"
+    },
+    {
+      "name": "Panna cotta de yogurt natural",
+      "category": "postres",
+      "description": "Perlas de miel de abeja y crujiente dulce de chapulín"
+    },
+    {
+      "name": "Mamey crujiente",
+      "category": "postres",
+      "description": "Buñuelos, coco tostado, crocante de tejate"
+    },
+    {
+      "name": "Pastel de elote tierno con rompope",
+      "category": "postres"
+    },
+    {
+      "name": "Pastel de chocolate con hoja santa",
+      "category": "postres"
+    },
+    {
+      "name": "Torrija de pan de yema de Tlacolula",
+      "category": "postres"
+    },
+    {
+      "name": "Nieves y helados del día",
+      "category": "postres",
+      "description": "Con dulce de guayaba"
+    }
+  ]
+}

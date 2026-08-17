@@ -1,0 +1,238 @@
+{
+  "catalogName": "Voraz",
+  "slug": "voraz",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Voraz",
+  "location": {
+    "address": "Aguascalientes 93, Roma Sur",
+    "neighborhood": "Roma Sur",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06760",
+    "coordinates": {
+      "latitude": 19.4089732,
+      "longitude": -99.1637948
+    }
+  },
+  "contact": {
+    "phone": "+52 55 2534 0704",
+    "website": "https://www.voraz.com/",
+    "instagram": "vorazzzzzzzzz",
+    "email": "reservaciones@voraz.com"
+  },
+  "hours": [
+    "lun–sáb 13:00–01:00 (cocina cierra 23:00)",
+    "dom 13:00–22:00"
+  ],
+  "food": {
+    "cuisine": "mexican gastro-cantina",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "whatsapp / email",
+    "url": "https://www.voraz.com/en/",
+    "notes": "WhatsApp +52 55 2534 0704"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.voraz.com/wp-content/uploads/2025/02/Menu-Voraz.pdf",
+    "observedAt": "2026-08-17",
+    "itemCount": 24,
+    "items": [
+      {
+        "name": "Habas tatemadas",
+        "price": 85,
+        "currency": "MXN",
+        "category": "botanas",
+        "description": "Conserva de habas tatemadas en aceite de oliva arbequina, ralladura de limón amarillo y laurel"
+      },
+      {
+        "name": "Papas rudas",
+        "price": 225,
+        "currency": "MXN",
+        "category": "botanas",
+        "description": "Papa orgánica en gajos con 3 cocciones, dip de jocoque con cilantro"
+      },
+      {
+        "name": "Churro salado",
+        "price": 225,
+        "currency": "MXN",
+        "category": "botanas",
+        "description": "Churro XL con chaya, salsa de queso cotija añejo y polvo de chile chilhuacle"
+      },
+      {
+        "name": "Orejas con achiote",
+        "price": 250,
+        "currency": "MXN",
+        "category": "botanas",
+        "description": "Orejas confitadas y fritas, vinagreta de achiote, naranja agria y habanero"
+      },
+      {
+        "name": "Alitas brutas",
+        "price": 235,
+        "currency": "MXN",
+        "category": "botanas",
+        "description": "Alitas marinadas limón y tomillo, salsa de limón, chile morita y aceite de ajo, aderezo ranch"
+      },
+      {
+        "name": "Tostada de atún",
+        "price": 265,
+        "currency": "MXN",
+        "category": "frios",
+        "description": "Nixtamal, chintextle, atún de Baja California, aguacate, salsa macha dulce, jícama"
+      },
+      {
+        "name": "Ensalada de machaca",
+        "price": 265,
+        "currency": "MXN",
+        "category": "frios",
+        "description": "Lechuga francesa, aderezo de aguacate, machaca de res tostada, yema curada"
+      },
+      {
+        "name": "Mejillones",
+        "price": 380,
+        "currency": "MXN",
+        "category": "frios",
+        "description": "Aceite de guajillo tostado, ceviche fresco de maíz; pieza $65"
+      },
+      {
+        "name": "Ceviche verde",
+        "price": 399,
+        "currency": "MXN",
+        "category": "frios",
+        "description": "Pesca del día y pulpo frito, habanero verde, aguacate, jilote"
+      },
+      {
+        "name": "Gordita de ostión",
+        "price": 275,
+        "currency": "MXN",
+        "category": "unitarios",
+        "description": "Ostiones fritos, aguacate, ensalada de apio, salsa de habanero quemado"
+      },
+      {
+        "name": "Taco planchado",
+        "price": 95,
+        "currency": "MXN",
+        "category": "unitarios",
+        "description": "Barriga de cerdo confitada 8 horas, salsa molcajeteada de 3 tomates"
+      },
+      {
+        "name": "Taco McAllen",
+        "price": 200,
+        "currency": "MXN",
+        "category": "unitarios",
+        "description": "Harina y maíz, cheddar, Black Angus, cebolla caramelizada con mezcal"
+      },
+      {
+        "name": "Pirata con tuétano",
+        "price": 425,
+        "currency": "MXN",
+        "category": "unitarios",
+        "description": "Carne asada Black Angus, queso asadero, verdolagas, tuétano asado"
+      },
+      {
+        "name": "Brócoli yucateco",
+        "price": 250,
+        "currency": "MXN",
+        "category": "acompanamientos",
+        "description": "Asado en leña, mantequilla de epazote y chile piquín"
+      },
+      {
+        "name": "Uchepo",
+        "price": 255,
+        "currency": "MXN",
+        "category": "acompanamientos",
+        "description": "Tamal semi dulce de elote tierno, espuma de queso, mermelada"
+      },
+      {
+        "name": "Frijoles con queso",
+        "price": 215,
+        "currency": "MXN",
+        "category": "acompanamientos",
+        "description": "Frijoles cremosos, queso panela asado, crema de cebolla asada"
+      },
+      {
+        "name": "Guacamole",
+        "price": 195,
+        "currency": "MXN",
+        "category": "acompanamientos",
+        "description": "Aguacate martajado, chochoyotas fritas y verdolagas"
+      },
+      {
+        "name": "Pollo pibil",
+        "price": 585,
+        "currency": "MXN",
+        "category": "principales",
+        "description": "Pollito lechal orgánico asado en leña, achiote, ensalada de romeritos"
+      },
+      {
+        "name": "Pescado negro",
+        "price": 515,
+        "currency": "MXN",
+        "category": "principales",
+        "description": "Rockot de Baja California, recado negro, aguacate quemado"
+      },
+      {
+        "name": "Arrachera mixteca",
+        "price": 725,
+        "currency": "MXN",
+        "category": "principales",
+        "description": "Arrachera wagyu cross, cacao, hormiga chicatana y mixe"
+      },
+      {
+        "name": "Chamorro cantinero",
+        "price": 765,
+        "currency": "MXN",
+        "category": "principales",
+        "description": "Chamorro de cerdo glaseado, adobo de chiles"
+      },
+      {
+        "name": "Corte vaquero",
+        "price": 5000,
+        "currency": "MXN",
+        "category": "principales",
+        "description": "Cowboy wagyu cross 1 kg, jueves a domingo; extra tortillas de harina $40; quesadillas de harina x3 $90"
+      },
+      {
+        "name": "Tarta Reynosa",
+        "price": 285,
+        "currency": "MXN",
+        "category": "postres",
+        "description": "Nuez pecana con maple, helado de vainilla de Papantla y queso brie"
+      },
+      {
+        "name": "Magdalena de chocolate",
+        "price": 250,
+        "currency": "MXN",
+        "category": "postres",
+        "description": "Glaseado de chocolate, crujiente de miel, helado de vainilla"
+      }
+    ],
+    "notes": "Official PDF Menu-Voraz.pdf (Feb 2025), still linked from voraz.com."
+  },
+  "sources": [
+    {
+      "source": "official",
+      "url": "https://www.voraz.com/en/",
+      "fields": [
+        "address",
+        "hours",
+        "phone",
+        "email",
+        "instagram"
+      ]
+    }
+  ],
+  "gaps": [
+    "coordinates"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": []
+}

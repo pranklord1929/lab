@@ -1,0 +1,232 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "adca123a-79ac-4e60-927c-0ca49b497391",
+  "slug": "banquetes-mayita",
+  "name": "Banquetes Mayita",
+  "location": {
+    "neighborhood": "CAROLA",
+    "borough": "Álvaro Obregón",
+    "address": "C. 18 254, Carola, San Pedro de los Pinos, Álvaro Obregón, 01180 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3879925,
+      "longitude": -99.1953879
+    }
+  },
+  "contact": {
+    "phone": "55 4122 2250",
+    "website": "http://www.banquetesmayita.com.mx/",
+    "instagram": "https://instagram.com/banquetes.mayita/",
+    "googleMapsUrl": "https://maps.google.com/?cid=6875134316286192473&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "catering_service",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 4
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: Cerrado",
+      "lunes: 10:00 a.m. – 5:00 p.m.",
+      "martes: 10:00 a.m. – 5:00 p.m.",
+      "miércoles: 10:00 a.m. – 5:00 p.m.",
+      "jueves: 10:00 a.m. – 5:00 p.m.",
+      "viernes: 10:00 a.m. – 5:00 p.m.",
+      "sábado: 10:00 a.m. – 5:00 p.m."
+    ],
+    "rating": 4.6,
+    "reviewCount": 44
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 2,
+    "itemCount": 3,
+    "documents": [
+      {
+        "id": "a35a7547-92e7-4151-ab4d-4c695de98afc",
+        "sourceUrl": "https://banquetesmayita.com.mx/avisodeprivacidad.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.95,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "da811e03-4b0b-41e2-a539-f3335a135fd2",
+        "sourceUrl": "https://banquetesmayita.com.mx/menu.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.95,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": [
+      {
+        "id": "e3da71b5-dc37-45f2-a7f4-1082fedc3f5d",
+        "documentId": null,
+        "name": "CHUTNEY DE MANZANA VERDE",
+        "description": null,
+        "price": 290,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "b05fb925-6907-4c0a-a73c-ecf048b9e288",
+        "documentId": null,
+        "name": "QUICHE DE QUESO DE CABRA (8 PORCIONES)",
+        "description": null,
+        "price": 260,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "d222c4d4-41d2-46a8-a3ea-f798f7fb6efe",
+        "documentId": null,
+        "name": "SALSA DE CAVIAR (250 ML)",
+        "description": null,
+        "price": 450,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://banquetesmayita.com.mx/avisodeprivacidad.pdf",
+      "confidence": 0.95,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://banquetesmayita.com.mx/menu.pdf",
+      "confidence": 0.95,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.banquetesmayita.com.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:34.833+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=6875134316286192473&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:34.977+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/mayitamx",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/banquetes.mayita/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 8,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "google_places",
+      "official_menus",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T20:05:20.22199+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:09:34.940401+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 6,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_source_summary"
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "catalogName": "Expendio de Maiz",
+  "slug": "expendio-de-maiz",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Expendio de Maíz",
+  "location": {
+    "address": "Yucatán 84, Roma Norte",
+    "neighborhood": "Roma Norte",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06700",
+    "coordinates": {
+      "latitude": 19.4141912,
+      "longitude": -99.1626171
+    }
+  },
+  "contact": {
+    "phone": "+52 55 6508 2722",
+    "website": "https://www.instagram.com/exp_maiz/",
+    "instagram": "exp_maiz",
+    "email": null
+  },
+  "hours": [
+    "Reported closed Monday; hours posted on Instagram (variable). One 2026 recap: ~9:00–18:00/20:30 except Monday — confirm on IG."
+  ],
+  "food": {
+    "cuisine": "mexican",
+    "chef": "Pablo Usobiaga",
+    "priceLevel": 2,
+    "notes": "No printed menu; kitchen sends dishes. Zero-waste / masa-focused. Michelin-starred."
+  },
+  "reservation": {
+    "platform": "walk-in / instagram",
+    "url": "https://www.instagram.com/exp_maiz/",
+    "notes": "No traditional reservation system found."
+  },
+  "distinctions": {
+    "michelin": "Una Estrella : una cocina de gran nivel",
+    "michelinStars": 1
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/expendio-de-maiz",
+    "observedAt": "2026-08-17",
+    "itemCount": 2,
+    "items": [
+      {
+        "name": "Sope de huitlacoche sobre frijoles refritos"
+      },
+      {
+        "name": "Tortillas / huaraches de maíz criollo nixtamalizado"
+      }
+    ],
+    "notes": "No printed menu; kitchen sends dishes."
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/exp_maiz/",
+      "fields": [
+        "instagram",
+        "hours-variable"
+      ]
+    },
+    {
+      "source": "review",
+      "url": "https://www.eclectickim.com/expendio-de-maiz/",
+      "fields": [
+        "address"
+      ]
+    }
+  ],
+  "gaps": [
+    "phone",
+    "stable hours",
+    "coordinates"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "michelinReview": "Expendio de Maíz, escondido entre otros dos locales y sin rótulo aparente, invita a los comensales a sentarse en una de las cuatro largas mesas dispuestas bajo el toldo de la acera. No se aceptan reservas, pero hay varios turnos: el comensal apunta su nombre y espera a que llegue el suyo. E igual que no hay reservas, tampoco hay carta: los camareros te irán sirviendo un platillo tras otro hasta que te des por satisfecho-a. El maíz de variedades autóctonas y nixtamalización casera es la base de sus sabrosos platos (tortillas, huaraches, etc.) y, aunque los platos cambian, siempre disfrutarás de propuestas tan deliciosas como el sope de huitlacoche sobre frijoles refritos. Para cerrar, la concha de pan dulce con crema y miel acompañada de un café de olla tiene el poder de transportar a muchos a su infancia.",
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/expendio-de-maiz",
+      "id": "1210979"
+    }
+  ]
+}

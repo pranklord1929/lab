@@ -1,0 +1,203 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "b7fb8096-7f0e-44db-b406-f658896f92f1",
+  "slug": "papa-guapa-del-valle",
+  "name": "Papa Guapa Del Valle",
+  "location": {
+    "neighborhood": "DEL VALLE CENTRO",
+    "borough": "Benito Juárez",
+    "address": "Eugenia 101-Loc C, Col del Valle Centro, Benito Juárez, 03100 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3887048,
+      "longitude": -99.1738399
+    }
+  },
+  "contact": {
+    "phone": "55 1107 6337",
+    "website": "http://www.papaguapa.com/",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=5065211846879854815&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 12:00–10:00 p.m.",
+      "lunes: 12:00–11:00 p.m.",
+      "martes: 12:00–11:00 p.m.",
+      "miércoles: 12:00–11:00 p.m.",
+      "jueves: 12:00–11:00 p.m.",
+      "viernes: 12:00 p.m. – 12:00 a.m.",
+      "sábado: 12:00 p.m. – 12:00 a.m."
+    ],
+    "rating": 4.5,
+    "reviewCount": 4989
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 3,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "779a6ccc-c27f-43de-a78d-01cdafaedcef",
+        "sourceUrl": "https://didi-food.com/es-MX/food/store/5764607535823454260/Papa-Guapa-(Roma)?pl=eyJwb2lJZCI6IkNoSUpxWk9MLVRuXzBZVVJaMlNuVG9CZHFEcyIsImRpc3BsYXlOYW1lIjoiUm9tYSBOb3J0ZSIsImFkZHJlc3MiOiJSb21hIE50ZS4sIEN1YXVodMOpbW9jLCAwNjcwMCBDaXVkYWQgZGUgTcOpeGljbywgQ0RNWCwgTcOpeGljbyIsImxhdCI6MTkuNDE5NTA2NSwibG5nIjotOTkuMTYyNTQ0NCwic3JjVGFnIjoiZ29vZ2xlX2F1dG9jb21wbGV0ZV9nZyNnb29nbGVfZ2VvY29kZSIsInBvaVNyY1RhZyI6Im1hbnVhbF9zdWciLCJjb29yZGluYXRlVHlwZSI6Indnczg0IiwiY2l0eUlkIjo1MjA5MDEwMCwiY2l0eSI6IkNpdWRhZCBkZSBNw6l4aWNvIiwic2VhcmNoSWQiOiIwYTBmMWIxMDYyZTgyNzFmYjYxMTA4MTcxNjk2OWQwMiIsImFkZHJlc3NBbGwiOiJSb21hIE5vcnRlLCBSb21hIE50ZS4sIEN1YXVodMOpbW9jLCAwNjcwMCBDaXVkYWQgZGUgTcOpeGljbywgQ0RNWCwgTcOpeGljbyIsImFkZHJlc3NBbGxEaXNwbGF5IjoiUm9tYSBOdGUuLCBDdWF1aHTDqW1vYywgMDY3MDAgQ2l1ZGFkIGRlIE3DqXhpY28sIENETVgsIE3DqXhpY28iLCJjb3VudHJ5Q29kZSI6Ik1YIiwiY291bnRyeUlkIjo1MiwiZGlzdFN0ciI6IjEuNWttIiwicG9pVHlwZSI6Imhvc3BpdGFsO3BvaW50X29mX2ludGVyZXN0O2hlYWx0aDtlc3RhYmxpc2htZW50IiwiY291bnR5SWQiOjUyMDkwMTE0LCJjb3VudHlHcm91cElkIjo1MjA5MDEwMDAwMDEsImFpZCI6IiJ9",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "262176a6-9e3f-419b-b756-b7c81e0e3ce4",
+        "sourceUrl": "https://www.didi-food.com/es-MX/food/store/5764607630832828467/Papa-Guapa-(Valle)?pl=eyJwb2lJZCI6IjExMTI2MjEwNDIwMjAzODQ3NjgiLCJkaXNwbGF5TmFtZSI6IkF2ZW5pZGEgRXVnZW5pYSAxMDEiLCJhZGRyZXNzIjoiRGVsIFZhbGxlIENlbnRybywgQmVuaXRvIEp1w6FyZXosIENNWCwgTWV4aWNvIiwibGF0IjoxOS4zODg4NCwibG5nIjotOTkuMTczNzMsInNyY1RhZyI6Im5ld2VzIiwicG9pU3JjVGFnIjoibWFudWFsX3N1ZyIsImNvb3JkaW5hdGVUeXBlIjoid2dzODQiLCJjaXR5SWQiOjUyMDkwMTAwLCJjaXR5IjoiQ2l1ZGFkIGRlIE3DqXhpY28iLCJzZWFyY2hJZCI6IjBhMGYyNzBjNjJlODI3OGY5Y2M1ZTdlYTE2ZjY1YTAyIiwiYWRkcmVzc0FsbCI6IkF2ZW5pZGEgRXVnZW5pYSAxMDEsIERlbCBWYWxsZSBDZW50cm8sIEJlbml0byBKdcOhcmV6LCBDTVgsIE1leGljbyIsImFkZHJlc3NBbGxEaXNwbGF5IjoiRGVsIFZhbGxlIENlbnRybywgQmVuaXRvIEp1w6FyZXosIENNWCwgTWV4aWNvIiwiY291bnRyeUNvZGUiOiJNWCIsImNvdW50cnlJZCI6NTIsImRpc3RTdHIiOiIzLjZrbSIsInBvaVR5cGUiOiJQb2ludCBBZGRyZXNzIiwiY291bnR5SWQiOjUyMDkwMTEzLCJjb3VudHlHcm91cElkIjo1MjA5MDEwMDAwMDEsImFpZCI6IiJ9",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.41,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:37.04+00:00"
+      },
+      {
+        "id": "2898d1a7-ed05-474f-821f-9f7d8fcd4d67",
+        "sourceUrl": "https://papaguapa.com/nuestro-menu/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.5,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:35.541+00:00"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://didi-food.com/es-MX/food/store/5764607535823454260/Papa-Guapa-(Roma)?pl=eyJwb2lJZCI6IkNoSUpxWk9MLVRuXzBZVVJaMlNuVG9CZHFEcyIsImRpc3BsYXlOYW1lIjoiUm9tYSBOb3J0ZSIsImFkZHJlc3MiOiJSb21hIE50ZS4sIEN1YXVodMOpbW9jLCAwNjcwMCBDaXVkYWQgZGUgTcOpeGljbywgQ0RNWCwgTcOpeGljbyIsImxhdCI6MTkuNDE5NTA2NSwibG5nIjotOTkuMTYyNTQ0NCwic3JjVGFnIjoiZ29vZ2xlX2F1dG9jb21wbGV0ZV9nZyNnb29nbGVfZ2VvY29kZSIsInBvaVNyY1RhZyI6Im1hbnVhbF9zdWciLCJjb29yZGluYXRlVHlwZSI6Indnczg0IiwiY2l0eUlkIjo1MjA5MDEwMCwiY2l0eSI6IkNpdWRhZCBkZSBNw6l4aWNvIiwic2VhcmNoSWQiOiIwYTBmMWIxMDYyZTgyNzFmYjYxMTA4MTcxNjk2OWQwMiIsImFkZHJlc3NBbGwiOiJSb21hIE5vcnRlLCBSb21hIE50ZS4sIEN1YXVodMOpbW9jLCAwNjcwMCBDaXVkYWQgZGUgTcOpeGljbywgQ0RNWCwgTcOpeGljbyIsImFkZHJlc3NBbGxEaXNwbGF5IjoiUm9tYSBOdGUuLCBDdWF1aHTDqW1vYywgMDY3MDAgQ2l1ZGFkIGRlIE3DqXhpY28sIENETVgsIE3DqXhpY28iLCJjb3VudHJ5Q29kZSI6Ik1YIiwiY291bnRyeUlkIjo1MiwiZGlzdFN0ciI6IjEuNWttIiwicG9pVHlwZSI6Imhvc3BpdGFsO3BvaW50X29mX2ludGVyZXN0O2hlYWx0aDtlc3RhYmxpc2htZW50IiwiY291bnR5SWQiOjUyMDkwMTE0LCJjb3VudHlHcm91cElkIjo1MjA5MDEwMDAwMDEsImFpZCI6IiJ9",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://papaguapa.com/nuestro-menu/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://didi-food.com/es-MX/food/store/5764607630832828467/Papa-Guapa-(Valle)?pl=eyJwb2lJZCI6IjExMTI2MjEwNDIwMjAzODQ3NjgiLCJkaXNwbGF5TmFtZSI6IkF2ZW5pZGEgRXVnZW5pYSAxMDEiLCJhZGRyZXNzIjoiRGVsIFZhbGxlIENlbnRybywgQmVuaXRvIEp1w6FyZXosIENNWCwgTWV4aWNvIiwibGF0IjoxOS4zODg4NCwibG5nIjotOTkuMTczNzMsInNyY1RhZyI6Im5ld2VzIiwicG9pU3JjVGFnIjoibWFudWFsX3N1ZyIsImNvb3JkaW5hdGVUeXBlIjoid2dzODQiLCJjaXR5SWQiOjUyMDkwMTAwLCJjaXR5IjoiQ2l1ZGFkIGRlIE3DqXhpY28iLCJzZWFyY2hJZCI6IjBhMGYyNzBjNjJlODI3OGY5Y2M1ZTdlYTE2ZjY1YTAyIiwiYWRkcmVzc0FsbCI6IkF2ZW5pZGEgRXVnZW5pYSAxMDEsIERlbCBWYWxsZSBDZW50cm8sIEJlbml0byBKdcOhcmV6LCBDTVgsIE1leGljbyIsImFkZHJlc3NBbGxEaXNwbGF5IjoiRGVsIFZhbGxlIENlbnRybywgQmVuaXRvIEp1w6FyZXosIENNWCwgTWV4aWNvIiwiY291bnRyeUNvZGUiOiJNWCIsImNvdW50cnlJZCI6NTIsImRpc3RTdHIiOiIzLjZrbSIsInBvaVR5cGUiOiJQb2ludCBBZGRyZXNzIiwiY291bnR5SWQiOjUyMDkwMTEzLCJjb3VudHlHcm91cElkIjo1MjA5MDEwMDAwMDEsImFpZCI6IiJ9",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://papaguapa.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:55.178+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=5065211846879854815&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:49.655+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/PapaGuapa/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:17:25.697959+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 158,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_cuisine",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

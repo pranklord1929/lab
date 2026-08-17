@@ -1,0 +1,143 @@
+{
+  "catalogName": "Quinquela",
+  "slug": "quinquela",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Quinquela",
+  "location": {
+    "address": "Zacatecas 139, Roma Norte (OpenTable PB).",
+    "neighborhood": "Roma Norte",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06700",
+    "coordinates": {
+      "latitude": 19.4156954,
+      "longitude": -99.1607627
+    }
+  },
+  "contact": {
+    "phone": "+52 55 1334 4424",
+    "website": "https://www.instagram.com/quinquelamx/",
+    "instagram": "quinquelamx",
+    "email": null,
+    "websiteIsInstagram": true
+  },
+  "hours": [
+    "dom–mié 13:00–22:00",
+    "jue–sáb 13:00–02:00"
+  ],
+  "food": {
+    "cuisine": "argentine bistro",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/r/quinquela-ciudad-de-mexico"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.opentable.com/r/quinquela-ciudad-de-mexico",
+    "observedAt": "2026-08-17",
+    "itemCount": 10,
+    "items": [
+      {
+        "name": "Empanada de carne braseada con salsa pomodoro",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Taco de short rib",
+        "price": null,
+        "currency": "MXN",
+        "category": "tacos",
+        "description": "Salsa criolla y alioli de jalapeño"
+      },
+      {
+        "name": "Ravioles de calabaza",
+        "price": null,
+        "currency": "MXN",
+        "category": "pastas"
+      },
+      {
+        "name": "Tortellini de carne 250 g",
+        "price": null,
+        "currency": "MXN",
+        "category": "pastas"
+      },
+      {
+        "name": "Rotolo de espinaca",
+        "price": null,
+        "currency": "MXN",
+        "category": "pastas",
+        "description": "Ricotta, parmesano, salsa fileto"
+      },
+      {
+        "name": "Milanesa de New York",
+        "price": null,
+        "currency": "MXN",
+        "category": "fuertes",
+        "description": "Romesco, morrones asados, papas, huevo estrellado"
+      },
+      {
+        "name": "Short Rib Prime 400 g",
+        "price": null,
+        "currency": "MXN",
+        "category": "parrilla"
+      },
+      {
+        "name": "New York Prime 300 g",
+        "price": null,
+        "currency": "MXN",
+        "category": "parrilla"
+      },
+      {
+        "name": "Filete grass feed 200 g",
+        "price": null,
+        "currency": "MXN",
+        "category": "parrilla"
+      },
+      {
+        "name": "Panqué de manzana al ron",
+        "price": 250,
+        "currency": "MXN",
+        "category": "postres"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/quinquelamx/",
+      "fields": [
+        "hours"
+      ]
+    },
+    {
+      "source": "opentable",
+      "url": "https://www.opentable.com/r/quinquela-ciudad-de-mexico",
+      "fields": [
+        "address",
+        "phone"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://www.opentable.com/r/quinquela-ciudad-de-mexico",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "gaps": [
+    "coordinates"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": []
+}

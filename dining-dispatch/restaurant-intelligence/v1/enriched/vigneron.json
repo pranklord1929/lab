@@ -1,0 +1,122 @@
+{
+  "catalogName": "Vigneron",
+  "slug": "vigneron",
+  "status": "enriched",
+  "confidence": "medium",
+  "name": "Vigneron",
+  "location": {
+    "address": "Jalapa 181, Roma Norte (Michelin + 2024 reopening posts). Later IG posts also mention Guanajuato 78 — possible move/second room.",
+    "neighborhood": "Roma Norte",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06700",
+    "coordinates": {
+      "latitude": 19.4146092,
+      "longitude": -99.1603684
+    }
+  },
+  "contact": {
+    "phone": "+52 55 5929 9548",
+    "website": "https://www.instagram.com/vigneronmx/",
+    "instagram": "vigneronmx",
+    "email": null,
+    "websiteIsInstagram": true
+  },
+  "hours": [
+    "Michelin: Mon closed; Sun 12:00–18:00. 2024 reopening post: Tue–Thu 14–22, Fri–Sat 14–23, Sun 12–18."
+  ],
+  "food": {
+    "cuisine": "french wine bar / gourmand",
+    "priceLevel": 3,
+    "notes": "Bib Gourmand 2025 & 2026 claimed on IG."
+  },
+  "reservation": {
+    "platform": "instagram",
+    "url": "https://www.instagram.com/vigneronmx/"
+  },
+  "distinctions": {
+    "michelin": "Bib Gourmand : nuestras mejores relaciones calidad-precio",
+    "bibGourmand": true
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/vigneron",
+    "observedAt": "2026-08-17",
+    "itemCount": 5,
+    "items": [
+      {
+        "name": "Juliana de zanahoria asada con stracciatella",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Polenta crujiente con ensalada de jaiba y mayonesa de miso",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Pasta",
+        "price": null,
+        "currency": "MXN",
+        "category": "fuertes"
+      },
+      {
+        "name": "Pollo asado",
+        "price": null,
+        "currency": "MXN",
+        "category": "fuertes"
+      },
+      {
+        "name": "Tarta de nueces con ganache de chocolate semiamargo",
+        "price": null,
+        "currency": "MXN",
+        "category": "postres"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "michelin",
+      "url": "https://guide.michelin.com/us/en/ciudad-de-mexico/cuauhtemoc_1995126/restaurant/vigneron",
+      "fields": [
+        "address",
+        "phone"
+      ]
+    },
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/vigneronmx/",
+      "fields": [
+        "instagram"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/vigneron",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "gaps": [
+    "confirm current street if they moved to Guanajuato 78",
+    "website"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "michelinReview": "Puede que Vigneron sea un pequeño local de la Roma Norte, pero está claro que no es uno más. Su sala, en tonos oscuros y con pocas mesas (una de ellas compartida), respira intimidad y ofrece el marco perfecto para compartir y explorar una cocina contemporánea con pinceladas francesas. La juliana de zanahoria asada con stracciatella, una creación en apariencia sencilla, revela un notable dominio de los sabores y texturas. Obligada es la polenta crujiente con ensalada de jaiba y mayonesa de miso, tras lo cual podrás optar por un plato de pasta o un buen pollo asado y terminar, por ejemplo, con la insuperable tarta de nueces con ganache de chocolate semiamargo. En contraste con la concisión de la carta de platos, la de vinos –en su mayoría europeos– sorprende por su variedad.",
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/vigneron",
+      "id": "1217587"
+    }
+  ]
+}

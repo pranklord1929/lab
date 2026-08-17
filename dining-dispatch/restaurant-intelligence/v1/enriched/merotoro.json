@@ -1,0 +1,111 @@
+{
+  "catalogName": "MeroToro",
+  "slug": "merotoro",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "MeroToro",
+  "location": {
+    "address": "Av. Ámsterdam 204, Hipódromo Condesa",
+    "neighborhood": "Hipódromo / Condesa",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06100",
+    "coordinates": {
+      "latitude": 19.409639,
+      "longitude": -99.16986
+    }
+  },
+  "contact": {
+    "phone": "+52 55 5564 7799",
+    "phoneAlt": "+52 55 5564 1188",
+    "website": "https://merotoro.mx/",
+    "instagram": "merotoro_mx",
+    "email": "info@merotoro.mx"
+  },
+  "hours": [
+    "lun–sáb 13:30–22:00",
+    "dom 14:00–21:00"
+  ],
+  "food": {
+    "cuisine": "mexican / baja-influenced",
+    "priceLevel": 3,
+    "notes": "Meat + seafood; tasting menu also offered (Michelin)."
+  },
+  "reservation": {
+    "platform": "phone / official",
+    "url": "https://merotoro.mx/"
+  },
+  "distinctions": {
+    "michelin": "Seleccionado: Buena cocina",
+    "michelinStars": 0
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/merotoro",
+    "observedAt": "2026-08-17",
+    "itemCount": 5,
+    "items": [
+      {
+        "name": "Tostada de ceviche de pescado"
+      },
+      {
+        "name": "Jaiba suave rebozada"
+      },
+      {
+        "name": "Arroz cremoso con camarón"
+      },
+      {
+        "name": "Rabo de res braseado"
+      },
+      {
+        "name": "Pulpo a la parrilla con mole negro",
+        "description": "Official IG @merotoro_mx"
+      }
+    ],
+    "notes": "Official site publishes address, kitchen hours and phones only. No carta."
+  },
+  "sources": [
+    {
+      "source": "official",
+      "url": "https://merotoro.mx/",
+      "fields": [
+        "address",
+        "hours",
+        "phone",
+        "email",
+        "instagram"
+      ]
+    },
+    {
+      "source": "michelin",
+      "url": "https://guide.michelin.com/us/en/ciudad-de-mexico/cuauhtemoc_1995126/restaurant/merotoro",
+      "fields": [
+        "address"
+      ]
+    }
+  ],
+  "gaps": [
+    "coordinates",
+    "structured menu"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "michelinReview": "MeroToro destaca entre otras cosas por su encantadora ubicación en una calle arbolada de la Colonia Condesa rodeada de restaurantes. Y si la terraza resulta agradable, el interior, de estilo contemporáneo, es particularmente acogedor. Su chef, Jair Téllez, se inspira en la cocina de Baja California para dar vida a platillos sencillos, genuinos y sabrosos y proponer una carta repartida a partes iguales entre las carnes y los productos del mar, además de un menú degustación. La tostada de ceviche de pescado, la jaiba suave rebozada y el arroz cremoso con camarón son platillos que no dejan indiferente a nadie, mientras que el rabo de res braseado hará las delicias de los carnívoros. Postres como el pastel de chocolate, la crema de téjate o el helado de yogur ponen la cereza al pastel.",
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/merotoro",
+      "id": "1210970"
+    },
+    {
+      "source": "resy",
+      "url": "https://resy.com/cities/mexico-city-mexico/venues/merotoro",
+      "slug": "merotoro"
+    }
+  ]
+}

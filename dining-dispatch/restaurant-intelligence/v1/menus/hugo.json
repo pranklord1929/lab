@@ -1,0 +1,37 @@
+{
+  "slug": "hugo",
+  "name": "Hugo",
+  "url": "https://hugoelwinebar.com/",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Callo, naranja agria, alcaparras",
+      "category": "small plates"
+    },
+    {
+      "name": "Scallops, citrus, pink peppercorn",
+      "category": "small plates"
+    },
+    {
+      "name": "Gnocchi, brown butter, chicken jus",
+      "category": "small plates"
+    },
+    {
+      "name": "Radicchio salad",
+      "category": "small plates"
+    },
+    {
+      "name": "Pork Milanese",
+      "category": "small plates"
+    },
+    {
+      "name": "Kampachi crudo",
+      "category": "small plates"
+    },
+    {
+      "name": "Basque cheesecake",
+      "category": "postres"
+    }
+  ]
+}

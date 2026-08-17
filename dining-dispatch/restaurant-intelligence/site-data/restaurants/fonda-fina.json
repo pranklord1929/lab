@@ -1,0 +1,324 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "62459534-79f7-4561-b41d-e047e69b5408",
+  "slug": "fonda-fina",
+  "name": "Fonda Fina",
+  "location": {
+    "neighborhood": "ROMA NORTE",
+    "borough": "Cuauhtémoc",
+    "address": "Medellín 79, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4181132,
+      "longitude": -99.1662354
+    }
+  },
+  "contact": {
+    "phone": "55 5208 3925",
+    "website": "https://fondafina.shop/",
+    "instagram": "https://instagram.com/fondafinamx/",
+    "googleMapsUrl": "https://maps.google.com/?cid=15961656622386389434&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": "Cozy restaurant with a laid-back, country-chic vibe plating inventive takes on classic dishes.",
+    "hours": [
+      "domingo: 1:00–7:00 p.m.",
+      "lunes: 1:00–10:00 p.m.",
+      "martes: 1:00–10:00 p.m.",
+      "miércoles: 1:00–10:00 p.m.",
+      "jueves: 1:00–11:00 p.m.",
+      "viernes: 1:00–11:00 p.m.",
+      "sábado: 1:00–11:00 p.m."
+    ],
+    "rating": 4.3,
+    "reviewCount": 1667
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "local_extraction_candidate",
+    "observedAt": "2026-07-09T18:56:19.914+00:00",
+    "observationAgeDaysAtExport": 38,
+    "documentCount": 1,
+    "itemCount": 12,
+    "documents": [
+      {
+        "id": "331b11f1-0b9e-4364-a2ed-c24912e912c8",
+        "sourceUrl": "https://fondafina.shop/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.75,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:56:19.914+00:00"
+      }
+    ],
+    "items": [
+      {
+        "id": "f849ac6a0338c30ed4bab04adca62235",
+        "documentId": null,
+        "name": "Flauta",
+        "description": null,
+        "price": 49,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "c13b5689c1bd439559bfcfe8f46dcfa6",
+        "documentId": null,
+        "name": "Migada",
+        "description": null,
+        "price": 99,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "b6fc95d3a6c201cd1a0f8a477fd5ddb8",
+        "documentId": null,
+        "name": "Quesadilla De Maíz",
+        "description": null,
+        "price": 34,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "ccd228fd9722e03da6166473e2c6d829",
+        "documentId": null,
+        "name": "Sope",
+        "description": null,
+        "price": 25,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "fdd21a77966dd068b9896c6d2e5afb80",
+        "documentId": null,
+        "name": "Taco Con Salsa Verde",
+        "description": null,
+        "price": 25,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "92358255640403d8108365b8db477f9d",
+        "documentId": null,
+        "name": "Taco De Asado",
+        "description": null,
+        "price": 25,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "ebd4917140561cfd5fc93c7994fffe99",
+        "documentId": null,
+        "name": "Taco De Deshebrada",
+        "description": null,
+        "price": 25,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "2306554c2c7bf54e7e3aee6c76c18cdf",
+        "documentId": null,
+        "name": "Taco De Huevo Con Chorizo",
+        "description": null,
+        "price": 25,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "85f852c3e3c85a4e9540d47c5756f8aa",
+        "documentId": null,
+        "name": "Taco De Huevo Con Machacado",
+        "description": null,
+        "price": 25,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "3398c5d303c534cf590903e87ad8dff5",
+        "documentId": null,
+        "name": "Taco De Huevo Verde",
+        "description": null,
+        "price": 25,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "27edc337a43a303b7b25d9db5a3a139f",
+        "documentId": null,
+        "name": "Taco De Papa Con Chorizo",
+        "description": null,
+        "price": 25,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "529c69a1941c68612e73514b91787542",
+        "documentId": null,
+        "name": "Taco De Picadillo",
+        "description": null,
+        "price": 25,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://fondafina.shop/menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://fondafina.shop/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:33.988+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=15961656622386389434&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:35.165+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/fondafinamx/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:10:44.174959+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 421,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_cuisine"
+    ]
+  }
+}

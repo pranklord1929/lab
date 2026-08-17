@@ -1,0 +1,104 @@
+{
+  "catalogName": "DE PESCADORES",
+  "slug": "de-pescadores",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "De Pescadores (Fisher's)",
+  "location": {
+    "address": "Colima 152, Roma Norte",
+    "neighborhood": "Roma Norte",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06700",
+    "coordinates": {
+      "latitude": 19.4198483,
+      "longitude": -99.1594338
+    }
+  },
+  "contact": {
+    "phone": "+52 55 1185 1853",
+    "website": "https://www.fishers.com.mx/sucursales",
+    "instagram": "depescadoresfishers",
+    "email": null,
+    "websiteIsInstagram": false
+  },
+  "hours": [
+    "lun–mié 12:00–21:00",
+    "jue–vie 12:00–22:00",
+    "sáb 09:30–22:00",
+    "dom 09:30–20:00"
+  ],
+  "food": {
+    "cuisine": "seafood",
+    "priceLevel": 2
+  },
+  "reservation": {
+    "platform": "opentable / official",
+    "url": "https://www.opentable.com.mx/r/colima-fishers-ciudad-de-mexico",
+    "phone": "+52 55 1185 1853"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.instagram.com/reel/DSbRTn-jcpo/",
+    "observedAt": "2026-08-17",
+    "itemCount": 5,
+    "items": [
+      {
+        "name": "Aguachiles"
+      },
+      {
+        "name": "Ceviches"
+      },
+      {
+        "name": "Tostadas de mariscos"
+      },
+      {
+        "name": "Charolas de mariscos"
+      },
+      {
+        "name": "Filete de pescado, camarones y papas a la francesa"
+      }
+    ],
+    "notes": "Fisher's group site exists but the fetched homepage did not expose a Roma/Colima 158 item list. Did not copy another city's Fisher's menu."
+  },
+  "sources": [
+    {
+      "source": "official",
+      "url": "https://www.fishers.com.mx/sucursales",
+      "fields": [
+        "address",
+        "hours",
+        "phone"
+      ]
+    },
+    {
+      "source": "opentable",
+      "url": "https://www.opentable.com.mx/r/colima-fishers-ciudad-de-mexico",
+      "fields": [
+        "reservation"
+      ]
+    },
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/depescadoresfishers/",
+      "fields": [
+        "address"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://www.fishers.com.mx/",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": []
+}

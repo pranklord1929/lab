@@ -1,0 +1,291 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "20bad0b2-73d1-42d3-ae54-24dbc701a038",
+  "slug": "chapulin",
+  "name": "Chapulín",
+  "location": {
+    "neighborhood": "POLANCO IV SECCIÓN",
+    "borough": "Miguel Hidalgo",
+    "address": "Campos Elíseos 218, Polanco, Polanco IV Secc, Miguel Hidalgo, 11560 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4277827,
+      "longitude": -99.1935608
+    }
+  },
+  "contact": {
+    "phone": "55 4170 9318",
+    "website": "https://chapulinrestaurante.com.mx/",
+    "instagram": "https://instagram.com/chapulinrest/",
+    "googleMapsUrl": "https://maps.google.com/?cid=9725932820303940407&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "mexican",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 3
+  },
+  "experience": {
+    "sourceSummary": "Sophisticated hotel dining room & terrace serving Mexican fusion dishes, shared plates & desserts.",
+    "hours": [
+      "domingo: 11:00 a.m. – 9:00 p.m.",
+      "lunes: 1:00 p.m. – 12:00 a.m.",
+      "martes: 1:00 p.m. – 12:00 a.m.",
+      "miércoles: 1:00 p.m. – 12:00 a.m.",
+      "jueves: 1:00 p.m. – 12:00 a.m.",
+      "viernes: 1:00 p.m. – 12:00 a.m.",
+      "sábado: 11:00 a.m. – 12:00 a.m."
+    ],
+    "rating": 4.5,
+    "reviewCount": 2250
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 7,
+    "itemCount": 1,
+    "documents": [
+      {
+        "id": "3cd08055-8113-4514-a9a8-de80658562f3",
+        "sourceUrl": "https://chapulinrestaurante.com.mx/menu-comida-mexicana-tacos-gourmet/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "4dd0ca04-00fd-4d39-ac64-defca0f395f6",
+        "sourceUrl": "https://google.com/maps/place/Chapul%C3%ADn/@19.4272231,-99.1961851,17z/data=!3m1!4b1!4m6!3m5!1s0x85d201ff033f4663:0x86f9745eaf878b37!8m2!3d19.4272181!4d-99.1936102!16s%2Fg%2F1q5bmz4wt?entry=tts&",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "861b474b-9253-4b23-a0bb-cfe611854e8c",
+        "sourceUrl": "https://chapulinrestaurante.com.mx/para-comenzar-menu-polanco/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "b6e22460-d972-46f1-a3ac-37c5eaea5ad3",
+        "sourceUrl": "https://chapulinrestaurante.com.mx/wp-content/themes/hello-elementor/assets/images/restaurantes-comida-mexicana-salsa-molcajeteada-alta.jpg",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "be4de54a-a1fb-4c5d-ace2-f0b8365e71ff",
+        "sourceUrl": "https://chapulinrestaurante.com.mx/cena-con-maridaje/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "c1debb66-7ed1-4206-a4f8-f00f572eaa50",
+        "sourceUrl": "https://chapulinrestaurante.com.mx/wp-content/uploads/2024/11/restaurantes-comida-mexicana-salsa-molcajeteada-alta.jpg",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "dc0194cb-8a53-4891-a12b-5ccfc744f8ad",
+        "sourceUrl": "https://chapulinrestaurante.com.mx/para-comenzar-menu-monterrey/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": [
+      {
+        "id": "c8fbaed3-b189-4e61-ab66-416131f489c6",
+        "documentId": null,
+        "name": "Camarones zarandeados",
+        "description": null,
+        "price": 190,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://chapulinrestaurante.com.mx/cena-con-maridaje/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://chapulinrestaurante.com.mx/menu-comida-mexicana-tacos-gourmet/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://chapulinrestaurante.com.mx/wp-content/uploads/2024/11/restaurantes-comida-mexicana-salsa-molcajeteada-alta.jpg",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://google.com/maps/place/Chapul%C3%ADn/@19.4272231,-99.1961851,17z/data=!3m1!4b1!4m6!3m5!1s0x85d201ff033f4663:0x86f9745eaf878b37!8m2!3d19.4272181!4d-99.1936102!16s%2Fg%2F1q5bmz4wt?entry=tts&",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://chapulinrestaurante.com.mx/wp-content/themes/hello-elementor/assets/images/restaurantes-comida-mexicana-salsa-molcajeteada-alta.jpg",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://chapulinrestaurante.com.mx/para-comenzar-menu-polanco/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://chapulinrestaurante.com.mx/para-comenzar-menu-monterrey/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://chapulinrestaurante.com.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:03.551+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=9725932820303940407&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:19.443+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/ChapulinRest",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/chapulinrest/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "google_places",
+      "official_menus",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T20:20:18.817259+00:00",
+    "canonicalUpdatedAt": "2026-06-29T13:59:55.894543+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 211,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review"
+    ]
+  }
+}

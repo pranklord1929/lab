@@ -1,0 +1,226 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "27eaac9e-922c-4f00-b466-c8bb2d2bc6ee",
+  "slug": "hijos-del-maiz",
+  "name": "Hijos del Maíz",
+  "location": {
+    "neighborhood": "AMPLIACIÓN NÁPOLES",
+    "borough": "Benito Juárez",
+    "address": "Georgia 52, Nápoles, Benito Juárez, 03840 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3894148,
+      "longitude": -99.1755645
+    }
+  },
+  "contact": {
+    "phone": "55 5536 4693",
+    "website": "http://hijosdelmaizantojeria.com.mx/",
+    "instagram": "https://instagram.com/hijos_del_maiz/",
+    "googleMapsUrl": "https://maps.google.com/?cid=12046846694046069075&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "mexican",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 8:00 a.m. – 5:00 p.m.",
+      "lunes: 8:00 a.m. – 8:00 p.m.",
+      "martes: 8:00 a.m. – 8:00 p.m.",
+      "miércoles: 8:00 a.m. – 8:00 p.m.",
+      "jueves: 8:00 a.m. – 8:00 p.m.",
+      "viernes: 8:00 a.m. – 8:00 p.m.",
+      "sábado: 8:00 a.m. – 8:00 p.m."
+    ],
+    "rating": 4.4,
+    "reviewCount": 2049
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-17T10:08:09.061Z",
+    "observationAgeDaysAtExport": 31,
+    "documentCount": 4,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "25475ee3-1089-4af9-be4a-97e89b831405",
+        "sourceUrl": "https://www.hijosdelmaizantojeria.com.mx/pedir/categoria/mg2cHewQjE9bKxFbn",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "57741766-d1da-46a0-839d-ed362c0eca00",
+        "sourceUrl": "https://www.hijosdelmaizantojeria.com.mx/pedir/FRjJGWabr2yS3cYt6/desayuno-ganador",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "6c213269-2fa0-478b-b82f-665a0e6a5f83",
+        "sourceUrl": "https://www.hijosdelmaizantojeria.com.mx/pedir/yckvEb5EEhKRYNA2e/desayuno-ganador",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:08:09.061Z"
+      },
+      {
+        "id": "19f7a593-97ae-4f12-a6bb-c3361e58a557",
+        "sourceUrl": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPDPPP.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.98,
+        "extractionMethod": "website_fetch_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LFPDPPP.pdf",
+      "confidence": 0.98,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.hijosdelmaizantojeria.com.mx/pedir/yckvEb5EEhKRYNA2e/desayuno-ganador",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.hijosdelmaizantojeria.com.mx/pedir/FRjJGWabr2yS3cYt6/desayuno-ganador",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://www.hijosdelmaizantojeria.com.mx/pedir/categoria/mg2cHewQjE9bKxFbn",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.hijosdelmaizantojeria.com.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:37.356+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=12046846694046069075&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:38.233+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/hijosdelmaizantojeria",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/hijos_del_maiz/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:20.144381+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:12:04.856253+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 293,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "menu",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

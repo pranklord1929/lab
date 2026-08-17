@@ -1,0 +1,291 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "0866f275-1eb7-47f8-b57f-1e07b6b7f9d5",
+  "slug": "mandolina-polanco",
+  "name": "Mandolina Polanco",
+  "location": {
+    "neighborhood": "POLANCO III SECCIÓN",
+    "borough": "Miguel Hidalgo",
+    "address": "Av. Emilio Castelar 135, Polanco, Polanco III Secc, Miguel Hidalgo, 11550 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4300965,
+      "longitude": -99.1982554
+    }
+  },
+  "contact": {
+    "phone": "55 1163 8798",
+    "website": "https://mandolinapolanco.shop/",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=8466955450908658596&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": "Italian meals, cocktails & brunch served in a stylish locale with a leafy, lemon-themed interior.",
+    "hours": [
+      "domingo: 8:00 a.m. – 7:00 p.m.",
+      "lunes: 8:00 a.m. – 12:00 a.m.",
+      "martes: 8:00 a.m. – 12:00 a.m.",
+      "miércoles: 8:00 a.m. – 12:00 a.m.",
+      "jueves: 8:00 a.m. – 12:00 a.m.",
+      "viernes: 8:00 a.m. – 12:00 a.m.",
+      "sábado: 8:00 a.m. – 12:00 a.m."
+    ],
+    "rating": 4.4,
+    "reviewCount": 4277
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-09T18:55:45.636+00:00",
+    "observationAgeDaysAtExport": 38,
+    "documentCount": 1,
+    "itemCount": 10,
+    "documents": [
+      {
+        "id": "40f99d10-d3df-4cb0-81b0-ce05f488d76c",
+        "sourceUrl": "https://mandolina-polanco.locallya.com/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.75,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:45.636+00:00"
+      }
+    ],
+    "items": [
+      {
+        "id": "619ba9bb-541e-4486-bdbd-e6667e889519",
+        "documentId": "40f99d10-d3df-4cb0-81b0-ce05f488d76c",
+        "name": "Cafe",
+        "description": null,
+        "price": null,
+        "currency": "MXN",
+        "category": "Popular Items",
+        "sourceUrl": "https://mandolina-polanco.locallya.com/menu",
+        "observedAt": "2026-07-09T18:55:45.636+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "a0828d82-749d-47ca-add7-47a332ef6b8a",
+        "documentId": "40f99d10-d3df-4cb0-81b0-ce05f488d76c",
+        "name": "Enchiladas Verdes",
+        "description": null,
+        "price": null,
+        "currency": "MXN",
+        "category": "Popular Items",
+        "sourceUrl": "https://mandolina-polanco.locallya.com/menu",
+        "observedAt": "2026-07-09T18:55:45.636+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "4d994121-ef2d-4c0c-a432-baf1360ba54f",
+        "documentId": "40f99d10-d3df-4cb0-81b0-ce05f488d76c",
+        "name": "French Dip New York",
+        "description": null,
+        "price": null,
+        "currency": "MXN",
+        "category": "Popular Items",
+        "sourceUrl": "https://mandolina-polanco.locallya.com/menu",
+        "observedAt": "2026-07-09T18:55:45.636+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "0531b38e-d2b8-4241-b543-470ec61abe51",
+        "documentId": "40f99d10-d3df-4cb0-81b0-ce05f488d76c",
+        "name": "Huevos Benedictinos",
+        "description": null,
+        "price": null,
+        "currency": "MXN",
+        "category": "Popular Items",
+        "sourceUrl": "https://mandolina-polanco.locallya.com/menu",
+        "observedAt": "2026-07-09T18:55:45.636+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "400e2085-1180-4ab4-9242-890f1b53ec58",
+        "documentId": "40f99d10-d3df-4cb0-81b0-ce05f488d76c",
+        "name": "Huevos Benedictos Con Salmón Ahumado",
+        "description": null,
+        "price": null,
+        "currency": "MXN",
+        "category": "Popular Items",
+        "sourceUrl": "https://mandolina-polanco.locallya.com/menu",
+        "observedAt": "2026-07-09T18:55:45.636+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "ed8c1663-975e-45d0-88b1-a649613ee9ae",
+        "documentId": "40f99d10-d3df-4cb0-81b0-ce05f488d76c",
+        "name": "Mimosas",
+        "description": null,
+        "price": null,
+        "currency": "MXN",
+        "category": "Popular Items",
+        "sourceUrl": "https://mandolina-polanco.locallya.com/menu",
+        "observedAt": "2026-07-09T18:55:45.636+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "2e5fae06-0608-4653-a493-db4c64d53980",
+        "documentId": "40f99d10-d3df-4cb0-81b0-ce05f488d76c",
+        "name": "Pan Francés",
+        "description": null,
+        "price": null,
+        "currency": "MXN",
+        "category": "Popular Items",
+        "sourceUrl": "https://mandolina-polanco.locallya.com/menu",
+        "observedAt": "2026-07-09T18:55:45.636+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "82206f01-eae3-4b84-8486-afa3d8f1bbed",
+        "documentId": "40f99d10-d3df-4cb0-81b0-ce05f488d76c",
+        "name": "Pasta Mandolina",
+        "description": null,
+        "price": null,
+        "currency": "MXN",
+        "category": "Popular Items",
+        "sourceUrl": "https://mandolina-polanco.locallya.com/menu",
+        "observedAt": "2026-07-09T18:55:45.636+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "24c23d09-7564-43c3-87f5-32997412711b",
+        "documentId": "40f99d10-d3df-4cb0-81b0-ce05f488d76c",
+        "name": "Pastel de Zanahoria",
+        "description": null,
+        "price": null,
+        "currency": "MXN",
+        "category": "Popular Items",
+        "sourceUrl": "https://mandolina-polanco.locallya.com/menu",
+        "observedAt": "2026-07-09T18:55:45.636+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "74d2366f-385a-45aa-b9de-1c608e6f6647",
+        "documentId": "40f99d10-d3df-4cb0-81b0-ce05f488d76c",
+        "name": "Red Velvet O Carrot Cake",
+        "description": null,
+        "price": null,
+        "currency": "MXN",
+        "category": "Popular Items",
+        "sourceUrl": "https://mandolina-polanco.locallya.com/menu",
+        "observedAt": "2026-07-09T18:55:45.636+00:00",
+        "extractionConfidence": 0.75,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://mandolina-polanco.locallya.com/menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://mandolina-polanco.locallya.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:05.771+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=8466955450908658596&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:21.043+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.802169+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:02:30.177231+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 143,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_cuisine",
+      "missing_price_level"
+    ]
+  }
+}

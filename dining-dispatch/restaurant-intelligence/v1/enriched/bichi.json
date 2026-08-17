@@ -1,0 +1,126 @@
+{
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "catalogName": "BICHI",
+  "slug": "bichi",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Bichi",
+  "location": {
+    "address": "Chicontepec 57, Hipódromo Condesa",
+    "neighborhood": "Condesa",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06170",
+    "coordinates": {
+      "latitude": 19.4098964,
+      "longitude": -99.1816196
+    }
+  },
+  "contact": {
+    "phone": null,
+    "website": "https://www.instagram.com/bichi.cdmx/",
+    "instagram": "bichi.cdmx",
+    "email": null,
+    "websiteIsInstagram": true
+  },
+  "hours": [
+    "mar–sáb 13:00–23:00",
+    "dom 09:00–17:00"
+  ],
+  "food": {
+    "cuisine": "mexican fusion / oaxaca notes",
+    "chef": "Diego Morales",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/r/bichi-ciudad-de-mexico"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://lideresmexicanos.com/tendencias/bichi-sabores-de-oaxaca-y-sinaloa-en-la-condesa",
+    "observedAt": "2026-08-17",
+    "itemCount": 8,
+    "items": [
+      {
+        "name": "Taquito de asada",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Tetela de marlín",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Tlayuda de tasajo",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Tostada de callo de hacha",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Rib eye en salsa de chicatana",
+        "price": null,
+        "currency": "MXN",
+        "category": "fuertes"
+      },
+      {
+        "name": "Enmoladas estilo istmeño",
+        "price": null,
+        "currency": "MXN",
+        "category": "fuertes"
+      },
+      {
+        "name": "Flan de quesillo",
+        "price": null,
+        "currency": "MXN",
+        "category": "postres"
+      },
+      {
+        "name": "Espuma de tejate",
+        "price": null,
+        "currency": "MXN",
+        "category": "postres"
+      }
+    ]
+  },
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/bichi.cdmx/",
+      "fields": [
+        "address",
+        "hours"
+      ]
+    },
+    {
+      "source": "opentable",
+      "url": "https://www.opentable.com/r/bichi-ciudad-de-mexico",
+      "fields": [
+        "chef",
+        "address"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://lideresmexicanos.com/tendencias/bichi-sabores-de-oaxaca-y-sinaloa-en-la-condesa",
+      "fields": [
+        "menu"
+      ]
+    }
+  ]
+}

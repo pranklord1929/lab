@@ -1,0 +1,104 @@
+{
+  "catalogName": "El Tigre Silencioso",
+  "slug": "el-tigre-silencioso",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "El Tigre Silencioso",
+  "location": {
+    "address": "Colima 159, Roma Norte",
+    "neighborhood": "Roma Norte",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06700",
+    "coordinates": {
+      "latitude": 19.420399,
+      "longitude": -99.1597464
+    }
+  },
+  "contact": {
+    "phone": "+52 55 2174 6586",
+    "phoneAlt": "+52 55 9300 3306",
+    "website": "https://eltigresilencioso.mx/",
+    "instagram": "el.tigre.silencioso",
+    "email": "info@eltigresilencioso.mx"
+  },
+  "hours": [
+    "Kitchen hours on official site (image). IG also posts weekend norteño brunch Sat–Sun 10:00–14:00."
+  ],
+  "food": {
+    "cuisine": "cantina norteña / mexican",
+    "chef": "David Castro Hussong (press)",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com.mx/r/el-tigre-silencioso-ciudad-de-mexico"
+  },
+  "distinctions": {
+    "michelin": "Seleccionado: Buena cocina",
+    "michelinStars": 0
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/el-tigre-silencioso",
+    "observedAt": "2026-08-17",
+    "itemCount": 2,
+    "items": [
+      {
+        "name": "Empanada norteña de chicharrón prensado y pescado ahumado"
+      },
+      {
+        "name": "Pulpo guisado"
+      }
+    ],
+    "notes": "eltigresilencioso.mx is a leftover Goya theme demo; no restaurant carta."
+  },
+  "sources": [
+    {
+      "source": "official",
+      "url": "https://eltigresilencioso.mx/",
+      "fields": [
+        "website",
+        "instagram",
+        "email",
+        "reservation"
+      ]
+    },
+    {
+      "source": "michelin",
+      "url": "https://guide.michelin.com/us/en/ciudad-de-mexico/cuauhtemoc_1995126/restaurant/el-tigre-silencioso",
+      "fields": [
+        "address",
+        "phone"
+      ]
+    }
+  ],
+  "gaps": [
+    "full weekly hours text",
+    "coordinates"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "michelinReview": "Este desenfadado local de la Roma Norte te recibe en un patio delantero con elementos de piedra, mesas y árboles de antaño. Subiendo unos escalones se llega al cobertizo, con columnas cubiertas de hiedra y una terraza a todo lo largo donde también podrás comer al aire libre. En el interior propiamente dicho, con suelos de madera y paredes de estuco, te esperan una barra y una cocina abierta donde se prepara una gran variedad de propuestas, todas ellas creativas y basadas en sugerentes combinaciones de ingredientes. La empanada norteña, dorada y crujiente, viene rellena de chicharrón prensado y pescado ahumado, mientras que el sabroso pulpo guisado se presenta coronado con trocitos de crujiente menudo y acompañado de unas tortillas recién hechas.",
+  "ratings": {
+    "opentable": 4.6,
+    "opentableReviews": 843
+  },
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/el-tigre-silencioso",
+      "id": "1211152"
+    },
+    {
+      "source": "opentable",
+      "name": "El Tigre Silencioso",
+      "rating": 4.6
+    }
+  ]
+}

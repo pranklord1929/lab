@@ -1,0 +1,94 @@
+{
+  "catalogName": "Tacos Charly",
+  "slug": "tacos-charly",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Tacos Charly",
+  "location": {
+    "address": "Av. San Fernando 201, Toriello Guerra, Tlalpan",
+    "neighborhood": "Toriello Guerra",
+    "borough": "Tlalpan",
+    "postalCode": "14050",
+    "coordinates": {
+      "latitude": 19.2932753,
+      "longitude": -99.1699747
+    }
+  },
+  "contact": {
+    "phone": "+52 55 5606 2824",
+    "website": "https://www.instagram.com/tacoscharlyoficial/",
+    "instagram": "tacoscharlyoficial",
+    "email": null,
+    "websiteIsInstagram": true
+  },
+  "hours": [
+    "IG: 15:00–23:00. Yelp also lists long hours from 07:00 — confirm."
+  ],
+  "food": {
+    "cuisine": "tacos suadero",
+    "priceLevel": 1
+  },
+  "reservation": {
+    "platform": "walk-in",
+    "url": null
+  },
+  "distinctions": {
+    "michelin": "Bib Gourmand : nuestras mejores relaciones calidad-precio",
+    "bibGourmand": true
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/tlalpan/restaurante/tacos-charly",
+    "observedAt": "2026-08-17",
+    "itemCount": 2,
+    "items": [
+      {
+        "name": "Taco de suadero",
+        "price": null,
+        "currency": "MXN",
+        "category": "tacos",
+        "description": "Michelin: confitado y luego hervido, especialidad más solicitada"
+      },
+      {
+        "name": "Taco al pastor",
+        "price": null,
+        "currency": "MXN",
+        "category": "tacos",
+        "description": "Trompo dedicado"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/tacoscharlyoficial/",
+      "fields": [
+        "address",
+        "hours"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/tlalpan/restaurante/tacos-charly",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "michelinReview": "Tacos Charly es un popular local de la demarcación de Tlalpan, al sur de la Ciudad de México, por lo que más vale que llegues temprano si no quieres esperar y te acuerdes de llevar efectivo, ya que no aceptan tarjeta. Su especialidad más solicitada es el suadero, confitado y luego hervido para obtener un taco más jugoso, casi al estilo guisado, pero no dejes de probar sus tacos al pastor. Estos están preparados en un puesto dedicado a ellos, con el cocinero manejando hábilmente el trompo. Tierno y sabroso, se corta muy fino antes de caer a los pies del trompo, donde la grasa fundida va goteando deliciosamente sobre la carne.",
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/tlalpan_2003036/restaurante/tacos-charly",
+      "id": "1213232"
+    }
+  ]
+}

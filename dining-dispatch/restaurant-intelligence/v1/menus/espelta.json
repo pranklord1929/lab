@@ -1,0 +1,129 @@
+{
+  "slug": "espelta",
+  "name": "Espelta",
+  "url": "https://espelta.mx/",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Calabaza amarilla, albahaca y ’nduja de vegetales",
+      "price": null,
+      "currency": "MXN",
+      "category": "ensaladas",
+      "description": "Alcaparra, queso fresco y berenjena tatemada"
+    },
+    {
+      "name": "Endivias y betabel a la brasa",
+      "price": null,
+      "currency": "MXN",
+      "category": "ensaladas",
+      "description": "Yogurt de rancho, vinagreta de pimienta rosa, espelta garapiñada"
+    },
+    {
+      "name": "Ensalada verde",
+      "price": null,
+      "currency": "MXN",
+      "category": "ensaladas",
+      "description": "Berenjena, cherrys, queso y miel multifloral"
+    },
+    {
+      "name": "Camote rostizado y hojas amargas",
+      "price": null,
+      "currency": "MXN",
+      "category": "ensaladas",
+      "description": "Cacahuate, mix de hojas y salsa macha"
+    },
+    {
+      "name": "Pan de espelta",
+      "price": null,
+      "currency": "MXN",
+      "category": "entradas",
+      "description": "Mantequilla de rancho y flores comestibles"
+    },
+    {
+      "name": "Tataki de flat iron Wagyu FB",
+      "price": null,
+      "currency": "MXN",
+      "category": "entradas",
+      "description": "Ponzu, pepino persa y semilla de mostaza encurtida"
+    },
+    {
+      "name": "Croquetas",
+      "price": null,
+      "currency": "MXN",
+      "category": "entradas",
+      "description": "Piña, pimiento baby y salsa macha"
+    },
+    {
+      "name": "Queso fundido y hongos",
+      "price": null,
+      "currency": "MXN",
+      "category": "entradas",
+      "description": "Hoja santa, tortilla dorada, xnipec de col"
+    },
+    {
+      "name": "Flatbread de Espelta",
+      "price": null,
+      "currency": "MXN",
+      "category": "entradas",
+      "description": "Hongos, calabacín y aceite de oliva"
+    },
+    {
+      "name": "Aguachile rojo",
+      "price": null,
+      "currency": "MXN",
+      "category": "entradas",
+      "description": "Trucha, berenjena tatemada, pepino y tomate"
+    },
+    {
+      "name": "Chorizo y berenjena",
+      "price": null,
+      "currency": "MXN",
+      "category": "entradas",
+      "description": "Col caraflex, perejil y hogaza de espelta"
+    },
+    {
+      "name": "Verduras de temporada",
+      "price": null,
+      "currency": "MXN",
+      "category": "entradas",
+      "description": "Romesco rojo y pan de masa madre"
+    },
+    {
+      "name": "Tostadas de trucha blanca con aguacate",
+      "price": null,
+      "currency": "MXN",
+      "category": "entradas",
+      "description": "2 pz. Yuzu, pepino y cebolla morada"
+    },
+    {
+      "name": "Tagliatelle con hongos",
+      "price": null,
+      "currency": "MXN",
+      "category": "entradas",
+      "description": "Parmesano, chalote y pan de espelta"
+    },
+    {
+      "name": "Trucha al cedro",
+      "price": null,
+      "currency": "MXN",
+      "category": "platos fuertes",
+      "description": "Piña, cherrys y calabaza amarilla rostizada"
+    },
+    {
+      "name": "Short rib",
+      "price": null,
+      "currency": "MXN",
+      "category": "platos fuertes",
+      "description": "Puré aligot y demi-glace"
+    },
+    {
+      "name": "Pollo con adobo",
+      "price": null,
+      "currency": "MXN",
+      "category": "platos fuertes",
+      "description": "Verduras al carbón"
+    }
+  ],
+  "notes": "Official carta Noviembre 2025 on espelta.mx. No prices published on the HTML menu."
+}

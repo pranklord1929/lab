@@ -1,0 +1,138 @@
+{
+  "catalogName": "Encanto Fuego & Mar",
+  "slug": "encanto-fuego-y-mar",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Encanto Fuego & Mar",
+  "location": {
+    "address": "Presidente Masaryk 123-B, Polanco",
+    "neighborhood": "Polanco",
+    "borough": "Miguel Hidalgo",
+    "postalCode": "11560",
+    "coordinates": {
+      "latitude": 19.4321327,
+      "longitude": -99.2012824
+    }
+  },
+  "contact": {
+    "phone": "+525575839911",
+    "website": "https://www.instagram.com/encantofuegoymar/",
+    "instagram": "encantofuegoymar",
+    "email": null,
+    "websiteIsInstagram": true
+  },
+  "hours": [
+    "sun 13:00–23:00",
+    "mon 13:00–01:00",
+    "tue 13:00–01:00",
+    "wed 13:00–01:00",
+    "thu 13:00–01:00",
+    "fri 13:00–01:00",
+    "sat 13:00–01:00"
+  ],
+  "food": {
+    "cuisine": "steak / seafood",
+    "priceLevel": 4
+  },
+  "reservation": {
+    "platform": "reservandonos",
+    "url": "https://reservandonos.com/lugar/encanto-fuego-y-mar-polanco"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.opentable.com.mx/r/encanto-ciudad-de-mexico",
+    "observedAt": "2026-08-17",
+    "itemCount": 7,
+    "items": [
+      {
+        "name": "Ceviche verde",
+        "price": 345,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Aguachile rojo con camarón a las brasas",
+        "price": 550,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Tiradito mixto",
+        "price": 360,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Tiradito de hamachi",
+        "price": 450,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Tartar de res",
+        "price": 345,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Gyozas de betabel",
+        "price": null,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Tacos de rib eye",
+        "price": null,
+        "currency": "MXN",
+        "category": "tacos"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/encantofuegoymar/",
+      "fields": [
+        "address"
+      ]
+    },
+    {
+      "source": "resy",
+      "url": "https://resy.com/cities/mexico-city-mexico/venues/encanto-fuego-y-mar-polanco",
+      "fields": [
+        "address"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://www.opentable.com.mx/r/encanto-ciudad-de-mexico",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": [
+    {
+      "source": "reservandonos",
+      "phone": "+525575839911"
+    },
+    {
+      "source": "resy",
+      "url": "https://resy.com/cities/mexico-city-mexico/venues/encanto-fuego-y-mar-polanco",
+      "slug": "encanto-fuego-y-mar-polanco"
+    },
+    {
+      "source": "reservandonos-nuxt",
+      "url": "https://reservandonos.com/lugar/encanto-fuego-y-mar-polanco",
+      "hours": true
+    }
+  ]
+}

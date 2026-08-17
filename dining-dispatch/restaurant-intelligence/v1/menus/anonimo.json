@@ -1,0 +1,41 @@
+{
+  "slug": "anonimo",
+  "name": "Anónimo",
+  "url": "https://www.opentable.com/r/anonimo-colectivo-ciudad-de-mexico",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Ensalada César, anchoas y parmesano",
+      "price": 190,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Aceitunas rellenas",
+      "price": 180,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Toast de pera, burrata fresca y gorgonzola",
+      "price": 195,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Tiradito",
+      "price": null,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Pizza Di Formaggio",
+      "price": null,
+      "currency": "MXN",
+      "category": "pizzas",
+      "description": "Pecorino, asiago, mozzarella, anchoas y ranch — IG oficial @anonimo.rest"
+    }
+  ],
+  "notes": "OpenTable published menu excerpt (26 Oct 2024) + official IG dish name."
+}

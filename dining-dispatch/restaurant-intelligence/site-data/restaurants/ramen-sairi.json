@@ -1,0 +1,221 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "8c96c042-a1f7-4326-9eda-7bd182aa08c2",
+  "slug": "ramen-sairi",
+  "name": "Ramen Sairi",
+  "location": {
+    "neighborhood": "HIPÓDROMO",
+    "borough": "Cuauhtémoc",
+    "address": "Alfonso Reyes 139, Hipódromo, Cuauhtémoc, 06100 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4075078,
+      "longitude": -99.1769258
+    }
+  },
+  "contact": {
+    "phone": "55 5943 5348",
+    "website": "https://sairiramen.blogspot.com/2020/07/menu-de-ramen.html?m=1",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=9680653814668356360&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "ramen",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 10:30 a.m. – 9:00 p.m.",
+      "lunes: 10:30 a.m. – 10:30 p.m.",
+      "martes: 10:30 a.m. – 10:30 p.m.",
+      "miércoles: 10:30 a.m. – 10:30 p.m.",
+      "jueves: 10:30 a.m. – 10:30 p.m.",
+      "viernes: 10:30 a.m. – 10:30 p.m.",
+      "sábado: 10:30 a.m. – 10:30 p.m."
+    ],
+    "rating": 3.7,
+    "reviewCount": 1825
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-17T10:10:05.905Z",
+    "observationAgeDaysAtExport": 31,
+    "documentCount": 5,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "2b029b35-b341-4fa9-8b04-2087141db81e",
+        "sourceUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBB8z2CiyRoiYvSE4QXJJnp4bDSzX9Ksxlk0EwXoAT6LW-oQZ0rSn3kkI76uDslbf3YsT1BlweFYc-9TiyAOHa5qym-RZXzfV0KFk5CbrAFrLQVh4jmxPCO7VxL7n9IB5dBKhtK2FwtTKkhKggLobe6Aw8wy7ocSM0z2llW0h-GE2YoTzj_TyfN08lyAM/s72-w649-c-h1238/MENU%20DE%20SAIRI_page-0001%20(1).jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "d2c2ae53-bee5-47e7-aa52-b7154bf14ece",
+        "sourceUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBB8z2CiyRoiYvSE4QXJJnp4bDSzX9Ksxlk0EwXoAT6LW-oQZ0rSn3kkI76uDslbf3YsT1BlweFYc-9TiyAOHa5qym-RZXzfV0KFk5CbrAFrLQVh4jmxPCO7VxL7n9IB5dBKhtK2FwtTKkhKggLobe6Aw8wy7ocSM0z2llW0h-GE2YoTzj_TyfN08lyAM/w649-h1238/MENU%20DE%20SAIRI_page-0001%20(1).jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "f12f3a76-a098-42f6-a65e-f740313ca6ee",
+        "sourceUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBB8z2CiyRoiYvSE4QXJJnp4bDSzX9Ksxlk0EwXoAT6LW-oQZ0rSn3kkI76uDslbf3YsT1BlweFYc-9TiyAOHa5qym-RZXzfV0KFk5CbrAFrLQVh4jmxPCO7VxL7n9IB5dBKhtK2FwtTKkhKggLobe6Aw8wy7ocSM0z2llW0h-GE2YoTzj_TyfN08lyAM/w1200-h630-p-k-no-nu/MENU%20DE%20SAIRI_page-0001%20(1).jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "216fee9d-5a97-4e1a-a95b-451327766cb0",
+        "sourceUrl": "https://sairiramen.blogspot.com/2020/07/menu-de-ramen.html?m=1",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "9d98117c-70f0-4eda-aa17-a71b4348e997",
+        "sourceUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBB8z2CiyRoiYvSE4QXJJnp4bDSzX9Ksxlk0EwXoAT6LW-oQZ0rSn3kkI76uDslbf3YsT1BlweFYc-9TiyAOHa5qym-RZXzfV0KFk5CbrAFrLQVh4jmxPCO7VxL7n9IB5dBKhtK2FwtTKkhKggLobe6Aw8wy7ocSM0z2llW0h-GE2YoTzj_TyfN08lyAM/s1755/MENU%20DE%20SAIRI_page-0001%20(1).jpg",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBB8z2CiyRoiYvSE4QXJJnp4bDSzX9Ksxlk0EwXoAT6LW-oQZ0rSn3kkI76uDslbf3YsT1BlweFYc-9TiyAOHa5qym-RZXzfV0KFk5CbrAFrLQVh4jmxPCO7VxL7n9IB5dBKhtK2FwtTKkhKggLobe6Aw8wy7ocSM0z2llW0h-GE2YoTzj_TyfN08lyAM/w649-h1238/MENU%20DE%20SAIRI_page-0001%20(1).jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBB8z2CiyRoiYvSE4QXJJnp4bDSzX9Ksxlk0EwXoAT6LW-oQZ0rSn3kkI76uDslbf3YsT1BlweFYc-9TiyAOHa5qym-RZXzfV0KFk5CbrAFrLQVh4jmxPCO7VxL7n9IB5dBKhtK2FwtTKkhKggLobe6Aw8wy7ocSM0z2llW0h-GE2YoTzj_TyfN08lyAM/w1200-h630-p-k-no-nu/MENU%20DE%20SAIRI_page-0001%20(1).jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBB8z2CiyRoiYvSE4QXJJnp4bDSzX9Ksxlk0EwXoAT6LW-oQZ0rSn3kkI76uDslbf3YsT1BlweFYc-9TiyAOHa5qym-RZXzfV0KFk5CbrAFrLQVh4jmxPCO7VxL7n9IB5dBKhtK2FwtTKkhKggLobe6Aw8wy7ocSM0z2llW0h-GE2YoTzj_TyfN08lyAM/s72-w649-c-h1238/MENU%20DE%20SAIRI_page-0001%20(1).jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBB8z2CiyRoiYvSE4QXJJnp4bDSzX9Ksxlk0EwXoAT6LW-oQZ0rSn3kkI76uDslbf3YsT1BlweFYc-9TiyAOHa5qym-RZXzfV0KFk5CbrAFrLQVh4jmxPCO7VxL7n9IB5dBKhtK2FwtTKkhKggLobe6Aw8wy7ocSM0z2llW0h-GE2YoTzj_TyfN08lyAM/s1755/MENU%20DE%20SAIRI_page-0001%20(1).jpg",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://sairiramen.blogspot.com/2020/07/menu-de-ramen.html?m=1",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:59.17+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=9680653814668356360&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:54.987+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.165171+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:18:33.124912+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 6,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

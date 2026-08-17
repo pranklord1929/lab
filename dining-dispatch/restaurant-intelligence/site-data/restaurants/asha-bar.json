@@ -1,0 +1,2252 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "847edddd-bc88-41b0-8d39-b4c71707e60b",
+  "slug": "asha-bar",
+  "name": "Asha Bar",
+  "location": {
+    "neighborhood": "COPILCO EL BAJO",
+    "borough": "Coyoacán",
+    "address": "Victoria 9, Copilco el Bajo, Coyoacán, 04340 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3387853,
+      "longitude": -99.1895602
+    }
+  },
+  "contact": {
+    "phone": "5525678099",
+    "website": "http://www.asha-bar.com.mx/",
+    "instagram": "https://instagram.com/ashabaroficial/",
+    "googleMapsUrl": "https://maps.google.com/?cid=185705677165915319&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "bar",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 3
+  },
+  "experience": {
+    "sourceSummary": "Lively late-night pub & disco offering a range of drinks, plus DJs spinning pop & Latin dance music.",
+    "hours": [
+      "domingo: Cerrado",
+      "lunes: Cerrado",
+      "martes: Cerrado",
+      "miércoles: 10:00 p.m. – 4:00 a.m.",
+      "jueves: 10:00 p.m. – 4:00 a.m.",
+      "viernes: 10:00 p.m. – 4:00 a.m.",
+      "sábado: 10:00 p.m. – 4:00 a.m."
+    ],
+    "rating": 4,
+    "reviewCount": 2514
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-17T10:10:05.905Z",
+    "observationAgeDaysAtExport": 31,
+    "documentCount": 124,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "011c6e45-3347-4bbd-9ba5-1294bf454b2c",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/70335a41-dba4-4971-8e03-342261054461/Menu.png?format=300w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "05e0cec6-c3d9-4f3e-b5de-d674489444e1",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/615a000b-9c7d-4b1d-8958-de83b69eb950/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-05.jpg?format=750w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "06cb9b95-6700-4278-a865-bbdf2279518b",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/ee279c11-d607-4006-a9f8-bdd526976619/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+12.jpg?format=1500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "0d21b6e5-6ed7-4a0c-b9e3-bf45bb395614",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/10f6d6b1-c7c2-40ee-a707-db1631488ce3/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-10.jpg?format=1000w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "0f387d4c-5845-46c1-a867-c2d68cc69d40",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/373aca3d-a2fd-4a91-bc0d-1fa18955ff47/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-03.jpg?format=100w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "1099728c-1637-4ed0-bd3a-60e0209d6390",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/08494ec2-f84c-4511-ab32-363e0e5c4b51/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-11.jpg?format=750w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "11e4d976-916f-4466-a785-0e545dd3d54c",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/08494ec2-f84c-4511-ab32-363e0e5c4b51/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-11.jpg?format=500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "1232c7ca-86a6-450e-89f4-d3bb05319375",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/8fb09d0c-6414-4e8f-a171-de6d1263a892/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+14.jpg?format=1500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "146e4cf3-a875-43bf-bb61-01dfdd308004",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/c5e59113-7cc7-4f8f-b3f6-f3dfa7fc4a40/Menu%CC%81.png?format=750w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "16565fc8-6301-4a0d-a54a-0eae9e351b79",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/8fb09d0c-6414-4e8f-a171-de6d1263a892/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+14.jpg?format=2500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "16e96b38-bc47-4bac-9acd-8fff79177909",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/8fb09d0c-6414-4e8f-a171-de6d1263a892/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+14.jpg?format=750w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "187dccbe-2cba-4fb9-8a44-efd363aa9a03",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/09439dd0-3ee7-47d6-b560-d441102f2c64/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-06.jpg?format=2500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "18e4f8f4-9928-4fbc-93ee-ac471e448f91",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/9b31dceb-4838-4776-a26c-96f9c3f455f2/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-04.jpg?format=1500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "1e53874f-820c-4ae2-b71f-28d4467f56ba",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/5b728b6c-dd50-438a-9685-b3cb0dc47f71/MENU%CC%81+COCTELERI%CC%81A+SIN+PRECIOS+ASHA+2024-01.jpg?format=1500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "21f48f9b-acde-4906-b412-794c6b2b890d",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/09439dd0-3ee7-47d6-b560-d441102f2c64/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-06.jpg?format=1000w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "235bb285-c8db-4e06-ba9e-263e4f74d3a9",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/ee279c11-d607-4006-a9f8-bdd526976619/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+12.jpg?format=750w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "26677491-d94f-4d2d-9b5a-08656bec8dac",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/70335a41-dba4-4971-8e03-342261054461/Menu.png?format=1000w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "276d8288-b3c3-42f2-8a5a-74954bac6551",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/10f6d6b1-c7c2-40ee-a707-db1631488ce3/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-10.jpg?format=100w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "299b4ac6-0dc4-4d4c-af14-1863cbf43950",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/70335a41-dba4-4971-8e03-342261054461/Menu.png?format=100w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "2b48cb6f-2533-41e0-b676-dd1d07ab1ac8",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/70335a41-dba4-4971-8e03-342261054461/Menu.png",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "2bf9042f-db4d-4fca-b459-578f5a3f4e7c",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/373aca3d-a2fd-4a91-bc0d-1fa18955ff47/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-03.jpg?format=300w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "322ef97e-ff3f-4c37-99f6-88426a8cb62a",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/ee279c11-d607-4006-a9f8-bdd526976619/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+12.jpg?format=300w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "37360170-c39e-4fec-88af-dec8e9138071",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/10f6d6b1-c7c2-40ee-a707-db1631488ce3/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-10.jpg?format=500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "3b828612-75da-4d06-9e9a-7cd19c2e3a0f",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/234c6d3b-7482-4493-b6e1-4a01e5b67f1e/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-12.jpg?format=1000w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "3c5c7c2b-aabf-496b-b0d4-94a3473ac3e5",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/5b728b6c-dd50-438a-9685-b3cb0dc47f71/MENU%CC%81+COCTELERI%CC%81A+SIN+PRECIOS+ASHA+2024-01.jpg?format=500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "3d989a5e-fcef-4afc-ba09-fdd13ef09bab",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/7b2b46e8-8573-48b2-a002-ce35d7fcda83/MENU%CC%81-LARGO-BEBIDAS-SIN-PRECIOS-%281%29.jpg?format=500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "3dbd1b67-be62-4178-a2e2-57a3f133ed11",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/5b728b6c-dd50-438a-9685-b3cb0dc47f71/MENU%CC%81+COCTELERI%CC%81A+SIN+PRECIOS+ASHA+2024-01.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "3e41cdb4-0281-47f3-8398-a07e54a9c0f2",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/c5e59113-7cc7-4f8f-b3f6-f3dfa7fc4a40/Menu%CC%81.png?format=1500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "42cf4acd-d661-4c95-ad78-a25de867e1af",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/7b2b46e8-8573-48b2-a002-ce35d7fcda83/MENU%CC%81-LARGO-BEBIDAS-SIN-PRECIOS-%281%29.jpg?format=1000w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "42d7b517-98f0-42df-83cb-53eb92d6dceb",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/615a000b-9c7d-4b1d-8958-de83b69eb950/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-05.jpg?format=1500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "432ba133-f361-43fa-bf29-1453bf60cd30",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/234c6d3b-7482-4493-b6e1-4a01e5b67f1e/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-12.jpg?format=750w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "4a149ba6-debe-4047-9071-abe2ea4d6fea",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/373aca3d-a2fd-4a91-bc0d-1fa18955ff47/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-03.jpg?format=1000w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "4af3a825-5266-4d70-910e-85378de2e6a9",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/c5e59113-7cc7-4f8f-b3f6-f3dfa7fc4a40/Menu%CC%81.png",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "4e66c8a0-7c4c-44a4-bfe2-5ac124d14f49",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/615a000b-9c7d-4b1d-8958-de83b69eb950/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-05.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "50482f74-4de1-4aef-9d81-6f07af58ec7b",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/70335a41-dba4-4971-8e03-342261054461/Menu.png?format=750w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "532193bd-26bd-4139-8211-deb722a2d5a7",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/ee279c11-d607-4006-a9f8-bdd526976619/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+12.jpg?format=500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "55c5d5b5-5db1-4464-bb65-20f488dfa719",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/7b2b46e8-8573-48b2-a002-ce35d7fcda83/MENU%CC%81-LARGO-BEBIDAS-SIN-PRECIOS-%281%29.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "590e1e4e-0920-403e-ab90-fc60561dd7c6",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/8fb09d0c-6414-4e8f-a171-de6d1263a892/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+14.jpg?format=300w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "59280886-35e4-4ff4-81be-4cd5e13aa385",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/9b31dceb-4838-4776-a26c-96f9c3f455f2/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-04.jpg?format=1000w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "5b1c81ad-07aa-4de4-913d-f16b75b5ca7f",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/09439dd0-3ee7-47d6-b560-d441102f2c64/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-06.jpg?format=750w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "5c8ec1c6-76d8-43f0-99df-964edfc0948f",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/08494ec2-f84c-4511-ab32-363e0e5c4b51/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-11.jpg?format=1000w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "5f92bf3c-3c30-43bd-9c58-735707dd8782",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/fc7bf0a2-c41b-4973-9999-2f48ff302cae/MENU%CC%81+COCTELERI%CC%81A+SIN+PRECIOS+ASHA+2024-02.jpg?format=300w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "633952db-c8dd-4bd1-9f07-85f010a7e108",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/5b728b6c-dd50-438a-9685-b3cb0dc47f71/MENU%CC%81+COCTELERI%CC%81A+SIN+PRECIOS+ASHA+2024-01.jpg?format=750w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "646f1ea4-ac63-41eb-82dd-f422800c37dc",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/ee279c11-d607-4006-a9f8-bdd526976619/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+12.jpg?format=100w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "69790b93-8f43-490b-b777-69d9a08d6351",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/9b31dceb-4838-4776-a26c-96f9c3f455f2/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-04.jpg?format=500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "6e42acba-9c38-40f1-b67c-e2498d7b7e4e",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/8fb09d0c-6414-4e8f-a171-de6d1263a892/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+14.jpg?format=100w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "6e834b46-ddf5-43bd-9011-6630f03849d3",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/9b31dceb-4838-4776-a26c-96f9c3f455f2/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-04.jpg?format=100w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "714cd99e-79b4-4e27-9de5-db450d9c5f03",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/5b728b6c-dd50-438a-9685-b3cb0dc47f71/MENU%CC%81+COCTELERI%CC%81A+SIN+PRECIOS+ASHA+2024-01.jpg?format=1000w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "73a3aafe-221d-4744-9830-93367162960e",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/9b31dceb-4838-4776-a26c-96f9c3f455f2/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-04.jpg?format=750w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "74f63ab3-2a8f-403c-a4ce-e43e14b9d4a2",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/09439dd0-3ee7-47d6-b560-d441102f2c64/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-06.jpg?format=300w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "7aacd077-45c1-4c2a-a2a2-537cb8d00d22",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/234c6d3b-7482-4493-b6e1-4a01e5b67f1e/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-12.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "7c5f46c9-a959-44d6-8cd4-7ea4bbcf1a98",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/234c6d3b-7482-4493-b6e1-4a01e5b67f1e/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-12.jpg?format=300w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "7e1136a3-34b1-45ea-918e-9476302afc32",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/fc7bf0a2-c41b-4973-9999-2f48ff302cae/MENU%CC%81+COCTELERI%CC%81A+SIN+PRECIOS+ASHA+2024-02.jpg?format=500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "80bfa76a-f785-4cca-87be-698820b14905",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/5b728b6c-dd50-438a-9685-b3cb0dc47f71/MENU%CC%81+COCTELERI%CC%81A+SIN+PRECIOS+ASHA+2024-01.jpg?format=300w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "83ef9b08-0a29-4998-8cb5-05ca24c617c8",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/234c6d3b-7482-4493-b6e1-4a01e5b67f1e/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-12.jpg?format=500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "8458411b-43bf-42e1-b5e3-495b345303e1",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/615a000b-9c7d-4b1d-8958-de83b69eb950/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-05.jpg?format=2500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "852dce0b-34c7-41ed-88fb-3b77dcb74af3",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/7b2b46e8-8573-48b2-a002-ce35d7fcda83/MENU%CC%81-LARGO-BEBIDAS-SIN-PRECIOS-%281%29.jpg?format=750w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "86db518f-8fc1-4544-b8c5-41f000581d45",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/10f6d6b1-c7c2-40ee-a707-db1631488ce3/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-10.jpg?format=2500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "8bd379f8-91c8-4b22-a2f4-208da4ecaba3",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/08494ec2-f84c-4511-ab32-363e0e5c4b51/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-11.jpg?format=1500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "8eb99bd4-5173-4844-81bd-5e3cdfc5d12b",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/615a000b-9c7d-4b1d-8958-de83b69eb950/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-05.jpg?format=500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "8ef8676f-89eb-4c20-bce2-d1cf82216e03",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/44df414e-de0d-49f3-aefb-27bf9f28eb13/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+16.jpg?format=1500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "940d9fc4-d002-40a4-a31f-d1a57fe28a3e",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/fc7bf0a2-c41b-4973-9999-2f48ff302cae/MENU%CC%81+COCTELERI%CC%81A+SIN+PRECIOS+ASHA+2024-02.jpg?format=1000w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "947a09ab-96f8-4ee3-902d-d001da4c7269",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/373aca3d-a2fd-4a91-bc0d-1fa18955ff47/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-03.jpg?format=750w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "95a41385-22be-42b1-808c-4e44d3f4196d",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/08494ec2-f84c-4511-ab32-363e0e5c4b51/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-11.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "98a9b618-30b8-479f-a191-3f13a3b13301",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/44df414e-de0d-49f3-aefb-27bf9f28eb13/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+16.jpg?format=500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "98e1e9fc-32b7-4d5d-be75-12d158c81025",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/373aca3d-a2fd-4a91-bc0d-1fa18955ff47/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-03.jpg?format=2500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "9a27b884-6b73-4b6b-a08c-9e4344a51d45",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/234c6d3b-7482-4493-b6e1-4a01e5b67f1e/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-12.jpg?format=100w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "9fd2a7bc-ff43-45cd-b15e-9d67932919a3",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/70335a41-dba4-4971-8e03-342261054461/Menu.png?format=1500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "a0327c33-3fa7-472a-9524-1952e72ebdfa",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/234c6d3b-7482-4493-b6e1-4a01e5b67f1e/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-12.jpg?format=1500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "a0c7fb29-8590-4c74-9580-e3bb00504202",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/ee279c11-d607-4006-a9f8-bdd526976619/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+12.jpg?format=2500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "a1958d6f-e6c8-46ca-b566-3fe756fe2f79",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/c5e59113-7cc7-4f8f-b3f6-f3dfa7fc4a40/Menu%CC%81.png?format=300w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "a6fa07d5-52bc-42b5-ba4f-d380a22678b3",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/8fb09d0c-6414-4e8f-a171-de6d1263a892/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+14.jpg?format=1000w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "a78d51c7-a3fa-4272-b344-b44c27c699a1",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/615a000b-9c7d-4b1d-8958-de83b69eb950/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-05.jpg?format=1000w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "a9c3b08c-f506-49d1-93b8-ba7601e9c14a",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/08494ec2-f84c-4511-ab32-363e0e5c4b51/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-11.jpg?format=100w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "ae01183e-1982-436b-92c8-25f2861d11ef",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/08494ec2-f84c-4511-ab32-363e0e5c4b51/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-11.jpg?format=300w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "aebcdcc9-fab3-47e3-8438-eb3bd76a65cb",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/8fb09d0c-6414-4e8f-a171-de6d1263a892/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+14.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "aff1136d-43cc-4303-a9f6-72703ca8dcf9",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/fc7bf0a2-c41b-4973-9999-2f48ff302cae/MENU%CC%81+COCTELERI%CC%81A+SIN+PRECIOS+ASHA+2024-02.jpg?format=2500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "b27347e1-f91b-44a4-b38e-4a1da734ec7e",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/c5e59113-7cc7-4f8f-b3f6-f3dfa7fc4a40/Menu%CC%81.png?format=500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "b32d9315-5cbd-45ac-9ede-4060a250cbfd",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/09439dd0-3ee7-47d6-b560-d441102f2c64/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-06.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "b576ddac-4110-4180-bd5b-e2ba50b0c012",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/44df414e-de0d-49f3-aefb-27bf9f28eb13/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+16.jpg?format=2500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "b794eb82-9409-4376-b680-6bd4955835dc",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/c5e59113-7cc7-4f8f-b3f6-f3dfa7fc4a40/Menu%CC%81.png?format=1000w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "b8736797-f33e-4e33-8d8f-5aca7b61ce67",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/fc7bf0a2-c41b-4973-9999-2f48ff302cae/MENU%CC%81+COCTELERI%CC%81A+SIN+PRECIOS+ASHA+2024-02.jpg?format=100w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "ba6b9d9b-8687-4cf9-97c0-f6e35d112377",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/09439dd0-3ee7-47d6-b560-d441102f2c64/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-06.jpg?format=100w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "bcd769e3-ad50-438e-8ed8-decb1a4aca1f",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/7b2b46e8-8573-48b2-a002-ce35d7fcda83/MENU%CC%81-LARGO-BEBIDAS-SIN-PRECIOS-%281%29.jpg?format=300w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "be569a40-53ee-471e-bc46-8e3428709649",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/c5e59113-7cc7-4f8f-b3f6-f3dfa7fc4a40/Menu%CC%81.png?format=100w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "c2ae3745-b983-4713-b7a3-77b67581e3b3",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/7b2b46e8-8573-48b2-a002-ce35d7fcda83/MENU%CC%81-LARGO-BEBIDAS-SIN-PRECIOS-%281%29.jpg?format=2500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "c564cf5b-1256-406a-bf34-a2d8a72fbce4",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/44df414e-de0d-49f3-aefb-27bf9f28eb13/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+16.jpg?format=1000w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "c5b28e2b-ef57-4859-a4fc-6e9ce5772b0a",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/44df414e-de0d-49f3-aefb-27bf9f28eb13/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+16.jpg?format=750w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "c5d23c54-9c9e-4f98-ba3c-8300fd7689d7",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/09439dd0-3ee7-47d6-b560-d441102f2c64/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-06.jpg?format=500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "ca4ec335-75d2-4729-976d-0ae1606addde",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/10f6d6b1-c7c2-40ee-a707-db1631488ce3/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-10.jpg?format=750w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "cccff0c0-bb63-4eb3-82c3-428198cbc98d",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/09439dd0-3ee7-47d6-b560-d441102f2c64/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-06.jpg?format=1500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "cd7298e0-9d29-46e2-9406-1dcf959e7acb",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/fc7bf0a2-c41b-4973-9999-2f48ff302cae/MENU%CC%81+COCTELERI%CC%81A+SIN+PRECIOS+ASHA+2024-02.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "cf3426b5-d1b0-4134-985e-59654b69b0a5",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/fc7bf0a2-c41b-4973-9999-2f48ff302cae/MENU%CC%81+COCTELERI%CC%81A+SIN+PRECIOS+ASHA+2024-02.jpg?format=1500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "cfd6ea07-c788-4334-8786-0db007af21ec",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/c5e59113-7cc7-4f8f-b3f6-f3dfa7fc4a40/Menu%CC%81.png?format=2500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "d1839763-f7e3-4e13-ab40-e56d97157fc1",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/7b2b46e8-8573-48b2-a002-ce35d7fcda83/MENU%CC%81-LARGO-BEBIDAS-SIN-PRECIOS-%281%29.jpg?format=100w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "d59ff5af-8259-4c4d-bf5f-de58c61319d8",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/fc7bf0a2-c41b-4973-9999-2f48ff302cae/MENU%CC%81+COCTELERI%CC%81A+SIN+PRECIOS+ASHA+2024-02.jpg?format=750w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "d63a7b5c-d6d5-4eb0-bf20-94055f9ee614",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/10f6d6b1-c7c2-40ee-a707-db1631488ce3/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-10.jpg?format=300w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "d6bf0016-62cb-4b92-92ff-9757bbf72019",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/9b31dceb-4838-4776-a26c-96f9c3f455f2/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-04.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "d8986cac-f10c-443a-9770-8cc0900faf38",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/373aca3d-a2fd-4a91-bc0d-1fa18955ff47/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-03.jpg?format=500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "da11ec1d-2bfe-483b-afac-9a1881191384",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/9b31dceb-4838-4776-a26c-96f9c3f455f2/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-04.jpg?format=2500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "dac16cdd-f37d-4e95-a32c-c87237e9ee3e",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/10f6d6b1-c7c2-40ee-a707-db1631488ce3/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-10.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "de22ed91-f40d-49b1-9de5-5130fb64d0be",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/44df414e-de0d-49f3-aefb-27bf9f28eb13/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+16.jpg?format=300w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "e1d89bbc-5b04-46a3-a01e-ecbf510e025d",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/70335a41-dba4-4971-8e03-342261054461/Menu.png?format=2500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "e4202543-8d6a-4405-a371-0fa339d80562",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/08494ec2-f84c-4511-ab32-363e0e5c4b51/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-11.jpg?format=2500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "e659d77d-ad5f-4fb3-ad0b-1b1a4bb8c156",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/44df414e-de0d-49f3-aefb-27bf9f28eb13/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+16.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "ea22810a-6ab6-4dd5-a0a0-295c70d7ad1d",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/373aca3d-a2fd-4a91-bc0d-1fa18955ff47/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-03.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "ea51f6d3-6c14-4248-bae7-569f1ac5acff",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/ee279c11-d607-4006-a9f8-bdd526976619/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+12.jpg",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "edbf2edf-6bfc-4753-8f7b-4f42bdbd8bc1",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/ee279c11-d607-4006-a9f8-bdd526976619/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+12.jpg?format=1000w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "f00f20e5-a783-42c1-bd04-68a28e0f1715",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/5b728b6c-dd50-438a-9685-b3cb0dc47f71/MENU%CC%81+COCTELERI%CC%81A+SIN+PRECIOS+ASHA+2024-01.jpg?format=100w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "f08ab39f-2854-472a-b6bf-2d1cc4b6c92e",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/10f6d6b1-c7c2-40ee-a707-db1631488ce3/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-10.jpg?format=1500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "f29600f8-5cb5-4cc9-afe2-9d103bcf7493",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/9b31dceb-4838-4776-a26c-96f9c3f455f2/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-04.jpg?format=300w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "f2bcc09c-a06c-4aaa-bd76-6ec274f63f37",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/615a000b-9c7d-4b1d-8958-de83b69eb950/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-05.jpg?format=300w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "f3e2cf63-5abc-496f-a325-2cc63bc00d34",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/234c6d3b-7482-4493-b6e1-4a01e5b67f1e/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-12.jpg?format=2500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "f72b2ee1-15df-4f2c-bf36-d40cc6ce4efd",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/373aca3d-a2fd-4a91-bc0d-1fa18955ff47/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-03.jpg?format=1500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "f7b94d69-7612-4859-b951-a529afe8f964",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/8fb09d0c-6414-4e8f-a171-de6d1263a892/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+14.jpg?format=500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "fc041eb9-8666-411d-908d-366d94211695",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/70335a41-dba4-4971-8e03-342261054461/Menu.png?format=500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "fce9cf82-07a5-4c1b-b302-4778a2ffd23a",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/5b728b6c-dd50-438a-9685-b3cb0dc47f71/MENU%CC%81+COCTELERI%CC%81A+SIN+PRECIOS+ASHA+2024-01.jpg?format=2500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "fcf40eb5-2211-44ba-a282-9d225f2be0fe",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/615a000b-9c7d-4b1d-8958-de83b69eb950/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-05.jpg?format=100w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "fd4c55b0-1308-4209-95b8-da0306ff9218",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/7b2b46e8-8573-48b2-a002-ce35d7fcda83/MENU%CC%81-LARGO-BEBIDAS-SIN-PRECIOS-%281%29.jpg?format=1500w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "ff00a553-013a-4aaf-8be4-7914af9c8ef3",
+        "sourceUrl": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/44df414e-de0d-49f3-aefb-27bf9f28eb13/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+16.jpg?format=100w",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "1a450c86-4a37-4912-b43b-cfae4f8dfb54",
+        "sourceUrl": "https://www.asha-bar.com.mx/room-menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "31f5bfbe-a95f-48c3-b59a-c950ebf23227",
+        "sourceUrl": "https://www.asha-bar.com.mx/asha-menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "7c255c3d-a214-4bec-a062-5b550a01c704",
+        "sourceUrl": "https://asha-bar.com.mx/asha-menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "ac3ebc13-c6e2-4c8e-a28b-6a35f6ad2965",
+        "sourceUrl": "https://asha-bar.com.mx/room-menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/70335a41-dba4-4971-8e03-342261054461/Menu.png",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/70335a41-dba4-4971-8e03-342261054461/Menu.png?format=100w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/70335a41-dba4-4971-8e03-342261054461/Menu.png?format=300w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/70335a41-dba4-4971-8e03-342261054461/Menu.png?format=500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/70335a41-dba4-4971-8e03-342261054461/Menu.png?format=750w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/70335a41-dba4-4971-8e03-342261054461/Menu.png?format=1000w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/70335a41-dba4-4971-8e03-342261054461/Menu.png?format=1500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/70335a41-dba4-4971-8e03-342261054461/Menu.png?format=2500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/615a000b-9c7d-4b1d-8958-de83b69eb950/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-05.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/615a000b-9c7d-4b1d-8958-de83b69eb950/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-05.jpg?format=100w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/615a000b-9c7d-4b1d-8958-de83b69eb950/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-05.jpg?format=300w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/615a000b-9c7d-4b1d-8958-de83b69eb950/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-05.jpg?format=500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/615a000b-9c7d-4b1d-8958-de83b69eb950/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-05.jpg?format=750w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/615a000b-9c7d-4b1d-8958-de83b69eb950/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-05.jpg?format=1000w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/615a000b-9c7d-4b1d-8958-de83b69eb950/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-05.jpg?format=1500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/615a000b-9c7d-4b1d-8958-de83b69eb950/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-05.jpg?format=2500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/09439dd0-3ee7-47d6-b560-d441102f2c64/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-06.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/09439dd0-3ee7-47d6-b560-d441102f2c64/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-06.jpg?format=100w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/09439dd0-3ee7-47d6-b560-d441102f2c64/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-06.jpg?format=300w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/09439dd0-3ee7-47d6-b560-d441102f2c64/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-06.jpg?format=500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/09439dd0-3ee7-47d6-b560-d441102f2c64/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-06.jpg?format=750w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/09439dd0-3ee7-47d6-b560-d441102f2c64/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-06.jpg?format=1000w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/09439dd0-3ee7-47d6-b560-d441102f2c64/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-06.jpg?format=1500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/09439dd0-3ee7-47d6-b560-d441102f2c64/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-06.jpg?format=2500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/ee279c11-d607-4006-a9f8-bdd526976619/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+12.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/ee279c11-d607-4006-a9f8-bdd526976619/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+12.jpg?format=100w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/ee279c11-d607-4006-a9f8-bdd526976619/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+12.jpg?format=300w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/ee279c11-d607-4006-a9f8-bdd526976619/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+12.jpg?format=500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/ee279c11-d607-4006-a9f8-bdd526976619/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+12.jpg?format=750w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/ee279c11-d607-4006-a9f8-bdd526976619/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+12.jpg?format=1000w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/ee279c11-d607-4006-a9f8-bdd526976619/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+12.jpg?format=1500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/ee279c11-d607-4006-a9f8-bdd526976619/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+12.jpg?format=2500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/8fb09d0c-6414-4e8f-a171-de6d1263a892/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+14.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/8fb09d0c-6414-4e8f-a171-de6d1263a892/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+14.jpg?format=100w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/8fb09d0c-6414-4e8f-a171-de6d1263a892/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+14.jpg?format=300w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/8fb09d0c-6414-4e8f-a171-de6d1263a892/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+14.jpg?format=500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/8fb09d0c-6414-4e8f-a171-de6d1263a892/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+14.jpg?format=750w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/8fb09d0c-6414-4e8f-a171-de6d1263a892/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+14.jpg?format=1000w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/8fb09d0c-6414-4e8f-a171-de6d1263a892/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+14.jpg?format=1500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/8fb09d0c-6414-4e8f-a171-de6d1263a892/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+14.jpg?format=2500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/44df414e-de0d-49f3-aefb-27bf9f28eb13/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+16.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/44df414e-de0d-49f3-aefb-27bf9f28eb13/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+16.jpg?format=100w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/44df414e-de0d-49f3-aefb-27bf9f28eb13/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+16.jpg?format=300w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/44df414e-de0d-49f3-aefb-27bf9f28eb13/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+16.jpg?format=500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/44df414e-de0d-49f3-aefb-27bf9f28eb13/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+16.jpg?format=750w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/44df414e-de0d-49f3-aefb-27bf9f28eb13/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+16.jpg?format=1000w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/44df414e-de0d-49f3-aefb-27bf9f28eb13/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+16.jpg?format=1500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/44df414e-de0d-49f3-aefb-27bf9f28eb13/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024_Mesa+de+trabajo+16.jpg?format=2500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/10f6d6b1-c7c2-40ee-a707-db1631488ce3/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-10.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/10f6d6b1-c7c2-40ee-a707-db1631488ce3/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-10.jpg?format=100w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/10f6d6b1-c7c2-40ee-a707-db1631488ce3/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-10.jpg?format=300w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/10f6d6b1-c7c2-40ee-a707-db1631488ce3/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-10.jpg?format=500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/10f6d6b1-c7c2-40ee-a707-db1631488ce3/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-10.jpg?format=750w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/10f6d6b1-c7c2-40ee-a707-db1631488ce3/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-10.jpg?format=1000w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/10f6d6b1-c7c2-40ee-a707-db1631488ce3/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-10.jpg?format=1500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/10f6d6b1-c7c2-40ee-a707-db1631488ce3/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-10.jpg?format=2500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/08494ec2-f84c-4511-ab32-363e0e5c4b51/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-11.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/08494ec2-f84c-4511-ab32-363e0e5c4b51/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-11.jpg?format=100w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/08494ec2-f84c-4511-ab32-363e0e5c4b51/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-11.jpg?format=300w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/08494ec2-f84c-4511-ab32-363e0e5c4b51/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-11.jpg?format=500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/08494ec2-f84c-4511-ab32-363e0e5c4b51/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-11.jpg?format=750w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/08494ec2-f84c-4511-ab32-363e0e5c4b51/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-11.jpg?format=1000w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/08494ec2-f84c-4511-ab32-363e0e5c4b51/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-11.jpg?format=1500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/08494ec2-f84c-4511-ab32-363e0e5c4b51/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-11.jpg?format=2500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/234c6d3b-7482-4493-b6e1-4a01e5b67f1e/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-12.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/234c6d3b-7482-4493-b6e1-4a01e5b67f1e/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-12.jpg?format=100w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/234c6d3b-7482-4493-b6e1-4a01e5b67f1e/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-12.jpg?format=300w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/234c6d3b-7482-4493-b6e1-4a01e5b67f1e/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-12.jpg?format=500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/234c6d3b-7482-4493-b6e1-4a01e5b67f1e/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-12.jpg?format=750w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/234c6d3b-7482-4493-b6e1-4a01e5b67f1e/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-12.jpg?format=1000w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/234c6d3b-7482-4493-b6e1-4a01e5b67f1e/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-12.jpg?format=1500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/234c6d3b-7482-4493-b6e1-4a01e5b67f1e/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-12.jpg?format=2500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/9b31dceb-4838-4776-a26c-96f9c3f455f2/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-04.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/9b31dceb-4838-4776-a26c-96f9c3f455f2/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-04.jpg?format=100w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/9b31dceb-4838-4776-a26c-96f9c3f455f2/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-04.jpg?format=300w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/9b31dceb-4838-4776-a26c-96f9c3f455f2/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-04.jpg?format=500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/9b31dceb-4838-4776-a26c-96f9c3f455f2/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-04.jpg?format=750w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/9b31dceb-4838-4776-a26c-96f9c3f455f2/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-04.jpg?format=1000w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/9b31dceb-4838-4776-a26c-96f9c3f455f2/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-04.jpg?format=1500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/9b31dceb-4838-4776-a26c-96f9c3f455f2/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-04.jpg?format=2500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/373aca3d-a2fd-4a91-bc0d-1fa18955ff47/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-03.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/373aca3d-a2fd-4a91-bc0d-1fa18955ff47/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-03.jpg?format=100w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/373aca3d-a2fd-4a91-bc0d-1fa18955ff47/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-03.jpg?format=300w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/373aca3d-a2fd-4a91-bc0d-1fa18955ff47/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-03.jpg?format=500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/373aca3d-a2fd-4a91-bc0d-1fa18955ff47/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-03.jpg?format=750w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/373aca3d-a2fd-4a91-bc0d-1fa18955ff47/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-03.jpg?format=1000w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/373aca3d-a2fd-4a91-bc0d-1fa18955ff47/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-03.jpg?format=1500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/373aca3d-a2fd-4a91-bc0d-1fa18955ff47/MENU%CC%81+DESTILADOS+SIN+PRECIOS+ASHA+2024-03.jpg?format=2500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/5b728b6c-dd50-438a-9685-b3cb0dc47f71/MENU%CC%81+COCTELERI%CC%81A+SIN+PRECIOS+ASHA+2024-01.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/5b728b6c-dd50-438a-9685-b3cb0dc47f71/MENU%CC%81+COCTELERI%CC%81A+SIN+PRECIOS+ASHA+2024-01.jpg?format=100w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/5b728b6c-dd50-438a-9685-b3cb0dc47f71/MENU%CC%81+COCTELERI%CC%81A+SIN+PRECIOS+ASHA+2024-01.jpg?format=300w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/5b728b6c-dd50-438a-9685-b3cb0dc47f71/MENU%CC%81+COCTELERI%CC%81A+SIN+PRECIOS+ASHA+2024-01.jpg?format=500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/5b728b6c-dd50-438a-9685-b3cb0dc47f71/MENU%CC%81+COCTELERI%CC%81A+SIN+PRECIOS+ASHA+2024-01.jpg?format=750w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/5b728b6c-dd50-438a-9685-b3cb0dc47f71/MENU%CC%81+COCTELERI%CC%81A+SIN+PRECIOS+ASHA+2024-01.jpg?format=1000w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/5b728b6c-dd50-438a-9685-b3cb0dc47f71/MENU%CC%81+COCTELERI%CC%81A+SIN+PRECIOS+ASHA+2024-01.jpg?format=1500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/5b728b6c-dd50-438a-9685-b3cb0dc47f71/MENU%CC%81+COCTELERI%CC%81A+SIN+PRECIOS+ASHA+2024-01.jpg?format=2500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/fc7bf0a2-c41b-4973-9999-2f48ff302cae/MENU%CC%81+COCTELERI%CC%81A+SIN+PRECIOS+ASHA+2024-02.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/fc7bf0a2-c41b-4973-9999-2f48ff302cae/MENU%CC%81+COCTELERI%CC%81A+SIN+PRECIOS+ASHA+2024-02.jpg?format=100w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/fc7bf0a2-c41b-4973-9999-2f48ff302cae/MENU%CC%81+COCTELERI%CC%81A+SIN+PRECIOS+ASHA+2024-02.jpg?format=300w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/fc7bf0a2-c41b-4973-9999-2f48ff302cae/MENU%CC%81+COCTELERI%CC%81A+SIN+PRECIOS+ASHA+2024-02.jpg?format=500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/fc7bf0a2-c41b-4973-9999-2f48ff302cae/MENU%CC%81+COCTELERI%CC%81A+SIN+PRECIOS+ASHA+2024-02.jpg?format=750w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/fc7bf0a2-c41b-4973-9999-2f48ff302cae/MENU%CC%81+COCTELERI%CC%81A+SIN+PRECIOS+ASHA+2024-02.jpg?format=1000w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/fc7bf0a2-c41b-4973-9999-2f48ff302cae/MENU%CC%81+COCTELERI%CC%81A+SIN+PRECIOS+ASHA+2024-02.jpg?format=1500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/fc7bf0a2-c41b-4973-9999-2f48ff302cae/MENU%CC%81+COCTELERI%CC%81A+SIN+PRECIOS+ASHA+2024-02.jpg?format=2500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/7b2b46e8-8573-48b2-a002-ce35d7fcda83/MENU%CC%81-LARGO-BEBIDAS-SIN-PRECIOS-%281%29.jpg",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/7b2b46e8-8573-48b2-a002-ce35d7fcda83/MENU%CC%81-LARGO-BEBIDAS-SIN-PRECIOS-%281%29.jpg?format=100w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/7b2b46e8-8573-48b2-a002-ce35d7fcda83/MENU%CC%81-LARGO-BEBIDAS-SIN-PRECIOS-%281%29.jpg?format=300w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/7b2b46e8-8573-48b2-a002-ce35d7fcda83/MENU%CC%81-LARGO-BEBIDAS-SIN-PRECIOS-%281%29.jpg?format=500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/7b2b46e8-8573-48b2-a002-ce35d7fcda83/MENU%CC%81-LARGO-BEBIDAS-SIN-PRECIOS-%281%29.jpg?format=750w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/7b2b46e8-8573-48b2-a002-ce35d7fcda83/MENU%CC%81-LARGO-BEBIDAS-SIN-PRECIOS-%281%29.jpg?format=1000w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/7b2b46e8-8573-48b2-a002-ce35d7fcda83/MENU%CC%81-LARGO-BEBIDAS-SIN-PRECIOS-%281%29.jpg?format=1500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/7b2b46e8-8573-48b2-a002-ce35d7fcda83/MENU%CC%81-LARGO-BEBIDAS-SIN-PRECIOS-%281%29.jpg?format=2500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/c5e59113-7cc7-4f8f-b3f6-f3dfa7fc4a40/Menu%CC%81.png",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/c5e59113-7cc7-4f8f-b3f6-f3dfa7fc4a40/Menu%CC%81.png?format=100w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/c5e59113-7cc7-4f8f-b3f6-f3dfa7fc4a40/Menu%CC%81.png?format=300w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/c5e59113-7cc7-4f8f-b3f6-f3dfa7fc4a40/Menu%CC%81.png?format=500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/c5e59113-7cc7-4f8f-b3f6-f3dfa7fc4a40/Menu%CC%81.png?format=750w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/c5e59113-7cc7-4f8f-b3f6-f3dfa7fc4a40/Menu%CC%81.png?format=1000w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/c5e59113-7cc7-4f8f-b3f6-f3dfa7fc4a40/Menu%CC%81.png?format=1500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://images.squarespace-cdn.com/content/v1/66da33804e365806e5a154b5/c5e59113-7cc7-4f8f-b3f6-f3dfa7fc4a40/Menu%CC%81.png?format=2500w",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-15T20:30:08.342Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://asha-bar.com.mx/room-menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://asha-bar.com.mx/asha-menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.asha-bar.com.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:42.859+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=185705677165915319&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:33.602+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/AshaMiKasha/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/ashabaroficial/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "denue",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.165171+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:09:22.210942+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 7,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_structured_menu_items"
+    ]
+  }
+}

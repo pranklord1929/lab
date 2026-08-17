@@ -1,0 +1,54 @@
+{
+  "slug": "yapan",
+  "name": "Yapan",
+  "url": "https://www.timeoutmexico.mx/ciudad-de-mexico/restaurantes/yapan",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Gyoza de birria",
+      "price": null,
+      "currency": "MXN",
+      "category": "entradas",
+      "description": "Rellenas de birria de res, consomé"
+    },
+    {
+      "name": "Edamame frito spicy",
+      "price": null,
+      "currency": "MXN",
+      "category": "entradas"
+    },
+    {
+      "name": "Atún aleta azul sobre mole poblano",
+      "price": null,
+      "currency": "MXN",
+      "category": "crudos"
+    },
+    {
+      "name": "Spicy tuna",
+      "price": null,
+      "currency": "MXN",
+      "category": "crudos"
+    },
+    {
+      "name": "Maki kani-san",
+      "price": null,
+      "currency": "MXN",
+      "category": "makis",
+      "description": "Camarón tempura, aguacate, kanikama, macha-mayo, tare"
+    },
+    {
+      "name": "Nigiri chutoro con achiote",
+      "price": null,
+      "currency": "MXN",
+      "category": "nigiri"
+    },
+    {
+      "name": "Flan de cajeta y mazapán",
+      "price": null,
+      "currency": "MXN",
+      "category": "postres"
+    }
+  ],
+  "notes": "Time Out México (2 Sep 2025) + OpenTable dish chips."
+}

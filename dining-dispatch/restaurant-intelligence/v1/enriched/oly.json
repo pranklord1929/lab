@@ -1,0 +1,120 @@
+{
+  "catalogName": "Oly",
+  "slug": "oly",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Oly",
+  "location": {
+    "address": "Alfonso Reyes 120, Condesa / Hipódromo",
+    "neighborhood": "Condesa",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06170",
+    "coordinates": {
+      "latitude": 19.4091824,
+      "longitude": -99.1772622
+    }
+  },
+  "contact": {
+    "phone": "+52 55 9103 0034",
+    "website": "https://www.instagram.com/oly._____/",
+    "instagram": "oly._____",
+    "email": null,
+    "websiteIsInstagram": true
+  },
+  "hours": [
+    "mar–dom comida y cena (IG)"
+  ],
+  "food": {
+    "cuisine": "mediterranean",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/r/oly-ciudad-de-mexico"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.tiktok.com/@tacotios/video/7548952120762912008",
+    "observedAt": "2026-08-17",
+    "itemCount": 9,
+    "items": [
+      {
+        "name": "Scallops",
+        "price": 240,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Col a la brasa con romesco",
+        "price": 180,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Capellini al limón",
+        "price": 210,
+        "currency": "MXN",
+        "category": "pastas"
+      },
+      {
+        "name": "Pasta de barco",
+        "price": 330,
+        "currency": "MXN",
+        "category": "pastas"
+      },
+      {
+        "name": "Short rib",
+        "price": 380,
+        "currency": "MXN",
+        "category": "fuertes"
+      },
+      {
+        "name": "Kofta",
+        "category": "fuertes"
+      },
+      {
+        "name": "Pan de pita y yogurt de hierbas"
+      },
+      {
+        "name": "Brocheta de pollo con chiles fermentados"
+      },
+      {
+        "name": "Sopa de ajo"
+      }
+    ],
+    "notes": "Official site has a Cargo image menu (olyoly.mx/menu) that did not yield extractable text. No reputable published item list used."
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/oly._____/",
+      "fields": [
+        "address",
+        "phone"
+      ]
+    },
+    {
+      "source": "opentable",
+      "url": "https://www.opentable.com/r/oly-ciudad-de-mexico",
+      "fields": [
+        "address"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://olyoly.mx/menu",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": []
+}

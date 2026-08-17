@@ -1,0 +1,298 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "a68f658f-58c1-496e-bd6b-e9a1eb9414c1",
+  "slug": "pane-en-via-insurgentes",
+  "name": "Pane En Vía Insurgentes",
+  "location": {
+    "neighborhood": "EXTREMADURA INSURGENTES",
+    "borough": "Benito Juárez",
+    "address": "Av. Insurgentes Sur 1285, Extremadura Insurgentes, Benito Juárez, 03740 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.3743807,
+      "longitude": -99.1789284
+    }
+  },
+  "contact": {
+    "phone": "55 5611 3116",
+    "website": "https://paneenvia.com/",
+    "instagram": "https://instagram.com/pane_en_via/",
+    "googleMapsUrl": "https://maps.google.com/?cid=8825673952760059841&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 8:00 a.m. – 10:30 p.m.",
+      "lunes: 8:00 a.m. – 10:30 p.m.",
+      "martes: 8:00 a.m. – 10:30 p.m.",
+      "miércoles: 8:00 a.m. – 10:30 p.m.",
+      "jueves: 8:00 a.m. – 10:30 p.m.",
+      "viernes: 8:00 a.m. – 11:00 p.m.",
+      "sábado: 8:00 a.m. – 11:00 p.m."
+    ],
+    "rating": 3.9,
+    "reviewCount": 493
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 4,
+    "itemCount": 6,
+    "documents": [
+      {
+        "id": "03dd0f0e-7835-45ed-a819-f1a912cafd2e",
+        "sourceUrl": "https://tofuu.getjusto.com/buckets-prod%2FnC6yMH9cguQHY8AWA-Cuadriptico%20Men%C3%BA%202026%20Abril-Mayo%20ALTA.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.95,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "98bccade-6258-41bf-a049-f997e51c272e",
+        "sourceUrl": "https://tofuu.getjusto.com/buckets-prod%2FSHtzAccQ6rJu7wKFP-T%26C%20GetJusto%20-%20Pane%20en%20Via.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.95,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "a32ab414-17fe-4e9a-a702-99bdda524f22",
+        "sourceUrl": "https://paneenvia.com/pedir/zbQZPzXkCvZRqMKFs/desayuno-campeon",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "a41fca65-7ba9-4e6b-adf3-0287ef561d5c",
+        "sourceUrl": "https://paneenvia.com/pedir/vaMLtncFWn5v5CThG/menu-consentido",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": [
+      {
+        "id": "ead36cfd-c15d-4d1a-a7ea-4a001499a28c",
+        "documentId": null,
+        "name": "Comercio Pane en Via",
+        "description": null,
+        "price": 50,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "f92ca3ed-8e9b-48c2-a9ba-eedf8d729bea",
+        "documentId": null,
+        "name": "Compra mínima",
+        "description": null,
+        "price": 250,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "57a1f94b-d223-4699-a51c-062a65f7b3e8",
+        "documentId": null,
+        "name": "Condiciones Aplicables",
+        "description": null,
+        "price": 250,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "2eb6a178-93b0-4319-ad55-25aed5e0e6a2",
+        "documentId": null,
+        "name": "Cupón de descuento",
+        "description": null,
+        "price": 100,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "277dffe7-a62e-4c75-a215-4e8adabdf7ba",
+        "documentId": null,
+        "name": "Pedido mínimo",
+        "description": null,
+        "price": 150,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "e30a5f36-d165-43ca-a26e-be55ee879427",
+        "documentId": null,
+        "name": "REALIZADAS A TRAVES DE NUESTRO WEB / APP!",
+        "description": null,
+        "price": 30,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://tofuu.getjusto.com/buckets-prod%2FnC6yMH9cguQHY8AWA-Cuadriptico%20Men%C3%BA%202026%20Abril-Mayo%20ALTA.pdf",
+      "confidence": 0.95,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://tofuu.getjusto.com/buckets-prod%2FSHtzAccQ6rJu7wKFP-T%26C%20GetJusto%20-%20Pane%20en%20Via.pdf",
+      "confidence": 0.95,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://paneenvia.com/pedir/zbQZPzXkCvZRqMKFs/desayuno-campeon",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://paneenvia.com/pedir/vaMLtncFWn5v5CThG/menu-consentido",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.paneenvia.com/pedir",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:09.811+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=8825673952760059841&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:23.274+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/pane_en_via/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "google_places",
+      "official_menus",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T20:05:20.22199+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:03:04.419243+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 6,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_cuisine",
+      "missing_source_summary"
+    ]
+  }
+}

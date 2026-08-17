@@ -1,0 +1,78 @@
+{
+  "slug": "los-cocuyos",
+  "name": "Los Cocuyos",
+  "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/taqueria-los-cocuyos",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Taco de cabeza",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos",
+      "description": "Michelin: tierna y fundente"
+    },
+    {
+      "name": "Taco al pastor",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Taco de suadero",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos",
+      "description": "Michelin: pedir a última hora de la tarde"
+    },
+    {
+      "name": "Taco de longaniza",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Taco de tripa",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Taco de lengua",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Taco de cachete",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Taco de molleja",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Taco de ojo",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Taco de maciza",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos"
+    },
+    {
+      "name": "Campechano",
+      "price": null,
+      "currency": "MXN",
+      "category": "tacos"
+    }
+  ],
+  "notes": "Michelin inspector (cabeza, pastor, suadero) + published taco list on TripAdvisor photo caption for the Centro stand."
+}

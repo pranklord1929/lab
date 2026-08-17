@@ -1,0 +1,100 @@
+{
+  "catalogName": "ALMAMÍA",
+  "slug": "almamia",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "AlmaMía",
+  "location": {
+    "address": "Av. Álvaro Obregón 120A / 124, Roma Norte (hotel + restaurant listings differ by a few numbers).",
+    "neighborhood": "Roma Norte",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06700",
+    "coordinates": {
+      "latitude": 19.4179961,
+      "longitude": -99.1617642
+    }
+  },
+  "contact": {
+    "phone": "+52 55 9128 5913",
+    "website": "https://www.instagram.com/almamia.romamx/",
+    "instagram": "almamia.romamx",
+    "email": null,
+    "websiteIsInstagram": true
+  },
+  "hours": [
+    "lun–mié 13:00–00:00",
+    "jue–sáb 13:00–01:00",
+    "dom 13:00–18:00"
+  ],
+  "food": {
+    "cuisine": "contemporary mexican",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "resy / opentable",
+    "url": "https://resy.com/cities/mexico-city-mexico/venues/almamia-restaurante"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.tripadvisor.com/Restaurant_Review-g150800-d33284802-Reviews-Alma_Mia-Mexico_City_Central_Mexico_and_Gulf_Coast.html",
+    "observedAt": "2026-08-17",
+    "itemCount": 2,
+    "items": [
+      {
+        "name": "Tacos de ribeye",
+        "price": null,
+        "currency": "MXN",
+        "category": "menú cantina"
+      },
+      {
+        "name": "Ensalada de lluvia",
+        "price": null,
+        "currency": "MXN",
+        "category": "ensaladas",
+        "description": "Hojas de chinampa, hummus rosa, palmitos, pepitas caramelizadas, vinagreta de pera — Facebook oficial"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/almamia.romamx/",
+      "fields": [
+        "hours"
+      ]
+    },
+    {
+      "source": "resy",
+      "url": "https://resy.com/cities/mexico-city-mexico/venues/almamia-restaurante",
+      "fields": [
+        "address",
+        "phone"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g150800-d33284802-Reviews-Alma_Mia-Mexico_City_Central_Mexico_and_Gulf_Coast.html",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "gaps": [
+    "exact door number 120 vs 124"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": [
+    {
+      "source": "resy",
+      "url": "https://resy.com/cities/mexico-city-mexico/venues/almamia-restaurante",
+      "slug": "almamia-restaurante"
+    }
+  ]
+}

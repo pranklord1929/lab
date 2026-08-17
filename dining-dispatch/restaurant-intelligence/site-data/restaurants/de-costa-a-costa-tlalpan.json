@@ -1,0 +1,525 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "45ccde47-3e68-4e0d-aa8f-0cb2d609e0c5",
+  "slug": "de-costa-a-costa-tlalpan",
+  "name": "De Costa a Costa (Tlalpan)",
+  "location": {
+    "neighborhood": "BELISARIO DOMÍNGUEZ SECCIÓN XVI",
+    "borough": "Tlalpan",
+    "address": "Fray Pedro de Gante 88, Belisario Domínguez, Tlalpan, 14080 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.2914344,
+      "longitude": -99.1547886
+    }
+  },
+  "contact": {
+    "phone": "55 1315 0638",
+    "website": "http://decostaacosta.mx/",
+    "instagram": "https://instagram.com/decostaacostamx/",
+    "googleMapsUrl": "https://maps.google.com/?cid=7993176942335738301&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "seafood",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 9:00 a.m. – 8:00 p.m.",
+      "lunes: 9:00 a.m. – 8:00 p.m.",
+      "martes: 9:00 a.m. – 8:00 p.m.",
+      "miércoles: 9:00 a.m. – 8:00 p.m.",
+      "jueves: 9:00 a.m. – 8:00 p.m.",
+      "viernes: 9:00 a.m. – 8:00 p.m.",
+      "sábado: 9:00 a.m. – 8:00 p.m."
+    ],
+    "rating": 4.4,
+    "reviewCount": 3094
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 7,
+    "itemCount": 19,
+    "documents": [
+      {
+        "id": "3b24d81b-333b-4580-a38f-fc4ed2a0370b",
+        "sourceUrl": "https://decostaacosta.mx/cavaline/vinos-de-la-casa/vaiven-temple-cabernet-sauvignon-2/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "5e8a78e0-bb79-420b-a20a-1aa20addea79",
+        "sourceUrl": "https://decostaacosta.mx/cavaline/vinos-de-la-casa/vaiven-equilibrio-rosado-2/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "84c37930-c514-4abf-a2ac-621f28529658",
+        "sourceUrl": "https://decostaacosta.mx/cavaline/vinos-de-la-casa/vaiven-impulso-brut-rosado-2/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "9c91431d-0512-4157-a6d0-6978e61a0791",
+        "sourceUrl": "https://decostaacosta.mx/cavaline/vinos-de-la-casa/vaiven-equilibrio-tinto/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "d26f7329-0d6c-4807-a49f-4abb3999d7f8",
+        "sourceUrl": "https://decostaacosta.mx/cavaline",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "806ee324-cf7d-4ae7-addb-da1f73e473ce",
+        "sourceUrl": "https://decostaacosta.mx/cavaline/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.66,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:59.266+00:00"
+      },
+      {
+        "id": "0842571b-dfef-44d1-97da-d41d7332a541",
+        "sourceUrl": "https://decostaacosta.mx/menu-2/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.75,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:55:58.094+00:00"
+      }
+    ],
+    "items": [
+      {
+        "id": "90ac932a-7d84-44f4-86e4-9a08c87c3945",
+        "documentId": "806ee324-cf7d-4ae7-addb-da1f73e473ce",
+        "name": "Balance Blanco",
+        "description": "Balance Blanco de Bodegas Vaivén es elaborado con uva Viognier en Ezequiel Montes, México. es un vino frutal y floral con notas marcadas de chabacano, guanábana, durazno, mango y maracuyá.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Blancos",
+        "sourceUrl": "https://decostaacosta.mx/cavaline/",
+        "observedAt": "2026-07-09T18:55:59.266+00:00",
+        "extractionConfidence": 0.66,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "2a89226e-5d03-4694-8015-48be9d05fc5e",
+        "documentId": "806ee324-cf7d-4ae7-addb-da1f73e473ce",
+        "name": "Equilibrio Blanco",
+        "description": "Equilibrio Blanco Mezcla de Vaivén es un vino elaborado con uvas Macabeu y Chardonnay. Su aroma es intenso y fresco con notas de fruta tropical y es ideal como aperitivo o con mariscos, empanadas y pastas.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Blancos",
+        "sourceUrl": "https://decostaacosta.mx/cavaline/",
+        "observedAt": "2026-07-09T18:55:59.266+00:00",
+        "extractionConfidence": 0.66,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "9ade03db-fb3f-489d-9e29-26d761d8c510",
+        "documentId": "806ee324-cf7d-4ae7-addb-da1f73e473ce",
+        "name": "Estola | Verdejo",
+        "description": null,
+        "price": null,
+        "currency": "MXN",
+        "category": "Blancos",
+        "sourceUrl": "https://decostaacosta.mx/cavaline/",
+        "observedAt": "2026-07-09T18:55:59.266+00:00",
+        "extractionConfidence": 0.66,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "316a37af-582b-4796-8317-01ae91715252",
+        "documentId": "806ee324-cf7d-4ae7-addb-da1f73e473ce",
+        "name": "Nudo Chardonnay | Viña la Ronciere",
+        "description": null,
+        "price": null,
+        "currency": "MXN",
+        "category": "Blancos",
+        "sourceUrl": "https://decostaacosta.mx/cavaline/",
+        "observedAt": "2026-07-09T18:55:59.266+00:00",
+        "extractionConfidence": 0.66,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "39d03989-5ebd-43c2-8972-410f61eb784e",
+        "documentId": "806ee324-cf7d-4ae7-addb-da1f73e473ce",
+        "name": "Xolo Sauvignon Blanc | Itzcuintle",
+        "description": null,
+        "price": null,
+        "currency": "MXN",
+        "category": "Blancos",
+        "sourceUrl": "https://decostaacosta.mx/cavaline/",
+        "observedAt": "2026-07-09T18:55:59.266+00:00",
+        "extractionConfidence": 0.66,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "8c842ad0-2153-4dab-844e-084d5176f2a9",
+        "documentId": "806ee324-cf7d-4ae7-addb-da1f73e473ce",
+        "name": "Freixenet | Ice",
+        "description": "Un vino espumoso creado especialmente para beberse con hielo, puedes crear deliciosos y originales cocteles, agregando hielos y rodajas de cítricos y un toque de romero. Perfecto para reuniones con amigos.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Espumosos",
+        "sourceUrl": "https://decostaacosta.mx/cavaline/",
+        "observedAt": "2026-07-09T18:55:59.266+00:00",
+        "extractionConfidence": 0.66,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "12c47d38-6173-4167-9992-d6210311d50c",
+        "documentId": "806ee324-cf7d-4ae7-addb-da1f73e473ce",
+        "name": "Impulso Brut",
+        "description": "Un vino espumoso de Bodegas Vaivén, elaborado con uvas Macabeu y Xarel y con 9 meses de reposo. Tiene un intenso aroma a frutos blancos y marcadas notas a pan tostado.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Espumosos",
+        "sourceUrl": "https://decostaacosta.mx/cavaline/",
+        "observedAt": "2026-07-09T18:55:59.266+00:00",
+        "extractionConfidence": 0.66,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "a9aa66e3-54e2-4d96-bb6f-10882d8c668e",
+        "documentId": "806ee324-cf7d-4ae7-addb-da1f73e473ce",
+        "name": "Impulso Rosado",
+        "description": "Un vino elegante y fresco con notas de frutos rojos del bosque, ideal para disfrutarse con pescados crudos y salmones.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Espumosos",
+        "sourceUrl": "https://decostaacosta.mx/cavaline/",
+        "observedAt": "2026-07-09T18:55:59.266+00:00",
+        "extractionConfidence": 0.66,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "cfe13e84-b83a-4727-906f-9a926aaa73e1",
+        "documentId": "806ee324-cf7d-4ae7-addb-da1f73e473ce",
+        "name": "Impulso Semi Seco",
+        "description": "Impulso Semi Seco es un vino de intensidad aromática, con notas de manzana verde y pera, así como de panadería y algunos recuerdos florales. Ideal para disfrutar con ensaladas, sushi y salmón.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Espumosos",
+        "sourceUrl": "https://decostaacosta.mx/cavaline/",
+        "observedAt": "2026-07-09T18:55:59.266+00:00",
+        "extractionConfidence": 0.66,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "64425fc7-aa0a-4dc5-8b5d-267f94c6ed8b",
+        "documentId": "806ee324-cf7d-4ae7-addb-da1f73e473ce",
+        "name": "Vaivén | Impulso Brut Rosado",
+        "description": "Un vino elegante y fresco con notas de frutos rojos del bosque, ideal para disfrutarse con pescados crudos y salmones.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Espumosos",
+        "sourceUrl": "https://decostaacosta.mx/cavaline/",
+        "observedAt": "2026-07-09T18:55:59.266+00:00",
+        "extractionConfidence": 0.66,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "20cfde74-08c5-4a89-8573-cd53a2d24984",
+        "documentId": "806ee324-cf7d-4ae7-addb-da1f73e473ce",
+        "name": "Estola | Tempranillo Rosado",
+        "description": null,
+        "price": null,
+        "currency": "MXN",
+        "category": "Rosados",
+        "sourceUrl": "https://decostaacosta.mx/cavaline/",
+        "observedAt": "2026-07-09T18:55:59.266+00:00",
+        "extractionConfidence": 0.66,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "2790de12-ad06-4970-b831-effd35ea2162",
+        "documentId": "806ee324-cf7d-4ae7-addb-da1f73e473ce",
+        "name": "Vaivén | Equilibrio Rosado",
+        "description": "Un vino rosado de uvas Malbec y Cabernet Sauvignon, elaborado por Bodegas Vaivén en Ezequiel Montes, con un aroma expresivo y notas de frutos rojos ideal para maridar con salmón, tostadas de atún o con mariscos.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Rosados",
+        "sourceUrl": "https://decostaacosta.mx/cavaline/",
+        "observedAt": "2026-07-09T18:55:59.266+00:00",
+        "extractionConfidence": 0.66,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "c145d66b-651e-4890-9b57-97803717125e",
+        "documentId": "806ee324-cf7d-4ae7-addb-da1f73e473ce",
+        "name": "Balance Tempranillo y Syrah",
+        "description": "Balance Mezcla de Bodegas Vaivén es un vino intenso con aromas de madera y cuero, así como frutas compotadas, higo, tabaco y especias como la pimienta. Es un vino ideal para acompañarse de carnes rojas, comida mexicana y estofados, entre otros platillos.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Tintos",
+        "sourceUrl": "https://decostaacosta.mx/cavaline/",
+        "observedAt": "2026-07-09T18:55:59.266+00:00",
+        "extractionConfidence": 0.66,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "9c7289a5-848c-4a61-a759-b498bf3938bb",
+        "documentId": "806ee324-cf7d-4ae7-addb-da1f73e473ce",
+        "name": "Estola | Crianza",
+        "description": null,
+        "price": null,
+        "currency": "MXN",
+        "category": "Tintos",
+        "sourceUrl": "https://decostaacosta.mx/cavaline/",
+        "observedAt": "2026-07-09T18:55:59.266+00:00",
+        "extractionConfidence": 0.66,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "bfa40caa-4603-41bc-b14b-2a6f60e4bc8d",
+        "documentId": "806ee324-cf7d-4ae7-addb-da1f73e473ce",
+        "name": "Temple Merlot",
+        "description": "Temple Merlot es elaborado por Bodegas Vaivén en Ezequiel Montes y es madurado por 18 meses en barricas de roble francés. Un vino intenso con un marcado carácter afrutado y especiado con notas de jamaica cocida, grosella, ciruela, chocolate y cuero, lo que lo hace ideal para platillos de sabores intensos.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Tintos",
+        "sourceUrl": "https://decostaacosta.mx/cavaline/",
+        "observedAt": "2026-07-09T18:55:59.266+00:00",
+        "extractionConfidence": 0.66,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "03ddc80a-4d29-4894-a6f3-a5e6e85a0e08",
+        "documentId": "806ee324-cf7d-4ae7-addb-da1f73e473ce",
+        "name": "Vaivén | Balance Marselán",
+        "description": "El Balance Marselan de Bodegas Vaivén es un vino cuyo aroma está impregnado de notas de jamaica, grosella y pimienta; su sabor afrutado y ligero lo hacen ideal para maridar con pastas, quesos y carnes asadas.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Tintos",
+        "sourceUrl": "https://decostaacosta.mx/cavaline/",
+        "observedAt": "2026-07-09T18:55:59.266+00:00",
+        "extractionConfidence": 0.66,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "825ef06c-d38b-4b29-8ca3-81bed7a0b479",
+        "documentId": "806ee324-cf7d-4ae7-addb-da1f73e473ce",
+        "name": "Vaivén | Equilibrio Malbec",
+        "description": "Equilibrio Malbec de Bodegas Vaivén es un vino fragante con notas de frutos rojos como la fresa, la ciruela y la cereza; un vino fresco y ligero al paladar perfecto para acompañar una pizza, una pasta o algún buen corte de carne.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Tintos",
+        "sourceUrl": "https://decostaacosta.mx/cavaline/",
+        "observedAt": "2026-07-09T18:55:59.266+00:00",
+        "extractionConfidence": 0.66,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "1e1579df-7c8c-45c0-836d-877178d3533b",
+        "documentId": "806ee324-cf7d-4ae7-addb-da1f73e473ce",
+        "name": "Vaivén | Temple Cabernet Sauvignon",
+        "description": "Temple Cabernet Sauvignon es un vino intenso y aromático. Es un Cabernet Sauvignon con 16 meses de crianza en roble francés, lo que le da una buena madurez y aromas especiados; esto lo hace un vino ideal para maridar con carnes.",
+        "price": null,
+        "currency": "MXN",
+        "category": "Tintos",
+        "sourceUrl": "https://decostaacosta.mx/cavaline/",
+        "observedAt": "2026-07-09T18:55:59.266+00:00",
+        "extractionConfidence": 0.66,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "903909a0-b5bb-4d26-8b07-667c7a0dbf89",
+        "documentId": "806ee324-cf7d-4ae7-addb-da1f73e473ce",
+        "name": "Xolo Nebbiolo | Itzcuintle",
+        "description": null,
+        "price": null,
+        "currency": "MXN",
+        "category": "Tintos",
+        "sourceUrl": "https://decostaacosta.mx/cavaline/",
+        "observedAt": "2026-07-09T18:55:59.266+00:00",
+        "extractionConfidence": 0.66,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://decostaacosta.mx/cavaline/vinos-de-la-casa/vaiven-equilibrio-tinto/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://decostaacosta.mx/cavaline/vinos-de-la-casa/vaiven-temple-cabernet-sauvignon-2/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://decostaacosta.mx/menu-2/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://decostaacosta.mx/cavaline",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://decostaacosta.mx/cavaline/vinos-de-la-casa/vaiven-impulso-brut-rosado-2/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://decostaacosta.mx/cavaline/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://decostaacosta.mx/cavaline/vinos-de-la-casa/vaiven-equilibrio-rosado-2/",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://decostaacosta.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:43.932+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=7993176942335738301&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:33.51+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/decostaacostamx",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/decostaacostamx/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "foursquare",
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.802169+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:09:10.58157+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": true,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 165,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_price_level",
+      "missing_source_summary"
+    ]
+  }
+}

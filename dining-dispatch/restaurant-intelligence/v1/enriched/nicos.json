@@ -1,0 +1,140 @@
+{
+  "catalogName": "Nicos",
+  "slug": "nicos",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Nicos",
+  "location": {
+    "address": "Av. Cuitláhuac 3102, Clavería",
+    "neighborhood": "Clavería",
+    "borough": "Azcapotzalco",
+    "postalCode": "02080",
+    "coordinates": {
+      "latitude": 19.4650343,
+      "longitude": -99.1776703
+    }
+  },
+  "contact": {
+    "phone": "+52 55 5396 7090",
+    "phoneAlt": "+52 55 5396 8539",
+    "website": "https://www.nicos.mx/",
+    "instagram": "nicosmexico",
+    "email": null
+  },
+  "hours": [
+    "lun–mié 08:00–18:00",
+    "jue–sáb 08:00–21:00",
+    "dom 08:00–17:00"
+  ],
+  "food": {
+    "cuisine": "traditional mexican",
+    "priceLevel": 2,
+    "notes": "Classic casa mexicana, ~80 years. Michelin listed."
+  },
+  "reservation": {
+    "platform": "direct / whatsapp",
+    "url": "https://www.nicos.mx/",
+    "notes": "Michelin: manages own bookings."
+  },
+  "distinctions": {
+    "michelin": "Seleccionado: Buena cocina",
+    "michelinStars": 0
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://www.opentable.com.mx/r/nicos-mexico",
+    "observedAt": "2026-08-17",
+    "itemCount": 10,
+    "items": [
+      {
+        "name": "Ceviche verde",
+        "price": 240,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Empanada estilo La Viga",
+        "price": 125,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Chile güero relleno de minilla",
+        "price": 197,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Guacamole",
+        "price": 180,
+        "currency": "MXN",
+        "category": "entradas"
+      },
+      {
+        "name": "Cecina de res crujiente",
+        "category": "entradas"
+      },
+      {
+        "name": "Chile en nogada (temporada)",
+        "description": "Especialidad de temporada",
+        "category": "fuertes"
+      },
+      {
+        "name": "Filete Nicolasa",
+        "category": "fuertes"
+      },
+      {
+        "name": "Pollo en mole de la casa",
+        "category": "fuertes"
+      },
+      {
+        "name": "Camarones al tamarindo",
+        "category": "fuertes"
+      },
+      {
+        "name": "Sopa seca de natas",
+        "category": "sopas"
+      }
+    ],
+    "notes": "OpenTable menu excerpt"
+  },
+  "sources": [
+    {
+      "source": "official",
+      "url": "https://www.nicos.mx/",
+      "fields": [
+        "address",
+        "hours",
+        "phone"
+      ]
+    },
+    {
+      "source": "michelin",
+      "url": "https://guide.michelin.com/en/ciudad-de-mexico/azcapotzalco_1993967/restaurant/nicos",
+      "fields": [
+        "address"
+      ]
+    }
+  ],
+  "gaps": [
+    "instagram",
+    "coordinates",
+    "email"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "michelinReview": "Nicos empezó a funcionar como un humilde puesto de refrescos y snacks hasta que un cliente vio a un empleado deleitándose con su comida y quiso pedir lo mismo. El hijo del fundador ejerce hoy de chef, supervisando un menú degustación de cocina mexicana clásica en el que destacan platos como el taco de cecina crujiente sobre tortilla de maíz, que destaca por su intensidad, o los camarones al tamarindo, un platillo lleno de sabor y chispa. La enchilada rellena de tasado y frijoles y bañada en salsa oaxaqueña de pixtle es un platillo aromático y sabroso que gusta a todos, mientras que el aguachile pega fuerte gracias al picante de los chiles.",
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/azcapotzalco_1993967/restaurante/nicos",
+      "id": "1208232"
+    }
+  ]
+}

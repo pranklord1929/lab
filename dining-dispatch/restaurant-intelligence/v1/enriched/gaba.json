@@ -1,0 +1,176 @@
+{
+  "catalogName": "Gaba",
+  "slug": "gaba",
+  "status": "enriched",
+  "confidence": "high",
+  "name": "Gaba",
+  "location": {
+    "address": "Av. Mazatlán 190, Condesa",
+    "neighborhood": "Condesa",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06170",
+    "coordinates": {
+      "latitude": 19.4093741,
+      "longitude": -99.1795811
+    }
+  },
+  "contact": {
+    "phone": "+52 55 9107 8494",
+    "phoneAlt": "+52 55 2872 7031",
+    "website": "https://gabarestaurante.com/",
+    "instagram": "restaurantegaba",
+    "email": null
+  },
+  "hours": [
+    "lun–sáb consultar"
+  ],
+  "food": {
+    "cuisine": "modern mexican",
+    "chef": "Vicente (press: @vic_cook.trz)",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "opentable",
+    "url": "https://www.opentable.com/r/gaba-ciudad-de-mexico"
+  },
+  "distinctions": {
+    "michelin": "Una Estrella : una cocina de gran nivel",
+    "michelinStars": 0
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://gabarestaurante.com/menu/",
+    "observedAt": "2026-08-17",
+    "itemCount": 19,
+    "items": [
+      {
+        "name": "Paté de pollo, Jamaica, Sourdough",
+        "category": "comida"
+      },
+      {
+        "name": "Aceitunas marinadas",
+        "category": "comida"
+      },
+      {
+        "name": "Uvas, XO de cilantro, crema cultivada",
+        "category": "comida"
+      },
+      {
+        "name": "Betabel, hinojo, camote, avellana",
+        "category": "comida"
+      },
+      {
+        "name": "Mandarina, orejas de cerdo, almendra",
+        "category": "comida"
+      },
+      {
+        "name": "Toast de 'Nduja de chile costeño, crema de quesillo",
+        "category": "comida"
+      },
+      {
+        "name": "Carpaccio de lengua, chayote",
+        "category": "comida"
+      },
+      {
+        "name": "Col puntiaguda, nori, granola",
+        "category": "comida"
+      },
+      {
+        "name": "Crudo del día, haba, chaya",
+        "category": "comida"
+      },
+      {
+        "name": "Tartar de cecina wagyu, hormiga chicatana",
+        "category": "comida"
+      },
+      {
+        "name": "Almeja, lentejas, curry verde de tomatillo",
+        "category": "comida"
+      },
+      {
+        "name": "Setas asadas, berenjena tatemada, salsa macha",
+        "category": "comida"
+      },
+      {
+        "name": "Molleja de res, chileatole verde, queso cotija",
+        "category": "comida"
+      },
+      {
+        "name": "Pesca al grill, salsa verde, kale asada",
+        "category": "comida"
+      },
+      {
+        "name": "Pescuezo de cordero, consomé, pek",
+        "category": "comida"
+      },
+      {
+        "name": "Chuleta de cerdo Berkshire, piña, ensalada",
+        "category": "comida"
+      },
+      {
+        "name": "Sorbete de nopal, shiso, pepino",
+        "category": "postres"
+      },
+      {
+        "name": "Aguacate",
+        "category": "postres"
+      },
+      {
+        "name": "Tarta de chocolate, cacahuate, caramelo",
+        "category": "postres"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/restaurantegaba/",
+      "fields": [
+        "hours"
+      ]
+    },
+    {
+      "source": "michelin",
+      "url": "https://guide.michelin.com/ca/en/ciudad-de-mexico/cuauhtemoc_1995126/restaurant/gaba",
+      "fields": [
+        "address"
+      ]
+    },
+    {
+      "source": "eater",
+      "url": "https://www.eater.com/venue/108838/gaba",
+      "fields": [
+        "phone"
+      ]
+    }
+  ],
+  "gaps": [
+    "coordinates",
+    "menu"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "michelinReview": "En este local de la Condesa a rebosar de encanto, la sencillez de los suelos de hormigón y el ladrillo visto contrasta con el esmero del servicio y la sofisticación de la cocina. Cafetería con propuestas más bien sencillas durante el día, al caer la noche el lugar se convierte en el escenario ideal para la cocina atrevida y creativa del chef Víctor Toriz. Los platos, pensados para compartir, conjugan el respeto por la temporada con sabores puramente tradicionales, dando lugar a un estilo estimulante pero accesible y plenamente anclado en el presente. La casquería es uno de sus puntos fuertes: destacan los callos crujientes con queso de Ocosingo y remolacha asada, o las mollejas perfectamente marcadas, acompañadas de una cremosa salsa de chileatole. Verduras y productos del mar se preparan con igual soltura: sumados a una coctelería de autor y a una carta de vinos bien pensada, explican por qué el local suele estar lleno.",
+  "ratings": {
+    "opentable": 4.9,
+    "opentableReviews": 511
+  },
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/gaba",
+      "id": "1211150"
+    },
+    {
+      "source": "opentable",
+      "name": "Gaba",
+      "rating": 4.9
+    }
+  ]
+}

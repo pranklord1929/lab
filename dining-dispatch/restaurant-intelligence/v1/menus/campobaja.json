@@ -1,0 +1,31 @@
+{
+  "slug": "campobaja",
+  "name": "Campobaja",
+  "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/campobaja",
+  "status": "has_items",
+  "observedAt": "2026-08-17",
+  "items": [
+    {
+      "name": "Ceviches"
+    },
+    {
+      "name": "Aguachiles"
+    },
+    {
+      "name": "Burritos"
+    },
+    {
+      "name": "Tostadas"
+    },
+    {
+      "name": "Tacos de pescado"
+    },
+    {
+      "name": "Langosta roja frita"
+    },
+    {
+      "name": "Pulpo a la parrilla"
+    }
+  ],
+  "notes": "Guía Michelin 2026 inspector (CDMX). Restored after a later overwrite emptied the file."
+}

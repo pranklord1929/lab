@@ -1,0 +1,368 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "d6dc00de-1773-4f08-90e5-08a8a4954a2c",
+  "slug": "casa-benell-roma-norte",
+  "name": "Casa Benell - Roma Norte",
+  "location": {
+    "neighborhood": "ROMA NORTE",
+    "borough": "Cuauhtémoc",
+    "address": "Av. Yucatán 147, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4122847,
+      "longitude": -99.1600923
+    }
+  },
+  "contact": {
+    "phone": null,
+    "website": "http://panbenell.com/",
+    "instagram": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=12045332571931857309&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "breakfast",
+    "michelinCuisine": "Mexicana, Actual",
+    "openTableCuisine": null,
+    "priceLevel": null
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 7:00 a.m. – 4:00 p.m.",
+      "lunes: 7:00 a.m. – 4:00 p.m.",
+      "martes: 7:00 a.m. – 4:00 p.m.",
+      "miércoles: 7:00 a.m. – 4:00 p.m.",
+      "jueves: 7:00 a.m. – 4:00 p.m.",
+      "viernes: 7:00 a.m. – 4:00 p.m.",
+      "sábado: 7:00 a.m. – 4:00 p.m."
+    ],
+    "rating": 3.8,
+    "reviewCount": 685
+  },
+  "distinctions": {
+    "michelin": "Seleccionado: Buena cocina",
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "document_only",
+    "observedAt": "2026-07-17T10:10:05.905Z",
+    "observationAgeDaysAtExport": 31,
+    "documentCount": 13,
+    "itemCount": 0,
+    "documents": [
+      {
+        "id": "1112311b-6351-40cb-82b6-14980f57bbab",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0023/5444/6371/files/menuRN_2026_junio_PRINT_Artboard_13-03_3fed99d2-dfa1-4be3-a563-26306673d382.jpg?v=1781553010",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "52dea12d-36b3-43f3-a75c-2d3df2ea382b",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0023/5444/6371/files/menu_2026_Morning_up_ingles_julio-06.jpg?v=1784227868",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "71257131-2cb5-4ca0-9365-165dcfb2af37",
+        "sourceUrl": "https://cdn.shopify.com/s/files/1/0023/5444/6371/files/menu_2026_Morning_up_ingles_julio-05.jpg?v=1784227869",
+        "fileType": "image",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "tesseract_local",
+        "status": "failed",
+        "lastCheckedAt": "2026-07-17T10:10:05.905Z"
+      },
+      {
+        "id": "18341333-46cb-467b-ac38-d20960d9830e",
+        "sourceUrl": "https://panbenell.com/pages/english-menu-roma-norte",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "58de0971-7c0f-4438-a636-10b8e2b831cc",
+        "sourceUrl": "https://panbenell.com/pages/menu-casa-benell-armida-en",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "665c3466-2c95-4b21-aa76-ecdfcc19148f",
+        "sourceUrl": "https://panbenell.com/pages/english-menu-tampiquito",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "6a458473-eac9-4f58-a0ea-887435f94173",
+        "sourceUrl": "https://panbenell.com/pages/menu-casa-benell-armida",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "7187e005-69fb-4f7f-a5f4-6bf13d2c3c95",
+        "sourceUrl": "https://panbenell.com/pages/english-menu-park-point",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "8b1e43e1-9de1-4e62-a75f-a48bac1d1f51",
+        "sourceUrl": "https://panbenell.com/pages/menu-casa-benell-roma-norte",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "9b547aa2-9441-4b5e-a43c-28fa8051b526",
+        "sourceUrl": "https://panbenell.com/pages/menu-casa-benell-bien-jugado-innovasport",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "af4ed828-0b2a-4772-afe6-f2cde3885695",
+        "sourceUrl": "https://panbenell.com/pages/menu-casa-benell-tampiquito",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "f5771c24-064b-4962-a83d-3f97c0db5080",
+        "sourceUrl": "https://panbenell.com/pages/menu-casa-benell-park-point",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "fb69e7f2-7f7e-43e6-a207-27affc5ef33d",
+        "sourceUrl": "https://panbenell.com/pages/english-menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": []
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://cdn.shopify.com/s/files/1/0023/5444/6371/files/menu_2026_Morning_up_ingles_julio-05.jpg?v=1784227869",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://cdn.shopify.com/s/files/1/0023/5444/6371/files/menu_2026_Morning_up_ingles_julio-06.jpg?v=1784227868",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://cdn.shopify.com/s/files/1/0023/5444/6371/files/menuRN_2026_junio_PRINT_Artboard_13-03_3fed99d2-dfa1-4be3-a563-26306673d382.jpg?v=1781553010",
+      "confidence": 0.88,
+      "checkedAt": "2026-07-17T09:55:38.506Z"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://panbenell.com/pages/menu-casa-benell-roma-norte",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://panbenell.com/pages/menu-casa-benell-armida",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://panbenell.com/pages/menu-casa-benell-armida-en",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://panbenell.com/pages/english-menu-tampiquito",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://panbenell.com/pages/menu-casa-benell-bien-jugado-innovasport",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://panbenell.com/pages/english-menu-roma-norte",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://panbenell.com/pages/english-menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://panbenell.com/pages/menu-casa-benell-park-point",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://panbenell.com/pages/english-menu-park-point",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://panbenell.com/pages/menu-casa-benell-tampiquito",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://panbenell.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:52:06.749+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=12045332571931857309&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:53:00.745+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 4,
+    "sourceNames": [
+      "google_places",
+      "michelin",
+      "official_website",
+      "resy"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "resy",
+      "website": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "resy",
+      "photos": "google_places",
+      "description": "michelin"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.165171+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:20:58.414388+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 7,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram",
+      "missing_price_level",
+      "missing_source_summary",
+      "missing_structured_menu_items"
+    ]
+  }
+}

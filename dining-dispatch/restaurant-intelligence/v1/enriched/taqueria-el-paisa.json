@@ -1,0 +1,122 @@
+{
+  "catalogName": "Taqueria El Paisa",
+  "slug": "taqueria-el-paisa",
+  "status": "enriched",
+  "confidence": "medium",
+  "name": "Taquería El Paisa (San Rafael / Michelin)",
+  "location": {
+    "address": "Joaquín García Icazbalceta 36, San Rafael",
+    "neighborhood": "San Rafael",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06470",
+    "coordinates": {
+      "latitude": 19.4408204,
+      "longitude": -99.1610057
+    }
+  },
+  "contact": {
+    "phone": "5523016015",
+    "website": "https://guide.michelin.com/mx/es/ciudad-de-mexico/mexico-city/restaurant/el-paisa",
+    "instagram": "taqueriaelpaisa.oficial",
+    "email": null
+  },
+  "hours": [
+    "Yelp: from 14:00 late"
+  ],
+  "food": {
+    "cuisine": "tacos",
+    "priceLevel": 1
+  },
+  "reservation": {
+    "platform": "walk-in",
+    "url": null
+  },
+  "distinctions": {
+    "michelin": "Seleccionado: Buena cocina",
+    "michelinStars": 0
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/taqueria-el-paisa-1212979",
+    "observedAt": "2026-08-17",
+    "itemCount": 4,
+    "items": [
+      {
+        "name": "Taco de suadero",
+        "price": null,
+        "currency": "MXN",
+        "category": "tacos",
+        "description": "Michelin: el más solicitado"
+      },
+      {
+        "name": "Taco al pastor",
+        "price": null,
+        "currency": "MXN",
+        "category": "tacos"
+      },
+      {
+        "name": "Torta asada",
+        "price": null,
+        "currency": "MXN",
+        "category": "tortas"
+      },
+      {
+        "name": "Torta adobada",
+        "price": null,
+        "currency": "MXN",
+        "category": "tortas"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "source": "michelin",
+      "url": "https://guide.michelin.com/us/en/ciudad-de-mexico/cuauhtemoc_1995126/restaurant/taqueria-el-paisa-1212979",
+      "fields": [
+        "address",
+        "neighborhood"
+      ]
+    },
+    {
+      "source": "yelp",
+      "url": "https://www.yelp.com/biz/tacos-el-paisa-méxico-5",
+      "fields": [
+        "address"
+      ]
+    },
+    {
+      "source": "instagram",
+      "url": "https://www.instagram.com/taqueriaelpaisa.oficial/",
+      "fields": [
+        "instagram"
+      ]
+    },
+    {
+      "source": "menu_pass_2026-08-17",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/taqueria-el-paisa-1212979",
+      "fields": [
+        "menu"
+      ]
+    }
+  ],
+  "gaps": [
+    "phone",
+    "hours"
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "michelinReview": "Esta festiva taquería situada en una esquina de la colonia San Rafael, funciona como una máquina bien engrasada. Su plato más solicitado es el suadero, que es mejor pedir a última hora de la tarde, cuando la carne ha tenido horas para sazonarse en su propia grasa. También vale la pena probar el pastor. Sea cual sea la elección, los tacos son pequeños, por lo que más vale pedir tres o cuatro por persona. Tras pedir, cada uno come donde puede: sentado en la banqueta, recargado en un edificio o en el cofre de un coche.",
+  "endpointSources": [
+    {
+      "source": "michelin-algolia",
+      "url": "https://guide.michelin.com/mx/es/ciudad-de-mexico/cuauhtemoc_1995126/restaurante/taqueria-el-paisa-1212979",
+      "id": "1212979"
+    }
+  ]
+}

@@ -1,0 +1,480 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "fb7525b1-ea21-4daf-8bd2-a758b5c838e1",
+  "slug": "potzollcalli-tlatelolco",
+  "name": "Potzollcalli Tlatelolco",
+  "location": {
+    "neighborhood": "GUERRERO",
+    "borough": "Cuauhtémoc",
+    "address": "Av. Ricardo Flores Magón 214-Piso 2, Guerrero, Cuauhtémoc, 06300 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4507357,
+      "longitude": -99.1404996
+    }
+  },
+  "contact": {
+    "phone": "800 222 1010",
+    "website": "http://www.potzollcalli.com/",
+    "instagram": "https://instagram.com/potzollcalli/",
+    "googleMapsUrl": "https://maps.google.com/?cid=15200082063083518799&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "mexican",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 2
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: 8:00 a.m. – 10:00 p.m.",
+      "lunes: 8:00 a.m. – 10:00 p.m.",
+      "martes: 8:00 a.m. – 10:00 p.m.",
+      "miércoles: 8:00 a.m. – 10:00 p.m.",
+      "jueves: 8:00 a.m. – 10:00 p.m.",
+      "viernes: 8:00 a.m. – 10:00 p.m.",
+      "sábado: 8:00 a.m. – 10:00 p.m."
+    ],
+    "rating": 4.3,
+    "reviewCount": 1649
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 4,
+    "itemCount": 20,
+    "documents": [
+      {
+        "id": "79510123-409e-4f4c-a1e4-2d18904197e2",
+        "sourceUrl": "https://potzollcalli.com/pedir/pfyJnbznqHWYayxod/desayuno-del-patron",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "7a77bd09-6817-485d-ac6d-6c38934bb33f",
+        "sourceUrl": "https://tofuu.getjusto.com/buckets-prod%2FjEHJTBKQmgncnFnG3-T%26C%20GetJusto%20-%20Potzollcalli.pdf",
+        "fileType": "pdf",
+        "language": "es",
+        "confidence": 0.95,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "354f52ef-d67c-4816-b913-6d2d1c122fce",
+        "sourceUrl": "https://www.potzollcalli.com/pedir?categoria=Platillos",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.5,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:56:21.406+00:00"
+      },
+      {
+        "id": "172ab3a8-6741-474b-8d82-41a132284972",
+        "sourceUrl": "https://www.potzollcalli.com/pedir?categoria=Bebidas-y-postres",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.5,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-09T18:56:21.16+00:00"
+      }
+    ],
+    "items": [
+      {
+        "id": "cc7165ac-3551-420c-a178-9e446f36345b",
+        "documentId": null,
+        "name": "Agua Mineral Topo Chico Botella de 355 ml",
+        "description": null,
+        "price": 65,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "21a9d794-bc24-4586-a3c1-b3e94fc9276b",
+        "documentId": null,
+        "name": "Café Americano (300 ml.)",
+        "description": null,
+        "price": 49,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "3f716b88-7a5c-46af-ab23-04611bec790c",
+        "documentId": null,
+        "name": "Café con Leche (295 ml.)",
+        "description": null,
+        "price": 62,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "ece756ae-212d-4bf5-ac15-960fbac12da1",
+        "documentId": null,
+        "name": "Café de Olla (300 ml.)",
+        "description": null,
+        "price": 49,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "d3d7f0e5-c9bf-43e7-ad7a-fcec517a5f7e",
+        "documentId": null,
+        "name": "Chocolate Caliente (300 ml.)",
+        "description": null,
+        "price": 75,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "14d7a92f-4e15-400a-a62c-12333fd9e2b7",
+        "documentId": null,
+        "name": "Chocolate Frio (300 ml.)",
+        "description": null,
+        "price": 75,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "4b345d4e-3cc3-4d55-a386-69a71df03b7b",
+        "documentId": null,
+        "name": "Coca Cola® Light o Sin Azúcar (355 ml.)",
+        "description": null,
+        "price": 201,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "d9ae6bb1-4533-4191-aae6-3395b538c455",
+        "documentId": null,
+        "name": "Coca Cola® Light o Sin Azúcar (355 ml.)",
+        "description": null,
+        "price": 220,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "f7962816-5a0a-4ce4-a921-d01c82f7b5a6",
+        "documentId": null,
+        "name": "Coca Cola® Light o Sin Azúcar (355 ml.)",
+        "description": null,
+        "price": 184,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "911e2535-515f-420a-ae5f-b794bf94e8da",
+        "documentId": null,
+        "name": "Cocina Mexicana Obtén",
+        "description": null,
+        "price": 100,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "fc561cec-6c27-4f62-aeea-f608057735ea",
+        "documentId": null,
+        "name": "Comercio Potzollcalli",
+        "description": null,
+        "price": 50,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "b4933879-f043-449e-a0ee-a181a02e013c",
+        "documentId": null,
+        "name": "Compra mínima",
+        "description": null,
+        "price": 250,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "af7fd904-f8ba-4ec9-ad97-b024c0d7c10b",
+        "documentId": null,
+        "name": "Condiciones Aplicables",
+        "description": null,
+        "price": 250,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "8067066c-296c-464b-a337-c8e83b7cfbd5",
+        "documentId": null,
+        "name": "Cupón de descuento",
+        "description": null,
+        "price": 100,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "0421af3a-9538-4c7a-a38e-583df2c71c77",
+        "documentId": null,
+        "name": "Instrucciones especiales",
+        "description": null,
+        "price": 305,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "67f33daa-cba4-4a7f-a435-8708d1297a4e",
+        "documentId": null,
+        "name": "Jugo Verde (1 lt.)",
+        "description": null,
+        "price": 121,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "073ca4b0-1fa8-41e3-aaaa-e327b6c3f966",
+        "documentId": null,
+        "name": "Jugo de Naranja (1 lt.)",
+        "description": null,
+        "price": 121,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "ee2790a6-0f31-477d-abb9-9a9f4de26d35",
+        "documentId": null,
+        "name": "Jugo de Zanahoria (1 lt.)",
+        "description": null,
+        "price": 121,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "5e504d18-3afe-4a43-ab56-500676daecfd",
+        "documentId": null,
+        "name": "Papas a la Francesa Orden de 200 grs",
+        "description": null,
+        "price": 100,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "aeddbaf8-de47-4fc7-a3fe-f339ab1eccc1",
+        "documentId": null,
+        "name": "Pay de Elote",
+        "description": null,
+        "price": 102,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://tofuu.getjusto.com/buckets-prod%2FjEHJTBKQmgncnFnG3-T%26C%20GetJusto%20-%20Potzollcalli.pdf",
+      "confidence": 0.95,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://potzollcalli.com/pedir?categoria=Bebidas-y-postres",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://potzollcalli.com/pedir/pfyJnbznqHWYayxod/desayuno-del-patron",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.potzollcalli.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:02.77+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=15200082063083518799&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:19.961+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "https://facebook.com/PotzollcalliOficial",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/potzollcalli/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "google_places",
+      "official_menus",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T20:05:20.22199+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:00:48.219918+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 423,
+    "richnessScore": 6,
+    "highConflictCount": 0,
+    "missingFieldCount": "",
+    "actionPriority": 0,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_source_summary"
+    ]
+  }
+}

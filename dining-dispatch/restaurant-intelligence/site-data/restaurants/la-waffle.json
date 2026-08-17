@@ -1,0 +1,222 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "92f5f206-6527-4514-a86b-cc20248700b7",
+  "slug": "la-waffle",
+  "name": "La Waffle",
+  "location": {
+    "neighborhood": "VILLA LÁZARO CÁRDENAS",
+    "borough": "Tlalpan",
+    "address": "Mercado Popular Local 72, Calz Acoxpa, Coapa, Villa Lázaro Cárdenas, Tlalpan, 14370 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.298005,
+      "longitude": -99.1389455
+    }
+  },
+  "contact": {
+    "phone": "55 8577 3094",
+    "website": "https://www.venalawaffle.com/",
+    "instagram": "https://instagram.com/enlawaffle/",
+    "googleMapsUrl": "https://maps.google.com/?cid=15805336219994494995&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": null,
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 1
+  },
+  "experience": {
+    "sourceSummary": null,
+    "hours": [
+      "domingo: Cerrado",
+      "lunes: 7:30 a.m. – 3:30 p.m.",
+      "martes: 7:30 a.m. – 3:30 p.m.",
+      "miércoles: 7:30 a.m. – 3:30 p.m.",
+      "jueves: 7:30 a.m. – 3:30 p.m.",
+      "viernes: 7:30 a.m. – 3:30 p.m.",
+      "sábado: 7:30 a.m. – 3:30 p.m."
+    ],
+    "rating": 4.1,
+    "reviewCount": 1546
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null
+  },
+  "menu": {
+    "state": "local_extraction_candidate",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 3,
+    "itemCount": 2,
+    "documents": [
+      {
+        "id": "0406e10f-72a7-4e16-889e-606644266cef",
+        "sourceUrl": "https://www.venalawaffle.com/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.88,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "b3d674fa-9f6c-445a-a9d1-e71921b7f24e",
+        "sourceUrl": "https://venalawaffle.com/menu",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "fetched",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "f2dcb76b-4fcc-43bb-9adb-1bc235e67029",
+        "sourceUrl": "https://www.venalawaffle.com/",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.9,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      }
+    ],
+    "items": [
+      {
+        "id": "325c992bc1426e159a47ca2e7c97cb37",
+        "documentId": null,
+        "name": "Precio?",
+        "description": null,
+        "price": 160,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      },
+      {
+        "id": "96b10567c9252e0efb0cbe35915d0277",
+        "documentId": null,
+        "name": "Precio?",
+        "description": null,
+        "price": 200,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "local_fallback"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://venalawaffle.com/menu",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "https://www.venalawaffle.com/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:51:44.215+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=15805336219994494995&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:44.457+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "facebook",
+      "url": "http://facebook.com/enlawaffle",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "social",
+      "provider": "instagram",
+      "url": "https://instagram.com/enlawaffle/",
+      "confidence": 0.85,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 2,
+    "sourceNames": [
+      "google_places",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "instagram": "restaurant_links",
+      "facebook": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T19:59:21.802169+00:00",
+    "canonicalUpdatedAt": "2026-06-29T14:14:24.162339+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": false,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": null,
+    "richnessScore": 6,
+    "highConflictCount": null,
+    "missingFieldCount": null,
+    "actionPriority": null,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_cuisine",
+      "missing_source_summary"
+    ]
+  }
+}

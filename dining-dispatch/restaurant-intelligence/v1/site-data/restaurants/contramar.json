@@ -1,0 +1,690 @@
+{
+  "schemaVersion": "tdd.restaurant.v0.1",
+  "id": "0216f864-0b7d-4747-a12f-375e8c8cbe26",
+  "slug": "contramar",
+  "name": "Contramar",
+  "location": {
+    "neighborhood": "ROMA NORTE",
+    "borough": "Cuauhtémoc",
+    "address": "Durango 200, Roma Nte., Cuauhtémoc, 06700 Ciudad de México, CDMX",
+    "coordinates": {
+      "latitude": 19.4196172,
+      "longitude": -99.1670331
+    }
+  },
+  "contact": {
+    "phone": "55 5514 9217",
+    "website": "http://www.contramar.com.mx/",
+    "instagram": "contramarmx",
+    "googleMapsUrl": "https://maps.google.com/?cid=1047725080642144831&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA"
+  },
+  "food": {
+    "cuisine": "seafood",
+    "michelinCuisine": null,
+    "openTableCuisine": null,
+    "priceLevel": 3
+  },
+  "experience": {
+    "sourceSummary": "Seasonal fish & seafood specialties in a long-running, palapa-style restaurant open since 1998.",
+    "hours": [
+      "domingo: 11:00 a.m. – 8:00 p.m.",
+      "lunes: 12:00–8:00 p.m.",
+      "martes: 12:00–8:00 p.m.",
+      "miércoles: 12:00–8:00 p.m.",
+      "jueves: 12:00–8:00 p.m.",
+      "viernes: 12:00–8:00 p.m.",
+      "sábado: 11:00 a.m. – 8:00 p.m."
+    ],
+    "rating": 4.5,
+    "reviewCount": 6709
+  },
+  "distinctions": {
+    "michelin": null,
+    "michelinStars": 0,
+    "bibGourmand": false,
+    "worlds50Best": false,
+    "worlds50BestRank": null,
+    "worlds50BestList": null
+  },
+  "reservation": {
+    "openTableUrl": null,
+    "links": [
+      {
+        "type": "reservation",
+        "provider": "opentable",
+        "url": "https://www.opentable.com.mx/booking/restref/availability?restref=1013491&lang=es-MX&ot_source=Restaurant%20website&corrid=18e58ea7-f58f-494c-a48e-0d1e9a3d3076",
+        "confidence": null,
+        "checkedAt": "2026-07-09T18:47:46.215+00:00"
+      }
+    ],
+    "difficulty": null,
+    "recommendedLeadTime": null,
+    "advice": null,
+    "url": "https://www.opentable.com.mx/r/contramar-ciudad-de-mexico",
+    "platform": "opentable"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "observedAt": "2026-07-15T20:33:35.945Z",
+    "observationAgeDaysAtExport": 32,
+    "documentCount": 2,
+    "itemCount": 37,
+    "documents": [
+      {
+        "id": "3dddd4b6-ea1d-4844-acda-14d26517298a",
+        "sourceUrl": "http://contramar.com.mx/vinos.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": 0.8,
+        "extractionMethod": "website_fetch_local",
+        "status": "extracted",
+        "lastCheckedAt": "2026-07-15T20:33:35.945Z"
+      },
+      {
+        "id": "4c548e73-2586-4580-8bb7-b3bce434334f",
+        "sourceUrl": "http://www.contramar.com.mx/bebidascontramar.html",
+        "fileType": "html",
+        "language": "es",
+        "confidence": null,
+        "extractionMethod": "website_crawl",
+        "status": "extracted",
+        "lastCheckedAt": "2026-06-28T21:19:26.575+00:00"
+      }
+    ],
+    "items": [
+      {
+        "id": "36a9f693-9cd5-40ab-ba55-491346580b92",
+        "documentId": "4c548e73-2586-4580-8bb7-b3bce434334f",
+        "name": "Aperol Spritz Aperol",
+        "description": null,
+        "price": 265,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "http://www.contramar.com.mx/bebidascontramar.html",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "1dd5d324-5c98-4378-8857-777f51093075",
+        "documentId": "4c548e73-2586-4580-8bb7-b3bce434334f",
+        "name": "Armónico",
+        "description": null,
+        "price": 270,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "http://www.contramar.com.mx/bebidascontramar.html",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "aa3a4449-df2b-4c52-a58e-7612d920a896",
+        "documentId": "4c548e73-2586-4580-8bb7-b3bce434334f",
+        "name": "Armónico",
+        "description": null,
+        "price": 405,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "http://www.contramar.com.mx/bebidascontramar.html",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "0305ec7e-379e-4126-b606-b329363cd18f",
+        "documentId": "4c548e73-2586-4580-8bb7-b3bce434334f",
+        "name": "Bloody Mary Vodka Absolut Azul",
+        "description": null,
+        "price": 200,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "http://www.contramar.com.mx/bebidascontramar.html",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "0b3337aa-d529-4a8b-8a9c-fb12053f465a",
+        "documentId": "4c548e73-2586-4580-8bb7-b3bce434334f",
+        "name": "Bombay Sapphire",
+        "description": null,
+        "price": 320,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "http://www.contramar.com.mx/bebidascontramar.html",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "40fd7f0e-2091-41b2-905f-3d5a8980a184",
+        "documentId": "4c548e73-2586-4580-8bb7-b3bce434334f",
+        "name": "Bombay Sapphire",
+        "description": null,
+        "price": 215,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "http://www.contramar.com.mx/bebidascontramar.html",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "cb850029-1575-47d8-bd55-dd0ec1767eea",
+        "documentId": "4c548e73-2586-4580-8bb7-b3bce434334f",
+        "name": "Etiqueta Negra",
+        "description": null,
+        "price": 345,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "http://www.contramar.com.mx/bebidascontramar.html",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "9285eada-c556-4621-8bd3-5ab26a6b7665",
+        "documentId": "4c548e73-2586-4580-8bb7-b3bce434334f",
+        "name": "Etiqueta Roja",
+        "description": null,
+        "price": 240,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "http://www.contramar.com.mx/bebidascontramar.html",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "72584490-00c9-4273-b27d-b6dc70e45da4",
+        "documentId": "4c548e73-2586-4580-8bb7-b3bce434334f",
+        "name": "Etiqueta Verde",
+        "description": null,
+        "price": 485,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "http://www.contramar.com.mx/bebidascontramar.html",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "8dc34d1d-2ab6-4608-99fc-a0d41a380c76",
+        "documentId": "4c548e73-2586-4580-8bb7-b3bce434334f",
+        "name": "GINEBRA",
+        "description": null,
+        "price": 185,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "http://www.contramar.com.mx/bebidascontramar.html",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "6a06c7b7-b114-43d8-9a76-a49ff8746cf2",
+        "documentId": "4c548e73-2586-4580-8bb7-b3bce434334f",
+        "name": "GINEBRA MARTINIS",
+        "description": null,
+        "price": 275,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "http://www.contramar.com.mx/bebidascontramar.html",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "9b2e2d68-023d-43bf-add3-609b2c912488",
+        "documentId": "4c548e73-2586-4580-8bb7-b3bce434334f",
+        "name": "Germain",
+        "description": null,
+        "price": 265,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "http://www.contramar.com.mx/bebidascontramar.html",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "cda4ce83-dcd2-42c7-a4f3-9d7aac5a9106",
+        "documentId": "4c548e73-2586-4580-8bb7-b3bce434334f",
+        "name": "Gin Frutos Rojos Ginebra Beefeater",
+        "description": null,
+        "price": 360,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "http://www.contramar.com.mx/bebidascontramar.html",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "6309b723-4bb5-4b4a-849f-7dd2ddcf5323",
+        "documentId": "4c548e73-2586-4580-8bb7-b3bce434334f",
+        "name": "Hendrick's",
+        "description": null,
+        "price": 345,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "http://www.contramar.com.mx/bebidascontramar.html",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "9acccb2b-81f2-4880-9c57-5a90bb82fe73",
+        "documentId": "4c548e73-2586-4580-8bb7-b3bce434334f",
+        "name": "Poli Marconi",
+        "description": null,
+        "price": 435,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "http://www.contramar.com.mx/bebidascontramar.html",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "80fce416-0869-4434-be4d-62b7b05cf571",
+        "documentId": "4c548e73-2586-4580-8bb7-b3bce434334f",
+        "name": "Remy Martin V.S.O.P",
+        "description": null,
+        "price": 395,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "http://www.contramar.com.mx/bebidascontramar.html",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "f1950c8b-47ba-42d9-be44-5d0f0be8704d",
+        "documentId": "4c548e73-2586-4580-8bb7-b3bce434334f",
+        "name": "Sangría & Vodka Vodka Absolut Azul",
+        "description": null,
+        "price": 235,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "http://www.contramar.com.mx/bebidascontramar.html",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "65b61232-42cc-4575-9885-96837515b4b7",
+        "documentId": "4c548e73-2586-4580-8bb7-b3bce434334f",
+        "name": "Ten",
+        "description": null,
+        "price": 345,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": "http://www.contramar.com.mx/bebidascontramar.html",
+        "observedAt": "2026-06-28T21:19:26.575+00:00",
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "829fcd26-8f18-4ef6-abfc-1018804f0d4c",
+        "documentId": null,
+        "name": "Albariño",
+        "description": null,
+        "price": 290,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "b1ede65b-b471-493a-abae-44e7ee29423a",
+        "documentId": null,
+        "name": "Bobal",
+        "description": null,
+        "price": 440,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "0c5ff2e8-76eb-42e7-adee-7e639b99aff8",
+        "documentId": null,
+        "name": "Cabernet Franc",
+        "description": null,
+        "price": 230,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "23b1d596-2b08-4ee3-a98f-8083bc096e03",
+        "documentId": null,
+        "name": "Cabernet Franc",
+        "description": null,
+        "price": 380,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "7af19dbc-a958-4c28-ad8d-0b87a6f169c1",
+        "documentId": null,
+        "name": "Caladoc, Malbec",
+        "description": null,
+        "price": 240,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "112fbc8c-1e22-494a-ab6e-46af13225f29",
+        "documentId": null,
+        "name": "Chardonnay",
+        "description": null,
+        "price": 230,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "6e3e66b1-30a9-4b33-a938-ea5383a6152c",
+        "documentId": null,
+        "name": "Chardonnay",
+        "description": null,
+        "price": 340,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "854e653c-e635-4005-abc3-899c46dbbc05",
+        "documentId": null,
+        "name": "Chardonnay",
+        "description": null,
+        "price": 300,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "1f640d90-fdea-4667-ab8b-22331dc2ec11",
+        "documentId": null,
+        "name": "Furmint, Yellow Muscat, Zeta",
+        "description": null,
+        "price": 270,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "b2f9f0cb-cdfb-4fb2-a3b6-641392a2d121",
+        "documentId": null,
+        "name": "Glera",
+        "description": null,
+        "price": 210,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "7148ce89-eed2-4eb8-a4f0-365efc62c978",
+        "documentId": null,
+        "name": "Glera, Chardonnay",
+        "description": null,
+        "price": 230,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "8b60dd31-126b-4ed6-ab70-39e90a785117",
+        "documentId": null,
+        "name": "Graciano",
+        "description": null,
+        "price": 280,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "4c10a2b2-7d51-4b37-a5cc-3d66e69c285b",
+        "documentId": null,
+        "name": "Moscatel, Palomino",
+        "description": null,
+        "price": 260,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "cfbd044e-8c39-4b72-a77b-4c6ba49477bf",
+        "documentId": null,
+        "name": "Pinot Noir",
+        "description": null,
+        "price": 390,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "379c6001-84a3-40f7-a917-0485976dcf27",
+        "documentId": null,
+        "name": "Riesling",
+        "description": null,
+        "price": 850,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "6984d617-efb1-4962-ac60-126d15d9fa07",
+        "documentId": null,
+        "name": "Rías Baixas",
+        "description": null,
+        "price": 320,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "2e555324-4a83-4eea-a9d8-d4f51f2bc9c1",
+        "documentId": null,
+        "name": "Sauvignon Blanc",
+        "description": null,
+        "price": 260,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "124e5212-d169-4295-a695-1832b2706da9",
+        "documentId": null,
+        "name": "Treixadura, Godello, Torrontes, Caiño blanco",
+        "description": null,
+        "price": 320,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      },
+      {
+        "id": "662f3a2a-a14a-428f-aa3b-376d994aa812",
+        "documentId": null,
+        "name": "Turbiana",
+        "description": null,
+        "price": 395,
+        "currency": "MXN",
+        "category": null,
+        "sourceUrl": null,
+        "observedAt": null,
+        "extractionConfidence": null,
+        "extractionLayer": "canonical"
+      }
+    ]
+  },
+  "links": [
+    {
+      "type": "contact",
+      "provider": "whatsapp",
+      "url": "https://api.whatsapp.com/send/?phone=%2B525580155644&text=Hola%2C+me+gustaria+hacer+una+reservaci%C3%B3n&type=phone_number&app_absent=0",
+      "confidence": null,
+      "checkedAt": "2026-07-09T18:47:16.4+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://contramar.com.mx/vinos.html",
+      "confidence": 0.8,
+      "checkedAt": "2026-07-15T19:56:48.537+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "http://www.contramar.com.mx/bebidascontramar.html",
+      "confidence": null,
+      "checkedAt": "2026-07-09T18:47:23.476+00:00"
+    },
+    {
+      "type": "menu",
+      "provider": "website",
+      "url": "https://contramar.com.mx/bebidascontramar.html",
+      "confidence": null,
+      "checkedAt": "2026-07-09T18:47:18.547+00:00"
+    },
+    {
+      "type": "official_site",
+      "provider": "website",
+      "url": "http://www.contramar.com.mx/",
+      "confidence": 0.9,
+      "checkedAt": "2026-07-09T18:49:00.57+00:00"
+    },
+    {
+      "type": "reservation",
+      "provider": "opentable",
+      "url": "https://www.opentable.com.mx/booking/restref/availability?restref=1013491&lang=es-MX&ot_source=Restaurant%20website&corrid=18e58ea7-f58f-494c-a48e-0d1e9a3d3076",
+      "confidence": null,
+      "checkedAt": "2026-07-09T18:47:46.215+00:00"
+    },
+    {
+      "type": "review",
+      "provider": "google_maps",
+      "url": "https://www.google.com/maps?cid=1047725080642144831&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA&ucbcb=1",
+      "confidence": 1,
+      "checkedAt": "2026-07-09T18:52:18.356+00:00"
+    }
+  ],
+  "media": {
+    "photoCount": 10,
+    "publicImageUrl": null,
+    "note": "Google Places photo references were intentionally excluded from the site export."
+  },
+  "verification": {
+    "status": "machine_assembled_candidate",
+    "sourceCount": 3,
+    "sourceNames": [
+      "google_places",
+      "official_menus",
+      "official_website"
+    ],
+    "fieldProvenance": {
+      "name": "google_places",
+      "address": "google_places",
+      "phone": "google_places",
+      "website": "restaurant_links",
+      "opening_hours": "google_places",
+      "cuisine": "google_places",
+      "coordinates": "google_places",
+      "rating": "google_places",
+      "review_count": "google_places",
+      "price_level": "google_places",
+      "photos": "google_places",
+      "description": "google_places"
+    },
+    "freshestSourceAt": "2026-07-15T20:05:20.22199+00:00",
+    "canonicalUpdatedAt": "2026-06-29T13:59:24.844625+00:00",
+    "snapshotGeneratedAt": "2026-07-15T20:22:48.824Z",
+    "humanReviewedAt": null
+  },
+  "editorial": {
+    "status": "not_reviewed",
+    "bestFor": [],
+    "avoidFor": [],
+    "ambience": null,
+    "idealMoment": null,
+    "visitorTypes": [],
+    "review": null,
+    "author": null,
+    "reviewedAt": null
+  },
+  "seo": {
+    "launchEligible": true,
+    "indexable": false,
+    "title": null,
+    "description": null,
+    "faq": []
+  },
+  "internalQuality": {
+    "top500Rank": 86,
+    "richnessScore": 7,
+    "highConflictCount": 0,
+    "missingFieldCount": "instagram",
+    "actionPriority": 3,
+    "qaFlags": [
+      "needs_human_editorial_review",
+      "missing_instagram"
+    ]
+  }
+}

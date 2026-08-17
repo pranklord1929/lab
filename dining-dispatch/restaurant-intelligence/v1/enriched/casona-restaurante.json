@@ -1,0 +1,96 @@
+{
+  "catalogName": "Casona Restaurante",
+  "slug": "casona-restaurante",
+  "status": "enriched",
+  "confidence": "medium",
+  "name": "Casona Restaurant (Casona Roma Norte hotel)",
+  "location": {
+    "address": "Durango 280, Roma Norte",
+    "neighborhood": "Roma Norte",
+    "borough": "Cuauhtémoc",
+    "postalCode": "06700",
+    "coordinates": {
+      "latitude": 19.421946,
+      "longitude": -99.1568575
+    }
+  },
+  "contact": {
+    "phone": "+52 55 1117 8660",
+    "website": "https://casonaroma.com/",
+    "instagram": "casonaromanorte",
+    "email": "info@casonaroma.com"
+  },
+  "hours": [
+    "Hotel restaurant / patio breakfast — hours not isolated this pass."
+  ],
+  "food": {
+    "cuisine": "hotel restaurant",
+    "priceLevel": 3
+  },
+  "reservation": {
+    "platform": "hotel",
+    "url": "https://casonaroma.com/"
+  },
+  "menu": {
+    "state": "structured_candidate",
+    "url": "https://casonaroma.com/es/experiencias-gastronomicas/",
+    "observedAt": "2026-08-17",
+    "itemCount": 5,
+    "items": [
+      {
+        "name": "Tacos de milanesa de domingo",
+        "category": "tacos-romita"
+      },
+      {
+        "name": "Tacos de canasta de lechón",
+        "category": "tacos-romita"
+      },
+      {
+        "name": "Tlayudas",
+        "category": "tacos-romita"
+      },
+      {
+        "name": "Gorditas de chicharrón",
+        "category": "tacos-romita"
+      },
+      {
+        "name": "Sopa de tortilla",
+        "category": "tacos-romita"
+      }
+    ],
+    "notes": "Hotel dining page lists Macaria café, Suchi and Tacos Romita PDFs — not a Casona restaurant carta.",
+    "documents": [
+      "https://casonaroma.com/wp-content/uploads/2025/09/250616-Macaria_Menu_EN.pdf",
+      "https://casonaroma.com/wp-content/uploads/2025/09/SUCHI_MENU_EN.pdf"
+    ]
+  },
+  "sources": [
+    {
+      "source": "official",
+      "url": "https://casonaroma.com/",
+      "fields": [
+        "address",
+        "phone",
+        "email"
+      ]
+    }
+  ],
+  "notes": [
+    "Could be hotel restaurant rather than standalone. Best public match for 'Casona Restaurante'."
+  ],
+  "schemaVersion": "tdd.v1.enriched",
+  "enrichedAt": "2026-08-17",
+  "editorial": {
+    "status": "not_reviewed"
+  },
+  "seo": {
+    "indexable": false
+  },
+  "endpointSources": [
+    {
+      "source": "resy",
+      "url": "https://resy.com/cities/mexico-city-mexico/venues/restaurante-villa-casona-narvarte",
+      "slug": "restaurante-villa-casona-narvarte"
+    }
+  ]
+}
