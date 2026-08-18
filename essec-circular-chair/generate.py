@@ -137,7 +137,7 @@ INDEX = f"""
     <div class="hero-meta">
       <div><strong>~30</strong>students per master class</div>
       <div><strong>6</strong>courses to validate the Chair</div>
-      <div><strong>Brussels</strong>annual learning expedition</div>
+      <div><strong>12</strong>nationalities in each cohort</div>
       <div><strong>Fall 2026</strong>Executive Certificate</div>
     </div>
   </div>
