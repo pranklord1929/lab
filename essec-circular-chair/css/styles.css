@@ -79,18 +79,24 @@ p { margin: 0 0 16px; color: var(--ink-soft); }
 .brand {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 14px;
   text-decoration: none;
   min-width: 220px;
 }
 .brand-mark {
-  width: 36px;
-  height: 36px;
+  height: 58px;
+  width: auto;
   flex: none;
+  display: block;
 }
-.brand-text { display: flex; flex-direction: column; line-height: 1.1; }
-.brand-text strong { font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase; }
-.brand-text span { font-size: 11px; color: var(--ink-soft); margin-top: 3px; }
+.brand-text {
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: var(--ink-soft);
+  max-width: 11ch;
+  line-height: 1.25;
+  font-weight: 600;
+}
 
 .nav-links { display: flex; align-items: center; gap: 4px; }
 .nav-links a, .drop > span {
