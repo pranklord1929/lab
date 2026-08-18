@@ -138,7 +138,7 @@ INDEX = f"""
       <div><strong>~30</strong>students per master class</div>
       <div><strong>6</strong>courses to validate the Chair</div>
       <div><strong>12</strong>nationalities in each cohort</div>
-      <div><strong>Fall 2026</strong>Executive Certificate</div>
+      <div><strong>1</strong>annual learning expedition in Brussels</div>
     </div>
   </div>
 </section>
