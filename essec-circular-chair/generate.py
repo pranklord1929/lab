@@ -49,9 +49,9 @@ NAV = """
           <a href="circular-cac-40.html">Circular CAC 40</a>
         </div>
       </div>
-      <a class="nav-cta" href="apply.html">Apply</a>
     </nav>
-    <button class="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <a class="nav-cta" href="apply.html">Apply</a>
+    <button class="burger" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
   </div>
 </header>
 """.replace("{logo}", LOGO)
@@ -104,7 +104,7 @@ def page(title, body, active="home"):
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>{title} — ESSEC Global Circular Economy Chair</title>
   <meta name="description" content="ESSEC Global Circular Economy Chair — training the next generation of circular economy leaders.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
