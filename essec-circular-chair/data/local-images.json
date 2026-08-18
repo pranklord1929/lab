@@ -1,0 +1,54 @@
+{
+  "events": [
+    "assets/pages/events-1.jpg",
+    "assets/pages/events-2.jpg",
+    "assets/pages/events-3.jpg",
+    "assets/pages/events-4.jpg"
+  ],
+  "home": [
+    "assets/pages/home-1.jpg"
+  ],
+  "partners": [
+    "assets/pages/partners-1.png",
+    "assets/pages/partners-2.png",
+    "assets/pages/partners-3.png",
+    "assets/pages/partners-4.jpg",
+    "assets/pages/partners-5.png",
+    "assets/pages/partners-6.jpg"
+  ],
+  "program": [
+    "assets/pages/program-1.jpg",
+    "assets/pages/program-2.jpg",
+    "assets/pages/program-3.jpg",
+    "assets/pages/program-4.jpg"
+  ],
+  "team": [
+    "assets/pages/team-1.jpg",
+    "assets/pages/team-2.jpg",
+    "assets/pages/team-3.jpg",
+    "assets/pages/team-4.jpg"
+  ],
+  "testimonies": [
+    "assets/pages/testimonies-1.jpg",
+    "assets/pages/testimonies-2.jpg",
+    "assets/pages/testimonies-3.jpg"
+  ],
+  "trips": [
+    "assets/pages/trips-1.jpg",
+    "assets/pages/trips-2.jpg",
+    "assets/pages/trips-3.jpg",
+    "assets/pages/trips-4.jpg",
+    "assets/pages/trips-5.jpg",
+    "assets/pages/trips-6.jpg",
+    "assets/pages/trips-7.jpg",
+    "assets/pages/trips-8.jpg",
+    "assets/pages/trips-9.jpg"
+  ],
+  "visits": [
+    "assets/pages/visits-1.jpg",
+    "assets/pages/visits-2.jpg",
+    "assets/pages/visits-3.jpg",
+    "assets/pages/visits-4.jpg",
+    "assets/pages/visits-5.jpg"
+  ]
+}

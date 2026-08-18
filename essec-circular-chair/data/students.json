@@ -1,0 +1,842 @@
+[
+  {
+    "class": "Class of 2025",
+    "name": "AGARWAL Muskaan",
+    "linkedin": "https://www.linkedin.com/in/muskaan-agarwal-441225194",
+    "photo": "assets/students/000.jpg",
+    "displayName": "Muskaan AGARWAL"
+  },
+  {
+    "class": "Class of 2025",
+    "name": "ANILKUMAR SOBHA Aakarsh",
+    "linkedin": "https://www.linkedin.com/in/aakarsh-anilkumar",
+    "photo": "assets/students/001.jpg",
+    "displayName": "Aakarsh ANILKUMAR SOBHA"
+  },
+  {
+    "class": "Class of 2025",
+    "name": "BENABDESLAM Yasmine",
+    "linkedin": "https://www.linkedin.com/in/yasmine-benabdeslam",
+    "photo": "assets/students/002.jpg",
+    "displayName": "Yasmine BENABDESLAM"
+  },
+  {
+    "class": "Class of 2025",
+    "name": "BRUTÉ DE RÉMUR Marin",
+    "linkedin": "https://www.linkedin.com/in/marin-brut%C3%A9-de-r%C3%A9mur-bb5916204",
+    "photo": "assets/students/003.jpg",
+    "displayName": "Marin BRUTÉ de RÉMUR"
+  },
+  {
+    "class": "Class of 2025",
+    "name": "CARBONNEAU Lucien",
+    "linkedin": "https://www.linkedin.com/in/lucien-carbonneau-17b5731a7",
+    "photo": "assets/students/004.jpg",
+    "displayName": "Lucien CARBONNEAU"
+  },
+  {
+    "class": "Class of 2025",
+    "name": "CHEVALIER Anaïs",
+    "linkedin": "https://www.linkedin.com/in/chevalier-anais",
+    "photo": "assets/students/005.jpg",
+    "displayName": "Anaïs CHEVALIER"
+  },
+  {
+    "class": "Class of 2025",
+    "name": "DESFRÉTIÈRE Agathe",
+    "linkedin": "https://www.linkedin.com/in/agathedesfretiere",
+    "photo": "assets/students/006.jpg",
+    "displayName": "Agathe DESFRÉTIÈRE"
+  },
+  {
+    "class": "Class of 2025",
+    "name": "DOËNS Maxime",
+    "linkedin": "https://www.linkedin.com/in/maxime-doens",
+    "photo": "assets/students/007.jpg",
+    "displayName": "Maxime DOËNS"
+  },
+  {
+    "class": "Class of 2025",
+    "name": "EL HAKIM Nadim",
+    "linkedin": "https://www.linkedin.com/in/nadim-el-hakim-09077b172",
+    "photo": "assets/students/008.jpg",
+    "displayName": "Nadim EL HAKIM"
+  },
+  {
+    "class": "Class of 2025",
+    "name": "HANNAN Orla",
+    "linkedin": "https://www.linkedin.com/in/marin-brut%C3%A9-de-r%C3%A9mur-bb5916204",
+    "photo": "assets/students/009.jpg",
+    "displayName": "Orla HANNAN"
+  },
+  {
+    "class": "Class of 2025",
+    "name": "JAIN Naman",
+    "linkedin": "https://www.linkedin.com/in/naman-jain03",
+    "photo": "assets/students/010.jpg",
+    "displayName": "Naman JAIN"
+  },
+  {
+    "class": "Class of 2025",
+    "name": "KAUR Taranjeet",
+    "linkedin": "https://linkedin.com/in/taranjeet--kaur",
+    "photo": "assets/students/011.jpg",
+    "displayName": "Taranjeet KAUR"
+  },
+  {
+    "class": "Class of 2025",
+    "name": "LIANG Bona",
+    "linkedin": "https://www.linkedin.com/in/derek-bona-liang-mim-mib-b1a9911a0",
+    "photo": "assets/students/012.jpg",
+    "displayName": "Bona LIANG"
+  },
+  {
+    "class": "Class of 2025",
+    "name": "MAGDUM Rohit Rajshekhar",
+    "linkedin": "https://www.linkedin.com/in/rohitmagdum",
+    "photo": "assets/students/013.jpg",
+    "displayName": "Rajshekhar MAGDUM Rohit"
+  },
+  {
+    "class": "Class of 2025",
+    "name": "MATETI Sai Raghav Rohith",
+    "linkedin": "https://www.linkedin.com/in/mateti-sai-raghav-rohith",
+    "photo": "assets/students/014.jpg",
+    "displayName": "Rohith MATETI Sai Raghav"
+  },
+  {
+    "class": "Class of 2025",
+    "name": "MUFARRIJ Nour",
+    "linkedin": "https://www.linkedin.com/in/nour-mufarrij-3a9a31257",
+    "photo": "assets/students/015.jpg",
+    "displayName": "Nour MUFARRIJ"
+  },
+  {
+    "class": "Class of 2025",
+    "name": "MÉREL Paul",
+    "linkedin": "https://www.linkedin.com/in/paul-merel-36b621291",
+    "photo": "assets/students/016.jpg",
+    "displayName": "Paul MÉREL"
+  },
+  {
+    "class": "Class of 2025",
+    "name": "NAIR Shanoli Santosh",
+    "linkedin": "https://www.linkedin.com/in/shanoli-nair",
+    "photo": "assets/students/017.jpg",
+    "displayName": "Santosh NAIR Shanoli"
+  },
+  {
+    "class": "Class of 2025",
+    "name": "NGUYEN Diep",
+    "linkedin": "https://www.linkedin.com/in/diep-nguyen-ngoc",
+    "photo": "assets/students/018.jpg",
+    "displayName": "Diep NGUYEN"
+  },
+  {
+    "class": "Class of 2025",
+    "name": "NIYOMSITH Chayanis",
+    "linkedin": "https://www.linkedin.com/in/chayanis-niyomsith",
+    "photo": "assets/students/019.jpg",
+    "displayName": "Chayanis NIYOMSITH"
+  },
+  {
+    "class": "Class of 2025",
+    "name": "PERRAUDIN Gabrielle",
+    "linkedin": "https://www.linkedin.com/in/gabrielle-perraudin-08377221b",
+    "photo": "assets/students/020.jpg",
+    "displayName": "Gabrielle PERRAUDIN"
+  },
+  {
+    "class": "Class of 2025",
+    "name": "RAHANE Mallika",
+    "linkedin": "https://www.linkedin.com/in/mallika-rahane-06a67a180",
+    "photo": "assets/students/021.jpg",
+    "displayName": "Mallika RAHANE"
+  },
+  {
+    "class": "Class of 2025",
+    "name": "RUAULT Thomas",
+    "linkedin": "https://www.linkedin.com/in/thomasruault",
+    "photo": "assets/students/022.jpg",
+    "displayName": "Thomas RUAULT"
+  },
+  {
+    "class": "Class of 2025",
+    "name": "SARMA Nandita",
+    "linkedin": "https://www.linkedin.com/in/nandita-sarma-93a289167",
+    "photo": "assets/students/023.jpg",
+    "displayName": "Nandita SARMA"
+  },
+  {
+    "class": "Class of 2025",
+    "name": "SEKINE Kentaro",
+    "linkedin": "https://www.linkedin.com/in/kentaro-sekine",
+    "photo": "assets/students/024.jpg",
+    "displayName": "Kentaro SEKINE"
+  },
+  {
+    "class": "Class of 2025",
+    "name": "SOOD Aarushi",
+    "linkedin": "https://www.linkedin.com/in/aarushi-sood",
+    "photo": "assets/students/025.jpg",
+    "displayName": "Aarushi SOOD"
+  },
+  {
+    "class": "Class of 2025",
+    "name": "SORDOT Nils",
+    "linkedin": "https://www.linkedin.com/in/nils-sordot",
+    "photo": "assets/students/026.jpg",
+    "displayName": "Nils SORDOT"
+  },
+  {
+    "class": "Class of 2025",
+    "name": "SUNIL Rohaan",
+    "linkedin": "https://www.linkedin.com/in/rohaansunil",
+    "photo": "assets/students/027.jpg",
+    "displayName": "Rohaan SUNIL"
+  },
+  {
+    "class": "Class of 2025",
+    "name": "TATE Maho",
+    "linkedin": "https://www.linkedin.com/in/mahotate",
+    "photo": "assets/students/028.jpg",
+    "displayName": "Maho TATE"
+  },
+  {
+    "class": "Class of 2025",
+    "name": "TYAGI Anisha",
+    "linkedin": "https://www.linkedin.com/in/anisha-tyagi-77460419b",
+    "photo": "assets/students/029.jpg",
+    "displayName": "Anisha TYAGI"
+  },
+  {
+    "class": "Class of 2025",
+    "name": "WANG Tung-Wei",
+    "linkedin": "https://www.linkedin.com/in/tung-wei-wang",
+    "photo": "assets/students/030.jpg",
+    "displayName": "Tung-Wei WANG"
+  },
+  {
+    "class": "Class of 2025",
+    "name": "YUAN Mingyou",
+    "linkedin": "https://www.linkedin.com/in/mingyou-yuan",
+    "photo": "assets/students/031.jpg",
+    "displayName": "Mingyou YUAN"
+  },
+  {
+    "class": "Class of 2025",
+    "name": "ZHOU Xinyi",
+    "linkedin": "https://www.linkedin.com/in/xinyi-zhou-b20254239",
+    "photo": "assets/students/032.jpg",
+    "displayName": "Xinyi ZHOU"
+  },
+  {
+    "class": "Class of 2024",
+    "name": "AGARWAL Aryama",
+    "linkedin": "https://www.linkedin.com/in/aryama-agarwal",
+    "photo": "assets/students/033.jpg",
+    "displayName": "Aryama AGARWAL"
+  },
+  {
+    "class": "Class of 2024",
+    "name": "AGRAWAL Arushi",
+    "linkedin": "https://www.linkedin.com/in/arushi-agrawal-b647a7135",
+    "photo": "assets/students/034.jpg",
+    "displayName": "Arushi AGRAWAL"
+  },
+  {
+    "class": "Class of 2024",
+    "name": "BROYE Corentine",
+    "linkedin": "https://www.linkedin.com/in/corentine-broye/https://www.linkedin.com/in/poojabarde",
+    "photo": "assets/students/035.jpg",
+    "displayName": "Corentine BROYE"
+  },
+  {
+    "class": "Class of 2024",
+    "name": "DATTA-MAJUMDER Purbita",
+    "linkedin": "https://www.linkedin.com/in/purbita-datta-majumder",
+    "photo": "assets/students/036.jpg",
+    "displayName": "Purbita DATTA-MAJUMDER"
+  },
+  {
+    "class": "Class of 2024",
+    "name": "DOI Sakura",
+    "linkedin": "https://www.linkedin.com/in/sakura-doi",
+    "photo": "assets/students/037.jpg",
+    "displayName": "Sakura DOI"
+  },
+  {
+    "class": "Class of 2024",
+    "name": "DUONG Ming",
+    "linkedin": null,
+    "photo": "assets/students/038.jpg",
+    "displayName": "Ming DUONG"
+  },
+  {
+    "class": "Class of 2024",
+    "name": "GLIGUEM Ismael",
+    "linkedin": "https://www.linkedin.com/in/ismaelgliguem",
+    "photo": "assets/students/039.jpg",
+    "displayName": "Ismael GLIGUEM"
+  },
+  {
+    "class": "Class of 2024",
+    "name": "GUIZE Colombe",
+    "linkedin": "https://www.linkedin.com/in/colombe-guize",
+    "photo": "assets/students/040.jpg",
+    "displayName": "Colombe GUIZE"
+  },
+  {
+    "class": "Class of 2024",
+    "name": "HAMONOU Marion",
+    "linkedin": "https://www.linkedin.com/in/hamonou-marion",
+    "photo": "assets/students/041.jpg",
+    "displayName": "Marion HAMONOU"
+  },
+  {
+    "class": "Class of 2024",
+    "name": "HUANG Letong",
+    "linkedin": "https://www.linkedin.com/in/letong-huang-18637128a",
+    "photo": "assets/students/042.jpg",
+    "displayName": "Letong HUANG"
+  },
+  {
+    "class": "Class of 2024",
+    "name": "JACOB Samuel",
+    "linkedin": "https://www.linkedin.com/in/samueltjacob",
+    "photo": "assets/students/043.jpg",
+    "displayName": "Samuel JACOB"
+  },
+  {
+    "class": "Class of 2024",
+    "name": "JULLIENNE Gregoire",
+    "linkedin": "https://www.linkedin.com/in/gjullienne",
+    "photo": "assets/students/044.jpg",
+    "displayName": "Gregoire JULLIENNE"
+  },
+  {
+    "class": "Class of 2024",
+    "name": "KANG Christie",
+    "linkedin": "https://www.linkedin.com/in/minjukang22",
+    "photo": "assets/students/045.jpg",
+    "displayName": "Christie KANG"
+  },
+  {
+    "class": "Class of 2024",
+    "name": "KAPOOR Utkarsh",
+    "linkedin": "https://www.linkedin.com/in/utkarsh-kapoor",
+    "photo": "assets/students/046.jpg",
+    "displayName": "Utkarsh KAPOOR"
+  },
+  {
+    "class": "Class of 2024",
+    "name": "KARAM Cherine",
+    "linkedin": "https://www.linkedin.com/in/cherine-karam",
+    "photo": "assets/students/047.jpg",
+    "displayName": "Cherine KARAM"
+  },
+  {
+    "class": "Class of 2024",
+    "name": "KOTIAN Eshan-ravi",
+    "linkedin": "https://www.linkedin.com/in/eshan-kotian",
+    "photo": "assets/students/048.jpg",
+    "displayName": "Eshan-ravi KOTIAN"
+  },
+  {
+    "class": "Class of 2024",
+    "name": "LIU Xiaohan",
+    "linkedin": "https://www.linkedin.com/in/xiaohan-liu-740608268",
+    "photo": "assets/students/049.jpg",
+    "displayName": "Xiaohan LIU"
+  },
+  {
+    "class": "Class of 2024",
+    "name": "MANISHI Ananya",
+    "linkedin": "https://www.linkedin.com/in/ananya-manishi/https://www.linkedin.com/in/gjullienne",
+    "photo": "assets/students/050.jpg",
+    "displayName": "Ananya MANISHI"
+  },
+  {
+    "class": "Class of 2024",
+    "name": "NAKOULIMA Mouhamadou",
+    "linkedin": "https://www.linkedin.com/in/alassane-nakoulima-8842a7156",
+    "photo": "assets/students/051.jpg",
+    "displayName": "Mouhamadou NAKOULIMA"
+  },
+  {
+    "class": "Class of 2024",
+    "name": "PAN Jiaying",
+    "linkedin": "https://www.linkedin.com/in/jiaying-pan-012389199",
+    "photo": "assets/students/052.jpg",
+    "displayName": "Jiaying PAN"
+  },
+  {
+    "class": "Class of 2024",
+    "name": "PIRE Adrien-valere",
+    "linkedin": "https://www.linkedin.com/in/adrien-pir%C3%A9-523531250",
+    "photo": "assets/students/053.jpg",
+    "displayName": "Adrien-valere PIRE"
+  },
+  {
+    "class": "Class of 2024",
+    "name": "REN Chu",
+    "linkedin": "https://www.linkedin.com/in/chu-ren",
+    "photo": "assets/students/054.jpg",
+    "displayName": "Chu REN"
+  },
+  {
+    "class": "Class of 2024",
+    "name": "SCHAFER Alice",
+    "linkedin": "https://www.linkedin.com/in/aliceschafer",
+    "photo": "assets/students/055.jpg",
+    "displayName": "Alice SCHAFER"
+  },
+  {
+    "class": "Class of 2024",
+    "name": "SEHGAL Debanshu",
+    "linkedin": "https://www.linkedin.com/in/debanshusehgal7",
+    "photo": "assets/students/056.jpg",
+    "displayName": "Debanshu SEHGAL"
+  },
+  {
+    "class": "Class of 2024",
+    "name": "SHAO Xuan",
+    "linkedin": "https://www.linkedin.com/in/patshao",
+    "photo": "assets/students/057.jpg",
+    "displayName": "Xuan SHAO"
+  },
+  {
+    "class": "Class of 2024",
+    "name": "SHIMADA Kohei",
+    "linkedin": "https://www.linkedin.com/in/koheish",
+    "photo": "assets/students/058.jpg",
+    "displayName": "Kohei SHIMADA"
+  },
+  {
+    "class": "Class of 2024",
+    "name": "SISODIA Singh",
+    "linkedin": "https://www.linkedin.com/in/anshuman-singh-sisodia",
+    "photo": "assets/students/059.jpg",
+    "displayName": "Singh SISODIA"
+  },
+  {
+    "class": "Class of 2024",
+    "name": "SMITH Evan",
+    "linkedin": "https://www.linkedin.com/in/epsmith-middlebury",
+    "photo": "assets/students/060.jpg",
+    "displayName": "Evan SMITH"
+  },
+  {
+    "class": "Class of 2024",
+    "name": "SORONGAN Roberta",
+    "linkedin": "https://www.linkedin.com/in/robertasorongan",
+    "photo": null,
+    "displayName": "Roberta SORONGAN"
+  },
+  {
+    "class": "Class of 2024",
+    "name": "SUNKARA Basava-sai",
+    "linkedin": "https://www.linkedin.com/in/basavasaisunkara",
+    "photo": "assets/students/062.jpg",
+    "displayName": "Basava-sai SUNKARA"
+  },
+  {
+    "class": "Class of 2024",
+    "name": "VERCELLI Tommaso",
+    "linkedin": "https://www.linkedin.com/in/tommaso-vercelli-8b7b60213",
+    "photo": "assets/students/063.jpg",
+    "displayName": "Tommaso VERCELLI"
+  },
+  {
+    "class": "Class of 2024",
+    "name": "WANG Yixin",
+    "linkedin": "https://www.linkedin.com/in/yixin-wang-56b012261",
+    "photo": null,
+    "displayName": "Yixin WANG"
+  },
+  {
+    "class": "Class of 2024",
+    "name": "WEI Yiyao",
+    "linkedin": "https://www.linkedin.com/in/yiyaowei",
+    "photo": "assets/students/065.jpg",
+    "displayName": "Yiyao WEI"
+  },
+  {
+    "class": "Class of 2024",
+    "name": "WONG Lisa",
+    "linkedin": "https://www.linkedin.com/in/lisa-wong11/https://www.linkedin.com/in/robertasorongan",
+    "photo": "assets/students/066.jpg",
+    "displayName": "Lisa WONG"
+  },
+  {
+    "class": "Class of 2024",
+    "name": "ZEMDIKHANOVA Guzel",
+    "linkedin": "https://www.linkedin.com/in/guzel-zemdikhanova",
+    "photo": "assets/students/067.jpg",
+    "displayName": "Guzel ZEMDIKHANOVA"
+  },
+  {
+    "class": "Class of 2023",
+    "name": "BALAKRISHNAN Vikraman",
+    "linkedin": "https://www.linkedin.com/in/vikramanb",
+    "photo": "assets/students/068.jpg",
+    "displayName": "Vikraman BALAKRISHNAN"
+  },
+  {
+    "class": "Class of 2023",
+    "name": "BAMBA Visaaya",
+    "linkedin": "https://www.linkedin.com/in/visaayabamba",
+    "photo": null,
+    "displayName": "Visaaya BAMBA"
+  },
+  {
+    "class": "Class of 2023",
+    "name": "BARDE Pooja",
+    "linkedin": "https://www.linkedin.com/in/poojabarde",
+    "photo": "assets/students/070.jpg",
+    "displayName": "Pooja BARDE"
+  },
+  {
+    "class": "Class of 2023",
+    "name": "CHAVANNE Louis",
+    "linkedin": "https://www.linkedin.com/in/louiskchavanne",
+    "photo": null,
+    "displayName": "Louis CHAVANNE"
+  },
+  {
+    "class": "Class of 2023",
+    "name": "DARUOTZ-DIT-DURIOL Bastien",
+    "linkedin": "https://www.linkedin.com/in/bastien-daruotz-dit-duriol-493b45213",
+    "photo": null,
+    "displayName": "Bastien DARUOTZ-DIT-DURIOL"
+  },
+  {
+    "class": "Class of 2023",
+    "name": "DENG Zhiping",
+    "linkedin": "https://www.linkedin.com/in/zhiping-deng-084438200",
+    "photo": "assets/students/073.jpg",
+    "displayName": "Zhiping DENG"
+  },
+  {
+    "class": "Class of 2023",
+    "name": "DI Yining",
+    "linkedin": "https://www.linkedin.com/in/yining-di-ba6270251",
+    "photo": "assets/students/074.jpg",
+    "displayName": "Yining DI"
+  },
+  {
+    "class": "Class of 2023",
+    "name": "FOULATIER Lucie",
+    "linkedin": "https://www.linkedin.com/in/lucie-foulatier-8a0bb21b6",
+    "photo": "assets/students/075.jpg",
+    "displayName": "Lucie FOULATIER"
+  },
+  {
+    "class": "Class of 2023",
+    "name": "GARG Apoorva",
+    "linkedin": "https://www.linkedin.com/in/apoorva-garg-14950",
+    "photo": "assets/students/076.jpg",
+    "displayName": "Apoorva GARG"
+  },
+  {
+    "class": "Class of 2023",
+    "name": "GUPTA Aryan",
+    "linkedin": "https://www.linkedin.com/in/aryangupta0411",
+    "photo": "assets/students/077.jpg",
+    "displayName": "Aryan GUPTA"
+  },
+  {
+    "class": "Class of 2023",
+    "name": "HADDAD Abeer",
+    "linkedin": "https://www.linkedin.com/in/abeerjhaddad",
+    "photo": null,
+    "displayName": "Abeer HADDAD"
+  },
+  {
+    "class": "Class of 2023",
+    "name": "HUANG Qinglan",
+    "linkedin": "https://www.linkedin.com/in/leria-huang-86643a186",
+    "photo": null,
+    "displayName": "Qinglan HUANG"
+  },
+  {
+    "class": "Class of 2023",
+    "name": "JAUGEY Eloi",
+    "linkedin": "https://www.linkedin.com/in/eloi-jaugey",
+    "photo": "assets/students/080.jpg",
+    "displayName": "Eloi JAUGEY"
+  },
+  {
+    "class": "Class of 2023",
+    "name": "KURIS Tarik",
+    "linkedin": "https://www.linkedin.com/in/tarik-kuris-a47220184",
+    "photo": null,
+    "displayName": "Tarik KURIS"
+  },
+  {
+    "class": "Class of 2023",
+    "name": "LAMBERT Chloe-Linh",
+    "linkedin": "https://www.linkedin.com/in/chlo%C3%A9-linh-lambert",
+    "photo": null,
+    "displayName": "Chloe-Linh LAMBERT"
+  },
+  {
+    "class": "Class of 2023",
+    "name": "LUTARD Théo",
+    "linkedin": "https://www.linkedin.com/in/th%C3%A9o-lutard-716833173",
+    "photo": null,
+    "displayName": "Théo LUTARD"
+  },
+  {
+    "class": "Class of 2023",
+    "name": "MASSARO Léna",
+    "linkedin": "https://www.linkedin.com/in/l%C3%A9na-massaro-8b2422199",
+    "photo": "assets/students/084.jpg",
+    "displayName": "Léna MASSARO"
+  },
+  {
+    "class": "Class of 2023",
+    "name": "MEGRELIS Héléna",
+    "linkedin": "https://www.linkedin.com/in/helena-megrelis-61b2111a5",
+    "photo": null,
+    "displayName": "Héléna MEGRELIS"
+  },
+  {
+    "class": "Class of 2023",
+    "name": "MENON Sreejit",
+    "linkedin": "https://www.linkedin.com/in/sreejitmenon0697",
+    "photo": "assets/students/086.jpg",
+    "displayName": "Sreejit MENON"
+  },
+  {
+    "class": "Class of 2023",
+    "name": "MIKHALCHI Kristina",
+    "linkedin": "https://www.linkedin.com/in/kristina-mikhalchi",
+    "photo": null,
+    "displayName": "Kristina MIKHALCHI"
+  },
+  {
+    "class": "Class of 2023",
+    "name": "NAIR Anupama",
+    "linkedin": "https://www.linkedin.com/in/anupama26",
+    "photo": null,
+    "displayName": "Anupama NAIR"
+  },
+  {
+    "class": "Class of 2023",
+    "name": "PAGAO Rinalyn",
+    "linkedin": "https://www.linkedin.com/in/rinalyn-pagao",
+    "photo": "assets/students/089.jpg",
+    "displayName": "Rinalyn PAGAO"
+  },
+  {
+    "class": "Class of 2023",
+    "name": "PASTRA Natalia",
+    "linkedin": "https://www.linkedin.com/in/nataliapastra",
+    "photo": "assets/students/090.jpg",
+    "displayName": "Natalia PASTRA"
+  },
+  {
+    "class": "Class of 2023",
+    "name": "PERONNET Manon",
+    "linkedin": "https://www.linkedin.com/in/manon-peronnet-77ab19171",
+    "photo": null,
+    "displayName": "Manon PERONNET"
+  },
+  {
+    "class": "Class of 2023",
+    "name": "PERRIN Lucie",
+    "linkedin": "https://www.linkedin.com/in/lucie-perrin-26b8aa143",
+    "photo": null,
+    "displayName": "Lucie PERRIN"
+  },
+  {
+    "class": "Class of 2023",
+    "name": "RESLINGER Florian",
+    "linkedin": "https://www.linkedin.com/in/florian-reslinger",
+    "photo": "assets/students/093.jpg",
+    "displayName": "Florian RESLINGER"
+  },
+  {
+    "class": "Class of 2023",
+    "name": "ROUXEL Ariane",
+    "linkedin": "https://www.linkedin.com/in/ariane-rouxel-539bba219",
+    "photo": null,
+    "displayName": "Ariane ROUXEL"
+  },
+  {
+    "class": "Class of 2023",
+    "name": "SAIGAN Tomoko",
+    "linkedin": "https://www.linkedin.com/in/tomoko-saigan",
+    "photo": null,
+    "displayName": "Tomoko SAIGAN"
+  },
+  {
+    "class": "Class of 2023",
+    "name": "TONG Vanessa",
+    "linkedin": "https://www.linkedin.com/in/vanessa-tong-951647220",
+    "photo": "assets/students/096.jpg",
+    "displayName": "Vanessa TONG"
+  },
+  {
+    "class": "Class of 2023",
+    "name": "ZAKHOUR Karl",
+    "linkedin": "https://www.linkedin.com/in/karl-zakhour",
+    "photo": null,
+    "displayName": "Karl ZAKHOUR"
+  },
+  {
+    "class": "Founding Class of 2022",
+    "name": "Clara ALVES",
+    "linkedin": "https://www.linkedin.com/in/clara-alves-26bb75171",
+    "photo": null,
+    "displayName": "Clara ALVES"
+  },
+  {
+    "class": "Founding Class of 2022",
+    "name": "Khushboo ARORA",
+    "linkedin": "https://www.linkedin.com/in/arorakhushboo",
+    "photo": "assets/students/099.jpg",
+    "displayName": "Khushboo ARORA"
+  },
+  {
+    "class": "Founding Class of 2022",
+    "name": "Gianluca BANDINI",
+    "linkedin": "https://www.linkedin.com/in/gianluca-bandini",
+    "photo": null,
+    "displayName": "Gianluca BANDINI"
+  },
+  {
+    "class": "Founding Class of 2022",
+    "name": "Yasmine BENKIRANE",
+    "linkedin": "https://www.linkedin.com/in/yasmine-benkirane-1a1220177",
+    "photo": null,
+    "displayName": "Yasmine BENKIRANE"
+  },
+  {
+    "class": "Founding Class of 2022",
+    "name": "Dhruv BHAIA",
+    "linkedin": "https://www.linkedin.com/in/dhruv-bhaia-34b328152",
+    "photo": "assets/students/102.jpg",
+    "displayName": "Dhruv BHAIA"
+  },
+  {
+    "class": "Founding Class of 2022",
+    "name": "Jyoti-Srinivas BITRA",
+    "linkedin": "https://www.linkedin.com/in/bitra-srinivas",
+    "photo": "assets/students/103.jpg",
+    "displayName": "Jyoti-Srinivas BITRA"
+  },
+  {
+    "class": "Founding Class of 2022",
+    "name": "Sebastiano BORTOLI",
+    "linkedin": "https://www.linkedin.com/in/sebastiano-bortoli-6266a1207",
+    "photo": "assets/students/104.jpg",
+    "displayName": "Sebastiano BORTOLI"
+  },
+  {
+    "class": "Founding Class of 2022",
+    "name": "Shruti CHAND",
+    "linkedin": "https://www.linkedin.com/in/shrutichand96",
+    "photo": null,
+    "displayName": "Shruti CHAND"
+  },
+  {
+    "class": "Founding Class of 2022",
+    "name": "Jiwon CHUNG",
+    "linkedin": "https://www.linkedin.com/in/jiwonchung1",
+    "photo": null,
+    "displayName": "Jiwon CHUNG"
+  },
+  {
+    "class": "Founding Class of 2022",
+    "name": "Marie COURTOIS-SUFFIT",
+    "linkedin": "https://www.linkedin.com/in/marie-courtois-suffit-16b39315a",
+    "photo": "assets/students/107.jpg",
+    "displayName": "Marie COURTOIS-SUFFIT"
+  },
+  {
+    "class": "Founding Class of 2022",
+    "name": "Raghavendran ESWARAMURTHY",
+    "linkedin": "https://www.linkedin.com/in/raghavendran-eswaramurthy-931343b",
+    "photo": null,
+    "displayName": "Raghavendran ESWARAMURTHY"
+  },
+  {
+    "class": "Founding Class of 2022",
+    "name": "Claire GILLES",
+    "linkedin": "https://www.linkedin.com/in/claire-gilles",
+    "photo": null,
+    "displayName": "Claire GILLES"
+  },
+  {
+    "class": "Founding Class of 2022",
+    "name": "Antonin LEBLANC",
+    "linkedin": "https://www.linkedin.com/in/antonin-leblanc-350228171",
+    "photo": null,
+    "displayName": "Antonin LEBLANC"
+  },
+  {
+    "class": "Founding Class of 2022",
+    "name": "Nalin NANDAN",
+    "linkedin": "https://www.linkedin.com/in/nalin-nandan",
+    "photo": null,
+    "displayName": "Nalin NANDAN"
+  },
+  {
+    "class": "Founding Class of 2022",
+    "name": "Saiteja PATTALACHINTI",
+    "linkedin": "https://www.linkedin.com/in/saitejapattalachinti",
+    "photo": null,
+    "displayName": "Saiteja PATTALACHINTI"
+  },
+  {
+    "class": "Founding Class of 2022",
+    "name": "Federica PIANETTI",
+    "linkedin": "https://www.linkedin.com/in/federica-pianetti-356a4b184",
+    "photo": null,
+    "displayName": "Federica PIANETTI"
+  },
+  {
+    "class": "Founding Class of 2022",
+    "name": "Dorian SERRADEIL",
+    "linkedin": "https://www.linkedin.com/in/dorian-serradeil",
+    "photo": "assets/students/114.jpg",
+    "displayName": "Dorian SERRADEIL"
+  },
+  {
+    "class": "Founding Class of 2022",
+    "name": "Bharath SURESHBABU",
+    "linkedin": "https://www.linkedin.com/in/bharath-sureshbabu-554a19123",
+    "photo": null,
+    "displayName": "Bharath SURESHBABU"
+  },
+  {
+    "class": "Founding Class of 2022",
+    "name": "Kirthana TEEGALA",
+    "linkedin": "https://www.linkedin.com/in/bharath-sureshbabu-554a19123",
+    "photo": null,
+    "displayName": "Kirthana TEEGALA"
+  },
+  {
+    "class": "Founding Class of 2022",
+    "name": "Maelle-Marie TROADEC",
+    "linkedin": "https://www.linkedin.com/in/maelle-marie-troadec",
+    "photo": null,
+    "displayName": "Maelle-Marie TROADEC"
+  },
+  {
+    "class": "Founding Class of 2022",
+    "name": "Hao XU",
+    "linkedin": "https://www.linkedin.com/in/hao-xu-justkkaito",
+    "photo": null,
+    "displayName": "Hao XU"
+  },
+  {
+    "class": "Founding Class of 2022",
+    "name": "Yiyang ZHAO",
+    "linkedin": "https://www.linkedin.com/in/yiyang-zhao-357b6315a",
+    "photo": null,
+    "displayName": "Yiyang ZHAO"
+  }
+]
