@@ -20,6 +20,7 @@ NAV = """
       <span class="brand-text">Global Circular Economy Chair</span>
     </a>
     <nav class="nav-links" aria-label="Primary">
+      <a class="nav-cta nav-cta-menu" href="apply.html">Apply</a>
       <a href="index.html" class="{home}">The Chair</a>
       <div class="drop">
         <span>Program</span>
@@ -50,7 +51,7 @@ NAV = """
         </div>
       </div>
     </nav>
-    <a class="nav-cta" href="apply.html">Apply</a>
+    <a class="nav-cta nav-cta-bar" href="apply.html">Apply</a>
     <button class="burger" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
   </div>
 </header>
@@ -110,7 +111,7 @@ def page(title, body, active="home"):
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Mohave:wght@500;600;700&family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.css?v=20260818">
 </head>
 <body>
 {nav}
@@ -611,7 +612,7 @@ PARTNERS = f"""
       <div class="logo-box"><img src="{src('partners', 4, 800)}" alt="Silver sponsor"></div>
     </div>
     <h2>Expert Partners</h2>
-    <div class="logo-row" style="grid-template-columns:repeat(2,1fr);max-width:640px;margin-top:20px">
+    <div class="logo-row" style="grid-template-columns:repeat(2,minmax(0,1fr));max-width:640px;margin-top:20px">
       <div class="logo-box"><img src="{src('partners', 5, 800)}" alt="Expert partner"></div>
       <a class="logo-box" href="https://circulab.com/" target="_blank" rel="noopener"><img src="{src('partners', 6, 800)}" alt="Circulab"></a>
     </div>
