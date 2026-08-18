@@ -163,7 +163,7 @@ INDEX = f"""
     <div class="stat-row">
       <div class="stat"><strong>Ambassadors</strong><span>Leaders who promote circular economy as the model for tomorrow’s economic, environmental and social challenges.</span></div>
       <div class="stat"><strong>Makers</strong><span>Practitioners who implement circular principles on a real project, and measure their impact.</span></div>
-      <div class="stat"><strong>Partners</strong><span>Applied work with L’Oréal, EssilorLuxottica, Bouygues, SNCF Réseau, Equans and expert studios.</span></div>
+      <div class="stat"><strong>Partners</strong><span>Applied work with L’Oréal, SNCF Réseau and Equans.</span></div>
       <div class="stat"><strong>Campuses</strong><span>Progressively deployed across ESSEC’s three campuses: Cergy, Singapore and Rabat.</span></div>
     </div>
   </div>
