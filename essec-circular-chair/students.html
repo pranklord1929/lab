@@ -8,21 +8,23 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Mohave:wght@500;600;700&family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css?v=20260818b">
+  <link rel="stylesheet" href="css/styles.css?v=20260818c">
+  <link rel="icon" href="assets/logo-essec-noir.svg" type="image/svg+xml">
 </head>
 <body>
 
+<a class="skip-link" href="#main">Skip to content</a>
 <header class="nav">
   <div class="nav-inner">
     <a class="brand" href="index.html">
       <img class="brand-mark" src="assets/logo-essec-noir.svg" alt="ESSEC Business School">
       <span class="brand-text">Global Circular Economy Chair</span>
     </a>
-    <nav class="nav-links" aria-label="Primary">
+    <nav class="nav-links" id="site-nav" aria-label="Primary">
       <a class="nav-cta nav-cta-menu" href="apply.html">Apply</a>
-      <a href="index.html" class="active">The Chair</a>
+      <a href="index.html" class="">The Chair</a>
       <div class="drop">
-        <span>Program</span>
+        <button type="button" class="drop-toggle" aria-expanded="false" aria-haspopup="true">Program</button>
         <div class="drop-menu">
           <a href="program.html">Overview</a>
           <a href="education.html">Students Education</a>
@@ -33,7 +35,7 @@
         </div>
       </div>
       <div class="drop">
-        <span>Students</span>
+        <button type="button" class="drop-toggle" aria-expanded="false" aria-haspopup="true">Students</button>
         <div class="drop-menu">
           <a href="students.html">Cohorts</a>
           <a href="testimonies.html">Testimonies</a>
@@ -42,7 +44,7 @@
       <a href="team.html" class="">Team</a>
       <a href="partners.html" class="">Partners</a>
       <div class="drop">
-        <span>Content</span>
+        <button type="button" class="drop-toggle" aria-expanded="false" aria-haspopup="true">Content</button>
         <div class="drop-menu">
           <a href="content.html">Research &amp; training</a>
           <a href="publications.html">Publications</a>
@@ -51,10 +53,11 @@
       </div>
     </nav>
     <a class="nav-cta nav-cta-bar" href="apply.html">Apply</a>
-    <button class="burger" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <button class="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
   </div>
 </header>
 
+<main id="main">
 
 <div class="page-hero"><div class="wrap">
   <span class="kicker">Our students</span>
@@ -64,17 +67,18 @@
   <div class="wrap">
     <p class="lead">LinkedIn profiles as published on the current Chair site. The 2026 promotion will appear in its own tab once photos and links are provided.</p>
     <div class="tabs">
-      <button class="tab" data-year="2026">Class of 2026</button>
-      <button class="tab active" data-year="2025">Class of 2025</button>
-      <button class="tab" data-year="2024">Class of 2024</button>
-      <button class="tab" data-year="2023">Class of 2023</button>
-      <button class="tab" data-year="2022">Founding class 2022</button>
+      <button type="button" class="tab" data-year="2026">Class of 2026</button>
+      <button type="button" class="tab active" data-year="2025">Class of 2025</button>
+      <button type="button" class="tab" data-year="2024">Class of 2024</button>
+      <button type="button" class="tab" data-year="2023">Class of 2023</button>
+      <button type="button" class="tab" data-year="2022">Founding class 2022</button>
     </div>
     <p data-cohort-note hidden class="notice">Photos, names and LinkedIn of the 2026 cohort will be published here. The structure — portrait, name, LinkedIn — is already in place.</p>
     <div class="students" data-students></div>
   </div>
 </section>
 
+</main>
 
 <footer>
   <div class="wrap foot-grid">

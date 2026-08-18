@@ -13,17 +13,18 @@ def src(group, i, w=1600):
 LOGO = """<img class="brand-mark" src="assets/logo-essec-noir.svg" alt="ESSEC Business School">"""
 
 NAV = """
+<a class="skip-link" href="#main">Skip to content</a>
 <header class="nav">
   <div class="nav-inner">
     <a class="brand" href="index.html">
       {logo}
       <span class="brand-text">Global Circular Economy Chair</span>
     </a>
-    <nav class="nav-links" aria-label="Primary">
+    <nav class="nav-links" id="site-nav" aria-label="Primary">
       <a class="nav-cta nav-cta-menu" href="apply.html">Apply</a>
       <a href="index.html" class="{home}">The Chair</a>
       <div class="drop">
-        <span>Program</span>
+        <button type="button" class="drop-toggle" aria-expanded="false" aria-haspopup="true">Program</button>
         <div class="drop-menu">
           <a href="program.html">Overview</a>
           <a href="education.html">Students Education</a>
@@ -34,7 +35,7 @@ NAV = """
         </div>
       </div>
       <div class="drop">
-        <span>Students</span>
+        <button type="button" class="drop-toggle" aria-expanded="false" aria-haspopup="true">Students</button>
         <div class="drop-menu">
           <a href="students.html">Cohorts</a>
           <a href="testimonies.html">Testimonies</a>
@@ -43,7 +44,7 @@ NAV = """
       <a href="team.html" class="{team}">Team</a>
       <a href="partners.html" class="{partners}">Partners</a>
       <div class="drop">
-        <span>Content</span>
+        <button type="button" class="drop-toggle" aria-expanded="false" aria-haspopup="true">Content</button>
         <div class="drop-menu">
           <a href="content.html">Research &amp; training</a>
           <a href="publications.html">Publications</a>
@@ -52,7 +53,7 @@ NAV = """
       </div>
     </nav>
     <a class="nav-cta nav-cta-bar" href="apply.html">Apply</a>
-    <button class="burger" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <button class="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
   </div>
 </header>
 """.replace("{logo}", LOGO)
@@ -111,11 +112,14 @@ def page(title, body, active="home"):
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Mohave:wght@500;600;700&family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css?v=20260818b">
+  <link rel="stylesheet" href="css/styles.css?v=20260818c">
+  <link rel="icon" href="assets/logo-essec-noir.svg" type="image/svg+xml">
 </head>
 <body>
 {nav}
+<main id="main">
 {body}
+</main>
 {FOOT}
 </body>
 </html>
@@ -268,9 +272,9 @@ INDEX = f"""
       <h2>An ecosystem of industry and expertise</h2>
     </div>
     <div class="logo-row">
-      <a class="logo-box" href="https://www.loreal.com/en/" target="_blank" rel="noopener"><img src="{src('partners', 1, 800)}" alt="L'Oréal, Gold Sponsor"></a>
-      <div class="logo-box"><img src="{src('partners', 2, 800)}" alt="Silver sponsor"></div>
-      <div class="logo-box"><img src="{src('partners', 3, 800)}" alt="Silver sponsor"></div>
+      <a class="logo-box" href="https://www.loreal.com/" target="_blank" rel="noopener"><img src="{src('partners', 1, 800)}" alt="L’Oréal, Gold Sponsor"></a>
+      <a class="logo-box" href="https://www.equans.com/" target="_blank" rel="noopener"><img src="{src('partners', 2, 800)}" alt="Equans"></a>
+      <a class="logo-box" href="https://www.sncf-reseau.com/" target="_blank" rel="noopener"><img src="{src('partners', 3, 800)}" alt="SNCF Réseau"></a>
     </div>
     <p style="margin-top:20px"><a href="partners.html">All partners →</a></p>
   </div>
@@ -326,7 +330,7 @@ EDUCATION = f"""
 <section>
   <div class="wrap">
     <p class="lead">A master class of 30 multi-disciplinary international students: 6 compulsory courses in English to validate the curriculum, including a course dedicated to initiatives for our partners — design and prototyping of circular products, transformation of linear processes, new uses, reverse logistics, and the supply chains of tomorrow.</p>
-    <p>An annual learning expedition to pioneering countries of the circular economy. In 2026, the Chair met the European Commission, CBE-JU, Permafungi, BC Materials, ecobuild.brussels, Syensqo and BIGH in Brussels. The program will be progressively deployed on all three ESSEC campuses (Singapore, Rabat, Cergy).</p>
+    <p>An annual learning expedition to pioneering countries of the circular economy. In 2026, the Chair met the European Commission, CBE-JU, Permafungi, BC Materials, ecobuild.brussels, Syensqo and BIGH in Brussels. The Chair is based at ESSEC’s Cergy campus.</p>
     <h2 style="margin:56px 0 12px">Chair teaching program</h2>
     <div class="course">
       <code>DEVE31401 · T2 Tuesday</code>
@@ -510,11 +514,11 @@ STUDENTS = """
   <div class="wrap">
     <p class="lead">LinkedIn profiles as published on the current Chair site. The 2026 promotion will appear in its own tab once photos and links are provided.</p>
     <div class="tabs">
-      <button class="tab" data-year="2026">Class of 2026</button>
-      <button class="tab active" data-year="2025">Class of 2025</button>
-      <button class="tab" data-year="2024">Class of 2024</button>
-      <button class="tab" data-year="2023">Class of 2023</button>
-      <button class="tab" data-year="2022">Founding class 2022</button>
+      <button type="button" class="tab" data-year="2026">Class of 2026</button>
+      <button type="button" class="tab active" data-year="2025">Class of 2025</button>
+      <button type="button" class="tab" data-year="2024">Class of 2024</button>
+      <button type="button" class="tab" data-year="2023">Class of 2023</button>
+      <button type="button" class="tab" data-year="2022">Founding class 2022</button>
     </div>
     <p data-cohort-note hidden class="notice">Photos, names and LinkedIn of the 2026 cohort will be published here. The structure — portrait, name, LinkedIn — is already in place.</p>
     <div class="students" data-students></div>
@@ -604,16 +608,16 @@ PARTNERS = f"""
 <section>
   <div class="wrap">
     <h2>Gold Sponsor</h2>
-    <a class="logo-box" style="max-width:360px;margin:20px 0 48px" href="https://www.loreal.com/en/" target="_blank" rel="noopener"><img src="{src('partners', 1, 900)}" alt="L'Oréal"></a>
+    <a class="logo-box" style="max-width:360px;margin:20px 0 48px" href="https://www.loreal.com/" target="_blank" rel="noopener"><img src="{src('partners', 1, 900)}" alt="L’Oréal"></a>
     <h2>Silver Sponsors</h2>
     <div class="logo-row" style="margin:20px 0 48px">
-      <div class="logo-box"><img src="{src('partners', 2, 800)}" alt="Silver sponsor"></div>
-      <div class="logo-box"><img src="{src('partners', 3, 800)}" alt="Silver sponsor"></div>
-      <div class="logo-box"><img src="{src('partners', 4, 800)}" alt="Silver sponsor"></div>
+      <a class="logo-box" href="https://www.equans.com/" target="_blank" rel="noopener"><img src="{src('partners', 2, 800)}" alt="Equans"></a>
+      <a class="logo-box" href="https://www.sncf-reseau.com/" target="_blank" rel="noopener"><img src="{src('partners', 3, 800)}" alt="SNCF Réseau"></a>
+      <div class="logo-box"><img src="{src('partners', 4, 800)}" alt="France 2030"></div>
     </div>
     <h2>Expert Partners</h2>
     <div class="logo-row" style="grid-template-columns:repeat(2,minmax(0,1fr));max-width:640px;margin-top:20px">
-      <div class="logo-box"><img src="{src('partners', 5, 800)}" alt="Expert partner"></div>
+      <div class="logo-box"><img src="{src('partners', 5, 800)}" alt="Zack, a Manutan brand"></div>
       <a class="logo-box" href="https://circulab.com/" target="_blank" rel="noopener"><img src="{src('partners', 6, 800)}" alt="Circulab"></a>
     </div>
   </div>
@@ -678,19 +682,19 @@ CAC40 = """
 
 PAGES = {
     "index.html": ("Home", INDEX, "home"),
-    "program.html": ("Program", PROGRAM, "home"),
-    "education.html": ("Students Education", EDUCATION, "home"),
-    "study-trips.html": ("Study Trips", TRIPS, "home"),
-    "site-visits.html": ("Site Visits", VISITS, "home"),
-    "events.html": ("Events", EVENTS, "home"),
-    "apply.html": ("How to Apply", APPLY, "home"),
-    "students.html": ("Students", STUDENTS, "home"),
-    "testimonies.html": ("Testimonies", TESTIMONIES, "home"),
+    "program.html": ("Program", PROGRAM, ""),
+    "education.html": ("Students Education", EDUCATION, ""),
+    "study-trips.html": ("Study Trips", TRIPS, ""),
+    "site-visits.html": ("Site Visits", VISITS, ""),
+    "events.html": ("Events", EVENTS, ""),
+    "apply.html": ("How to Apply", APPLY, ""),
+    "students.html": ("Students", STUDENTS, ""),
+    "testimonies.html": ("Testimonies", TESTIMONIES, ""),
     "team.html": ("Our Team", TEAM, "team"),
     "partners.html": ("Our Partners", PARTNERS, "partners"),
-    "content.html": ("Our Content", CONTENT, "home"),
-    "publications.html": ("Publications", PUBLICATIONS, "home"),
-    "circular-cac-40.html": ("Circular CAC 40", CAC40, "home"),
+    "content.html": ("Our Content", CONTENT, ""),
+    "publications.html": ("Publications", PUBLICATIONS, ""),
+    "circular-cac-40.html": ("Circular CAC 40", CAC40, ""),
 }
 
 

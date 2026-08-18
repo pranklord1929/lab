@@ -20,7 +20,6 @@ html, body {
   margin: 0;
   padding: 0;
   max-width: 100%;
-  overflow-x: hidden;
   overflow-x: clip;
 }
 body {
@@ -51,6 +50,23 @@ button { font-family: inherit; }
   color: var(--blue);
 }
 
+.skip-link {
+  position: absolute;
+  left: 12px;
+  top: -48px;
+  z-index: 200;
+  background: var(--blue-deep);
+  color: var(--white);
+  padding: 8px 14px;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.skip-link:focus { top: 8px; }
+
+#main, #certificate, :target {
+  scroll-margin-top: calc(var(--nav-h) + 12px);
+}
 h1, h2, h3, .serif {
   font-family: var(--display);
   font-weight: 700;
@@ -113,7 +129,7 @@ p { margin: 0 0 16px; color: var(--muted); }
 }
 
 .nav-links { display: flex; align-items: center; gap: 2px; margin-left: auto; }
-.nav-links a, .drop > span {
+.nav-links a, .drop-toggle {
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
@@ -122,8 +138,14 @@ p { margin: 0 0 16px; color: var(--muted); }
   display: inline-flex;
   align-items: center;
   gap: 6px;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  font-family: inherit;
+  white-space: nowrap;
 }
-.nav-links a:hover, .nav-links a.active, .drop:hover > span { color: var(--blue-deep); }
+.nav-links a:hover, .nav-links a.active, .drop:hover > .drop-toggle,
+.drop:focus-within > .drop-toggle, .drop.open > .drop-toggle { color: var(--blue-deep); }
 .nav-cta {
   align-self: center;
   flex: none;
@@ -157,7 +179,13 @@ p { margin: 0 0 16px; color: var(--muted); }
   padding: 8px;
   z-index: 5;
 }
-.drop:hover .drop-menu, .drop:focus-within .drop-menu { display: grid; }
+.drop:hover .drop-menu,
+.drop:focus-within .drop-menu,
+.drop.open .drop-menu { display: grid; }
+.nav-links .drop:last-of-type .drop-menu {
+  left: auto;
+  right: 0;
+}
 .drop-menu a { padding: 10px 12px; font-size: 14px; text-decoration: none; color: var(--ink); }
 .drop-menu a:hover { background: var(--bg-alt); color: var(--blue-deep); }
 
@@ -394,6 +422,8 @@ section { padding: 88px 0; }
   padding: 28px 32px;
   border: 0;
   background: rgba(29, 161, 224, 0.1);
+  max-width: 100%;
+  min-width: 0;
 }
 .notice p { margin: 0; }
 .soon {
@@ -449,11 +479,13 @@ section { padding: 88px 0; }
   background: var(--white);
   border: 1px solid var(--line);
   min-height: 120px;
+  min-width: 0;
+  max-width: 100%;
   display: grid;
   place-items: center;
   padding: 20px;
 }
-.logo-box img { max-height: 64px; width: auto; max-width: 80%; object-fit: contain; }
+.logo-box img { max-height: 64px; width: auto; max-width: 80%; object-fit: contain; background: transparent; }
 
 .students {
   display: grid;
@@ -592,11 +624,12 @@ footer a:hover { color: var(--white); }
     -webkit-overflow-scrolling: touch;
     z-index: 90;
   }
-  .nav-links a, .drop > span {
+  .nav-links a, .drop-toggle {
     padding: 14px 4px;
     font-size: 16px;
     width: 100%;
     max-width: 100%;
+    justify-content: flex-start;
   }
   .drop-menu {
     position: static;

@@ -65,7 +65,7 @@
   {
     "class": "Class of 2025",
     "name": "HANNAN Orla",
-    "linkedin": "https://www.linkedin.com/in/marin-brut%C3%A9-de-r%C3%A9mur-bb5916204",
+    "linkedin": "https://www.linkedin.com/in/orlahannan",
     "photo": "assets/students/009.jpg",
     "displayName": "Orla HANNAN"
   },
@@ -115,7 +115,7 @@
     "class": "Class of 2025",
     "name": "MÉREL Paul",
     "linkedin": "https://www.linkedin.com/in/paul-merel-36b621291",
-    "photo": "assets/students/016.jpg",
+    "photo": null,
     "displayName": "Paul MÉREL"
   },
   {
@@ -584,7 +584,7 @@
     "class": "Class of 2023",
     "name": "LUTARD Théo",
     "linkedin": "https://www.linkedin.com/in/th%C3%A9o-lutard-716833173",
-    "photo": null,
+    "photo": "assets/pages/testimonies-2.jpg",
     "displayName": "Théo LUTARD"
   },
   {
@@ -647,7 +647,7 @@
     "class": "Class of 2023",
     "name": "PERRIN Lucie",
     "linkedin": "https://www.linkedin.com/in/lucie-perrin-26b8aa143",
-    "photo": null,
+    "photo": "assets/pages/testimonies-3.jpg",
     "displayName": "Lucie PERRIN"
   },
   {
@@ -814,7 +814,7 @@
   {
     "class": "Founding Class of 2022",
     "name": "Kirthana TEEGALA",
-    "linkedin": "https://www.linkedin.com/in/bharath-sureshbabu-554a19123",
+    "linkedin": "https://www.linkedin.com/in/kirthana-teegala-b06099158",
     "photo": null,
     "displayName": "Kirthana TEEGALA"
   },
