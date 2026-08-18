@@ -124,7 +124,7 @@ def page(title, body, active="home"):
 INDEX = f"""
 <section class="hero">
   <div class="hero-media">
-    <img src="{src('trips', 1)}" alt="ESSEC Circular Economy Chair learning expedition in Brussels">
+    <img src="{src('home', 1)}" alt="Class of 2026 at the French Ministry for Ecological Transition, Hôtel de Roquelaure">
   </div>
   <div class="wrap hero-content">
     <p class="kicker">ESSEC Business School</p>
