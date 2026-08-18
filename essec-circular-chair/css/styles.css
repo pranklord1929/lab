@@ -291,7 +291,7 @@ section { padding: 88px 0; }
   background: var(--white);
   border: 1px solid var(--line);
 }
-.media-card img { width: 100%; height: 240px; object-fit: cover; }
+.media-card img { width: 100%; height: 240px; object-fit: cover; object-position: center 35%; }
 .media-card .body { padding: 22px; }
 .media-card a { text-decoration: none; color: var(--blue-deep); font-weight: 700; }
 .media-card:hover { border-color: var(--blue); }

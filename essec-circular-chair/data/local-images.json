@@ -34,6 +34,18 @@
     "assets/pages/testimonies-2.jpg",
     "assets/pages/testimonies-3.jpg"
   ],
+  "trips2026": [
+    "assets/pages/trips-2026-1.jpg",
+    "assets/pages/trips-2026-2.jpg",
+    "assets/pages/trips-2026-3.jpg",
+    "assets/pages/trips-2026-4.jpg"
+  ],
+  "visits2026": [
+    "assets/pages/visits-2026-villette.jpg",
+    "assets/pages/visits-2026-vesto.jpg",
+    "assets/pages/visits-2026-loreal.jpg",
+    "assets/pages/visits-2026-manutan.jpg"
+  ],
   "trips": [
     "assets/pages/trips-1.jpg",
     "assets/pages/trips-2.jpg",

@@ -193,33 +193,33 @@ INDEX = f"""
     <div class="section-head">
       <span class="kicker">Impact &amp; projects</span>
       <h2>A Chair that is alive — in the field, with partners, every year</h2>
-      <p class="lead">Recent work with students, faculty and industry partners. The 2026 cohort photos, LinkedIn profiles and new Brussels materials will be added as soon as they are received.</p>
+      <p class="lead">The 2025–2026 academic year, as documented by the Chair: six consulting projects with industry, a Brussels expedition, field visits in the Paris region, and a Final Jury at the French Ministry for Ecological Transition.</p>
     </div>
     <div class="grid-3">
       <article class="media-card">
-        <img src="{src('trips', 2)}" alt="Brussels learning expedition">
+        <img src="{src('trips2026', 1)}" alt="Brussels 2026 learning expedition">
         <div class="body">
-          <div class="tag">Learning expedition</div>
-          <h3>Brussels</h3>
-          <p>Students met the European Parliament, Repair Together, cityfab 1, BC Materials, CBE-JU, Permafungi and The Upcycling Lab — from grassroots repair to bio-based innovation.</p>
+          <div class="tag">April–May 2026</div>
+          <h3>Brussels expedition</h3>
+          <p>European Commission, Permafungi, CBE-JU, BC Materials, ecobuild.brussels, Syensqo and BIGH — from EU circular policy to rooftop farming and advanced materials.</p>
           <a href="study-trips.html">Read the expedition →</a>
         </div>
       </article>
       <article class="media-card">
-        <img src="{src('events', 1)}" alt="Final jury of the Chair">
+        <img src="{src('home', 1)}" alt="Final Jury 2026 at the Hôtel de Roquelaure">
         <div class="body">
-          <div class="tag">June 2025</div>
+          <div class="tag">June 2026</div>
           <h3>Final Jury</h3>
-          <p>Students presented six-month projects developed with EssilorLuxottica, Bouygues Group and L’Oréal — academia and industry working on real circular briefs.</p>
+          <p>Thirty students from twelve nationalities presented six consulting projects with L’Oréal, SNCF Réseau, Equans and AP-HP at the Hôtel de Roquelaure, hosted by Minister Mathieu Lefèvre.</p>
           <a href="events.html">See events →</a>
         </div>
       </article>
       <article class="media-card">
-        <img src="{src('visits', 2)}" alt="Site visit to a circular company">
+        <img src="{src('visits2026', 2)}" alt="Site visit to Vesto">
         <div class="body">
-          <div class="tag">Site visits</div>
-          <h3>From Vesto to L’Oréal</h3>
-          <p>Reconditioning, reuse in construction, packaging innovation and office furniture: visits to Vesto, Cyneo, L’Oréal Packaging Lab, Manutan and Villette Makerz.</p>
+          <div class="tag">Paris, 2026</div>
+          <h3>Field visits</h3>
+          <p>Circularity on the ground at L’Oréal, the Manutan Hub, Vesto and Villette Makerz — plus partner site work during the consulting projects, including Equans.</p>
           <a href="site-visits.html">Explore visits →</a>
         </div>
       </article>
@@ -325,7 +325,7 @@ EDUCATION = f"""
 <section>
   <div class="wrap">
     <p class="lead">A master class of 30 multi-disciplinary international students: 6 compulsory courses in English to validate the curriculum, including a course dedicated to initiatives for our partners — design and prototyping of circular products, transformation of linear processes, new uses, reverse logistics, and the supply chains of tomorrow.</p>
-    <p>An annual learning expedition to pioneering countries of the circular economy. In 2025, the Chair met organizations and hubs in Brussels. The program will be progressively deployed on all three ESSEC campuses (Singapore, Rabat, Cergy).</p>
+    <p>An annual learning expedition to pioneering countries of the circular economy. In 2026, the Chair met the European Commission, CBE-JU, Permafungi, BC Materials, ecobuild.brussels, Syensqo and BIGH in Brussels. The program will be progressively deployed on all three ESSEC campuses (Singapore, Rabat, Cergy).</p>
     <h2 style="margin:56px 0 12px">Chair teaching program</h2>
     <div class="course">
       <code>DEVE31401 · T2 Tuesday</code>
@@ -363,19 +363,28 @@ TRIPS = f"""
 <section>
   <div class="wrap">
     <p class="lead">Every year, the Chair organizes a study visit to meet the people and organizations pioneering the circular economy. Students learn from their journeys, complement their work in school, and apply it to Chair projects and future careers.</p>
-    <div class="notice" style="margin:32px 0 56px">
+    <article class="split" style="margin:48px 0 80px">
+      <img src="{src('trips2026', 1)}" alt="Brussels 2026 — BIGH rooftop farm">
       <div>
-        <p class="soon">2026 materials</p>
-        <h3>Brussels, next chapter</h3>
-        <p>New photographs, captions and student stories from the latest Brussels expedition will be integrated here when they are delivered.</p>
+        <div class="tag kicker">Brussels, 2026</div>
+        <h2>Policy, bio-based industry, construction and urban farming</h2>
+        <p>In late April and early May 2026, the Class of 2026 spent several days in Brussels. Day 1 opened at Permafungi — organic waste turned into valuable resources — then at Circular Bio-based Europe Joint Undertaking (CBE-JU), on the scale of bio-based solutions across Europe.</p>
+        <p>Day 2 focused on circular construction: BC Materials, transforming local earth and waste streams into building materials, and ecobuild.brussels, on how to scale sustainable construction practices across Europe.</p>
+        <p>Day 3 moved from advanced materials at Syensqo’s Brussels headquarters to BIGH, where urban agriculture meets circular thinking on a city rooftop.</p>
+        <p>The expedition also included an exchange at the European Commission with Luis Planas Herrera, Member of Cabinet of Commissioner Jessika Roswall, on waste reduction, sustainable product design, recycling, competitiveness and international cooperation.</p>
       </div>
+    </article>
+    <div class="grid-3" style="margin:-40px 0 80px">
+      <article class="media-card"><img src="{src('trips2026', 2)}" alt="CBE-JU session in Brussels"><div class="body"><div class="tag">Day 1</div><h3>Permafungi &amp; CBE-JU</h3><p>Circular innovation from organic waste, then public–private bio-based industry at European scale.</p></div></article>
+      <article class="media-card"><img src="{src('trips2026', 4)}" alt="BC Materials earth-block machine"><div class="body"><div class="tag">Day 2</div><h3>BC Materials &amp; ecobuild.brussels</h3><p>Earth, waste streams and the challenge of making circular construction the norm.</p></div></article>
+      <article class="media-card"><img src="{src('trips2026', 3)}" alt="Syensqo circularity session"><div class="body"><div class="tag">Day 3</div><h3>Syensqo &amp; BIGH</h3><p>Industrial material science, then rooftop farming in the middle of the city.</p></div></article>
     </div>
     <article class="split" style="margin-bottom:80px">
-      <img src="{src('trips', 1)}" alt="Brussels 2025">
+      <img src="{src('trips', 2)}" alt="Brussels 2025">
       <div>
         <div class="tag kicker">Brussels, 2025</div>
         <h2>Parliament, repair, soil and bio-based industry</h2>
-        <p>In April 2025, the Chair traveled again to Brussels. At the European Parliament, students explored the legislative tools shaping circular policy. Visits to Repair Together and cityfab 1 showed how community repair and digital fabrication extend product lifecycles. BC Materials transforms excavated urban soils into construction materials; CBE-JU highlighted public–private partnerships in circular bio-based industries. Permafungi and The Upcycling Lab turned waste streams — mushroom substrates, discarded textiles — into products.</p>
+        <p>In April 2025, the Class of 2025 traveled to Brussels. At the European Parliament, students explored the legislative tools shaping circular policy. Visits to Repair Together and cityfab 1 showed how community repair and digital fabrication extend product lifecycles. BC Materials transforms excavated urban soils into construction materials; CBE-JU highlighted public–private partnerships in circular bio-based industries. Permafungi and The Upcycling Lab turned waste streams — mushroom substrates, discarded textiles — into products.</p>
       </div>
     </article>
     <article class="split" style="margin-bottom:80px">
@@ -406,12 +415,22 @@ VISITS = f"""
 <section>
   <div class="wrap">
     <p class="lead">The Chair regularly organizes seminars and learning expeditions inside organizations engaged in the circular economy. Students meet practitioners, discover projects, and see how circular strategies are implemented across sectors.</p>
-    <div class="grid-2" style="margin-top:48px">
-      <article class="media-card"><img src="{src('visits', 1)}" alt="Villette Makerz"><div class="body"><div class="tag">2025</div><h3>Villette Makerz</h3><p>A fablab and cultural hub at Parc de la Villette dedicated to creativity, fabrication and sustainability — innovation through experimentation.</p></div></article>
-      <article class="media-card"><img src="{src('visits', 2)}" alt="Vesto"><div class="body"><div class="tag">April 2025</div><h3>Vesto</h3><p>Reconditioning of professional kitchen equipment. Students followed the process from collection to refurbishment — reuse as environmental, economic and social value.</p></div></article>
-      <article class="media-card"><img src="{src('visits', 3)}" alt="Cyneo"><div class="body"><div class="tag">April 2025</div><h3>Cyneo</h3><p>Reuse of construction materials: recycling, reuse networks, and the systemic changes required to make reuse the norm in building.</p></div></article>
-      <article class="media-card"><img src="{src('visits', 4)}" alt="L'Oréal Packaging Lab"><div class="body"><div class="tag">March 2025</div><h3>L’Oréal Packaging Lab</h3><p>Eco-designed packaging — recyclable, refillable, responsible — and how circularity sits inside a global beauty strategy.</p></div></article>
-      <article class="media-card"><img src="{src('visits', 5)}" alt="Manutan Reuse Center"><div class="body"><div class="tag">March 2025</div><h3>Manutan Reuse Center</h3><p>Office furniture given a second life through reuse and recycling, reducing impact inside a circular B2B model.</p></div></article>
+    <h2 style="margin:48px 0 16px">Paris region, 2025–2026</h2>
+    <p>Field visits of the Class of 2026, alongside the consulting work with L’Oréal, SNCF Réseau, Equans and AP-HP.</p>
+    <div class="grid-2" style="margin-top:28px">
+      <article class="media-card"><img src="{src('visits2026', 3)}" alt="L'Oréal site visit 2026"><div class="body"><div class="tag">March 2026</div><h3>L’Oréal</h3><p>An immersion in how a global company is shifting its models toward circularity — concrete action at industrial scale, from operations to packaging.</p></div></article>
+      <article class="media-card"><img src="{src('visits2026', 4)}" alt="Manutan Hub visit 2026"><div class="body"><div class="tag">April 2026</div><h3>Manutan Hub</h3><p>Behind the scenes of circular logistics: how sustainable and circular models are built into operations, with the Manutan teams and Pierre-Emmanuel Saint-Esprit.</p></div></article>
+      <article class="media-card"><img src="{src('visits2026', 2)}" alt="Vesto visit 2026"><div class="body"><div class="tag">April 2026</div><h3>Vesto</h3><p>Circular solutions in the food ecosystem — reconditioning professional kitchen equipment, and the operational challenges of deploying reuse at scale.</p></div></article>
+      <article class="media-card"><img src="{src('visits2026', 1)}" alt="Villette Makerz visit 2026"><div class="body"><div class="tag">May 2026</div><h3>Villette Makerz</h3><p>A fablab and making space at Parc de la Villette where innovation, fabrication and collaboration support the ecological transition — hosted with Arthur Clayssen and the team.</p></div></article>
+    </div>
+    <h2 style="margin:64px 0 16px">Paris region, 2024–2025</h2>
+    <p>Visits of the Class of 2025 — the same ecosystem, a year earlier.</p>
+    <div class="grid-2" style="margin-top:28px">
+      <article class="media-card"><img src="{src('visits', 4)}" alt="L'Oréal Packaging Lab 2025"><div class="body"><div class="tag">March 2025</div><h3>L’Oréal Packaging Lab</h3><p>Eco-designed packaging — recyclable, refillable, responsible — and how circularity sits inside a global beauty strategy.</p></div></article>
+      <article class="media-card"><img src="{src('visits', 5)}" alt="Manutan Reuse Center 2025"><div class="body"><div class="tag">March 2025</div><h3>Manutan Reuse Center</h3><p>Office furniture given a second life through reuse and recycling, reducing impact inside a circular B2B model.</p></div></article>
+      <article class="media-card"><img src="{src('visits', 3)}" alt="Cyneo 2025"><div class="body"><div class="tag">1 April 2025</div><h3>Cyneo</h3><p>Reuse of construction materials in Vitry-sur-Seine: recycling, reuse networks, and the systemic changes required to make reuse the norm in building.</p></div></article>
+      <article class="media-card"><img src="{src('visits', 2)}" alt="Vesto 2025"><div class="body"><div class="tag">April 2025</div><h3>Vesto</h3><p>Reconditioning of professional kitchen equipment. Students followed the process from collection to refurbishment — reuse as environmental, economic and social value.</p></div></article>
+      <article class="media-card"><img src="{src('visits', 1)}" alt="Villette Makerz 2025"><div class="body"><div class="tag">2025</div><h3>Villette Makerz</h3><p>A fablab and cultural hub at Parc de la Villette dedicated to creativity, fabrication and sustainability — innovation through experimentation.</p></div></article>
     </div>
   </div>
 </section>
@@ -425,10 +444,24 @@ EVENTS = f"""
 <section>
   <div class="wrap">
     <article class="split" style="margin-bottom:72px">
+      <img src="{src('home', 1)}" alt="Final Jury June 2026 at the Hôtel de Roquelaure">
+      <div>
+        <div class="tag kicker">June 2026</div>
+        <h2>Final Jury at the Hôtel de Roquelaure</h2>
+        <p>The Class of 2026 closed its year at the Hôtel de Roquelaure, home of the French Ministry for Ecological Transition. Minister Mathieu Lefèvre welcomed about 30 students from 12 nationalities. Six consulting projects, developed over the year with L’Oréal, SNCF Réseau, Equans and AP-HP, were presented to the jury. Three laureate groups were recognised for their work with L’Oréal, SNCF and Equans.</p>
+        <p>The Chair thanked its partners, coaches and mentors, and the leadership of Pierre-Emmanuel Saint-Esprit, Justine Laurent and Felix Papier.</p>
+      </div>
+    </article>
+    <div class="grid-3" style="margin-bottom:72px">
+      <article class="card"><div class="tag">January 2026</div><h3>Launch of the Class of 2026</h3><p>Kick-off at the ESSEC Cergy campus: first business cases, and Equans and SNCF Réseau welcomed as new partners alongside long-standing supporter L’Oréal.</p></article>
+      <article class="card"><div class="tag">April–May 2026</div><h3>Brussels learning expedition</h3><p>Permafungi, CBE-JU, BC Materials, ecobuild.brussels, Syensqo, BIGH, and an exchange at the European Commission on the future of Europe’s circular transition.</p></article>
+      <article class="card"><div class="tag">March–May 2026</div><h3>Paris field visits</h3><p>L’Oréal, the Manutan Hub, Vesto and Villette Makerz — circularity in beauty, logistics, food equipment and making.</p></article>
+    </div>
+    <article class="split" style="margin-bottom:72px">
       <img src="{src('events', 1)}" alt="Final Jury June 2025">
       <div>
         <div class="tag kicker">17 June 2025</div>
-        <h2>Final Jury of the Chair</h2>
+        <h2>Final Jury of the Class of 2025</h2>
         <p>A day dedicated to projects developed over six months with EssilorLuxottica, Bouygues Group and L’Oréal. Partners engaged directly with students, offering feedback on practical applications that address real sustainability challenges.</p>
       </div>
     </article>
