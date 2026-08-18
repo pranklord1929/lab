@@ -61,7 +61,7 @@ FOOT = """
   <div class="wrap foot-grid">
     <div>
       <h4>ESSEC Chair</h4>
-      <p style="color:rgba(255,252,247,.72);max-width:36ch">Training the next generation of circular economy leaders and future Chief Circular Officers.</p>
+      <p style="color:rgba(255,255,255,.78);max-width:36ch">Training the next generation of circular economy leaders and future Chief Circular Officers.</p>
     </div>
     <div>
       <h4>Explore</h4>
@@ -109,7 +109,7 @@ def page(title, body, active="home"):
   <meta name="description" content="ESSEC Global Circular Economy Chair — training the next generation of circular economy leaders.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Mohave:wght@500;600;700&family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -251,7 +251,7 @@ INDEX = f"""
         <a class="btn btn-ghost" href="education.html">See the curriculum</a>
       </div>
     </div>
-    <div class="notice" style="display:block;background:rgba(255,252,247,.06);border-color:rgba(201,168,106,.45)">
+    <div class="notice" style="display:block;background:rgba(255,255,255,.08)">
       <p class="soon">Application link</p>
       <h3 style="color:#fff;margin:12px 0">Coming soon</h3>
       <p>The candidature form for the 2026 cohort is not yet open. Typical timeline: applications in September, interviews in October, results mid-October. Check back here, or write to the Chair team.</p>
