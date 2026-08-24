@@ -91,6 +91,28 @@ const studentCard = (s, fallbackHref) => {
   return `<div class="student">${inner}</div>`;
 };
 
+const swapSoftPortraits = (root) => {
+  if (!root) return;
+  root.querySelectorAll("img").forEach((img) => {
+    const swap = () => {
+      if (img.naturalWidth && img.naturalWidth < 560) {
+        const name = img.getAttribute("alt") || "";
+        const initials = name
+          .split(" ")
+          .map((word) => word[0])
+          .join("")
+          .slice(0, 2);
+        const span = document.createElement("span");
+        span.className = "initials";
+        span.textContent = initials;
+        img.replaceWith(span);
+      }
+    };
+    if (img.complete) swap();
+    else img.addEventListener("load", swap);
+  });
+};
+
 const grid = document.querySelector("[data-students]");
 if (grid) {
   const tabs = document.querySelectorAll("[data-year]");
@@ -115,6 +137,7 @@ if (grid) {
         if (note) note.hidden = true;
         const list = students.filter((s) => (s.class || "").includes(year));
         grid.innerHTML = list.map((s) => studentCard(s, "")).join("");
+        swapSoftPortraits(grid);
       };
 
       tabs.forEach((tab) => {
@@ -136,8 +159,12 @@ if (homeGrid) {
   fetch("data/students.json")
     .then((r) => r.json())
     .then((students) => {
-      const list = students.filter((s) => (s.class || "").includes("2025")).slice(0, 10);
+      const soft = /\/(001|003|015|016|018|037|038|054|065|066|067)\.jpg$/;
+      const list = students
+        .filter((s) => (s.class || "").includes("2025") && s.photo && !soft.test(s.photo))
+        .slice(0, 8);
       homeGrid.innerHTML = list.map((s) => studentCard(s, "students.html")).join("");
+      swapSoftPortraits(homeGrid);
     })
     .catch(() => {});
 }

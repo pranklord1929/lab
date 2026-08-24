@@ -31,7 +31,7 @@ NAV = """
           <a href="study-trips.html">Study Trips</a>
           <a href="site-visits.html">Site Visits</a>
           <a href="events.html">Events</a>
-          <a href="apply.html">How to Apply</a>
+          <a href="apply.html">Eligibility</a>
         </div>
       </div>
       <div class="drop">
@@ -77,7 +77,7 @@ FOOT = """
     <div>
       <h4>Join</h4>
       <ul>
-        <li><a href="apply.html">Student applications</a></li>
+        <li><a href="apply.html">Eligibility and contact</a></li>
         <li><a href="index.html#certificate">Executive Certificate</a></li>
         <li><a href="team.html">The team</a></li>
       </ul>
@@ -107,12 +107,12 @@ def page(title, body, active="home"):
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>{title} — ESSEC Global Circular Economy Chair</title>
-  <meta name="description" content="ESSEC Global Circular Economy Chair — training the next generation of circular economy leaders.">
+  <title>{title} · ESSEC Global Circular Economy Chair</title>
+  <meta name="description" content="ESSEC Global Circular Economy Chair: training the next generation of circular economy leaders.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Mohave:wght@500;600;700&family=Noto+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css?v=20260818c">
+  <link rel="stylesheet" href="css/styles.css?v=20260824">
   <link rel="icon" href="assets/logo-essec-noir.svg" type="image/svg+xml">
 </head>
 <body>
@@ -134,16 +134,16 @@ INDEX = f"""
   <div class="wrap hero-content">
     <p class="kicker">ESSEC Business School</p>
     <h1>Shaping the leaders of the economy of tomorrow</h1>
-    <p class="lead">The ESSEC Global Circular Economy Chair trains future Chief Circular Officers — through academic courses, applied projects with industry, and an open ecosystem of corporates, startups and public institutions.</p>
+    <p class="lead">The ESSEC Global Circular Economy Chair trains future Chief Circular Officers: through academic courses, applied projects with industry, and an open ecosystem of corporates, startups and public institutions.</p>
     <div class="hero-actions">
-      <a class="btn btn-gold" href="apply.html">Join the 2026 cohort</a>
+      <a class="btn btn-gold" href="program.html">Discover the program</a>
       <a class="btn btn-ghost" href="#certificate">Executive Certificate</a>
     </div>
     <div class="hero-meta">
-      <div><strong>~30</strong>students per master class</div>
+      <div><strong>~30</strong>students per cohort</div>
       <div><strong>6</strong>courses to validate the Chair</div>
-      <div><strong>12</strong>nationalities in each cohort</div>
-      <div><strong>1</strong>annual learning expedition in Brussels</div>
+      <div><strong>~12</strong>nationalities in each cohort</div>
+      <div><strong>1</strong>annual learning expedition</div>
     </div>
   </div>
 </section>
@@ -166,29 +166,34 @@ INDEX = f"""
 <section style="padding-top:0">
   <div class="wrap">
     <div class="stat-row">
-      <div class="stat"><strong>Ambassadors</strong><span>Leaders who promote circular economy as the model for tomorrow’s economic, environmental and social challenges.</span></div>
-      <div class="stat"><strong>Makers</strong><span>Practitioners who implement circular principles on a real project, and measure their impact.</span></div>
-      <div class="stat"><strong>Partners</strong><span>Applied work with L’Oréal, SNCF Réseau and Equans.</span></div>
-      <div class="stat"><strong>Campuses</strong><span>Based at ESSEC’s Cergy campus.</span></div>
+      <div class="stat"><strong>Methods</strong><span>Acquire the key methodologies and skills of the circular economy.</span></div>
+      <div class="stat"><strong>Live projects</strong><span>Apply them on a live project to experiment circular transition, and measure impact.</span></div>
+      <div class="stat"><strong>Pioneers</strong><span>Learn from the pioneers through site visits and an annual learning expedition.</span></div>
+      <div class="stat"><strong>Leaders</strong><span>Meet circular practitioners and leaders across business, institutions and the field.</span></div>
     </div>
   </div>
 </section>
 
 <section class="panel" id="certificate">
   <div class="wrap">
-    <div class="feature">
+    <div class="feature certificate">
       <div class="body">
         <div class="tag kicker">Executive Education</div>
         <h2>Circular Executive Certificate</h2>
-        <p>Strengthening Your Business Through Circular Economy Principles — a 25-hour in-person executive program developed by the TOGETHER Institute and the ESSEC Global Circular Economy Chair, in partnership with Circulab.</p>
+        <p>Strengthening Your Business Through Circular Economy Principles: a 25-hour in-person executive program developed by the TOGETHER Institute and the ESSEC Global Circular Economy Chair, in partnership with Circulab.</p>
         <p>Designed for business leaders, managers and decision-makers, the program helps participants assess business dependencies and risks, explore circular opportunities, and build a practical action plan tailored to their organization.</p>
         <p>Available in inter-company and customized in-company formats. First sessions expected in Fall 2026.</p>
         <div class="hero-actions" style="margin-top:24px">
-          <a class="btn btn-dark" href="https://drive.google.com/file/d/1gWVCwRe7wDwRuNJzIV9xzYQOH-RW9Xzi/view" target="_blank" rel="noopener">Download the brochure</a>
+          <a class="btn btn-dark" href="https://drive.google.com/file/d/1gWVCwRe7wDwRuNJzIV9xzYQOH-RW9Xzi/view" target="_blank" rel="noopener">Download the program PDF</a>
           <a class="btn btn-line" href="mailto:justine@circulab.com">Contact Justine Laurent</a>
         </div>
       </div>
-      <img src="{src('program', 1)}" alt="Circular Executive Certificate">
+      <aside class="pdf-panel">
+        <p class="soon">Brochure</p>
+        <h3>Program PDF</h3>
+        <p>The full Circular Executive Certificate outline (format, objectives, pedagogy) is in the brochure.</p>
+        <a class="btn btn-dark" href="https://drive.google.com/file/d/1gWVCwRe7wDwRuNJzIV9xzYQOH-RW9Xzi/view" target="_blank" rel="noopener">Open the PDF</a>
+      </aside>
     </div>
   </div>
 </section>
@@ -197,8 +202,8 @@ INDEX = f"""
   <div class="wrap">
     <div class="section-head">
       <span class="kicker">Impact &amp; projects</span>
-      <h2>A Chair that is alive — in the field, with partners, every year</h2>
-      <p class="lead">The 2025–2026 academic year, as documented by the Chair: six consulting projects with industry, a Brussels expedition, field visits in the Paris region, and a Final Jury at the French Ministry for Ecological Transition.</p>
+      <h2>A Chair that is alive in the field</h2>
+      <p class="lead">Beyond solid theoretical and methodological foundations, the program embodies the circular transition: live projects with partners, site visits, meetings with practitioners, and an annual learning expedition.</p>
     </div>
     <div class="grid-3">
       <article class="media-card">
@@ -206,7 +211,7 @@ INDEX = f"""
         <div class="body">
           <div class="tag">April–May 2026</div>
           <h3>Brussels expedition</h3>
-          <p>European Commission, Permafungi, CBE-JU, BC Materials, ecobuild.brussels, Syensqo and BIGH — from EU circular policy to rooftop farming and advanced materials.</p>
+          <p>European Commission, Permafungi, CBE-JU, BC Materials, ecobuild.brussels, Syensqo and BIGH: from EU circular policy to rooftop farming and advanced materials.</p>
           <a href="study-trips.html">Read the expedition →</a>
         </div>
       </article>
@@ -224,7 +229,7 @@ INDEX = f"""
         <div class="body">
           <div class="tag">Paris, 2026</div>
           <h3>Field visits</h3>
-          <p>Circularity on the ground at L’Oréal, the Manutan Hub, Vesto and Villette Makerz — plus partner site work during the consulting projects, including Equans.</p>
+          <p>Circularity on the ground at L’Oréal, the Manutan Hub, Vesto and Villette Makerz, plus partner site work during the consulting projects, including Equans.</p>
           <a href="site-visits.html">Explore visits →</a>
         </div>
       </article>
@@ -235,9 +240,9 @@ INDEX = f"""
 <section class="forest">
   <div class="wrap split">
     <div>
-      <span class="kicker">Applications</span>
-      <h2>Join the Chair in September 2026</h2>
-      <p>Each year the Chair welcomes approximately 30 students from eligible ESSEC programs. Applications for the September 2026 cohort will open in the coming months. The application link will be published here as soon as it is available.</p>
+      <span class="kicker">Who it is for</span>
+      <h2>A cohort of circular leaders, inside ESSEC</h2>
+      <p>Each year the Chair welcomes about 30 students from eligible ESSEC programs. Selection is organised with the Chair team (not through a public form on this page). Write to the team if you want to be considered or notified.</p>
       <p>Currently eligible:</p>
       <div class="pill-list">
         <span class="pill">Master in Management (MiM)</span>
@@ -252,14 +257,14 @@ INDEX = f"""
         <span class="pill ghost">MMD</span>
       </div>
       <div class="hero-actions">
-        <a class="btn btn-gold" href="apply.html">How to apply</a>
-        <a class="btn btn-ghost" href="education.html">See the curriculum</a>
+        <a class="btn btn-gold" href="education.html">See the curriculum</a>
+        <a class="btn btn-ghost" href="apply.html">Eligibility and contact</a>
       </div>
     </div>
     <div class="notice" style="display:block;background:rgba(255,255,255,.08)">
-      <p class="soon">Application link</p>
-      <h3 style="color:#fff;margin:12px 0">Coming soon</h3>
-      <p>The candidature form for the 2026 cohort is not yet open. Typical timeline: applications in September, interviews in October, results mid-October. Check back here, or write to the Chair team.</p>
+      <p class="soon">Contact</p>
+      <h3 style="color:#fff;margin:12px 0">Write to the Chair</h3>
+      <p>Typical timeline: expressions of interest in September, interviews in October, results mid-October. The Chair team will point you to the right ESSEC process when it opens.</p>
       <p style="margin-top:16px"><a class="btn btn-ghost" href="mailto:circulareco@essec.edu">circulareco@essec.edu</a></p>
     </div>
   </div>
@@ -276,16 +281,32 @@ INDEX = f"""
       <a class="logo-box" href="https://www.equans.com/" target="_blank" rel="noopener"><img src="{src('partners', 2, 800)}" alt="Equans"></a>
       <a class="logo-box" href="https://www.sncf-reseau.com/" target="_blank" rel="noopener"><img src="{src('partners', 3, 800)}" alt="SNCF Réseau"></a>
     </div>
-    <p style="margin-top:20px"><a href="partners.html">All partners →</a></p>
+    <p style="margin-top:20px"><a href="partners.html">Sponsors and the wider ecosystem →</a></p>
   </div>
 </section>
 
 <section class="panel">
   <div class="wrap">
     <div class="section-head">
+      <span class="kicker">After the Chair</span>
+      <h2>Where circular leaders go next</h2>
+      <p class="lead">Alumni move into roles that turn circular thinking into operations, strategy and impact: Chief Circular Officers, CSR and sustainability consulting, circular supply chains, and entrepreneurial projects in reuse, repair and new business models.</p>
+    </div>
+    <div class="grid-3">
+      <article class="card"><h3>Circular officers</h3><p>Lead circular transformation inside industry: packaging, operations, procurement and product-service models.</p></article>
+      <article class="card"><h3>Consulting and CSR</h3><p>Join firms that advise corporates and public actors on climate, ESG and circular economy roadmaps.</p></article>
+      <article class="card"><h3>The field</h3><p>Build or scale circular ventures (reuse, remanufacturing, materials) or join public and ecosystem organisations.</p></article>
+    </div>
+    <p style="margin-top:24px"><a class="btn btn-line" href="testimonies.html">Read alumni testimonies</a></p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
       <span class="kicker">The students</span>
       <h2>A living community of circular leaders</h2>
-      <p class="lead">Portraits and LinkedIn of the current classes. The 2026 promotion — photos and profiles — will be published on this page as soon as they are available.</p>
+      <p class="lead">Portraits and LinkedIn of recent classes. Photos and profiles of the latest cohort will be published as soon as they are available.</p>
     </div>
     <div class="students" data-home-students></div>
     <p style="margin-top:24px"><a class="btn btn-dark" href="students.html">Meet all cohorts</a></p>
@@ -314,9 +335,9 @@ PROGRAM = f"""
   <div class="wrap" style="margin-top:56px">
     <div class="grid-4">
       <a class="card" href="education.html"><div class="tag">01</div><h3>Education</h3><p>Six compulsory courses, a Chair seminar and an application seminar with partners.</p></a>
-      <a class="card" href="study-trips.html"><div class="tag">02</div><h3>Study trips</h3><p>An annual expedition to pioneering circular economy ecosystems — Brussels, and before that the Netherlands.</p></a>
+      <a class="card" href="study-trips.html"><div class="tag">02</div><h3>Study trips</h3><p>An annual expedition to pioneering circular economy ecosystems in Europe (and, in earlier years, the Netherlands).</p></a>
       <a class="card" href="site-visits.html"><div class="tag">03</div><h3>Site visits</h3><p>Seminars and learning expeditions inside organizations that practice circularity.</p></a>
-      <a class="card" href="apply.html"><div class="tag">04</div><h3>How to apply</h3><p>Eligible ESSEC programs, typical calendar, and the 2026 application link — coming soon.</p></a>
+      <a class="card" href="apply.html"><div class="tag">04</div><h3>Eligibility</h3><p>Eligible ESSEC programs, typical calendar, and how to contact the Chair team.</p></a>
     </div>
   </div>
 </section>
@@ -329,7 +350,7 @@ EDUCATION = f"""
 </div></div>
 <section>
   <div class="wrap">
-    <p class="lead">A master class of 30 multi-disciplinary international students: 6 compulsory courses in English to validate the curriculum, including a course dedicated to initiatives for our partners — design and prototyping of circular products, transformation of linear processes, new uses, reverse logistics, and the supply chains of tomorrow.</p>
+    <p class="lead">A cohort of 30 multi-disciplinary international students: 6 compulsory courses in English to validate the curriculum, including a course dedicated to initiatives for our partners (design and prototyping of circular products, transformation of linear processes, new uses, reverse logistics, and the supply chains of tomorrow).</p>
     <p>An annual learning expedition to pioneering countries of the circular economy. In 2026, the Chair met the European Commission, CBE-JU, Permafungi, BC Materials, ecobuild.brussels, Syensqo and BIGH in Brussels. The Chair is based at ESSEC’s Cergy campus.</p>
     <h2 style="margin:56px 0 12px">Chair teaching program</h2>
     <div class="course">
@@ -340,10 +361,10 @@ EDUCATION = f"""
     <div class="course">
       <code>Four mandatory courses</code>
       <h3>Core curriculum</h3>
-      <p>DEVE31417 — Impact assessment of social innovations (T2 Monday)<br>
-      DEVE31273 — From Linear To Circular: get the core methodology of circular economy (T2 Tuesday)<br>
-      MOPP31327 — Environmental &amp; Social Challenges in Operations (T2 Monday)<br>
-      ECOA31205 — Environmental Economics (T3 Tuesday)</p>
+      <p>DEVE31417: Impact assessment of social innovations (T2 Monday)<br>
+      DEVE31273: From Linear To Circular: get the core methodology of circular economy (T2 Tuesday)<br>
+      MOPP31327: Sustainable and circular operations management (T2 Monday)<br>
+      ECOA31205: Environmental Economics (T3 Tuesday)</p>
     </div>
     <div class="course">
       <code>DEVE31403 · T3 Tuesday</code>
@@ -369,11 +390,11 @@ TRIPS = f"""
   <div class="wrap">
     <p class="lead">Every year, the Chair organizes a study visit to meet the people and organizations pioneering the circular economy. Students learn from their journeys, complement their work in school, and apply it to Chair projects and future careers.</p>
     <article class="split" style="margin:48px 0 80px">
-      <img src="{src('trips2026', 1)}" alt="Brussels 2026 — BIGH rooftop farm">
+      <img src="{src('trips2026', 1)}" alt="Brussels 2026: BIGH rooftop farm">
       <div>
         <div class="tag kicker">Brussels, 2026</div>
         <h2>Policy, bio-based industry, construction and urban farming</h2>
-        <p>In late April and early May 2026, the Class of 2026 spent several days in Brussels. Day 1 opened at Permafungi — organic waste turned into valuable resources — then at Circular Bio-based Europe Joint Undertaking (CBE-JU), on the scale of bio-based solutions across Europe.</p>
+        <p>In late April and early May 2026, the Class of 2026 spent several days in Brussels. Day 1 opened at Permafungi (organic waste turned into valuable resources), then at Circular Bio-based Europe Joint Undertaking (CBE-JU), on the scale of bio-based solutions across Europe.</p>
         <p>Day 2 focused on circular construction: BC Materials, transforming local earth and waste streams into building materials, and ecobuild.brussels, on how to scale sustainable construction practices across Europe.</p>
         <p>Day 3 moved from advanced materials at Syensqo’s Brussels headquarters to BIGH, where urban agriculture meets circular thinking on a city rooftop.</p>
         <p>The expedition also included an exchange at the European Commission with Luis Planas Herrera, Member of Cabinet of Commissioner Jessika Roswall, on waste reduction, sustainable product design, recycling, competitiveness and international cooperation.</p>
@@ -389,7 +410,7 @@ TRIPS = f"""
       <div>
         <div class="tag kicker">Brussels, 2025</div>
         <h2>Parliament, repair, soil and bio-based industry</h2>
-        <p>In April 2025, the Class of 2025 traveled to Brussels. At the European Parliament, students explored the legislative tools shaping circular policy. Visits to Repair Together and cityfab 1 showed how community repair and digital fabrication extend product lifecycles. BC Materials transforms excavated urban soils into construction materials; CBE-JU highlighted public–private partnerships in circular bio-based industries. Permafungi and The Upcycling Lab turned waste streams — mushroom substrates, discarded textiles — into products.</p>
+        <p>In April 2025, the Class of 2025 traveled to Brussels. At the European Parliament, students explored the legislative tools shaping circular policy. Visits to Repair Together and cityfab 1 showed how community repair and digital fabrication extend product lifecycles. BC Materials transforms excavated urban soils into construction materials; CBE-JU highlighted public–private partnerships in circular bio-based industries. Permafungi and The Upcycling Lab turned waste streams (mushroom substrates, discarded textiles) into products.</p>
       </div>
     </article>
     <article class="split" style="margin-bottom:80px">
@@ -405,7 +426,7 @@ TRIPS = f"""
       <div>
         <div class="tag kicker">Netherlands, 2022</div>
         <h2>Amsterdam &amp; Rotterdam</h2>
-        <p>Circle Economy, Circl, the City of Rotterdam, Excess Materials Exchange, BlueCity and Pieter Pot — circular metrics, low-waste food, local government, data collaboration and circular grocery models. A complete trip report remains available from the original Chair archive.</p>
+        <p>Circle Economy, Circl, the City of Rotterdam, Excess Materials Exchange, BlueCity and Pieter Pot: circular metrics, low-waste food, local government, data collaboration and circular grocery models. A complete trip report remains available from the original Chair archive.</p>
       </div>
     </article>
   </div>
@@ -423,19 +444,19 @@ VISITS = f"""
     <h2 style="margin:48px 0 16px">Paris region, 2025–2026</h2>
     <p>Field visits of the Class of 2026, alongside the consulting work with L’Oréal, SNCF Réseau, Equans and AP-HP.</p>
     <div class="grid-2" style="margin-top:28px">
-      <article class="media-card"><img src="{src('visits2026', 3)}" alt="L'Oréal site visit 2026"><div class="body"><div class="tag">March 2026</div><h3>L’Oréal</h3><p>An immersion in how a global company is shifting its models toward circularity — concrete action at industrial scale, from operations to packaging.</p></div></article>
+      <article class="media-card"><img src="{src('visits2026', 3)}" alt="L'Oréal site visit 2026"><div class="body"><div class="tag">March 2026</div><h3>L’Oréal</h3><p>An immersion in how a global company is shifting its models toward circularity: concrete action at industrial scale, from operations to packaging.</p></div></article>
       <article class="media-card"><img src="{src('visits2026', 4)}" alt="Manutan Hub visit 2026"><div class="body"><div class="tag">April 2026</div><h3>Manutan Hub</h3><p>Behind the scenes of circular logistics: how sustainable and circular models are built into operations, with the Manutan teams and Pierre-Emmanuel Saint-Esprit.</p></div></article>
-      <article class="media-card"><img src="{src('visits2026', 2)}" alt="Vesto visit 2026"><div class="body"><div class="tag">April 2026</div><h3>Vesto</h3><p>Circular solutions in the food ecosystem — reconditioning professional kitchen equipment, and the operational challenges of deploying reuse at scale.</p></div></article>
-      <article class="media-card"><img src="{src('visits2026', 1)}" alt="Villette Makerz visit 2026"><div class="body"><div class="tag">May 2026</div><h3>Villette Makerz</h3><p>A fablab and making space at Parc de la Villette where innovation, fabrication and collaboration support the ecological transition — hosted with Arthur Clayssen and the team.</p></div></article>
+      <article class="media-card"><img src="{src('visits2026', 2)}" alt="Vesto visit 2026"><div class="body"><div class="tag">April 2026</div><h3>Vesto</h3><p>Circular solutions in the food ecosystem: reconditioning professional kitchen equipment, and the operational challenges of deploying reuse at scale.</p></div></article>
+      <article class="media-card"><img src="{src('visits2026', 1)}" alt="Villette Makerz visit 2026"><div class="body"><div class="tag">May 2026</div><h3>Villette Makerz</h3><p>A fablab and making space at Parc de la Villette where innovation, fabrication and collaboration support the ecological transition, hosted with Arthur Clayssen and the team.</p></div></article>
     </div>
     <h2 style="margin:64px 0 16px">Paris region, 2024–2025</h2>
-    <p>Visits of the Class of 2025 — the same ecosystem, a year earlier.</p>
+    <p>Visits of the Class of 2025, the same ecosystem, a year earlier.</p>
     <div class="grid-2" style="margin-top:28px">
-      <article class="media-card"><img src="{src('visits', 4)}" alt="L'Oréal Packaging Lab 2025"><div class="body"><div class="tag">March 2025</div><h3>L’Oréal Packaging Lab</h3><p>Eco-designed packaging — recyclable, refillable, responsible — and how circularity sits inside a global beauty strategy.</p></div></article>
+      <article class="media-card"><img src="{src('visits', 4)}" alt="L'Oréal Packaging Lab 2025"><div class="body"><div class="tag">March 2025</div><h3>L’Oréal Packaging Lab</h3><p>Eco-designed packaging (recyclable, refillable, responsible) and how circularity sits inside a global beauty strategy.</p></div></article>
       <article class="media-card"><img src="{src('visits', 5)}" alt="Manutan Reuse Center 2025"><div class="body"><div class="tag">March 2025</div><h3>Manutan Reuse Center</h3><p>Office furniture given a second life through reuse and recycling, reducing impact inside a circular B2B model.</p></div></article>
       <article class="media-card"><img src="{src('visits', 3)}" alt="Cyneo 2025"><div class="body"><div class="tag">1 April 2025</div><h3>Cyneo</h3><p>Reuse of construction materials in Vitry-sur-Seine: recycling, reuse networks, and the systemic changes required to make reuse the norm in building.</p></div></article>
-      <article class="media-card"><img src="{src('visits', 2)}" alt="Vesto 2025"><div class="body"><div class="tag">April 2025</div><h3>Vesto</h3><p>Reconditioning of professional kitchen equipment. Students followed the process from collection to refurbishment — reuse as environmental, economic and social value.</p></div></article>
-      <article class="media-card"><img src="{src('visits', 1)}" alt="Villette Makerz 2025"><div class="body"><div class="tag">2025</div><h3>Villette Makerz</h3><p>A fablab and cultural hub at Parc de la Villette dedicated to creativity, fabrication and sustainability — innovation through experimentation.</p></div></article>
+      <article class="media-card"><img src="{src('visits', 2)}" alt="Vesto 2025"><div class="body"><div class="tag">April 2025</div><h3>Vesto</h3><p>Reconditioning of professional kitchen equipment. Students followed the process from collection to refurbishment: reuse as environmental, economic and social value.</p></div></article>
+      <article class="media-card"><img src="{src('visits', 1)}" alt="Villette Makerz 2025"><div class="body"><div class="tag">2025</div><h3>Villette Makerz</h3><p>A fablab and cultural hub at Parc de la Villette dedicated to creativity, fabrication and sustainability: innovation through experimentation.</p></div></article>
     </div>
   </div>
 </section>
@@ -460,7 +481,7 @@ EVENTS = f"""
     <div class="grid-3" style="margin-bottom:72px">
       <article class="card"><div class="tag">January 2026</div><h3>Launch of the Class of 2026</h3><p>Kick-off at the ESSEC Cergy campus: first business cases, and Equans and SNCF Réseau welcomed as new partners alongside long-standing supporter L’Oréal.</p></article>
       <article class="card"><div class="tag">April–May 2026</div><h3>Brussels learning expedition</h3><p>Permafungi, CBE-JU, BC Materials, ecobuild.brussels, Syensqo, BIGH, and an exchange at the European Commission on the future of Europe’s circular transition.</p></article>
-      <article class="card"><div class="tag">March–May 2026</div><h3>Paris field visits</h3><p>L’Oréal, the Manutan Hub, Vesto and Villette Makerz — circularity in beauty, logistics, food equipment and making.</p></article>
+      <article class="card"><div class="tag">March–May 2026</div><h3>Paris field visits</h3><p>L’Oréal, the Manutan Hub, Vesto and Villette Makerz: circularity in beauty, logistics, food equipment and making.</p></article>
     </div>
     <article class="split" style="margin-bottom:72px">
       <img src="{src('events', 1)}" alt="Final Jury June 2025">
@@ -473,7 +494,7 @@ EVENTS = f"""
     <div class="grid-3">
       <article class="card"><div class="tag">15–18 April 2024</div><h3>World Circular Economy Forum</h3><p>The Chair participated in WCEF, engaging with international experts on trends, challenges and solutions driving the global circular transition.</p></article>
       <article class="card"><div class="tag">February 2024</div><h3>Launch dinner</h3><p>Students and alumni, with Guillaume Paoli (CEO of Aramis Group) and Lucie Perrin (Circul’R), strengthening the Chair’s expanding network.</p></article>
-      <article class="card"><div class="tag">7 December 2024</div><h3>Circular Science Talk</h3><p>At ESSEC La Défense, Laetitia Vasseur and Felix Papier on reuse, repair and recycling — circular practices for the future of sustainability.</p></article>
+      <article class="card"><div class="tag">7 December 2024</div><h3>Circular Science Talk</h3><p>At ESSEC La Défense, Laetitia Vasseur and Felix Papier on reuse, repair and recycling: circular practices for the future of sustainability.</p></article>
     </div>
   </div>
 </section>
@@ -481,25 +502,25 @@ EVENTS = f"""
 
 APPLY = """
 <div class="page-hero"><div class="wrap">
-  <span class="kicker">How to apply</span>
-  <h1>Enter the 2026 master class</h1>
+  <span class="kicker">Eligibility and contact</span>
+  <h1>Joining a cohort</h1>
 </div></div>
 <section>
   <div class="wrap">
-    <p class="lead">Each year, the ESSEC Global Circular Economy Chair welcomes approximately 30 students from eligible ESSEC programs. Currently eligible programs include MiM (AST and ASC), MScST, SMIB and Global BBA, with additional programs under discussion.</p>
+    <p class="lead">Students do not apply through a public form on this website. Each year the Chair welcomes about 30 students from eligible ESSEC programs. Selection is organised with the Chair team, who will point you to the right ESSEC process.</p>
     <div class="notice" style="margin:32px 0 48px">
       <div>
-        <p class="soon">September 2026 cohort</p>
-        <h3>The application link will be available soon</h3>
-        <p>Applications are not open yet. The form will be published on this page, as on the current Chair site. Write to <a href="mailto:circulareco@essec.edu">circulareco@essec.edu</a> if you wish to be notified.</p>
+        <p class="soon">Contact the Chair</p>
+        <h3>Write if you want to be considered or notified</h3>
+        <p>Eligible programs today include MiM (AST and ASC), MScST, SMIB and Global BBA, with additional programs under discussion. Email <a href="mailto:circulareco@essec.edu">circulareco@essec.edu</a>.</p>
       </div>
       <a class="btn btn-dark" href="mailto:circulareco@essec.edu">Contact the Chair</a>
     </div>
     <h2>Indicative timeline</h2>
     <div class="timeline">
-      <div class="t-item"><strong>1–25 September</strong><div><p>Students apply on this website (link forthcoming). Required: CV, cover letter, ESSEC grading report (if applicable), grading report from previous universities (if applicable).</p></div></div>
+      <div class="t-item"><strong>September</strong><div><p>Expressions of interest. Typical materials: CV, cover letter, ESSEC grading report (if applicable), grading report from previous universities (if applicable).</p></div></div>
       <div class="t-item"><strong>October</strong><div><p>Videoconferencing or face-to-face interviews for selected students.</p></div></div>
-      <div class="t-item"><strong>Mid-October</strong><div><p>Announcement of the results. (On the current site: 12 October.)</p></div></div>
+      <div class="t-item"><strong>Mid-October</strong><div><p>Announcement of the results.</p></div></div>
     </div>
   </div>
 </section>
@@ -512,7 +533,7 @@ STUDENTS = """
 </div></div>
 <section>
   <div class="wrap">
-    <p class="lead">LinkedIn profiles as published on the current Chair site. The 2026 promotion will appear in its own tab once photos and links are provided.</p>
+    <p class="lead">LinkedIn profiles as published with the Chair. The latest cohort will appear in its own tab once photos and links are provided.</p>
     <div class="tabs">
       <button type="button" class="tab" data-year="2026">Class of 2026</button>
       <button type="button" class="tab active" data-year="2025">Class of 2025</button>
@@ -520,7 +541,7 @@ STUDENTS = """
       <button type="button" class="tab" data-year="2023">Class of 2023</button>
       <button type="button" class="tab" data-year="2022">Founding class 2022</button>
     </div>
-    <p data-cohort-note hidden class="notice">Photos, names and LinkedIn of the 2026 cohort will be published here. The structure — portrait, name, LinkedIn — is already in place.</p>
+    <p data-cohort-note hidden class="notice">Photos, names and LinkedIn of the 2026 cohort will be published here. The structure (portrait, name, LinkedIn) is already in place.</p>
     <div class="students" data-students></div>
   </div>
 </section>
@@ -533,6 +554,7 @@ TESTIMONIES = f"""
 </div></div>
 <section>
   <div class="wrap">
+    <p class="lead">Alumni work as circular economy officers, in CSR and sustainability consulting, and on circular ventures. Three paths from recent classes:</p>
     <article class="person">
       <img src="{src('testimonies', 1, 900)}" alt="Léna Massaro">
       <div>
@@ -546,7 +568,7 @@ TESTIMONIES = f"""
       <div>
         <div class="role">Associate Consultant · Onepoint</div>
         <h2>Théo Lutard</h2>
-        <p>ESG and sustainability consulting, with a focus on climate for financial institutions — decarbonization and climate risk. At ESSEC he specialized in Green Finance and Energy Transition. In the Chair he worked on a circular business model for EssilorLuxottica’s Transitions brand.</p>
+        <p>ESG and sustainability consulting, with a focus on climate for financial institutions (decarbonization and climate risk). At ESSEC he specialized in Green Finance and Energy Transition. In the Chair he worked on a circular business model for EssilorLuxottica’s Transitions brand.</p>
       </div>
     </article>
     <article class="person">
@@ -554,7 +576,7 @@ TESTIMONIES = f"""
       <div>
         <div class="role">Junior Consultant · Circul’R</div>
         <h2>Lucie Perrin</h2>
-        <p>Projects in public and private sectors, primarily with CAC40 companies. After NEOMA CESEM and Northeastern University in Boston, and work at UMAï (plastic-free cosmetics), she joined ESSEC’s Master’s in Sustainable Development and the Chair — including a circular initiative with COLAS for a construction project in Montreal.</p>
+        <p>Projects in public and private sectors, primarily with CAC40 companies. After NEOMA CESEM and Northeastern University in Boston, and work at UMAï (plastic-free cosmetics), she joined ESSEC’s Master’s in Sustainable Development and the Chair, including a circular initiative with COLAS for a construction project in Montreal.</p>
       </div>
     </article>
   </div>
@@ -581,19 +603,20 @@ TEAM = f"""
     <article class="person">
       <img src="{src('team', 2, 900)}" alt="Felix Papier">
       <div>
-        <div class="role">Co-holder · Professor at ESSEC</div>
+        <div class="role">Chair-holder · Professor at ESSEC</div>
         <h2>Felix Papier</h2>
-        <p>Professor of Supply Chain Management at ESSEC since 2011. His research and teaching focus on supply chain and operations strategy and on sustainable, socially responsible operations. He has published on remanufacturing, humanitarian operations and forced labor in supply chains.</p>
-        <p>At ESSEC he was Academic Director of the ESSEC &amp; Mannheim Executive MBA (2015–2017) and Dean of the Grande Ecole and Pre-Experience Programs (2017–2022). Visiting Scholar at UCLA Anderson in 2022/23. Previously consultant at McKinsey &amp; Company in Cologne.</p>
+        <p>Professor of Operations and Supply Chain Management at ESSEC, and chair-holder of the Global Circular Economy Chair. His research and teaching focus on supply chain and operations strategy, circular economy, supply chain due diligence, and sustainable and humanitarian operations. He has published on remanufacturing, circular business models, humanitarian operations and forced labor in supply chains.</p>
+        <p>At ESSEC he was Academic Director of the ESSEC &amp; Mannheim Executive MBA (2015-2017) and Dean of the Grande Ecole and Pre-Experience Programs (2017-2022). Visiting Scholar at UCLA Anderson in 2022/23. Previously consultant at McKinsey &amp; Company in Cologne.</p>
       </div>
     </article>
     <article class="person">
       <img src="{src('team', 3, 900)}" alt="Justine Laurent">
       <div>
-        <div class="role">Pedagogical Officer · Managing Director, Circulab</div>
+        <div class="role">Educational Director · Managing Director, Circulab</div>
         <h2>Justine Laurent</h2>
-        <p>Change maker in circular design, with experience in circular economy and business design applied to training, facilitation, mentoring and consulting. Managing Director of Circulab, a strategy and design studio dedicated to the circular and regenerative economy — a B Corp operating in 19 countries through certified experts since 2012.</p>
-        <p>She co-created the Circulab Toolbox and Circulab Academy. She works with the City of Paris on phasing out single-use plastics, with food companies on circular offers, and with entrepreneurs on European projects. She trains UNESCO, GIZ Kosovo and companies such as Salomon and Orange. In 2022 she was included in the top 50 CSR personalities of the Cercle de Giverny.</p>
+        <p>Since 2016, Justine Laurent has dedicated her career to the circular economy, becoming a recognized voice in the field as a trainer, speaker, and consultant. She is Managing Director of Circulab, the first design-strategy agency dedicated to the circular economy, and now an emblematic training organization in the space, active in +10 countries through its community of certified experts.</p>
+        <p>As Educational Director of the ESSEC Global Circular Economy Chair, Justine also teaches widely across leading institutions and trains executives and consultants on the topic.</p>
+        <p>For the Chair, Justine builds programs grounded in the concrete, drawing on real-world examples and close ties to the field so that every concept connects to lived practice. She invites a diverse range of experts and practitioners to share the floor, each speaking from genuine mastery of their subject, so students hear directly from those shaping the field. She brings a critical and systemic lens to the circular economy, encouraging learners to question established models and grasp the subject as a web of interconnected challenges.</p>
       </div>
     </article>
   </div>
@@ -616,9 +639,43 @@ PARTNERS = f"""
       <div class="logo-box"><img src="{src('partners', 4, 800)}" alt="France 2030"></div>
     </div>
     <h2>Expert Partners</h2>
-    <div class="logo-row" style="grid-template-columns:repeat(2,minmax(0,1fr));max-width:640px;margin-top:20px">
+    <div class="logo-row" style="grid-template-columns:repeat(2,minmax(0,1fr));max-width:640px;margin:20px 0 56px">
       <div class="logo-box"><img src="{src('partners', 5, 800)}" alt="Zack, a Manutan brand"></div>
       <a class="logo-box" href="https://circulab.com/" target="_blank" rel="noopener"><img src="{src('partners', 6, 800)}" alt="Circulab"></a>
+    </div>
+    <h2>The wider ecosystem</h2>
+    <p class="lead">Beyond sponsors, the Chair is connected to the organisations that open their doors for site visits and the learning expedition, and to the practitioners who join juries, classes and cocktail conversations.</p>
+    <h3 style="margin-top:28px">Visits and learning expedition</h3>
+    <div class="pill-list">
+      <span class="pill">Permafungi</span>
+      <span class="pill">CBE-JU</span>
+      <span class="pill">BC Materials</span>
+      <span class="pill">ecobuild.brussels</span>
+      <span class="pill">Syensqo</span>
+      <span class="pill">BIGH</span>
+      <span class="pill">European Commission</span>
+      <span class="pill">European Parliament</span>
+      <span class="pill">Repair Together</span>
+      <span class="pill">cityfab 1</span>
+      <span class="pill">Circularium</span>
+      <span class="pill">R-Use Fabrik</span>
+      <span class="pill">The Upcycling Lab</span>
+      <span class="pill">L’Oréal</span>
+      <span class="pill">Manutan Hub</span>
+      <span class="pill">Vesto</span>
+      <span class="pill">Villette Makerz</span>
+      <span class="pill">Cyneo</span>
+      <span class="pill">AP-HP</span>
+    </div>
+    <h3 style="margin-top:32px">Juries, talks and cocktails</h3>
+    <div class="pill-list">
+      <span class="pill">EssilorLuxottica</span>
+      <span class="pill">Bouygues</span>
+      <span class="pill">GEODIS</span>
+      <span class="pill">INEC</span>
+      <span class="pill">Circul’R</span>
+      <span class="pill">Aramis Group</span>
+      <span class="pill">TOGETHER Institute</span>
     </div>
   </div>
 </section>
@@ -631,15 +688,15 @@ CONTENT = f"""
 </div></div>
 <section>
   <div class="wrap">
-    <p class="lead">The Chair is a reference in Circular Economy training and innovation. It produces, annually, MOOCs and e-books to share its initiatives, and research dedicated to the circular economy.</p>
+    <p class="lead">The Chair is a reference in circular economy training and innovation. It produces MOOCs, e-books and academic research on circular operations, due diligence and new business models. The research agenda below reflects the chair-holder’s current work; further notes from Felix Papier will be added as they arrive.</p>
     <h2>Research axes</h2>
     <div class="grid-2" style="margin:24px 0 48px">
-      <article class="card"><h3>New economic models</h3><p>Including the functionality economy and other circular business models.</p></article>
-      <article class="card"><h3>Regulation and sustainability</h3><p>The influence of regulation on sustainability transitions.</p></article>
-      <article class="card"><h3>Skills observatory</h3><p>Circular economy competencies and skills.</p></article>
-      <article class="card"><h3>Circular economy and data</h3><p>Links between available data and circular transformation.</p></article>
+      <article class="card"><h3>Circular operations</h3><p>Remanufacturing, circular supply chains, and circular business models (including buildings as material banks).</p></article>
+      <article class="card"><h3>Due diligence and labour</h3><p>Supply chain due diligence, forced labour, and the regulation of sustainable supply chains.</p></article>
+      <article class="card"><h3>Barriers to circularity</h3><p>Why circular practices stall in organisations, and how incentives and collaboration can unlock them.</p></article>
+      <article class="card"><h3>New loops</h3><p>Applied circular topics such as electric-vehicle batteries, hair-waste recycling, and OEM-recycler alliances.</p></article>
     </div>
-    <p>The Chair is linked to ESSEC’s global strategy through the transition plan “Together.” This 360-degree environmental and social plan aims at transforming training programs, research, and life on campuses — through innovation, experimentation, and new business and economic models.</p>
+    <p>The Chair is linked to ESSEC’s global strategy through the transition plan “Together.” This 360-degree environmental and social plan aims at transforming training programs, research, and life on campuses: through innovation, experimentation, and new business and economic models.</p>
     <p><a href="publications.html">Publications →</a> &nbsp; <a href="circular-cac-40.html">Towards a circular CAC 40 →</a></p>
   </div>
 </section>
@@ -687,7 +744,7 @@ PAGES = {
     "study-trips.html": ("Study Trips", TRIPS, ""),
     "site-visits.html": ("Site Visits", VISITS, ""),
     "events.html": ("Events", EVENTS, ""),
-    "apply.html": ("How to Apply", APPLY, ""),
+    "apply.html": ("Eligibility", APPLY, ""),
     "students.html": ("Students", STUDENTS, ""),
     "testimonies.html": ("Testimonies", TESTIMONIES, ""),
     "team.html": ("Our Team", TEAM, "team"),

@@ -367,6 +367,22 @@ section { padding: 88px 0; }
   overflow: hidden;
 }
 .feature img { width: 100%; height: 100%; min-height: 360px; object-fit: cover; }
+.feature.certificate {
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
+  align-items: stretch;
+}
+.pdf-panel {
+  background: var(--navy);
+  color: var(--white);
+  padding: 48px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+}
+.pdf-panel .soon { color: var(--blue); }
+.pdf-panel p { color: rgba(255,255,255,.82); }
+.pdf-panel .btn { align-self: flex-start; }
 .feature .body { padding: 48px 44px; }
 
 .stat-row {
@@ -670,6 +686,7 @@ footer a:hover { color: var(--white); }
     font-size: 13px;
   }
   .split, .feature, .person, .t-item, .foot-grid { grid-template-columns: 1fr; }
+  .pdf-panel { padding: 28px 22px; }
   .split img, .person img, .feature img { height: 280px; min-height: 0; }
   .grid-3, .students, .logo-row { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .placeholder-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
