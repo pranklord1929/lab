@@ -222,7 +222,7 @@ p { margin: 0 0 16px; color: var(--muted); }
   height: 100%;
   object-fit: cover;
 }
-.hero-media img { object-position: center 42%; }
+.hero-media img { object-position: center 36%; }
 .hero-media { background: var(--navy); }
 .hero-media::after {
   content: "";
