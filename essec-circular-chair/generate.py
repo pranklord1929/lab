@@ -249,12 +249,8 @@ INDEX = f"""
         <span class="pill">MSc in Sustainability Transformation</span>
         <span class="pill">SMIB</span>
         <span class="pill">Global BBA</span>
-      </div>
-      <p style="margin-top:18px">Additional programs currently under discussion:</p>
-      <div class="pill-list">
-        <span class="pill ghost">GAISC</span>
-        <span class="pill ghost">IMHI</span>
-        <span class="pill ghost">MMD</span>
+        <span class="pill">IMHI</span>
+        <span class="pill">MMD</span>
       </div>
       <div class="hero-actions">
         <a class="btn btn-gold" href="education.html">See the curriculum</a>
@@ -508,11 +504,20 @@ APPLY = """
 <section>
   <div class="wrap">
     <p class="lead">Students do not apply through a public form on this website. Each year the Chair welcomes about 30 students from eligible ESSEC programs. Selection is organised with the Chair team, who will point you to the right ESSEC process.</p>
+    <p>Currently eligible:</p>
+    <div class="pill-list" style="margin:12px 0 28px">
+      <span class="pill">Master in Management (MiM)</span>
+      <span class="pill">MSc in Sustainability Transformation</span>
+      <span class="pill">SMIB</span>
+      <span class="pill">Global BBA</span>
+      <span class="pill">IMHI</span>
+      <span class="pill">MMD</span>
+    </div>
     <div class="notice" style="margin:32px 0 48px">
       <div>
         <p class="soon">Contact the Chair</p>
         <h3>Write if you want to be considered or notified</h3>
-        <p>Eligible programs today include MiM (AST and ASC), MScST, SMIB and Global BBA, with additional programs under discussion. Email <a href="mailto:circulareco@essec.edu">circulareco@essec.edu</a>.</p>
+        <p>Eligible programs today include MiM (AST and ASC), MScST, SMIB, Global BBA, IMHI and MMD. Email <a href="mailto:circulareco@essec.edu">circulareco@essec.edu</a>.</p>
       </div>
       <a class="btn btn-dark" href="mailto:circulareco@essec.edu">Contact the Chair</a>
     </div>
